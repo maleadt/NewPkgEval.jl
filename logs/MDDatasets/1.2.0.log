@@ -1,0 +1,114 @@
+ Resolving package versions...
+ Installed MDDatasets ─ v0.3.1
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [176e4ad4] + MDDatasets v0.3.1
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [176e4ad4] + MDDatasets v0.3.1
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+   Testing MDDatasets
+ Resolving package versions...
+    Status `/tmp/jl_4KUojm/Manifest.toml`
+  [176e4ad4] MDDatasets v0.3.1
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+:HACK_SHOWTOUNFREEZE
+
+List of available physics constants:
+TODO: move to separate unit
+---------------------------------------------------------------------
+DECIBELS_PER_NEPERS: 8.685889638065035
+kB: 1.3806488e-23
+h: 6.62607004e-34
+ħ: 1.0545718001391127e-34
+c: 299792458
+μ0: 1.2566370614359173e-6
+ε0: 8.854187817620389e-12
+Z0: 376.73031346177066
+q: 1.602176565e-19
+me: 9.10938291e-31
+mp: 1.672621777e-27
+
+Test Summary:              | Pass  Total
+Basic operations on DataF1 |    9      9
+Test Summary:            | Pass  Total
+Functionnality of clip() |   14     14
+Test Summary:                | Pass  Total
+Functionnality of x/ycross() |   21     21
+
+signal (15): Terminated
+in expression starting at none:10
+epoll_pwait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv__io_poll at /workspace/srcdir/libuv/src/unix/linux-core.c:261
+uv_run at /workspace/srcdir/libuv/src/unix/core.c:361
+jl_run_once at /buildworker/worker/package_linux64/build/src/jl_uv.c:202
+jl_task_get_next at /buildworker/worker/package_linux64/build/src/partr.c:285
+poptaskref at ./task.jl:564
+wait at ./task.jl:591
+wait at ./condition.jl:104
+stream_wait at ./stream.jl:47
+wait at ./process.jl:956 [inlined]
+success at ./process.jl:771 [inlined]
+#run#536 at ./process.jl:728
+run at ./process.jl:726 [inlined]
+#40 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:600
+#41 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:611
+#32 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:568 [inlined]
+withenv at ./env.jl:161
+#30 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:567
+#mktempdir#15 at ./file.jl:584
+mktempdir at ./file.jl:582 [inlined]
+mktempdir at ./file.jl:582 [inlined]
+#with_dependencies_loadable_at_toplevel#27 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:516
+#with_dependencies_loadable_at_toplevel at ./none:0 [inlined]
+backwards_compatibility_for_test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:606
+#test#119 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/Operations.jl:1263
+#test at ./none:0 [inlined]
+#test#62 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:245
+test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:233 [inlined]
+#test#61 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:230 [inlined]
+test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:230 [inlined]
+#test#60 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:229 [inlined]
+test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:229 [inlined]
+#test#59 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:228
+test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:228
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2197
+do_call at /buildworker/worker/package_linux64/build/src/interpreter.c:323
+eval_value at /buildworker/worker/package_linux64/build/src/interpreter.c:411
+eval_stmt_value at /buildworker/worker/package_linux64/build/src/interpreter.c:362 [inlined]
+eval_body at /buildworker/worker/package_linux64/build/src/interpreter.c:772
+jl_interpret_toplevel_thunk_callback at /buildworker/worker/package_linux64/build/src/interpreter.c:884
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fd68e468d0f)
+unknown function (ip: (nil))
+jl_interpret_toplevel_thunk at /buildworker/worker/package_linux64/build/src/interpreter.c:893
+jl_toplevel_eval_flex at /buildworker/worker/package_linux64/build/src/toplevel.c:815
+jl_toplevel_eval_flex at /buildworker/worker/package_linux64/build/src/toplevel.c:764
+jl_toplevel_eval_in at /buildworker/worker/package_linux64/build/src/toplevel.c:844
+eval at ./boot.jl:330
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2191
+exec_options at ./client.jl:271
+_start at ./client.jl:464
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2191
+jl_apply at /buildworker/worker/package_linux64/build/ui/../src/julia.h:1614 [inlined]
+true_main at /buildworker/worker/package_linux64/build/ui/repl.c:96
+main at /buildworker/worker/package_linux64/build/ui/repl.c:217
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+_start at /opt/julia/bin/julia (unknown line)
+unknown function (ip: 0xffffffffffffffff)
+Allocations: 8522965 (Pool: 8521475; Big: 1490); GC: 18

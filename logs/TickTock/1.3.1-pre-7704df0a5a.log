@@ -1,0 +1,97 @@
+ Resolving package versions...
+ Installed TickTock ─ v1.0.0
+  Updating `~/.julia/environments/v1.3/Project.toml`
+  [9ff05d80] + TickTock v1.0.0
+  Updating `~/.julia/environments/v1.3/Manifest.toml`
+  [9ff05d80] + TickTock v1.0.0
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+   Testing TickTock
+    Status `/tmp/jl_XBOjGk/Manifest.toml`
+  [9ff05d80] TickTock v1.0.0
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+[ Info:  started timer at: 2019-12-02T17:18:11.422
+1         [ Info: TickTock: "TickTock alarm" alarm for 0 hours, 0 minutes, 10 seconds
+[ Info: TickTock: "TickTock alarm" alarm for 0 hours, 0 minutes, 5 seconds
+[ Info:          3.771724889s: 3 seconds, 771 milliseconds
+[ Info:  started timer at: 2019-12-02T17:18:16.154
+[ Info:  started timer at: 2019-12-02T17:18:16.206
+[ Info:  started timer at: 2019-12-02T17:18:16.253
+[ Info:          0.011000582s: 11 milliseconds
+Make 10 timers
+[ Info:  started timer at: 2019-12-02T17:18:16.285
+[ Info:  started timer at: 2019-12-02T17:18:17.287
+[ Info:  started timer at: 2019-12-02T17:18:18.29
+[ Info:  started timer at: 2019-12-02T17:18:19.292
+[ Info:  started timer at: 2019-12-02T17:18:20.294
+[ Info: TickTock alarm
+This is an alarm. Do not be alarmed.
+[ Info:          5.049942426s: 5 seconds, 49 milliseconds
+[ Info:  started timer at: 2019-12-02T17:18:21.296
+[ Info:  started timer at: 2019-12-02T17:18:22.298
+[ Info:  started timer at: 2019-12-02T17:18:23.3
+[ Info:  started timer at: 2019-12-02T17:18:24.303
+[ Info:  started timer at: 2019-12-02T17:18:25.304
+test alarm has fired
+[ Info: TickTock alarm
+[ Info:         10.103665681s: 10 seconds, 103 milliseconds
+Check that there are 10 timers
+wait a second
+Print all the timers
+10        9         [ Info:          2.038277247s: 2 seconds, 38 milliseconds
+[ Info:          3.039794198s: 3 seconds, 39 milliseconds
+[ Info:          4.042269389s: 4 seconds, 42 milliseconds
+8         7         [ Info:          5.044497961s: 5 seconds, 44 milliseconds
+[ Info:           6.04684858s: 6 seconds, 46 milliseconds
+6         5         [ Info:          7.048140908s: 7 seconds, 48 milliseconds
+4         [ Info:          8.050528115s: 8 seconds, 50 milliseconds
+[ Info:          9.052868885s: 9 seconds, 52 milliseconds
+[ Info:         10.055433675s: 10 seconds, 55 milliseconds
+3         2         1         [ Info:         11.057763937s: 11 seconds, 57 milliseconds
+Check that the most recent timer is more than 1 second
+  2.05474942
+Finish 10 timers and show canonical
+[ Info:          2.199063864s: 2 seconds, 199 milliseconds
+[ Info:          3.200844872s: 3 seconds, 200 milliseconds
+[ Info:          4.203400094s: 4 seconds, 203 milliseconds
+[ Info:           5.20569785s: 5 seconds, 205 milliseconds
+[ Info:          6.208115009s: 6 seconds, 208 milliseconds
+[ Info:          7.209472848s: 7 seconds, 209 milliseconds
+[ Info:          8.211920411s: 8 seconds, 211 milliseconds
+[ Info:          9.214411547s: 9 seconds, 214 milliseconds
+[ Info:         10.217050815s: 10 seconds, 217 milliseconds
+[ Info:         11.219455484s: 11 seconds, 219 milliseconds
+   Testing TickTock tests passed 

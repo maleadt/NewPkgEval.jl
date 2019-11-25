@@ -1,0 +1,228 @@
+ Resolving package versions...
+ Installed Retry ────────────── v0.4.0
+ Installed CMake ────────────── v1.1.2
+ Installed Compat ───────────── v2.2.0
+ Installed MbedTLS ──────────── v0.7.0
+ Installed AWSCore ──────────── v0.6.5
+ Installed BigArrays ────────── v1.3.0
+ Installed LazyJSON ─────────── v0.1.1
+ Installed DataStructures ───── v0.17.6
+ Installed BinDeps ──────────── v0.8.10
+ Installed IterTools ────────── v1.3.0
+ Installed AWSS3 ────────────── v0.6.5
+ Installed HTTP ─────────────── v0.8.8
+ Installed OffsetArrays ─────── v0.11.2
+ Installed BufferedStreams ──── v1.0.0
+ Installed CMakeWrapper ─────── v0.2.3
+ Installed URIParser ────────── v0.4.0
+ Installed Mocking ──────────── v0.7.0
+ Installed BinaryProvider ───── v0.5.8
+ Installed CodecZlib ────────── v0.6.0
+ Installed Libz ─────────────── v1.0.0
+ Installed FilePathsBase ────── v0.7.0
+ Installed TranscodingStreams ─ v0.9.5
+ Installed IniFile ──────────── v0.5.0
+ Installed Parameters ───────── v0.12.0
+ Installed CodecZstd ────────── v0.6.1
+ Installed EzXML ────────────── v0.9.5
+ Installed MsgPack ──────────── v0.2.0
+ Installed XMLDict ──────────── v0.3.0
+ Installed Parsers ──────────── v0.3.10
+ Installed JSON ─────────────── v0.21.0
+ Installed OrderedCollections ─ v1.1.0
+ Installed GoogleCloud ──────── v0.8.0
+ Installed SymDict ──────────── v0.3.0
+ Installed Blosc ────────────── v0.5.1
+  Updating `~/.julia/environments/v1.3/Project.toml`
+  [c2a8506f] + BigArrays v1.3.0
+  Updating `~/.julia/environments/v1.3/Manifest.toml`
+  [4f1ea46c] + AWSCore v0.6.5
+  [1c724243] + AWSS3 v0.6.5
+  [c2a8506f] + BigArrays v1.3.0
+  [9e28174c] + BinDeps v0.8.10
+  [b99e7846] + BinaryProvider v0.5.8
+  [a74b3585] + Blosc v0.5.1
+  [e1450e63] + BufferedStreams v1.0.0
+  [631607c0] + CMake v1.1.2
+  [d5fb7624] + CMakeWrapper v0.2.3
+  [944b1d66] + CodecZlib v0.6.0
+  [6b39b394] + CodecZstd v0.6.1
+  [34da2185] + Compat v2.2.0
+  [864edb3b] + DataStructures v0.17.6
+  [8f5d6c58] + EzXML v0.9.5
+  [48062228] + FilePathsBase v0.7.0
+  [55e21f81] + GoogleCloud v0.8.0
+  [cd3eb016] + HTTP v0.8.8
+  [83e8ac13] + IniFile v0.5.0
+  [c8e1da08] + IterTools v1.3.0
+  [682c06a0] + JSON v0.21.0
+  [fc18253b] + LazyJSON v0.1.1
+  [2ec943e9] + Libz v1.0.0
+  [739be429] + MbedTLS v0.7.0
+  [78c3b35d] + Mocking v0.7.0
+  [99f44e22] + MsgPack v0.2.0
+  [6fe1bfb0] + OffsetArrays v0.11.2
+  [bac558e1] + OrderedCollections v1.1.0
+  [d96e819e] + Parameters v0.12.0
+  [69de0a69] + Parsers v0.3.10
+  [20febd7b] + Retry v0.4.0
+  [2da68c74] + SymDict v0.3.0
+  [3bb67fe8] + TranscodingStreams v0.9.5
+  [30578b45] + URIParser v0.4.0
+  [228000da] + XMLDict v0.3.0
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building CMake ────→ `~/.julia/packages/CMake/nSK2r/deps/build.log`
+  Building MbedTLS ──→ `~/.julia/packages/MbedTLS/a1JFn/deps/build.log`
+  Building Blosc ────→ `~/.julia/packages/Blosc/lzFr0/deps/build.log`
+  Building CodecZlib → `~/.julia/packages/CodecZlib/5t9zO/deps/build.log`
+  Building EzXML ────→ `~/.julia/packages/EzXML/QtGgF/deps/build.log`
+  Building CodecZstd → `~/.julia/packages/CodecZstd/zTSNC/deps/build.log`
+   Testing BigArrays
+ Resolving package versions...
+    Status `/tmp/jl_Ls9lMi/Manifest.toml`
+  [4f1ea46c] AWSCore v0.6.5
+  [1c724243] AWSS3 v0.6.5
+  [c2a8506f] BigArrays v1.3.0
+  [9e28174c] BinDeps v0.8.10
+  [b99e7846] BinaryProvider v0.5.8
+  [a74b3585] Blosc v0.5.1
+  [e1450e63] BufferedStreams v1.0.0
+  [631607c0] CMake v1.1.2
+  [d5fb7624] CMakeWrapper v0.2.3
+  [944b1d66] CodecZlib v0.6.0
+  [6b39b394] CodecZstd v0.6.1
+  [34da2185] Compat v2.2.0
+  [864edb3b] DataStructures v0.17.6
+  [8f5d6c58] EzXML v0.9.5
+  [48062228] FilePathsBase v0.7.0
+  [55e21f81] GoogleCloud v0.8.0
+  [cd3eb016] HTTP v0.8.8
+  [83e8ac13] IniFile v0.5.0
+  [c8e1da08] IterTools v1.3.0
+  [682c06a0] JSON v0.21.0
+  [fc18253b] LazyJSON v0.1.1
+  [2ec943e9] Libz v1.0.0
+  [739be429] MbedTLS v0.7.0
+  [78c3b35d] Mocking v0.7.0
+  [99f44e22] MsgPack v0.2.0
+  [6fe1bfb0] OffsetArrays v0.11.2
+  [bac558e1] OrderedCollections v1.1.0
+  [d96e819e] Parameters v0.12.0
+  [69de0a69] Parsers v0.3.10
+  [20febd7b] Retry v0.4.0
+  [2da68c74] SymDict v0.3.0
+  [3bb67fe8] TranscodingStreams v0.9.5
+  [30578b45] URIParser v0.4.0
+  [228000da] XMLDict v0.3.0
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+┌ Warning: did not find AWS credential! set it in environment variables.
+└ @ BigArrays.S3Dicts ~/.julia/packages/BigArrays/aB3lD/src/backends/S3Dicts.jl:23
+Test Summary:             | Pass  Total
+test index transformation |    2      2
+layerDir = "/tmp/jl_gMG32e"
+path = "/tmp/jl_zZXuzi"
+Test Summary:              |
+test bigarray construction | No tests
+path = "/tmp/jl_gMG32e"
+a = UInt8[0x1c, 0xe4, 0x86, 0x47, 0x4c, 0x91, 0xa1, 0xda, 0xc2, 0xf2, 0xe7, 0xfd, 0x0e, 0xfb, 0x60, 0x4f, 0x24, 0xed, 0x93, 0x45]
+b = UInt8[0x1c, 0xe4, 0x86, 0x47, 0x4c, 0x91, 0xa1, 0xda, 0xc2, 0xf2, 0xe7, 0xfd, 0x0e, 0xfb, 0x60, 0x4f, 0x24, 0xed, 0x93, 0x45]
+Test Summary: | Pass  Total
+
+test BinDict |    3      3
+path = "/tmp/jl_gMG32e"
+info: Info{UInt8}("", 1, BigArrays.Infos.InfoScales.InfoScale[Symbol("6_6_30"), Symbol("12_12_30")], "", :image)
+cutout speed: 0.6325608315960972 MB/s
+Test Summary:       | Pass  Total
+
+test file protocol |    1      1
+path = "/tmp/jl_gMG32e"
+saving speed: 0.19964052228456136 MB/s
+cutout speed: 0.5433483297472343 MB/s
+Test Summary:                                | Pass  Total
+
+test IO of BigArray with backend of BinDict |    1      1
+path = "/tmp/jl_gMG32e"
+saving speed: 6.442465641122774 MB/s
+cutout speed: 25.24504855845645 MB/s
+Test Summary:             | Pass  Total
+
+test negative coordinate |    1      1
+path = "/tmp/jl_gMG32e"
+saving speed: 26.45065300049595 MB/s
+cutout speed: 84.84462827447237 MB/s
+Test Summary:                                 | Pass  Total
+
+test aligned IO crossing the volume boundary |    1      1
+path = "/tmp/jl_gMG32e"
+saving speed: 21.318897637795274 MB/s
+cutout speed: 65.14938840986565 MB/s
+Test Summary:                                    | Pass  Total
+
+test nonaligned IO crossing the volume boundary |    1      1
+path = "/tmp/jl_gMG32e"
+saving speed: 1.462510820294897 MB/s
+cutout speed: 32.24831200241862 MB/s
+Test Summary:                                                     | Pass  Total
+test IO of BigArray with backend of BinDict with zstd compression |    1      1
+path = "/tmp/jl_gMG32e"
+saving speed: 6.055078507877279 MB/s
+cutout speed: 32.904884318766065 MB/s
+Test Summary:                                                        | Pass  Total
+test IO of BigArray with backend of BinDict with blosclz compression |    1      1
+path = "/tmp/jl_gMG32e"
+saving speed: 23.885231462821146 MB/s
+cutout speed: 31.48490692274391 MB/s
+Test Summary:                            | Pass  Total
+test dataset not aligned starting from 0 |    1      1
+path = "/tmp/jl_gMG32e"
+saving speed: 24.606299212598426 MB/s
+cutout speed: 10.852019153813806 MB/s
+Test Summary:                                                     | Pass  Total
+test dataset not aligned starting from 0 and negative coordinates |    1      1
+   Testing BigArrays tests passed 

@@ -1,0 +1,237 @@
+ Resolving package versions...
+ Installed Compat ───────────── v3.0.0
+ Installed CSTParser ────────── v1.1.0
+ Installed Tokenize ─────────── v0.5.7
+ Installed OrderedCollections ─ v1.1.0
+ Installed DataStructures ───── v0.17.6
+ Installed ResumableFunctions ─ v0.5.1
+ Installed MacroTools ───────── v0.5.1
+ Installed SimJulia ─────────── v0.8.0
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [428bdadb] + SimJulia v0.8.0
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [00ebfdb7] + CSTParser v1.1.0
+  [34da2185] + Compat v3.0.0
+  [864edb3b] + DataStructures v0.17.6
+  [1914dd2f] + MacroTools v0.5.1
+  [bac558e1] + OrderedCollections v1.1.0
+  [c5292f4c] + ResumableFunctions v0.5.1
+  [428bdadb] + SimJulia v0.8.0
+  [0796e94c] + Tokenize v0.5.7
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+   Testing SimJulia
+ Resolving package versions...
+    Status `/tmp/jl_Op4BpV/Manifest.toml`
+  [00ebfdb7] CSTParser v1.1.0
+  [34da2185] Compat v3.0.0
+  [864edb3b] DataStructures v0.17.6
+  [1914dd2f] MacroTools v0.5.1
+  [bac558e1] OrderedCollections v1.1.0
+  [c5292f4c] ResumableFunctions v0.5.1
+  [428bdadb] SimJulia v0.8.0
+  [0796e94c] Tokenize v0.5.7
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+WARNING: Compat.Markdown is deprecated, use Markdown instead.
+  likely near /root/.julia/packages/MacroTools/ys44U/src/MacroTools.jl:4
+WARNING: Compat.Random is deprecated, use Random instead.
+  likely near /root/.julia/packages/MacroTools/ys44U/src/MacroTools.jl:35
+Event
+idle
+nothing
+scheduled
+Hi
+I am a callback function running in Simulation
+SimJulia.EventProcessed(Event 1) has been thrown!
+processed
+Hi
+SimJulia.EventNotIdle(Event 2) has been thrown!
+Hi Event 1 has value Succes
+Hi Event 2 has value TestException()
+Hi SimJulia.Timeout 3 timed out at 1.0
+One of both events is triggered: Dict{AbstractEvent,SimJulia.StateValue}(Event 2 => SimJulia.StateValue(SimJulia.idle, nothing),SimJulia.Timeout 1 => SimJulia.StateValue(SimJulia.processed, nothing))
+Both events are triggered: Dict{AbstractEvent,SimJulia.StateValue}(Event 2 => SimJulia.StateValue(SimJulia.processed, nothing),SimJulia.Timeout 1 => SimJulia.StateValue(SimJulia.processed, nothing))
+One of both events is triggered: TestException()
+Both events are triggered: TestException()
+One of both events is triggered: TestException()
+One of both events is triggered: Dict{AbstractEvent,SimJulia.StateValue}(SimJulia.Timeout 2 => SimJulia.StateValue(SimJulia.processed, nothing),SimJulia.Timeout 1 => SimJulia.StateValue(SimJulia.processed, nothing))
+Hi I timed out at 1.0
+SimJulia.EmptySchedule() has been thrown!
+Hi I timed out at 4.0
+2.0
+TestException() has been thrown after 0.0!
+Simulation time: 0.0 active_process: nothing
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+TestException() has been thrown
+TestException() has been thrown
+Process 1 interrupted
+TestException() has been thrown
+Container{Int64}
+0.0, client 1 is waiting
+0.0, client 1 is being served
+0.08502727374154917, client 2 is waiting
+0.11450176134702561, client 1 has been served
+0.11450176134702561, client 2 is being served
+0.5623070417304724, client 3 is waiting
+0.6840094910786889, client 2 has been served
+0.6840094910786889, client 3 is being served
+0.7626204164601871, client 4 is waiting
+0.9933753746210074, client 3 has been served
+0.9933753746210074, client 4 is being served
+1.0848781407934376, client 5 is waiting
+1.1322821829457164, client 6 is waiting
+1.2407703562475674, client 4 has been served
+1.2407703562475674, client 6 is being served
+1.3358836195776003, client 7 is waiting
+1.4617441085794805, client 8 is waiting
+1.6779749925908614, client 9 is waiting
+2.0000774689408436, client 10 is waiting
+2.108603469968865, client 6 has been served
+2.108603469968865, client 10 is being served
+2.9434308083854988, client 10 has been served
+2.9434308083854988, client 9 is being served
+3.8004486527322134, client 9 has been served
+3.8004486527322134, client 8 is being served
+4.553999746311875, client 8 has been served
+4.553999746311875, client 7 is being served
+5.480966260959422, client 7 has been served
+5.480966260959422, client 5 is being served
+5.819177158310679, client 5 has been served
+0.0, consumer is demanding 1.1531779570114498
+0.0, producer is offering 1.114108517960875
+0.39238334941237407, producer is being served, level is 6.114108517960875
+0.8181282243289019, consumer is being served, level is 4.960930560949425
+3.547688039163571, consumer is demanding 2.800003619516996
+4.413026049783092, consumer is being served, level is 2.160926941432429
+4.815998862520723, producer is offering 0.009154403998651528
+5.4811158225552274, producer is being served, level is 2.1700813454310803
+6.549754458636179, consumer is demanding 0.05680703687412181
+6.604543141958643, consumer is being served, level is 2.1132743085569583
+8.161823087879856, producer is offering 0.5862767248552907
+8.947304125198084, producer is being served, level is 2.699551033412249
+10.91258893405136, consumer is demanding 2.65310122945443
+11.640555689234017, consumer is being served, level is 0.04644980395781895
+13.32798272236862, producer is offering 0.5660036633976424
+13.974050102543393, producer is being served, level is 0.6124534673554614
+15.096017668887356, consumer is demanding 2.971865434844526
+16.2098844870289, consumer has timed out
+16.2098844870289, consumer is demanding 1.528461774179017
+17.059981054127586, consumer has timed out
+17.059981054127586, consumer is demanding 1.4565026749750183
+17.663126305821155, producer is offering 0.0752634652544848
+17.902371423597, consumer has timed out
+17.902371423597, consumer is demanding 1.7291259102840377
+17.956973040967213, producer is being served, level is 0.6877169326099462
+18.61139380205855, consumer has timed out
+18.61139380205855, consumer is demanding 2.490854760604056
+20.432172290119652, consumer has timed out
+20.432172290119652, consumer is demanding 1.204598981610416
+21.457254148557997, consumer has timed out
+21.75563570846081, producer is offering 1.4020917873716217
+22.534997140438225, producer is being served, level is 2.089808719981568
+23.13576183149769, producer is offering 1.3828614362567015
+23.340653404107407, producer is being served, level is 3.4726701562382694
+25.404348707835823, producer is offering 1.4445536766907567
+25.646082907943672, producer is being served, level is 4.917223832929026
+29.714029408569854, producer is offering 1.310763828282664
+30.690008813790946, producer is being served, level is 6.2279876612116905
+34.32707749001854, producer is offering 0.7101348128566474
+35.16134735896491, producer is being served, level is 6.938122474068338
+0.0, producer is offering object 1
+0.0, producer is being served
+0.8887560512535235, consumer is demanding object
+0.8887560512535235, consumer is being served with object 1
+1.0564603723912858, producer is offering object 2
+1.0564603723912858, producer is being served
+1.6951314378891926, consumer is demanding object
+1.6951314378891926, consumer is being served with object 2
+2.3667634073749575, consumer is demanding object
+2.905205715750561, producer is offering object 3
+2.905205715750561, producer is being served
+2.905205715750561, consumer is being served with object 3
+2.9654417071112933, consumer is demanding object
+3.4067610226264167, producer is offering object 4
+3.4067610226264167, producer is being served
+3.4067610226264167, consumer is being served with object 4
+3.461795576223893, producer is offering object 5
+3.461795576223893, producer is being served
+4.123405792772241, producer is offering object 6
+4.123405792772241, producer is being served
+4.353526618047281, consumer is demanding object
+4.353526618047281, consumer is being served with object 5
+4.452455078349475, producer is offering object 7
+4.452455078349475, producer is being served
+4.926791332733047, producer is offering object 8
+4.926791332733047, producer is being served
+5.021276155452993, consumer is demanding object
+5.021276155452993, consumer is being served with object 7
+5.334132127884754, consumer is demanding object
+5.334132127884754, consumer is being served with object 6
+5.87093546125584, consumer is demanding object
+5.87093546125584, consumer is being served with object 8
+5.913932183615623, consumer is demanding object
+6.321369237416304, producer is offering object 9
+6.321369237416304, producer is being served
+6.321369237416304, consumer is being served with object 9
+6.9232948337424265, consumer is demanding object
+7.997608488002885, producer is offering object 10
+7.997608488002885, producer is being served
+7.997608488002885, consumer is being served with object 10
+2019-12-02T17:49:25.514
+2019-12-04T17:49:25.514
+2020-03-02T17:49:25.514
+   Testing SimJulia tests passed 

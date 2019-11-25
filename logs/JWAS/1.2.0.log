@@ -1,0 +1,3372 @@
+ Resolving package versions...
+ Installed Missings ──────────────────── v0.4.3
+ Installed DataAPI ───────────────────── v1.1.0
+ Installed PDMats ────────────────────── v0.9.10
+ Installed TableTraits ───────────────── v1.0.0
+ Installed BinaryProvider ────────────── v0.5.8
+ Installed CSV ───────────────────────── v0.5.18
+ Installed DataFrames ────────────────── v0.19.4
+ Installed JWAS ──────────────────────── v0.6.2
+ Installed ArrayLayouts ──────────────── v0.1.5
+ Installed URIParser ─────────────────── v0.4.0
+ Installed PooledArrays ──────────────── v0.5.2
+ Installed StatsBase ─────────────────── v0.32.0
+ Installed InvertedIndices ───────────── v1.0.0
+ Installed StatsFuns ─────────────────── v0.9.0
+ Installed DataValueInterfaces ───────── v1.0.0
+ Installed Reexport ──────────────────── v0.2.0
+ Installed Rmath ─────────────────────── v0.5.1
+ Installed Compat ────────────────────── v2.2.0
+ Installed OrderedCollections ────────── v1.1.0
+ Installed Tables ────────────────────── v0.2.11
+ Installed FillArrays ────────────────── v0.8.2
+ Installed WeakRefStrings ────────────── v0.6.1
+ Installed Parsers ───────────────────── v0.3.10
+ Installed DataStructures ────────────── v0.17.6
+ Installed FilePathsBase ─────────────── v0.7.0
+ Installed Distributions ─────────────── v0.21.9
+ Installed JSON ──────────────────────── v0.21.0
+ Installed IteratorInterfaceExtensions ─ v1.0.0
+ Installed SortingAlgorithms ─────────── v0.3.1
+ Installed QuadGK ────────────────────── v2.1.1
+ Installed MacroTools ────────────────── v0.5.2
+ Installed SpecialFunctions ──────────── v0.8.0
+ Installed CategoricalArrays ─────────── v0.7.3
+ Installed StaticArrays ──────────────── v0.12.1
+ Installed LazyArrays ────────────────── v0.14.10
+ Installed Arpack ────────────────────── v0.3.1
+ Installed BinDeps ───────────────────── v0.8.10
+ Installed ProgressMeter ─────────────── v1.2.0
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [c9a035f4] + JWAS v0.6.2
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [7d9fca2a] + Arpack v0.3.1
+  [4c555306] + ArrayLayouts v0.1.5
+  [9e28174c] + BinDeps v0.8.10
+  [b99e7846] + BinaryProvider v0.5.8
+  [336ed68f] + CSV v0.5.18
+  [324d7699] + CategoricalArrays v0.7.3
+  [34da2185] + Compat v2.2.0
+  [9a962f9c] + DataAPI v1.1.0
+  [a93c6f00] + DataFrames v0.19.4
+  [864edb3b] + DataStructures v0.17.6
+  [e2d170a0] + DataValueInterfaces v1.0.0
+  [31c24e10] + Distributions v0.21.9
+  [48062228] + FilePathsBase v0.7.0
+  [1a297f60] + FillArrays v0.8.2
+  [41ab1584] + InvertedIndices v1.0.0
+  [82899510] + IteratorInterfaceExtensions v1.0.0
+  [682c06a0] + JSON v0.21.0
+  [c9a035f4] + JWAS v0.6.2
+  [5078a376] + LazyArrays v0.14.10
+  [1914dd2f] + MacroTools v0.5.2
+  [e1d29d7a] + Missings v0.4.3
+  [bac558e1] + OrderedCollections v1.1.0
+  [90014a1f] + PDMats v0.9.10
+  [69de0a69] + Parsers v0.3.10
+  [2dfb63ee] + PooledArrays v0.5.2
+  [92933f4c] + ProgressMeter v1.2.0
+  [1fd47b50] + QuadGK v2.1.1
+  [189a3867] + Reexport v0.2.0
+  [79098fc4] + Rmath v0.5.1
+  [a2af1166] + SortingAlgorithms v0.3.1
+  [276daf66] + SpecialFunctions v0.8.0
+  [90137ffa] + StaticArrays v0.12.1
+  [2913bbd2] + StatsBase v0.32.0
+  [4c63d2b9] + StatsFuns v0.9.0
+  [3783bdb8] + TableTraits v1.0.0
+  [bd369af6] + Tables v0.2.11
+  [30578b45] + URIParser v0.4.0
+  [ea10d353] + WeakRefStrings v0.6.1
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [9fa8497b] + Future 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [4607b0f0] + SuiteSparse 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building Rmath ───────────→ `~/.julia/packages/Rmath/4wt82/deps/build.log`
+  Building SpecialFunctions → `~/.julia/packages/SpecialFunctions/ne2iw/deps/build.log`
+  Building Arpack ──────────→ `~/.julia/packages/Arpack/cu5By/deps/build.log`
+   Testing JWAS
+    Status `/tmp/jl_XVrhf9/Manifest.toml`
+  [7d9fca2a] Arpack v0.3.1
+  [4c555306] ArrayLayouts v0.1.5
+  [9e28174c] BinDeps v0.8.10
+  [b99e7846] BinaryProvider v0.5.8
+  [336ed68f] CSV v0.5.18
+  [324d7699] CategoricalArrays v0.7.3
+  [34da2185] Compat v2.2.0
+  [9a962f9c] DataAPI v1.1.0
+  [a93c6f00] DataFrames v0.19.4
+  [864edb3b] DataStructures v0.17.6
+  [e2d170a0] DataValueInterfaces v1.0.0
+  [31c24e10] Distributions v0.21.9
+  [48062228] FilePathsBase v0.7.0
+  [1a297f60] FillArrays v0.8.2
+  [41ab1584] InvertedIndices v1.0.0
+  [82899510] IteratorInterfaceExtensions v1.0.0
+  [682c06a0] JSON v0.21.0
+  [c9a035f4] JWAS v0.6.2
+  [5078a376] LazyArrays v0.14.10
+  [1914dd2f] MacroTools v0.5.2
+  [e1d29d7a] Missings v0.4.3
+  [bac558e1] OrderedCollections v1.1.0
+  [90014a1f] PDMats v0.9.10
+  [69de0a69] Parsers v0.3.10
+  [2dfb63ee] PooledArrays v0.5.2
+  [92933f4c] ProgressMeter v1.2.0
+  [1fd47b50] QuadGK v2.1.1
+  [189a3867] Reexport v0.2.0
+  [79098fc4] Rmath v0.5.1
+  [a2af1166] SortingAlgorithms v0.3.1
+  [276daf66] SpecialFunctions v0.8.0
+  [90137ffa] StaticArrays v0.12.1
+  [2913bbd2] StatsBase v0.32.0
+  [4c63d2b9] StatsFuns v0.9.0
+  [3783bdb8] TableTraits v1.0.0
+  [bd369af6] Tables v0.2.11
+  [30578b45] URIParser v0.4.0
+  [ea10d353] WeakRefStrings v0.6.1
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [9fa8497b] Future  [`@stdlib/Future`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [4607b0f0] SuiteSparse  [`@stdlib/SuiteSparse`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+The delimiter in pedigree.txt is ','.
+coding pedigree...   8%|██▋                             |  ETA: 0:00:01[Kcoding pedigree... 100%|████████████████████████████████| Time: 0:00:00[K
+calculating inbreeding...   8%|██▏                      |  ETA: 0:00:02[Kcalculating inbreeding... 100%|█████████████████████████| Time: 0:00:00[K
+Finished!
+
+
+
+
+
+
+
+
+Test single-trait BayesC analysis using complete genomic data
+
+
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+Phenotypes for all traits included in the model for individual a7 in the row 6 are missing. This record is deleted
+
+The prior for marker effects variance is calculated from the genetic variance and π.
+The mean of the prior for the marker effects variance is: 0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1*x3 + x2 + x3 + ID + dam
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1*x3           interaction  fixed                2
+x2              factor       random               2
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+
+MCMC Information:
+
+methods                                      BayesC
+                              complete genomic data
+                   (i.e., non-single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                     true
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2):                 [1.0]
+residual variances:                           1.000
+genetic variances (polygenic):
+                                 [1.0 0.5; 0.5 1.0]
+genetic variances (genomic):                  1.000
+marker effect variances:                      0.492
+π                                               0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y1:x2.txt is created to save MCMC samples for y1:x2.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_genetic_variance.txt is created to save MCMC samples for genetic_variance.
+The file MCMC_samples_heritability.txt is created to save MCMC samples for heritability.
+running MCMC for BayesC...  1%|▎                        |  ETA: 0:01:59[Krunning MCMC for BayesC... 10%|██▌                      |  ETA: 0:00:33[K
+Posterior means at iteration: 50
+Residual variance: 2.089545
+Polygenic effects covariance matrix 
+[0.708 0.171; 0.171 1.661]
+Marker effects variance: 0.547218
+π: 0.41
+running MCMC for BayesC... 50%|████████████▌            |  ETA: 0:00:04[K
+Posterior means at iteration: 100
+Residual variance: 1.843023
+Polygenic effects covariance matrix 
+[2.245 1.627; 1.627 3.015]
+Marker effects variance: 0.432835
+π: 0.47
+running MCMC for BayesC...100%|█████████████████████████| Time: 0:00:04[K
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 0.4            │
+│ 2   │ m2        │ 0.2            │
+│ 3   │ m3        │ 0.6            │
+│ 4   │ m4        │ 0.5            │
+│ 5   │ m5        │ 0.4            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+│ 2   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+│ 3   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+
+
+
+
+
+
+
+Test multi-trait BayesC analysis using complete genomic data
+
+
+x2 is not found in model equation 1.
+dam is not found in model equation 2.
+dam is not found in model equation 3.
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+Phenotypes for all traits included in the model for individual a7 in the row 6 are missing. This record is deleted
+
+Pi (Π) is not provided.
+Pi (Π) is generated assuming all markers have effects on all traits.
+
+The prior for marker effects covariance matrix is calculated from genetic covariance matrix and Π.
+The mean of the prior for the marker effects covariance matrix is:
+ 0.492462  0.246231  0.246231
+ 0.246231  0.492462  0.246231
+ 0.246231  0.246231  0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1 + x3 + ID + dam
+y2 = intercept + x1 + x2 + x3 + ID
+y3 = intercept + x1 + x1*x3 + x2 + ID
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1              covariate    fixed                1
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+x2              factor       random               2
+x1*x3           interaction  fixed                2
+
+MCMC Information:
+
+methods                                      BayesC
+                              complete genomic data
+                   (i.e., non-single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                     true
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2): 
+ 1.0  0.5
+ 0.5  1.0
+residual variances:           
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+genetic variances (polygenic):
+ 1.0  0.5  0.5  0.5
+ 0.5  1.0  0.5  0.5
+ 0.5  0.5  1.0  0.5
+ 0.5  0.5  0.5  1.0
+genetic variances (genomic):  
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+marker effect variances:      
+ 0.492  0.246  0.246
+ 0.246  0.492  0.246
+ 0.246  0.246  0.492
+
+Π: (Y(yes):included; N(no):excluded)
+
+["y1", "y2", "y3"]         probability
+["Y", "Y", "N"]                 0.0
+["N", "N", "N"]                 0.0
+["Y", "N", "N"]                 0.0
+["N", "Y", "Y"]                 0.0
+["Y", "N", "Y"]                 0.0
+["N", "N", "Y"]                 0.0
+["Y", "Y", "Y"]                 1.0
+["N", "Y", "N"]                 0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_y2.txt is created to save MCMC samples for marker_effects_y2.
+The file MCMC_samples_marker_effects_y3.txt is created to save MCMC samples for marker_effects_y3.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y2:x2.txt is created to save MCMC samples for y2:x2.
+The file MCMC_samples_y3:x2.txt is created to save MCMC samples for y3:x2.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_EBV_y2.txt is created to save MCMC samples for EBV_y2.
+The file MCMC_samples_EBV_y3.txt is created to save MCMC samples for EBV_y3.
+The file MCMC_samples_genetic_variance.txt is created to save MCMC samples for genetic_variance.
+The file MCMC_samples_heritability.txt is created to save MCMC samples for heritability.
+running MCMC for BayesC...  1%|▎                        |  ETA: 0:04:50[Krunning MCMC for BayesC...  2%|▌                        |  ETA: 0:02:33[Krunning MCMC for BayesC... 10%|██▌                      |  ETA: 0:00:36[K
+Posterior means at iteration: 50
+Residual covariance matrix: 
+[1.511597 0.724487 0.726751; 0.724487 0.994278 0.602416; 0.726751 0.602416 0.89288]
+Polygenic effects covariance matrix 
+[0.586253 0.178594 0.156443 0.080118; 0.178594 0.639766 0.191299 0.253934; 0.156443 0.191299 0.550044 0.219931; 0.080118 0.253934 0.219931 0.472004]
+Marker effects covariance matrix: 
+[0.578527 0.072306 0.23891; 0.072306 0.730512 0.287563; 0.23891 0.287563 0.500752]
+π: 
+Dict([1.0, 1.0, 0.0] => 0.14677963794863028,[0.0, 0.0, 0.0] => 0.10008152549288205,[1.0, 0.0, 0.0] => 0.15170949470012896,[0.0, 1.0, 1.0] => 0.0970841381260155,[1.0, 0.0, 1.0] => 0.11101142583937376,[0.0, 0.0, 1.0] => 0.09179311640171843,[1.0, 1.0, 1.0] => 0.15821592819696348,[0.0, 1.0, 0.0] => 0.1433247332942876)
+running MCMC for BayesC... 50%|████████████▌            |  ETA: 0:00:04[K
+
+Posterior means at iteration: 100
+Residual covariance matrix: 
+[1.284647 0.595646 0.608917; 0.595646 0.860753 0.501498; 0.608917 0.501498 0.820684]
+Polygenic effects covariance matrix 
+[0.53723 0.161462 0.167774 0.158116; 0.161462 0.700232 0.22131 0.329786; 0.167774 0.22131 0.665673 0.267817; 0.158116 0.329786 0.267817 0.545734]
+Marker effects covariance matrix: 
+[0.572237 0.181676 0.251517; 0.181676 0.586536 0.260452; 0.251517 0.260452 0.449416]
+π: 
+Dict([1.0, 1.0, 0.0] => 0.13793932714885343,[0.0, 0.0, 0.0] => 0.10774786495186296,[1.0, 0.0, 0.0] => 0.15503078022959724,[0.0, 1.0, 1.0] => 0.08806264630721632,[1.0, 0.0, 1.0] => 0.11996335370649042,[0.0, 0.0, 1.0] => 0.11942536525905809,[1.0, 1.0, 1.0] => 0.14664838082791587,[0.0, 1.0, 0.0] => 0.12518228156900565)
+
+running MCMC for BayesC...100%|█████████████████████████| Time: 0:00:04[K
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 0.8            │
+│ 2   │ m2        │ 0.3            │
+│ 3   │ m3        │ 0.8            │
+│ 4   │ m4        │ 0.6            │
+│ 5   │ m5        │ 0.4            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+│ 2   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+│ 3   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+
+
+
+
+
+
+
+Test single-trait BayesB analysis using complete genomic data
+
+
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+Phenotypes for all traits included in the model for individual a7 in the row 6 are missing. This record is deleted
+
+The prior for marker effects variance is calculated from the genetic variance and π.
+The mean of the prior for the marker effects variance is: 0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1*x3 + x2 + x3 + ID + dam
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1*x3           interaction  fixed                2
+x2              factor       random               2
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+
+MCMC Information:
+
+methods                                      BayesB
+                              complete genomic data
+                   (i.e., non-single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                     true
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2):                 [1.0]
+residual variances:                           1.000
+genetic variances (polygenic):
+                                 [1.0 0.5; 0.5 1.0]
+genetic variances (genomic):                  1.000
+marker effect variances:                      0.492
+π                                               0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y1:x2.txt is created to save MCMC samples for y1:x2.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_genetic_variance.txt is created to save MCMC samples for genetic_variance.
+The file MCMC_samples_heritability.txt is created to save MCMC samples for heritability.
+running MCMC for BayesB...  1%|▎                        |  ETA: 0:00:37[Krunning MCMC for BayesB... 10%|██▌                      |  ETA: 0:00:05[K
+Posterior means at iteration: 50
+Residual variance: 2.407378
+Polygenic effects covariance matrix 
+[1.644 0.251; 0.251 0.88]
+π: 0.606
+
+Posterior means at iteration: 100
+Residual variance: 1.569562
+Polygenic effects covariance matrix 
+[6.712 4.994; 4.994 4.874]
+π: 0.601
+running MCMC for BayesB...100%|█████████████████████████| Time: 0:00:00[K
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 0.5            │
+│ 2   │ m2        │ 0.4            │
+│ 3   │ m3        │ 0.6            │
+│ 4   │ m4        │ 0.4            │
+│ 5   │ m5        │ 0.4            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+│ 2   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+│ 3   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+
+
+
+
+
+
+
+Test multi-trait BayesB analysis using complete genomic data
+
+
+x2 is not found in model equation 1.
+dam is not found in model equation 2.
+dam is not found in model equation 3.
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+Phenotypes for all traits included in the model for individual a7 in the row 6 are missing. This record is deleted
+
+Pi (Π) is not provided.
+Pi (Π) is generated assuming all markers have effects on all traits.
+
+The prior for marker effects covariance matrix is calculated from genetic covariance matrix and Π.
+The mean of the prior for the marker effects covariance matrix is:
+ 0.492462  0.246231  0.246231
+ 0.246231  0.492462  0.246231
+ 0.246231  0.246231  0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1 + x3 + ID + dam
+y2 = intercept + x1 + x2 + x3 + ID
+y3 = intercept + x1 + x1*x3 + x2 + ID
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1              covariate    fixed                1
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+x2              factor       random               2
+x1*x3           interaction  fixed                2
+
+MCMC Information:
+
+methods                                      BayesB
+                              complete genomic data
+                   (i.e., non-single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                     true
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2): 
+ 1.0  0.5
+ 0.5  1.0
+residual variances:           
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+genetic variances (polygenic):
+ 1.0  0.5  0.5  0.5
+ 0.5  1.0  0.5  0.5
+ 0.5  0.5  1.0  0.5
+ 0.5  0.5  0.5  1.0
+genetic variances (genomic):  
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+marker effect variances:      
+ 0.492  0.246  0.246
+ 0.246  0.492  0.246
+ 0.246  0.246  0.492
+
+Π: (Y(yes):included; N(no):excluded)
+
+["y1", "y2", "y3"]         probability
+["Y", "Y", "N"]                 0.0
+["N", "N", "N"]                 0.0
+["Y", "N", "N"]                 0.0
+["N", "Y", "Y"]                 0.0
+["Y", "N", "Y"]                 0.0
+["N", "N", "Y"]                 0.0
+["Y", "Y", "Y"]                 1.0
+["N", "Y", "N"]                 0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_y2.txt is created to save MCMC samples for marker_effects_y2.
+The file MCMC_samples_marker_effects_y3.txt is created to save MCMC samples for marker_effects_y3.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y2:x2.txt is created to save MCMC samples for y2:x2.
+The file MCMC_samples_y3:x2.txt is created to save MCMC samples for y3:x2.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_EBV_y2.txt is created to save MCMC samples for EBV_y2.
+The file MCMC_samples_EBV_y3.txt is created to save MCMC samples for EBV_y3.
+The file MCMC_samples_genetic_variance.txt is created to save MCMC samples for genetic_variance.
+The file MCMC_samples_heritability.txt is created to save MCMC samples for heritability.
+running MCMC for BayesB...  1%|▎                        |  ETA: 0:01:40[Krunning MCMC for BayesB... 10%|██▌                      |  ETA: 0:00:13[K
+Posterior means at iteration: 50
+Residual covariance matrix: 
+[1.569077 0.198376 0.667713; 0.198376 1.83411 0.564869; 0.667713 0.564869 1.445847]
+Polygenic effects covariance matrix 
+[1.416899 0.327117 0.678036 0.098028; 0.327117 0.661926 0.228613 0.309764; 0.678036 0.228613 0.713282 0.11413; 0.098028 0.309764 0.11413 0.680155]
+π: 
+Dict([1.0, 1.0, 0.0] => 0.1950864469754054,[0.0, 0.0, 0.0] => 0.13766447072882068,[1.0, 0.0, 0.0] => 0.14132207455467682,[0.0, 1.0, 1.0] => 0.10477544556877501,[1.0, 0.0, 1.0] => 0.08845309693372158,[0.0, 0.0, 1.0] => 0.09230955927572831,[1.0, 1.0, 1.0] => 0.12669419131233717,[0.0, 1.0, 0.0] => 0.1136947146505351)
+
+running MCMC for BayesB... 67%|████████████████▊        |  ETA: 0:00:01[K
+Posterior means at iteration: 100
+Residual covariance matrix: 
+[2.029044 -0.106009 0.665409; -0.106009 1.652695 0.493566; 0.665409 0.493566 1.224332]
+Polygenic effects covariance matrix 
+[1.037958 0.207909 0.367737 0.192657; 0.207909 0.633469 0.221825 0.191849; 0.367737 0.221825 0.593255 0.131286; 0.192657 0.191849 0.131286 0.623739]
+π: 
+Dict([1.0, 1.0, 0.0] => 0.1517018807149787,[0.0, 0.0, 0.0] => 0.12033774976827588,[1.0, 0.0, 0.0] => 0.11894000409968558,[0.0, 1.0, 1.0] => 0.09571707086393884,[1.0, 0.0, 1.0] => 0.14353373243650683,[0.0, 0.0, 1.0] => 0.12117426577345272,[1.0, 1.0, 1.0] => 0.13029865844777402,[0.0, 1.0, 0.0] => 0.11829663789538758)
+
+running MCMC for BayesB...100%|█████████████████████████| Time: 0:00:01[K
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 0.8            │
+│ 2   │ m2        │ 0.5            │
+│ 3   │ m3        │ 0.8            │
+│ 4   │ m4        │ 0.6            │
+│ 5   │ m5        │ 0.6            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+│ 2   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+│ 3   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+
+
+
+
+
+
+
+Test single-trait RR-BLUP analysis using complete genomic data
+
+
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+Phenotypes for all traits included in the model for individual a7 in the row 6 are missing. This record is deleted
+
+The prior for marker effects variance is calculated from the genetic variance and π.
+The mean of the prior for the marker effects variance is: 0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1*x3 + x2 + x3 + ID + dam
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1*x3           interaction  fixed                2
+x2              factor       random               2
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+
+MCMC Information:
+
+methods                                     RR-BLUP
+                              complete genomic data
+                   (i.e., non-single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                    false
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2):                 [1.0]
+residual variances:                           1.000
+genetic variances (polygenic):
+                                 [1.0 0.5; 0.5 1.0]
+genetic variances (genomic):                  1.000
+marker effect variances:                      0.492
+π                                               0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y1:x2.txt is created to save MCMC samples for y1:x2.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_genetic_variance.txt is created to save MCMC samples for genetic_variance.
+The file MCMC_samples_heritability.txt is created to save MCMC samples for heritability.
+running MCMC for RR-BLUP...  1%|▎                       |  ETA: 0:00:11[K
+Posterior means at iteration: 50
+Residual variance: 0.623985
+Polygenic effects covariance matrix 
+[1.138 0.539; 0.539 2.739]
+Marker effects variance: 0.633985
+
+Posterior means at iteration: 100
+Residual variance: 1.410191
+Polygenic effects covariance matrix 
+[0.918 0.521; 0.521 2.036]
+Marker effects variance: 0.478467
+running MCMC for RR-BLUP...100%|████████████████████████| Time: 0:00:00[K
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 1.0            │
+│ 2   │ m2        │ 1.0            │
+│ 3   │ m3        │ 1.0            │
+│ 4   │ m4        │ 1.0            │
+│ 5   │ m5        │ 1.0            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+│ 2   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+│ 3   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+
+
+
+
+
+
+
+Test multi-trait RR-BLUP analysis using complete genomic data
+
+
+x2 is not found in model equation 1.
+dam is not found in model equation 2.
+dam is not found in model equation 3.
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+Phenotypes for all traits included in the model for individual a7 in the row 6 are missing. This record is deleted
+
+Pi (Π) is not provided.
+Pi (Π) is generated assuming all markers have effects on all traits.
+
+The prior for marker effects covariance matrix is calculated from genetic covariance matrix and Π.
+The mean of the prior for the marker effects covariance matrix is:
+ 0.492462  0.246231  0.246231
+ 0.246231  0.492462  0.246231
+ 0.246231  0.246231  0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1 + x3 + ID + dam
+y2 = intercept + x1 + x2 + x3 + ID
+y3 = intercept + x1 + x1*x3 + x2 + ID
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1              covariate    fixed                1
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+x2              factor       random               2
+x1*x3           interaction  fixed                2
+
+MCMC Information:
+
+methods                                     RR-BLUP
+                              complete genomic data
+                   (i.e., non-single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                    false
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2): 
+ 1.0  0.5
+ 0.5  1.0
+residual variances:           
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+genetic variances (polygenic):
+ 1.0  0.5  0.5  0.5
+ 0.5  1.0  0.5  0.5
+ 0.5  0.5  1.0  0.5
+ 0.5  0.5  0.5  1.0
+genetic variances (genomic):  
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+marker effect variances:      
+ 0.492  0.246  0.246
+ 0.246  0.492  0.246
+ 0.246  0.246  0.492
+
+Π: (Y(yes):included; N(no):excluded)
+
+["y1", "y2", "y3"]         probability
+["Y", "Y", "N"]                 0.0
+["N", "N", "N"]                 0.0
+["Y", "N", "N"]                 0.0
+["N", "Y", "Y"]                 0.0
+["Y", "N", "Y"]                 0.0
+["N", "N", "Y"]                 0.0
+["Y", "Y", "Y"]                 1.0
+["N", "Y", "N"]                 0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_y2.txt is created to save MCMC samples for marker_effects_y2.
+The file MCMC_samples_marker_effects_y3.txt is created to save MCMC samples for marker_effects_y3.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y2:x2.txt is created to save MCMC samples for y2:x2.
+The file MCMC_samples_y3:x2.txt is created to save MCMC samples for y3:x2.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_EBV_y2.txt is created to save MCMC samples for EBV_y2.
+The file MCMC_samples_EBV_y3.txt is created to save MCMC samples for EBV_y3.
+The file MCMC_samples_genetic_variance.txt is created to save MCMC samples for genetic_variance.
+The file MCMC_samples_heritability.txt is created to save MCMC samples for heritability.
+running MCMC for RR-BLUP...  1%|▎                       |  ETA: 0:00:23[K
+Posterior means at iteration: 50
+Residual covariance matrix: 
+[0.889725 0.359647 0.458737; 0.359647 1.07213 0.32933; 0.458737 0.32933 0.712036]
+Polygenic effects covariance matrix 
+[0.697628 0.343464 0.30571 0.346486; 0.343464 0.723595 0.270126 0.273999; 0.30571 0.270126 0.533881 0.325397; 0.346486 0.273999 0.325397 0.673711]
+Marker effects covariance matrix: 
+[1.518624 -0.367241 0.229344; -0.367241 0.778159 0.260332; 0.229344 0.260332 0.419257]
+
+running MCMC for RR-BLUP... 77%|██████████████████▌     |  ETA: 0:00:00[K
+Posterior means at iteration: 100
+Residual covariance matrix: 
+[0.81899 0.310111 0.37757; 0.310111 1.045768 0.449769; 0.37757 0.449769 0.848511]
+Polygenic effects covariance matrix 
+[0.730438 0.33467 0.304032 0.300146; 0.33467 0.666541 0.239056 0.230684; 0.304032 0.239056 0.591364 0.285046; 0.300146 0.230684 0.285046 0.581339]
+Marker effects covariance matrix: 
+[1.333881 -0.191596 0.23858; -0.191596 0.82945 0.325228; 0.23858 0.325228 0.426886]
+
+running MCMC for RR-BLUP...100%|████████████████████████| Time: 0:00:00[K
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 1.0            │
+│ 2   │ m2        │ 1.0            │
+│ 3   │ m3        │ 1.0            │
+│ 4   │ m4        │ 1.0            │
+│ 5   │ m5        │ 1.0            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+│ 2   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+│ 3   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+
+
+
+
+
+
+
+Test single-trait GBLUP analysis using complete genomic data
+
+
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+Phenotypes for all traits included in the model for individual a7 in the row 6 are missing. This record is deleted
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1*x3 + x2 + x3 + ID + dam
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1*x3           interaction  fixed                2
+x2              factor       random               2
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+
+MCMC Information:
+
+methods                                       GBLUP
+                              complete genomic data
+                   (i.e., non-single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2):                 [1.0]
+residual variances:                           1.000
+genetic variances (polygenic):
+                                 [1.0 0.5; 0.5 1.0]
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+running MCMC for GBLUP...  1%|▎                         |  ETA: 0:01:10[K
+Posterior means at iteration: 50
+Residual variance: 1.126209
+Polygenic effects covariance matrix 
+[2.702 1.227; 1.227 1.298]
+Genetic variance (G matrix): 1.693829
+Genetic variance (GenSel): 2.548151
+Heritability: 0.570808
+
+Posterior means at iteration: 100
+Residual variance: 0.990462
+Polygenic effects covariance matrix 
+[4.773 1.48; 1.48 1.15]
+Genetic variance (G matrix): 2.178183
+Genetic variance (GenSel): 3.224517
+Heritability: 0.616008
+running MCMC for GBLUP...100%|██████████████████████████| Time: 0:00:00[K
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+
+
+
+
+
+
+
+
+Test multi-trait GBLUP analysis using complete genomic data
+
+
+x2 is not found in model equation 1.
+dam is not found in model equation 2.
+dam is not found in model equation 3.
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+
+
+
+
+
+
+
+
+Test single-trait BayesL analysis using complete genomic data
+
+
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+Phenotypes for all traits included in the model for individual a7 in the row 6 are missing. This record is deleted
+
+The prior for marker effects variance is calculated from the genetic variance and π.
+The mean of the prior for the marker effects variance is: 0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1*x3 + x2 + x3 + ID + dam
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1*x3           interaction  fixed                2
+x2              factor       random               2
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+
+MCMC Information:
+
+methods                                      BayesL
+                              complete genomic data
+                   (i.e., non-single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                    false
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2):                 [1.0]
+residual variances:                           1.000
+genetic variances (polygenic):
+                                 [1.0 0.5; 0.5 1.0]
+genetic variances (genomic):                  1.000
+marker effect variances:                      0.492
+π                                               0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y1:x2.txt is created to save MCMC samples for y1:x2.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_genetic_variance.txt is created to save MCMC samples for genetic_variance.
+The file MCMC_samples_heritability.txt is created to save MCMC samples for heritability.
+running MCMC for BayesL...  1%|▎                        |  ETA: 0:01:13[K
+Posterior means at iteration: 50
+Residual variance: 3.347955
+Polygenic effects covariance matrix 
+[1.382 1.237; 1.237 4.784]
+Marker effects variance: 0.070225
+
+Posterior means at iteration: 100
+Residual variance: 2.621509
+Polygenic effects covariance matrix 
+[1.724running MCMC for BayesL...100%|█████████████████████████| Time: 0:00:00[K
+ 1.02; 1.02 3.099]
+Marker effects variance: 0.060721
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 1.0            │
+│ 2   │ m2        │ 1.0            │
+│ 3   │ m3        │ 1.0            │
+│ 4   │ m4        │ 1.0            │
+│ 5   │ m5        │ 1.0            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+│ 2   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+│ 3   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+
+
+
+
+
+
+
+Test multi-trait BayesL analysis using complete genomic data
+
+
+x2 is not found in model equation 1.
+dam is not found in model equation 2.
+dam is not found in model equation 3.
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+Phenotypes for all traits included in the model for individual a7 in the row 6 are missing. This record is deleted
+
+Pi (Π) is not provided.
+Pi (Π) is generated assuming all markers have effects on all traits.
+
+The prior for marker effects covariance matrix is calculated from genetic covariance matrix and Π.
+The mean of the prior for the marker effects covariance matrix is:
+ 0.492462  0.246231  0.246231
+ 0.246231  0.492462  0.246231
+ 0.246231  0.246231  0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1 + x3 + ID + dam
+y2 = intercept + x1 + x2 + x3 + ID
+y3 = intercept + x1 + x1*x3 + x2 + ID
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1              covariate    fixed                1
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+x2              factor       random               2
+x1*x3           interaction  fixed                2
+
+MCMC Information:
+
+methods                                      BayesL
+                              complete genomic data
+                   (i.e., non-single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                    false
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2): 
+ 1.0  0.5
+ 0.5  1.0
+residual variances:           
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+genetic variances (polygenic):
+ 1.0  0.5  0.5  0.5
+ 0.5  1.0  0.5  0.5
+ 0.5  0.5  1.0  0.5
+ 0.5  0.5  0.5  1.0
+genetic variances (genomic):  
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+marker effect variances:      
+ 0.492  0.246  0.246
+ 0.246  0.492  0.246
+ 0.246  0.246  0.492
+
+Π: (Y(yes):included; N(no):excluded)
+
+["y1", "y2", "y3"]         probability
+["Y", "Y", "N"]                 0.0
+["N", "N", "N"]                 0.0
+["Y", "N", "N"]                 0.0
+["N", "Y", "Y"]                 0.0
+["Y", "N", "Y"]                 0.0
+["N", "N", "Y"]                 0.0
+["Y", "Y", "Y"]                 1.0
+["N", "Y", "N"]                 0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_y2.txt is created to save MCMC samples for marker_effects_y2.
+The file MCMC_samples_marker_effects_y3.txt is created to save MCMC samples for marker_effects_y3.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y2:x2.txt is created to save MCMC samples for y2:x2.
+The file MCMC_samples_y3:x2.txt is created to save MCMC samples for y3:x2.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_EBV_y2.txt is created to save MCMC samples for EBV_y2.
+The file MCMC_samples_EBV_y3.txt is created to save MCMC samples for EBV_y3.
+The file MCMC_samples_genetic_variance.txt is created to save MCMC samples for genetic_variance.
+The file MCMC_samples_heritability.txt is created to save MCMC samples for heritability.
+running MCMC for BayesL...  1%|▎                        |  ETA: 0:01:05[K
+Posterior means at iteration: 50
+Residual covariance matrix: 
+[1.145179 0.438883 0.436076; 0.438883 1.259668 0.252765; 0.436076 0.252765 0.813304]
+Polygenic effects covariance matrix 
+[1.153228 0.506613 0.501081 0.232776; 0.506613 0.796365 0.32915 0.203048; 0.501081 0.32915 0.630091 0.219997; 0.232776 0.203048 0.219997 0.644982]
+Marker effects covariance matrix: 
+[0.028979 0.000764 0.003378; 0.000764 0.025506 0.010196; 0.003378 0.010196 0.029048]
+
+running MCMC for BayesL... 54%|█████████████▌           |  ETA: 0:00:01[K
+Posterior means at iteration: 100
+Residual covariance matrix: 
+[1.588023 0.508094 0.596295; 0.508094 1.122767 0.304816; 0.596295 0.304816 0.996274]
+Polygenic effects covariance matrix 
+[1.230834 0.635255 0.486027 0.409295; 0.635255 0.840258 0.37894 0.328553; 0.486027 0.37894 0.585446 0.282178; 0.409295 0.328553 0.282178 0.6637]
+Marker effects covariance matrix: 
+[0.040614 0.000326 0.008534; 0.000326 0.02399 0.008193; 0.008534 0.008193 0.023642]
+
+running MCMC for BayesL...100%|█████████████████████████| Time: 0:00:00[K
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 1.0            │
+│ 2   │ m2        │ 1.0            │
+│ 3   │ m3        │ 1.0            │
+│ 4   │ m4        │ 1.0            │
+│ 5   │ m5        │ 1.0            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+│ 2   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+│ 3   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+
+
+
+
+
+
+
+Test single-trait non_genomic analysis using complete genomic data
+
+
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+Phenotypes for all traits included in the model for individual a7 in the row 6 are missing. This record is deleted
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1*x3 + x2 + x3 + ID + dam
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1*x3           interaction  fixed                2
+x2              factor       random               2
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+
+MCMC Information:
+
+methods                   conventional (no markers)
+chain_length                                    100
+burnin                                            0
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2):                 [1.0]
+residual variances:                           1.000
+genetic variances (polygenic):
+                                 [1.0 0.5; 0.5 1.0]
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_y1:x2.txt is created to save MCMC samples for y1:x2.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_genetic_variance.txt is created to save MCMC samples for genetic_variance.
+The file MCMC_samples_heritability.txt is created to save MCMC samples for heritability.
+running MCMC for conventional (no markers)... 10%|▋     |  ETA: 0:00:03[K
+Posterior means at iteration: 50
+Residual variance: 3.947419
+Polygenic effects covariance matrix 
+[0.855 0.269; 0.269 0.792]
+
+Posterior means at iteration: 100
+Residual variance: 5.277993
+Polygenic effects covariance matrix 
+[1.213 0.431; 0.431 0.815]
+running MCMC for conventional (no markers)...100%|██████| Time: 0:00:00[K
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+
+
+
+
+
+
+
+
+Test multi-trait non_genomic analysis using complete genomic data
+
+
+x2 is not found in model equation 1.
+dam is not found in model equation 2.
+dam is not found in model equation 3.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+Phenotypes for all traits included in the model for individual a7 in the row 6 are missing. This record is deleted
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1 + x3 + ID + dam
+y2 = intercept + x1 + x2 + x3 + ID
+y3 = intercept + x1 + x1*x3 + x2 + ID
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1              covariate    fixed                1
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+x2              factor       random               2
+x1*x3           interaction  fixed                2
+
+MCMC Information:
+
+methods                   conventional (no markers)
+chain_length                                    100
+burnin                                            0
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2): 
+ 1.0  0.5
+ 0.5  1.0
+residual variances:           
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+genetic variances (polygenic):
+ 1.0  0.5  0.5  0.5
+ 0.5  1.0  0.5  0.5
+ 0.5  0.5  1.0  0.5
+ 0.5  0.5  0.5  1.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_y2:x2.txt is created to save MCMC samples for y2:x2.
+The file MCMC_samples_y3:x2.txt is created to save MCMC samples for y3:x2.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_EBV_y2.txt is created to save MCMC samples for EBV_y2.
+The file MCMC_samples_EBV_y3.txt is created to save MCMC samples for EBV_y3.
+The file MCMC_samples_genetic_variance.txt is created to save MCMC samples for genetic_variance.
+The file MCMC_samples_heritability.txt is created to save MCMC samples for heritability.
+running MCMC for conventional (no markers)... 10%|▋     |  ETA: 0:00:03[K
+Posterior means at iteration: 50
+Residual covariance matrix: 
+[1.79202 0.586832 0.587491; 0.586832 0.900624 0.416834; 0.587491 0.416834 0.699899]
+Polygenic effects covariance matrix 
+[3.492525 0.653282 0.833342 0.760299; 0.653282 1.102923 0.606216 0.526255; 0.833342 0.606216 1.076944 0.681164; 0.760299 0.526255 0.681164 0.956798]
+
+running MCMC for conventional (no markers)... 81%|████▉ |  ETA: 0:00:00[K
+Posterior means at iteration: 100
+Residual covariance matrix: 
+[2.266702 -0.344018 0.441981; -0.344018 1.491424 0.364544; 0.441981 0.364544 0.655918]
+Polygenic effects covariance matrix 
+[2.116747 0.45946 0.437417 0.466392; 0.45946 0.912117 0.448495 0.439509; 0.437417 0.448495 0.879283 0.481154; 0.466392 0.439509 0.481154 0.853443]
+
+running MCMC for conventional (no markers)...100%|██████| Time: 0:00:00[K
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+
+
+
+
+
+
+
+
+Test single-trait BayesC analysis using incomplete genomic data
+
+
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+calculating A inverse
+  0.272267 seconds (114.38 k allocations: 5.889 MiB)
+imputing missing genotypes
+  6.172383 seconds (5.46 M allocations: 269.158 MiB, 8.68% gc time)
+completed imputing genotypes
+
+The prior for marker effects variance is calculated from the genetic variance and π.
+The mean of the prior for the marker effects variance is: 0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1*x3 + x2 + x3 + ID + dam
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1*x3           interaction  fixed                2
+x2              factor       random               2
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+ϵ               factor       random               5
+J               covariate    fixed                1
+
+MCMC Information:
+
+methods                                      BayesC
+                            incomplete genomic data
+                       (i.e., single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                     true
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2):                 [1.0]
+random effect variances (ϵ):                  [1.0]
+residual variances:                           1.000
+genetic variances (polygenic):
+                                 [1.0 0.5; 0.5 1.0]
+genetic variances (genomic):                  1.000
+marker effect variances:                      0.492
+π                                               0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y1:x2.txt is created to save MCMC samples for y1:x2.
+The file MCMC_samples_y1:J.txt is created to save MCMC samples for y1:J.
+The file MCMC_samples_y1:ϵ.txt is created to save MCMC samples for y1:ϵ.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_ϵ_variances.txt is created to save MCMC samples for ϵ_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+running MCMC for BayesC... 10%|██▌                      |  ETA: 0:00:02[K
+Posterior means at iteration: 50
+Residual variance: 2.086329
+Polygenic effects covariance matrix 
+[0.875 0.088; 0.088 0.847]
+Marker effects variance: 1.258955
+π: 0.223
+
+Posterior means at iteration: 100
+Residual variance: 1.752582
+Polygenic effects covariance matrix 
+running MCMC for BayesC...100%|█████████████████████████| Time: 0:00:00[K
+[3.041 -0.628; -0.628 1.471]
+Marker effects variance: 0.709353
+π: 0.306
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 0.8            │
+│ 2   │ m2        │ 0.7            │
+│ 3   │ m3        │ 0.8            │
+│ 4   │ m4        │ 0.4            │
+│ 5   │ m5        │ 0.6            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+│ 2   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+│ 3   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+
+
+
+
+
+
+
+Test multi-trait BayesC analysis using incomplete genomic data
+
+
+x2 is not found in model equation 1.
+dam is not found in model equation 2.
+dam is not found in model equation 3.
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+calculating A inverse
+  0.000132 seconds (203 allocations: 16.063 KiB)
+imputing missing genotypes
+  0.214891 seconds (158 allocations: 20.156 KiB, 99.81% gc time)
+completed imputing genotypes
+
+Pi (Π) is not provided.
+Pi (Π) is generated assuming all markers have effects on all traits.
+
+The prior for marker effects covariance matrix is calculated from genetic covariance matrix and Π.
+The mean of the prior for the marker effects covariance matrix is:
+ 0.492462  0.246231  0.246231
+ 0.246231  0.492462  0.246231
+ 0.246231  0.246231  0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1 + x3 + ID + dam
+y2 = intercept + x1 + x2 + x3 + ID
+y3 = intercept + x1 + x1*x3 + x2 + ID
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1              covariate    fixed                1
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+x2              factor       random               2
+x1*x3           interaction  fixed                2
+ϵ               factor       random               5
+J               covariate    fixed                1
+
+MCMC Information:
+
+methods                                      BayesC
+                            incomplete genomic data
+                       (i.e., single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                     true
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2): 
+ 1.0  0.5
+ 0.5  1.0
+random effect variances (ϵ):  
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+residual variances:           
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+genetic variances (polygenic):
+ 1.0  0.5  0.5  0.5
+ 0.5  1.0  0.5  0.5
+ 0.5  0.5  1.0  0.5
+ 0.5  0.5  0.5  1.0
+genetic variances (genomic):  
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+marker effect variances:      
+ 0.492  0.246  0.246
+ 0.246  0.492  0.246
+ 0.246  0.246  0.492
+
+Π: (Y(yes):included; N(no):excluded)
+
+["y1", "y2", "y3"]         probability
+["Y", "Y", "N"]                 0.0
+["N", "N", "N"]                 0.0
+["Y", "N", "N"]                 0.0
+["N", "Y", "Y"]                 0.0
+["Y", "N", "Y"]                 0.0
+["N", "N", "Y"]                 0.0
+["Y", "Y", "Y"]                 1.0
+["N", "Y", "N"]                 0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_y2.txt is created to save MCMC samples for marker_effects_y2.
+The file MCMC_samples_marker_effects_y3.txt is created to save MCMC samples for marker_effects_y3.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y2:x2.txt is created to save MCMC samples for y2:x2.
+The file MCMC_samples_y3:x2.txt is created to save MCMC samples for y3:x2.
+The file MCMC_samples_y1:J.txt is created to save MCMC samples for y1:J.
+The file MCMC_samples_y2:J.txt is created to save MCMC samples for y2:J.
+The file MCMC_samples_y3:J.txt is created to save MCMC samples for y3:J.
+The file MCMC_samples_y1:ϵ.txt is created to save MCMC samples for y1:ϵ.
+The file MCMC_samples_y2:ϵ.txt is created to save MCMC samples for y2:ϵ.
+The file MCMC_samples_y3:ϵ.txt is created to save MCMC samples for y3:ϵ.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_ϵ_variances.txt is created to save MCMC samples for ϵ_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_EBV_y2.txt is created to save MCMC samples for EBV_y2.
+The file MCMC_samples_EBV_y3.txt is created to save MCMC samples for EBV_y3.
+running MCMC for BayesC... 40%|██████████               |  ETA: 0:00:00[K
+Posterior means at iteration: 50
+Residual covariance matrix: 
+[2.799584 -1.612219 0.040403; -1.612219 2.44039 0.747375; 0.040403 0.747375 0.93459]
+Polygenic effects covariance matrix 
+[0.851606 0.51276 0.290657 0.437186; 0.51276 1.01262 0.420342 0.558198; 0.290657 0.420342 0.634012 0.318387; 0.437186 0.558198 0.318387 0.72504]
+Marker effects covariance matrix: 
+[0.50737 0.132361 0.268219; 0.132361 0.301601 0.143297; 0.268219 0.143297 0.363484]
+π: 
+Dict([1.0, 1.0, 0.0] => 0.1291410505813946,[0.0, 0.0, 0.0] => 0.12636388241786578,[1.0, 0.0, 0.0] => 0.14569341043793022,[0.0, 1.0, 1.0] => 0.13027731678908047,[1.0, 0.0, 1.0] => 0.10431004838433226,[0.0, 0.0, 1.0] => 0.06319911681666106,[1.0, 1.0, 1.0] => 0.18939040503375226,[0.0, 1.0, 0.0] => 0.11162476953898341)
+
+running MCMC for BayesC... 81%|████████████████████▎    |  ETA: 0:00:00[K
+Posterior means at iteration: 100
+Residual covariance matrix: 
+[3.035799 -1.95232 -0.144398; -1.95232 2.648186 0.726947; -0.144398 0.726947 0.881555]
+Polygenic effects covariance matrix 
+[1.028665 0.324411 -0.088014 -0.048872; 0.324411 0.869372 0.326703 0.465347; -0.088014 0.326703 1.238713 0.91527; -0.048872 0.465347 0.91527 1.351795]
+Marker effects covariance matrix: 
+[0.495122 0.224233 0.268926; 0.224233 0.400505 0.193024; 0.268926 0.193024 0.417603]
+π: 
+Dict([1.0, 1.0, 0.0] => 0.12380692263429452,[0.0, 0.0, 0.0] => 0.12827657983669014,[1.0, 0.0, 0.0] => 0.14595906571940112,[0.0, 1.0, 1.0] => 0.11411736145033224,[1.0, 0.0, 1.0] => 0.12075359734114074,[0.0, 0.0, 1.0] => 0.10400081374832569,[1.0, 1.0, 1.0] => 0.14335807862114006,[0.0, 1.0, 0.0] => 0.11972758064867556)
+
+running MCMC for BayesC...100%|█████████████████████████| Time: 0:00:00[K
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 0.6            │
+│ 2   │ m2        │ 0.5            │
+│ 3   │ m3        │ 0.6            │
+│ 4   │ m4        │ 0.6            │
+│ 5   │ m5        │ 0.4            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+│ 2   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+│ 3   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+
+
+
+
+
+
+
+Test single-trait BayesB analysis using incomplete genomic data
+
+
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+calculating A inverse
+  0.000133 seconds (203 allocations: 16.063 KiB)
+imputing missing genotypes
+  0.225338 seconds (158 allocations: 20.156 KiB, 99.40% gc time)
+completed imputing genotypes
+
+The prior for marker effects variance is calculated from the genetic variance and π.
+The mean of the prior for the marker effects variance is: 0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1*x3 + x2 + x3 + ID + dam
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1*x3           interaction  fixed                2
+x2              factor       random               2
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+ϵ               factor       random               5
+J               covariate    fixed                1
+
+MCMC Information:
+
+methods                                      BayesB
+                            incomplete genomic data
+                       (i.e., single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                     true
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2):                 [1.0]
+random effect variances (ϵ):                  [1.0]
+residual variances:                           1.000
+genetic variances (polygenic):
+                                 [1.0 0.5; 0.5 1.0]
+genetic variances (genomic):                  1.000
+marker effect variances:                      0.492
+π                                               0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y1:x2.txt is created to save MCMC samples for y1:x2.
+The file MCMC_samples_y1:J.txt is created to save MCMC samples for y1:J.
+The file MCMC_samples_y1:ϵ.txt is created to save MCMC samples for y1:ϵ.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_ϵ_variances.txt is created to save MCMC samples for ϵ_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+
+Posterior means at iteration: 50
+Residual variance: 3.753966
+Polygenic effects covariance matrix 
+[1.201 0.699; 0.699 0.829]
+π: 0.517
+
+Posterior means at iteration: 100
+Residual variance: 2.532159
+Polygenic effects covariance matrix 
+[2.067 1.824; 1.824 2.223]
+π: 0.575
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 0.5            │
+│ 2   │ m2        │ 0.5            │
+│ 3   │ m3        │ 0.4            │
+│ 4   │ m4        │ 0.6            │
+│ 5   │ m5        │ 0.4            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+│ 2   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+│ 3   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+
+
+
+
+
+
+
+Test multi-trait BayesB analysis using incomplete genomic data
+
+
+x2 is not found in model equation 1.
+dam is not found in model equation 2.
+dam is not found in model equation 3.
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+calculating A inverse
+  0.000134 seconds (203 allocations: 16.063 KiB)
+imputing missing genotypes
+  0.227483 seconds (158 allocations: 20.156 KiB, 99.84% gc time)
+completed imputing genotypes
+
+Pi (Π) is not provided.
+Pi (Π) is generated assuming all markers have effects on all traits.
+
+The prior for marker effects covariance matrix is calculated from genetic covariance matrix and Π.
+The mean of the prior for the marker effects covariance matrix is:
+ 0.492462  0.246231  0.246231
+ 0.246231  0.492462  0.246231
+ 0.246231  0.246231  0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1 + x3 + ID + dam
+y2 = intercept + x1 + x2 + x3 + ID
+y3 = intercept + x1 + x1*x3 + x2 + ID
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1              covariate    fixed                1
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+x2              factor       random               2
+x1*x3           interaction  fixed                2
+ϵ               factor       random               5
+J               covariate    fixed                1
+
+MCMC Information:
+
+methods                                      BayesB
+                            incomplete genomic data
+                       (i.e., single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                     true
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2): 
+ 1.0  0.5
+ 0.5  1.0
+random effect variances (ϵ):  
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+residual variances:           
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+genetic variances (polygenic):
+ 1.0  0.5  0.5  0.5
+ 0.5  1.0  0.5  0.5
+ 0.5  0.5  1.0  0.5
+ 0.5  0.5  0.5  1.0
+genetic variances (genomic):  
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+marker effect variances:      
+ 0.492  0.246  0.246
+ 0.246  0.492  0.246
+ 0.246  0.246  0.492
+
+Π: (Y(yes):included; N(no):excluded)
+
+["y1", "y2", "y3"]         probability
+["Y", "Y", "N"]                 0.0
+["N", "N", "N"]                 0.0
+["Y", "N", "N"]                 0.0
+["N", "Y", "Y"]                 0.0
+["Y", "N", "Y"]                 0.0
+["N", "N", "Y"]                 0.0
+["Y", "Y", "Y"]                 1.0
+["N", "Y", "N"]                 0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_y2.txt is created to save MCMC samples for marker_effects_y2.
+The file MCMC_samples_marker_effects_y3.txt is created to save MCMC samples for marker_effects_y3.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y2:x2.txt is created to save MCMC samples for y2:x2.
+The file MCMC_samples_y3:x2.txt is created to save MCMC samples for y3:x2.
+The file MCMC_samples_y1:J.txt is created to save MCMC samples for y1:J.
+The file MCMC_samples_y2:J.txt is created to save MCMC samples for y2:J.
+The file MCMC_samples_y3:J.txt is created to save MCMC samples for y3:J.
+The file MCMC_samples_y1:ϵ.txt is created to save MCMC samples for y1:ϵ.
+The file MCMC_samples_y2:ϵ.txt is created to save MCMC samples for y2:ϵ.
+The file MCMC_samples_y3:ϵ.txt is created to save MCMC samples for y3:ϵ.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_ϵ_variances.txt is created to save MCMC samples for ϵ_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_EBV_y2.txt is created to save MCMC samples for EBV_y2.
+The file MCMC_samples_EBV_y3.txt is created to save MCMC samples for EBV_y3.
+running MCMC for BayesB... 45%|███████████▎             |  ETA: 0:00:00[K
+Posterior means at iteration: 50
+Residual covariance matrix: 
+[4.194016 -2.291761 -0.409959; -2.291761 2.731494 0.776305; -0.409959 0.776305 0.862124]
+Polygenic effects covariance matrix 
+[1.084931 0.517389 0.210719 -0.245377; 0.517389 0.664403 0.05997 -0.207029; 0.210719 0.05997 0.873098 0.416936; -0.245377 -0.207029 0.416936 2.099615]
+π: 
+Dict([1.0, 1.0, 0.0] => 0.09205834619787336,[0.0, 0.0, 0.0] => 0.14110590904499262,[1.0, 0.0, 0.0] => 0.15486758108590193,[0.0, 1.0, 1.0] => 0.12804777109701385,[1.0, 0.0, 1.0] => 0.12526693990060997,[0.0, 0.0, 1.0] => 0.13424192577544528,[1.0, 1.0, 1.0] => 0.10040233729553703,[0.0, 1.0, 0.0] => 0.12400918960262595)
+
+running MCMC for BayesB... 84%|█████████████████████    |  ETA: 0:00:00[K
+Posterior means at iteration: 100
+Residual covariance matrix: 
+[4.137922 -2.553205 -0.637956; -2.553205 3.055102 0.95393; -0.637956 0.95393 0.960629]
+Polygenic effects covariance matrix 
+[1.027297 0.423975 0.045431 -0.081729; 0.423975 0.593672 0.121342 -0.040675; 0.045431 0.121342 0.854635 0.341133; -0.081729 -0.040675 0.341133 1.281242]
+π: 
+Dict([1.0, 1.0, 0.0] => 0.11192778269985354,[0.0, 0.0, 0.0] => 0.1370651550938405,[1.0, 0.0, 0.0] => 0.13295250061855163,[0.0, 1.0, 1.0] => 0.12793821097535224,[1.0, 0.0, 1.0] => 0.11666084089892018,[0.0, 0.0, 1.0] => 0.1280189350119462,[1.0, 1.0, 1.0] => running MCMC for BayesB...100%|█████████████████████████| Time: 0:00:00[K
+0.10738981624430236,[0.0, 1.0, 0.0] => 0.13804675845723333)
+
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 0.4            │
+│ 2   │ m2        │ 0.4            │
+│ 3   │ m3        │ 0.4            │
+│ 4   │ m4        │ 0.6            │
+│ 5   │ m5        │ 0.5            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+│ 2   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+│ 3   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+
+
+
+
+
+
+
+Test single-trait RR-BLUP analysis using incomplete genomic data
+
+
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+calculating A inverse
+  0.000124 seconds (203 allocations: 16.063 KiB)
+imputing missing genotypes
+  0.224827 seconds (158 allocations: 20.156 KiB, 99.78% gc time)
+completed imputing genotypes
+
+The prior for marker effects variance is calculated from the genetic variance and π.
+The mean of the prior for the marker effects variance is: 0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1*x3 + x2 + x3 + ID + dam
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1*x3           interaction  fixed                2
+x2              factor       random               2
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+ϵ               factor       random               5
+J               covariate    fixed                1
+
+MCMC Information:
+
+methods                                     RR-BLUP
+                            incomplete genomic data
+                       (i.e., single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                    false
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2):                 [1.0]
+random effect variances (ϵ):                  [1.0]
+residual variances:                           1.000
+genetic variances (polygenic):
+                                 [1.0 0.5; 0.5 1.0]
+genetic variances (genomic):                  1.000
+marker effect variances:                      0.492
+π                                               0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y1:x2.txt is created to save MCMC samples for y1:x2.
+The file MCMC_samples_y1:J.txt is created to save MCMC samples for y1:J.
+The file MCMC_samples_y1:ϵ.txt is created to save MCMC samples for y1:ϵ.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_ϵ_variances.txt is created to save MCMC samples for ϵ_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+
+Posterior means at iteration: 50
+Residual variance: 1.733297
+Polygenic effects covariance matrix 
+[0.975 0.595; 0.595 1.003]
+Marker effects variance: 0.647935
+
+Posterior means at iteration: 100
+Residual variance: 2.527614
+Polygenic effects covariance matrix 
+[0.986 0.507; 0.507 1.135]
+Marker effects variance: 0.521475
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 1.0            │
+│ 2   │ m2        │ 1.0            │
+│ 3   │ m3        │ 1.0            │
+│ 4   │ m4        │ 1.0            │
+│ 5   │ m5        │ 1.0            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+│ 2   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+│ 3   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+
+
+
+
+
+
+
+Test multi-trait RR-BLUP analysis using incomplete genomic data
+
+
+x2 is not found in model equation 1.
+dam is not found in model equation 2.
+dam is not found in model equation 3.
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+calculating A inverse
+  0.000149 seconds (203 allocations: 16.063 KiB)
+imputing missing genotypes
+  0.235627 seconds (158 allocations: 20.156 KiB, 99.83% gc time)
+completed imputing genotypes
+
+Pi (Π) is not provided.
+Pi (Π) is generated assuming all markers have effects on all traits.
+
+The prior for marker effects covariance matrix is calculated from genetic covariance matrix and Π.
+The mean of the prior for the marker effects covariance matrix is:
+ 0.492462  0.246231  0.246231
+ 0.246231  0.492462  0.246231
+ 0.246231  0.246231  0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1 + x3 + ID + dam
+y2 = intercept + x1 + x2 + x3 + ID
+y3 = intercept + x1 + x1*x3 + x2 + ID
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1              covariate    fixed                1
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+x2              factor       random               2
+x1*x3           interaction  fixed                2
+ϵ               factor       random               5
+J               covariate    fixed                1
+
+MCMC Information:
+
+methods                                     RR-BLUP
+                            incomplete genomic data
+                       (i.e., single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                    false
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2): 
+ 1.0  0.5
+ 0.5  1.0
+random effect variances (ϵ):  
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+residual variances:           
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+genetic variances (polygenic):
+ 1.0  0.5  0.5  0.5
+ 0.5  1.0  0.5  0.5
+ 0.5  0.5  1.0  0.5
+ 0.5  0.5  0.5  1.0
+genetic variances (genomic):  
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+marker effect variances:      
+ 0.492  0.246  0.246
+ 0.246  0.492  0.246
+ 0.246  0.246  0.492
+
+Π: (Y(yes):included; N(no):excluded)
+
+["y1", "y2", "y3"]         probability
+["Y", "Y", "N"]                 0.0
+["N", "N", "N"]                 0.0
+["Y", "N", "N"]                 0.0
+["N", "Y", "Y"]                 0.0
+["Y", "N", "Y"]                 0.0
+["N", "N", "Y"]                 0.0
+["Y", "Y", "Y"]                 1.0
+["N", "Y", "N"]                 0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_y2.txt is created to save MCMC samples for marker_effects_y2.
+The file MCMC_samples_marker_effects_y3.txt is created to save MCMC samples for marker_effects_y3.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y2:x2.txt is created to save MCMC samples for y2:x2.
+The file MCMC_samples_y3:x2.txt is created to save MCMC samples for y3:x2.
+The file MCMC_samples_y1:J.txt is created to save MCMC samples for y1:J.
+The file MCMC_samples_y2:J.txt is created to save MCMC samples for y2:J.
+The file MCMC_samples_y3:J.txt is created to save MCMC samples for y3:J.
+The file MCMC_samples_y1:ϵ.txt is created to save MCMC samples for y1:ϵ.
+The file MCMC_samples_y2:ϵ.txt is created to save MCMC samples for y2:ϵ.
+The file MCMC_samples_y3:ϵ.txt is created to save MCMC samples for y3:ϵ.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_ϵ_variances.txt is created to save MCMC samples for ϵ_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_EBV_y2.txt is created to save MCMC samples for EBV_y2.
+The file MCMC_samples_EBV_y3.txt is created to save MCMC samples for EBV_y3.
+
+Posterior means at iteration: 50
+Residual covariance matrix: 
+[2.81531 -1.859312 -0.397239; -1.859312 2.885358 0.998469; -0.397239 0.998469 0.907784]
+Polygenic effects covariance matrix 
+[0.547757 0.305484 0.173744 0.132885; 0.305484 0.901642 0.29398 0.43785; 0.173744 0.29398 0.618919 0.288518; 0.132885 0.43785 0.288518 0.669372]
+Marker effects covariance matrix: 
+[0.471681 0.021558 0.103998; 0.021558 0.398719 0.202442; 0.103998 0.202442 0.418244]
+
+running MCMC for RR-BLUP... 50%|████████████            |  ETA: 0:00:00[K
+Posterior means at iteration: 100
+Residual covariance matrix: 
+[3.023438 -2.058334 -0.521189; -2.058334 2.822977 1.05857; -0.521189 1.05857 0.943851]
+Polygenic effects covariance matrix 
+[0.584471 0.296856 0.354233 0.239475; 0.296856 0.923465 0.506097 0.520495; 0.354233 0.506097 1.021437 0.519982; 0.239475 0.520495 0.519982 0.759864]
+Marker effects covariance matrix: 
+[0.465197 0.084152 0.144768; 0.084152 0.343099 0.185278; 0.144768 0.185278 0.434146]
+
+running MCMC for RR-BLUP...100%|████████████████████████| Time: 0:00:00[K
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 1.0            │
+│ 2   │ m2        │ 1.0            │
+│ 3   │ m3        │ 1.0            │
+│ 4   │ m4        │ 1.0            │
+│ 5   │ m5        │ 1.0            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+│ 2   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+│ 3   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+
+
+
+
+
+
+
+Test single-trait GBLUP analysis using incomplete genomic data
+
+
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+
+
+
+
+
+
+
+
+Test multi-trait GBLUP analysis using incomplete genomic data
+
+
+x2 is not found in model equation 1.
+dam is not found in model equation 2.
+dam is not found in model equation 3.
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+
+
+
+
+
+
+
+
+Test single-trait BayesL analysis using incomplete genomic data
+
+
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+calculating A inverse
+  0.000148 seconds (203 allocations: 16.063 KiB)
+imputing missing genotypes
+  0.245472 seconds (158 allocations: 20.156 KiB, 99.82% gc time)
+completed imputing genotypes
+
+The prior for marker effects variance is calculated from the genetic variance and π.
+The mean of the prior for the marker effects variance is: 0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1*x3 + x2 + x3 + ID + dam
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1*x3           interaction  fixed                2
+x2              factor       random               2
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+ϵ               factor       random               5
+J               covariate    fixed                1
+
+MCMC Information:
+
+methods                                      BayesL
+                            incomplete genomic data
+                       (i.e., single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                    false
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2):                 [1.0]
+random effect variances (ϵ):                  [1.0]
+residual variances:                           1.000
+genetic variances (polygenic):
+                                 [1.0 0.5; 0.5 1.0]
+genetic variances (genomic):                  1.000
+marker effect variances:                      0.492
+π                                               0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y1:x2.txt is created to save MCMC samples for y1:x2.
+The file MCMC_samples_y1:J.txt is created to save MCMC samples for y1:J.
+The file MCMC_samples_y1:ϵ.txt is created to save MCMC samples for y1:ϵ.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_ϵ_variances.txt is created to save MCMC samples for ϵ_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+
+Posterior means at iteration: 50
+Residual variance: 2.288205
+Polygenic effects covariance matrix 
+[2.136 1.409; 1.409 1.406]
+Marker effects variance: 0.072843
+
+Posterior means at iteration: 100
+Residual variance: 2.690807
+Polygenic effects covariance matrix 
+[1.827 0.974; 0.974 1.106]
+Marker effects variance: 0.055582
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 1.0            │
+│ 2   │ m2        │ 1.0            │
+│ 3   │ m3        │ 1.0            │
+│ 4   │ m4        │ 1.0            │
+│ 5   │ m5        │ 1.0            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+│ 2   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+│ 3   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+
+
+
+
+
+
+
+Test multi-trait BayesL analysis using incomplete genomic data
+
+
+x2 is not found in model equation 1.
+dam is not found in model equation 2.
+dam is not found in model equation 3.
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+calculating A inverse
+  0.000119 seconds (203 allocations: 16.063 KiB)
+imputing missing genotypes
+  0.219381 seconds (158 allocations: 20.156 KiB, 99.86% gc time)
+completed imputing genotypes
+
+Pi (Π) is not provided.
+Pi (Π) is generated assuming all markers have effects on all traits.
+
+The prior for marker effects covariance matrix is calculated from genetic covariance matrix and Π.
+The mean of the prior for the marker effects covariance matrix is:
+ 0.492462  0.246231  0.246231
+ 0.246231  0.492462  0.246231
+ 0.246231  0.246231  0.492462
+
+
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1 + x3 + ID + dam
+y2 = intercept + x1 + x2 + x3 + ID
+y3 = intercept + x1 + x1*x3 + x2 + ID
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1              covariate    fixed                1
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+x2              factor       random               2
+x1*x3           interaction  fixed                2
+ϵ               factor       random               5
+J               covariate    fixed                1
+
+MCMC Information:
+
+methods                                      BayesL
+                            incomplete genomic data
+                       (i.e., single-step analysis)
+chain_length                                    100
+burnin                                            0
+estimatePi                                    false
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2): 
+ 1.0  0.5
+ 0.5  1.0
+random effect variances (ϵ):  
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+residual variances:           
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+genetic variances (polygenic):
+ 1.0  0.5  0.5  0.5
+ 0.5  1.0  0.5  0.5
+ 0.5  0.5  1.0  0.5
+ 0.5  0.5  0.5  1.0
+genetic variances (genomic):  
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+marker effect variances:      
+ 0.492  0.246  0.246
+ 0.246  0.492  0.246
+ 0.246  0.246  0.492
+
+Π: (Y(yes):included; N(no):excluded)
+
+["y1", "y2", "y3"]         probability
+["Y", "Y", "N"]                 0.0
+["N", "N", "N"]                 0.0
+["Y", "N", "N"]                 0.0
+["N", "Y", "Y"]                 0.0
+["Y", "N", "Y"]                 0.0
+["N", "N", "Y"]                 0.0
+["Y", "Y", "Y"]                 1.0
+["N", "Y", "N"]                 0.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+marker effect variances:                      4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_marker_effects_y1.txt is created to save MCMC samples for marker_effects_y1.
+The file MCMC_samples_marker_effects_y2.txt is created to save MCMC samples for marker_effects_y2.
+The file MCMC_samples_marker_effects_y3.txt is created to save MCMC samples for marker_effects_y3.
+The file MCMC_samples_marker_effects_variances.txt is created to save MCMC samples for marker_effects_variances.
+The file MCMC_samples_pi.txt is created to save MCMC samples for pi.
+The file MCMC_samples_y2:x2.txt is created to save MCMC samples for y2:x2.
+The file MCMC_samples_y3:x2.txt is created to save MCMC samples for y3:x2.
+The file MCMC_samples_y1:J.txt is created to save MCMC samples for y1:J.
+The file MCMC_samples_y2:J.txt is created to save MCMC samples for y2:J.
+The file MCMC_samples_y3:J.txt is created to save MCMC samples for y3:J.
+The file MCMC_samples_y1:ϵ.txt is created to save MCMC samples for y1:ϵ.
+The file MCMC_samples_y2:ϵ.txt is created to save MCMC samples for y2:ϵ.
+The file MCMC_samples_y3:ϵ.txt is created to save MCMC samples for y3:ϵ.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_ϵ_variances.txt is created to save MCMC samples for ϵ_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_EBV_y2.txt is created to save MCMC samples for EBV_y2.
+The file MCMC_samples_EBV_y3.txt is created to save MCMC samples for EBV_y3.
+running MCMC for BayesL... 46%|███████████▌             |  ETA: 0:00:00[K
+Posterior means at iteration: 50
+Residual covariance matrix: 
+[2.124465 -1.707861 -0.574508; -1.707861 3.255973 1.503032; -0.574508 1.503032 1.211731]
+Polygenic effects covariance matrix 
+[1.101853 0.426624 0.676978 0.4771; 0.426624 0.951794 0.353908 0.401367; 0.676978 0.353908 0.82948 0.330965; 0.4771 0.401367 0.330965 0.676423]
+Marker effects covariance matrix: 
+[0.026077 0.00611 0.010133; 0.00611 0.017235 0.009811; 0.010133 0.009811 0.018749]
+
+running MCMC for BayesL... 95%|███████████████████████▊ |  ETA: 0:00:00[K
+Posterior means at iteration: 100
+Residual covariance matrix: 
+[3.012653 -1.890609 -0.239003; -1.890609 2.789292 0.953614; -0.239003 0.953614 0.885815]
+Polygenic effects covariance matrix 
+[1.012748 0.449241 0.605313 0.508489; 0.449241 0.979202 0.492798 0.505865; 0.605313 0.492798 0.92232 0.431305; 0.508489 0.505865 0.431305 0.840726]
+Marker effects covariance matrix: 
+[0.024928 0.008332 0.009127; 0.008332 0.021946 0.011625; 0.009127 0.011625 0.019549]
+
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+running MCMC for BayesL...100%|█████████████████████████| Time: 0:00:00[K
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+Compute the model frequency for each marker (the probability the marker is included in the model).
+5×2 DataFrame
+│ Row │ marker_ID │ modelfrequency │
+│     │ Abstract… │ Float64        │
+├─────┼───────────┼────────────────┤
+│ 1   │ m1        │ 1.0            │
+│ 2   │ m2        │ 1.0            │
+│ 3   │ m3        │ 1.0            │
+│ 4   │ m4        │ 1.0            │
+│ 5   │ m5        │ 1.0            │
+Compute the posterior probability of association of the genomic window that explains more than 0.001 of the total genetic variance.
+3×10 DataFrame. Omitted printing of 3 columns
+│ Row │ window │ chr    │ wStart  │ wEnd    │ start_SNP │ end_SNP │ numSNP │
+│     │ Int64  │ String │ Int64   │ Int64   │ Int64     │ Int64   │ Int64  │
+├─────┼────────┼────────┼─────────┼─────────┼───────────┼─────────┼────────┤
+│ 1   │ 1      │ 1      │ 0       │ 1000000 │ 16977     │ 434311  │ 2      │
+│ 2   │ 2      │ 1      │ 1000000 │ 2000000 │ 1025513   │ 1025513 │ 1      │
+│ 3   │ 3      │ 2      │ 0       │ 1000000 │ 70350     │ 101135  │ 2      │
+
+
+
+
+
+
+
+Test single-trait non_genomic analysis using incomplete genomic data
+
+
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+Phenotypes for all traits included in the model for individual a7 in the row 6 are missing. This record is deleted
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1*x3 + x2 + x3 + ID + dam
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1*x3           interaction  fixed                2
+x2              factor       random               2
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+
+MCMC Information:
+
+methods                   conventional (no markers)
+chain_length                                    100
+burnin                                            0
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2):                 [1.0]
+residual variances:                           1.000
+genetic variances (polygenic):
+                                 [1.0 0.5; 0.5 1.0]
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_y1:x2.txt is created to save MCMC samples for y1:x2.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_genetic_variance.txt is created to save MCMC samples for genetic_variance.
+The file MCMC_samples_heritability.txt is created to save MCMC samples for heritability.
+
+Posterior means at iteration: 50
+Residual variance: 3.363618
+Polygenic effects covariance matrix 
+[0.836 0.39; 0.39 0.525]
+
+Posterior means at iteration: 100
+Residual variance: 2.003963
+Polygenic effects covariance matrix 
+[1.148 1.089; 1.089 1.812]
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+
+
+
+
+
+
+
+
+Test multi-trait non_genomic analysis using incomplete genomic data
+
+
+x2 is not found in model equation 1.
+dam is not found in model equation 2.
+dam is not found in model equation 3.
+Checking phenotypes...
+Individual IDs (strings) are provided in the first column of the phenotypic data.
+Phenotypes for all traits included in the model for individual a7 in the row 6 are missing. This record is deleted
+
+A Linear Mixed Model was build using model equations:
+
+y1 = intercept + x1 + x3 + ID + dam
+y2 = intercept + x1 + x2 + x3 + ID
+y3 = intercept + x1 + x1*x3 + x2 + ID
+
+Model Information:
+
+Term            C/F          F/R            nLevels
+intercept       factor       fixed                1
+x1              covariate    fixed                1
+x3              factor       fixed                2
+ID              factor       random              12
+dam             factor       random              12
+x2              factor       random               2
+x1*x3           interaction  fixed                2
+
+MCMC Information:
+
+methods                   conventional (no markers)
+chain_length                                    100
+burnin                                            0
+estimateScale                                 false
+starting_value                                false
+printout_frequency                               50
+output_samples_frequency                         10
+constraint                                    false
+missing_phenotypes                             true
+update_priors_frequency                           0
+seed                                          false
+
+Hyper-parameters Information:
+
+random effect variances (x2): 
+ 1.0  0.5
+ 0.5  1.0
+residual variances:           
+ 1.0  0.5  0.5
+ 0.5  1.0  0.5
+ 0.5  0.5  1.0
+genetic variances (polygenic):
+ 1.0  0.5  0.5  0.5
+ 0.5  1.0  0.5  0.5
+ 0.5  0.5  1.0  0.5
+ 0.5  0.5  0.5  1.0
+
+Degree of freedom for hyper-parameters:
+
+residual variances:                           4.000
+iid random effect variances:                  4.000
+polygenic effect variances:                   4.000
+
+
+
+The file MCMC_samples_residual_variance.txt is created to save MCMC samples for residual_variance.
+The file MCMC_samples_polygenic_effects_variance.txt is created to save MCMC samples for polygenic_effects_variance.
+The file MCMC_samples_y2:x2.txt is created to save MCMC samples for y2:x2.
+The file MCMC_samples_y3:x2.txt is created to save MCMC samples for y3:x2.
+The file MCMC_samples_x2_variances.txt is created to save MCMC samples for x2_variances.
+The file MCMC_samples_EBV_y1.txt is created to save MCMC samples for EBV_y1.
+The file MCMC_samples_EBV_y2.txt is created to save MCMC samples for EBV_y2.
+The file MCMC_samples_EBV_y3.txt is created to save MCMC samples for EBV_y3.
+The file MCMC_samples_genetic_variance.txt is created to save MCMC samples for genetic_variance.
+The file MCMC_samples_heritability.txt is created to save MCMC samples for heritability.
+running MCMC for conventional (no markers)...  2%|▏     |  ETA: 0:00:09[K
+Posterior means at iteration: 50
+Residual covariance matrix: 
+[1.843125 0.137215 0.665346; 0.137215 1.415364 0.339442; 0.665346 0.339442 0.912046]
+Polygenic effects covariance matrix 
+[1.46515 0.456793 0.288226 0.997611; 0.456793 0.539753 0.291448 0.41769; 0.288226 0.291448 0.603634 0.244947; 0.997611 0.41769 0.244947 1.262027]
+
+running MCMC for conventional (no markers)... 90%|█████▍|  ETA: 0:00:00[K
+Posterior means at iteration: 100
+Residual covariance matrix: 
+[1.69457 0.071757 0.512905; 0.071757 1.302583 0.319044; 0.512905 0.319044 0.826825]
+Polygenic effects covariance matrix 
+[1.700018 0.688362 0.120717 1.093634; 0.688362 0.76108 0.25917 0.495794; 0.120717 0.25917 0.771777 0.078778; 1.093634 0.495794 0.078778 1.373281]
+
+running MCMC for conventional (no markers)...100%|██████| Time: 0:00:00[K
+
+
+The version of Julia and Platform in use:
+
+Julia Version 1.2.0
+Commit c6da87ff4b (2019-08-20 00:03 UTC)
+Platform Info:
+  OS: Linux (x86_64-pc-linux-gnu)
+  CPU: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-6.0.1 (ORCJIT, skylake)
+Environment:
+  JULIA_LOAD_PATH = @:/tmp/jl_XVrhf9
+
+
+The analysis has finished. Results are saved in the returned variable and text files. MCMC samples are saved in text files.
+
+
+load genotype ...
+
+from a text file with a header (marker IDs)
+The delimiter in genotypes.txt is ','.
+The header (marker IDs) is provided in genotypes.txt.
+5 markers on 7 individuals were added.
+
+from a text file without a header (no marker IDs)
+The delimiter in genotypes_noheader.txt is ','.
+The header (marker IDs) is not provided in genotypes_noheader.txt.
+5 markers on 7 individuals were added.
+
+from an Array (matrix) with marker IDs and individual IDs provided
+5 markers on 7 individuals were added.
+
+from an Array (matrix) without marker IDs and with individual IDs provided
+The header (marker IDs) is set to 1,2,...,#markers
+5 markers on 7 individuals were added.
+
+from an Array (matrix) without marker IDs and individual IDs
+The individual IDs is set to 1,2,...,#observations
+The header (marker IDs) is set to 1,2,...,#markers
+5 markers on 7 individuals were added.
+
+from a DataFrame with marker IDs and individual IDs provided
+5 markers on 7 individuals were added.
+   Testing JWAS tests passed 

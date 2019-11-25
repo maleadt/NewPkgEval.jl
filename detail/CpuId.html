@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Julia Package Listing - Testing Information</title>
+
+    <style>/* -- Mix of julialang.org, Bootstrap 3, and custom -- */
+body {
+  background-color: white;
+  font-family: Georgia, 'Liberation Serif', serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.42857143;
+}
+.site {
+  max-width: 785px;
+  margin: 2.5em auto 2em;
+  padding: 0 1.5em;
+}
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.titlebox {
+  text-align: center;
+  font-size: 120%;
+  margin-top: 3em;
+}
+.ok     { background-color: #11AA11; } /*Tests passing*/
+.fail   { background-color: #DD3333; } /*Tests failed*/
+.skip   { background-color: #3333DD; } /*Tests skipped*/
+.kill   { background-color: #222222; } /*Tests interrupted*/
+.statusbox {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.pkglisting h2 { margin-bottom: 0px; }
+pre {margin: 0;}
+@media (min-width: 785px) {
+  .pkglisting {
+    display: table;
+    width: 100%;
+  }
+  .pkgnamedesc {
+    display: table-cell;
+    width: 50%;
+  }
+  .pkgvertest {
+    display: table-cell;
+    width:50%;
+    text-align: right
+  }
+}
+/* collapsible sections */
+.collapsible {
+  font-family: Georgia, 'Liberation Serif', serif;
+  font-size: 14px;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.content {
+  display: none;
+  overflow: hidden;
+}
+</style>
+  </head>
+
+  <body>
+  <div class="site">
+    <!-- HEADER -->
+    <div class="titlebox">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="210px" height="142px" viewBox="0 0 310 216" enable-background="new 0 0 310 216" xml:space="preserve">
+
+<!-- blue dot -->
+<circle fill="#6b85dd" stroke="#4266d5" stroke-width="3" cx="50.5" cy="58.665" r="16.5"></circle>
+<!-- red dot -->
+<circle fill="#d66661" stroke="#c93d39" stroke-width="3" cx="212.459" cy="60.249" r="16.5"></circle>
+<!-- green dot -->
+<circle fill="#6bab5b" stroke="#3b972e" stroke-width="3" cx="233.834" cy="23.874" r="16.5"></circle>
+<!-- purple dot -->
+<circle fill="#aa7dc0" stroke="#945bb0" stroke-width="3" cx="255.459" cy="59.999" r="16.5"></circle>
+
+<!-- "j" -->
+<path fill="#252525" d="M37.216,138.427c0-15.839,0.006-31.679-0.018-47.517c-0.001-0.827,0.169-1.234,1.043-1.47
+    c7.876-2.127,15.739-4.308,23.606-6.47c1.33-0.366,1.333-0.36,1.333,1.019c0,25.758,0.015,51.517-0.012,77.274
+    c-0.006,5.514,0.245,11.032-0.272,16.543c-0.628,6.69-2.15,13.092-6.438,18.506c-3.781,4.771-8.898,7.25-14.767,8.338
+    c-6.599,1.222-13.251,1.552-19.934,0.938c-4.616-0.423-9.045-1.486-12.844-4.363c-2.863-2.168-4.454-4.935-3.745-8.603
+    c0.736-3.806,3.348-5.978,6.861-7.127c2.262-0.74,4.628-0.872,6.994-0.53c1.823,0.264,3.42,1.023,4.779,2.288
+    c1.38,1.284,2.641,2.674,3.778,4.177c0.872,1.15,1.793,2.256,2.991,3.086c2.055,1.426,4,0.965,5.213-1.216
+    c0.819-1.473,0.997-3.106,1.173-4.731c0.255-2.348,0.255-4.707,0.256-7.062C37.218,167.145,37.216,152.786,37.216,138.427z"></path>
+
+<!-- "u" -->
+<path fill="#252525" d="M125.536,162.479c-2.908,2.385-5.783,4.312-8.88,5.904c-10.348,5.323-20.514,4.521-30.324-1.253
+    c-6.71-3.95-11.012-9.849-12.52-17.606c-0.236-1.213-0.363-2.438-0.363-3.688c0.01-19.797,0.017-39.593-0.02-59.39
+    c-0.002-1.102,0.285-1.357,1.363-1.351c7.798,0.049,15.597,0.044,23.396,0.003c0.95-0.005,1.177,0.25,1.175,1.183
+    c-0.027,19.356-0.025,38.713-0.018,58.07c0.002,6.34,3.599,10.934,9.672,12.42c2.13,0.521,4.19,0.396,6.173-0.6
+    c4.26-2.139,7.457-5.427,10.116-9.307c0.333-0.487,0.224-1,0.224-1.51c0.007-19.635,0.016-39.271-0.02-58.904
+    c-0.002-1.083,0.255-1.369,1.353-1.361c7.838,0.052,15.677,0.045,23.515,0.004c0.916-0.005,1.103,0.244,1.102,1.124
+    c-0.025,27.677-0.026,55.353,0.002,83.024c0.001,0.938-0.278,1.099-1.139,1.095c-7.918-0.028-15.837-0.028-23.756-0.001
+    c-0.815,0.003-1.1-0.166-1.073-1.037C125.581,167.117,125.536,164.928,125.536,162.479z"></path>
+
+<!-- "l" -->
+<path fill="#252525" d="M187.423,107.08c0,20.637-0.011,41.273,0.026,61.91c0.003,1.119-0.309,1.361-1.381,1.355
+    c-7.799-0.052-15.598-0.047-23.396-0.008c-0.898,0.008-1.117-0.222-1.115-1.115c0.021-39.074,0.021-78.147,0-117.226
+    c0-0.811,0.189-1.169,1.006-1.392c7.871-2.149,15.73-4.327,23.584-6.545c1.045-0.295,1.308-0.17,1.306,0.985
+    C187.412,65.727,187.423,86.403,187.423,107.08z"></path>
+
+<!-- "i" -->
+<path fill="#252525" d="M223.46,126.477c0,14.155-0.011,28.312,0.021,42.467c0.002,1.027-0.164,1.418-1.332,1.408
+    c-7.838-0.061-15.676-0.047-23.516-0.01c-0.881,0.004-1.121-0.189-1.119-1.104c0.026-26.153,0.025-52.307,0-78.458
+    c0-0.776,0.203-1.101,0.941-1.302c7.984-2.172,15.972-4.35,23.938-6.596c1.049-0.296,1.08,0.031,1.078,0.886
+    C223.454,98.004,223.46,112.239,223.46,126.477z"></path>
+
+<!-- "a" -->
+<path fill="#252525" d="M277.695,163.6c-0.786,0.646-1.404,1.125-2,1.635c-4.375,3.746-9.42,5.898-15.16,6.42
+    c-5.792,0.527-11.479,0.244-16.934-2.047c-12.08-5.071-15.554-17.188-11.938-27.448c1.799-5.111,5.472-8.868,9.831-11.94
+    c5.681-4.003,12.009-6.732,18.504-9.074c5.576-2.014,11.186-3.939,16.955-5.347c0.445-0.104,0.773-0.243,0.757-0.854
+    c-0.136-4.389,0.261-8.79-0.479-13.165c-1.225-7.209-6.617-10.013-12.895-9.348c-0.516,0.055-1.029,0.129-1.536,0.241
+    c-4.877,1.081-7.312,4.413-7.374,10.127c-0.02,1.729-0.229,3.418-0.693,5.084c-0.906,3.229-2.969,5.354-6.168,6.266
+    c-3.422,0.979-6.893,0.998-10.23-0.305c-6.529-2.543-8.877-10.164-5.12-16.512c2.249-3.799,5.606-6.4,9.461-8.405
+    c6.238-3.246,12.914-4.974,19.896-5.537c7.565-0.61,15.096-0.366,22.49,1.507c4.285,1.085,8.312,2.776,11.744,5.657
+    c4.473,3.749,6.776,8.647,6.812,14.374c0.139,21.477,0.096,42.951,0.143,64.428c0.002,0.799-0.248,0.983-1.021,0.98
+    c-8.035-0.025-16.074-0.023-24.113-0.001c-0.716,0.002-0.973-0.146-0.941-0.915C277.736,167.562,277.695,165.698,277.695,163.6z
+     M277.695,126.393c-4.793,2.104-9.25,4.373-13.287,7.408c-2.151,1.618-4.033,3.483-5.732,5.581
+    c-4.229,5.226-1.988,13.343,1.693,16.599c1.592,1.406,3.359,1.906,5.419,1.521c1.621-0.307,3.149-0.857,4.549-1.734
+    c1.521-0.951,2.949-2.072,4.539-2.887c2.31-1.18,2.97-2.861,2.894-5.445C277.561,140.484,277.695,133.527,277.695,126.393z"></path>
+
+</svg>
+
+        <h1>
+          <a name="CpuId">CpuId</a>
+        </h1>
+
+        <p>
+          <a href="../index.html#CpuId">← Back to package list</a>
+        </p>
+
+    </div>
+
+    <p>
+      If you think that there is an error in how your package is being tested or represented, please file an issue at <a href="https://github.com/JuliaComputing/NewPkgEval.jl">NewPkgEval.jl</a>, making sure to read the FAQ first.
+    </p>
+
+
+    <h3>Results with Julia v1.2.0</h3>
+
+    <p>
+      Testing was <strong>successful</strong>.
+      Last evaluation was  ago and took 49 seconds.
+    </p>
+
+    <p>
+      Click <a href="/home/maleadt/Julia/pkg/NewPkgEval/site/build/logs/CpuId/1.2.0.log">here</a> to download the log file.
+      
+    </p>
+
+      <button class="collapsible">Click here to show the log contents.</button>
+      <div class="content">
+      <pre> Resolving package versions...
+ Installed CpuId ─ v0.2.2
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.2&#x2F;Project.toml`
+  [adafc99b] + CpuId v0.2.2
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.2&#x2F;Manifest.toml`
+  [adafc99b] + CpuId v0.2.2
+  [2a0f44e3] + Base64 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [8dfed614] + Test 
+   Testing CpuId
+    Status `&#x2F;tmp&#x2F;jl_yC2IGq&#x2F;Manifest.toml`
+  [adafc99b] CpuId v0.2.2
+  [2a0f44e3] Base64  [`@stdlib&#x2F;Base64`]
+  [8ba89e20] Distributed  [`@stdlib&#x2F;Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib&#x2F;InteractiveUtils`]
+  [56ddb016] Logging  [`@stdlib&#x2F;Logging`]
+  [d6f4376e] Markdown  [`@stdlib&#x2F;Markdown`]
+  [9a3f8284] Random  [`@stdlib&#x2F;Random`]
+  [9e88b42a] Serialization  [`@stdlib&#x2F;Serialization`]
+  [6462fe0b] Sockets  [`@stdlib&#x2F;Sockets`]
+  [8dfed614] Test  [`@stdlib&#x2F;Test`]
+| Cpu Property       | Value                                                      |
+|:------------------ |:---------------------------------------------------------- |
+| Brand              | Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz                 |
+| Vendor             | :Intel                                                     |
+| Architecture       | :Skylake                                                   |
+| Model              | Family: 0x06, Model: 0x55, Stepping: 0x04, Type: 0x00      |
+| Cores              | 10 physical cores, 20 logical cores (on executing CPU)     |
+|                    | Hyperthreading detected                                    |
+| Clock Frequencies  | 2200 &#x2F; 3000 MHz (base&#x2F;max), 100 MHz bus                    |
+| Data Cache         | Level 1:3 : (32, 1024, 14080) kbytes                       |
+|                    | 64 byte cache line size                                    |
+| Address Size       | 48 bits virtual, 46 bits physical                          |
+| SIMD               | 512 bit = 64 byte max. SIMD vector size                    |
+| Time Stamp Counter | TSC is accessible via `rdtsc`                              |
+|                    | TSC runs at constant rate (invariant from clock frequency) |
+| Perf. Monitoring   | Performance Monitoring Counters (PMC) revision 4           |
+|                    | Available hardware counters per logical core:              |
+|                    | 3 fixed-function counters of 48 bit width                  |
+|                    | 4 general-purpose counters of 48 bit width                 |
+| Hypervisor         | No                                                         |
+
+| Cpu Feature | Description                                                    |
+|:----------- |:-------------------------------------------------------------- |
+| ACPI        | Thermal monitor and software controlled clock facilities (MSR) |
+| ADX         | Intel ADX (Multi-Precision Add-Carry Instruction Extensions)   |
+| AES         | AES encryption instruction set                                 |
+| AHF64       | LAHF and SAHF in PM64                                          |
+| APIC        | APIC on-chip (Advanced Programmable Interrupt Controller)      |
+| AVX         | 256bit Advanced Vector Extensions, AVX                         |
+| AVX2        | SIMD 256bit Advanced Vector Extensions 2                       |
+| AVX512BW    | AVX-512 Byte and Word Instructions                             |
+| AVX512CD    | AVX-512 Conflict Detection Instructions                        |
+| AVX512DQ    | AVX-512 Doubleword and Quadword Instructions                   |
+| AVX512F     | AVX-512 Foundation                                             |
+| AVX512VL    | AVX-512 Vector Length Extensions                               |
+| BMI1        | Bit Manipulation Instruction Set 1                             |
+| BMI2        | Bit Manipulation Instruction Set 2                             |
+| CLFLUSH     | CLFLUSHOPT Instructions                                        |
+| CLFSH       | CLFLUSH instruction (SSE2)                                     |
+| CLWB        | CLWB instruction                                               |
+| CMOV        | Conditional move CMOV and FCMOV instructions                   |
+| CX16        | CMPXCHG16B instruction                                         |
+| CX8         | CMPXCHG8 instruction (64bit compare and exchange)              |
+| DCA         | Direct cache access for DMA writes                             |
+| DE          | Debugging extensions                                           |
+| DS          | Debug store to save trace of executed jumps                    |
+| DSCPL       | CPL qualified debug store                                      |
+| DTES64      | 64bit debug store                                              |
+| ERMS        | Enhanced REP MOVSB&#x2F;STOSB                                       |
+| EST         | Enhanced SpeedStep                                             |
+| F16C        | half-precision float support                                   |
+| FMA3        | Fused multiply-add using three operands                        |
+| FPDPR       | FPU CS and FPU DS deprecated                                   |
+| FPU         | Onboard x87 FPU                                                |
+| FSGS        | Access to base of %fs and %gs                                  |
+| FXSR        | FXSAVE, FXRSTOR instructions                                   |
+| HLE         | Transactional Synchronization Extensions                       |
+| HTT         | Max APIC IDs reserved field is valid                           |
+| INVPCID     | INVPCID instruction                                            |
+| IPT         | Intel Processor Trace                                          |
+| LM          | AMD64 long mode                                                |
+| LZCNT       | LZCNT instruction                                              |
+| MCA         | Machine Check Architecture (MSR)                               |
+| MCE         | Machine check exception                                        |
+| MMX         | 64bit Multimedia Streaming Extensions                          |
+| MON         | MONITOR and MWAIT instructions                                 |
+| MOVBE       | MOVBE instruction                                              |
+| MPX         | Intel MPX (Memory Protection Extensions)                       |
+| MSR         | Model Specific Registers, RDMSR and WRMSR instructions         |
+| MTRR        | Memory Type Range Registers                                    |
+| NX          | NXE                                                            |
+| OSPKE       | PKU enabled by OS                                              |
+| OSXSV       | XSAVE enabled by OS                                            |
+| PAE         | Physical address extension                                     |
+| PAT         | Page attribute table                                           |
+| PBE         | Pending break enable wakeup support                            |
+| PCID        | Process context identifiers                                    |
+| PCLMUL      | PCLMULQDQ support                                              |
+| PDCM        | Perfmon and debug capabilities                                 |
+| PG1G        | PG1G                                                           |
+| PGE         | Page global bit                                                |
+| PKU         | Memory Protection Keys for User-mode pages                     |
+| POPCNT      | POPCNT instruction                                             |
+| PQE         | Platform Quality of Service Enforcement                        |
+| PQM         | Platform Quality of Service Monitoring                         |
+| PREFETCHW   | PREFETCHW instruction                                          |
+| PSE         | Page size extensions                                           |
+| PSE36       | 36bit page size extension                                      |
+| RDRND       | On-chip random number generator                                |
+| RDSEED      | RDSEED instruction                                             |
+| RDTSCP      | RDTSCP instruction                                             |
+| RTM         | Transactional Synchronization Extensions                       |
+| SDBG        | Silicon debug interface                                        |
+| SEP         | SYSENTER and SYSEXIT instructions                              |
+| SMAP        | Supervisor Mode Access Prevention                              |
+| SMEP        | Supervisor-Mode Execution Prevention                           |
+| SMX         | Safer mode instructions                                        |
+| SS          | Self Snoop                                                     |
+| SSE         | 128bit Streaming SIMD Extensions 1                             |
+| SSE2        | 128bit Streaming SIMD Extensions 2                             |
+| SSE3        | 128bit Streaming SIMD Extensions 3                             |
+| SSE41       | 128bit Streaming SIMD Extensions 4.1                           |
+| SSE42       | 128bit Streaming SIMD Extensions 4.2                           |
+| SSSE3       | 128bit Supplemental Streaming SIMD Extension 3                 |
+| SYSCALL     | SYSCALL and SYSRET                                             |
+| TM          | Thermal monitor with automatic thermal control                 |
+| TM2         | Thermal monitor 2                                              |
+| TSC         | Time stamp counter                                             |
+| TSCADJ      | IA32_TSC_ADJUST                                                |
+| TSCDL       | APIC one-shot operation using TSC deadline value               |
+| TSCINV      | Invariant TSC                                                  |
+| VME         | Virtual 8086 mode enhancements                                 |
+| VMX         | Virtual machine extensions                                     |
+| X2APIC      | x2APIC support                                                 |
+| XSAVE       | XSAVE, XRESTOR, XSETBV, XGETBV                                 |
+| XTPR        | disabling sending of task priority messages                    |
+
+
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+stepping	: 4
+microcode	: 0x200005e
+cpu MHz		: 2385.231
+cache size	: 14080 KB
+physical id	: 0
+siblings	: 20
+core id		: 0
+cpu cores	: 10
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 invpcid_single pti intel_ppin ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req pku ospke md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 4400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+Test Summary: | Pass  Total
+ReturnTypes   |   49     49
+Dump of all cpuid leafs, used for mocking &#39;cpuid&#39;...
+
+# Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz without hypervisor
+push!( _mockdb, (Dict(
+    ((0x00000000, 0x00000000) =&gt; (0x00000016, 0x756e6547, 0x6c65746e, 0x49656e69)),
+    ((0x00000001, 0x00000000) =&gt; (0x00050654, 0x14200800, 0x7ffefbff, 0xbfebfbff)),
+    ((0x00000002, 0x00000000) =&gt; (0x76036301, 0x00f0b5ff, 0x00000000, 0x00c30000)),
+    ((0x00000003, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000004, 0x00000000) =&gt; (0x3c004121, 0x01c0003f, 0x0000003f, 0x00000000)),
+    ((0x00000005, 0x00000000) =&gt; (0x00000040, 0x00000040, 0x00000003, 0x00002020)),
+    ((0x00000006, 0x00000000) =&gt; (0x00000ef7, 0x00000002, 0x00000009, 0x00000000)),
+    ((0x00000007, 0x00000000) =&gt; (0x00000000, 0xd39ffffb, 0x00000018, 0x9c002400)),
+    ((0x00000008, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000009, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x0000000a, 0x00000000) =&gt; (0x07300404, 0x00000000, 0x00000000, 0x00000603)),
+    ((0x0000000b, 0x00000000) =&gt; (0x00000001, 0x00000002, 0x00000100, 0x00000014)),
+    ((0x0000000c, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x0000000d, 0x00000000) =&gt; (0x000002ff, 0x00000a88, 0x00000a88, 0x00000000)),
+    ((0x0000000e, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x0000000f, 0x00000000) =&gt; (0x00000000, 0x0000004f, 0x00000000, 0x00000002)),
+    ((0x00000010, 0x00000000) =&gt; (0x00000000, 0x0000000a, 0x00000000, 0x00000000)),
+    ((0x00000011, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000012, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000013, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000014, 0x00000000) =&gt; (0x00000001, 0x0000000f, 0x00000007, 0x00000000)),
+    ((0x00000015, 0x00000000) =&gt; (0x00000002, 0x000000b0, 0x00000000, 0x00000000)),
+    ((0x00000016, 0x00000000) =&gt; (0x00000898, 0x00000bb8, 0x00000064, 0x00000000)),
+    ((0x80000000, 0x00000000) =&gt; (0x80000008, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x80000001, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000121, 0x2c100800)),
+    ((0x80000002, 0x00000000) =&gt; (0x65746e49, 0x2952286c, 0x6f655820, 0x2952286e)),
+    ((0x80000003, 0x00000000) =&gt; (0x6c695320, 0x20726576, 0x34313134, 0x55504320)),
+    ((0x80000004, 0x00000000) =&gt; (0x32204020, 0x4730322e, 0x00007a48, 0x00000000)),
+    ((0x80000005, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x80000006, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x01006040, 0x00000000)),
+    ((0x80000007, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000100)),
+    ((0x80000008, 0x00000000) =&gt; (0x0000302e, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000004, 0x00000001) =&gt; (0x3c004122, 0x01c0003f, 0x0000003f, 0x00000000)),
+    ((0x00000004, 0x00000002) =&gt; (0x3c004143, 0x03c0003f, 0x000003ff, 0x00000000)),
+    ((0x00000004, 0x00000003) =&gt; (0x3c07c163, 0x0280003f, 0x00004fff, 0x00000004)),
+    ((0x00000004, 0x00000004) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x0000000b, 0x00000001) =&gt; (0x00000005, 0x00000014, 0x00000201, 0x00000014)),
+    ((0x0000000b, 0x00000002) =&gt; (0x00000000, 0x00000000, 0x00000002, 0x00000014)),
+  ) =&gt; Dict{Symbol,Any}(
+    :cpuvendor       =&gt; :Intel,
+    :cpuarchitecture =&gt; :Skylake,
+    :cpucores        =&gt; 10,
+    :cputhreads      =&gt; 20,
+    :cachesize       =&gt; (32768, 1048576, 14417920),
+    :cachelinesize   =&gt; 64,
+    :simdbits        =&gt; 512,
+  )))
+
+Done.
+
+
+
+-----
+Mocking CpuId
+-----
+
+Tested recorded cpuid table #1 for &#39;&#39;
+Tested recorded cpuid table #2 for &#39;Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz&#39;
+Tested recorded cpuid table #3 for &#39;Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz&#39;
+Tested recorded cpuid table #4 for &#39;Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz&#39;
+Tested recorded cpuid table #5 for &#39;Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz&#39;
+Tested recorded cpuid table #6 for &#39;Intel(R) Xeon(R) CPU           X5570  @ 2.93GHz&#39;
+Tested recorded cpuid table #7 for &#39;Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz&#39;
+Tested recorded cpuid table #8 for &#39;Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz&#39;
+Tested recorded cpuid table #9 for &#39;Intel(R) Xeon Phi(TM) CPU 7250 @ 1.40GHz&#39;
+Tested recorded cpuid table #10 for &#39;Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz&#39;
+Tested recorded cpuid table #11 for &#39;Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz&#39;
+Tested recorded cpuid table #12 for &#39;AMD A10-8700P Radeon R6, 10 Compute Cores 4C+6G&#39;
+Tested recorded cpuid table #13 for &#39;AMD Ryzen Threadripper 1950X 16-Core Processor&#39;
+Tested recorded cpuid table #14 for &#39;AMD A8-6410 APU with AMD Radeon R5 Graphics&#39;
+Tested recorded cpuid table #15 for &#39;AMD Athlon(tm) 5350 APU with Radeon(tm) R3&#39;
+Tested recorded cpuid table #16 for &#39;AMD EPYC 7401P 24-Core Processor&#39;
+Test Summary: | Pass  Broken  Total
+Mocking       |  174       2    176
+   Testing CpuId tests passed 
+</pre>
+      </div>
+
+    <h3>Results with Julia v1.3.0</h3>
+
+    <p>
+      Testing was <strong>successful</strong>.
+      Last evaluation was  ago and took 1 minute, 4 seconds.
+    </p>
+
+    <p>
+      Click <a href="/home/maleadt/Julia/pkg/NewPkgEval/site/build/logs/CpuId/1.3.0.log">here</a> to download the log file.
+      
+    </p>
+
+      <button class="collapsible">Click here to show the log contents.</button>
+      <div class="content">
+      <pre> Resolving package versions...
+ Installed CpuId ─ v0.2.2
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Project.toml`
+  [adafc99b] + CpuId v0.2.2
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Manifest.toml`
+  [adafc99b] + CpuId v0.2.2
+  [2a0f44e3] + Base64 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [8dfed614] + Test 
+   Testing CpuId
+    Status `&#x2F;tmp&#x2F;jl_PaVznI&#x2F;Manifest.toml`
+  [adafc99b] CpuId v0.2.2
+  [2a0f44e3] Base64  [`@stdlib&#x2F;Base64`]
+  [8ba89e20] Distributed  [`@stdlib&#x2F;Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib&#x2F;InteractiveUtils`]
+  [56ddb016] Logging  [`@stdlib&#x2F;Logging`]
+  [d6f4376e] Markdown  [`@stdlib&#x2F;Markdown`]
+  [9a3f8284] Random  [`@stdlib&#x2F;Random`]
+  [9e88b42a] Serialization  [`@stdlib&#x2F;Serialization`]
+  [6462fe0b] Sockets  [`@stdlib&#x2F;Sockets`]
+  [8dfed614] Test  [`@stdlib&#x2F;Test`]
+| Cpu Property       | Value                                                      |
+|:------------------ |:---------------------------------------------------------- |
+| Brand              | Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz                 |
+| Vendor             | :Intel                                                     |
+| Architecture       | :Skylake                                                   |
+| Model              | Family: 0x06, Model: 0x55, Stepping: 0x04, Type: 0x00      |
+| Cores              | 10 physical cores, 20 logical cores (on executing CPU)     |
+|                    | Hyperthreading detected                                    |
+| Clock Frequencies  | 2200 &#x2F; 3000 MHz (base&#x2F;max), 100 MHz bus                    |
+| Data Cache         | Level 1:3 : (32, 1024, 14080) kbytes                       |
+|                    | 64 byte cache line size                                    |
+| Address Size       | 48 bits virtual, 46 bits physical                          |
+| SIMD               | 512 bit = 64 byte max. SIMD vector size                    |
+| Time Stamp Counter | TSC is accessible via `rdtsc`                              |
+|                    | TSC runs at constant rate (invariant from clock frequency) |
+| Perf. Monitoring   | Performance Monitoring Counters (PMC) revision 4           |
+|                    | Available hardware counters per logical core:              |
+|                    | 3 fixed-function counters of 48 bit width                  |
+|                    | 4 general-purpose counters of 48 bit width                 |
+| Hypervisor         | No                                                         |
+
+| Cpu Feature | Description                                                    |
+|:----------- |:-------------------------------------------------------------- |
+| ACPI        | Thermal monitor and software controlled clock facilities (MSR) |
+| ADX         | Intel ADX (Multi-Precision Add-Carry Instruction Extensions)   |
+| AES         | AES encryption instruction set                                 |
+| AHF64       | LAHF and SAHF in PM64                                          |
+| APIC        | APIC on-chip (Advanced Programmable Interrupt Controller)      |
+| AVX         | 256bit Advanced Vector Extensions, AVX                         |
+| AVX2        | SIMD 256bit Advanced Vector Extensions 2                       |
+| AVX512BW    | AVX-512 Byte and Word Instructions                             |
+| AVX512CD    | AVX-512 Conflict Detection Instructions                        |
+| AVX512DQ    | AVX-512 Doubleword and Quadword Instructions                   |
+| AVX512F     | AVX-512 Foundation                                             |
+| AVX512VL    | AVX-512 Vector Length Extensions                               |
+| BMI1        | Bit Manipulation Instruction Set 1                             |
+| BMI2        | Bit Manipulation Instruction Set 2                             |
+| CLFLUSH     | CLFLUSHOPT Instructions                                        |
+| CLFSH       | CLFLUSH instruction (SSE2)                                     |
+| CLWB        | CLWB instruction                                               |
+| CMOV        | Conditional move CMOV and FCMOV instructions                   |
+| CX16        | CMPXCHG16B instruction                                         |
+| CX8         | CMPXCHG8 instruction (64bit compare and exchange)              |
+| DCA         | Direct cache access for DMA writes                             |
+| DE          | Debugging extensions                                           |
+| DS          | Debug store to save trace of executed jumps                    |
+| DSCPL       | CPL qualified debug store                                      |
+| DTES64      | 64bit debug store                                              |
+| ERMS        | Enhanced REP MOVSB&#x2F;STOSB                                       |
+| EST         | Enhanced SpeedStep                                             |
+| F16C        | half-precision float support                                   |
+| FMA3        | Fused multiply-add using three operands                        |
+| FPDPR       | FPU CS and FPU DS deprecated                                   |
+| FPU         | Onboard x87 FPU                                                |
+| FSGS        | Access to base of %fs and %gs                                  |
+| FXSR        | FXSAVE, FXRSTOR instructions                                   |
+| HLE         | Transactional Synchronization Extensions                       |
+| HTT         | Max APIC IDs reserved field is valid                           |
+| INVPCID     | INVPCID instruction                                            |
+| IPT         | Intel Processor Trace                                          |
+| LM          | AMD64 long mode                                                |
+| LZCNT       | LZCNT instruction                                              |
+| MCA         | Machine Check Architecture (MSR)                               |
+| MCE         | Machine check exception                                        |
+| MMX         | 64bit Multimedia Streaming Extensions                          |
+| MON         | MONITOR and MWAIT instructions                                 |
+| MOVBE       | MOVBE instruction                                              |
+| MPX         | Intel MPX (Memory Protection Extensions)                       |
+| MSR         | Model Specific Registers, RDMSR and WRMSR instructions         |
+| MTRR        | Memory Type Range Registers                                    |
+| NX          | NXE                                                            |
+| OSPKE       | PKU enabled by OS                                              |
+| OSXSV       | XSAVE enabled by OS                                            |
+| PAE         | Physical address extension                                     |
+| PAT         | Page attribute table                                           |
+| PBE         | Pending break enable wakeup support                            |
+| PCID        | Process context identifiers                                    |
+| PCLMUL      | PCLMULQDQ support                                              |
+| PDCM        | Perfmon and debug capabilities                                 |
+| PG1G        | PG1G                                                           |
+| PGE         | Page global bit                                                |
+| PKU         | Memory Protection Keys for User-mode pages                     |
+| POPCNT      | POPCNT instruction                                             |
+| PQE         | Platform Quality of Service Enforcement                        |
+| PQM         | Platform Quality of Service Monitoring                         |
+| PREFETCHW   | PREFETCHW instruction                                          |
+| PSE         | Page size extensions                                           |
+| PSE36       | 36bit page size extension                                      |
+| RDRND       | On-chip random number generator                                |
+| RDSEED      | RDSEED instruction                                             |
+| RDTSCP      | RDTSCP instruction                                             |
+| RTM         | Transactional Synchronization Extensions                       |
+| SDBG        | Silicon debug interface                                        |
+| SEP         | SYSENTER and SYSEXIT instructions                              |
+| SMAP        | Supervisor Mode Access Prevention                              |
+| SMEP        | Supervisor-Mode Execution Prevention                           |
+| SMX         | Safer mode instructions                                        |
+| SS          | Self Snoop                                                     |
+| SSE         | 128bit Streaming SIMD Extensions 1                             |
+| SSE2        | 128bit Streaming SIMD Extensions 2                             |
+| SSE3        | 128bit Streaming SIMD Extensions 3                             |
+| SSE41       | 128bit Streaming SIMD Extensions 4.1                           |
+| SSE42       | 128bit Streaming SIMD Extensions 4.2                           |
+| SSSE3       | 128bit Supplemental Streaming SIMD Extension 3                 |
+| SYSCALL     | SYSCALL and SYSRET                                             |
+| TM          | Thermal monitor with automatic thermal control                 |
+| TM2         | Thermal monitor 2                                              |
+| TSC         | Time stamp counter                                             |
+| TSCADJ      | IA32_TSC_ADJUST                                                |
+| TSCDL       | APIC one-shot operation using TSC deadline value               |
+| TSCINV      | Invariant TSC                                                  |
+| VME         | Virtual 8086 mode enhancements                                 |
+| VMX         | Virtual machine extensions                                     |
+| X2APIC      | x2APIC support                                                 |
+| XSAVE       | XSAVE, XRESTOR, XSETBV, XGETBV                                 |
+| XTPR        | disabling sending of task priority messages                    |
+
+
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+stepping	: 4
+microcode	: 0x200005e
+cpu MHz		: 2500.000
+cache size	: 14080 KB
+physical id	: 0
+siblings	: 20
+core id		: 0
+cpu cores	: 10
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 invpcid_single pti intel_ppin ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req pku ospke md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 4400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+Test Summary: | Pass  Total
+ReturnTypes   |   49     49
+Dump of all cpuid leafs, used for mocking &#39;cpuid&#39;...
+
+# Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz without hypervisor
+push!( _mockdb, (Dict(
+    ((0x00000000, 0x00000000) =&gt; (0x00000016, 0x756e6547, 0x6c65746e, 0x49656e69)),
+    ((0x00000001, 0x00000000) =&gt; (0x00050654, 0x09200800, 0x7ffefbff, 0xbfebfbff)),
+    ((0x00000002, 0x00000000) =&gt; (0x76036301, 0x00f0b5ff, 0x00000000, 0x00c30000)),
+    ((0x00000003, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000004, 0x00000000) =&gt; (0x3c004121, 0x01c0003f, 0x0000003f, 0x00000000)),
+    ((0x00000005, 0x00000000) =&gt; (0x00000040, 0x00000040, 0x00000003, 0x00002020)),
+    ((0x00000006, 0x00000000) =&gt; (0x00000ef7, 0x00000002, 0x00000009, 0x00000000)),
+    ((0x00000007, 0x00000000) =&gt; (0x00000000, 0xd39ffffb, 0x00000018, 0x9c002400)),
+    ((0x00000008, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000009, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x0000000a, 0x00000000) =&gt; (0x07300404, 0x00000000, 0x00000000, 0x00000603)),
+    ((0x0000000b, 0x00000000) =&gt; (0x00000001, 0x00000002, 0x00000100, 0x00000009)),
+    ((0x0000000c, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x0000000d, 0x00000000) =&gt; (0x000002ff, 0x00000a88, 0x00000a88, 0x00000000)),
+    ((0x0000000e, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x0000000f, 0x00000000) =&gt; (0x00000000, 0x0000004f, 0x00000000, 0x00000002)),
+    ((0x00000010, 0x00000000) =&gt; (0x00000000, 0x0000000a, 0x00000000, 0x00000000)),
+    ((0x00000011, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000012, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000013, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000014, 0x00000000) =&gt; (0x00000001, 0x0000000f, 0x00000007, 0x00000000)),
+    ((0x00000015, 0x00000000) =&gt; (0x00000002, 0x000000b0, 0x00000000, 0x00000000)),
+    ((0x00000016, 0x00000000) =&gt; (0x00000898, 0x00000bb8, 0x00000064, 0x00000000)),
+    ((0x80000000, 0x00000000) =&gt; (0x80000008, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x80000001, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000121, 0x2c100800)),
+    ((0x80000002, 0x00000000) =&gt; (0x65746e49, 0x2952286c, 0x6f655820, 0x2952286e)),
+    ((0x80000003, 0x00000000) =&gt; (0x6c695320, 0x20726576, 0x34313134, 0x55504320)),
+    ((0x80000004, 0x00000000) =&gt; (0x32204020, 0x4730322e, 0x00007a48, 0x00000000)),
+    ((0x80000005, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x80000006, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x01006040, 0x00000000)),
+    ((0x80000007, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000100)),
+    ((0x80000008, 0x00000000) =&gt; (0x0000302e, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000004, 0x00000001) =&gt; (0x3c004122, 0x01c0003f, 0x0000003f, 0x00000000)),
+    ((0x00000004, 0x00000002) =&gt; (0x3c004143, 0x03c0003f, 0x000003ff, 0x00000000)),
+    ((0x00000004, 0x00000003) =&gt; (0x3c07c163, 0x0280003f, 0x00004fff, 0x00000004)),
+    ((0x00000004, 0x00000004) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x0000000b, 0x00000001) =&gt; (0x00000005, 0x00000014, 0x00000201, 0x00000009)),
+    ((0x0000000b, 0x00000002) =&gt; (0x00000000, 0x00000000, 0x00000002, 0x00000009)),
+  ) =&gt; Dict{Symbol,Any}(
+    :cpuvendor       =&gt; :Intel,
+    :cpuarchitecture =&gt; :Skylake,
+    :cpucores        =&gt; 10,
+    :cputhreads      =&gt; 20,
+    :cachesize       =&gt; (32768, 1048576, 14417920),
+    :cachelinesize   =&gt; 64,
+    :simdbits        =&gt; 512,
+  )))
+
+Done.
+
+
+
+-----
+Mocking CpuId
+-----
+
+Tested recorded cpuid table #1 for &#39;&#39;
+Tested recorded cpuid table #2 for &#39;Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz&#39;
+Tested recorded cpuid table #3 for &#39;Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz&#39;
+Tested recorded cpuid table #4 for &#39;Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz&#39;
+Tested recorded cpuid table #5 for &#39;Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz&#39;
+Tested recorded cpuid table #6 for &#39;Intel(R) Xeon(R) CPU           X5570  @ 2.93GHz&#39;
+Tested recorded cpuid table #7 for &#39;Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz&#39;
+Tested recorded cpuid table #8 for &#39;Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz&#39;
+Tested recorded cpuid table #9 for &#39;Intel(R) Xeon Phi(TM) CPU 7250 @ 1.40GHz&#39;
+Tested recorded cpuid table #10 for &#39;Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz&#39;
+Tested recorded cpuid table #11 for &#39;Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz&#39;
+Tested recorded cpuid table #12 for &#39;AMD A10-8700P Radeon R6, 10 Compute Cores 4C+6G&#39;
+Tested recorded cpuid table #13 for &#39;AMD Ryzen Threadripper 1950X 16-Core Processor&#39;
+Tested recorded cpuid table #14 for &#39;AMD A8-6410 APU with AMD Radeon R5 Graphics&#39;
+Tested recorded cpuid table #15 for &#39;AMD Athlon(tm) 5350 APU with Radeon(tm) R3&#39;
+Tested recorded cpuid table #16 for &#39;AMD EPYC 7401P 24-Core Processor&#39;
+Test Summary: | Pass  Broken  Total
+Mocking       |  174       2    176
+   Testing CpuId tests passed 
+</pre>
+      </div>
+
+    <h3>Results with Julia v1.3.1-pre-7704df0a5a</h3>
+
+    <p>
+      Testing was <strong>successful</strong>.
+      Last evaluation was  ago and took 1 minute, 9 seconds.
+    </p>
+
+    <p>
+      Click <a href="/home/maleadt/Julia/pkg/NewPkgEval/site/build/logs/CpuId/1.3.1-pre-7704df0a5a.log">here</a> to download the log file.
+      
+    </p>
+
+      <button class="collapsible">Click here to show the log contents.</button>
+      <div class="content">
+      <pre> Resolving package versions...
+ Installed CpuId ─ v0.2.2
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Project.toml`
+  [adafc99b] + CpuId v0.2.2
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Manifest.toml`
+  [adafc99b] + CpuId v0.2.2
+  [2a0f44e3] + Base64 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [8dfed614] + Test 
+   Testing CpuId
+    Status `&#x2F;tmp&#x2F;jl_lQHJho&#x2F;Manifest.toml`
+  [adafc99b] CpuId v0.2.2
+  [2a0f44e3] Base64  [`@stdlib&#x2F;Base64`]
+  [8ba89e20] Distributed  [`@stdlib&#x2F;Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib&#x2F;InteractiveUtils`]
+  [56ddb016] Logging  [`@stdlib&#x2F;Logging`]
+  [d6f4376e] Markdown  [`@stdlib&#x2F;Markdown`]
+  [9a3f8284] Random  [`@stdlib&#x2F;Random`]
+  [9e88b42a] Serialization  [`@stdlib&#x2F;Serialization`]
+  [6462fe0b] Sockets  [`@stdlib&#x2F;Sockets`]
+  [8dfed614] Test  [`@stdlib&#x2F;Test`]
+| Cpu Property       | Value                                                      |
+|:------------------ |:---------------------------------------------------------- |
+| Brand              | Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz                 |
+| Vendor             | :Intel                                                     |
+| Architecture       | :Skylake                                                   |
+| Model              | Family: 0x06, Model: 0x55, Stepping: 0x04, Type: 0x00      |
+| Cores              | 10 physical cores, 20 logical cores (on executing CPU)     |
+|                    | Hyperthreading detected                                    |
+| Clock Frequencies  | 2200 &#x2F; 3000 MHz (base&#x2F;max), 100 MHz bus                    |
+| Data Cache         | Level 1:3 : (32, 1024, 14080) kbytes                       |
+|                    | 64 byte cache line size                                    |
+| Address Size       | 48 bits virtual, 46 bits physical                          |
+| SIMD               | 512 bit = 64 byte max. SIMD vector size                    |
+| Time Stamp Counter | TSC is accessible via `rdtsc`                              |
+|                    | TSC runs at constant rate (invariant from clock frequency) |
+| Perf. Monitoring   | Performance Monitoring Counters (PMC) revision 4           |
+|                    | Available hardware counters per logical core:              |
+|                    | 3 fixed-function counters of 48 bit width                  |
+|                    | 4 general-purpose counters of 48 bit width                 |
+| Hypervisor         | No                                                         |
+
+| Cpu Feature | Description                                                    |
+|:----------- |:-------------------------------------------------------------- |
+| ACPI        | Thermal monitor and software controlled clock facilities (MSR) |
+| ADX         | Intel ADX (Multi-Precision Add-Carry Instruction Extensions)   |
+| AES         | AES encryption instruction set                                 |
+| AHF64       | LAHF and SAHF in PM64                                          |
+| APIC        | APIC on-chip (Advanced Programmable Interrupt Controller)      |
+| AVX         | 256bit Advanced Vector Extensions, AVX                         |
+| AVX2        | SIMD 256bit Advanced Vector Extensions 2                       |
+| AVX512BW    | AVX-512 Byte and Word Instructions                             |
+| AVX512CD    | AVX-512 Conflict Detection Instructions                        |
+| AVX512DQ    | AVX-512 Doubleword and Quadword Instructions                   |
+| AVX512F     | AVX-512 Foundation                                             |
+| AVX512VL    | AVX-512 Vector Length Extensions                               |
+| BMI1        | Bit Manipulation Instruction Set 1                             |
+| BMI2        | Bit Manipulation Instruction Set 2                             |
+| CLFLUSH     | CLFLUSHOPT Instructions                                        |
+| CLFSH       | CLFLUSH instruction (SSE2)                                     |
+| CLWB        | CLWB instruction                                               |
+| CMOV        | Conditional move CMOV and FCMOV instructions                   |
+| CX16        | CMPXCHG16B instruction                                         |
+| CX8         | CMPXCHG8 instruction (64bit compare and exchange)              |
+| DCA         | Direct cache access for DMA writes                             |
+| DE          | Debugging extensions                                           |
+| DS          | Debug store to save trace of executed jumps                    |
+| DSCPL       | CPL qualified debug store                                      |
+| DTES64      | 64bit debug store                                              |
+| ERMS        | Enhanced REP MOVSB&#x2F;STOSB                                       |
+| EST         | Enhanced SpeedStep                                             |
+| F16C        | half-precision float support                                   |
+| FMA3        | Fused multiply-add using three operands                        |
+| FPDPR       | FPU CS and FPU DS deprecated                                   |
+| FPU         | Onboard x87 FPU                                                |
+| FSGS        | Access to base of %fs and %gs                                  |
+| FXSR        | FXSAVE, FXRSTOR instructions                                   |
+| HLE         | Transactional Synchronization Extensions                       |
+| HTT         | Max APIC IDs reserved field is valid                           |
+| INVPCID     | INVPCID instruction                                            |
+| IPT         | Intel Processor Trace                                          |
+| LM          | AMD64 long mode                                                |
+| LZCNT       | LZCNT instruction                                              |
+| MCA         | Machine Check Architecture (MSR)                               |
+| MCE         | Machine check exception                                        |
+| MMX         | 64bit Multimedia Streaming Extensions                          |
+| MON         | MONITOR and MWAIT instructions                                 |
+| MOVBE       | MOVBE instruction                                              |
+| MPX         | Intel MPX (Memory Protection Extensions)                       |
+| MSR         | Model Specific Registers, RDMSR and WRMSR instructions         |
+| MTRR        | Memory Type Range Registers                                    |
+| NX          | NXE                                                            |
+| OSPKE       | PKU enabled by OS                                              |
+| OSXSV       | XSAVE enabled by OS                                            |
+| PAE         | Physical address extension                                     |
+| PAT         | Page attribute table                                           |
+| PBE         | Pending break enable wakeup support                            |
+| PCID        | Process context identifiers                                    |
+| PCLMUL      | PCLMULQDQ support                                              |
+| PDCM        | Perfmon and debug capabilities                                 |
+| PG1G        | PG1G                                                           |
+| PGE         | Page global bit                                                |
+| PKU         | Memory Protection Keys for User-mode pages                     |
+| POPCNT      | POPCNT instruction                                             |
+| PQE         | Platform Quality of Service Enforcement                        |
+| PQM         | Platform Quality of Service Monitoring                         |
+| PREFETCHW   | PREFETCHW instruction                                          |
+| PSE         | Page size extensions                                           |
+| PSE36       | 36bit page size extension                                      |
+| RDRND       | On-chip random number generator                                |
+| RDSEED      | RDSEED instruction                                             |
+| RDTSCP      | RDTSCP instruction                                             |
+| RTM         | Transactional Synchronization Extensions                       |
+| SDBG        | Silicon debug interface                                        |
+| SEP         | SYSENTER and SYSEXIT instructions                              |
+| SMAP        | Supervisor Mode Access Prevention                              |
+| SMEP        | Supervisor-Mode Execution Prevention                           |
+| SMX         | Safer mode instructions                                        |
+| SS          | Self Snoop                                                     |
+| SSE         | 128bit Streaming SIMD Extensions 1                             |
+| SSE2        | 128bit Streaming SIMD Extensions 2                             |
+| SSE3        | 128bit Streaming SIMD Extensions 3                             |
+| SSE41       | 128bit Streaming SIMD Extensions 4.1                           |
+| SSE42       | 128bit Streaming SIMD Extensions 4.2                           |
+| SSSE3       | 128bit Supplemental Streaming SIMD Extension 3                 |
+| SYSCALL     | SYSCALL and SYSRET                                             |
+| TM          | Thermal monitor with automatic thermal control                 |
+| TM2         | Thermal monitor 2                                              |
+| TSC         | Time stamp counter                                             |
+| TSCADJ      | IA32_TSC_ADJUST                                                |
+| TSCDL       | APIC one-shot operation using TSC deadline value               |
+| TSCINV      | Invariant TSC                                                  |
+| VME         | Virtual 8086 mode enhancements                                 |
+| VMX         | Virtual machine extensions                                     |
+| X2APIC      | x2APIC support                                                 |
+| XSAVE       | XSAVE, XRESTOR, XSETBV, XGETBV                                 |
+| XTPR        | disabling sending of task priority messages                    |
+
+
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz
+stepping	: 4
+microcode	: 0x200005e
+cpu MHz		: 2499.999
+cache size	: 14080 KB
+physical id	: 0
+siblings	: 20
+core id		: 0
+cpu cores	: 10
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 invpcid_single pti intel_ppin ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req pku ospke md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 4400.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+Test Summary: | Pass  Total
+ReturnTypes   |   49     49
+Dump of all cpuid leafs, used for mocking &#39;cpuid&#39;...
+
+# Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz without hypervisor
+push!( _mockdb, (Dict(
+    ((0x00000000, 0x00000000) =&gt; (0x00000016, 0x756e6547, 0x6c65746e, 0x49656e69)),
+    ((0x00000001, 0x00000000) =&gt; (0x00050654, 0x35200800, 0x7ffefbff, 0xbfebfbff)),
+    ((0x00000002, 0x00000000) =&gt; (0x76036301, 0x00f0b5ff, 0x00000000, 0x00c30000)),
+    ((0x00000003, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000004, 0x00000000) =&gt; (0x3c004121, 0x01c0003f, 0x0000003f, 0x00000000)),
+    ((0x00000005, 0x00000000) =&gt; (0x00000040, 0x00000040, 0x00000003, 0x00002020)),
+    ((0x00000006, 0x00000000) =&gt; (0x00000ef7, 0x00000002, 0x00000009, 0x00000000)),
+    ((0x00000007, 0x00000000) =&gt; (0x00000000, 0xd39ffffb, 0x00000018, 0x9c002400)),
+    ((0x00000008, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000009, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x0000000a, 0x00000000) =&gt; (0x07300404, 0x00000000, 0x00000000, 0x00000603)),
+    ((0x0000000b, 0x00000000) =&gt; (0x00000001, 0x00000002, 0x00000100, 0x00000035)),
+    ((0x0000000c, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x0000000d, 0x00000000) =&gt; (0x000002ff, 0x00000a88, 0x00000a88, 0x00000000)),
+    ((0x0000000e, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x0000000f, 0x00000000) =&gt; (0x00000000, 0x0000004f, 0x00000000, 0x00000002)),
+    ((0x00000010, 0x00000000) =&gt; (0x00000000, 0x0000000a, 0x00000000, 0x00000000)),
+    ((0x00000011, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000012, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000013, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000014, 0x00000000) =&gt; (0x00000001, 0x0000000f, 0x00000007, 0x00000000)),
+    ((0x00000015, 0x00000000) =&gt; (0x00000002, 0x000000b0, 0x00000000, 0x00000000)),
+    ((0x00000016, 0x00000000) =&gt; (0x00000898, 0x00000bb8, 0x00000064, 0x00000000)),
+    ((0x80000000, 0x00000000) =&gt; (0x80000008, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x80000001, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000121, 0x2c100800)),
+    ((0x80000002, 0x00000000) =&gt; (0x65746e49, 0x2952286c, 0x6f655820, 0x2952286e)),
+    ((0x80000003, 0x00000000) =&gt; (0x6c695320, 0x20726576, 0x34313134, 0x55504320)),
+    ((0x80000004, 0x00000000) =&gt; (0x32204020, 0x4730322e, 0x00007a48, 0x00000000)),
+    ((0x80000005, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x80000006, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x01006040, 0x00000000)),
+    ((0x80000007, 0x00000000) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000100)),
+    ((0x80000008, 0x00000000) =&gt; (0x0000302e, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x00000004, 0x00000001) =&gt; (0x3c004122, 0x01c0003f, 0x0000003f, 0x00000000)),
+    ((0x00000004, 0x00000002) =&gt; (0x3c004143, 0x03c0003f, 0x000003ff, 0x00000000)),
+    ((0x00000004, 0x00000003) =&gt; (0x3c07c163, 0x0280003f, 0x00004fff, 0x00000004)),
+    ((0x00000004, 0x00000004) =&gt; (0x00000000, 0x00000000, 0x00000000, 0x00000000)),
+    ((0x0000000b, 0x00000001) =&gt; (0x00000005, 0x00000014, 0x00000201, 0x00000035)),
+    ((0x0000000b, 0x00000002) =&gt; (0x00000000, 0x00000000, 0x00000002, 0x00000035)),
+  ) =&gt; Dict{Symbol,Any}(
+    :cpuvendor       =&gt; :Intel,
+    :cpuarchitecture =&gt; :Skylake,
+    :cpucores        =&gt; 10,
+    :cputhreads      =&gt; 20,
+    :cachesize       =&gt; (32768, 1048576, 14417920),
+    :cachelinesize   =&gt; 64,
+    :simdbits        =&gt; 512,
+  )))
+
+Done.
+
+
+
+-----
+Mocking CpuId
+-----
+
+Tested recorded cpuid table #1 for &#39;&#39;
+Tested recorded cpuid table #2 for &#39;Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz&#39;
+Tested recorded cpuid table #3 for &#39;Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz&#39;
+Tested recorded cpuid table #4 for &#39;Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz&#39;
+Tested recorded cpuid table #5 for &#39;Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz&#39;
+Tested recorded cpuid table #6 for &#39;Intel(R) Xeon(R) CPU           X5570  @ 2.93GHz&#39;
+Tested recorded cpuid table #7 for &#39;Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz&#39;
+Tested recorded cpuid table #8 for &#39;Intel(R) Core(TM) i5-2520M CPU @ 2.50GHz&#39;
+Tested recorded cpuid table #9 for &#39;Intel(R) Xeon Phi(TM) CPU 7250 @ 1.40GHz&#39;
+Tested recorded cpuid table #10 for &#39;Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz&#39;
+Tested recorded cpuid table #11 for &#39;Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz&#39;
+Tested recorded cpuid table #12 for &#39;AMD A10-8700P Radeon R6, 10 Compute Cores 4C+6G&#39;
+Tested recorded cpuid table #13 for &#39;AMD Ryzen Threadripper 1950X 16-Core Processor&#39;
+Tested recorded cpuid table #14 for &#39;AMD A8-6410 APU with AMD Radeon R5 Graphics&#39;
+Tested recorded cpuid table #15 for &#39;AMD Athlon(tm) 5350 APU with Radeon(tm) R3&#39;
+Tested recorded cpuid table #16 for &#39;AMD EPYC 7401P 24-Core Processor&#39;
+Test Summary: | Pass  Broken  Total
+Mocking       |  174       2    176
+   Testing CpuId tests passed 
+</pre>
+      </div>
+
+
+  </div>
+  </body>
+
+  <script type="text/javascript">// handle collapsibles
+var coll = document.getElementsByClassName("collapsible");
+for (var i = 0; i < coll.length; i++) {
+    coll[i].textContent = "▸ " + coll[i].textContent
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            this.textContent = "▸" + this.textContent.substr(1)
+            content.style.display = "none";
+        } else {
+            this.textContent = "▾" + this.textContent.substr(1)
+            content.style.display = "block";
+        }
+    });
+}
+</script>
+</html>
+

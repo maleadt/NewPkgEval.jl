@@ -1,0 +1,51 @@
+ Resolving package versions...
+ Installed PathDistribution ─ v0.1.0
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [1a7fcfa4] + PathDistribution v0.1.0
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [1a7fcfa4] + PathDistribution v0.1.0
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [d6f4376e] + Markdown 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+   Testing PathDistribution
+    Status `/tmp/jl_d8iZd6/Manifest.toml`
+  [1a7fcfa4] PathDistribution v0.1.0
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+===== Case 1 of Roberts & Kroese (2007) =====
+The total number of paths:
+- Full enumeration      : 397
+- Monte Carlo estimation: 396.7373023453611
+- Monte Carlo estimation: 396.69571963861864
+- Monte Carlo estimation: 398.2053861711326
+- Monte Carlo estimation: 389.52999082344434
+- Monte Carlo estimation: 401.76237785155496
+- Monte Carlo estimation: 399.54352890654843
+===== Another Example =====
+The total number of paths:
+- Full enumeration      : 9851
+- Monte Carlo estimation: 9841.95028309717
+   Testing PathDistribution tests passed 

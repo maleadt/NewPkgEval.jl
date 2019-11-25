@@ -1,0 +1,221 @@
+ Resolving package versions...
+ Installed NaNMath ────────────── v0.3.3
+ Installed Adapt ──────────────── v1.0.0
+ Installed OpenSpecFun_jll ────── v0.5.3+1
+ Installed DataStructures ─────── v0.17.6
+ Installed SparseDiffTools ────── v1.0.0
+ Installed VoronoiFVM ─────────── v0.5.3
+ Installed IterativeSolvers ───── v0.8.1
+ Installed LightGraphs ────────── v1.3.0
+ Installed DiffResults ────────── v0.0.4
+ Installed Inflate ────────────── v0.1.1
+ Installed Compat ─────────────── v2.2.0
+ Installed MacroTools ─────────── v0.5.2
+ Installed BinDeps ────────────── v0.8.10
+ Installed SpecialFunctions ───── v0.9.0
+ Installed ElasticArrays ──────── v0.4.0
+ Installed StaticArrays ───────── v0.12.1
+ Installed URIParser ──────────── v0.4.0
+ Installed CommonSubexpressions ─ v0.2.0
+ Installed DiffRules ──────────── v0.1.0
+ Installed ForwardDiff ────────── v0.10.7
+ Installed ArrayInterface ─────── v2.0.0
+ Installed Requires ───────────── v0.5.2
+ Installed SimpleTraits ───────── v0.9.1
+ Installed DocStringExtensions ── v0.8.1
+ Installed RecipesBase ────────── v0.7.0
+ Installed ArnoldiMethod ──────── v0.0.4
+ Installed OrderedCollections ─── v1.1.0
+ Installed VertexSafeGraphs ───── v0.1.0
+ Installed DiffEqDiffTools ────── v1.5.0
+ Installed ExtendableSparse ───── v0.1.2
+  Updating `~/.julia/environments/v1.3/Project.toml`
+  [82b139dc] + VoronoiFVM v0.5.3
+  Updating `~/.julia/environments/v1.3/Manifest.toml`
+  [79e6a3ab] + Adapt v1.0.0
+  [ec485272] + ArnoldiMethod v0.0.4
+  [4fba245c] + ArrayInterface v2.0.0
+  [9e28174c] + BinDeps v0.8.10
+  [bbf7d656] + CommonSubexpressions v0.2.0
+  [34da2185] + Compat v2.2.0
+  [864edb3b] + DataStructures v0.17.6
+  [01453d9d] + DiffEqDiffTools v1.5.0
+  [163ba53b] + DiffResults v0.0.4
+  [b552c78f] + DiffRules v0.1.0
+  [ffbed154] + DocStringExtensions v0.8.1
+  [fdbdab4c] + ElasticArrays v0.4.0
+  [95c220a8] + ExtendableSparse v0.1.2
+  [f6369f11] + ForwardDiff v0.10.7
+  [d25df0c9] + Inflate v0.1.1
+  [42fd0dbc] + IterativeSolvers v0.8.1
+  [093fc24a] + LightGraphs v1.3.0
+  [1914dd2f] + MacroTools v0.5.2
+  [77ba4419] + NaNMath v0.3.3
+  [efe28fd5] + OpenSpecFun_jll v0.5.3+1
+  [bac558e1] + OrderedCollections v1.1.0
+  [3cdcf5f2] + RecipesBase v0.7.0
+  [ae029012] + Requires v0.5.2
+  [699a6c99] + SimpleTraits v0.9.1
+  [47a9eef4] + SparseDiffTools v1.0.0
+  [276daf66] + SpecialFunctions v0.9.0
+  [90137ffa] + StaticArrays v0.12.1
+  [30578b45] + URIParser v0.4.0
+  [19fa3120] + VertexSafeGraphs v0.1.0
+  [82b139dc] + VoronoiFVM v0.5.3
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building VoronoiFVM → `~/.julia/packages/VoronoiFVM/lqfW0/deps/build.log`
+   Testing VoronoiFVM
+    Status `/tmp/jl_Nm59YB/Manifest.toml`
+  [79e6a3ab] Adapt v1.0.0
+  [ec485272] ArnoldiMethod v0.0.4
+  [4fba245c] ArrayInterface v2.0.0
+  [9e28174c] BinDeps v0.8.10
+  [bbf7d656] CommonSubexpressions v0.2.0
+  [34da2185] Compat v2.2.0
+  [864edb3b] DataStructures v0.17.6
+  [01453d9d] DiffEqDiffTools v1.5.0
+  [163ba53b] DiffResults v0.0.4
+  [b552c78f] DiffRules v0.1.0
+  [ffbed154] DocStringExtensions v0.8.1
+  [fdbdab4c] ElasticArrays v0.4.0
+  [95c220a8] ExtendableSparse v0.1.2
+  [f6369f11] ForwardDiff v0.10.7
+  [d25df0c9] Inflate v0.1.1
+  [42fd0dbc] IterativeSolvers v0.8.1
+  [093fc24a] LightGraphs v1.3.0
+  [1914dd2f] MacroTools v0.5.2
+  [77ba4419] NaNMath v0.3.3
+  [efe28fd5] OpenSpecFun_jll v0.5.3+1
+  [bac558e1] OrderedCollections v1.1.0
+  [3cdcf5f2] RecipesBase v0.7.0
+  [ae029012] Requires v0.5.2
+  [699a6c99] SimpleTraits v0.9.1
+  [47a9eef4] SparseDiffTools v1.0.0
+  [276daf66] SpecialFunctions v0.9.0
+  [90137ffa] StaticArrays v0.12.1
+  [30578b45] URIParser v0.4.0
+  [19fa3120] VertexSafeGraphs v0.1.0
+  [82b139dc] VoronoiFVM v0.5.3
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+Directory /root/.julia/packages/VoronoiFVM/lqfW0/test:
+  runtests:
+  test_ctriangulate:
+   compile:  3.994191 seconds (3.79 M allocations: 187.990 MiB, 10.22% gc time)
+       run:  0.009507 seconds (6.03 k allocations: 477.418 KiB)
+  test_geomspace:
+   compile:  2.169736 seconds (2.90 M allocations: 154.116 MiB, 2.28% gc time)
+       run:  0.001109 seconds (481 allocations: 12.594 KiB)
+  test_gridconstruct:
+   compile:  1.333660 seconds (1.21 M allocations: 62.862 MiB, 2.88% gc time)
+       run:  0.001954 seconds (146 allocations: 37.438 KiB)
+  test_prepare_edges:
+   compile:  1.930668 seconds (1.50 M allocations: 75.933 MiB, 2.13% gc time)
+       run:  0.000594 seconds (163 allocations: 12.359 KiB)
+  test_read_sg:
+   compile:  1.345468 seconds (686.28 k allocations: 33.443 MiB)
+       run:  0.502424 seconds (509 allocations: 23.656 KiB)
+  test_triangulate:
+   compile:  0.099199 seconds (119.61 k allocations: 6.656 MiB, 12.82% gc time)
+       run:  0.001823 seconds (149 allocations: 37.469 KiB)
+151.715326 seconds (20.97 M allocations: 1.060 GiB, 0.68% gc time)
+Directory /root/.julia/packages/VoronoiFVM/lqfW0/test/../examples:
+  Example101_Laplace1D:
+   compile:  8.871224 seconds (10.22 M allocations: 515.583 MiB, 4.89% gc time)
+       run:  0.001172 seconds (470 allocations: 61.875 KiB)
+  Example102_StationaryConvectionDiffusion1D:
+   compile:  3.583179 seconds (4.10 M allocations: 214.397 MiB, 4.62% gc time)
+       run:  0.010025 seconds (7.93 k allocations: 695.328 KiB)
+  Example105_NonlinearPoisson1D:
+   compile:  7.268258 seconds (8.35 M allocations: 432.720 MiB, 2.84% gc time)
+       run:  0.019914 seconds (13.87 k allocations: 1.234 MiB)
+  Example106_NonlinearDiffusion1D:
+   compile:  4.572938 seconds (3.01 M allocations: 168.716 MiB, 2.21% gc time)
+       run:  0.182621 seconds (136.21 k allocations: 26.324 MiB, 8.32% gc time)
+  Example107_NonlinearStorage1D:
+   compile:  4.753030 seconds (2.45 M allocations: 146.076 MiB, 0.95% gc time)
+       run:  0.242908 seconds (176.92 k allocations: 34.616 MiB, 14.11% gc time)
+  Example110_NonlinearPoisson1D_TwoSpecies:
+   compile:  4.817862 seconds (3.25 M allocations: 222.460 MiB, 1.32% gc time)
+       run:  0.523315 seconds (343.50 k allocations: 75.391 MiB, 2.64% gc time)
+  Example115_NonlinearPoisson1D_BoundarySpecies:
+   compile:  5.204142 seconds (3.53 M allocations: 193.335 MiB, 1.68% gc time)
+       run:  0.113445 seconds (160.01 k allocations: 23.161 MiB)
+  Example120_ThreeRegions1D:
+   compile:  9.835139 seconds (5.96 M allocations: 613.543 MiB, 5.41% gc time)
+       run:  2.864416 seconds (1.11 M allocations: 372.057 MiB, 1.09% gc time)
+  Example125_TestFunctions1D:
+   compile:  8.467618 seconds (4.83 M allocations: 264.279 MiB, 1.62% gc time)
+       run:  0.231424 seconds (122.99 k allocations: 27.932 MiB)
+  Example150_Impedance1D:
+   compile: 20.442410 seconds (21.32 M allocations: 1.078 GiB, 2.84% gc time)
+       run:  0.027925 seconds (34.97 k allocations: 8.308 MiB)
+  Example160_UnipolarDriftDiffusion1D:
+   compile:  6.982619 seconds (3.97 M allocations: 312.234 MiB, 1.63% gc time)
+       run:  1.168471 seconds (541.72 k allocations: 144.720 MiB, 2.08% gc time)
+  Example202_Laplace2D_Unstructured:
+   compile:  6.814181 seconds (7.95 M allocations: 423.191 MiB, 4.16% gc time)
+       run:  0.003413 seconds (1.98 k allocations: 229.406 KiB)
+  Example203_CoordinateSystems:
+   compile:  2.869027 seconds (2.22 M allocations: 96.169 MiB, 9.42% gc time)
+       run:  0.428412 seconds (778.38 k allocations: 20.651 MiB)
+  Example205_NonlinearPoisson2D:
+   compile: 13.609393 seconds (10.20 M allocations: 531.699 MiB, 2.11% gc time)
+       run:  4.540697 seconds (1.33 M allocations: 91.952 MiB, 0.55% gc time)
+  Example210_NonlinearPoisson2D_Reaction:
+   compile:  8.113274 seconds (4.11 M allocations: 348.076 MiB, 1.58% gc time)
+       run:  3.459568 seconds (1.18 M allocations: 197.416 MiB, 0.83% gc time)
+  Example215_NonlinearPoisson2D_BoundaryReaction:
+   compile:  8.289528 seconds (6.05 M allocations: 417.178 MiB, 2.25% gc time)
+       run:  2.784599 seconds (1.22 M allocations: 163.543 MiB, 0.66% gc time)
+  Example220_NonlinearPoisson2D_BoundarySpecies:
+   compile:  8.898137 seconds (7.22 M allocations: 446.314 MiB, 1.71% gc time)
+       run:  3.495896 seconds (3.21 M allocations: 239.386 MiB, 1.15% gc time)
+157.229589 seconds (120.21 M allocations: 7.750 GiB, 2.55% gc time)
+309.252159 seconds (141.42 M allocations: 8.821 GiB, 1.63% gc time)
+   Testing VoronoiFVM tests passed 

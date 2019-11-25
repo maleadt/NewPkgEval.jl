@@ -1,0 +1,176 @@
+ Resolving package versions...
+ Installed OpenSpecFun_jll ────── v0.5.3+1
+ Installed NaNMath ────────────── v0.3.3
+ Installed Compat ─────────────── v2.2.0
+ Installed DiffResults ────────── v0.0.4
+ Installed DiffRules ──────────── v0.1.0
+ Installed StaticArrays ───────── v0.12.1
+ Installed Tensors ────────────── v1.4.0
+ Installed ForwardDiff ────────── v0.10.7
+ Installed CommonSubexpressions ─ v0.2.0
+ Installed SIMD ───────────────── v2.8.0
+ Installed SpecialFunctions ───── v0.9.0
+  Updating `~/.julia/environments/v1.3/Project.toml`
+  [48a634ad] + Tensors v1.4.0
+  Updating `~/.julia/environments/v1.3/Manifest.toml`
+  [bbf7d656] + CommonSubexpressions v0.2.0
+  [34da2185] + Compat v2.2.0
+  [163ba53b] + DiffResults v0.0.4
+  [b552c78f] + DiffRules v0.1.0
+  [f6369f11] + ForwardDiff v0.10.7
+  [77ba4419] + NaNMath v0.3.3
+  [efe28fd5] + OpenSpecFun_jll v0.5.3+1
+  [fdea26ae] + SIMD v2.8.0
+  [276daf66] + SpecialFunctions v0.9.0
+  [90137ffa] + StaticArrays v0.12.1
+  [48a634ad] + Tensors v1.4.0
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+   Testing Tensors
+ Resolving package versions...
+ Installed TimerOutputs ─ v0.5.3
+    Status `/tmp/jl_aHwhKp/Manifest.toml`
+  [bbf7d656] CommonSubexpressions v0.2.0
+  [34da2185] Compat v2.2.0
+  [163ba53b] DiffResults v0.0.4
+  [b552c78f] DiffRules v0.1.0
+  [f6369f11] ForwardDiff v0.10.7
+  [77ba4419] NaNMath v0.3.3
+  [efe28fd5] OpenSpecFun_jll v0.5.3+1
+  [fdea26ae] SIMD v2.8.0
+  [276daf66] SpecialFunctions v0.9.0
+  [90137ffa] StaticArrays v0.12.1
+  [48a634ad] Tensors v1.4.0
+  [a759f4b9] TimerOutputs v0.5.3
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+Test Summary: | Pass  Total
+constructors  |  351    351
+Test Summary: | Pass  Total
+diagm, one    |  508    508
+Test Summary: | Pass  Total
+base vectors  |   45     45
+Test Summary: | Pass  Total
+simple math   |  354    354
+Test Summary:           | Pass  Total
+construct from function |  540    540
+Test Summary:        | Pass  Total
+construct from Array |   84     84
+Test Summary: | Pass  Total
+indexing      | 2532   2532
+Test Summary:              | Pass  Total
+norm, trace, det, inv, eig |  234    234
+Test Summary:              | Pass  Total
+eigen(::FourthOrderTensor) |   44     44
+Test Summary:     | Pass  Total
+tensor identities |  297    297
+Test Summary:        | Pass  Total
+promotion/conversion |  232    232
+Test Summary:                             | Pass  Total
+issues #100, #101: orders of eigenvectors |    8      8
+Test Summary: | Pass  Total
+exceptions    |    7      7
+T = Float32, dim = 1
+T = Float32, dim = 2
+T = Float32, dim = 3
+T = Float64, dim = 1
+T = Float64, dim = 2
+T = Float64, dim = 3
+T = F64, dim = 1
+T = F64, dim = 2
+T = F64, dim = 3
+Test Summary: | Pass  Total
+tensor ops    | 1077   1077
+Test Summary: | Pass  Total
+AD            |  401    401
+ ──────────────────────────────────────────────────────────────────────────────
+                                       Time                   Allocations      
+                               ──────────────────────   ───────────────────────
+       Tot / % measured:             396s / 96.8%           23.4GiB / 99.1%    
+
+ Section               ncalls     time   %tot     avg     alloc   %tot      avg
+ ──────────────────────────────────────────────────────────────────────────────
+ tensor ops                 1     132s  34.4%    132s   8.91GiB  38.3%  8.91GiB
+   outer products (...      9    48.6s  12.7%   5.40s   3.91GiB  16.8%   445MiB
+   double contraction       9    37.9s  9.90%   4.21s   1.89GiB  8.13%   215MiB
+   transpose                9    19.0s  4.95%   2.11s   1.58GiB  6.79%   179MiB
+   tovoigt/fromvoigt        9    11.5s  2.99%   1.27s    423MiB  1.78%  47.0MiB
+   symmetric/skew-s...      9    10.1s  2.63%   1.12s   0.94GiB  4.03%   107MiB
+   dot products             9    2.01s  0.52%   223ms   82.2MiB  0.35%  9.14MiB
+   special                  9    1.36s  0.36%   152ms   50.2MiB  0.21%  5.58MiB
+   rotation                 3    864ms  0.23%   288ms   45.7MiB  0.19%  15.2MiB
+   cross product            9    216ms  0.06%  24.0ms   5.28MiB  0.02%   600KiB
+ AD                         1    51.3s  13.4%   51.3s   2.85GiB  12.3%  2.85GiB
+   dim 3                    1    23.8s  6.21%   23.8s   1.32GiB  5.68%  1.32GiB
+     hessian                2    11.3s  2.95%   5.64s    597MiB  2.51%   299MiB
+     2nd tensor grad        2    3.78s  0.99%   1.89s    253MiB  1.06%   126MiB
+     scalar grad            2    1.52s  0.40%   758ms   82.2MiB  0.35%  41.1MiB
+   vector calculus ...      1    10.6s  2.76%   10.6s    651MiB  2.74%   651MiB
+   dim 2                    1    8.89s  2.32%   8.89s    498MiB  2.09%   498MiB
+     hessian                2    4.13s  1.08%   2.07s    216MiB  0.91%   108MiB
+     2nd tensor grad        2    1.57s  0.41%   786ms   83.7MiB  0.35%  41.9MiB
+     scalar grad            2    1.08s  0.28%   541ms   52.7MiB  0.22%  26.3MiB
+   dim 1                    1    6.14s  1.60%   6.14s    326MiB  1.37%   326MiB
+     hessian                2    2.95s  0.77%   1.47s    166MiB  0.70%  82.8MiB
+     2nd tensor grad        2    1.08s  0.28%   541ms   42.3MiB  0.18%  21.2MiB
+     scalar grad            2    688ms  0.18%   344ms   25.5MiB  0.11%  12.8MiB
+   f: scalar -> Abs...      1    1.75s  0.46%   1.75s   85.7MiB  0.36%  85.7MiB
+   f: scalar -> scalar      1    143ms  0.04%   143ms   5.26MiB  0.02%  5.26MiB
+ constructors               1    45.1s  11.8%   45.1s   2.37GiB  10.2%  2.37GiB
+ simple math                1    38.2s  10.0%   38.2s   1.94GiB  8.33%  1.94GiB
+ norm, trace, det, ...      1    34.3s  8.95%   34.3s   1.76GiB  7.56%  1.76GiB
+ construct from Array       1    24.5s  6.39%   24.5s   1.64GiB  7.04%  1.64GiB
+ tensor identities          1    20.5s  5.35%   20.5s   1.31GiB  5.66%  1.31GiB
+ promotion/conversion       1    8.97s  2.34%   8.97s    790MiB  3.32%   790MiB
+ eigen(::FourthOrde...      1    8.89s  2.32%   8.89s    512MiB  2.15%   512MiB
+ indexing                   1    8.04s  2.10%   8.04s    452MiB  1.90%   452MiB
+ diagm, one                 1    4.55s  1.19%   4.55s    233MiB  0.98%   233MiB
+ construct from fun...      1    4.15s  1.08%   4.15s    411MiB  1.73%   411MiB
+ base vectors               1    2.91s  0.76%   2.91s    120MiB  0.50%   120MiB
+ exceptions                 1    149ms  0.04%   149ms   6.10MiB  0.03%  6.10MiB
+ ──────────────────────────────────────────────────────────────────────────────
+   Testing Tensors tests passed 

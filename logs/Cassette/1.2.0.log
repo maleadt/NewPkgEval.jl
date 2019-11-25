@@ -1,0 +1,79 @@
+ Resolving package versions...
+ Installed Cassette ─ v0.2.6
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [7057c7e9] + Cassette v0.2.6
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [7057c7e9] + Cassette v0.2.6
+   Testing Cassette
+ Resolving package versions...
+[ Info: No changes
+    Status `/tmp/jl_nM5CbY/Manifest.toml`
+  [7057c7e9] Cassette v0.2.6
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+running unit tests
+Test Summary: | Pass  Total
+unit tests    |   88     88
+  2.963749 seconds (3.32 M allocations: 171.496 MiB, 3.25% gc time)
+running misc. tests (w/o tagging)
+   running RosCtx test...done (took 9.810830116271973 seconds)
+   running HookCtx test...done (took 1.4656479358673096 seconds)
+   running SinCtx test...done (took 2.6091668605804443 seconds)
+   running FoldCtx test...done (took 0.09527397155761719 seconds)
+   running CountCtx test...done (took 7.079596996307373 seconds)
+   running CountCtx2 test...done (took 4.358730792999268 seconds)
+   running SqrCtx test...done (took 0.10786700248718262 seconds)
+   running CompCtx test...done (took 1.3212318420410156 seconds)
+   running PassCtx test...done (took 2.896050214767456 seconds)
+   running PassFallbackCtx test...done (took 0.8796689510345459 seconds)
+   running WorldCtx test...done (took 7.7812628746032715 seconds)
+   running TraceCtx test...done (took 1.6046130657196045 seconds)
+   running NestedReflectCtx test...done (took 0.1707470417022705 seconds)
+   running GemvCtx test...done (took 2.074246883392334 seconds)
+   running InferCtx test...done (took 15.819041967391968 seconds)
+   running InModuleCtx test...done (took 2.388248920440674 seconds)
+   running InvokeCtx test...done (took 0.16563200950622559 seconds)
+   running Invoke2Ctx test...done (took 0.17937183380126953 seconds)
+   running MemoizeCtx test...done (took 0.27330493927001953 seconds)
+   running NoOpCtx test...done (took 50.81550884246826 seconds)
+   running DisableHooksCtx test...done (took 11.284251928329468 seconds)
+   running SliceCtx test...done (took 7.4603869915008545 seconds)
+Test Summary:             | Pass  Broken  Total
+misc. tests (w/o tagging) |   98       1     99
+133.493890 seconds (164.43 M allocations: 8.591 GiB, 6.12% gc time)
+running misc. tests (w/ tagging)
+   running BazCtx test...done (took 15.047631978988647 seconds)
+   running FooBarCtx test...done (took 11.070538997650146 seconds)
+   running TaggedTupleCtx test...done (took 7.384001970291138 seconds)
+   running ApplyCtx test...done (took 11.967006921768188 seconds)
+   running VATupleCtx test...done (took 34.52308988571167 seconds)
+   running BroadcastCtx test...done (took 29.5023992061615 seconds)
+   running BroadcastCtx2 test...done (took 48.281018018722534 seconds)
+   running MetaTypeCtx test...done (took 0.1430950164794922 seconds)
+   running TagConditionalCtx test...done (took 2.074054002761841 seconds)
+   running KwargCtx test...done (took 1.6284120082855225 seconds)
+   running RecurTagCtx test...done (took 0.6381900310516357 seconds)
+   running CrazyPropCtx test...done (took 39.28979706764221 seconds)
+   running DiffCtx test...done (took 152.77727794647217 seconds)
+   running ArrayIndexCtx test...done (took 9.14445686340332 seconds)
+Test Summary:            | Pass  Total
+misc. tests (w/ tagging) |  119    119
+363.550980 seconds (313.21 M allocations: 16.950 GiB, 5.37% gc time)
+   Testing Cassette tests passed 

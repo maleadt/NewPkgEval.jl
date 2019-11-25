@@ -1,0 +1,2747 @@
+ Resolving package versions...
+ Installed Missings ─────────── v0.4.3
+ Installed GaussianMixtures ─── v0.3.0
+ Installed DataAPI ──────────── v1.1.0
+ Installed PDMats ───────────── v0.9.10
+ Installed FileIO ───────────── v1.1.0
+ Installed NearestNeighbors ─── v0.4.4
+ Installed StatsBase ────────── v0.32.0
+ Installed BinaryProvider ───── v0.5.8
+ Installed ScikitLearnBase ──── v0.5.0
+ Installed Blosc ────────────── v0.5.1
+ Installed URIParser ────────── v0.4.0
+ Installed StatsFuns ────────── v0.9.0
+ Installed HDF5 ─────────────── v0.12.5
+ Installed Rmath ────────────── v0.5.1
+ Installed JLD ──────────────── v0.9.1
+ Installed Compat ───────────── v2.2.0
+ Installed OrderedCollections ─ v1.1.0
+ Installed DataStructures ───── v0.17.6
+ Installed Parameters ───────── v0.12.0
+ Installed QuadGK ───────────── v2.1.1
+ Installed Distributions ────── v0.21.9
+ Installed StaticArrays ─────── v0.12.1
+ Installed CMake ────────────── v1.1.2
+ Installed SortingAlgorithms ── v0.3.1
+ Installed CMakeWrapper ─────── v0.2.3
+ Installed Distances ────────── v0.8.2
+ Installed LegacyStrings ────── v0.4.1
+ Installed Clustering ───────── v0.13.3
+ Installed BinDeps ──────────── v0.8.10
+ Installed Arpack ───────────── v0.3.1
+ Installed SpecialFunctions ─── v0.8.0
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [cc18c42c] + GaussianMixtures v0.3.0
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [7d9fca2a] + Arpack v0.3.1
+  [9e28174c] + BinDeps v0.8.10
+  [b99e7846] + BinaryProvider v0.5.8
+  [a74b3585] + Blosc v0.5.1
+  [631607c0] + CMake v1.1.2
+  [d5fb7624] + CMakeWrapper v0.2.3
+  [aaaa29a8] + Clustering v0.13.3
+  [34da2185] + Compat v2.2.0
+  [9a962f9c] + DataAPI v1.1.0
+  [864edb3b] + DataStructures v0.17.6
+  [b4f34e82] + Distances v0.8.2
+  [31c24e10] + Distributions v0.21.9
+  [5789e2e9] + FileIO v1.1.0
+  [cc18c42c] + GaussianMixtures v0.3.0
+  [f67ccb44] + HDF5 v0.12.5
+  [4138dd39] + JLD v0.9.1
+  [1b4a561d] + LegacyStrings v0.4.1
+  [e1d29d7a] + Missings v0.4.3
+  [b8a86587] + NearestNeighbors v0.4.4
+  [bac558e1] + OrderedCollections v1.1.0
+  [90014a1f] + PDMats v0.9.10
+  [d96e819e] + Parameters v0.12.0
+  [1fd47b50] + QuadGK v2.1.1
+  [79098fc4] + Rmath v0.5.1
+  [6e75b9c4] + ScikitLearnBase v0.5.0
+  [a2af1166] + SortingAlgorithms v0.3.1
+  [276daf66] + SpecialFunctions v0.8.0
+  [90137ffa] + StaticArrays v0.12.1
+  [2913bbd2] + StatsBase v0.32.0
+  [4c63d2b9] + StatsFuns v0.9.0
+  [30578b45] + URIParser v0.4.0
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [9abbd945] + Profile 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [4607b0f0] + SuiteSparse 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building CMake ───────────→ `~/.julia/packages/CMake/nSK2r/deps/build.log`
+  Building Blosc ───────────→ `~/.julia/packages/Blosc/lzFr0/deps/build.log`
+  Building HDF5 ────────────→ `~/.julia/packages/HDF5/Zh9on/deps/build.log`
+  Building Rmath ───────────→ `~/.julia/packages/Rmath/4wt82/deps/build.log`
+  Building SpecialFunctions → `~/.julia/packages/SpecialFunctions/ne2iw/deps/build.log`
+  Building Arpack ──────────→ `~/.julia/packages/Arpack/cu5By/deps/build.log`
+   Testing GaussianMixtures
+    Status `/tmp/jl_IbwimU/Manifest.toml`
+  [7d9fca2a] Arpack v0.3.1
+  [9e28174c] BinDeps v0.8.10
+  [b99e7846] BinaryProvider v0.5.8
+  [a74b3585] Blosc v0.5.1
+  [631607c0] CMake v1.1.2
+  [d5fb7624] CMakeWrapper v0.2.3
+  [aaaa29a8] Clustering v0.13.3
+  [34da2185] Compat v2.2.0
+  [9a962f9c] DataAPI v1.1.0
+  [864edb3b] DataStructures v0.17.6
+  [b4f34e82] Distances v0.8.2
+  [31c24e10] Distributions v0.21.9
+  [5789e2e9] FileIO v1.1.0
+  [cc18c42c] GaussianMixtures v0.3.0
+  [f67ccb44] HDF5 v0.12.5
+  [4138dd39] JLD v0.9.1
+  [1b4a561d] LegacyStrings v0.4.1
+  [e1d29d7a] Missings v0.4.3
+  [b8a86587] NearestNeighbors v0.4.4
+  [bac558e1] OrderedCollections v1.1.0
+  [90014a1f] PDMats v0.9.10
+  [d96e819e] Parameters v0.12.0
+  [1fd47b50] QuadGK v2.1.1
+  [79098fc4] Rmath v0.5.1
+  [6e75b9c4] ScikitLearnBase v0.5.0
+  [a2af1166] SortingAlgorithms v0.3.1
+  [276daf66] SpecialFunctions v0.8.0
+  [90137ffa] StaticArrays v0.12.1
+  [2913bbd2] StatsBase v0.32.0
+  [4c63d2b9] StatsFuns v0.9.0
+  [30578b45] URIParser v0.4.0
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [9abbd945] Profile  [`@stdlib/Profile`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [4607b0f0] SuiteSparse  [`@stdlib/SuiteSparse`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+[ Info: Testing Data
+(100000, -2.114878172691752e6, [96223.37099167121, 3776.6290083287804], [1909.2768727377727 7007.681893981676 2057.751876771842; -2297.413238961541 -7148.41306425312 -1925.5434208540764], Array{Float64,2}[[95379.39787914659 -3623.4900105113147 -84.24382146875247; -3623.4900105113156 85013.48872674159 -2699.9411671975677; -84.2438214687525 -2699.9411671975677 96252.5067471903], [4967.194975203896 3437.1217262247465 347.3823538918625; 3437.1217262247465 14918.008311395191 2530.88007238308; 347.38235389186246 2530.88007238308 4159.433108632379]])
+┌ Warning: rmprocs: process 1 not removed
+└ @ Distributed /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Distributed/src/cluster.jl:1005
+[ Info: Initializing GMM, 8 Gaussians diag covariance 2 dimensions using 272 data points
+  Iters               objv        objv-change | affected 
+-------------------------------------------------------------
+      0       1.053910e+03
+      1       9.421860e+02      -1.117237e+02 |        6
+      2       9.005112e+02      -4.167474e+01 |        0
+      3       9.005112e+02       0.000000e+00 |        0
+K-means converged with 3 iterations (objv = 900.5112473160834)
+┌ Info: K-means with 272 data points using 3 iterations
+└ 11.3 data points per parameter
+[ Info: Running 0 iterations EM on full cov GMM with 8 Gaussians in 2 dimensions
+┌ Info: EM with 272 data points 0 iterations avll -2.075865
+└ 5.8 data points per parameter
+┌ Warning: `lgamma(x::Real)` is deprecated, use `(logabsgamma(x))[1]` instead.
+│   caller = lowerbound(::VGMM{Float64}, ::Array{Float64,1}, ::Array{Float64,2}, ::Array{Array{Float64,2},1}, ::Array{Float64,1}, ::Array{Float64,1}, ::Float64) at bayes.jl:221
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/bayes.jl:221
+┌ Warning: `lgamma(x::Real)` is deprecated, use `(logabsgamma(x))[1]` instead.
+│   caller = lowerbound(::VGMM{Float64}, ::Array{Float64,1}, ::Array{Float64,2}, ::Array{Array{Float64,2},1}, ::Array{Float64,1}, ::Array{Float64,1}, ::Float64) at bayes.jl:221
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/bayes.jl:221
+┌ Warning: `lgamma(x::Real)` is deprecated, use `(logabsgamma(x))[1]` instead.
+│   caller = _broadcast_getindex_evalf at broadcast.jl:625 [inlined]
+└ @ Core ./broadcast.jl:625
+┌ Warning: `lgamma(x::Real)` is deprecated, use `(logabsgamma(x))[1]` instead.
+│   caller = lowerbound(::VGMM{Float64}, ::Array{Float64,1}, ::Array{Float64,2}, ::Array{Array{Float64,2},1}, ::Array{Float64,1}, ::Array{Float64,1}, ::Float64) at bayes.jl:230
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/bayes.jl:230
+┌ Warning: `lgamma(x::Real)` is deprecated, use `(logabsgamma(x))[1]` instead.
+│   caller = _broadcast_getindex_evalf at broadcast.jl:625 [inlined]
+└ @ Core ./broadcast.jl:625
+┌ Warning: `lgamma(x::Real)` is deprecated, use `(logabsgamma(x))[1]` instead.
+│   caller = _broadcast_getindex_evalf at broadcast.jl:625 [inlined]
+└ @ Core ./broadcast.jl:625
+[ Info: iteration 1, lowerbound -3.794054
+[ Info: iteration 2, lowerbound -3.645538
+[ Info: iteration 3, lowerbound -3.484707
+[ Info: iteration 4, lowerbound -3.300915
+[ Info: iteration 5, lowerbound -3.118718
+[ Info: iteration 6, lowerbound -2.970408
+[ Info: dropping number of Gaussions to 7
+[ Info: iteration 7, lowerbound -2.867358
+[ Info: dropping number of Gaussions to 6
+[ Info: iteration 8, lowerbound -2.810434
+[ Info: dropping number of Gaussions to 5
+[ Info: iteration 9, lowerbound -2.797870
+[ Info: dropping number of Gaussions to 3
+[ Info: iteration 10, lowerbound -2.779378
+[ Info: iteration 11, lowerbound -2.763700
+[ Info: iteration 12, lowerbound -2.750304
+[ Info: iteration 13, lowerbound -2.729211
+[ Info: iteration 14, lowerbound -2.697057
+[ Info: iteration 15, lowerbound -2.650881
+[ Info: iteration 16, lowerbound -2.590663
+[ Info: iteration 17, lowerbound -2.522281
+[ Info: iteration 18, lowerbound -2.456572
+[ Info: iteration 19, lowerbound -2.402338
+[ Info: iteration 20, lowerbound -2.361246
+[ Info: iteration 21, lowerbound -2.331239
+[ Info: iteration 22, lowerbound -2.312529
+[ Info: iteration 23, lowerbound -2.307533
+[ Info: dropping number of Gaussions to 2
+[ Info: iteration 24, lowerbound -2.302923
+[ Info: iteration 25, lowerbound -2.299260
+[ Info: iteration 26, lowerbound -2.299256
+[ Info: iteration 27, lowerbound -2.299254
+[ Info: iteration 28, lowerbound -2.299254
+[ Info: iteration 29, lowerbound -2.299253
+[ Info: iteration 30, lowerbound -2.299253
+[ Info: iteration 31, lowerbound -2.299253
+[ Info: iteration 32, lowerbound -2.299253
+[ Info: iteration 33, lowerbound -2.299253
+[ Info: iteration 34, lowerbound -2.299253
+[ Info: iteration 35, lowerbound -2.299253
+[ Info: iteration 36, lowerbound -2.299253
+[ Info: iteration 37, lowerbound -2.299253
+[ Info: iteration 38, lowerbound -2.299253
+[ Info: iteration 39, lowerbound -2.299253
+[ Info: iteration 40, lowerbound -2.299253
+[ Info: iteration 41, lowerbound -2.299253
+[ Info: iteration 42, lowerbound -2.299253
+[ Info: iteration 43, lowerbound -2.299253
+[ Info: iteration 44, lowerbound -2.299253
+[ Info: iteration 45, lowerbound -2.299253
+[ Info: iteration 46, lowerbound -2.299253
+[ Info: iteration 47, lowerbound -2.299253
+[ Info: iteration 48, lowerbound -2.299253
+[ Info: iteration 49, lowerbound -2.299253
+[ Info: iteration 50, lowerbound -2.299253
+[ Info: 50 variational Bayes EM-like iterations using 272 data points, final lowerbound -2.299253
+History[Mon Dec  2 17:37:16 2019: Initializing GMM, 8 Gaussians diag covariance 2 dimensions using 272 data points
+, Mon Dec  2 17:37:23 2019: K-means with 272 data points using 3 iterations
+11.3 data points per parameter
+, Mon Dec  2 17:37:24 2019: EM with 272 data points 0 iterations avll -2.075865
+5.8 data points per parameter
+, Mon Dec  2 17:37:26 2019: GMM converted to Variational GMM
+, Mon Dec  2 17:37:32 2019: iteration 1, lowerbound -3.794054
+, Mon Dec  2 17:37:32 2019: iteration 2, lowerbound -3.645538
+, Mon Dec  2 17:37:32 2019: iteration 3, lowerbound -3.484707
+, Mon Dec  2 17:37:32 2019: iteration 4, lowerbound -3.300915
+, Mon Dec  2 17:37:32 2019: iteration 5, lowerbound -3.118718
+, Mon Dec  2 17:37:32 2019: iteration 6, lowerbound -2.970408
+, Mon Dec  2 17:37:33 2019: dropping number of Gaussions to 7
+, Mon Dec  2 17:37:33 2019: iteration 7, lowerbound -2.867358
+, Mon Dec  2 17:37:33 2019: dropping number of Gaussions to 6
+, Mon Dec  2 17:37:33 2019: iteration 8, lowerbound -2.810434
+, Mon Dec  2 17:37:33 2019: dropping number of Gaussions to 5
+, Mon Dec  2 17:37:33 2019: iteration 9, lowerbound -2.797870
+, Mon Dec  2 17:37:33 2019: dropping number of Gaussions to 3
+, Mon Dec  2 17:37:33 2019: iteration 10, lowerbound -2.779378
+, Mon Dec  2 17:37:33 2019: iteration 11, lowerbound -2.763700
+, Mon Dec  2 17:37:33 2019: iteration 12, lowerbound -2.750304
+, Mon Dec  2 17:37:33 2019: iteration 13, lowerbound -2.729211
+, Mon Dec  2 17:37:33 2019: iteration 14, lowerbound -2.697057
+, Mon Dec  2 17:37:33 2019: iteration 15, lowerbound -2.650881
+, Mon Dec  2 17:37:33 2019: iteration 16, lowerbound -2.590663
+, Mon Dec  2 17:37:33 2019: iteration 17, lowerbound -2.522281
+, Mon Dec  2 17:37:33 2019: iteration 18, lowerbound -2.456572
+, Mon Dec  2 17:37:33 2019: iteration 19, lowerbound -2.402338
+, Mon Dec  2 17:37:33 2019: iteration 20, lowerbound -2.361246
+, Mon Dec  2 17:37:33 2019: iteration 21, lowerbound -2.331239
+, Mon Dec  2 17:37:33 2019: iteration 22, lowerbound -2.312529
+, Mon Dec  2 17:37:33 2019: iteration 23, lowerbound -2.307533
+, Mon Dec  2 17:37:33 2019: dropping number of Gaussions to 2
+, Mon Dec  2 17:37:33 2019: iteration 24, lowerbound -2.302923
+, Mon Dec  2 17:37:33 2019: iteration 25, lowerbound -2.299260
+, Mon Dec  2 17:37:33 2019: iteration 26, lowerbound -2.299256
+, Mon Dec  2 17:37:33 2019: iteration 27, lowerbound -2.299254
+, Mon Dec  2 17:37:33 2019: iteration 28, lowerbound -2.299254
+, Mon Dec  2 17:37:33 2019: iteration 29, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 30, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 31, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 32, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 33, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 34, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 35, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 36, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 37, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 38, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 39, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 40, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 41, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 42, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 43, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 44, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 45, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 46, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 47, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 48, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 49, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: iteration 50, lowerbound -2.299253
+, Mon Dec  2 17:37:33 2019: 50 variational Bayes EM-like iterations using 272 data points, final lowerbound -2.299253
+]
+α = [95.95490777397131, 178.04509222602871]
+β = [95.95490777397131, 178.04509222602871]
+m = [2.000229257775246 53.85198717246062; 4.250300733269789 79.28686694436004]
+ν = [97.95490777397131, 180.04509222602871]
+W = LinearAlgebra.UpperTriangular{Float64,Array{Float64,2}}[[0.37587636119504886 -0.008953123827348369; 0.0 0.012748664777409751], [0.1840415554748283 -0.007644049042328595; 0.0 0.008581705166331017]]
+Kind: diag, size256
+nx: 100000 sum(zeroth order stats): 99999.99999999999
+avll from stats: -0.9990036717744462
+avll from llpg:  -0.9990036717744452
+avll direct:     -0.9990036717744452
+sum posterior: 100000.0
+Kind: full, size16
+nx: 100000 sum(zeroth order stats): 100000.0
+avll from stats: -0.9573164636528305
+avll from llpg:  -0.957316463652831
+avll direct:     -0.957316463652831
+sum posterior: 100000.0
+32×26 Array{Float64,2}:
+  0.0222097    0.176742    -0.0231408    -0.039351     0.215101     0.053445     -0.016615    -0.0392146    -0.114455     0.0340123     0.185065     -0.0329518   -0.0190561   -0.0155323    0.225663    -0.0552715    0.094904     0.113927     0.017948    -0.110629   -0.0316003    0.0826712   -0.0144637  -0.0107549    -0.00195681    0.121887  
+ -0.0102852   -0.0861489   -0.0784853     0.0867545    0.0701538    0.0701644    -0.0105751    0.0553872    -0.0316545   -0.0665026    -0.0736675     0.0865245    0.0414358   -0.00430916  -0.00731767   0.0125473    0.159586    -0.00648283  -0.0290379   -0.181819   -0.120316    -0.189294    -0.106103    0.103116     -0.000550234  -0.00330515
+  0.210259     0.0516378   -0.0212542    -0.02393     -0.0855034   -0.116948     -0.0638983   -0.210206      0.128015     0.121677     -0.0241252    -0.128016    -0.0408318    0.31654      0.0424094   -0.255963     0.124758    -0.0453534    0.0387677    0.175968    0.0231617   -0.0653336    0.0105226  -0.0521201    -0.046576     -0.0689671 
+  0.119503     0.0223266   -0.0485108     0.158633    -0.0272659    0.177086     -0.0282571    0.023781     -0.0562304    0.168692     -0.06817       0.200126    -0.0739513    0.0317089    0.0836056    0.050799    -0.179269     0.0499351   -0.00073226  -0.069721    0.101987    -0.0147747    0.0928411   0.0377047    -0.127327      0.00414756
+  0.0796082    0.219068    -0.0854412     0.103737     0.155255     0.000820188   0.198768     0.16737       0.0719577   -0.142188      0.122491     -0.0114656   -0.069444     0.147943    -0.186161    -0.0264207   -0.181996     0.119395     0.0571309   -0.0027217   0.0501695   -0.0162199    0.0689366   0.0817008    -0.0751605    -0.0796727 
+ -0.015696    -0.149564    -0.052656     -0.099632     0.137773    -0.101755     -0.00651788   0.0701845     0.092817    -0.00252082   -0.127901      0.12028      0.0578009   -0.0290246    0.0752596   -0.0169988    0.201283     0.018061    -0.0223743    0.0747355  -0.0614807   -0.140416     0.0270851  -0.115974      0.246433     -0.0186691 
+  0.064692     0.0963104   -0.0669936     0.123625    -0.0965399    0.0845628    -0.0329131    0.0920518     0.0353875   -0.122661     -0.0660994    -0.00384992   0.111671    -0.159431    -0.0755593   -0.242515    -0.22465     -0.0576846   -0.0400945    0.0442749  -0.0704225   -0.0803433    0.081897    0.117158     -0.0893726    -0.0320291 
+ -0.0234764   -0.102635    -0.105611      0.0764303   -0.0127636    0.0503632     0.147752     0.0107797    -0.030951    -0.0681123    -0.0903873    -0.104058     0.226137     0.286718     0.00664695  -0.0277398    0.030615    -0.0119022   -0.08029     -0.113634   -0.01792      0.0543432    0.201538    0.061854     -0.0939748     0.00825803
+  0.100383    -0.023946    -0.0199448     0.0943937   -0.0747605    0.0665176    -0.0613324    0.0818778    -0.0920329   -0.0203531    -0.00098559    0.0385797   -0.00152315  -0.0456925   -0.0752642    0.01309      0.182756    -0.0673023    0.133757     0.0339956   0.0028058    0.0115032   -0.0545524  -0.0714531    -0.0591645     0.00645575
+  0.117859    -0.0716838   -0.0296914     0.0325418   -0.0404203    0.013899      0.0970878    0.16296       0.052219    -0.0236529    -0.0169793    -0.00893926  -0.123915    -0.0888516    0.0691074   -0.228122    -0.0288173    0.157068     0.083874    -0.0482551   0.0960371   -0.0294223   -0.0278333  -0.0389106     0.14821       0.218291  
+  0.0849182    0.157393     0.102114     -0.0500767   -0.0133673   -0.070891     -0.0132182   -0.0466712    -0.00715678  -0.076129     -0.0521871     0.0204229   -0.0350921   -0.115994    -0.122598     0.0125824   -0.272848     0.00538057   0.164035     0.028036   -0.0964269    0.0579629    0.240488   -0.0541       -0.141802     -0.193835  
+ -0.121173     0.00720576  -0.156229      0.0309118   -0.00901493   0.0199332     0.0391601    0.00343793   -0.0534503   -0.22524       0.0570044     0.184228     0.126112     0.042122    -0.0188395   -0.132093     0.0314922    0.00551588   0.0524165   -0.0699775  -0.0759579    0.00172804  -0.0257334   0.182738     -0.123333     -0.0201478 
+  0.0535962   -0.0933627    0.172898     -0.0272323   -0.0687208   -0.139829     -0.248774    -0.0646791     0.120446     0.0774156     0.0570479     0.202911     0.0252658   -0.143536    -0.163988     0.183927    -0.108276    -0.0387614   -0.0185237   -0.0468873  -0.0511025    0.200308     0.0863146   0.13461      -0.0673134    -0.271045  
+  0.0494427    0.0397772    0.121424     -0.0757257   -0.142581    -0.0740529    -0.0756197    0.0238335     0.0361107   -0.0346224     0.0422445     0.00499342   0.176407    -0.0685585   -0.0996214   -0.0539451   -0.00993551   0.111119     0.10589      0.115113    0.0169306    0.0719264   -0.118264    0.13092      -0.00820628   -0.0103846 
+  0.00610146  -0.129988    -0.0273662    -0.0249311    0.0901247    0.10068       0.0406753   -0.0483176     0.152669    -0.0325414    -0.0272537    -0.196347     0.0488286    0.131154    -0.112255    -0.030456     0.191861     0.198226    -0.0548744   -0.035932    0.154452    -0.0623246   -0.116862   -0.0200627    -0.100665      0.0314509 
+  0.147874    -0.197019     0.0925209    -0.0329023    0.0369839   -0.165006      0.0387756   -0.0714557    -0.0773335   -0.0320854     0.0702629    -0.0913127   -0.020082     0.143133    -0.223217    -0.0236753    0.176052     0.0165188    0.065484    -0.0414635  -0.17766      0.0485011   -0.0463764  -0.00832365    0.0114936     0.244876  
+  0.0265216    0.23223     -0.10253       0.161718    -0.107146    -0.0867443    -0.0338805   -0.0601722    -0.171333    -0.000575663   0.0768967    -0.00628956   0.102055     0.0823353   -0.0641972   -0.0214682    0.0376788    0.130583     0.198582     0.0107426   0.101249    -0.129923    -0.0475545  -0.12156       0.0230799    -0.0485312 
+ -0.0770597   -0.0291846    0.216291      0.102172    -0.0942685    0.00453586   -0.0585655   -0.000683499   0.052166     0.0333258    -0.226368     -0.0846456    0.103095     0.0135459    0.190892     0.123377    -0.0291639   -0.0298075   -0.0604525   -0.0827     -0.110256    -0.217909     0.0482874  -0.0892359     0.129752     -0.19189   
+ -0.0529829    0.0648953    0.0189889    -0.0930767   -0.135949     0.00284567    0.0885369   -0.0504685     0.0769622   -0.0293731     0.0685646     0.121655    -0.0452124   -0.104323    -0.177429     0.0675385    0.048104    -0.0740086    0.0498632    0.158035   -0.100446     0.090954    -0.0816228   0.00501795   -0.172154      0.132932  
+  0.023183     0.0357988    0.0348258    -0.188952    -0.102996    -0.0647111    -0.155396    -0.0902789     0.0455435    0.0454895    -0.0886994     0.041398     0.0439369    0.0443977    0.144041    -0.0881071    0.0856944    0.115834     0.045976    -0.0322765  -0.235426     0.0476719   -0.13185    -0.0557694     0.000609982   0.101224  
+ -0.00564584  -0.053865    -0.0289672     0.0525274    0.22538      0.161977     -0.033069     0.00253017    0.00381851  -0.177716     -0.0993129     0.161963    -0.1052       0.0923348   -0.0785064   -0.0719027   -0.1835      -0.0957025    0.00649774   0.0320148   0.00285347   0.0738335   -0.113451    0.0944876    -0.163195     -0.0528892 
+ -0.0599292    0.00270709  -0.138172      0.114137    -0.115297    -0.0455774     0.150355    -0.0846045    -0.0521967   -0.0911186     0.0813916     0.0697489    0.060314    -0.0356075    0.103682    -0.0540574   -0.0287193    0.0060039   -0.103871    -0.325934    0.0913295    0.0864778   -0.121449    0.0566949     0.163161      0.088983  
+  0.0354993    0.179528     0.0814844     0.0422044   -0.0462181   -0.118314      0.0807364    0.161176      0.0124375    0.130271     -0.0109455    -0.113467     0.147878    -0.195453     0.0872559    0.120772     0.0203895    0.0214172    0.0582247    0.109537   -0.0647072    0.0042534    0.116298   -0.135891     -0.0648587     0.0425753 
+  0.149447     0.0305382   -0.0260324     0.149099    -0.155173    -0.126095     -0.0921249   -0.127369     -0.0227696    0.0662471     0.25228      -0.104184     0.0521551   -0.0774472   -0.0591458   -0.0163746    0.114206     0.14943     -0.042548    -0.106812   -0.0605524   -0.0566245   -0.166322    0.0271689    -0.194901      0.106371  
+  0.195075    -0.0375584    0.0781004    -0.00514496  -0.0997586   -0.093269     -0.00296478  -0.0229808     0.130479     0.03585       0.0984036     0.0266917    0.0604929   -0.062825     0.0575171   -0.0975946   -0.0624631   -0.0547993   -0.0133333    0.0344919  -0.095144    -0.124902    -0.0408598   0.15002      -0.0337472    -0.0185671 
+ -0.155419    -0.118121     0.00184268   -0.110584     0.0108835    0.0221302     0.25283     -0.0159275    -0.0417499    0.143607      0.0036374     0.0118472   -0.023772    -0.0427541   -0.0182648    0.128088     0.0713701   -0.0840751    0.0587288   -0.102675   -0.154755    -0.0503586    0.0675112   0.106613     -0.0892131    -0.111939  
+ -0.107046    -0.0715789    0.000554391   0.0490423    0.0421613    0.0559648    -0.125724    -0.00018038    0.0698416    0.0527655    -0.000158263   0.0350306   -0.0209922   -0.0570214   -0.0550226    0.0259002   -0.157599    -0.0114701    0.00298455  -0.256175    0.00404165   0.0303636   -0.148282   -0.0218999    -0.153841     -0.0963326 
+ -0.143847     0.186713     0.0497352    -0.0583975   -0.0647204    0.0979032     0.0608547   -0.0450038     0.0434281   -0.024315     -0.157534      0.0907487    0.0890454    0.126329    -0.149528     0.0800626    0.113975    -0.205569     0.0280373   -0.056085    0.0403242   -0.0955746    0.0123845   0.0968324     0.0214686    -0.146532  
+  0.16015     -0.0746503   -0.113972     -0.0144278   -0.170203    -0.173938     -0.0585456    0.134789     -0.0646417   -0.121454     -0.0920971     0.075831    -0.15344     -0.0118915    0.0164275    0.07181     -0.0113809   -0.0953973    0.00702353  -0.0862027   0.016661     0.210375    -0.047496   -0.114642      0.0510965    -0.0323217 
+  0.04662     -0.192991    -0.000775945  -0.0420062    0.0715233    0.115579      0.0239538   -0.102647     -0.0570604   -0.16044      -0.0207042     0.0294442   -0.0376625    0.0314389    0.236716     0.00203644  -0.252459     0.0291861   -0.056588    -0.0455894   0.0342278   -0.085846    -0.0265002  -0.0620294     0.0908761    -0.0321034 
+ -0.196684    -0.0224511    0.134921     -0.0962217   -0.00284376  -0.022332      0.0678901   -0.151742     -0.19453      0.161035      0.150356      0.122639     0.0682973    0.12859      0.149177     0.0609064   -0.0431283   -0.193743     0.0300906   -0.0224187   0.0239757    0.0999714    0.0290359  -0.000294335  -0.0513268    -0.0576123 
+  0.148532    -0.0702002   -0.0557627    -0.0164084    0.0613394    0.0763719     0.0530511   -0.0533868    -0.210168     0.195094     -0.0481003    -0.0713035   -0.064836     0.103694    -0.00955869  -0.00828504  -0.0622801    0.0107943   -0.056398    -0.0278557   0.0969544    0.0167522    0.0174254   0.0171642    -0.0496808     0.134206  kind diag, method split
+┌ Info: 0: avll = 
+└   tll[1] = -1.3697428266623226
+[ Info: Running 50 iterations EM on diag cov GMM with 2 Gaussians in 26 dimensions
+[ Info: iteration 1, average log likelihood -1.369815
+[ Info: iteration 2, average log likelihood -1.369750
+[ Info: iteration 3, average log likelihood -1.369354
+[ Info: iteration 4, average log likelihood -1.364902
+[ Info: iteration 5, average log likelihood -1.350207
+[ Info: iteration 6, average log likelihood -1.341441
+[ Info: iteration 7, average log likelihood -1.339009
+[ Info: iteration 8, average log likelihood -1.337788
+[ Info: iteration 9, average log likelihood -1.336996
+[ Info: iteration 10, average log likelihood -1.336394
+[ Info: iteration 11, average log likelihood -1.335858
+[ Info: iteration 12, average log likelihood -1.335328
+[ Info: iteration 13, average log likelihood -1.334823
+[ Info: iteration 14, average log likelihood -1.334275
+[ Info: iteration 15, average log likelihood -1.333660
+[ Info: iteration 16, average log likelihood -1.333103
+[ Info: iteration 17, average log likelihood -1.332671
+[ Info: iteration 18, average log likelihood -1.332341
+[ Info: iteration 19, average log likelihood -1.332092
+[ Info: iteration 20, average log likelihood -1.331899
+[ Info: iteration 21, average log likelihood -1.331743
+[ Info: iteration 22, average log likelihood -1.331607
+[ Info: iteration 23, average log likelihood -1.331481
+[ Info: iteration 24, average log likelihood -1.331360
+[ Info: iteration 25, average log likelihood -1.331245
+[ Info: iteration 26, average log likelihood -1.331144
+[ Info: iteration 27, average log likelihood -1.331059
+[ Info: iteration 28, average log likelihood -1.330984
+[ Info: iteration 29, average log likelihood -1.330918
+[ Info: iteration 30, average log likelihood -1.330858
+[ Info: iteration 31, average log likelihood -1.330802
+[ Info: iteration 32, average log likelihood -1.330748
+[ Info: iteration 33, average log likelihood -1.330693
+[ Info: iteration 34, average log likelihood -1.330632
+[ Info: iteration 35, average log likelihood -1.330567
+[ Info: iteration 36, average log likelihood -1.330501
+[ Info: iteration 37, average log likelihood -1.330438
+[ Info: iteration 38, average log likelihood -1.330382
+[ Info: iteration 39, average log likelihood -1.330338
+[ Info: iteration 40, average log likelihood -1.330306
+[ Info: iteration 41, average log likelihood -1.330281
+[ Info: iteration 42, average log likelihood -1.330261
+[ Info: iteration 43, average log likelihood -1.330245
+[ Info: iteration 44, average log likelihood -1.330233
+[ Info: iteration 45, average log likelihood -1.330224
+[ Info: iteration 46, average log likelihood -1.330218
+[ Info: iteration 47, average log likelihood -1.330212
+[ Info: iteration 48, average log likelihood -1.330208
+[ Info: iteration 49, average log likelihood -1.330205
+[ Info: iteration 50, average log likelihood -1.330202
+┌ Info: EM with 100000 data points 50 iterations avll -1.330202
+└ 952.4 data points per parameter
+┌ Info: 1
+│   : avll =  = ": avll = "
+│   avll =
+│    50-element Array{Float64,1}:
+│     -1.369814750081125
+│     -1.369750325810214
+│      ⋮                
+└     -1.330202421360847
+[ Info: Running 50 iterations EM on diag cov GMM with 4 Gaussians in 26 dimensions
+[ Info: iteration 1, average log likelihood -1.330310
+[ Info: iteration 2, average log likelihood -1.330185
+[ Info: iteration 3, average log likelihood -1.329471
+[ Info: iteration 4, average log likelihood -1.322619
+[ Info: iteration 5, average log likelihood -1.305274
+[ Info: iteration 6, average log likelihood -1.296305
+[ Info: iteration 7, average log likelihood -1.293928
+[ Info: iteration 8, average log likelihood -1.292965
+[ Info: iteration 9, average log likelihood -1.292410
+[ Info: iteration 10, average log likelihood -1.292031
+[ Info: iteration 11, average log likelihood -1.291751
+[ Info: iteration 12, average log likelihood -1.291540
+[ Info: iteration 13, average log likelihood -1.291378
+[ Info: iteration 14, average log likelihood -1.291248
+[ Info: iteration 15, average log likelihood -1.291133
+[ Info: iteration 16, average log likelihood -1.291023
+[ Info: iteration 17, average log likelihood -1.290914
+[ Info: iteration 18, average log likelihood -1.290803
+[ Info: iteration 19, average log likelihood -1.290696
+[ Info: iteration 20, average log likelihood -1.290596
+[ Info: iteration 21, average log likelihood -1.290507
+[ Info: iteration 22, average log likelihood -1.290429
+[ Info: iteration 23, average log likelihood -1.290362
+[ Info: iteration 24, average log likelihood -1.290304
+[ Info: iteration 25, average log likelihood -1.290254
+[ Info: iteration 26, average log likelihood -1.290209
+[ Info: iteration 27, average log likelihood -1.290170
+[ Info: iteration 28, average log likelihood -1.290134
+[ Info: iteration 29, average log likelihood -1.290101
+[ Info: iteration 30, average log likelihood -1.290072
+[ Info: iteration 31, average log likelihood -1.290045
+[ Info: iteration 32, average log likelihood -1.290019
+[ Info: iteration 33, average log likelihood -1.289995
+[ Info: iteration 34, average log likelihood -1.289971
+[ Info: iteration 35, average log likelihood -1.289949
+[ Info: iteration 36, average log likelihood -1.289929
+[ Info: iteration 37, average log likelihood -1.289912
+[ Info: iteration 38, average log likelihood -1.289898
+[ Info: iteration 39, average log likelihood -1.289886
+[ Info: iteration 40, average log likelihood -1.289875
+[ Info: iteration 41, average log likelihood -1.289864
+[ Info: iteration 42, average log likelihood -1.289854
+[ Info: iteration 43, average log likelihood -1.289844
+[ Info: iteration 44, average log likelihood -1.289833
+[ Info: iteration 45, average log likelihood -1.289821
+[ Info: iteration 46, average log likelihood -1.289809
+[ Info: iteration 47, average log likelihood -1.289795
+[ Info: iteration 48, average log likelihood -1.289781
+[ Info: iteration 49, average log likelihood -1.289766
+[ Info: iteration 50, average log likelihood -1.289750
+┌ Info: EM with 100000 data points 50 iterations avll -1.289750
+└ 473.9 data points per parameter
+┌ Info: 2
+│   : avll =  = ": avll = "
+│   avll =
+│    50-element Array{Float64,1}:
+│     -1.3303099452325347
+│     -1.3301849331043167
+│      ⋮                 
+└     -1.289750255357867 
+[ Info: Running 50 iterations EM on diag cov GMM with 8 Gaussians in 26 dimensions
+[ Info: iteration 1, average log likelihood -1.289890
+[ Info: iteration 2, average log likelihood -1.289709
+[ Info: iteration 3, average log likelihood -1.289015
+[ Info: iteration 4, average log likelihood -1.282907
+[ Info: iteration 5, average log likelihood -1.264828
+[ Info: iteration 6, average log likelihood -1.250941
+[ Info: iteration 7, average log likelihood -1.245756
+[ Info: iteration 8, average log likelihood -1.243160
+[ Info: iteration 9, average log likelihood -1.241423
+[ Info: iteration 10, average log likelihood -1.240009
+[ Info: iteration 11, average log likelihood -1.238827
+[ Info: iteration 12, average log likelihood -1.237959
+[ Info: iteration 13, average log likelihood -1.237342
+[ Info: iteration 14, average log likelihood -1.236928
+[ Info: iteration 15, average log likelihood -1.236670
+[ Info: iteration 16, average log likelihood -1.236507
+[ Info: iteration 17, average log likelihood -1.236395
+[ Info: iteration 18, average log likelihood -1.236305
+[ Info: iteration 19, average log likelihood -1.236226
+[ Info: iteration 20, average log likelihood -1.236150
+[ Info: iteration 21, average log likelihood -1.236079
+[ Info: iteration 22, average log likelihood -1.236014
+[ Info: iteration 23, average log likelihood -1.235957
+[ Info: iteration 24, average log likelihood -1.235908
+[ Info: iteration 25, average log likelihood -1.235867
+[ Info: iteration 26, average log likelihood -1.235833
+[ Info: iteration 27, average log likelihood -1.235802
+[ Info: iteration 28, average log likelihood -1.235772
+[ Info: iteration 29, average log likelihood -1.235740
+[ Info: iteration 30, average log likelihood -1.235702
+[ Info: iteration 31, average log likelihood -1.235653
+[ Info: iteration 32, average log likelihood -1.235582
+[ Info: iteration 33, average log likelihood -1.235463
+[ Info: iteration 34, average log likelihood -1.235252
+[ Info: iteration 35, average log likelihood -1.234870
+[ Info: iteration 36, average log likelihood -1.234287
+[ Info: iteration 37, average log likelihood -1.233679
+[ Info: iteration 38, average log likelihood -1.233257
+[ Info: iteration 39, average log likelihood -1.233006
+[ Info: iteration 40, average log likelihood -1.232825
+[ Info: iteration 41, average log likelihood -1.232662
+[ Info: iteration 42, average log likelihood -1.232508
+[ Info: iteration 43, average log likelihood -1.232371
+[ Info: iteration 44, average log likelihood -1.232261
+[ Info: iteration 45, average log likelihood -1.232181
+[ Info: iteration 46, average log likelihood -1.232128
+[ Info: iteration 47, average log likelihood -1.232094
+[ Info: iteration 48, average log likelihood -1.232073
+[ Info: iteration 49, average log likelihood -1.232058
+[ Info: iteration 50, average log likelihood -1.232048
+┌ Info: EM with 100000 data points 50 iterations avll -1.232048
+└ 236.4 data points per parameter
+┌ Info: 3
+│   : avll =  = ": avll = "
+│   avll =
+│    50-element Array{Float64,1}:
+│     -1.2898898428295709
+│     -1.2897094448309159
+│      ⋮                 
+└     -1.2320480111190375
+[ Info: Running 50 iterations EM on diag cov GMM with 16 Gaussians in 26 dimensions
+[ Info: iteration 1, average log likelihood -1.232252
+[ Info: iteration 2, average log likelihood -1.231950
+[ Info: iteration 3, average log likelihood -1.229306
+[ Info: iteration 4, average log likelihood -1.208860
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     2
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 5, average log likelihood -1.176978
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     7
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 6, average log likelihood -1.164027
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 7, average log likelihood -1.153305
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│      2
+│     15
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 8, average log likelihood -1.140138
+[ Info: iteration 9, average log likelihood -1.153671
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│      7
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 10, average log likelihood -1.137291
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│     2
+│     5
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 11, average log likelihood -1.141699
+[ Info: iteration 12, average log likelihood -1.150169
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     15
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 13, average log likelihood -1.131899
+┌ Warning: Variances had to be floored 
+│   ind =
+│    3-element Array{Int64,1}:
+│      2
+│      7
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 14, average log likelihood -1.136921
+[ Info: iteration 15, average log likelihood -1.153039
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     5
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 16, average log likelihood -1.133266
+┌ Warning: Variances had to be floored 
+│   ind =
+│    4-element Array{Int64,1}:
+│      2
+│      7
+│     15
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 17, average log likelihood -1.135456
+[ Info: iteration 18, average log likelihood -1.161189
+[ Info: iteration 19, average log likelihood -1.145534
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│     2
+│     7
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 20, average log likelihood -1.132248
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 21, average log likelihood -1.143847
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│      5
+│     15
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 22, average log likelihood -1.130387
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│     2
+│     7
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 23, average log likelihood -1.144969
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 24, average log likelihood -1.153338
+[ Info: iteration 25, average log likelihood -1.140271
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│     2
+│     7
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 26, average log likelihood -1.126955
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     15
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 27, average log likelihood -1.137527
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│      5
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 28, average log likelihood -1.136294
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│     2
+│     7
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 29, average log likelihood -1.142131
+[ Info: iteration 30, average log likelihood -1.150022
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 31, average log likelihood -1.132346
+┌ Warning: Variances had to be floored 
+│   ind =
+│    3-element Array{Int64,1}:
+│      2
+│      7
+│     15
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 32, average log likelihood -1.123137
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     5
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 33, average log likelihood -1.149725
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 34, average log likelihood -1.143996
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│     2
+│     7
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 35, average log likelihood -1.134665
+[ Info: iteration 36, average log likelihood -1.143769
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│      2
+│     15
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 37, average log likelihood -1.123796
+┌ Warning: Variances had to be floored 
+│   ind =
+│    3-element Array{Int64,1}:
+│      5
+│      7
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 38, average log likelihood -1.137870
+[ Info: iteration 39, average log likelihood -1.149824
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     2
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 40, average log likelihood -1.131510
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 41, average log likelihood -1.133202
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│      7
+│     15
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 42, average log likelihood -1.120947
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│     2
+│     5
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 43, average log likelihood -1.136631
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 44, average log likelihood -1.147382
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│     2
+│     7
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 45, average log likelihood -1.135135
+[ Info: iteration 46, average log likelihood -1.141712
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│      2
+│     15
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 47, average log likelihood -1.122777
+┌ Warning: Variances had to be floored 
+│   ind =
+│    3-element Array{Int64,1}:
+│      5
+│      7
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 48, average log likelihood -1.137483
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     2
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 49, average log likelihood -1.149441
+[ Info: iteration 50, average log likelihood -1.141035
+┌ Info: EM with 100000 data points 50 iterations avll -1.141035
+└ 118.1 data points per parameter
+┌ Info: 4
+│   : avll =  = ": avll = "
+│   avll =
+│    50-element Array{Float64,1}:
+│     -1.2322516833785015
+│     -1.2319496232027665
+│      ⋮                 
+└     -1.1410352317967183
+[ Info: Running 50 iterations EM on diag cov GMM with 32 Gaussians in 26 dimensions
+┌ Warning: Variances had to be floored 
+│   ind =
+│    5-element Array{Int64,1}:
+│      3
+│      4
+│     13
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 1, average log likelihood -1.126905
+┌ Warning: Variances had to be floored 
+│   ind =
+│    7-element Array{Int64,1}:
+│      3
+│      4
+│     14
+│     29
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 2, average log likelihood -1.118582
+┌ Warning: Variances had to be floored 
+│   ind =
+│    7-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│     13
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 3, average log likelihood -1.119666
+┌ Warning: Variances had to be floored 
+│   ind =
+│    7-element Array{Int64,1}:
+│      3
+│      4
+│     14
+│     29
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 4, average log likelihood -1.106328
+┌ Warning: Variances had to be floored 
+│   ind =
+│    9-element Array{Int64,1}:
+│      3
+│      4
+│     13
+│     14
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 5, average log likelihood -1.081155
+┌ Warning: Variances had to be floored 
+│   ind =
+│    12-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 6, average log likelihood -1.058483
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 7, average log likelihood -1.063673
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 8, average log likelihood -1.054660
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      3
+│      4
+│     13
+│     14
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 9, average log likelihood -1.046958
+┌ Warning: Variances had to be floored 
+│   ind =
+│    12-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│      9
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 10, average log likelihood -1.049344
+┌ Warning: Variances had to be floored 
+│   ind =
+│    9-element Array{Int64,1}:
+│      3
+│      4
+│     13
+│     14
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 11, average log likelihood -1.054170
+┌ Warning: Variances had to be floored 
+│   ind =
+│    12-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 12, average log likelihood -1.041737
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 13, average log likelihood -1.053748
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 14, average log likelihood -1.049597
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      3
+│      4
+│     13
+│     14
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 15, average log likelihood -1.045997
+┌ Warning: Variances had to be floored 
+│   ind =
+│    12-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│      9
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 16, average log likelihood -1.049084
+┌ Warning: Variances had to be floored 
+│   ind =
+│    9-element Array{Int64,1}:
+│      3
+│      4
+│     13
+│     14
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 17, average log likelihood -1.054081
+┌ Warning: Variances had to be floored 
+│   ind =
+│    13-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│      9
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 18, average log likelihood -1.041543
+┌ Warning: Variances had to be floored 
+│   ind =
+│    9-element Array{Int64,1}:
+│      3
+│      4
+│     13
+│     14
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 19, average log likelihood -1.061097
+┌ Warning: Variances had to be floored 
+│   ind =
+│    12-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│      9
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 20, average log likelihood -1.044778
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      3
+│      4
+│     13
+│     14
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 21, average log likelihood -1.050854
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 22, average log likelihood -1.051757
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 23, average log likelihood -1.046527
+┌ Warning: Variances had to be floored 
+│   ind =
+│    12-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 24, average log likelihood -1.046329
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 25, average log likelihood -1.056032
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 26, average log likelihood -1.049494
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 27, average log likelihood -1.045829
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 28, average log likelihood -1.056546
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 29, average log likelihood -1.049046
+┌ Warning: Variances had to be floored 
+│   ind =
+│    12-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 30, average log likelihood -1.046330
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 31, average log likelihood -1.056026
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 32, average log likelihood -1.049497
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 33, average log likelihood -1.045801
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 34, average log likelihood -1.056550
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 35, average log likelihood -1.049013
+┌ Warning: Variances had to be floored 
+│   ind =
+│    12-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 36, average log likelihood -1.046342
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 37, average log likelihood -1.055995
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 38, average log likelihood -1.049499
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 39, average log likelihood -1.045782
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 40, average log likelihood -1.056552
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 41, average log likelihood -1.048985
+┌ Warning: Variances had to be floored 
+│   ind =
+│    12-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 42, average log likelihood -1.046354
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 43, average log likelihood -1.055970
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 44, average log likelihood -1.049502
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 45, average log likelihood -1.045767
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 46, average log likelihood -1.056555
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 47, average log likelihood -1.048963
+┌ Warning: Variances had to be floored 
+│   ind =
+│    12-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 48, average log likelihood -1.046365
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 49, average log likelihood -1.055949
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      9
+│     10
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 50, average log likelihood -1.049506
+┌ Info: EM with 100000 data points 50 iterations avll -1.049506
+└ 59.0 data points per parameter
+┌ Info: 5
+│   : avll =  = ": avll = "
+│   avll =
+│    50-element Array{Float64,1}:
+│     -1.12690473570304  
+│     -1.118582345256897 
+│      ⋮                 
+└     -1.0495062978252185
+┌ Info: Total log likelihood: 
+│   tll =
+│    251-element Array{Float64,1}:
+│     -1.3697428266623226
+│     -1.369814750081125 
+│     -1.369750325810214 
+│     -1.369353921643935 
+│      ⋮                 
+│     -1.046364881503956 
+│     -1.0559490061798955
+└     -1.0495062978252185
+32×26 Array{Float64,2}:
+ -0.498433     -0.106962   -0.020088    -0.0853475   -0.0282584     0.0148004    0.0861752    -0.0289046    0.0876035     0.146578      0.0549129     0.00624975  -0.0458066  -0.0487825   -0.0175068     0.145935    -0.0326283  -0.0968675   -0.00661744  -0.157223    -0.240695    -0.0628797    0.125064     0.0436711    0.0183301   -0.108392  
+  0.0477567    -0.128512    0.029817    -0.101668     0.06241       0.0316144    0.32148      -0.0159446   -0.115427      0.140611     -0.16515       0.00552949  -0.0237107  -0.0352466   -0.0159561     0.137505     0.122575   -0.0773841    0.0906941   -0.0794294   -0.127928    -0.0439647    0.00735016   0.139433    -0.054531    -0.110588  
+  0.532768      0.197139   -0.0818359   -0.0341078   -0.0237438     0.154786    -0.0292416     0.0338574   -0.0517878     0.175216      0.199311      0.203484    -0.069737    0.0313865    0.0802043    -0.480174    -0.175345    0.130633    -0.0524346   -0.0480865    0.0911871   -0.00933298   0.136808     0.0475299   -0.133378    -0.0500846 
+ -0.148581     -0.170607   -0.00419926   0.340955    -0.0258551     0.275789    -0.0501746     0.0312709   -0.0532751     0.156434     -0.323033      0.196902    -0.074024    0.0312529    0.0781195     0.425629    -0.185571   -0.0598744    0.0612015   -0.0389902    0.104208    -0.0309352    0.0273105    0.0368786   -0.132103     0.0387881 
+  0.000948158  -0.0903243  -0.0811517    0.080519     0.0614633     0.077366    -0.0692556     0.0680464   -0.0325166    -0.0502774    -0.0837656     0.0618112    0.0240432  -0.00296733  -0.0558473     0.0130607    0.162407    0.0543063   -0.00187177  -0.187472    -0.124235    -0.19834     -0.107082     0.108042     0.0210116    0.0109771 
+  0.0670262     0.207193   -0.098736     0.118869     0.152011     -0.00824294   0.171611      0.158265     0.068471     -0.154488      0.189365     -0.00639065  -0.0671056   0.138322    -0.188146     -0.0278321   -0.175352    0.0537645    0.0876014   -0.00405658   0.0487384   -0.0144864    0.0620421    0.0905351   -0.0644152   -0.0700768 
+  0.173158     -0.0537976  -0.0564271   -0.0121153    0.0617349     0.0704696    0.0624343    -0.0435559   -0.18658       0.158224     -0.0366554    -0.0549241   -0.0656324   0.0980732   -0.000471775  -0.0448351   -0.0827798   0.0211412   -0.0463694   -0.0306333    0.110146     0.0160448   -0.0239691    0.034695    -0.0478855    0.144365  
+  0.145236      0.0332337  -0.0222386    0.15666     -0.15104      -0.127417    -0.105758     -0.106954    -0.0465614     0.0770549     0.233483     -0.087083     0.0546445  -0.0823074   -0.0668643    -0.0515072    0.113193    0.120383    -0.0313277   -0.103554    -0.0530432   -0.0571167   -0.116088     0.00576539  -0.18903      0.0953557 
+ -0.0949352    -0.0661992   0.10656     -0.0335159    0.000609046   0.0619512   -0.111176      0.00418843   0.0661659     0.0129577    -0.000757894   0.036529    -0.0845138  -0.0568593   -0.0562334     0.0644602   -0.24727    -0.0238123    0.0594475   -0.177596     0.0413536    0.0765036   -0.205477    -0.072611    -0.575648    -0.0566812 
+ -0.0983079    -0.0648251  -0.235307     0.175865     0.100351      0.0561333   -0.109551     -0.0258122    0.0640163     0.13176      -0.00119409    0.0372364    0.153396   -0.0543545   -0.0557314    -0.16565      0.109075    0.0156565   -0.15233     -0.298357    -0.0179237   -0.0479027   -0.044356     0.0274613    0.771407    -0.159701  
+ -0.0315498     0.043384   -0.108756     0.0752043   -0.055697      0.0662485    0.0246958     0.0508731   -0.00340814   -0.173227     -0.000944437   0.0990435    0.103761   -0.0759136   -0.0396627    -0.176949    -0.077716   -0.0270668    0.00148142  -0.0111669   -0.0705769   -0.0305485    0.00876697   0.145985    -0.0959209   -0.0178515 
+  0.153245     -0.0174261  -0.022861     0.0015973   -0.056788     -0.0543765    0.000275622  -0.0406675    0.0890531     0.0555368    -0.0259428    -0.0680272   -0.0850631   0.138942     0.0698539    -0.242592     0.0461382   0.054937     0.0639779    0.0539748    0.0763644   -0.0507347   -0.0364718   -0.0455474    0.0526956    0.065448  
+  0.19466       0.0360111  -0.124149    -0.0245237   -1.3232       -0.220148     0.113636     -0.0310059    0.0827018     0.184894      0.481834      0.0183907    0.0418902  -0.0814416    0.0592241    -0.0979888   -0.0376921  -0.0552137   -0.0941409    0.0669984   -0.0993337   -0.460192     0.0671371    0.119488     0.00707324  -0.00876681
+  0.195286     -0.0456314   0.0877009   -0.00905908   0.164332     -0.047694    -0.0260865    -0.0253357    0.147224      0.0135879     0.0405687     0.0230355    0.0683234  -0.0403685    0.0568462    -0.09834     -0.0712604  -0.0545491    0.00308539   0.00978843  -0.0973712   -0.0603058   -0.0811042    0.144169    -0.0297749   -0.0143966 
+  0.0588895    -0.208465   -0.0204018   -0.170036     0.0611871     0.177805     0.0253691    -0.0795076   -0.147281     -0.137625     -0.031442      0.0201342    0.0850402  -0.275587     0.285333     -0.0357014   -0.248907    0.0317045   -0.170251    -0.0756407    0.0673494   -0.095952    -0.0267112   -0.194508     0.0987867   -0.0487129 
+  0.0299116    -0.165834    0.0209252    0.0745759    0.0839631     0.0015062    0.0230332    -0.144673     0.000195797  -0.16836      -0.00393732    0.0366149   -0.139986    0.283848     0.233643      0.00868025  -0.254305    0.0262637    0.051285    -0.0162355   -0.00121234  -0.00426186  -0.0269439    0.0123699    0.0822019   -0.00888441
+ -0.154621      0.202767    0.0389096   -0.0551703   -0.0771912     0.102838     0.0564518    -0.024456     0.0433035    -0.0211066    -0.157291      0.0840982    0.0885647   0.143502    -0.158185      0.0514275    0.10952    -0.206505     0.048216    -0.0546248    0.0451085   -0.0957862   -0.00826171   0.0978853    0.00541964  -0.14213   
+ -0.00219841   -0.0858685  -0.0141942   -0.0140367    0.0860132     0.0622579    0.00906805   -0.0110417    0.137127     -0.0289792    -0.0512593    -0.118738     0.0479182   0.111143    -0.0808762    -0.0413733    0.158139    0.190038    -0.0154096   -0.0792104    0.1332      -0.0631326   -0.108891    -0.0232207   -0.0930141    0.0015948 
+  0.0617355    -0.0986145   0.163021    -0.0281089   -0.0546665    -0.155021    -0.247921     -0.0737957    0.133157      0.0464098     0.0891379     0.195454     0.022205   -0.197321    -0.149596      0.174687    -0.10751    -0.0626369   -0.0358506   -0.0521508   -0.0633999    0.182049     0.0779236    0.134206    -0.0445491   -0.275548  
+  0.0256558     0.0149001  -0.0647861    0.0779016   -0.019692      0.029814     0.0405919    -0.0237034   -0.0865748    -0.0260106     0.0651607     0.0310239    0.018526   -0.0392336    0.0912591    -0.0310458    0.0846877   0.0182268    0.00605218  -0.139833     0.0213877    0.0331951   -0.0741742   -0.00765784   0.0393194    0.0711089 
+  0.0542616     0.0661768   0.0422298   -0.00837417   0.100911      0.0389659   -0.0217718    -0.0329218   -0.0152984    -0.102507     -0.0457852     0.0592042   -0.0637451   0.0173461   -0.0633779    -0.0424182   -0.192995   -0.0350416    0.0908849    0.00828922  -0.0322679    0.0635643    0.0331118    0.0272119   -0.140109    -0.0810395 
+ -0.0441745     0.0375852   0.10548     -0.0763753   -0.108981     -0.0169374   -0.0121474    -0.0374946    0.0558705     0.00408494   -0.0643704     0.0324743    0.0184542  -0.025478     0.0211384     0.0522484    0.0253932   0.0159501    0.0227389    0.0230506   -0.14929     -0.0256975   -0.0251351   -0.0459275   -0.0455351   -0.00265833
+ -0.0652272     0.0314852   0.126216    -0.0969671   -0.0564826    -0.0486594   -0.0194977    -0.0756265   -0.0600042     0.0440837     0.0631381     0.0688532    0.117895    0.0281839    0.0357002    -0.00769035  -0.0342713  -0.037238     0.0768594    0.0701394   -0.002014     0.047068    -0.0346455    0.0403883   -0.0237651   -0.0169457 
+  0.0433634     0.247976   -0.122113     0.160662    -0.108176     -0.0898536   -0.0315076    -0.058033    -0.169797     -0.00280097    0.0532811     0.00707717   0.1021      0.0784596   -0.0626989    -0.00973479   0.0252899   0.134163     0.197663     0.0118348    0.101676    -0.128705    -0.0455529   -0.120372     0.0237033   -0.0250785 
+  0.199454     -0.226113    0.104341    -0.0333492    0.0443764    -0.161578     0.0256738    -0.0970429   -0.0876844    -0.0336515     0.0693317    -0.0820073   -0.0282839   0.126322    -0.207523     -0.0177079    0.176876    0.0184545    0.0555497   -0.0302999   -0.138053     0.0442708   -0.029398    -0.0419358    0.00609621   0.251509  
+  0.0531068    -0.109812   -0.0926771    0.0822793   -0.00617784    0.0609741    0.153279      0.00322829  -0.0301634    -0.0656772    -0.0697383    -0.0293801    0.226255    0.284386     0.0165664    -0.0239051    0.0399742  -0.0168811   -0.0820791   -0.11148     -0.0180778    0.0111826    0.220133     0.074831    -0.0848964    0.00932999
+ -0.0422155    -0.0812833  -0.0435563   -0.0996937    0.134319     -0.0940636   -0.00318772    0.0204924   -0.114536     -0.000400085  -0.218106     -0.0792465    0.0391336   0.00733006   0.0641796    -0.107783     0.196132    0.0262729   -0.0231914    0.0689998   -0.134492    -0.186851    -0.0307967   -0.0769454    0.128628     0.0243831 
+  0.0117585    -0.188355   -0.0601155   -0.105585     0.155692     -0.104331     0.0228082     0.125474     0.32577      -0.00217497   -0.0381744     0.240267     0.115263   -0.0662555    0.046954      0.00333695   0.204472    0.00977192  -0.0194599    0.0776496    0.0907478   -0.110808     0.0429737   -0.17686      0.393832    -0.0379994 
+ -0.347874      0.362404    0.100626     0.0422608    0.0849221    -0.117267    -0.0446892     0.161095     0.0541932     0.148329     -0.0296801    -0.185107     0.0988324  -0.200475     0.0786247     0.123003     0.0219946   0.0216397   -0.0315188    0.0593645    0.0486775   -0.643764     0.119981    -0.142253    -0.0636188    0.0694036 
+  0.468941      0.0337246   0.0655176    0.0424254   -0.143137     -0.11614      0.225464      0.161169    -0.0337716     0.0519002     0.00443581   -0.0696101    0.170608   -0.196263     0.0960638     0.109626     0.0275693   0.0212471    0.15492      0.159795    -0.168558     0.596002     0.0800106   -0.127434    -0.0662848    0.00876151
+  0.0739481    -0.0917565  -0.111474    -0.335884    -0.253097     -0.173704    -0.0709069     0.0680379   -0.142768     -0.209516     -0.19682       0.050026    -0.128142   -0.0517894    0.0201477     0.348768     0.0346083  -0.102624    -0.0537643   -0.0616583    0.285112     0.029877    -0.00147943  -0.117548     0.115985    -0.024293  
+  0.196737     -0.0328039  -0.112967     0.459781    -0.0965858    -0.173032    -0.0405498     0.206569     0.0627302    -0.0512402     0.0249005     0.0803581   -0.180786    0.0123994    0.0164364    -0.205116    -0.0476837  -0.0738375    0.0963563   -0.124495    -0.376261     0.334062    -0.0198764   -0.0991814   -0.0103331   -0.0452335 [ Info: Running 10 iterations EM on diag cov GMM with 32 Gaussians in 26 dimensions
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 1, average log likelihood -1.045753
+┌ Warning: Variances had to be floored 
+│   ind =
+│    13-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│      9
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 2, average log likelihood -1.041270
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 3, average log likelihood -1.045742
+┌ Warning: Variances had to be floored 
+│   ind =
+│    13-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│      9
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 4, average log likelihood -1.041256
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 5, average log likelihood -1.045739
+┌ Warning: Variances had to be floored 
+│   ind =
+│    13-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│      9
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 6, average log likelihood -1.041257
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 7, average log likelihood -1.045736
+┌ Warning: Variances had to be floored 
+│   ind =
+│    13-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│      9
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 8, average log likelihood -1.041259
+┌ Warning: Variances had to be floored 
+│   ind =
+│    11-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│     13
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 9, average log likelihood -1.045733
+┌ Warning: Variances had to be floored 
+│   ind =
+│    13-element Array{Int64,1}:
+│      3
+│      4
+│      6
+│      9
+│      ⋮
+│     30
+│     31
+│     32
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 10, average log likelihood -1.041261
+┌ Info: EM with 100000 data points 10 iterations avll -1.041261
+└ 59.0 data points per parameter
+[ Info: Initializing GMM, 32 Gaussians diag covariance 26 dimensions using 100000 data points
+kind diag, method kmeans
+  Iters               objv        objv-change | affected 
+-------------------------------------------------------------
+      0       7.821785e+05
+      1       6.368946e+05      -1.452839e+05 |       32
+      2       6.086117e+05      -2.828289e+04 |       32
+      3       5.926905e+05      -1.592118e+04 |       32
+      4       5.820642e+05      -1.062635e+04 |       32
+      5       5.757068e+05      -6.357370e+03 |       32
+      6       5.719461e+05      -3.760750e+03 |       32
+      7       5.698008e+05      -2.145326e+03 |       32
+      8       5.683587e+05      -1.442083e+03 |       32
+      9       5.671791e+05      -1.179532e+03 |       32
+     10       5.660698e+05      -1.109302e+03 |       32
+     11       5.649560e+05      -1.113865e+03 |       32
+     12       5.639417e+05      -1.014256e+03 |       32
+     13       5.630938e+05      -8.479370e+02 |       32
+     14       5.624368e+05      -6.569258e+02 |       32
+     15       5.619870e+05      -4.498779e+02 |       32
+     16       5.616506e+05      -3.363292e+02 |       32
+     17       5.613596e+05      -2.910175e+02 |       32
+     18       5.611671e+05      -1.925403e+02 |       32
+     19       5.610575e+05      -1.095652e+02 |       32
+     20       5.609909e+05      -6.665375e+01 |       31
+     21       5.609546e+05      -3.630351e+01 |       32
+     22       5.609290e+05      -2.555296e+01 |       32
+     23       5.609009e+05      -2.810115e+01 |       32
+     24       5.608741e+05      -2.681049e+01 |       31
+     25       5.608524e+05      -2.167026e+01 |       28
+     26       5.608335e+05      -1.890256e+01 |       32
+     27       5.608152e+05      -1.835893e+01 |       30
+     28       5.607956e+05      -1.958717e+01 |       32
+     29       5.607736e+05      -2.201754e+01 |       32
+     30       5.607473e+05      -2.630413e+01 |       30
+     31       5.607203e+05      -2.694454e+01 |       32
+     32       5.606864e+05      -3.389546e+01 |       32
+     33       5.606542e+05      -3.217294e+01 |       32
+     34       5.606109e+05      -4.330537e+01 |       31
+     35       5.605721e+05      -3.888017e+01 |       31
+     36       5.605382e+05      -3.381426e+01 |       31
+     37       5.604930e+05      -4.522240e+01 |       32
+     38       5.604563e+05      -3.671652e+01 |       32
+     39       5.604198e+05      -3.654633e+01 |       32
+     40       5.603921e+05      -2.767309e+01 |       27
+     41       5.603728e+05      -1.925337e+01 |       30
+     42       5.603538e+05      -1.900520e+01 |       32
+     43       5.603421e+05      -1.174536e+01 |       25
+     44       5.603310e+05      -1.107228e+01 |       21
+     45       5.603232e+05      -7.767585e+00 |       28
+     46       5.603126e+05      -1.065350e+01 |       26
+     47       5.602994e+05      -1.316181e+01 |       28
+     48       5.602883e+05      -1.114307e+01 |       29
+     49       5.602717e+05      -1.653785e+01 |       25
+     50       5.602518e+05      -1.995165e+01 |       28
+K-means terminated without convergence after 50 iterations (objv = 560251.7944513058)
+┌ Info: K-means with 32000 data points using 50 iterations
+└ 37.0 data points per parameter
+[ Info: Running 50 iterations EM on diag cov GMM with 32 Gaussians in 26 dimensions
+[ Info: iteration 1, average log likelihood -1.285711
+[ Info: iteration 2, average log likelihood -1.257906
+[ Info: iteration 3, average log likelihood -1.231533
+[ Info: iteration 4, average log likelihood -1.198311
+[ Info: iteration 5, average log likelihood -1.158973
+┌ Warning: Variances had to be floored 
+│   ind =
+│    3-element Array{Int64,1}:
+│      4
+│     15
+│     26
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 6, average log likelihood -1.106426
+┌ Warning: Variances had to be floored 
+│   ind =
+│    3-element Array{Int64,1}:
+│     10
+│     27
+│     29
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 7, average log likelihood -1.098903
+[ Info: iteration 8, average log likelihood -1.061625
+┌ Warning: Variances had to be floored 
+│   ind =
+│    5-element Array{Int64,1}:
+│      7
+│     15
+│     16
+│     17
+│     28
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 9, average log likelihood -1.013097
+┌ Warning: Variances had to be floored 
+│   ind =
+│    3-element Array{Int64,1}:
+│      4
+│     26
+│     27
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 10, average log likelihood -1.050162
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│     10
+│     29
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 11, average log likelihood -1.043920
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│      7
+│     17
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 12, average log likelihood -1.034042
+┌ Warning: Variances had to be floored 
+│   ind =
+│    3-element Array{Int64,1}:
+│     13
+│     15
+│     28
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 13, average log likelihood -1.022091
+┌ Warning: Variances had to be floored 
+│   ind =
+│    5-element Array{Int64,1}:
+│      4
+│     10
+│     16
+│     26
+│     27
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 14, average log likelihood -1.028552
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│      7
+│     22
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 15, average log likelihood -1.064349
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     29
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 16, average log likelihood -1.047197
+┌ Warning: Variances had to be floored 
+│   ind =
+│    3-element Array{Int64,1}:
+│     13
+│     15
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 17, average log likelihood -1.017536
+┌ Warning: Variances had to be floored 
+│   ind =
+│    4-element Array{Int64,1}:
+│      4
+│     10
+│     26
+│     28
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 18, average log likelihood -1.035892
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│      7
+│     22
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 19, average log likelihood -1.053342
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     27
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 20, average log likelihood -1.037564
+┌ Warning: Variances had to be floored 
+│   ind =
+│    5-element Array{Int64,1}:
+│     13
+│     15
+│     16
+│     17
+│     29
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 21, average log likelihood -0.989351
+┌ Warning: Variances had to be floored 
+│   ind =
+│    4-element Array{Int64,1}:
+│      4
+│      7
+│     10
+│     26
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 22, average log likelihood -1.035440
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     22
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 23, average log likelihood -1.068727
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     28
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 24, average log likelihood -1.023292
+┌ Warning: Variances had to be floored 
+│   ind =
+│    5-element Array{Int64,1}:
+│      7
+│     13
+│     15
+│     16
+│     29
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 25, average log likelihood -0.985099
+┌ Warning: Variances had to be floored 
+│   ind =
+│    4-element Array{Int64,1}:
+│      4
+│     10
+│     17
+│     26
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 26, average log likelihood -1.038632
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     22
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 27, average log likelihood -1.058329
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     7
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 28, average log likelihood -1.019189
+┌ Warning: Variances had to be floored 
+│   ind =
+│    7-element Array{Int64,1}:
+│     10
+│     13
+│     15
+│     16
+│     25
+│     28
+│     29
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 29, average log likelihood -0.981092
+┌ Warning: Variances had to be floored 
+│   ind =
+│    3-element Array{Int64,1}:
+│      4
+│     17
+│     26
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 30, average log likelihood -1.055054
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│      7
+│     22
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 31, average log likelihood -1.047106
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     25
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 32, average log likelihood -1.015345
+┌ Warning: Variances had to be floored 
+│   ind =
+│    6-element Array{Int64,1}:
+│      4
+│     10
+│     13
+│     15
+│     16
+│     29
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 33, average log likelihood -0.973182
+┌ Warning: Variances had to be floored 
+│   ind =
+│    3-element Array{Int64,1}:
+│      7
+│     17
+│     26
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 34, average log likelihood -1.043605
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│     22
+│     25
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 35, average log likelihood -1.044221
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 36, average log likelihood -1.012435
+┌ Warning: Variances had to be floored 
+│   ind =
+│    7-element Array{Int64,1}:
+│      4
+│      7
+│     10
+│     13
+│     15
+│     26
+│     29
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 37, average log likelihood -0.969629
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│     17
+│     25
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 38, average log likelihood -1.057752
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     22
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 39, average log likelihood -1.027331
+┌ Warning: Variances had to be floored 
+│   ind =
+│    5-element Array{Int64,1}:
+│      7
+│     10
+│     13
+│     15
+│     16
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 40, average log likelihood -0.986797
+┌ Warning: Variances had to be floored 
+│   ind =
+│    3-element Array{Int64,1}:
+│     25
+│     26
+│     29
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 41, average log likelihood -1.027928
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│      4
+│     17
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 42, average log likelihood -1.029827
+┌ Warning: Variances had to be floored 
+│   ind =
+│    4-element Array{Int64,1}:
+│      7
+│     10
+│     16
+│     22
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 43, average log likelihood -0.998566
+┌ Warning: Variances had to be floored 
+│   ind =
+│    5-element Array{Int64,1}:
+│     13
+│     15
+│     25
+│     26
+│     29
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 44, average log likelihood -1.006139
+[ Info: iteration 45, average log likelihood -1.056317
+┌ Warning: Variances had to be floored 
+│   ind =
+│    4-element Array{Int64,1}:
+│      4
+│      7
+│     17
+│     22
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 46, average log likelihood -0.992914
+┌ Warning: Variances had to be floored 
+│   ind =
+│    7-element Array{Int64,1}:
+│     10
+│     13
+│     15
+│     16
+│     25
+│     26
+│     29
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 47, average log likelihood -0.993960
+[ Info: iteration 48, average log likelihood -1.075488
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     7
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 49, average log likelihood -1.015232
+┌ Warning: Variances had to be floored 
+│   ind =
+│    9-element Array{Int64,1}:
+│      4
+│     10
+│     15
+│     16
+│      ⋮
+│     25
+│     26
+│     29
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 50, average log likelihood -0.972380
+┌ Info: EM with 100000 data points 50 iterations avll -0.972380
+└ 59.0 data points per parameter
+32×26 Array{Float64,2}:
+  0.147553     0.039354    -0.0227592    0.161081    -0.147144    -0.136728    -0.101189    -0.11541      -0.0495617    0.0758645    0.251771     -0.0846308    0.0534671    -0.079008    -0.0772997    -0.0511473    0.116906      0.129041    -0.0242149   -0.102026    -0.0481306   -0.0521476   -0.119514     0.00998791  -0.211519     0.0986936 
+  0.0471248    0.0870358    0.125135    -0.0806344   -0.115497    -0.0811637   -0.071012     0.0269507     0.0698729   -0.0670484    0.0197501     0.00885193   0.182256     -0.0674272   -0.100245     -0.0627633   -0.000596044   0.0927598    0.106156     0.129593     0.00589238   0.0279198   -0.114889     0.13153     -0.012365    -0.00211467
+  0.04325      0.247856    -0.122566     0.160762    -0.108074    -0.089916    -0.0317961   -0.0580339    -0.170226    -0.0029451    0.0540763     0.00665984   0.101818      0.0777387   -0.0628053    -0.00952529   0.0263467     0.132981     0.197612     0.0109674    0.10171     -0.128374    -0.0458552   -0.120863     0.0238932   -0.0262124 
+  0.128415    -0.0725611   -0.114473     0.0639929   -0.175785    -0.173396    -0.0518561    0.148081     -0.0486286   -0.144543    -0.0924028     0.063782    -0.165627     -0.0239705    0.0156445     0.0905896   -0.00760078   -0.0915979    0.0211247   -0.0884056   -0.0228984    0.181664    -0.0124927   -0.111781     0.0555083   -0.0368093 
+  0.0638123   -0.0986153    0.162167    -0.0281043   -0.0555765   -0.156342    -0.247888    -0.0737965     0.133811     0.0475822    0.0907273     0.197457     0.0219554    -0.198754    -0.152286      0.175407    -0.107927     -0.063109    -0.0350781   -0.0512796   -0.0648834    0.18166      0.0783892    0.134359    -0.0459058   -0.276626  
+ -0.0828182   -0.0318445    0.232135     0.10127     -0.089007     0.00565519  -0.044767     0.000764818   0.04523      0.0318456   -0.22559      -0.103821     0.0919828     0.0281644    0.187968      0.131453    -0.0229363     0.0373829   -0.0605752   -0.101473    -0.110366    -0.217734     0.0536641   -0.0911914    0.120138    -0.214801  
+  0.0743616    0.213166    -0.112815     0.114166     0.147424    -0.00651158   0.169772     0.157564      0.0752795   -0.149734     0.194812     -0.0117629   -0.0733765     0.147316    -0.183544     -0.0242664   -0.176974      0.0568222    0.0814334    0.00301999   0.0500543   -0.0129413    0.0628834    0.104112    -0.0536606   -0.0658328 
+  0.0453732   -0.189819    -0.00077471  -0.0539015    0.0725524    0.0930546    0.0241115   -0.111371     -0.0758377   -0.153654    -0.0183924     0.0281846   -0.0223967    -0.00483253   0.261555     -0.0137039   -0.251514      0.0289176   -0.0638713   -0.0464442    0.034383    -0.0535436   -0.0268978   -0.0942678    0.0902075   -0.0299586 
+ -0.0130371   -0.143407    -0.0538707   -0.103356     0.147175    -0.100201     0.0125759    0.0821775     0.126059    -0.00200933  -0.12035       0.10297      0.0821212    -0.0304693    0.0532544    -0.0432728    0.199098      0.014956    -0.0213086    0.0748151   -0.00875681  -0.149136     0.0140321   -0.133995     0.277509    -0.0115473 
+  0.0656676    0.198595     0.0830752    0.0424669   -0.0269691   -0.116515     0.0918082    0.160418      0.00760179   0.103578    -0.0109665    -0.129233     0.137932     -0.198845     0.0872982     0.117056     0.0253276     0.0214025    0.0630273    0.110867    -0.0599942   -0.0173305    0.10394     -0.136164    -0.0656135    0.0373277 
+  0.0419695   -0.0518834   -0.00171307   0.0523882    0.218236     0.166946    -0.0537946    0.00565787   -0.0025991   -0.168846    -0.130685      0.149139    -0.110151      0.121315    -0.0512883    -0.0796247   -0.208223     -0.0940814    0.0326192    0.088002     0.0325478    0.0605148   -0.108586     0.0996608   -0.173107    -0.0418882 
+ -0.00602536   0.176788    -0.00267996  -0.0423991    0.185988     0.0792459    0.00315096  -0.0801116    -0.095311     0.0368575    0.17655      -0.0389309   -0.0277962    -0.00255994   0.224046     -0.0374248    0.0842031     0.0915615    0.00518258  -0.11776     -0.0589008    0.0355666   -0.0148472   -0.0100525   -0.00633902   0.124271  
+  0.123544    -0.0895915   -0.0285692    0.0231894   -0.0156389    0.0108249    0.0955434    0.16847       0.0512029   -0.00509184  -0.0259226    -0.00895488  -0.129976     -0.0840938    0.080254     -0.226063    -0.0217435     0.15238      0.0864022   -0.0470526    0.094037    -0.0290547   -0.0456681   -0.0370239    0.15182      0.218823  
+ -0.151239     0.196868     0.0399045   -0.0562048   -0.0701421    0.103783     0.0573022   -0.0204497     0.0443257   -0.0215387   -0.156622      0.0828317    0.0885626     0.142768    -0.159403      0.0534641    0.110909     -0.202826     0.0476205   -0.0572288    0.0449722   -0.0947461   -0.00709397   0.0972149    0.00472579  -0.144621  
+ -0.0959721   -0.0682447    0.00256006   0.0311072    0.035249     0.0610724   -0.112612    -0.00375047    0.066188     0.0489688   -0.000150323   0.0362471   -0.0144469    -0.0564543   -0.058053      0.00061413  -0.13929      -0.0119406   -0.00194777  -0.214283     0.0264385    0.0371881   -0.160295    -0.0418887   -0.177525    -0.0883835 
+  0.0550257   -0.110277    -0.0953964    0.0911421   -0.00616651   0.0612245    0.159975     0.00450148   -0.0301352   -0.0669179   -0.0711624    -0.0321535    0.226341      0.286767     0.014914     -0.0231759    0.0386973    -0.0177538   -0.0859636   -0.112844    -0.0157319    0.0104546    0.222353     0.0763083   -0.087701     0.00931174
+ -0.120701    -0.00613549  -0.151687     0.0122029   -0.00558342   0.0313312    0.0600173    0.0262026    -0.0525977   -0.217932     0.0785728     0.198319     0.0951884     0.046873    -0.0289778    -0.122364     0.0648748     0.00533679   0.0529213   -0.0561532   -0.0715172   -0.00234943  -0.0349964    0.189477    -0.108575    -0.020418  
+  0.199065    -0.227818     0.104975    -0.0334901    0.0445319   -0.162504     0.0259488   -0.0974918    -0.0885916   -0.0347575    0.0695974    -0.0818828   -0.0285709     0.126188    -0.208811     -0.0168763    0.176964      0.0183616    0.0557636   -0.0292732   -0.141633     0.0437809   -0.0285181   -0.0415953    0.00616615   0.251044  
+  0.00678815  -0.0838947   -0.080099     0.0833358    0.0651112    0.0744366   -0.0594923    0.069906     -0.0281138   -0.0541705   -0.0825217     0.0605215    0.0191715    -0.00167302  -0.0661769     0.013233     0.156185      0.0475485   -0.00390585  -0.18214     -0.117155    -0.19291     -0.106539     0.106561     0.0177559    0.0080276 
+  0.0618447    0.101797    -0.0725541    0.128584    -0.096103     0.0994345   -0.0162893    0.0858215     0.0543628   -0.131003    -0.0650145     0.00307987   0.103225     -0.184582    -0.0566822    -0.237365    -0.217475     -0.0554989   -0.0267822    0.0212884   -0.0764229   -0.0618031    0.0614888    0.104129    -0.101688    -0.0164011 
+  0.124078    -0.025042     0.00284512   0.134801    -0.0622819    0.058728    -0.0325624    0.0319477    -0.102913    -0.0496284   -0.00824823   -0.0108128   -0.000696425  -0.099345    -0.0697419     0.0521701    0.175873     -0.0705617    0.389689     0.0402778   -0.00376368   0.0181141   -0.0926303   -0.0581025   -0.0237144    0.00962692
+ -0.189934    -0.0203111    0.137215    -0.0985675   -0.00567546  -0.0234282    0.0613789   -0.175923     -0.198787     0.146891     0.140828      0.13801      0.0659285     0.121202     0.149458      0.0569886   -0.0742911    -0.191266     0.0573087    0.0237394    0.0192227    0.0872321    0.0679296   -0.0276151   -0.0437502   -0.0575138 
+  0.00527023   0.112212     0.0705735   -0.080761    -0.0899362   -0.0623874    0.0512168   -0.05709       0.0297278   -0.0538133    0.0249295     0.0780642   -0.0381447    -0.0993146   -0.183242      0.0385132   -0.100521     -0.0317567    0.120964     0.0784823   -0.0962243    0.0738896    0.0729183   -0.0204059   -0.171145    -0.0274678 
+  0.15372     -0.0310916   -0.0854744    0.00510152  -0.126872     0.0424372   -0.0852308    0.207976     -0.179804     0.0845457    0.0141099     0.1956       0.0252438     0.0175923   -0.0981193    -0.0658423    0.211865     -0.0547521   -0.549916     0.00542882   0.009247     0.00957934   0.00118541  -0.100882    -0.165576     0.0048553 
+  0.00454566  -0.0953188   -0.0285841   -0.0147958    0.12583      0.0817756    0.0301156   -0.00875007    0.148901    -0.0326669   -0.0434678    -0.144336     0.0454769     0.124026    -0.110473     -0.0327387    0.173816      0.195305    -0.0134252   -0.0871807    0.172416    -0.0625039   -0.122385    -0.0220172   -0.112278     0.00384848
+  0.202331     0.0155488   -0.0431142    0.151054    -0.0240651    0.218386    -0.0381926    0.0327138    -0.0532141    0.166552    -0.0561543     0.201314    -0.0719687     0.0313094    0.0792425    -0.0342992   -0.181589      0.0358387    0.00633381  -0.0389729    0.0987481   -0.0196558    0.0859325    0.042682    -0.133634    -0.00844894
+ -0.0609474   -0.0433345   -0.136142     0.131276    -0.0982224   -0.0369761    0.146423    -0.0773183    -0.0465772   -0.0962374    0.0731993     0.0491515    0.0609269    -0.0524228    0.156003     -0.0858059   -0.0211479     0.0243048   -0.100606    -0.320939     0.0885884    0.05562     -0.127289     0.0585151    0.160184     0.0924529 
+  0.176121    -0.0508722   -0.0573032   -0.0129576    0.0623634    0.0716824    0.061401    -0.0466492    -0.190374     0.158822    -0.0381697    -0.0576716   -0.0649896     0.0997313   -0.000254423  -0.0429438   -0.08651       0.0179545   -0.0490863   -0.0287322    0.110331     0.0172119   -0.0266021    0.0383785   -0.0505853    0.141622  
+  0.195385    -0.0293443    0.0530212   -0.0114476   -0.0824844   -0.0777381   -0.00443892  -0.0262661     0.138816     0.0406969    0.115965      0.0239514    0.0656832    -0.0487908    0.0558388    -0.0980853   -0.0651801    -0.054941    -0.0133048    0.0229408   -0.0977641   -0.128515    -0.0580866    0.14338     -0.026727    -0.013707  
+  0.0176852    0.0335231    0.0338885   -0.234593    -0.119435    -0.0513798   -0.154238    -0.0846543     0.0615524    0.0423949   -0.10081       0.0429108    0.0451987     0.0448169    0.141297     -0.0960283    0.0371444     0.135455     0.0495932   -0.0285901   -0.248098     0.0510709   -0.105098    -0.0577263    0.00766186   0.103312  
+  0.196855     0.061426    -0.0197464   -0.0151634   -0.0897534   -0.116156    -0.0879368   -0.24666       0.123105     0.116343    -0.0247591    -0.128844    -0.0394631     0.355895     0.0361313    -0.257884     0.113235     -0.0496899    0.0383261    0.145798     0.0755743   -0.0758033   -0.0337305   -0.0594745   -0.0500887   -0.0830792 
+ -0.184959    -0.120207     0.00705868  -0.0974773    0.026383     0.0252101    0.228807    -0.0209913    -0.0311683    0.143253    -0.0700654     0.00616272  -0.0343086    -0.0412294   -0.01749       0.139531     0.057374     -0.0843126    0.0473321   -0.10962     -0.177627    -0.0500325    0.0586914    0.101581    -0.0295009   -0.109451  [ Info: Running 10 iterations EM on diag cov GMM with 32 Gaussians in 26 dimensions
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     13
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 1, average log likelihood -1.073725
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│      7
+│     13
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 2, average log likelihood -1.025701
+┌ Warning: Variances had to be floored 
+│   ind =
+│    1-element Array{Int64,1}:
+│     13
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 3, average log likelihood -0.984348
+┌ Warning: Variances had to be floored 
+│   ind =
+│    10-element Array{Int64,1}:
+│      4
+│      7
+│     10
+│     13
+│      ⋮
+│     25
+│     26
+│     29
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 4, average log likelihood -0.939563
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│     13
+│     17
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 5, average log likelihood -1.063045
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│      7
+│     13
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 6, average log likelihood -1.023609
+┌ Warning: Variances had to be floored 
+│   ind =
+│    3-element Array{Int64,1}:
+│     13
+│     15
+│     25
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 7, average log likelihood -0.976148
+┌ Warning: Variances had to be floored 
+│   ind =
+│    8-element Array{Int64,1}:
+│      4
+│      7
+│     10
+│     13
+│     16
+│     22
+│     26
+│     29
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 8, average log likelihood -0.972217
+┌ Warning: Variances had to be floored 
+│   ind =
+│    2-element Array{Int64,1}:
+│     13
+│     17
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 9, average log likelihood -1.039429
+┌ Warning: Variances had to be floored 
+│   ind =
+│    4-element Array{Int64,1}:
+│      7
+│     13
+│     15
+│     25
+└ @ GaussianMixtures ~/.julia/packages/GaussianMixtures/RGtTJ/src/train.jl:255
+[ Info: iteration 10, average log likelihood -1.008283
+┌ Info: EM with 100000 data points 10 iterations avll -1.008283
+└ 59.0 data points per parameter
+32×26 Array{Float64,2}:
+ -0.0166053    0.110563    -0.183208     0.0531379   -0.107064     0.0875804     0.0174845    0.0734103   -0.187315    -0.0867017     0.00663728   0.1305       0.0432916   -0.064135    -0.226168    -0.0772661    0.126304    -0.189283     0.0374428    0.143371    0.0710716    0.0592686  -0.00877961  -0.118197    -0.15155      0.00284188 
+  0.0866441   -0.0124058    0.148401    -0.113142     0.0319453   -0.0442155    -0.0993497   -0.0552196   -0.0620519   -0.0847001     0.024268    -0.030692    -0.164241     0.165859     0.0736268    0.220004    -0.0133107    0.173356     0.00502596  -0.073486    0.0344046   -0.0907989   0.117935    -0.0833327    0.0160368    0.0661584  
+ -0.106399    -0.0287169   -0.0878646    0.0786117    0.0526573    0.142258     -0.0434908   -0.196218    -0.00689858  -0.0059386     0.178388    -0.117749     0.117365    -0.147133    -0.0581622   -0.0733494   -0.00745703   0.140618    -0.0174298   -0.0409102   0.0236262    0.0571079   0.208139     0.186412     0.0116205    0.129076   
+ -0.0176571   -0.0740013    0.0171362    0.00781413  -0.02292     -0.179712     -0.150145    -0.0150136   -0.0564729    0.0354077     0.0488137    0.0411339   -0.0417387    0.0313722   -0.122224     0.071503     0.0469055   -0.128566    -0.0306176    0.0311032  -0.164489    -0.140368   -0.0625282   -0.0406304    0.02132     -0.0316563  
+ -0.0129363    0.0360591    0.0240092   -0.0110622   -0.0616043   -0.0361149     0.110282    -0.265499     0.1027      -0.0836457    -0.0471626    0.104634     0.00562882  -0.00698903  -0.0821488    0.0384022    0.0182561    0.13941      0.00873086   0.104592    0.158685     0.0130107   0.0382201    0.155485    -0.101366    -0.100936   
+ -0.0214672   -0.0740233   -0.142981    -0.019342     0.224293    -0.09558       0.0771341    0.00197775  -0.0442212    0.000617424  -0.0833348    0.316135     0.0763279    0.0181609    0.0739827   -0.0617531   -0.0182141   -0.137596     0.0414144   -0.119197    0.0782597    0.0252814   0.13092      0.060469    -0.0502538    0.0326444  
+ -0.191866    -0.0915219    0.0497031   -0.167042     0.00167871  -0.000844049  -0.0594837    0.163756     0.111947    -0.154315      0.121383    -0.00977406   0.078644     0.0147612   -0.057126     0.049441    -0.143602    -0.188966    -0.00791762   0.0265393   0.0611237   -0.102733   -0.0357652   -0.0272824   -0.00164753  -0.0289301  
+  0.136453     0.0569433   -0.0143076   -0.0591554   -0.0220214   -0.0941974    -0.112754     0.0700449   -0.0661974   -0.056591      0.0614222    0.0475208   -0.104556     0.0955749    0.0127707    0.187895    -0.103002     0.0444651    0.00693975  -0.0833447  -0.181299     0.190087    0.125992     0.0953917    0.173824    -0.0911125  
+ -0.134571    -0.0973093    0.041576    -0.14517      0.0919723    0.0899908    -0.0597728    0.179818    -0.0119241    0.167684     -0.085521    -0.142999     0.0776714    0.127891    -0.00607621  -0.0690067    0.038187     0.0236098   -0.0596023   -0.0357483   0.0144795    0.0427027   0.102675    -0.0351698    0.145105     0.000839031
+  0.20957     -0.148288    -0.0232652    0.0580789   -0.0543663    0.137957      0.0740284    0.0513188   -0.0976995   -0.0349398     0.0205178    0.104499    -0.0179864    0.0710753   -0.115359    -0.193035    -0.0140457    0.0465309   -0.0106125    0.0188688  -0.00102193   0.132604   -0.154756    -0.0720027   -0.0123214   -0.0109225  
+  0.0231542    0.105368     0.00989596  -0.10307      0.166838    -0.0238156    -0.144015    -0.082554     0.01862     -0.00933639    0.0223017    0.0258366    0.074297     0.0854452   -0.0508798    0.0349599    0.0964815   -0.17116      0.139312    -0.109879   -0.0138113   -0.105009    0.0107802    0.0763824    0.0379973    0.210176   
+ -0.105635    -0.0430787   -0.0474494   -0.0784093   -0.128391     0.228521     -0.178558     0.0380452   -0.0655319    0.177462      0.0751915    0.124687     0.017326     0.203229     0.0132805   -0.00363862  -0.137619    -0.0660284    0.0615307   -0.129765    0.0749198   -0.0309976   0.0933521    0.0897899    0.0553001   -0.0268522  
+ -0.0390345    0.132784     0.0369965   -0.0645956    0.0876376    0.057035     -0.0503627   -0.018768     0.191314     0.0764728     0.0884287   -0.0647158    0.0203878   -0.196343     0.111906     0.100442    -0.0346567    0.106076    -0.172014     0.0236839  -0.0550392    0.022169    0.0321407   -0.053996     0.0758497    0.151823   
+ -0.0464855   -0.0474119   -0.0219125    0.00506045   0.145485     0.13365       0.0348496    0.0131854   -0.0641044   -0.118598     -0.186041    -0.0507061    0.0178008   -0.0140233    0.215832     0.123784    -0.0626555    0.0165298    0.0389631    0.130574    0.142499     0.0531042  -0.108878     0.265509    -0.10157     -0.0205082  
+  0.00627643  -0.0702743    0.0815723    0.0086431   -0.0590052    0.189423      0.0161854   -0.193467    -0.0552885   -0.131153     -0.0942828    0.134988    -0.0853096    0.0586891   -0.0847791   -0.112076     0.0739149   -0.107936     0.0338742   -0.150189    0.144895     0.154156   -0.260109     0.0166955   -0.266554     0.00860972 
+ -0.078177    -0.0784807    0.033158    -0.0739009    0.120891    -0.146561      0.0607101    0.0711641    0.139252     0.0633357     0.0660971    0.0646615    0.0185769   -0.044019    -0.0422151   -0.109149     0.133284    -0.00253921  -0.222656     0.283187    0.0403829   -0.0627766   0.0735082   -0.0998898   -0.0601356   -0.0113962  
+ -0.09862     -0.103704     0.115699     0.0056879    0.09685     -0.0653046     0.010481    -0.0568703   -0.0494353    0.0042131     0.0918798   -0.0640056   -0.0937269   -0.0300051   -0.186661    -0.161158     0.0454047   -0.060499     0.0984647   -0.0955979  -0.0265041    0.125497   -0.0503099   -0.020935     0.140331     0.0225489  
+ -0.081198    -0.0323119   -0.0356441   -0.0576732   -0.00135165  -0.119915      0.128433     0.00141455  -0.0986945    0.0614939    -0.0639538    0.0308676   -0.00182417  -0.170467    -0.0102998   -0.205581    -0.120352    -0.119224     0.181886    -0.217001    0.00801867  -0.0668751   0.0653878   -0.0431357    0.0982978   -0.169359   
+ -0.112389     0.0105514   -0.0809683   -0.0266189    0.0100353    0.00323761    0.138912     0.00378762   0.0613482   -0.0567506     0.0692836   -0.116034    -0.05762      0.173472     0.134238     0.218633     0.0057995    0.031525     0.0863854   -0.117014    0.0220388    0.0932664   0.0536842   -0.0456212   -0.0126967   -0.0851244  
+  0.170435    -0.0584165    0.102573    -0.00826485   0.0099219    0.0102814    -0.128517     0.0464894    0.0561165    0.0645227     0.0758341    0.109645    -0.0210094    0.0649709    0.141185    -0.0959658    0.102667     0.0965156    0.0542015    0.051631    0.207878     0.0407526   0.039191    -0.0750487   -0.0118499    0.188018   
+ -0.0516641   -0.0794306   -0.184804    -0.0111966    0.0346325    0.0340253    -0.208461     0.0947194   -0.0336754   -0.0903492     0.123238    -0.018403     0.00189139  -0.132276     0.0723263    0.00479195   0.0298619    0.257705     0.120604     0.176823   -0.0604911    0.0712964   0.0752251   -0.0875501   -0.0602354    0.0137943  
+  0.070173    -0.157144    -0.0606082    0.0167657   -0.167287    -0.129657     -0.0678799    0.00264824  -0.0250262    0.223033      0.00163684   0.12381      0.0392431   -0.210471     0.0587202   -0.0587197    0.0433744    0.0550197    0.0903382    0.0392032   0.0375674    0.0314138   0.0636824    0.106307    -0.0150172   -0.106873   
+ -0.0132165   -0.0301602   -0.136806    -0.00709883   0.0272455   -0.0174273     0.184029     0.00394289  -0.0399201   -0.0395982    -0.0714181    0.202499    -0.0339105    0.00858009  -0.176208     0.00959546  -0.035157     0.0926649   -0.134443    -0.18327    -0.0572414   -0.0315018  -0.0483049   -0.0839783    0.0770866   -0.209311   
+ -0.134698     0.125809    -0.0397577   -0.15921     -0.108139     0.0754011     0.0949287   -0.129934     0.0466325   -0.0638618    -0.00721124   0.0380835    0.0490442    0.135678    -0.134327    -0.101333    -0.169836    -0.0401033   -0.07307     -0.0528094  -0.0846364   -0.0730748  -0.193177    -0.0500143    0.00103127  -0.0528283  
+  0.134638    -0.00221488   0.165488     0.00612338  -0.0366256    0.0077341     0.0689058   -0.132011    -0.0870728    0.0717198    -0.104664    -0.105746     0.180054    -0.00731562  -0.0456502   -0.121574    -0.04762     -0.0428203    0.0334944   -0.153409    0.0306087    0.055948    0.0815278    0.0174708    0.192126    -0.11626    
+  0.0874546   -0.145213     0.162402    -0.079825    -0.0997162   -0.0296873    -0.16958      0.0603697    0.0184377   -0.125484      0.138633     0.00780917   0.128583     0.0862409   -0.124384    -0.0374915    0.00777008  -0.0126508    0.0724924    0.03195    -0.121572    -0.127151    0.0830894   -0.157031     0.193927    -0.0521432  
+ -0.0650741    0.034562    -0.0896526    0.00712406  -0.0216786    0.0972731    -0.0946612    0.0515433    0.0388062    0.0516121    -0.142086     0.0584521    0.195911     0.0462126   -0.0582176    0.0401771    0.0625585    0.139987     0.00175878   0.0602285  -0.104716    -0.1187      0.136736    -0.0067276    0.0378927    0.0219839  
+  0.0367133   -0.0345596   -0.103838     0.123649     0.177655     0.238886     -0.00377861  -0.198812    -0.0216598   -0.135918     -0.113743    -0.0295356    0.0714999   -0.0780567   -0.21188      0.214362     0.0724817   -0.0468891   -0.0700941    0.0889517   0.1209      -0.117681   -0.0559094    0.0567378   -0.0128873    0.0561133  
+ -0.0500498    0.00234824   0.08609      0.056347    -0.047615    -0.0209122     0.069851    -0.0676556    0.0306691    0.0306343     0.0816705   -0.0671477    0.0546575   -0.179896     0.130734    -0.0819829    0.107287    -0.032454    -0.0894662   -0.164943   -0.128776    -0.0655849   0.0374987   -0.102393    -0.130545     0.0182284  
+  0.00941461   0.105067     0.138569     0.0173381    0.0472794   -0.112611      0.252625    -0.0191546    0.0500095    0.109562      0.0636414   -0.0369295    0.0284634   -0.0296224    0.143161    -0.124215    -0.101331    -0.0562247   -0.164825    -0.148603   -0.0139978    0.153239    0.304355    -0.0291654    0.0641022    0.0972843  
+ -0.0383383   -0.0487447   -0.0850408    0.0722634    0.0151722   -0.00406727    0.0334349    0.0602093    0.170915     0.080406     -0.164305     0.151336     0.00520804  -0.0029604   -0.0517673   -0.250616    -0.0981408    0.0498077    0.0666835    0.115486    0.182992    -0.0194626   0.0470159    0.00338595   0.0304496   -0.0124415  
+  0.217809    -0.11017      0.0248037    0.113771     0.0111945   -0.0251462     0.00739596  -0.0652484   -0.0504971    0.0695666    -0.121258    -0.0975096    0.155945    -0.0601015   -0.0571722   -0.116266    -0.0597713   -0.112051    -0.0155478    0.105314    0.144641    -0.0477481  -0.0242431   -0.117837    -0.0135788    0.012339   kind full, method split
+┌ Info: 0: avll = 
+└   tll[1] = -1.4228581805290048
+[ Info: Running 50 iterations EM on diag cov GMM with 2 Gaussians in 26 dimensions
+[ Info: iteration 1, average log likelihood -1.422877
+[ Info: iteration 2, average log likelihood -1.422812
+[ Info: iteration 3, average log likelihood -1.422760
+[ Info: iteration 4, average log likelihood -1.422693
+[ Info: iteration 5, average log likelihood -1.422602
+[ Info: iteration 6, average log likelihood -1.422474
+[ Info: iteration 7, average log likelihood -1.422279
+[ Info: iteration 8, average log likelihood -1.421954
+[ Info: iteration 9, average log likelihood -1.421394
+[ Info: iteration 10, average log likelihood -1.420522
+[ Info: iteration 11, average log likelihood -1.419451
+[ Info: iteration 12, average log likelihood -1.418510
+[ Info: iteration 13, average log likelihood -1.417922
+[ Info: iteration 14, average log likelihood -1.417633
+[ Info: iteration 15, average log likelihood -1.417507
+[ Info: iteration 16, average log likelihood -1.417453
+[ Info: iteration 17, average log likelihood -1.417429
+[ Info: iteration 18, average log likelihood -1.417419
+[ Info: iteration 19, average log likelihood -1.417414
+[ Info: iteration 20, average log likelihood -1.417412
+[ Info: iteration 21, average log likelihood -1.417411
+[ Info: iteration 22, average log likelihood -1.417410
+[ Info: iteration 23, average log likelihood -1.417410
+[ Info: iteration 24, average log likelihood -1.417409
+[ Info: iteration 25, average log likelihood -1.417409
+[ Info: iteration 26, average log likelihood -1.417408
+[ Info: iteration 27, average log likelihood -1.417408
+[ Info: iteration 28, average log likelihood -1.417408
+[ Info: iteration 29, average log likelihood -1.417408
+[ Info: iteration 30, average log likelihood -1.417408
+[ Info: iteration 31, average log likelihood -1.417407
+[ Info: iteration 32, average log likelihood -1.417407
+[ Info: iteration 33, average log likelihood -1.417407
+[ Info: iteration 34, average log likelihood -1.417407
+[ Info: iteration 35, average log likelihood -1.417407
+[ Info: iteration 36, average log likelihood -1.417407
+[ Info: iteration 37, average log likelihood -1.417407
+[ Info: iteration 38, average log likelihood -1.417407
+[ Info: iteration 39, average log likelihood -1.417407
+[ Info: iteration 40, average log likelihood -1.417406
+[ Info: iteration 41, average log likelihood -1.417406
+[ Info: iteration 42, average log likelihood -1.417406
+[ Info: iteration 43, average log likelihood -1.417406
+[ Info: iteration 44, average log likelihood -1.417406
+[ Info: iteration 45, average log likelihood -1.417406
+[ Info: iteration 46, average log likelihood -1.417406
+[ Info: iteration 47, average log likelihood -1.417406
+[ Info: iteration 48, average log likelihood -1.417406
+[ Info: iteration 49, average log likelihood -1.417406
+[ Info: iteration 50, average log likelihood -1.417406
+┌ Info: EM with 100000 data points 50 iterations avll -1.417406
+└ 952.4 data points per parameter
+┌ Info: 1
+│   : avll =  = ": avll = "
+│   avll =
+│    50-element Array{Float64,1}:
+│     -1.4228771432273186
+│     -1.4228122112138295
+│      ⋮                 
+└     -1.4174061036192254
+[ Info: Running 50 iterations EM on diag cov GMM with 4 Gaussians in 26 dimensions
+[ Info: iteration 1, average log likelihood -1.417421
+[ Info: iteration 2, average log likelihood -1.417356
+[ Info: iteration 3, average log likelihood -1.417298
+[ Info: iteration 4, average log likelihood -1.417226
+[ Info: iteration 5, average log likelihood -1.417132
+[ Info: iteration 6, average log likelihood -1.417018
+[ Info: iteration 7, average log likelihood -1.416891
+[ Info: iteration 8, average log likelihood -1.416765
+[ Info: iteration 9, average log likelihood -1.416653
+[ Info: iteration 10, average log likelihood -1.416561
+[ Info: iteration 11, average log likelihood -1.416490
+[ Info: iteration 12, average log likelihood -1.416439
+[ Info: iteration 13, average log likelihood -1.416402
+[ Info: iteration 14, average log likelihood -1.416376
+[ Info: iteration 15, average log likelihood -1.416357
+[ Info: iteration 16, average log likelihood -1.416343
+[ Info: iteration 17, average log likelihood -1.416332
+[ Info: iteration 18, average log likelihood -1.416322
+[ Info: iteration 19, average log likelihood -1.416314
+[ Info: iteration 20, average log likelihood -1.416306
+[ Info: iteration 21, average log likelihood -1.416298
+[ Info: iteration 22, average log likelihood -1.416291
+[ Info: iteration 23, average log likelihood -1.416283
+[ Info: iteration 24, average log likelihood -1.416276
+[ Info: iteration 25, average log likelihood -1.416269
+[ Info: iteration 26, average log likelihood -1.416262
+[ Info: iteration 27, average log likelihood -1.416256
+[ Info: iteration 28, average log likelihood -1.416249
+[ Info: iteration 29, average log likelihood -1.416243
+[ Info: iteration 30, average log likelihood -1.416237
+[ Info: iteration 31, average log likelihood -1.416231
+[ Info: iteration 32, average log likelihood -1.416225
+[ Info: iteration 33, average log likelihood -1.416220
+[ Info: iteration 34, average log likelihood -1.416215
+[ Info: iteration 35, average log likelihood -1.416211
+[ Info: iteration 36, average log likelihood -1.416207
+[ Info: iteration 37, average log likelihood -1.416203
+[ Info: iteration 38, average log likelihood -1.416199
+[ Info: iteration 39, average log likelihood -1.416196
+[ Info: iteration 40, average log likelihood -1.416193
+[ Info: iteration 41, average log likelihood -1.416190
+[ Info: iteration 42, average log likelihood -1.416188
+[ Info: iteration 43, average log likelihood -1.416185
+[ Info: iteration 44, average log likelihood -1.416183
+[ Info: iteration 45, average log likelihood -1.416181
+[ Info: iteration 46, average log likelihood -1.416180
+[ Info: iteration 47, average log likelihood -1.416178
+[ Info: iteration 48, average log likelihood -1.416177
+[ Info: iteration 49, average log likelihood -1.416176
+[ Info: iteration 50, average log likelihood -1.416175
+┌ Info: EM with 100000 data points 50 iterations avll -1.416175
+└ 473.9 data points per parameter
+┌ Info: 2
+│   : avll =  = ": avll = "
+│   avll =
+│    50-element Array{Float64,1}:
+│     -1.4174212726599202
+│     -1.4173556354141132
+│      ⋮                 
+└     -1.416174856319443 
+[ Info: Running 50 iterations EM on diag cov GMM with 8 Gaussians in 26 dimensions
+[ Info: iteration 1, average log likelihood -1.416184
+[ Info: iteration 2, average log likelihood -1.416136
+[ Info: iteration 3, average log likelihood -1.416097
+[ Info: iteration 4, average log likelihood -1.416052
+[ Info: iteration 5, average log likelihood -1.415997
+[ Info: iteration 6, average log likelihood -1.415929
+[ Info: iteration 7, average log likelihood -1.415847
+[ Info: iteration 8, average log likelihood -1.415754
+[ Info: iteration 9, average log likelihood -1.415654
+[ Info: iteration 10, average log likelihood -1.415552
+[ Info: iteration 11, average log likelihood -1.415453
+[ Info: iteration 12, average log likelihood -1.415363
+[ Info: iteration 13, average log likelihood -1.415282
+[ Info: iteration 14, average log likelihood -1.415213
+[ Info: iteration 15, average log likelihood -1.415154
+[ Info: iteration 16, average log likelihood -1.415106
+[ Info: iteration 17, average log likelihood -1.415068
+[ Info: iteration 18, average log likelihood -1.415037
+[ Info: iteration 19, average log likelihood -1.415012
+[ Info: iteration 20, average log likelihood -1.414991
+[ Info: iteration 21, average log likelihood -1.414975
+[ Info: iteration 22, average log likelihood -1.414961
+[ Info: iteration 23, average log likelihood -1.414948
+[ Info: iteration 24, average log likelihood -1.414938
+[ Info: iteration 25, average log likelihood -1.414928
+[ Info: iteration 26, average log likelihood -1.414919
+[ Info: iteration 27, average log likelihood -1.414910
+[ Info: iteration 28, average log likelihood -1.414902
+[ Info: iteration 29, average log likelihood -1.414894
+[ Info: iteration 30, average log likelihood -1.414886
+[ Info: iteration 31, average log likelihood -1.414878
+[ Info: iteration 32, average log likelihood -1.414870
+[ Info: iteration 33, average log likelihood -1.414862
+[ Info: iteration 34, average log likelihood -1.414854
+[ Info: iteration 35, average log likelihood -1.414846
+[ Info: iteration 36, average log likelihood -1.414838
+[ Info: iteration 37, average log likelihood -1.414829
+[ Info: iteration 38, average log likelihood -1.414821
+[ Info: iteration 39, average log likelihood -1.414812
+[ Info: iteration 40, average log likelihood -1.414803
+[ Info: iteration 41, average log likelihood -1.414795
+[ Info: iteration 42, average log likelihood -1.414785
+[ Info: iteration 43, average log likelihood -1.414776
+[ Info: iteration 44, average log likelihood -1.414767
+[ Info: iteration 45, average log likelihood -1.414758
+[ Info: iteration 46, average log likelihood -1.414748
+[ Info: iteration 47, average log likelihood -1.414739
+[ Info: iteration 48, average log likelihood -1.414729
+[ Info: iteration 49, average log likelihood -1.414720
+[ Info: iteration 50, average log likelihood -1.414710
+┌ Info: EM with 100000 data points 50 iterations avll -1.414710
+└ 236.4 data points per parameter
+┌ Info: 3
+│   : avll =  = ": avll = "
+│   avll =
+│    50-element Array{Float64,1}:
+│     -1.4161835782526506
+│     -1.416136376992469 
+│      ⋮                 
+└     -1.4147099841116832
+[ Info: Running 50 iterations EM on diag cov GMM with 16 Gaussians in 26 dimensions
+[ Info: iteration 1, average log likelihood -1.414709
+[ Info: iteration 2, average log likelihood -1.414640
+[ Info: iteration 3, average log likelihood -1.414573
+[ Info: iteration 4, average log likelihood -1.414495
+[ Info: iteration 5, average log likelihood -1.414399
+[ Info: iteration 6, average log likelihood -1.414285
+[ Info: iteration 7, average log likelihood -1.414157
+[ Info: iteration 8, average log likelihood -1.414020
+[ Info: iteration 9, average log likelihood -1.413885
+[ Info: iteration 10, average log likelihood -1.413755
+[ Info: iteration 11, average log likelihood -1.413636
+[ Info: iteration 12, average log likelihood -1.413530
+[ Info: iteration 13, average log likelihood -1.413435
+[ Info: iteration 14, average log likelihood -1.413353
+[ Info: iteration 15, average log likelihood -1.413283
+[ Info: iteration 16, average log likelihood -1.413222
+[ Info: iteration 17, average log likelihood -1.413170
+[ Info: iteration 18, average log likelihood -1.413125
+[ Info: iteration 19, average log likelihood -1.413086
+[ Info: iteration 20, average log likelihood -1.413052
+[ Info: iteration 21, average log likelihood -1.413022
+[ Info: iteration 22, average log likelihood -1.412994
+[ Info: iteration 23, average log likelihood -1.412969
+[ Info: iteration 24, average log likelihood -1.412946
+[ Info: iteration 25, average log likelihood -1.412925
+[ Info: iteration 26, average log likelihood -1.412905
+[ Info: iteration 27, average log likelihood -1.412887
+[ Info: iteration 28, average log likelihood -1.412869
+[ Info: iteration 29, average log likelihood -1.412853
+[ Info: iteration 30, average log likelihood -1.412837
+[ Info: iteration 31, average log likelihood -1.412823
+[ Info: iteration 32, average log likelihood -1.412808
+[ Info: iteration 33, average log likelihood -1.412795
+[ Info: iteration 34, average log likelihood -1.412782
+[ Info: iteration 35, average log likelihood -1.412770
+[ Info: iteration 36, average log likelihood -1.412758
+[ Info: iteration 37, average log likelihood -1.412746
+[ Info: iteration 38, average log likelihood -1.412735
+[ Info: iteration 39, average log likelihood -1.412725
+[ Info: iteration 40, average log likelihood -1.412715
+[ Info: iteration 41, average log likelihood -1.412705
+[ Info: iteration 42, average log likelihood -1.412695
+[ Info: iteration 43, average log likelihood -1.412686
+[ Info: iteration 44, average log likelihood -1.412677
+[ Info: iteration 45, average log likelihood -1.412669
+[ Info: iteration 46, average log likelihood -1.412660
+[ Info: iteration 47, average log likelihood -1.412652
+[ Info: iteration 48, average log likelihood -1.412645
+[ Info: iteration 49, average log likelihood -1.412637
+[ Info: iteration 50, average log likelihood -1.412630
+┌ Info: EM with 100000 data points 50 iterations avll -1.412630
+└ 118.1 data points per parameter
+┌ Info: 4
+│   : avll =  = ": avll = "
+│   avll =
+│    50-element Array{Float64,1}:
+│     -1.4147094830649485
+│     -1.4146398813876038
+│      ⋮                 
+└     -1.4126298090301337
+[ Info: Running 50 iterations EM on diag cov GMM with 32 Gaussians in 26 dimensions
+[ Info: iteration 1, average log likelihood -1.412631
+[ Info: iteration 2, average log likelihood -1.412563
+[ Info: iteration 3, average log likelihood -1.412498
+[ Info: iteration 4, average log likelihood -1.412423
+[ Info: iteration 5, average log likelihood -1.412330
+[ Info: iteration 6, average log likelihood -1.412214
+[ Info: iteration 7, average log likelihood -1.412075
+[ Info: iteration 8, average log likelihood -1.411916
+[ Info: iteration 9, average log likelihood -1.411747
+[ Info: iteration 10, average log likelihood -1.411577
+[ Info: iteration 11, average log likelihood -1.411415
+[ Info: iteration 12, average log likelihood -1.411264
+[ Info: iteration 13, average log likelihood -1.411128
+[ Info: iteration 14, average log likelihood -1.411006
+[ Info: iteration 15, average log likelihood -1.410899
+[ Info: iteration 16, average log likelihood -1.410806
+[ Info: iteration 17, average log likelihood -1.410724
+[ Info: iteration 18, average log likelihood -1.410652
+[ Info: iteration 19, average log likelihood -1.410589
+[ Info: iteration 20, average log likelihood -1.410532
+[ Info: iteration 21, average log likelihood -1.410482
+[ Info: iteration 22, average log likelihood -1.410437
+[ Info: iteration 23, average log likelihood -1.410396
+[ Info: iteration 24, average log likelihood -1.410359
+[ Info: iteration 25, average log likelihood -1.410324
+[ Info: iteration 26, average log likelihood -1.410293
+[ Info: iteration 27, average log likelihood -1.410263
+[ Info: iteration 28, average log likelihood -1.410236
+[ Info: iteration 29, average log likelihood -1.410210
+[ Info: iteration 30, average log likelihood -1.410186
+[ Info: iteration 31, average log likelihood -1.410163
+[ Info: iteration 32, average log likelihood -1.410141
+[ Info: iteration 33, average log likelihood -1.410120
+[ Info: iteration 34, average log likelihood -1.410100
+[ Info: iteration 35, average log likelihood -1.410081
+[ Info: iteration 36, average log likelihood -1.410063
+[ Info: iteration 37, average log likelihood -1.410045
+[ Info: iteration 38, average log likelihood -1.410028
+[ Info: iteration 39, average log likelihood -1.410011
+[ Info: iteration 40, average log likelihood -1.409995
+[ Info: iteration 41, average log likelihood -1.409980
+[ Info: iteration 42, average log likelihood -1.409964
+[ Info: iteration 43, average log likelihood -1.409950
+[ Info: iteration 44, average log likelihood -1.409935
+[ Info: iteration 45, average log likelihood -1.409921
+[ Info: iteration 46, average log likelihood -1.409908
+[ Info: iteration 47, average log likelihood -1.409894
+[ Info: iteration 48, average log likelihood -1.409881
+[ Info: iteration 49, average log likelihood -1.409868
+[ Info: iteration 50, average log likelihood -1.409856
+┌ Info: EM with 100000 data points 50 iterations avll -1.409856
+└ 59.0 data points per parameter
+┌ Info: 5
+│   : avll =  = ": avll = "
+│   avll =
+│    50-element Array{Float64,1}:
+│     -1.4126313860696968
+│     -1.4125627107909937
+│      ⋮                 
+└     -1.409856094077938 
+┌ Info: Total log likelihood: 
+│   tll =
+│    251-element Array{Float64,1}:
+│     -1.4228581805290048
+│     -1.4228771432273186
+│     -1.4228122112138295
+│     -1.4227596367746478
+│      ⋮                 
+│     -1.4098811549005763
+│     -1.409868464102259 
+└     -1.409856094077938 
+32×26 Array{Float64,2}:
+  0.441228   -0.272838     0.0796862  -0.0229342  -0.394662     0.00819622   0.131763    0.181003     0.126813   -0.345309    -0.16209      0.016548    0.152587     0.0810581  -0.48004      0.215345   -0.0780401    -0.135078     0.0672647  -0.300837     0.310834     0.00418339   0.471778   -0.00430801   0.197198    -0.0155901
+  0.794313    0.330556     0.199918    0.208015    0.0853269    0.149569    -0.336467   -0.0355373    0.385639    0.662656     0.409408     0.186165    0.226732    -0.186405    0.520545    -0.647929   -0.0820761     0.0366115   -0.0691201   0.0486865    0.237588     0.260288     0.849429    0.195131     0.0830657   -0.288288 
+  0.389642    0.329546    -0.424639    0.261078   -0.171869    -0.199976     0.179754   -0.151141    -0.209583   -0.22456      0.365306    -0.218161    0.353752    -0.158881    0.0766385    0.376841   -0.0761789     1.04598     -0.0260167   0.156196    -0.531061    -0.221938     0.101773   -0.482927     0.373948     0.473671 
+  0.103943    0.644677     0.654545   -0.334218   -0.233267     0.153911    -0.922607    0.177692     0.213065   -0.210091    -0.0287765   -0.268186    0.0105422    0.14274     0.202102    -0.451887   -0.272895     -0.0636895   -0.340292   -0.30687     -0.26544      0.0405398    0.178546   -0.417982     0.00120749   1.11894  
+ -0.197828   -0.426428     0.0125243  -0.0551011  -0.459021     0.511331     0.0523172  -0.419759    -0.513559   -0.707996    -0.250351    -0.11595    -0.380418     0.680179    0.473147     0.524178   -0.138345     -0.732509     0.0328357  -0.1542      -0.14507      0.492463    -0.438626   -0.130408    -0.883997     0.442793 
+ -0.200076   -0.189446     0.158308   -0.475395   -0.105608     0.0554051   -0.161435   -0.0700609    0.139692    0.464671    -0.118333    -0.295346   -0.00747581   0.158931    0.0377704   -0.183522    0.0177944    -0.518179     0.138547   -0.629193     0.476996    -0.160596    -0.12066     0.588774    -0.775492    -0.239128 
+ -0.0710875  -0.598335     0.192451   -0.675147   -0.340007    -0.918606    -0.0238825  -0.00149546   0.151444    0.191547    -0.117176    -0.116008    0.00751063  -0.164975   -0.826634     0.486727   -0.409619     -0.292705    -0.0135105  -0.0144372    0.0542094   -0.471111     0.126467   -0.0680045    0.0841596    0.121401 
+ -0.379386    0.461829     0.24851    -0.125834    0.204149     0.706416     0.430148    0.0427891    0.633575   -0.129943    -0.229168     0.0842242  -0.00136897   0.0518246  -1.09406      0.517069    0.103254      0.0220896   -0.266862   -0.44339      0.0297165   -0.434917    -0.387737    0.672047     0.178685    -0.0377387
+ -0.535911    0.140203     0.276022   -0.0964732   0.329458    -0.0548203   -0.181642   -0.402136     0.240989    0.311116     0.0761052    0.482769   -0.0698943   -0.0689223   0.114706    -0.155816    0.197479     -0.100554    -0.369624    0.250345    -0.88619      0.0607614   -0.566004   -0.230802     0.0507242    0.0666626
+ -0.514107    0.0563566   -0.545614    0.173697    0.379736    -0.157201     0.212376    0.163374    -0.555638   -0.0268919   -0.0420235   -0.24562    -0.152717    -0.460289    0.148706    -0.191606    0.0292371     0.0947055    0.247195    0.323732     0.461025     0.0392844   -0.415898    0.195728     0.00549815  -0.366086 
+ -0.176825   -0.0567808   -0.117822    0.580206    0.160073     0.353401    -0.128351    0.593906    -0.544709   -0.612103    -0.754083     0.493947    0.0206741    0.918256    0.00701345   0.0930291   0.485673      0.0305964   -0.299924   -0.324001    -0.0465685   -0.12806     -0.0844413   0.496716    -0.378664    -0.180624 
+  0.108434   -0.21125     -0.792984    0.404377    0.655938     0.0355151    0.285404   -0.730322     0.494823   -0.00866143  -0.278781     0.193461    0.654294     0.279673   -0.0829109    0.182404    0.608351      0.0491936   -0.023341   -0.608699    -0.430629     0.685281     0.250557    0.40841     -0.0021111    0.0571324
+ -0.318222   -0.00759703   0.791216   -0.709451   -0.209177     0.0261883    0.0975242   0.380187    -0.210266   -0.0151796    0.125299    -0.447088   -0.5296       0.0948146   0.183642    -0.223999   -0.698249     -0.0284928    0.167811    0.388474     0.622331    -0.466348    -0.202174   -0.198987     0.292344    -0.114426 
+ -0.648596   -0.15773     -0.751096    0.381518    0.424438     0.123426    -0.130199    0.779534    -0.22687    -0.196736     0.284192    -0.759354   -0.239646    -0.149067   -0.0372801    0.102396    0.241662     -0.0722375    0.625994    0.354142     0.00525292  -0.12813     -0.310244   -0.0966805    0.0473502   -0.27234  
+ -0.0919342  -0.820829     0.0625824  -0.0281925  -0.0125085    0.260773    -0.365373    0.160979     0.434523    0.167752     0.321752     0.935504   -0.210051     0.196181    0.0232261   -0.150726    0.0752304    -0.256549     0.220296    0.464046    -0.0289456    0.213425    -0.2223      0.194868     0.0210916   -0.456407 
+ -0.317227    0.0440996    0.48204     0.400381   -0.197476     0.0247417   -0.689154    0.539016    -0.373474    0.266572    -0.00679703   0.795294   -0.3326      -0.370409   -0.323484    -0.512767   -0.0907671     0.27143     -0.0936298   0.793843     0.448224    -0.254627    -0.40345    -0.123372     0.0405335    0.050764 
+ -0.0663812   0.24496     -0.211423    0.233447    0.352366    -0.426532     0.476767   -0.205556    -0.984327   -0.119776    -0.0835671   -0.385639   -0.164505    -0.307388   -0.428844    -0.110692    0.118849      0.118715    -0.266759   -0.346998     0.528026    -0.0971309    0.158188   -0.258175     0.0775184    0.268614 
+ -0.0701719   0.430916    -0.153024   -0.0473318   0.289073    -0.447126     0.497577   -0.0527995    0.428845    0.559455     0.431728    -0.363429    0.0193529   -1.07231    -0.612343    -0.609093    0.0161245     0.482417     0.614299   -0.314029     0.182422    -0.113384     0.143973   -0.386383     0.585557    -0.415337 
+ -0.598296    0.0592178   -0.386543   -0.253037    0.196271    -0.262742     0.454668   -0.220729    -0.089939   -0.0941496   -0.235738     0.0811016  -0.152545    -0.0593558  -0.0741726    0.12461     0.351017      0.238683     0.232184    0.332716    -0.80258     -0.108038    -0.677644   -0.0277993    0.172724    -0.289504 
+ -0.086223   -0.369356    -0.0693115   0.0241982   0.20812     -0.135269     0.63925    -0.0551637   -0.292838   -0.259113    -0.157468    -0.0359982   0.0804952   -0.0452512  -0.252131     0.344785    0.148201      0.0203398   -0.0624609   0.461672     0.751605    -0.0810785   -0.550364    0.0426132    0.223429     0.0233163
+ -0.0402553  -0.0894167   -0.0136889   0.0189062  -0.0953503    0.119215    -0.0940662   0.306061    -0.113197   -0.0249359   -0.0941734   -0.245371   -0.00608292  -0.0536296  -0.165749     0.140478   -0.000624626  -0.196631     0.119138   -0.131031     0.334892    -0.0414926    0.156512    0.100402    -0.0672937   -0.115994 
+  0.11925    -0.0258724   -0.0109448  -0.0446458   0.14182     -0.0438083    0.0945991  -0.219876     0.0280409   0.0684298    0.103713     0.223354    0.0318516    0.0897066   0.100986    -0.22534     0.0747826     0.139558    -0.0623995   0.11753     -0.170178     0.0674808    0.0132175   0.0217998    0.00056404  -0.0190709
+ -0.526739    0.155465     0.089061   -0.153954    0.00705902  -0.479846    -0.224668   -0.228493     0.249986   -0.122033    -0.193761     0.0228479   0.332675    -0.0356911  -0.340967     0.22362    -0.240794     -0.335815    -0.168794   -0.129476    -0.362765    -0.286152    -0.171955   -0.360592    -0.323558     0.199903 
+ -0.165991    0.395927     0.209533    0.333026   -0.184603     0.699517    -0.613262    0.057493     0.0122881  -0.373347    -0.043092    -0.205054    0.17457      0.115214    0.123301     0.292877   -0.0490711     0.170804    -0.168047    0.152567    -0.188482     0.0487772   -0.16884    -0.0634246    0.193498     0.409336 
+ -0.18967     0.0566953   -0.144963    0.161601    0.359388     0.00520491  -0.724978    0.134567    -0.154165    0.249113     0.157669    -0.0736647   0.0149136    0.0671468   0.683192    -0.724623    0.104098     -0.18105      0.160942    0.0429961   -0.338701     0.256927     0.129541   -0.163438    -0.347487     0.0197295
+ -0.277542   -0.195515     0.134522   -0.264292   -0.2033       0.402675    -0.224517   -0.10687     -0.178707    0.496848     0.120228    -0.496768   -0.30473     -0.186403    0.447642     0.166915   -0.0726692    -0.00451919  -0.14054    -0.173876    -0.278552     0.746696     0.329977    0.46874      0.129714    -0.0819844
+  0.737096   -0.52292     -0.291241    0.171047   -0.211801     0.167903    -0.140772    0.361825    -0.873955   -0.0547286    0.223937     0.195296   -0.0610534    0.109303    0.486977    -0.259412   -0.2089        0.0612716    0.300687    0.345206     0.282945     0.270862     0.339888    0.0679111    0.431375    -0.268943 
+  0.74602    -0.346874    -0.500489   -0.0252858   0.0207727    0.25018      0.223199    0.371594     0.384496   -0.441248     0.0817344   -0.108311   -0.0892228    0.87226    -0.0406793   -0.0571993   0.141751     -0.00159719   0.643092   -0.280759     0.135445    -0.247301     0.485423   -0.283484     0.0444978   -0.26723  
+  0.222484    0.0102348   -0.19152     0.289938    0.0672412   -0.171861     0.0280123  -0.155351     0.371011   -0.383413    -0.133128     0.402818    0.281062    -0.477916   -0.357409    -0.0199522   0.216953     -0.423735    -0.344212   -0.42172     -0.202439     0.0704508    0.781826   -0.690406     0.272371     0.0606588
+  0.679345    0.0401709    0.316395   -0.147616   -0.324044    -0.109692     0.158358   -0.0829903    0.422634    0.0479471   -0.0364368    0.337111    0.628579     0.018245   -0.169154     0.137137   -0.261429      0.139314    -0.263775   -0.170067     0.21511      0.0717346    0.610152    0.194192     0.00989169   0.17286  
+  0.572066   -0.0758014    0.52399    -0.473607   -0.460226    -0.0367961    0.340559   -1.02992      0.0412344   0.0587586   -0.229808     0.948477   -0.0113884    0.238511    0.218888    -0.427432   -0.458546      0.174342    -0.431942   -0.330892     0.0266685    0.14009      0.367875    0.0619313   -0.179856     0.123143 
+  0.127456    0.583988     0.0343554   0.314995    0.33153      0.342346     0.528399   -0.620359    -0.0580136   0.262087     0.192868     0.381354    0.136336    -0.0948278   0.817912    -0.245325    0.462022      0.107996    -0.386117    0.00487736   0.024338    -0.0466896   -0.434039   -0.119787    -0.151585    -0.310258 [ Info: Running 10 iterations EM on diag cov GMM with 32 Gaussians in 26 dimensions
+[ Info: iteration 1, average log likelihood -1.409844
+[ Info: iteration 2, average log likelihood -1.409832
+[ Info: iteration 3, average log likelihood -1.409821
+[ Info: iteration 4, average log likelihood -1.409810
+[ Info: iteration 5, average log likelihood -1.409799
+[ Info: iteration 6, average log likelihood -1.409788
+[ Info: iteration 7, average log likelihood -1.409778
+[ Info: iteration 8, average log likelihood -1.409768
+[ Info: iteration 9, average log likelihood -1.409758
+kind full, method kmeans
+[ Info: iteration 10, average log likelihood -1.409749
+┌ Info: EM with 100000 data points 10 iterations avll -1.409749
+└ 59.0 data points per parameter
+[ Info: Initializing GMM, 32 Gaussians diag covariance 26 dimensions using 100000 data points
+  Iters               objv        objv-change | affected 
+-------------------------------------------------------------
+      0       9.778891e+05
+      1       7.058346e+05      -2.720546e+05 |       32
+      2       6.933066e+05      -1.252792e+04 |       32
+      3       6.882476e+05      -5.059015e+03 |       32
+      4       6.855857e+05      -2.661924e+03 |       32
+      5       6.837962e+05      -1.789526e+03 |       32
+      6       6.824679e+05      -1.328256e+03 |       32
+      7       6.814295e+05      -1.038382e+03 |       32
+      8       6.805557e+05      -8.738057e+02 |       32
+      9       6.797801e+05      -7.756667e+02 |       32
+     10       6.791563e+05      -6.237701e+02 |       32
+     11       6.786508e+05      -5.054859e+02 |       32
+     12       6.782197e+05      -4.311323e+02 |       32
+     13       6.778474e+05      -3.722878e+02 |       32
+     14       6.775223e+05      -3.250886e+02 |       32
+     15       6.772281e+05      -2.942247e+02 |       32
+     16       6.769817e+05      -2.463616e+02 |       32
+     17       6.767626e+05      -2.190790e+02 |       32
+     18       6.765674e+05      -1.952304e+02 |       32
+     19       6.764029e+05      -1.644823e+02 |       32
+     20       6.762509e+05      -1.519964e+02 |       32
+     21       6.761124e+05      -1.385427e+02 |       32
+     22       6.759791e+05      -1.333198e+02 |       32
+     23       6.758498e+05      -1.293071e+02 |       32
+     24       6.757332e+05      -1.165800e+02 |       32
+     25       6.756217e+05      -1.114263e+02 |       32
+     26       6.755230e+05      -9.877762e+01 |       32
+     27       6.754272e+05      -9.576538e+01 |       32
+     28       6.753227e+05      -1.045166e+02 |       32
+     29       6.752264e+05      -9.632382e+01 |       32
+     30       6.751255e+05      -1.008349e+02 |       32
+     31       6.750275e+05      -9.805879e+01 |       32
+     32       6.749302e+05      -9.723471e+01 |       32
+     33       6.748224e+05      -1.078030e+02 |       32
+     34       6.747141e+05      -1.083108e+02 |       32
+     35       6.746181e+05      -9.598959e+01 |       32
+     36       6.745368e+05      -8.132468e+01 |       32
+     37       6.744710e+05      -6.579681e+01 |       32
+     38       6.744170e+05      -5.405384e+01 |       32
+     39       6.743618e+05      -5.515528e+01 |       32
+     40       6.743077e+05      -5.411319e+01 |       32
+     41       6.742540e+05      -5.368987e+01 |       32
+     42       6.741956e+05      -5.835543e+01 |       32
+     43       6.741341e+05      -6.150538e+01 |       32
+     44       6.740697e+05      -6.438739e+01 |       32
+     45       6.740092e+05      -6.058855e+01 |       32
+     46       6.739528e+05      -5.632333e+01 |       32
+     47       6.738981e+05      -5.472760e+01 |       32
+     48       6.738448e+05      -5.332296e+01 |       32
+     49       6.737934e+05      -5.138437e+01 |       32
+     50       6.737464e+05      -4.698303e+01 |       32
+K-means terminated without convergence after 50 iterations (objv = 673746.4189568642)
+┌ Info: K-means with 32000 data points using 50 iterations
+└ 37.0 data points per parameter
+[ Info: Running 50 iterations EM on diag cov GMM with 32 Gaussians in 26 dimensions
+[ Info: iteration 1, average log likelihood -1.421672
+[ Info: iteration 2, average log likelihood -1.416605
+[ Info: iteration 3, average log likelihood -1.415118
+[ Info: iteration 4, average log likelihood -1.413890
+[ Info: iteration 5, average log likelihood -1.412635
+[ Info: iteration 6, average log likelihood -1.411656
+[ Info: iteration 7, average log likelihood -1.411107
+[ Info: iteration 8, average log likelihood -1.410832
+[ Info: iteration 9, average log likelihood -1.410677
+[ Info: iteration 10, average log likelihood -1.410572
+[ Info: iteration 11, average log likelihood -1.410491
+[ Info: iteration 12, average log likelihood -1.410425
+[ Info: iteration 13, average log likelihood -1.410368
+[ Info: iteration 14, average log likelihood -1.410319
+[ Info: iteration 15, average log likelihood -1.410274
+[ Info: iteration 16, average log likelihood -1.410233
+[ Info: iteration 17, average log likelihood -1.410195
+[ Info: iteration 18, average log likelihood -1.410160
+[ Info: iteration 19, average log likelihood -1.410127
+[ Info: iteration 20, average log likelihood -1.410097
+[ Info: iteration 21, average log likelihood -1.410068
+[ Info: iteration 22, average log likelihood -1.410040
+[ Info: iteration 23, average log likelihood -1.410014
+[ Info: iteration 24, average log likelihood -1.409989
+[ Info: iteration 25, average log likelihood -1.409965
+[ Info: iteration 26, average log likelihood -1.409942
+[ Info: iteration 27, average log likelihood -1.409921
+[ Info: iteration 28, average log likelihood -1.409900
+[ Info: iteration 29, average log likelihood -1.409880
+[ Info: iteration 30, average log likelihood -1.409861
+[ Info: iteration 31, average log likelihood -1.409843
+[ Info: iteration 32, average log likelihood -1.409826
+[ Info: iteration 33, average log likelihood -1.409809
+[ Info: iteration 34, average log likelihood -1.409793
+[ Info: iteration 35, average log likelihood -1.409777
+[ Info: iteration 36, average log likelihood -1.409763
+[ Info: iteration 37, average log likelihood -1.409748
+[ Info: iteration 38, average log likelihood -1.409734
+[ Info: iteration 39, average log likelihood -1.409721
+[ Info: iteration 40, average log likelihood -1.409708
+[ Info: iteration 41, average log likelihood -1.409696
+[ Info: iteration 42, average log likelihood -1.409684
+[ Info: iteration 43, average log likelihood -1.409672
+[ Info: iteration 44, average log likelihood -1.409661
+[ Info: iteration 45, average log likelihood -1.409649
+[ Info: iteration 46, average log likelihood -1.409639
+[ Info: iteration 47, average log likelihood -1.409628
+[ Info: iteration 48, average log likelihood -1.409617
+[ Info: iteration 49, average log likelihood -1.409607
+[ Info: iteration 50, average log likelihood -1.409597
+┌ Info: EM with 100000 data points 50 iterations avll -1.409597
+└ 59.0 data points per parameter
+32×26 Array{Float64,2}:
+ -0.022205    0.322157     0.289527    0.00648285   0.0148847   0.623632    -0.987735    0.00446466    0.441722    -0.405641     0.0971016   -0.0820963   0.170743     0.580103    0.432535    -0.124695   -0.0753165    0.160299    -0.403482    -0.0703845   -0.600261    0.12209    -0.0984033   -0.303089      0.00660742   1.05021   
+  0.30904    -0.427966     0.0686122   0.235581     0.196277   -0.39562      0.510966   -0.0762371    -0.0786304   -0.321303    -0.0663084    0.478357    0.0971364   -0.0277925  -0.5443       0.0968212   0.00431295  -0.0617586   -0.22318      0.419799     0.51183    -0.278792   -0.0800787   -0.548394      0.292131     0.120821  
+ -0.0795694   0.217019    -0.12042    -0.0733821    0.35901    -0.660724     0.505967   -0.216565      0.00337464   0.490365     0.352984    -0.420342   -0.138018    -1.08895    -0.846074    -0.459116   -0.0864803    0.379463     0.555238    -0.399927     0.279458   -0.128602    0.156837    -0.339471      0.519994    -0.306649  
+ -0.527314    0.196834     0.0498817   0.137017     0.614184   -0.0847569   -0.0614911  -0.0393042    -0.26481      0.211069    -0.549389    -0.454033    0.643603    -0.0446769   0.078701     0.283651    0.00029495  -0.101713    -0.233841     0.0284389    0.317531   -0.149527   -0.508472     0.158612     -0.661115     0.233283  
+  0.0717964  -0.00655952   0.21644    -0.147417    -0.395587    0.501052     0.550474   -0.748082     -0.604111    -0.177574    -0.207053     0.0295069  -0.531879     0.409704    0.805257     0.167636    0.0221518   -0.47439      0.0175798   -0.540666     0.136746    0.270572   -0.675529    -0.0680925    -1.07872     -0.0276701 
+ -0.595826   -0.284088    -0.147781   -0.486276    -0.42219     0.336126    -0.225825    0.0027283    -0.276476     0.512229     0.133888    -0.786588   -0.346971    -0.517209    0.667006     0.133679    0.00860494   0.502215    -0.00181034  -0.17811     -0.339192    0.512997    0.220034     0.97719      -0.101054     0.0426564 
+ -0.228392    0.0436184    0.805942   -0.385235    -0.123442    0.406825    -0.324536   -0.000425316   0.0241365    0.251699     0.127978    -0.148685   -0.42294      0.0388924   0.142701    -0.210683   -0.454445    -0.336091    -0.197131    -0.0740298    0.0724677   0.229677   -0.00369233  -0.00191377    0.125942    -0.00492157
+  0.594281   -0.606669    -0.224906   -0.0927571   -0.435166    0.134172    -0.130346    0.0873727    -0.373054    -0.283764    -0.00748415   0.365624   -0.19661      0.57426     0.723068    -0.277213   -0.192216    -0.319035     0.549481     0.437929    -0.104803    0.427629    0.584386    -0.098993      0.324042    -0.106102  
+  0.362405   -0.092741    -0.995518    0.23671      0.487817   -0.01678      0.574596   -0.555515      0.291826    -0.231477    -0.218128     0.0191737   0.601246     0.255513    2.18634e-5   0.266779    0.504388     0.154465     0.174148    -0.87273     -0.353557    0.307488    0.212012     0.129952      0.0416706    0.05654   
+  0.114352   -0.0478561   -0.0442196   0.00791036   0.0556338   0.0876975    0.0105427  -0.0137349    -0.0607076    0.0282727    0.00835789   0.0190348   0.0359643    0.0109179   0.0704466   -0.0905404   0.0956413   -0.00261078  -0.0193371    0.0209966    0.0639789   0.102565    0.0931862    0.0930243    -0.0201682   -0.0366427 
+ -0.176387    0.146901     0.132988   -0.358321    -0.0713065  -0.62195     -0.0823144  -0.236587      0.278669     0.0603468    0.157316     0.352633    0.337256    -0.142982   -0.0717782   -0.1267     -0.107936    -0.0599449   -0.0419737    0.125883    -0.498924   -0.287135   -0.167242    -0.440132     -0.138081     0.106319  
+  0.773962    0.089331     0.501145   -0.231174    -0.447491   -0.00240826   0.212212   -0.491781      0.275804     0.070606    -0.102972     0.741225    0.482639    -0.0011771  -0.0512935   -0.0875547  -0.332319     0.278375    -0.588533    -0.284349     0.213185    0.179336    0.665039     0.155822     -0.019708     0.22393   
+ -0.187554   -0.492551    -0.0508733   0.0278179   -0.175845    0.0739554   -0.153464    0.356443     -0.124308    -0.596754    -0.440373    -0.0730404  -0.137096     0.464156   -0.441469     0.409526    0.179326    -0.243775     0.0431634   -0.246635     0.15102    -0.182497    0.036042     0.23354      -0.276738     0.0089671 
+ -1.09745    -0.120292    -0.28767    -0.459269     0.237612   -0.216149     0.0738353  -0.507399      0.0721696   -0.0486913   -0.442483     0.236016   -0.104303    -0.206898   -0.317151     0.193755    0.0151977   -0.507364     0.0139819    0.493995    -0.503783    0.18402    -0.72376      0.271401     -0.0529029   -0.166935  
+ -0.125157   -0.226701     0.120762   -0.0063884   -0.032702   -0.142754    -0.0978813  -0.0528416    -0.0866615   -0.105474    -0.128657     0.149212   -0.00168835   0.120178   -0.254217     0.12476    -0.0847975   -0.117268    -0.0836626   -0.00722454  -0.115226    0.0449683  -0.0662909   -0.0426356    -0.00354449   0.12848   
+ -0.771198   -0.442733    -0.325335   -0.105711     0.930944    0.267785    -0.243604    0.570341     -0.0339919    0.28701      0.40878     -0.287092   -0.566961     0.426285    0.657607    -0.513155    0.420009    -0.486944     0.348665     0.157764    -0.451139   -0.397564   -0.358747    -0.550119     -0.141931    -0.521778  
+  0.400555   -0.0714201   -0.396267   -0.034415    -0.430634    0.0331611   -0.359094    0.116634      0.481414     0.228412     0.104371     0.0878321  -0.12944      0.267435    0.0465171   -0.304676   -0.15561     -0.0961593    0.538615    -0.524153    -0.114102   -0.374923    0.781098    -0.238416     -0.0854949   -0.314867  
+ -0.0113838   0.369774    -0.563067    0.337899     0.289511    0.0376233    0.357556    0.215076      0.192092    -0.13852      0.591848    -0.0108784   0.451704    -0.56642    -0.0460304    0.1289      0.0713037    0.766852    -0.130627     0.691262    -0.313752   -0.241634   -0.0642982   -0.420033      0.630635    -0.0625317 
+  0.541775   -0.518414    -0.272008    0.0462082    0.103726    0.392149     0.48144     0.544325     -0.579852    -0.109395     0.187833    -0.177113   -0.14052      0.275604    0.0242339    0.0893978  -0.0476958    0.197583     0.232905     0.187278     0.743382   -0.0354806  -0.0970485    0.265902      0.446838    -0.610647  
+  0.213689   -0.428516    -0.164272   -0.0727578    0.384405   -0.0225173    0.199534   -0.330917      0.529062     0.437941     0.390684     0.431346    0.24385      0.282651    0.216094    -0.369863    0.133118     0.0384968    0.107409     0.172252    -0.0919079   0.437132    0.178398     0.552853     -0.280555    -0.433849  
+  0.357697    0.671573     0.185033    0.21929      0.205366    0.219968     0.0202843  -0.148933      0.275618     0.538844     0.216655     0.303713   -0.098394    -0.299417    0.731551    -1.08422     0.174887     0.268634    -0.0734383    0.0251148    0.314027    0.120608    0.233434     0.0996342     0.226408    -0.505289  
+  0.207716    0.259738     0.0168752  -0.196299    -0.792911   -0.473216    -0.103246    0.219422     -0.654036    -0.388147    -0.092117    -0.808888    0.060909    -0.247651    0.0236153    0.172729   -0.285955     0.221428    -0.00792848   0.0250053    0.399641   -0.182532    0.225038    -0.486448     -0.0537754    0.588432  
+ -0.122502    0.366728    -0.0121974   0.285912     0.129721   -0.0806301    0.214522   -0.405704     -0.542941     0.0439414    0.0237555    0.236132   -0.160186     0.162378    0.349953    -0.198574    0.370251     0.680387    -0.189982     0.223835    -0.470359   -0.0292346  -0.325539    -0.249853      0.22576      0.145221  
+  0.104338   -0.502156     0.108919   -0.724147    -0.369555   -0.329292    -0.233459    0.194451      0.407725     0.24665      0.144436    -0.158067    0.0333343   -0.249045   -0.431797     0.177657   -0.186719    -0.900912    -0.0896696   -0.55879      0.455948   -0.283006    0.360424     0.298667     -0.484558    -0.302097  
+  0.30368    -0.107148     0.4181      0.308582     0.0900382   1.24591     -0.0625449  -0.201873      1.12379     -0.0190343   -0.15494      0.87624     0.137404    -0.0726552   0.0399403    0.592237    0.970529    -0.140636    -0.0330316    0.136969    -0.512319   -0.231007   -0.675903     0.348615      0.344294    -0.116714  
+ -0.493363   -0.286884     0.31152     0.217266    -0.252115    0.0228376   -0.683304    0.658329     -0.283427     0.00965869   0.0571038    0.385376   -0.698531    -0.196902   -0.176085    -0.314136   -0.142082     0.150976     0.218538     0.939531     0.411148   -0.221155   -0.561894    -0.0150734    -0.0875594   -0.117643  
+ -0.0479854   0.237415     0.0323209   0.189457     0.235713   -0.228313    -0.203423   -0.338012      0.289379    -0.218299    -0.333687     0.0339476   0.237155    -0.244425   -0.290243     0.0073088   0.237612    -0.640278    -0.611272    -0.815776    -0.464299    0.272127    0.716017    -0.648156     -0.0146002    0.214327  
+  0.141737    0.179823    -0.0361396   0.617282     0.193288    0.228794    -0.927226    0.360849     -0.432621     0.24297      0.262895     0.0402799   0.264788    -0.238683    0.30461     -0.486293    0.0182206   -0.140386     0.141214     0.0251201    0.0502269   0.418182    0.271378     0.0195747    -0.185873     0.127977  
+ -0.440902    0.0755199   -0.722629    0.291318     0.459708    0.0153707    0.349011    0.183029     -0.378705    -0.226371     0.0247278   -0.54913    -0.278401    -0.319223   -0.110642     0.0334789   0.350542    -0.106258     0.318196     0.114272     0.224389    0.0398051  -0.325579     0.000718942   0.139021    -0.178206  
+ -0.462908    0.733968     0.180355   -0.0517872    0.197389    0.604929     0.589637    0.165783      0.480367    -0.122494    -0.283607     0.0230803  -0.152671     0.137094   -1.21422      0.461818    0.24233      0.241495    -0.421172    -0.657918     0.136032   -0.488601   -0.377414     0.671332     -0.00346627  -0.144758  
+ -0.0224551   0.198381    -0.0471393   0.229364    -0.242806    0.108548     0.0105255   0.062284      0.0905566   -0.137843     0.0953308   -0.196013    0.440959    -0.101833   -0.498322     0.713881   -0.377435     0.289817     0.067659    -0.179775    -0.14792    -0.0665043   0.197001    -0.0882855     0.24575      0.166117  
+ -0.161627   -0.0449995    0.635993   -0.901874    -0.194603   -0.418839     0.407286    0.0752666     0.336898     0.176438    -0.327337    -0.210649    0.0279047    0.250185   -0.119387    -0.0491902  -0.559147    -0.0151527    0.259547     0.208526     0.61277    -0.670189   -0.00916694   0.235631      0.676275    -0.0190885 [ Info: Running 10 iterations EM on diag cov GMM with 32 Gaussians in 26 dimensions
+[ Info: iteration 1, average log likelihood -1.409587
+[ Info: iteration 2, average log likelihood -1.409577
+[ Info: iteration 3, average log likelihood -1.409568
+[ Info: iteration 4, average log likelihood -1.409558
+[ Info: iteration 5, average log likelihood -1.409549
+[ Info: iteration 6, average log likelihood -1.409540
+[ Info: iteration 7, average log likelihood -1.409531
+[ Info: iteration 8, average log likelihood -1.409521
+[ Info: iteration 9, average log likelihood -1.409513
+[ Info: iteration 10, average log likelihood -1.409504
+┌ Info: EM with 100000 data points 10 iterations avll -1.409504
+└ 59.0 data points per parameter
+[ Info: Initializing GMM, 2 Gaussians diag covariance 2 dimensions using 900 data points
+┌ Info: K-means with 900 data points using 3 iterations
+└ 150.0 data points per parameter
+[ Info: Running 10 iterations EM on full cov GMM with 2 Gaussians in 2 dimensions
+  Iters               objv        objv-change | affected 
+-------------------------------------------------------------
+      0       1.678561e+05
+      1       2.230230e+04      -1.455538e+05 |        2
+      2       7.823675e+03      -1.447862e+04 |        0
+      3       7.823675e+03       0.000000e+00 |        0
+K-means converged with 3 iterations (objv = 7823.67549422947)
+[ Info: iteration 1, average log likelihood -2.043155
+[ Info: iteration 2, average log likelihood -2.043154
+[ Info: iteration 3, average log likelihood -2.043154
+[ Info: iteration 4, average log likelihood -2.043154
+[ Info: iteration 5, average log likelihood -2.043154
+[ Info: iteration 6, average log likelihood -2.043154
+[ Info: iteration 7, average log likelihood -2.043154
+[ Info: iteration 8, average log likelihood -2.043154
+[ Info: iteration 9, average log likelihood -2.043154
+[ Info: iteration 10, average log likelihood -2.043154
+┌ Info: EM with 900 data points 10 iterations avll -2.043154
+└ 81.8 data points per parameter
+   Testing GaussianMixtures tests passed 

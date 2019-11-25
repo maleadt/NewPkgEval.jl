@@ -1,0 +1,176 @@
+ Resolving package versions...
+ Installed AbstractLattices ─ v0.1.2
+ Installed DirectSum ──────── v0.4.2
+ Installed AbstractTensors ── v0.3.0
+ Installed Leibniz ────────── v0.0.3
+ Installed ReduceLinAlg ───── v0.1.0
+ Installed ForceImport ────── v0.0.3
+ Installed SyntaxTree ─────── v1.0.1
+ Installed Reduce ─────────── v1.2.3
+ Installed StaticArrays ───── v0.12.1
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [bfcbc1eb] + ReduceLinAlg v0.1.0
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [398f06c4] + AbstractLattices v0.1.2
+  [a8e43f4a] + AbstractTensors v0.3.0
+  [22fd7b30] + DirectSum v0.4.2
+  [9dda63f9] + ForceImport v0.0.3
+  [edad4870] + Leibniz v0.0.3
+  [93e0c654] + Reduce v1.2.3
+  [bfcbc1eb] + ReduceLinAlg v0.1.0
+  [90137ffa] + StaticArrays v0.12.1
+  [a4af3ec5] + SyntaxTree v1.0.1
+  [2a0f44e3] + Base64 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  Building Reduce → `~/.julia/packages/Reduce/4dmwd/deps/build.log`
+┌ Error: Error building `Reduce`: 
+│ ┌ Error: Download failed: curl: (22) The requested URL returned error: 504 
+│ └ @ Base download.jl:43
+│ ERROR: LoadError: failed process: Process(`curl -s -S -g -L -f -o /root/.julia/packages/Reduce/4dmwd/deps/reduce.tar.gz https://sourceforge.net/projects/reduce-algebra/files/snapshot_2019-09-15/linux64/reduce-csl_5129_amd64.tgz/download`, ProcessExited(22)) [22]
+│ 
+│ Stacktrace:
+│  [1] pipeline_error at ./process.jl:813 [inlined]
+│  [2] download_curl(::String, ::String, ::String) at ./download.jl:44
+│  [3] download(::String, ::String) at ./download.jl:52
+│  [4] top-level scope at /root/.julia/packages/Reduce/4dmwd/deps/build.jl:56
+│  [5] include at ./boot.jl:328 [inlined]
+│  [6] include_relative(::Module, ::String) at ./loading.jl:1094
+│  [7] include(::Module, ::String) at ./Base.jl:31
+│  [8] include(::String) at ./client.jl:431
+│  [9] top-level scope at none:5
+│ in expression starting at /root/.julia/packages/Reduce/4dmwd/deps/build.jl:30
+│ caused by [exception 2]
+│ IOError: could not spawn `/root/.julia/packages/Reduce/4dmwd/deps/usr/bin/redcsl`: no such file or directory (ENOENT)
+│ Stacktrace:
+│  [1] _spawn_primitive(::String, ::Cmd, ::Array{Any,1}) at ./process.jl:401
+│  [2] setup_stdios(::getfield(Base, Symbol("##526#527")){Cmd}, ::Array{Any,1}) at ./process.jl:414
+│  [3] _spawn(::Base.CmdRedirect, ::Array{Any,1}) at ./process.jl:413
+│  [4] _spawn(::Base.CmdRedirect, ::Array{Any,1}) at ./process.jl:441 (repeats 2 times)
+│  [5] #run#536(::Bool, ::typeof(run), ::Base.CmdRedirect) at ./process.jl:731
+│  [6] (::getfield(Base, Symbol("#kw##run")))(::NamedTuple{(:wait,),Tuple{Bool}}, ::typeof(run), ::Base.CmdRedirect) at ./none:0
+│  [7] _spawn(::Cmd, ::Base.DevNull, ::Base.DevNull) at /root/.julia/packages/Reduce/4dmwd/deps/svn.jl:23 (repeats 2 times)
+│  [8] top-level scope at /root/.julia/packages/Reduce/4dmwd/deps/build.jl:43
+│  [9] include at ./boot.jl:328 [inlined]
+│  [10] include_relative(::Module, ::String) at ./loading.jl:1094
+│  [11] include(::Module, ::String) at ./Base.jl:31
+│  [12] include(::String) at ./client.jl:431
+│  [13] top-level scope at none:5
+│ caused by [exception 1]
+│ IOError: could not spawn `redcsl`: no such file or directory (ENOENT)
+│ Stacktrace:
+│  [1] _spawn_primitive(::String, ::Cmd, ::Array{Any,1}) at ./process.jl:401
+│  [2] setup_stdios(::getfield(Base, Symbol("##526#527")){Cmd}, ::Array{Any,1}) at ./process.jl:414
+│  [3] _spawn(::Base.CmdRedirect, ::Array{Any,1}) at ./process.jl:413
+│  [4] _spawn(::Base.CmdRedirect, ::Array{Any,1}) at ./process.jl:441 (repeats 2 times)
+│  [5] #run#536(::Bool, ::typeof(run), ::Base.CmdRedirect) at ./process.jl:731
+│  [6] (::getfield(Base, Symbol("#kw##run")))(::NamedTuple{(:wait,),Tuple{Bool}}, ::typeof(run), ::Base.CmdRedirect) at ./none:0
+│  [7] _spawn(::Cmd, ::Base.DevNull, ::Base.DevNull) at /root/.julia/packages/Reduce/4dmwd/deps/svn.jl:23 (repeats 2 times)
+│  [8] top-level scope at /root/.julia/packages/Reduce/4dmwd/deps/build.jl:33
+│  [9] include at ./boot.jl:328 [inlined]
+│  [10] include_relative(::Module, ::String) at ./loading.jl:1094
+│  [11] include(::Module, ::String) at ./Base.jl:31
+│  [12] include(::String) at ./client.jl:431
+│  [13] top-level scope at none:5
+│ Building Reduce.jl with CSL binaries ... 
+└ @ Pkg.Operations /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:647
+   Testing ReduceLinAlg
+ Resolving package versions...
+    Status `/tmp/jl_2iuvbU/Manifest.toml`
+  [398f06c4] AbstractLattices v0.1.2
+  [a8e43f4a] AbstractTensors v0.3.0
+  [22fd7b30] DirectSum v0.4.2
+  [9dda63f9] ForceImport v0.0.3
+  [edad4870] Leibniz v0.0.3
+  [93e0c654] Reduce v1.2.3
+  [bfcbc1eb] ReduceLinAlg v0.1.0
+  [90137ffa] StaticArrays v0.12.1
+  [a4af3ec5] SyntaxTree v1.0.1
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+ERROR: LoadError: InitError: IOError: could not spawn `/root/.julia/packages/Reduce/4dmwd/src/../deps/usr/bin/redcsl`: no such file or directory (ENOENT)
+Stacktrace:
+ [1] _spawn_primitive(::String, ::Cmd, ::Array{Any,1}) at ./process.jl:401
+ [2] #526 at ./process.jl:414 [inlined]
+ [3] setup_stdios(::getfield(Base, Symbol("##526#527")){Cmd}, ::Array{Any,1}) at ./process.jl:498
+ [4] _spawn at ./process.jl:413 [inlined]
+ [5] _spawn(::Base.CmdRedirect, ::Array{Any,1}) at ./process.jl:441 (repeats 3 times)
+ [6] #run#536(::Bool, ::typeof(run), ::Base.CmdRedirect) at ./process.jl:731
+ [7] (::getfield(Base, Symbol("#kw##run")))(::NamedTuple{(:wait,),Tuple{Bool}}, ::typeof(run), ::Base.CmdRedirect) at ./none:0
+ [8] _spawn(::Cmd, ::Pipe, ::Pipe) at /root/.julia/packages/Reduce/4dmwd/deps/svn.jl:23
+ [9] Reduce.PSL() at /root/.julia/packages/Reduce/4dmwd/src/Reduce.jl:32
+ [10] Load() at /root/.julia/packages/Reduce/4dmwd/src/Reduce.jl:341
+ [11] __init__() at /root/.julia/packages/Reduce/4dmwd/src/Reduce.jl:311
+ [12] _include_from_serialized(::String, ::Array{Any,1}) at ./loading.jl:685
+ [13] _require_from_serialized(::String) at ./loading.jl:736
+ [14] _require(::Base.PkgId) at ./loading.jl:1023
+ [15] require(::Base.PkgId) at ./loading.jl:911
+ [16] require(::Module, ::Symbol) at ./loading.jl:906
+ [17] include at ./boot.jl:328 [inlined]
+ [18] include_relative(::Module, ::String) at ./loading.jl:1094
+ [19] include(::Module, ::String) at ./Base.jl:31
+ [20] include(::String) at ./client.jl:431
+ [21] top-level scope at none:5
+during initialization of module Reduce
+in expression starting at /root/.julia/packages/ReduceLinAlg/cPkDZ/test/runtests.jl:1
+caused by [exception 1]
+IOError: could not spawn `redcsl`: no such file or directory (ENOENT)
+Stacktrace:
+ [1] _spawn_primitive(::String, ::Cmd, ::Array{Any,1}) at ./process.jl:401
+ [2] #526 at ./process.jl:414 [inlined]
+ [3] setup_stdios(::getfield(Base, Symbol("##526#527")){Cmd}, ::Array{Any,1}) at ./process.jl:498
+ [4] _spawn at ./process.jl:413 [inlined]
+ [5] _spawn(::Base.CmdRedirect, ::Array{Any,1}) at ./process.jl:441 (repeats 3 times)
+ [6] #run#536(::Bool, ::typeof(run), ::Base.CmdRedirect) at ./process.jl:731
+ [7] (::getfield(Base, Symbol("#kw##run")))(::NamedTuple{(:wait,),Tuple{Bool}}, ::typeof(run), ::Base.CmdRedirect) at ./none:0
+ [8] _spawn(::Cmd, ::Pipe, ::Pipe) at /root/.julia/packages/Reduce/4dmwd/deps/svn.jl:23
+ [9] Reduce.PSL() at /root/.julia/packages/Reduce/4dmwd/src/Reduce.jl:23
+ [10] Load() at /root/.julia/packages/Reduce/4dmwd/src/Reduce.jl:341
+ [11] __init__() at /root/.julia/packages/Reduce/4dmwd/src/Reduce.jl:311
+ [12] _include_from_serialized(::String, ::Array{Any,1}) at ./loading.jl:685
+ [13] _require_from_serialized(::String) at ./loading.jl:736
+ [14] _require(::Base.PkgId) at ./loading.jl:1023
+ [15] require(::Base.PkgId) at ./loading.jl:911
+ [16] require(::Module, ::Symbol) at ./loading.jl:906
+ [17] include at ./boot.jl:328 [inlined]
+ [18] include_relative(::Module, ::String) at ./loading.jl:1094
+ [19] include(::Module, ::String) at ./Base.jl:31
+ [20] include(::String) at ./client.jl:431
+ [21] top-level scope at none:5
+ERROR: Package ReduceLinAlg errored during testing
+Stacktrace:
+ [1] pkgerror(::String, ::Vararg{String,N} where N) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/Types.jl:112
+ [2] #test#119(::Bool, ::Nothing, ::typeof(Pkg.Operations.test), ::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/Operations.jl:1288
+ [3] #test at ./none:0 [inlined]
+ [4] #test#62(::Bool, ::Nothing, ::Base.Iterators.Pairs{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::typeof(Pkg.API.test), ::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:245
+ [5] test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:233 [inlined]
+ [6] #test#61 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:230 [inlined]
+ [7] test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:230 [inlined]
+ [8] #test#60 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:229 [inlined]
+ [9] test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:229 [inlined]
+ [10] #test#59(::Base.Iterators.Pairs{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::typeof(Pkg.API.test), ::String) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:228
+ [11] test(::String) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:228
+ [12] top-level scope at none:10

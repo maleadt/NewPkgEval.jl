@@ -1,0 +1,153 @@
+ Resolving package versions...
+ Installed KrylovKit ─ v0.4.0
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [0b1a1467] + KrylovKit v0.4.0
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [0b1a1467] + KrylovKit v0.4.0
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [de0858da] + Printf 
+  [4ec0a83e] + Unicode 
+   Testing KrylovKit
+ Resolving package versions...
+    Status `/tmp/jl_lgKPb8/Manifest.toml`
+  [0b1a1467] KrylovKit v0.4.0
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+Test Summary:                                        | Pass  Total
+Orthonormalize with algorithm ClassicalGramSchmidt() |  128    128
+Test Summary:                                       | Pass  Total
+Orthonormalize with algorithm ModifiedGramSchmidt() |  128    128
+Test Summary:                                         | Pass  Total
+Orthonormalize with algorithm ClassicalGramSchmidt2() |  128    128
+Test Summary:                                        | Pass  Total
+Orthonormalize with algorithm ModifiedGramSchmidt2() |  128    128
+Test Summary:                                                       | Pass  Total
+Orthonormalize with algorithm ClassicalGramSchmidtIR{Float64}(0.75) |  128    128
+Test Summary:                                                      | Pass  Total
+Orthonormalize with algorithm ModifiedGramSchmidtIR{Float64}(0.75) |  128    128
+Test Summary:          | Pass  Total
+Givens and Householder |   24     24
+Test Summary:          | Pass  Total
+Rows and cols iterator |   16     16
+Test Summary:                                    | Pass  Total
+Dense Schur factorisation and associated methods |   32     32
+Test Summary:                  | Pass  Total
+Complete Lanczos factorization |   48     48
+Test Summary:                  | Pass  Total
+Complete Arnoldi factorization |   72     72
+Test Summary:                              | Pass  Total
+Complete Golub-Kahan-Lanczos factorization |   80     80
+Test Summary:                    | Pass  Total
+Incomplete Lanczos factorization |  480    480
+Test Summary:                    | Pass  Total
+Incomplete Arnoldi factorization | 2160   2160
+Test Summary:                | Pass  Total
+Incomplete GKL factorization | 2400   2400
+Test Summary:    | Pass  Total
+CG small problem |   16     16
+Test Summary:    | Pass  Total
+CG large problem |    8      8
+Test Summary:            | Pass  Total
+GMRES full factorization |   16     16
+Test Summary:       | Pass  Total
+GMRES with restarts |    8      8
+Test Summary:           | Pass  Total
+Lanczos - eigsolve full |   96     96
+Test Summary:                  | Pass  Total
+Lanczos - eigsolve iteratively |   96     96
+Test Summary:           | Pass  Total
+Arnoldi - eigsolve full |   88     88
+Test Summary:                  | Pass  Total
+Arnoldi - eigsolve iteratively |  128    128
+Test Summary:              | Pass  Total
+GolubYe - geneigsolve full |   96     96
+Test Summary:                     | Pass  Total
+GolubYe - geneigsolve iteratively |   96     96
+Test Summary:             | Pass  Total
+Arnoldi - schursolve full |  120    120
+Test Summary:                    | Pass  Total
+Arnoldi - schursolve iteratively |  192    192
+Test Summary:       | Pass  Total
+GKL - svdsolve full |   64     64
+Test Summary:              | Pass  Total
+GKL - svdsolve iteratively |   80     80
+Test Summary:                | Pass  Total
+Lanczos - expintegrator full |  656    656
+Test Summary:                | Pass  Total
+Arnoldi - expintegrator full |  656    656
+Test Summary:                       | Pass  Total
+Lanczos - expintegrator iteratively |  640    640
+
+signal (15): Terminated
+in expression starting at none:10
+epoll_pwait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv__io_poll at /workspace/srcdir/libuv/src/unix/linux-core.c:261
+uv_run at /workspace/srcdir/libuv/src/unix/core.c:361
+jl_run_once at /buildworker/worker/package_linux64/build/src/jl_uv.c:202
+jl_task_get_next at /buildworker/worker/package_linux64/build/src/partr.c:285
+poptaskref at ./task.jl:564
+wait at ./task.jl:591
+wait at ./condition.jl:104
+stream_wait at ./stream.jl:47
+wait at ./process.jl:956 [inlined]
+success at ./process.jl:771 [inlined]
+#run#536 at ./process.jl:728
+run at ./process.jl:726 [inlined]
+#40 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:600
+#41 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:611
+#32 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:568 [inlined]
+withenv at ./env.jl:161
+#30 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:567
+#mktempdir#15 at ./file.jl:584
+mktempdir at ./file.jl:582 [inlined]
+mktempdir at ./file.jl:582 [inlined]
+#with_dependencies_loadable_at_toplevel#27 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:516
+#with_dependencies_loadable_at_toplevel at ./none:0 [inlined]
+backwards_compatibility_for_test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:606
+#test#119 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/Operations.jl:1263
+#test at ./none:0 [inlined]
+#test#62 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:245
+test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:233 [inlined]
+#test#61 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:230 [inlined]
+test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:230 [inlined]
+#test#60 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:229 [inlined]
+test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:229 [inlined]
+#test#59 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:228
+test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:228
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2197
+do_call at /buildworker/worker/package_linux64/build/src/interpreter.c:323
+eval_value at /buildworker/worker/package_linux64/build/src/interpreter.c:411
+eval_stmt_value at /buildworker/worker/package_linux64/build/src/interpreter.c:362 [inlined]
+eval_body at /buildworker/worker/package_linux64/build/src/interpreter.c:772
+jl_interpret_toplevel_thunk_callback at /buildworker/worker/package_linux64/build/src/interpreter.c:884
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7f155dac8d0f)
+unknown function (ip: (nil))
+jl_interpret_toplevel_thunk at /buildworker/worker/package_linux64/build/src/interpreter.c:893
+jl_toplevel_eval_flex at /buildworker/worker/package_linux64/build/src/toplevel.c:815
+jl_toplevel_eval_flex at /buildworker/worker/package_linux64/build/src/toplevel.c:764
+jl_toplevel_eval_in at /buildworker/worker/package_linux64/build/src/toplevel.c:844
+eval at ./boot.jl:330
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2191
+exec_options at ./client.jl:271
+_start at ./client.jl:464
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2191
+jl_apply at /buildworker/worker/package_linux64/build/ui/../src/julia.h:1614 [inlined]
+true_main at /buildworker/worker/package_linux64/build/ui/repl.c:96
+main at /buildworker/worker/package_linux64/build/ui/repl.c:217
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+_start at /opt/julia/bin/julia (unknown line)
+unknown function (ip: 0xffffffffffffffff)
+Allocations: 9086841 (Pool: 9085323; Big: 1518); GC: 20

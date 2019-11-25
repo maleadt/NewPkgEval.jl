@@ -1,0 +1,405 @@
+ Resolving package versions...
+ Installed NaNMath ───────────────── v0.3.3
+ Installed ReverseDiffSparse ─────── v0.8.6
+ Installed DiffResults ───────────── v0.0.4
+ Installed OrderedCollections ────── v1.1.0
+ Installed SpecialFunctions ──────── v0.9.0
+ Installed DataStructures ────────── v0.17.6
+ Installed ForwardDiff ───────────── v0.10.7
+ Installed Compat ────────────────── v2.2.0
+ Installed Calculus ──────────────── v0.5.1
+ Installed ConicBenchmarkUtilities ─ v0.3.1
+ Installed DiffRules ─────────────── v0.1.0
+ Installed GZip ──────────────────── v0.5.1
+ Installed OpenSpecFun_jll ───────── v0.5.3+1
+ Installed StaticArrays ──────────── v0.12.1
+ Installed MathProgBase ──────────── v0.7.7
+ Installed CommonSubexpressions ──── v0.2.0
+ Installed Pajarito ──────────────── v0.6.1
+ Installed JuMP ──────────────────── v0.18.6
+  Updating `~/.julia/environments/v1.3/Project.toml`
+  [2f354839] + Pajarito v0.6.1
+  Updating `~/.julia/environments/v1.3/Manifest.toml`
+  [49dc2e85] + Calculus v0.5.1
+  [bbf7d656] + CommonSubexpressions v0.2.0
+  [34da2185] + Compat v2.2.0
+  [e95a7839] + ConicBenchmarkUtilities v0.3.1
+  [864edb3b] + DataStructures v0.17.6
+  [163ba53b] + DiffResults v0.0.4
+  [b552c78f] + DiffRules v0.1.0
+  [f6369f11] + ForwardDiff v0.10.7
+  [92fee26a] + GZip v0.5.1
+  [4076af6c] + JuMP v0.18.6
+  [fdba3010] + MathProgBase v0.7.7
+  [77ba4419] + NaNMath v0.3.3
+  [efe28fd5] + OpenSpecFun_jll v0.5.3+1
+  [bac558e1] + OrderedCollections v1.1.0
+  [2f354839] + Pajarito v0.6.1
+  [89212889] + ReverseDiffSparse v0.8.6
+  [276daf66] + SpecialFunctions v0.9.0
+  [90137ffa] + StaticArrays v0.12.1
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+   Testing Pajarito
+ Resolving package versions...
+ Installed JSON ────────────────── v0.21.0
+ Installed BenchmarkTools ──────── v0.4.3
+ Installed GLPKMathProgInterface ─ v0.4.4
+ Installed ECOS ────────────────── v0.10.1
+ Installed SCS ─────────────────── v0.6.2
+ Installed Parsers ─────────────── v0.3.10
+ Installed MathOptInterface ────── v0.9.7
+ Installed BinaryProvider ──────── v0.5.8
+ Installed GLPK ────────────────── v0.12.0
+  Building ECOS → `~/.julia/packages/ECOS/TOZeI/deps/build.log`
+  Building SCS ─→ `~/.julia/packages/SCS/Y9wx3/deps/build.log`
+  Building GLPK → `~/.julia/packages/GLPK/J1b5G/deps/build.log`
+    Status `/tmp/jl_A6V6ou/Manifest.toml`
+  [6e4b80f9] BenchmarkTools v0.4.3
+  [b99e7846] BinaryProvider v0.5.8
+  [49dc2e85] Calculus v0.5.1
+  [bbf7d656] CommonSubexpressions v0.2.0
+  [34da2185] Compat v2.2.0
+  [e95a7839] ConicBenchmarkUtilities v0.3.1
+  [864edb3b] DataStructures v0.17.6
+  [163ba53b] DiffResults v0.0.4
+  [b552c78f] DiffRules v0.1.0
+  [e2685f51] ECOS v0.10.1
+  [f6369f11] ForwardDiff v0.10.7
+  [60bf3e95] GLPK v0.12.0
+  [3c7084bd] GLPKMathProgInterface v0.4.4
+  [92fee26a] GZip v0.5.1
+  [682c06a0] JSON v0.21.0
+  [4076af6c] JuMP v0.18.6
+  [b8f27783] MathOptInterface v0.9.7
+  [fdba3010] MathProgBase v0.7.7
+  [77ba4419] NaNMath v0.3.3
+  [efe28fd5] OpenSpecFun_jll v0.5.3+1
+  [bac558e1] OrderedCollections v1.1.0
+  [2f354839] Pajarito v0.6.1
+  [69de0a69] Parsers v0.3.10
+  [89212889] ReverseDiffSparse v0.8.6
+  [c946c3f1] SCS v0.6.2
+  [276daf66] SpecialFunctions v0.9.0
+  [90137ffa] StaticArrays v0.12.1
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+WARNING: Method definition findnz(AbstractArray{T, 2} where T) in module Pajarito at /root/.julia/packages/Pajarito/PL3Lt/src/Pajarito.jl:42 overwritten in module ConicBenchmarkUtilities at /root/.julia/packages/ConicBenchmarkUtilities/HFwIl/src/ConicBenchmarkUtilities.jl:17.
+  ** incremental compilation may be fatally broken for this module **
+
+
+Solvers:
+
+Exp+SOC
+ 1  SCS
+ 2  ECOS
+
+MISOCP
+ 1  Paj(GLPK+ECOS)
+
+PSD+SOC
+ 1  SCS
+
+MILP
+ 1  GLPK
+
+SOC
+ 1  SCS
+ 2  ECOS
+
+PSD+Exp
+ 1  SCS
+
+LPQP models, SOC solver: Iter, GLPK, SCS
+QP optimal                    ... :Optimal          37.43 s
+QP maximize                   ... :Optimal           0.02 s
+
+LPQP models, SOC solver: Iter, GLPK, ECOS
+QP optimal                    ... :Optimal           1.71 s
+QP maximize                   ... :Optimal           0.00 s
+
+SOC models/solver: Iter, GLPK, SCS
+SOC optimal                   ... :Optimal           3.61 s
+SOC infeasible                ... :Infeasible        0.01 s
+SOCRot optimal                ... :Optimal           0.00 s
+SOCRot infeasible             ... :Infeasible        0.00 s
+Equality constraint           ... :Optimal           0.00 s
+Zero cones                    ... :Optimal           0.00 s
+SOC infeasible binary         ... :Infeasible        0.37 s
+SOC index bug (#418)          ... :UserLimit        30.02 s
+Timeout 1st MIP (tls5)        ... :UserLimit        15.05 s
+SOC dualize                   ... :Optimal           2.47 s
+Suboptimal MIP solves         ... :Optimal           0.07 s
+SOCRot dualize                ... :Optimal           0.00 s
+Infeas L1, disagg             ... :Infeasible        0.00 s
+Infeas L1, disagg, abs        ... :Infeasible        0.00 s
+Infeas L1, abs                ... :Infeasible        0.00 s
+Infeas disagg                 ... :Infeasible        0.01 s
+Infeas disagg, abs            ... :Infeasible        0.01 s
+Infeas abs                    ... :Infeasible        0.11 s
+
+SOC models/solver: Iter, GLPK, ECOS
+SOC optimal                   ... :Optimal           0.00 s
+SOC infeasible                ... :Infeasible        0.00 s
+SOCRot optimal                ... :Optimal           0.00 s
+SOCRot infeasible             ... :Infeasible        0.00 s
+Equality constraint           ... :Optimal           0.00 s
+Zero cones                    ... :Optimal           0.00 s
+SOC infeasible binary         ... :Infeasible        0.00 s
+SOC index bug (#418)          ... :UserLimit        30.02 s
+Timeout 1st MIP (tls5)        ... :UserLimit        15.05 s
+SOC dualize                   ... :Optimal           1.10 s
+Suboptimal MIP solves         ... :Optimal           0.06 s
+SOCRot dualize                ... :Optimal           0.00 s
+Infeas L1, disagg             ... :Infeasible        0.00 s
+Infeas L1, disagg, abs        ... :Infeasible        0.00 s
+Infeas L1, abs                ... :Infeasible        0.00 s
+Infeas disagg                 ... :Infeasible        0.01 s
+Infeas disagg, abs            ... :Infeasible        0.01 s
+Infeas abs                    ... :Infeasible        0.00 s
+
+Exp+SOC models/solver: Iter, GLPK, SCS
+Exp optimal                   ... :Optimal           0.19 s
+ExpSOC optimal                ... :Optimal           0.01 s
+ExpSOC optimal 3              ... :Optimal           0.03 s
+Exp large 2 (Ising)           ... :Optimal           0.09 s
+No all disagg                 ... :Optimal           0.01 s
+No all disagg (gatesizing)    ... :Optimal           3.87 s
+ExpSOC no init cuts           ... :Optimal           0.01 s
+No init cuts, no disagg       ... :Optimal           0.01 s
+No scaling                    ... :Optimal           0.01 s
+Scaling up                    ... :Optimal           0.01 s
+No primal cuts assist         ... :Optimal           0.01 s
+Primal cuts always            ... :Optimal           0.01 s
+Primal cuts only              ... :Optimal           0.01 s
+No conic solver               ... :Optimal           0.09 s
+Viol cuts only                ... :Optimal           0.01 s
+
+Exp+SOC models/solver: Iter, GLPK, ECOS
+Exp optimal                   ... :Optimal           0.00 s
+ExpSOC optimal                ... :Optimal           0.00 s
+ExpSOC optimal 3              ... :Optimal           0.00 s
+Exp large 2 (Ising)           ... :Optimal           0.01 s
+No all disagg                 ... :Optimal           0.00 s
+No all disagg (gatesizing)    ... :Optimal           0.04 s
+ExpSOC no init cuts           ... :Optimal           0.00 s
+No init cuts, no disagg       ... :Optimal           0.00 s
+No scaling                    ... :Optimal           0.00 s
+Scaling up                    ... :Optimal           0.00 s
+No primal cuts assist         ... :Optimal           0.00 s
+Primal cuts always            ... :Optimal           0.00 s
+Primal cuts only              ... :Optimal           0.00 s
+No conic solver               ... :Optimal           0.00 s
+Viol cuts only                ... :Optimal           0.00 s
+
+PSD+SOC models/solver: Iter, GLPK, SCS
+SDPSOC optimal                ... :Optimal           0.14 s
+Infeasible                    ... :Infeasible        0.00 s
+No all disagg                 ... :Optimal           0.00 s
+No init cuts                  ... :Optimal           0.00 s
+No eig cuts                   ... :Optimal           0.00 s
+Dualize                       ... :Optimal           0.01 s
+Viol cuts only                ... :Optimal           0.00 s
+No scaling                    ... :Optimal           0.00 s
+Scaling up                    ... :Optimal           0.00 s
+No primal cuts assist         ... :Optimal           0.00 s
+Primal cuts only              ... :Optimal           0.00 s
+No conic solver               ... :Optimal           0.00 s
+Suboptimal MIP solves (cardls)... :Optimal          17.03 s
+No eig cuts (cardls)          ... :Optimal          14.82 s
+SDP integer (Aopt)            ... :Optimal           0.77 s
+SDP integer (Eopt)            ... :Optimal           0.02 s
+No all disagg (Eopt)          ... :Optimal           0.02 s
+
+PSD+Exp models/solver: Iter, GLPK, SCS
+ExpSDP integer (Dopt)         ... :Optimal          10.22 s
+Primal cuts only (Dopt)       ... :Optimal          13.44 s
+No primal cuts (Dopt)         ... :Optimal          12.09 s
+No all disagg (Dopt)          ... :Optimal          16.52 s
+No scaling                    ... :Optimal          13.24 s
+Scaling up                    ... :Optimal          14.19 s
+
+MISOCP: Exp+SOC models/solver: Iter, Paj(GLPK+ECOS), SCS
+SOC in MIP, suboptimal MIP    ... :Optimal           3.80 s
+SOC in MIP, primal only       ... :Optimal           0.07 s
+SOC in MIP, no conic solver   ... :Optimal           0.07 s
+
+MISOCP: Exp+SOC models/solver: Iter, Paj(GLPK+ECOS), ECOS
+SOC in MIP, suboptimal MIP    ... :Optimal           0.07 s
+SOC in MIP, primal only       ... :Optimal           0.07 s
+SOC in MIP, no conic solver   ... :Optimal           0.01 s
+
+MISOCP: PSD+SOC models/solver: Iter, Paj(GLPK+ECOS), SCS
+SDPSOC SOC in MIP optimal     ... :Optimal           0.00 s
+SOC in MIP infeasible         ... :Infeasible        0.00 s
+SOC in MIP, no eig cuts       ... :Optimal           0.00 s
+SOC in MIP, dualize           ... :Optimal           0.03 s
+SOC in MIP, no conic solver   ... :Optimal           0.01 s
+Init SOC cuts infeasible      ... :Infeasible        0.00 s
+SOC eig cuts infeasible       ... :Infeasible        0.00 s
+SOC full cuts infeasible      ... :Infeasible        0.00 s
+SOC eig cuts (Aopt)           ... :Optimal           0.59 s
+SOC eig cuts (Eopt)           ... :Optimal           0.04 s
+
+MISOCP: PSD+Exp models/solver: Iter, Paj(GLPK+ECOS), SCS
+ExpSDP init SOC cuts (Dopt)   ... :Optimal          10.16 s
+
+Test Summary:    | Pass  Total
+Algorithm - Iter |  387    387
+
+LPQP models, SOC solver: MSD, GLPK, SCS
+QP optimal                    ... :Optimal           0.94 s
+QP maximize                   ... :Optimal           0.00 s
+
+LPQP models, SOC solver: MSD, GLPK, ECOS
+QP optimal                    ... :Optimal           0.00 s
+QP maximize                   ... :Optimal           0.00 s
+
+SOC models/solver: MSD, GLPK, SCS
+SOC optimal                   ... :Optimal           0.00 s
+SOC infeasible                ... :Infeasible        0.06 s
+SOCRot optimal                ... :Optimal           0.00 s
+SOCRot infeasible             ... :Infeasible        0.00 s
+Equality constraint           ... :Optimal           0.18 s
+Zero cones                    ... :Optimal           0.00 s
+SOC infeasible binary         ... :Infeasible        0.83 s
+SOC index bug (#418)          ... :UserLimit        30.01 s
+Timeout 1st MIP (tls5)        ... :UserLimit        15.05 s
+SOC dualize                   ... :Optimal           0.01 s
+Suboptimal MIP solves         ... :Optimal           0.00 s
+SOCRot dualize                ... :Optimal           0.00 s
+Infeas L1, disagg             ... :Infeasible        0.01 s
+Infeas L1, disagg, abs        ... :Infeasible        0.01 s
+Infeas L1, abs                ... :Infeasible        0.00 s
+Infeas disagg                 ... :Infeasible        0.01 s
+Infeas disagg, abs            ... :Infeasible        0.01 s
+Infeas abs                    ... :Infeasible        0.01 s
+
+SOC models/solver: MSD, GLPK, ECOS
+SOC optimal                   ... :Optimal           0.00 s
+SOC infeasible                ... :Infeasible        0.00 s
+SOCRot optimal                ... :Optimal           0.00 s
+SOCRot infeasible             ... :Infeasible        0.00 s
+Equality constraint           ... :Optimal           0.00 s
+Zero cones                    ... :Optimal           0.00 s
+SOC infeasible binary         ... :Infeasible        0.01 s
+SOC index bug (#418)          ... :UserLimit        30.02 s
+Timeout 1st MIP (tls5)        ... :UserLimit        15.05 s
+SOC dualize                   ... :Optimal           0.00 s
+Suboptimal MIP solves         ... :Optimal           0.00 s
+SOCRot dualize                ... :Optimal           0.00 s
+Infeas L1, disagg             ... :Infeasible        0.01 s
+Infeas L1, disagg, abs        ... :Infeasible        0.00 s
+Infeas L1, abs                ... :Infeasible        0.00 s
+Infeas disagg                 ... :Infeasible        0.01 s
+Infeas disagg, abs            ... :Infeasible        0.05 s
+Infeas abs                    ... :Infeasible        0.01 s
+
+Exp+SOC models/solver: MSD, GLPK, SCS
+Exp optimal                   ... :Optimal           0.01 s
+ExpSOC optimal                ... :Optimal           0.01 s
+ExpSOC optimal 3              ... :Optimal           0.01 s
+Exp large 2 (Ising)           ... :Optimal           0.13 s
+No all disagg                 ... :Optimal           0.01 s
+No all disagg (gatesizing)    ... :Optimal          24.32 s
+ExpSOC no init cuts           ... :Optimal           0.01 s
+No init cuts, no disagg       ... :Optimal           0.01 s
+No scaling                    ... :Optimal           0.01 s
+Scaling up                    ... :Optimal           0.01 s
+No primal cuts assist         ... :Optimal           0.01 s
+Primal cuts always            ... :Optimal           0.01 s
+Primal cuts only              ... :Optimal           0.01 s
+No conic solver               ... :Optimal           0.00 s
+Viol cuts only                ... :Optimal           0.01 s
+
+Exp+SOC models/solver: MSD, GLPK, ECOS
+Exp optimal                   ... :Optimal           0.00 s
+ExpSOC optimal                ... :Optimal           0.00 s
+ExpSOC optimal 3              ... :Optimal           0.00 s
+Exp large 2 (Ising)           ... :Optimal           0.01 s
+No all disagg                 ... :Optimal           0.00 s
+No all disagg (gatesizing)    ... :Optimal           0.09 s
+ExpSOC no init cuts           ... :Optimal           0.00 s
+No init cuts, no disagg       ... :Optimal           0.00 s
+No scaling                    ... :Optimal           0.00 s
+Scaling up                    ... :Optimal           0.00 s
+No primal cuts assist         ... :Optimal           0.00 s
+Primal cuts always            ... :Optimal           0.00 s
+Primal cuts only              ... :Optimal           0.00 s
+No conic solver               ... :Optimal           0.00 s
+Viol cuts only                ... :Optimal           0.00 s
+
+PSD+SOC models/solver: MSD, GLPK, SCS
+SDPSOC optimal                ... :Optimal           0.00 s
+Infeasible                    ... :Infeasible        0.00 s
+No all disagg                 ... :Optimal           0.00 s
+No init cuts                  ... :Optimal           0.00 s
+No eig cuts                   ... :Optimal           0.00 s
+Dualize                       ... :Optimal           0.01 s
+Viol cuts only                ... :Optimal           0.00 s
+No scaling                    ... :Optimal           0.00 s
+Scaling up                    ... :Optimal           0.00 s
+No primal cuts assist         ... :Optimal           0.00 s
+Primal cuts only              ... :Optimal           0.00 s
+No conic solver               ... :Optimal           0.00 s
+Suboptimal MIP solves (cardls)... :Optimal          16.30 s
+No eig cuts (cardls)          ... :Optimal          13.46 s
+SDP integer (Aopt)            ... :Optimal           0.55 s
+SDP integer (Eopt)            ... :Optimal           0.02 s
+No all disagg (Eopt)          ... :Optimal           0.11 s
+
+PSD+Exp models/solver: MSD, GLPK, SCS
+ExpSDP integer (Dopt)         ... :Optimal          55.34 s
+Primal cuts only (Dopt)       ... :Optimal          27.65 s
+No primal cuts (Dopt)         ... :Optimal          54.91 s
+No all disagg (Dopt)          ... :Optimal          67.73 s
+No scaling                    ... :Optimal          16.41 s
+Scaling up                    ... :Optimal          64.65 s
+
+Test Summary:   | Pass  Total
+Algorithm - MSD |  318    318
+   Testing Pajarito tests passed 

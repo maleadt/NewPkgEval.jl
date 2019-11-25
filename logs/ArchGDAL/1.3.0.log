@@ -1,0 +1,165 @@
+ Resolving package versions...
+ Installed Missings ─────── v0.4.3
+ Installed WeakRefStrings ─ v0.6.1
+ Installed RecipesBase ──── v0.7.0
+ Installed DataAPI ──────── v1.1.0
+ Installed GeoInterface ─── v0.4.1
+ Installed GDAL ─────────── v0.2.0
+ Installed DataStreams ──── v0.4.2
+ Installed ArchGDAL ─────── v0.2.1
+ Installed BinaryProvider ─ v0.5.8
+  Updating `~/.julia/environments/v1.3/Project.toml`
+  [c9ce4bd3] + ArchGDAL v0.2.1
+  Updating `~/.julia/environments/v1.3/Manifest.toml`
+  [c9ce4bd3] + ArchGDAL v0.2.1
+  [b99e7846] + BinaryProvider v0.5.8
+  [9a962f9c] + DataAPI v1.1.0
+  [9a8bc11e] + DataStreams v0.4.2
+  [add2ef01] + GDAL v0.2.0
+  [cf35fbd7] + GeoInterface v0.4.1
+  [e1d29d7a] + Missings v0.4.3
+  [3cdcf5f2] + RecipesBase v0.7.0
+  [ea10d353] + WeakRefStrings v0.6.1
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [8f399da3] + Libdl 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [de0858da] + Printf 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [8dfed614] + Test 
+  [4ec0a83e] + Unicode 
+  Building GDAL → `~/.julia/packages/GDAL/vec6Y/deps/build.log`
+   Testing ArchGDAL
+ Resolving package versions...
+    Status `/tmp/jl_0fCEvr/Manifest.toml`
+  [c9ce4bd3] ArchGDAL v0.2.1
+  [b99e7846] BinaryProvider v0.5.8
+  [9a962f9c] DataAPI v1.1.0
+  [9a8bc11e] DataStreams v0.4.2
+  [add2ef01] GDAL v0.2.0
+  [cf35fbd7] GeoInterface v0.4.1
+  [e1d29d7a] Missings v0.4.3
+  [3cdcf5f2] RecipesBase v0.7.0
+  [ea10d353] WeakRefStrings v0.6.1
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/data/A.tif?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/data/A.tif...
+[00:34:40] #=#=#                                                                         [00:34:40] ##O#- #                                                                       [00:34:40] [00:34:40] ######################################################################## 100.0%[00:34:40] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/data/point.geojson?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/data/point.geojson...
+[00:34:40] #=#=#                                                                         [00:34:40] ##O#- #                                                                       [00:34:40] ##O=#  #                                                                      [00:34:40] [00:34:40] ######################################################################## 100.0%#=#=-#  #                                                                     [00:34:41] [00:34:41] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/data/utmsmall.tif?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/data/utmsmall.tif...
+[00:34:41] #=#=#                                                                         [00:34:41] ##O#- #                                                                       [00:34:41] [ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/gdalworkshop/world.tif?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/gdalworkshop/world.tif...
+[00:34:41] ######################################################################## 100.0%[00:34:41] #############                                                             18.5%[00:34:41] ######################################################################## 100.0%
+[00:34:41] #=#=#                                                                         [00:34:42] ##O#- #                                                                       [00:34:42] [00:34:42] ######################################################################## 100.0%##O=#  #                                                                      [00:34:42] [00:34:42] #############                                                             18.4%[00:34:42] #############################                                             41.2%[00:34:42] ##################################################################        92.5%[00:34:42] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data1/sites.dbf?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data1/sites.dbf...
+[00:34:43] #=#=#                                                                         [00:34:43] ##O#- #                                                                       [00:34:43] [ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data1/sites.prj?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data1/sites.prj...
+[00:34:43] ######################################################################## 100.0%[00:34:43] ######################################################################## 100.0%
+[00:34:43] #=#=#                                                                         [00:34:43] ##O#- #                                                                       [00:34:43] [00:34:43] ######################################################################## 100.0%[00:34:43] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data1/sites.sbn?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data1/sites.sbn...
+[00:34:43] #=#=#                                                                         [00:34:44] [00:34:44] ######################################################################## 100.0%[00:34:44] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data1/sites.sbx?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data1/sites.sbx...
+[00:34:44] #=#=#                                                                         [00:34:44] ##O#- #                                                                       [00:34:44] [00:34:44] ######################################################################## 100.0%[00:34:44] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data1/sites.shp?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data1/sites.shp...
+[00:34:44] #=#=#                                                                         [00:34:44] ##O#- #                                                                       [00:34:45] [00:34:45] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data1/sites.shx?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data1/sites.shx...
+[00:34:45] #=#=#                                                                         [00:34:45] ##O#- #                                                                       [00:34:45] [00:34:45] ######################################################################## 100.0%[00:34:45] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data2/ut_counties.dbf?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data2/ut_counties.dbf...
+[00:34:45] #=#=#                                                                         [00:34:45] ##O#- #                                                                       [00:34:45] [00:34:45] ######################################################################## 100.0%[00:34:45] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data2/ut_counties.prj?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data2/ut_counties.prj...
+[00:34:46] #=#=#                                                                         [00:34:46] ##O#- #                                                                       [00:34:46] [00:34:46] ######################################################################## 100.0%[00:34:46] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data2/ut_counties.shp?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data2/ut_counties.shp...
+[00:34:46] #=#=#                                                                         [00:34:46] [00:34:46] ######################################################################## 100.0%[00:34:46] #####                                                                      7.7%[00:34:46] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data2/ut_counties.shx?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data2/ut_counties.shx...
+[00:34:46] #=#=#                                                                         [00:34:47] ##O#- #                                                                       [ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data2/ut_counties.txt?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data2/ut_counties.txt...
+[00:34:47] [00:34:47] ######################################################################## 100.0%
+[00:34:47] #=#=#                                                                         [00:34:47] [00:34:47] ######################################################################## 100.0%##O#- #                                                                       [00:34:47] ##=O#- #                                                                      [00:34:47] [00:34:47] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data3/cache_towns.dbf?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data3/cache_towns.dbf...
+[00:34:48] #=#=#                                                                         [00:34:48] ##O#- #                                                                       [00:34:48] [00:34:48] ######################################################################## 100.0%[00:34:48] #####################                                                     29.8%[00:34:48] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data3/cache_towns.sbn?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data3/cache_towns.sbn...
+[00:34:48] #=#=#                                                                         [00:34:48] [00:34:48] ######################################################################## 100.0%[00:34:48] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data3/cache_towns.sbx?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data3/cache_towns.sbx...
+[00:34:48] #=#=#                                                                         [00:34:48] ##O#- #                                                                       [00:34:48] [00:34:49] ######################################################################## 100.0%[00:34:49] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data3/cache_towns.shp?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data3/cache_towns.shp...
+[00:34:49] #=#=#                                                                         [00:34:49] ##O#- #                                                                       [00:34:49] [00:34:49] ######################################################################## 100.0%[00:34:49] #                                                                          2.5%[00:34:49] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data3/cache_towns.shx?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data3/cache_towns.shx...
+[00:34:49] #=#=#                                                                         [00:34:49] [00:34:49] ######################################################################## 100.0%[00:34:49] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data3/sites.dbf?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data3/sites.dbf...
+[00:34:50] #=#=#                                                                         [00:34:50] [00:34:50] ######################################################################## 100.0%[00:34:50] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data3/sites.sbn?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data3/sites.sbn...
+[00:34:50] #=#=#                                                                         [00:34:50] [00:34:50] ######################################################################## 100.0%[00:34:50] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data3/sites.sbx?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data3/sites.sbx...
+[00:34:50] #=#=#                                                                         [00:34:50] [00:34:51] ######################################################################## 100.0%[00:34:51] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data3/sites.shp?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data3/sites.shp...
+[00:34:51] #=#=#                                                                         [00:34:51] [00:34:51] ######################################################################## 100.0%[00:34:51] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data3/sites.shx?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data3/sites.shx...
+[00:34:51] #=#=#                                                                         [00:34:51] ##O#- #                                                                       [00:34:51] ##O=#  #                                                                      [00:34:52] #=#=-#  #                                                                     [00:34:52] [00:34:52] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data4/aster.img?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data4/aster.img...
+[00:34:52] #=#=#                                                                         [00:34:52] ##O#- #                                                                       [00:34:52] [00:34:52] ######################################################################## 100.0%##O=#  #                                                                      [00:34:53] [00:34:53]                                                                            0.0%[00:34:53] ####                                                                       6.1%[00:34:54] #####                                                                      7.7%[00:34:54] #########                                                                 13.1%[00:34:54] #################                                                         24.1%[00:34:54] #########################                                                 35.6%[00:34:54] ##############################                                            42.5%[00:34:54] ###################################                                       49.5%[00:34:54] ##########################################                                58.6%[00:34:54] ###################################################                       71.3%[00:34:54] ############################################################              84.0%[00:34:54] #####################################################################     96.3%[00:34:54] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data4/aster.rrd?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data4/aster.rrd...
+[00:34:56] #=#=#                                                                         [00:34:57] ##O#- #                                                                       [00:34:57] ##O=#  #                                                                      [00:34:57] [00:34:57] ######################################################################## 100.0%#=#=-#  #                                                                     [00:34:57] [00:34:57]                                                                            0.0%[00:34:58] ###########################################                               60.2%[00:34:58] ###############################################################           88.3%[00:34:58] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data4/sites.dbf?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data4/sites.dbf...
+[00:34:58] #=#=#                                                                         [00:34:58] ##O#- #                                                                       [00:34:58] [00:34:58] ######################################################################## 100.0%[00:34:58] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data4/sites.sbn?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data4/sites.sbn...
+[00:34:58] #=#=#                                                                         [00:34:58] [00:34:59] ######################################################################## 100.0%[00:34:59] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data4/sites.sbx?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data4/sites.sbx...
+[00:34:59] #=#=#                                                                         [00:34:59] [00:34:59] ######################################################################## 100.0%[00:34:59] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data4/sites.shp?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data4/sites.shp...
+[00:34:59] #=#=#                                                                         [00:34:59] ##O#- #                                                                       [00:34:59] [00:34:59] ######################################################################## 100.0%[00:34:59] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data4/sites.shx?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data4/sites.shx...
+[00:35:00] #=#=#                                                                         [00:35:00] [00:35:00] ######################################################################## 100.0%##O#- #                                                                       [00:35:00] [00:35:00] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data5/aster.img?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data5/aster.img...
+[00:35:00] #=#=#                                                                         [00:35:00] ##O#- #                                                                       [00:35:00] [00:35:00] ######################################################################## 100.0%##O=#  #                                                                      [00:35:01] [00:35:01]                                                                            0.0%[00:35:01] ########                                                                  11.2%[00:35:01] ##############                                                            19.7%[00:35:02] #################                                                         24.9%[00:35:02] ######################                                                    31.3%[00:35:02] #########################                                                 35.8%[00:35:02] ###############################                                           43.4%[00:35:02] ########################################                                  55.8%[00:35:02] ############################################                              62.3%[00:35:02] ##################################################                        70.7%[00:35:02] #########################################################                 80.3%[00:35:02] ##############################################################            86.7%[00:35:03] ##################################################################        92.0%[00:35:03] ######################################################################    98.6%[00:35:03] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data5/aster.rrd?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data5/aster.rrd...
+[00:35:05] #=#=#                                                                         [00:35:05] ##O#- #                                                                       [00:35:05] [00:35:05] ######################################################################## 100.0%##O=#  #                                                                      [00:35:05] #-#O=#  #                                                                     [00:35:06] [00:35:06] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data5/doq1.img?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data5/doq1.img...
+[00:35:06] #=#=#                                                                         [00:35:06] ##O#- #                                                                       [00:35:06] [00:35:06] ######################################################################## 100.0%##O=#  #                                                                      [00:35:06] [00:35:07]                                                                            0.0%[00:35:07] ##############################                                            42.3%[00:35:07] ###############################################################           88.4%[00:35:07] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data5/doq1.rrd?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data5/doq1.rrd...
+[00:35:07] #=#=#                                                                         [00:35:07] [00:35:07] ######################################################################## 100.0%[00:35:08]                                                                            0.2%[00:35:08] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data5/doq2.img?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data5/doq2.img...
+[00:35:08] #=#=#                                                                         [00:35:08] ##O#- #                                                                       [00:35:08] [00:35:08] ######################################################################## 100.0%[00:35:09]                                                                            0.0%[00:35:09] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/ospy/data5/doq2.rrd?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/ospy/data5/doq2.rrd...
+[00:35:09] #=#=#                                                                         [00:35:09] ##O#- #                                                                       [00:35:09] [00:35:09] ######################################################################## 100.0%##O=#  #                                                                      [00:35:09] [00:35:09]                                                                            0.4%[00:35:09] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/pyrasterio/example.tif?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/pyrasterio/example.tif...
+[00:35:10] #=#=#                                                                         [00:35:10] ##O#- #                                                                       [00:35:10] [00:35:10] ######################################################################## 100.0%[00:35:10]                                                                            1.3%[00:35:10] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/pyrasterio/example2.tif?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/pyrasterio/example2.tif...
+[00:35:10] #=#=#                                                                         [00:35:10] ##O#- #                                                                       [00:35:10] [00:35:10] ######################################################################## 100.0%[00:35:10]                                                                            0.4%[00:35:10] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/pyrasterio/example3.tif?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/pyrasterio/example3.tif...
+[00:35:11] #=#=#                                                                         [00:35:11] ##O#- #                                                                       [00:35:11] [00:35:11] ######################################################################## 100.0%[00:35:11]                                                                            0.4%[00:35:11] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/pyrasterio/float_nan.tif?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/pyrasterio/float_nan.tif...
+[00:35:11] #=#=#                                                                         [00:35:11] ##O#- #                                                                       [00:35:11] [00:35:11] ######################################################################## 100.0%[00:35:11] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/pyrasterio/float.tif?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/pyrasterio/float.tif...
+[00:35:12] #=#=#                                                                         [00:35:12] [00:35:12] ######################################################################## 100.0%[00:35:12] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/pyrasterio/RGB.byte.tif?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/pyrasterio/RGB.byte.tif...
+[00:35:12] #=#=#                                                                         [00:35:12] ##O#- #                                                                       [00:35:12] [00:35:12] ######################################################################## 100.0%[00:35:12]                                                                            0.1%[00:35:12] ######################################################################## 100.0%
+[ Info: Downloading https://github.com/yeesian/ArchGDALDatasets/blob/master/pyrasterio/shade.tif?raw=true to /root/.julia/packages/ArchGDAL/RCmkd/test/pyrasterio/shade.tif...
+[00:35:12] #=#=#                                                                         [00:35:13] ##O#- #                                                                       [00:35:13] [00:35:13] ######################################################################## 100.0%[00:35:13]                                                                            0.2%[00:35:13] ######################################################################## 100.0%
+CPLDestroyMutex: Error = 16 (Device or resource busy)
+┌ Warning: There is no linear binning information.
+└ @ ArchGDAL ~/.julia/packages/ArchGDAL/RCmkd/src/raster/rasterattributetable.jl:300
+┌ Warning: There is no linear binning information.
+└ @ ArchGDAL ~/.julia/packages/ArchGDAL/RCmkd/src/raster/rasterattributetable.jl:300
+  1.165326 seconds (89.64 k allocations: 221.518 MiB, 1.29% gc time)
+Test Summary: | Pass  Total
+ArchGDAL      |  963    963
+   Testing ArchGDAL tests passed 

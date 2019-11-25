@@ -1,0 +1,183 @@
+ Resolving package versions...
+ Installed Compat ─────────────── v2.2.0
+ Installed DiffResults ────────── v0.0.4
+ Installed DiffRules ──────────── v0.1.0
+ Installed CommonSubexpressions ─ v0.2.0
+ Installed StaticArrays ───────── v0.12.1
+ Installed Tensors ────────────── v1.4.0
+ Installed BinaryProvider ─────── v0.5.8
+ Installed ForwardDiff ────────── v0.10.7
+ Installed URIParser ──────────── v0.4.0
+ Installed NaNMath ────────────── v0.3.3
+ Installed SpecialFunctions ───── v0.8.0
+ Installed SIMD ───────────────── v2.8.0
+ Installed BinDeps ────────────── v0.8.10
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [48a634ad] + Tensors v1.4.0
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [9e28174c] + BinDeps v0.8.10
+  [b99e7846] + BinaryProvider v0.5.8
+  [bbf7d656] + CommonSubexpressions v0.2.0
+  [34da2185] + Compat v2.2.0
+  [163ba53b] + DiffResults v0.0.4
+  [b552c78f] + DiffRules v0.1.0
+  [f6369f11] + ForwardDiff v0.10.7
+  [77ba4419] + NaNMath v0.3.3
+  [fdea26ae] + SIMD v2.8.0
+  [276daf66] + SpecialFunctions v0.8.0
+  [90137ffa] + StaticArrays v0.12.1
+  [48a634ad] + Tensors v1.4.0
+  [30578b45] + URIParser v0.4.0
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building SpecialFunctions → `~/.julia/packages/SpecialFunctions/ne2iw/deps/build.log`
+   Testing Tensors
+ Resolving package versions...
+ Installed TimerOutputs ─ v0.5.3
+    Status `/tmp/jl_AJ4I0G/Manifest.toml`
+  [9e28174c] BinDeps v0.8.10
+  [b99e7846] BinaryProvider v0.5.8
+  [bbf7d656] CommonSubexpressions v0.2.0
+  [34da2185] Compat v2.2.0
+  [163ba53b] DiffResults v0.0.4
+  [b552c78f] DiffRules v0.1.0
+  [f6369f11] ForwardDiff v0.10.7
+  [77ba4419] NaNMath v0.3.3
+  [fdea26ae] SIMD v2.8.0
+  [276daf66] SpecialFunctions v0.8.0
+  [90137ffa] StaticArrays v0.12.1
+  [48a634ad] Tensors v1.4.0
+  [a759f4b9] TimerOutputs v0.5.3
+  [30578b45] URIParser v0.4.0
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+Test Summary: | Pass  Total
+constructors  |  351    351
+Test Summary: | Pass  Total
+diagm, one    |  508    508
+Test Summary: | Pass  Total
+base vectors  |   45     45
+Test Summary: | Pass  Total
+simple math   |  354    354
+Test Summary:           | Pass  Total
+construct from function |  540    540
+Test Summary:        | Pass  Total
+construct from Array |   84     84
+Test Summary: | Pass  Total
+indexing      | 2532   2532
+Test Summary:              | Pass  Total
+norm, trace, det, inv, eig |  234    234
+Test Summary:              | Pass  Total
+eigen(::FourthOrderTensor) |   44     44
+Test Summary:     | Pass  Total
+tensor identities |  297    297
+Test Summary:        | Pass  Total
+promotion/conversion |  232    232
+Test Summary:                             | Pass  Total
+issues #100, #101: orders of eigenvectors |    8      8
+Test Summary: | Pass  Total
+exceptions    |    7      7
+T = Float32, dim = 1
+T = Float32, dim = 2
+T = Float32, dim = 3
+T = Float64, dim = 1
+T = Float64, dim = 2
+T = Float64, dim = 3
+T = F64, dim = 1
+T = F64, dim = 2
+T = F64, dim = 3
+Test Summary: | Pass  Total
+tensor ops    | 1077   1077
+Test Summary: | Pass  Total
+AD            |  401    401
+ ──────────────────────────────────────────────────────────────────────────────
+                                       Time                   Allocations      
+                               ──────────────────────   ───────────────────────
+       Tot / % measured:             464s / 96.9%           25.5GiB / 99.0%    
+
+ Section               ncalls     time   %tot     avg     alloc   %tot      avg
+ ──────────────────────────────────────────────────────────────────────────────
+ tensor ops                 1     159s  35.3%    159s   9.67GiB  38.3%  9.67GiB
+   outer products (...      9    57.2s  12.7%   6.36s   3.97GiB  15.7%   452MiB
+   double contraction       9    44.3s  9.84%   4.92s   2.02GiB  8.01%   230MiB
+   transpose                9    25.3s  5.61%   2.81s   1.86GiB  7.37%   212MiB
+   tovoigt/fromvoigt        9    13.4s  2.97%   1.48s    483MiB  1.87%  53.7MiB
+   symmetric/skew-s...      9    13.3s  2.95%   1.48s   1.14GiB  4.50%   129MiB
+   dot products             9    2.22s  0.49%   247ms   83.2MiB  0.32%  9.24MiB
+   special                  9    1.65s  0.37%   183ms   50.3MiB  0.19%  5.59MiB
+   rotation                 3    1.02s  0.23%   339ms   59.6MiB  0.23%  19.9MiB
+   cross product            9    276ms  0.06%  30.7ms   6.15MiB  0.02%   699KiB
+ AD                         1    63.6s  14.1%   63.6s   3.39GiB  13.4%  3.39GiB
+   dim 3                    1    27.9s  6.20%   27.9s   1.47GiB  5.80%  1.47GiB
+     hessian                2    12.5s  2.78%   6.26s    616MiB  2.38%   308MiB
+     2nd tensor grad        2    4.82s  1.07%   2.41s    291MiB  1.12%   145MiB
+     scalar grad            2    1.94s  0.43%   968ms    105MiB  0.41%  52.6MiB
+   vector calculus ...      1    14.7s  3.27%   14.7s    879MiB  3.40%   879MiB
+   dim 2                    1    11.3s  2.52%   11.3s    609MiB  2.36%   609MiB
+     hessian                2    4.82s  1.07%   2.41s    237MiB  0.92%   118MiB
+     2nd tensor grad        2    2.32s  0.52%   1.16s    109MiB  0.42%  54.6MiB
+     scalar grad            2    1.49s  0.33%   744ms   73.1MiB  0.28%  36.5MiB
+   dim 1                    1    7.74s  1.72%   7.74s    383MiB  1.48%   383MiB
+     hessian                2    3.34s  0.74%   1.67s    172MiB  0.67%  86.1MiB
+     2nd tensor grad        2    1.33s  0.30%   666ms   52.9MiB  0.20%  26.4MiB
+     scalar grad            2    1.07s  0.24%   533ms   39.6MiB  0.15%  19.8MiB
+   f: scalar -> Abs...      1    1.65s  0.37%   1.65s   87.1MiB  0.34%  87.1MiB
+   f: scalar -> scalar      1    165ms  0.04%   165ms   10.7MiB  0.04%  10.7MiB
+ constructors               1    50.1s  11.1%   50.1s   2.54GiB  10.1%  2.54GiB
+ simple math                1    43.6s  9.69%   43.6s   2.02GiB  8.01%  2.02GiB
+ norm, trace, det, ...      1    42.6s  9.46%   42.6s   2.02GiB  7.99%  2.02GiB
+ construct from Array       1    28.3s  6.28%   28.3s   1.81GiB  7.15%  1.81GiB
+ tensor identities          1    20.8s  4.63%   20.8s   1.22GiB  4.84%  1.22GiB
+ eigen(::FourthOrde...      1    10.3s  2.29%   10.3s    522MiB  2.02%   522MiB
+ promotion/conversion       1    10.2s  2.26%   10.2s    803MiB  3.11%   803MiB
+ indexing                   1    9.37s  2.08%   9.37s    530MiB  2.05%   530MiB
+ diagm, one                 1    5.39s  1.20%   5.39s    259MiB  1.00%   259MiB
+ construct from fun...      1    4.17s  0.93%   4.17s    418MiB  1.62%   418MiB
+ base vectors               1    3.03s  0.67%   3.03s    113MiB  0.44%   113MiB
+ exceptions                 1   94.0ms  0.02%  94.0ms   5.20MiB  0.02%  5.20MiB
+ ──────────────────────────────────────────────────────────────────────────────
+   Testing Tensors tests passed 

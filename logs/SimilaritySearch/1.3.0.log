@@ -1,0 +1,334 @@
+ Resolving package versions...
+ Installed Missings ─────────── v0.4.3
+ Installed SortingAlgorithms ── v0.3.1
+ Installed DataAPI ──────────── v1.1.0
+ Installed OrderedCollections ─ v1.1.0
+ Installed DataStructures ───── v0.17.6
+ Installed StatsBase ────────── v0.32.0
+ Installed JSON ─────────────── v0.21.0
+ Installed SimilaritySearch ─── v0.3.16
+ Installed Parsers ──────────── v0.3.10
+  Updating `~/.julia/environments/v1.3/Project.toml`
+  [053f045d] + SimilaritySearch v0.3.16
+  Updating `~/.julia/environments/v1.3/Manifest.toml`
+  [9a962f9c] + DataAPI v1.1.0
+  [864edb3b] + DataStructures v0.17.6
+  [682c06a0] + JSON v0.21.0
+  [e1d29d7a] + Missings v0.4.3
+  [bac558e1] + OrderedCollections v1.1.0
+  [69de0a69] + Parsers v0.3.10
+  [053f045d] + SimilaritySearch v0.3.16
+  [a2af1166] + SortingAlgorithms v0.3.1
+  [2913bbd2] + StatsBase v0.32.0
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [de0858da] + Printf 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [4ec0a83e] + Unicode 
+   Testing SimilaritySearch
+    Status `/tmp/jl_8LVv4d/Manifest.toml`
+  [9a962f9c] DataAPI v1.1.0
+  [864edb3b] DataStructures v0.17.6
+  [682c06a0] JSON v0.21.0
+  [e1d29d7a] Missings v0.4.3
+  [bac558e1] OrderedCollections v1.1.0
+  [69de0a69] Parsers v0.3.10
+  [053f045d] SimilaritySearch v0.3.16
+  [a2af1166] SortingAlgorithms v0.3.1
+  [2913bbd2] StatsBase v0.32.0
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+Test Summary: | Pass  Total
+bit ops       |    3      3
+Test Summary: | Pass  Total
+Result set    |    3      3
+(recall_lower_bound, dist) = (1.0, SimilaritySearch.l2_distance)
+(dist, p) = (SimilaritySearch.l2_distance, PerformanceResult(1.0, 1.0, 1.0, 0.0012732505798339843, 0.0033147652943929036, 301.0, 47.52502698637545))
+(recall_lower_bound, dist) = (1.0, SimilaritySearch.l1_distance)
+(dist, p) = (SimilaritySearch.l1_distance, PerformanceResult(1.0, 1.0, 1.0, 0.0014254490534464518, 0.001819165547688802, 301.0, 69.96723330020905))
+(recall_lower_bound, dist) = (1.0, SimilaritySearch.linf_distance)
+(dist, p) = (SimilaritySearch.linf_distance, PerformanceResult(1.0, 1.0, 1.0, 0.0010636568069458008, 0.0022794326146443685, 301.0, 38.171576142311096))
+(recall_lower_bound, dist) = (0.1, SimilaritySearch.squared_l2_distance)
+(dist, p) = (SimilaritySearch.squared_l2_distance, PerformanceResult(1.0, 1.0, 1.0, 0.0013920386632283528, 0.001685468355814616, 301.0, 8.268657368258573))
+(recall_lower_bound, dist) = (1.0, SimilaritySearch.var"#_lp#1"{Float64}(Core.Box(3.0), 0.3333333333333333))
+(dist, p) = (SimilaritySearch.var"#_lp#1"{Float64}(Core.Box(3.0), 0.3333333333333333), PerformanceResult(1.0, 1.0, 1.0, 0.0022735118865966795, 0.0038302342096964517, 301.0, 42.82321142591536))
+(recall_lower_bound, dist) = (0.1, SimilaritySearch.var"#_lp#1"{Float64}(Core.Box(0.5), 2.0))
+(dist, p) = (SimilaritySearch.var"#_lp#1"{Float64}(Core.Box(0.5), 2.0), PerformanceResult(1.0, 1.0, 1.0, 0.0006992419560750326, 0.0006557385126749675, 301.0, 173.54983611404896))
+[ Info: inserting items into the index
+[ Info: inserting items into the index
+[ Info: Creating a pivot table with 1 pivots and distance=jaccard_distance
+[ Info: inserting items into the index
+[ Info: inserting items into the index
+[ Info: Creating a pivot table with 1 pivots and distance=dice_distance
+[ Info: inserting items into the index
+[ Info: inserting items into the index
+[ Info: Creating a pivot table with 1 pivots and distance=intersection_distance
+[ Info: inserting items into the index
+[ Info: inserting items into the index
+[ Info: Creating a pivot table with 1 pivots and distance=common_prefix_distance
+[ Info: inserting items into the index
+[ Info: inserting items into the index
+[ Info: Creating a pivot table with 1 pivots and distance=levenshtein_distance
+[ Info: inserting items into the index
+[ Info: inserting items into the index
+[ Info: Creating a pivot table with 1 pivots and distance=lcs_distance
+[ Info: inserting items into the index
+[ Info: inserting items into the index
+[ Info: Creating a pivot table with 1 pivots and distance=hamming_distance
+p = PerformanceResult(1.0, 1.0, 1.0, 5.715688069661458e-5, 0.004764962196350098, 300.0, 26.803216175641865)
+p = PerformanceResult(1.0, 1.0, 1.0, 5.7220458984375e-5, 2.853075663248698e-5, 300.0, 26.803216175641865)
+p = PerformanceResult(1.0, 1.0, 1.0, 0.0012080748875935873, 0.0013562997182210287, 300.0, 1.4006821598113675)
+p = PerformanceResult(1.0, 1.0, 1.0, 4.6128696865505645e-5, 1.926422119140625e-5, 300.0, 1.4006821598113675)
+(p1, p2, p3, p4) = (PerformanceResult(1.0, 1.0, 1.0, 5.715688069661458e-5, 0.004764962196350098, 300.0, 26.803216175641865), PerformanceResult(1.0, 1.0, 1.0, 5.7220458984375e-5, 2.853075663248698e-5, 300.0, 26.803216175641865), PerformanceResult(1.0, 1.0, 1.0, 0.0012080748875935873, 0.0013562997182210287, 300.0, 1.4006821598113675), PerformanceResult(1.0, 1.0, 1.0, 4.6128696865505645e-5, 1.926422119140625e-5, 300.0, 1.4006821598113675))
+[ Info: select_sss: db=Array{Array{UInt32,1},1}, alpha=0.35, distance=hamming_distance, shuf=false
+[ Info: the maximum distance estimated as 118.0, now selecting pivots
+[ Info: Creating a pivot table with 300 pivots and distance=hamming_distance
+p = PerformanceResult(1.0, 1.0, 1.0, 0.005595207214355469, 0.001027671496073405, 349.1, 28620.0)
+[ Info: Creating a pivot table with 16 pivots and distance=hamming_distance
+p = PerformanceResult(1.0, 1.0, 1.0, 0.003723923365275065, 0.0007762352625528972, 303.03333333333336, 6928.0)
+(recall_lower_bound, dist) = (1.0, SimilaritySearch.l2_distance)
+Kvp = Kvp
+[ Info: Kvp, refs=Array{Array{Float32,1},1}, k=3, numrefs=32, dist=l2_distance
+(dist, p) = (SimilaritySearch.l2_distance, PerformanceResult(1.0, 1.0, 1.0, 2.00351079305013e-5, 1.3963381449381511e-5, 92.96666666666667, 47.42888498357989))
+(recall_lower_bound, dist) = (1.0, SimilaritySearch.l1_distance)
+Kvp = Kvp
+[ Info: Kvp, refs=Array{Array{Float32,1},1}, k=3, numrefs=32, dist=l1_distance
+(dist, p) = (SimilaritySearch.l1_distance, PerformanceResult(1.0, 1.0, 1.0, 1.94549560546875e-5, 1.1992454528808593e-5, 83.0, 69.80101108551025))
+(recall_lower_bound, dist) = (1.0, SimilaritySearch.linf_distance)
+Kvp = Kvp
+[ Info: Kvp, refs=Array{Array{Float32,1},1}, k=3, numrefs=32, dist=linf_distance
+(dist, p) = (SimilaritySearch.linf_distance, PerformanceResult(1.0, 1.0, 1.0, 2.132256825764974e-5, 1.556873321533203e-5, 87.8, 38.103912591934204))
+(recall_lower_bound, dist) = (1.0, SimilaritySearch.var"#_lp#1"{Float64}(Core.Box(3.0), 0.3333333333333333))
+Kvp = Kvp
+[ Info: Kvp, refs=Array{Array{Float32,1},1}, k=3, numrefs=32, dist=_lp
+[ Info: Kvp, refs=Array{Array{Float32,1},1}, k=3, numrefs=32, dist=_lp
+(dist, p) = (SimilaritySearch.var"#_lp#1"{Float64}(Core.Box(3.0), 0.3333333333333333), PerformanceResult(1.0, 1.0, 1.0, 0.00018891493479410807, 0.0010639588038126627, 92.56666666666666, 42.73737705541665))
+(recall_lower_bound, dist) = (0.1, SimilaritySearch.var"#_lp#1"{Float64}(Core.Box(0.5), 2.0))
+Kvp = Kvp
+(dist, p) = (SimilaritySearch.var"#_lp#1"{Float64}(Core.Box(0.5), 2.0), PerformanceResult(0.7733333333333334, 0.7733333333333334, 0.7733333333333334, 0.00017032623291015624, 0.0006318966547648112, 68.83333333333333, 184.07124578238614))
+[ Info: inserting items into the index
+[ Info: Kvp, refs=Array{Array{Int64,1},1}, k=3, numrefs=32, dist=jaccard_distance
+[ Info: inserting items into the index
+[ Info: Kvp, refs=Array{Array{Int64,1},1}, k=3, numrefs=32, dist=dice_distance
+[ Info: inserting items into the index
+[ Info: Kvp, refs=Array{Array{Int64,1},1}, k=3, numrefs=32, dist=intersection_distance
+[ Info: inserting items into the index
+[ Info: Kvp, refs=Array{Array{Int64,1},1}, k=3, numrefs=32, dist=common_prefix_distance
+[ Info: inserting items into the index
+[ Info: Kvp, refs=Array{Array{Int64,1},1}, k=3, numrefs=32, dist=levenshtein_distance
+[ Info: inserting items into the index
+[ Info: Kvp, refs=Array{Array{Int64,1},1}, k=3, numrefs=32, dist=lcs_distance
+[ Info: inserting items into the index
+[ Info: Kvp, refs=Array{Array{Int64,1},1}, k=3, numrefs=32, dist=hamming_distance
+(dist, p) = (SimilaritySearch.l2_distance, PerformanceResult(0.987, 0.987, 0.987, 2.455472946166992e-5, 3.526926040649414e-5, 166.48, 49.35714281860118))
+[ Info: adding more items
+(dist, p) = (SimilaritySearch.l2_distance, PerformanceResult(1.0, 1.0, 1.0, 2.468109130859375e-5, 3.607034683227539e-5, 171.21, 0.0))
+(dist, p) = (SimilaritySearch.l1_distance, PerformanceResult(0.8959999999999997, 0.8959999999999997, 0.8959999999999997, 1.9979476928710937e-5, 3.1468868255615237e-5, 152.25, 77.49860207142774))
+[ Info: adding more items
+(dist, p) = (SimilaritySearch.l1_distance, PerformanceResult(1.0, 1.0, 1.0, 1.93023681640625e-5, 3.15713882446289e-5, 155.42, 0.0))
+(dist, p) = (SimilaritySearch.linf_distance, PerformanceResult(0.9689999999999999, 0.9689999999999999, 0.9689999999999999, 2.5644302368164063e-5, 4.7068595886230466e-5, 167.06, 40.44741113856435))
+[ Info: adding more items
+(dist, p) = (SimilaritySearch.linf_distance, PerformanceResult(1.0, 1.0, 1.0, 2.6030540466308595e-5, 4.729032516479492e-5, 171.67, 0.0))
+(dist, p) = (SimilaritySearch.var"#_lp#1"{Float64}(Core.Box(3.0), 0.3333333333333333), PerformanceResult(0.8906984126984127, 0.8879999999999998, 0.8891455108359132, 0.00028398036956787107, 0.001979720592498779, 152.89, 47.01631224725638))
+[ Info: adding more items
+(dist, p) = (SimilaritySearch.var"#_lp#1"{Float64}(Core.Box(3.0), 0.3333333333333333), PerformanceResult(1.0, 1.0, 1.0, 0.00038254737854003906, 0.001956768035888672, 156.21, 0.0))
+(dist, p) = (SimilaritySearch.var"#_lp#1"{Float64}(Core.Box(0.5), 2.0), PerformanceResult(0.9690000000000002, 0.9690000000000002, 0.9690000000000002, 0.00028283357620239257, 0.0022283697128295896, 167.14, 192.94231822442046))
+[ Info: adding more items
+(dist, p) = (SimilaritySearch.var"#_lp#1"{Float64}(Core.Box(0.5), 2.0), PerformanceResult(1.0, 1.0, 1.0, 0.0002901840209960937, 0.0018884682655334474, 171.87, 0.0))
+[ Info: adding more items
+(dist, p) = (SimilaritySearch.angle_distance, PerformanceResult(0.987, 0.987, 0.987, 2.9892921447753905e-5, 7.101058959960937e-5, 166.48, 49.365384942269884))
+(dist, p) = (SimilaritySearch.angle_distance, PerformanceResult(1.0, 1.0, 1.0, 4.018068313598633e-5, 8.409976959228516e-5, 171.21, 0.016621638205833733))
+[ Info: inserting items into the index
+(dist, p) = (SimilaritySearch.jaccard_distance, PerformanceResult(0.7739999999999999, 0.7739999999999999, 0.7739999999999999, 0.000634303092956543, 8.358955383300782e-5, 205.64, 186.66666666666617))
+[ Info: inserting items into the index
+(dist, p) = (SimilaritySearch.dice_distance, PerformanceResult(0.7739999999999999, 0.7739999999999999, 0.7739999999999999, 0.0004808998107910156, 7.304191589355469e-5, 205.64, 106.388095238096))
+[ Info: inserting items into the index
+(dist, p) = (SimilaritySearch.intersection_distance, PerformanceResult(0.6399999999999999, 0.6399999999999999, 0.6399999999999999, 0.0006302738189697265, 9.490013122558594e-5, 248.85, 5.25))
+[ Info: inserting items into the index
+(dist, p) = (SimilaritySearch.common_prefix_distance, PerformanceResult(0.9860000000000001, 0.9860000000000001, 0.9860000000000001, 0.0006095981597900391, 3.0438899993896485e-5, 218.21, 616.0000000000081))
+[ Info: inserting items into the index
+(dist, p) = (SimilaritySearch.levenshtein_distance, PerformanceResult(0.578, 0.578, NaN, 0.0007129979133605958, 0.0004850316047668457, 247.96, 2361.0))
+[ Info: inserting items into the index
+(dist, p) = (SimilaritySearch.lcs_distance, PerformanceResult(0.3529999999999999, 0.3529999999999999, NaN, 0.0006070542335510254, 0.00038203001022338865, 245.63, 3696.0))
+[ Info: inserting items into the index
+(dist, p) = (SimilaritySearch.hamming_distance, PerformanceResult(0.5840000000000001, 0.5840000000000001, 0.5840000000000002, 0.0005740809440612793, 2.8510093688964843e-5, 240.84, 2385.0))
+[ Info: inserting items to the index
+==== BEGIN Opt. TIHCSearch, expected recall: 0.9, n: 9
+  == Begin Opt. TIHCSearch iteration: 1, expected recall: 0.9, n: 9
+    ** Opt. TIHCSearch. A new best conf was found> score: 1.8909512761020881, conf: {"ssize":1,"restarts":2,"use_local_improvement":false}, perf: {"precision":0.9230530753968249,"recall":0.927734375,"f1":0.9236235119047614,"seconds":5.7220458984375e-6,"exhaustive_search_seconds":1.477077603340149e-6,"evaluations":10.1015625,"distances_sum":672.5899367332458}, best_list's length: 2, n: 9
+    ** Opt. TIHCSearch. A new best conf was found> score: 0.865234375, conf: {"ssize":2,"restarts":1,"use_local_improvement":false}, perf: {"precision":0.9107142857142854,"recall":0.865234375,"f1":0.8826661313563878,"seconds":4.8335641622543335e-6,"exhaustive_search_seconds":1.477077603340149e-6,"evaluations":8.921875,"distances_sum":595.6804653704166}, best_list's length: 3, n: 9
+    ** Opt. TIHCSearch. A new best conf was found> score: 1.8629213483146068, conf: {"ssize":1,"restarts":3,"use_local_improvement":false}, perf: {"precision":0.918557787698412,"recall":0.93359375,"f1":0.9244452468487386,"seconds":5.863606929779053e-6,"exhaustive_search_seconds":1.477077603340149e-6,"evaluations":10.4296875,"distances_sum":680.3527185022831}, best_list's length: 4, n: 9
+  == End Opt. TIHCSearch. Iteration finished; {"score":1.8909512761020881,"state":{"ssize":1,"restarts":2,"use_local_improvement":false},"perf":{"precision":0.9230530753968249,"recall":0.927734375,"f1":0.9236235119047614,"seconds":5.7220458984375e-6,"exhaustive_search_seconds":1.477077603340149e-6,"evaluations":10.1015625,"distances_sum":672.5899367332458}}, beam: 4, n: 9
+  == Begin Opt. TIHCSearch iteration: 2, expected recall: 0.9, n: 9
+  == End Opt. TIHCSearch. Iteration finished; {"score":1.8909512761020881,"state":{"ssize":1,"restarts":2,"use_local_improvement":false},"perf":{"precision":0.9230530753968249,"recall":0.927734375,"f1":0.9236235119047614,"seconds":5.7220458984375e-6,"exhaustive_search_seconds":1.477077603340149e-6,"evaluations":10.1015625,"distances_sum":672.5899367332458}}, beam: 4, n: 9
+==== END Opt. TIHCSearch. Finished, best: {"score":1.8909512761020881,"state":{"ssize":1,"restarts":2,"use_local_improvement":false},"perf":{"precision":0.9230530753968249,"recall":0.927734375,"f1":0.9236235119047614,"seconds":5.7220458984375e-6,"exhaustive_search_seconds":1.477077603340149e-6,"evaluations":10.1015625,"distances_sum":672.5899367332458}}, n: 9
+==== BEGIN Opt. TIHCSearch, expected recall: 0.9, n: 99
+  == Begin Opt. TIHCSearch iteration: 1, expected recall: 0.9, n: 99
+    ** Opt. TIHCSearch. A new best conf was found> score: 0.8923611111111094, conf: {"ssize":1,"restarts":3,"use_local_improvement":false}, perf: {"precision":0.9625651041666661,"recall":0.8923611111111094,"f1":0.9248812806372535,"seconds":2.261437475681305e-5,"exhaustive_search_seconds":6.319954991340637e-6,"evaluations":51.1015625,"distances_sum":267.2270252034068}, best_list's length: 2, n: 99
+    ** Opt. TIHCSearch. A new best conf was found> score: 0.8715277777777762, conf: {"ssize":2,"restarts":2,"use_local_improvement":false}, perf: {"precision":0.935841393849206,"recall":0.8715277777777762,"f1":0.9016288807189529,"seconds":1.6126781702041626e-5,"exhaustive_search_seconds":6.319954991340637e-6,"evaluations":40.484375,"distances_sum":270.54520808532834}, best_list's length: 3, n: 99
+  == End Opt. TIHCSearch. Iteration finished; {"score":0.8923611111111094,"state":{"ssize":1,"restarts":3,"use_local_improvement":false},"perf":{"precision":0.9625651041666661,"recall":0.8923611111111094,"f1":0.9248812806372535,"seconds":2.261437475681305e-5,"exhaustive_search_seconds":6.319954991340637e-6,"evaluations":51.1015625,"distances_sum":267.2270252034068}}, beam: 4, n: 99
+  == Begin Opt. TIHCSearch iteration: 2, expected recall: 0.9, n: 99
+  == End Opt. TIHCSearch. Iteration finished; {"score":0.8923611111111094,"state":{"ssize":1,"restarts":3,"use_local_improvement":false},"perf":{"precision":0.9625651041666661,"recall":0.8923611111111094,"f1":0.9248812806372535,"seconds":2.261437475681305e-5,"exhaustive_search_seconds":6.319954991340637e-6,"evaluations":51.1015625,"distances_sum":267.2270252034068}}, beam: 4, n: 99
+==== END Opt. TIHCSearch. Finished, best: {"score":0.8923611111111094,"state":{"ssize":1,"restarts":3,"use_local_improvement":false},"perf":{"precision":0.9625651041666661,"recall":0.8923611111111094,"f1":0.9248812806372535,"seconds":2.261437475681305e-5,"exhaustive_search_seconds":6.319954991340637e-6,"evaluations":51.1015625,"distances_sum":267.2270252034068}}, n: 99
+==== BEGIN Opt. TIHCSearch, expected recall: 0.9, n: 999
+  == Begin Opt. TIHCSearch iteration: 1, expected recall: 0.9, n: 999
+  == End Opt. TIHCSearch. Iteration finished; {"score":0.8784722222222213,"state":{"ssize":1,"restarts":3,"use_local_improvement":false},"perf":{"precision":0.8868272569444438,"recall":0.8784722222222213,"f1":0.882404003267973,"seconds":3.522448241710663e-5,"exhaustive_search_seconds":3.857724368572235e-5,"evaluations":83.203125,"distances_sum":123.52360631804913}}, beam: 4, n: 999
+==== END Opt. TIHCSearch. Finished, best: {"score":0.8784722222222213,"state":{"ssize":1,"restarts":3,"use_local_improvement":false},"perf":{"precision":0.8868272569444438,"recall":0.8784722222222213,"f1":0.882404003267973,"seconds":3.522448241710663e-5,"exhaustive_search_seconds":3.857724368572235e-5,"evaluations":83.203125,"distances_sum":123.52360631804913}}, n: 999
+added n=5000, neighborhood=4, 2019-12-03T04:19:11.585
+==== BEGIN Opt. TIHCSearch, expected recall: 0.9, n: 9999
+  == Begin Opt. TIHCSearch iteration: 1, expected recall: 0.9, n: 9999
+    ** Opt. TIHCSearch. A new best conf was found> score: 0.8532986111111103, conf: {"ssize":2,"restarts":3,"use_local_improvement":false}, perf: {"precision":0.8547092013888881,"recall":0.8532986111111103,"f1":0.8539624183006528,"seconds":5.16790896654129e-5,"exhaustive_search_seconds":0.0002977810800075531,"evaluations":118.265625,"distances_sum":56.881956801284105}, best_list's length: 2, n: 9999
+  == End Opt. TIHCSearch. Iteration finished; {"score":0.8532986111111103,"state":{"ssize":2,"restarts":3,"use_local_improvement":false},"perf":{"precision":0.8547092013888881,"recall":0.8532986111111103,"f1":0.8539624183006528,"seconds":5.16790896654129e-5,"exhaustive_search_seconds":0.0002977810800075531,"evaluations":118.265625,"distances_sum":56.881956801284105}}, beam: 3, n: 9999
+==== END Opt. TIHCSearch. Finished, best: {"score":0.8532986111111103,"state":{"ssize":2,"restarts":3,"use_local_improvement":false},"perf":{"precision":0.8547092013888881,"recall":0.8532986111111103,"f1":0.8539624183006528,"seconds":5.16790896654129e-5,"exhaustive_search_seconds":0.0002977810800075531,"evaluations":118.265625,"distances_sum":56.881956801284105}}, n: 9999
+added n=10000, neighborhood=4, 2019-12-03T04:19:12.16
+[ Info: done; now testing
+res = KnnResult(10, Item[Item(5908, 0.02598137967288494), Item(7237, 0.03982557728886604), Item(201, 0.040480855852365494), Item(4363, 0.050433751195669174), Item(8537, 0.050725970417261124), Item(8950, 0.0533442385494709), Item(8636, 0.05425053834915161), Item(4872, 0.056644897907972336), Item(6888, 0.06011013686656952), Item(9459, 0.06408894062042236)])
+[ Info: inserting items to the index
+==== BEGIN Opt. IHCSearch, expected recall: 0.9, n: 9
+  == Begin Opt. IHCSearch iteration: 1, expected recall: 0.9, n: 9
+    ** Opt. IHCSearch. A new best conf was found> score: 0.8857421875, conf: {"restarts":2,"use_local_improvement":false}, perf: {"precision":1.0,"recall":0.8857421875,"f1":0.9331902472527479,"seconds":3.885477781295776e-6,"exhaustive_search_seconds":1.2889504432678223e-6,"evaluations":8.0859375,"distances_sum":551.6620656251907}, best_list's length: 2, n: 9
+    ** Opt. IHCSearch. A new best conf was found> score: 2.0786516853932584, conf: {"restarts":4,"use_local_improvement":false}, perf: {"precision":1.0,"recall":0.91796875,"f1":0.9536687271062277,"seconds":4.3567270040512085e-6,"exhaustive_search_seconds":1.2889504432678223e-6,"evaluations":8.34375,"distances_sum":581.09928804636}, best_list's length: 3, n: 9
+  == End Opt. IHCSearch. Iteration finished; {"score":2.0786516853932584,"state":{"restarts":4,"use_local_improvement":false},"perf":{"precision":1.0,"recall":0.91796875,"f1":0.9536687271062277,"seconds":4.3567270040512085e-6,"exhaustive_search_seconds":1.2889504432678223e-6,"evaluations":8.34375,"distances_sum":581.09928804636}}, beam: 3, n: 9
+  == Begin Opt. IHCSearch iteration: 2, expected recall: 0.9, n: 9
+  == End Opt. IHCSearch. Iteration finished; {"score":2.0786516853932584,"state":{"restarts":4,"use_local_improvement":false},"perf":{"precision":1.0,"recall":0.91796875,"f1":0.9536687271062277,"seconds":4.3567270040512085e-6,"exhaustive_search_seconds":1.2889504432678223e-6,"evaluations":8.34375,"distances_sum":581.09928804636}}, beam: 3, n: 9
+==== END Opt. IHCSearch. Finished, best: {"score":2.0786516853932584,"state":{"restarts":4,"use_local_improvement":false},"perf":{"precision":1.0,"recall":0.91796875,"f1":0.9536687271062277,"seconds":4.3567270040512085e-6,"exhaustive_search_seconds":1.2889504432678223e-6,"evaluations":8.34375,"distances_sum":581.09928804636}}, n: 9
+==== BEGIN Opt. IHCSearch, expected recall: 0.9, n: 99
+  == Begin Opt. IHCSearch iteration: 1, expected recall: 0.9, n: 99
+    ** Opt. IHCSearch. A new best conf was found> score: 2.8290993071593533, conf: {"restarts":10,"use_local_improvement":false}, perf: {"precision":0.9010416666666654,"recall":0.9010416666666654,"f1":0.9010416666666654,"seconds":2.6578083634376526e-5,"exhaustive_search_seconds":6.148591637611389e-6,"evaluations":54.125,"distances_sum":288.83953343331814}, best_list's length: 6, n: 99
+  == End Opt. IHCSearch. Iteration finished; {"score":2.8290993071593533,"state":{"restarts":10,"use_local_improvement":false},"perf":{"precision":0.9010416666666654,"recall":0.9010416666666654,"f1":0.9010416666666654,"seconds":2.6578083634376526e-5,"exhaustive_search_seconds":6.148591637611389e-6,"evaluations":54.125,"distances_sum":288.83953343331814}}, beam: 4, n: 99
+  == Begin Opt. IHCSearch iteration: 2, expected recall: 0.9, n: 99
+  == End Opt. IHCSearch. Iteration finished; {"score":2.8290993071593533,"state":{"restarts":10,"use_local_improvement":false},"perf":{"precision":0.9010416666666654,"recall":0.9010416666666654,"f1":0.9010416666666654,"seconds":2.6578083634376526e-5,"exhaustive_search_seconds":6.148591637611389e-6,"evaluations":54.125,"distances_sum":288.83953343331814}}, beam: 4, n: 99
+==== END Opt. IHCSearch. Finished, best: {"score":2.8290993071593533,"state":{"restarts":10,"use_local_improvement":false},"perf":{"precision":0.9010416666666654,"recall":0.9010416666666654,"f1":0.9010416666666654,"seconds":2.6578083634376526e-5,"exhaustive_search_seconds":6.148591637611389e-6,"evaluations":54.125,"distances_sum":288.83953343331814}}, n: 99
+==== BEGIN Opt. IHCSearch, expected recall: 0.9, n: 999
+  == Begin Opt. IHCSearch iteration: 1, expected recall: 0.9, n: 999
+    ** Opt. IHCSearch. A new best conf was found> score: 0.8680555555555542, conf: {"restarts":5,"use_local_improvement":false}, perf: {"precision":0.8680555555555542,"recall":0.8680555555555542,"f1":0.8680555555555542,"seconds":3.6129727959632874e-5,"exhaustive_search_seconds":3.86945903301239e-5,"evaluations":95.6484375,"distances_sum":123.667907289695}, best_list's length: 3, n: 999
+    ** Opt. IHCSearch. A new best conf was found> score: 0.8697916666666651, conf: {"restarts":18,"use_local_improvement":false}, perf: {"precision":0.8697916666666651,"recall":0.8697916666666651,"f1":0.8697916666666651,"seconds":6.712786853313446e-5,"exhaustive_search_seconds":3.86945903301239e-5,"evaluations":172.171875,"distances_sum":123.50425257114694}, best_list's length: 6, n: 999
+    ** Opt. IHCSearch. A new best conf was found> score: 0.8637152777777766, conf: {"restarts":1,"use_local_improvement":false}, perf: {"precision":0.8637152777777766,"recall":0.8637152777777766,"f1":0.8637152777777766,"seconds":2.6553869247436523e-5,"exhaustive_search_seconds":3.86945903301239e-5,"evaluations":66.7265625,"distances_sum":123.69272130308673}, best_list's length: 7, n: 999
+    ** Opt. IHCSearch. A new best conf was found> score: 0.8619791666666653, conf: {"restarts":8,"use_local_improvement":false}, perf: {"precision":0.8619791666666653,"recall":0.8619791666666653,"f1":0.8619791666666653,"seconds":3.795325756072998e-5,"exhaustive_search_seconds":3.86945903301239e-5,"evaluations":113.71875,"distances_sum":123.64650471089408}, best_list's length: 8, n: 999
+  == End Opt. IHCSearch. Iteration finished; {"score":0.8697916666666651,"state":{"restarts":18,"use_local_improvement":false},"perf":{"precision":0.8697916666666651,"recall":0.8697916666666651,"f1":0.8697916666666651,"seconds":6.712786853313446e-5,"exhaustive_search_seconds":3.86945903301239e-5,"evaluations":172.171875,"distances_sum":123.50425257114694}}, beam: 4, n: 999
+==== END Opt. IHCSearch. Finished, best: {"score":0.8697916666666651,"state":{"restarts":18,"use_local_improvement":false},"perf":{"precision":0.8697916666666651,"recall":0.8697916666666651,"f1":0.8697916666666651,"seconds":6.712786853313446e-5,"exhaustive_search_seconds":3.86945903301239e-5,"evaluations":172.171875,"distances_sum":123.50425257114694}}, n: 999
+added n=5000, neighborhood=6, 2019-12-03T04:19:14.618
+==== BEGIN Opt. IHCSearch, expected recall: 0.9, n: 9999
+  == Begin Opt. IHCSearch iteration: 1, expected recall: 0.9, n: 9999
+    ** Opt. IHCSearch. A new best conf was found> score: 0.8593749999999988, conf: {"restarts":31,"use_local_improvement":false}, perf: {"precision":0.8593749999999988,"recall":0.8593749999999988,"f1":0.8593749999999988,"seconds":0.0005156081169843674,"exhaustive_search_seconds":0.0003356263041496277,"evaluations":382.4375,"distances_sum":55.82736774208024}, best_list's length: 2, n: 9999
+    ** Opt. IHCSearch. A new best conf was found> score: 0.8576388888888881, conf: {"restarts":20,"use_local_improvement":false}, perf: {"precision":0.8576388888888881,"recall":0.8576388888888881,"f1":0.8576388888888881,"seconds":0.00011567771434783936,"exhaustive_search_seconds":0.0003356263041496277,"evaluations":294.5625,"distances_sum":55.73517594533041}, best_list's length: 4, n: 9999
+  == End Opt. IHCSearch. Iteration finished; {"score":0.8593749999999988,"state":{"restarts":31,"use_local_improvement":false},"perf":{"precision":0.8593749999999988,"recall":0.8593749999999988,"f1":0.8593749999999988,"seconds":0.0005156081169843674,"exhaustive_search_seconds":0.0003356263041496277,"evaluations":382.4375,"distances_sum":55.82736774208024}}, beam: 4, n: 9999
+==== END Opt. IHCSearch. Finished, best: {"score":0.8593749999999988,"state":{"restarts":31,"use_local_improvement":false},"perf":{"precision":0.8593749999999988,"recall":0.8593749999999988,"f1":0.8593749999999988,"seconds":0.0005156081169843674,"exhaustive_search_seconds":0.0003356263041496277,"evaluations":382.4375,"distances_sum":55.82736774208024}}, n: 9999
+added n=10000, neighborhood=4, 2019-12-03T04:19:15.609
+[ Info: done; now testing
+res = KnnResult(10, Item[Item(275, 0.03191978484392166), Item(5885, 0.048246778547763824), Item(608, 0.05155123025178909), Item(5359, 0.05265910178422928), Item(1403, 0.05453934893012047), Item(7438, 0.05684821307659149), Item(1670, 0.05717238411307335), Item(3066, 0.06330490857362747), Item(657, 0.06898636370897293), Item(3960, 0.07297901809215546)])
+[ Info: inserting items to the index
+==== BEGIN Opt. BeamSearch, expected recall: 0.9, n: 9
+  == Begin Opt. BeamSearch iteration: 1, expected recall: 0.9, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.1611328125, conf: {"ssize":2,"bsize":1}, perf: {"precision":null,"recall":0.1611328125,"f1":null,"seconds":3.209337592124939e-6,"exhaustive_search_seconds":1.866370439529419e-6,"evaluations":4.6171875,"distances_sum":97.14615905554727}, best_list's length: 2, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.1689453125, conf: {"ssize":5,"bsize":1}, perf: {"precision":null,"recall":0.1689453125,"f1":null,"seconds":3.0063092708587646e-6,"exhaustive_search_seconds":1.866370439529419e-6,"evaluations":4.6953125,"distances_sum":102.77485746049395}, best_list's length: 3, n: 9
+  == End Opt. BeamSearch. Iteration finished; {"score":0.1689453125,"state":{"ssize":5,"bsize":1},"perf":{"precision":null,"recall":0.1689453125,"f1":null,"seconds":3.0063092708587646e-6,"exhaustive_search_seconds":1.866370439529419e-6,"evaluations":4.6953125,"distances_sum":102.77485746049395}}, beam: 3, n: 9
+  == Begin Opt. BeamSearch iteration: 2, expected recall: 0.9, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.6650390625, conf: {"ssize":2,"bsize":4}, perf: {"precision":1.0,"recall":0.6650390625,"f1":0.7866485944610953,"seconds":4.459172487258911e-6,"exhaustive_search_seconds":1.866370439529419e-6,"evaluations":7.6953125,"distances_sum":394.05626921202764}, best_list's length: 5, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.5625, conf: {"ssize":5,"bsize":3}, perf: {"precision":1.0,"recall":0.5625,"f1":0.7050267440892446,"seconds":4.14624810218811e-6,"exhaustive_search_seconds":1.866370439529419e-6,"evaluations":6.9296875,"distances_sum":334.34803090416904}, best_list's length: 6, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.173828125, conf: {"ssize":6,"bsize":1}, perf: {"precision":null,"recall":0.173828125,"f1":null,"seconds":2.8479844331741333e-6,"exhaustive_search_seconds":1.866370439529419e-6,"evaluations":4.71875,"distances_sum":105.09572749612431}, best_list's length: 7, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.7734375, conf: {"ssize":1,"bsize":5}, perf: {"precision":1.0,"recall":0.7734375,"f1":0.8624323593073601,"seconds":4.880130290985107e-6,"exhaustive_search_seconds":1.866370439529419e-6,"evaluations":8.1796875,"distances_sum":469.67690432719763}, best_list's length: 8, n: 9
+  == End Opt. BeamSearch. Iteration finished; {"score":0.7734375,"state":{"ssize":1,"bsize":5},"perf":{"precision":1.0,"recall":0.7734375,"f1":0.8624323593073601,"seconds":4.880130290985107e-6,"exhaustive_search_seconds":1.866370439529419e-6,"evaluations":8.1796875,"distances_sum":469.67690432719763}}, beam: 4, n: 9
+  == Begin Opt. BeamSearch iteration: 3, expected recall: 0.9, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.8349609375, conf: {"ssize":5,"bsize":6}, perf: {"precision":1.0,"recall":0.8349609375,"f1":0.9002242549117557,"seconds":5.343928933143616e-6,"exhaustive_search_seconds":1.866370439529419e-6,"evaluations":8.5859375,"distances_sum":513.8559981224225}, best_list's length: 5, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.8271484375, conf: {"ssize":1,"bsize":6}, perf: {"precision":1.0,"recall":0.8271484375,"f1":0.896632534132535,"seconds":5.025416612625122e-6,"exhaustive_search_seconds":1.866370439529419e-6,"evaluations":8.546875,"distances_sum":507.46695838261894}, best_list's length: 12, n: 9
+  == End Opt. BeamSearch. Iteration finished; {"score":0.8349609375,"state":{"ssize":5,"bsize":6},"perf":{"precision":1.0,"recall":0.8349609375,"f1":0.9002242549117557,"seconds":5.343928933143616e-6,"exhaustive_search_seconds":1.866370439529419e-6,"evaluations":8.5859375,"distances_sum":513.8559981224225}}, beam: 4, n: 9
+==== END Opt. BeamSearch. Finished, best: {"score":0.8349609375,"state":{"ssize":5,"bsize":6},"perf":{"precision":1.0,"recall":0.8349609375,"f1":0.9002242549117557,"seconds":5.343928933143616e-6,"exhaustive_search_seconds":1.866370439529419e-6,"evaluations":8.5859375,"distances_sum":513.8559981224225}}, n: 9
+==== BEGIN Opt. BeamSearch, expected recall: 0.9, n: 99
+  == Begin Opt. BeamSearch iteration: 1, expected recall: 0.9, n: 99
+    ** Opt. BeamSearch. A new best conf was found> score: 3.620347394540943, conf: {"ssize":2,"bsize":9}, perf: {"precision":0.9782986111111107,"recall":0.9782986111111107,"f1":0.9782986111111107,"seconds":1.7255544662475586e-5,"exhaustive_search_seconds":5.62518835067749e-6,"evaluations":37.78125,"distances_sum":270.6832453373333}, best_list's length: 3, n: 99
+    ** Opt. BeamSearch. A new best conf was found> score: 3.437391806116561, conf: {"ssize":5,"bsize":10}, perf: {"precision":0.9973958333333333,"recall":0.9973958333333333,"f1":0.9973958333333333,"seconds":1.955963671207428e-5,"exhaustive_search_seconds":5.62518835067749e-6,"evaluations":40.6171875,"distances_sum":269.9116084755248}, best_list's length: 4, n: 99
+    ** Opt. BeamSearch. A new best conf was found> score: 3.488120950323974, conf: {"ssize":1,"bsize":10}, perf: {"precision":0.9991319444444444,"recall":0.9991319444444444,"f1":0.9991319444444444,"seconds":1.8086284399032593e-5,"exhaustive_search_seconds":5.62518835067749e-6,"evaluations":39.7890625,"distances_sum":269.8067867853129}, best_list's length: 5, n: 99
+  == End Opt. BeamSearch. Iteration finished; {"score":3.620347394540943,"state":{"ssize":2,"bsize":9},"perf":{"precision":0.9782986111111107,"recall":0.9782986111111107,"f1":0.9782986111111107,"seconds":1.7255544662475586e-5,"exhaustive_search_seconds":5.62518835067749e-6,"evaluations":37.78125,"distances_sum":270.6832453373333}}, beam: 4, n: 99
+  == Begin Opt. BeamSearch iteration: 2, expected recall: 0.9, n: 99
+    ** Opt. BeamSearch. A new best conf was found> score: 3.6328693122792437, conf: {"ssize":1,"bsize":9}, perf: {"precision":0.9722222222222219,"recall":0.9722222222222219,"f1":0.9722222222222219,"seconds":1.6314908862113953e-5,"exhaustive_search_seconds":5.62518835067749e-6,"evaluations":37.6015625,"distances_sum":270.6993359588412}, best_list's length: 11, n: 99
+    ** Opt. BeamSearch. A new best conf was found> score: 3.744045041143352, conf: {"ssize":6,"bsize":8}, perf: {"precision":0.9453124999999992,"recall":0.9453124999999992,"f1":0.9453124999999992,"seconds":1.6003847122192383e-5,"exhaustive_search_seconds":5.62518835067749e-6,"evaluations":36.078125,"distances_sum":272.54963001659183}, best_list's length: 13, n: 99
+  == End Opt. BeamSearch. Iteration finished; {"score":3.744045041143352,"state":{"ssize":6,"bsize":8},"perf":{"precision":0.9453124999999992,"recall":0.9453124999999992,"f1":0.9453124999999992,"seconds":1.6003847122192383e-5,"exhaustive_search_seconds":5.62518835067749e-6,"evaluations":36.078125,"distances_sum":272.54963001659183}}, beam: 4, n: 99
+  == Begin Opt. BeamSearch iteration: 3, expected recall: 0.9, n: 99
+  == End Opt. BeamSearch. Iteration finished; {"score":3.744045041143352,"state":{"ssize":6,"bsize":8},"perf":{"precision":0.9453124999999992,"recall":0.9453124999999992,"f1":0.9453124999999992,"seconds":1.6003847122192383e-5,"exhaustive_search_seconds":5.62518835067749e-6,"evaluations":36.078125,"distances_sum":272.54963001659183}}, beam: 4, n: 99
+==== END Opt. BeamSearch. Finished, best: {"score":3.744045041143352,"state":{"ssize":6,"bsize":8},"perf":{"precision":0.9453124999999992,"recall":0.9453124999999992,"f1":0.9453124999999992,"seconds":1.6003847122192383e-5,"exhaustive_search_seconds":5.62518835067749e-6,"evaluations":36.078125,"distances_sum":272.54963001659183}}, n: 99
+==== BEGIN Opt. BeamSearch, expected recall: 0.9, n: 999
+  == Begin Opt. BeamSearch iteration: 1, expected recall: 0.9, n: 999
+  == End Opt. BeamSearch. Iteration finished; {"score":14.322775578245468,"state":{"ssize":6,"bsize":8},"perf":{"precision":0.9487847222222214,"recall":0.9487847222222214,"f1":0.9487847222222214,"seconds":3.26596200466156e-5,"exhaustive_search_seconds":3.3406540751457214e-5,"evaluations":74.984375,"distances_sum":124.12342221362879}}, beam: 4, n: 999
+==== END Opt. BeamSearch. Finished, best: {"score":14.322775578245468,"state":{"ssize":6,"bsize":8},"perf":{"precision":0.9487847222222214,"recall":0.9487847222222214,"f1":0.9487847222222214,"seconds":3.26596200466156e-5,"exhaustive_search_seconds":3.3406540751457214e-5,"evaluations":74.984375,"distances_sum":124.12342221362879}}, n: 999
+added n=5000, neighborhood=5, 2019-12-03T04:19:18.015
+==== BEGIN Opt. BeamSearch, expected recall: 0.9, n: 9999
+  == Begin Opt. BeamSearch iteration: 1, expected recall: 0.9, n: 9999
+res = KnnResult(10, Item[Item(3392, 0.023121604694089665), Item(352, 0.023947485134643835), Item(6670, 0.031243790954050943), Item(2243, 0.03777490022089912), Item(6655, 0.040300622699414944), Item(8074, 0.043874979127345726), Item(4460, 0.04691859326478716), Item(2794, 0.05473723130072255), Item(5671, 0.05478184036770078), Item(7854, 0.06572236116649141)])
+  == End Opt. BeamSearch. Iteration finished; {"score":80.33746590627325,"state":{"ssize":6,"bsize":8},"perf":{"precision":0.9418402777777768,"recall":0.9418402777777768,"f1":0.9418402777777768,"seconds":6.381794810295105e-5,"exhaustive_search_seconds":0.0003097113221883774,"evaluations":126.03125,"distances_sum":55.74063174067389}}, beam: 4, n: 9999
+==== END Opt. BeamSearch. Finished, best: {"score":80.33746590627325,"state":{"ssize":6,"bsize":8},"perf":{"precision":0.9418402777777768,"recall":0.9418402777777768,"f1":0.9418402777777768,"seconds":6.381794810295105e-5,"exhaustive_search_seconds":0.0003097113221883774,"evaluations":126.03125,"distances_sum":55.74063174067389}}, n: 9999
+added n=10000, neighborhood=6, 2019-12-03T04:19:18.581
+[ Info: done; now testing
+[ Info: inserting items to the index
+==== BEGIN Opt. BeamSearch, expected recall: 0.9, n: 9
+  == Begin Opt. BeamSearch iteration: 1, expected recall: 0.9, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.1611328125, conf: {"ssize":2,"bsize":1}, perf: {"precision":null,"recall":0.1611328125,"f1":null,"seconds":2.7995556592941284e-6,"exhaustive_search_seconds":5.7891011238098145e-6,"evaluations":4.6171875,"distances_sum":97.14615905554727}, best_list's length: 2, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.1689453125, conf: {"ssize":5,"bsize":1}, perf: {"precision":null,"recall":0.1689453125,"f1":null,"seconds":2.993270754814148e-6,"exhaustive_search_seconds":5.7891011238098145e-6,"evaluations":4.6953125,"distances_sum":102.77485746049395}, best_list's length: 3, n: 9
+  == End Opt. BeamSearch. Iteration finished; {"score":0.1689453125,"state":{"ssize":5,"bsize":1},"perf":{"precision":null,"recall":0.1689453125,"f1":null,"seconds":2.993270754814148e-6,"exhaustive_search_seconds":5.7891011238098145e-6,"evaluations":4.6953125,"distances_sum":102.77485746049395}}, beam: 3, n: 9
+  == Begin Opt. BeamSearch iteration: 2, expected recall: 0.9, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.6650390625, conf: {"ssize":2,"bsize":4}, perf: {"precision":1.0,"recall":0.6650390625,"f1":0.7866485944610953,"seconds":4.7292560338974e-6,"exhaustive_search_seconds":5.7891011238098145e-6,"evaluations":7.6953125,"distances_sum":394.05626921202764}, best_list's length: 5, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.5625, conf: {"ssize":5,"bsize":3}, perf: {"precision":1.0,"recall":0.5625,"f1":0.7050267440892446,"seconds":4.073604941368103e-6,"exhaustive_search_seconds":5.7891011238098145e-6,"evaluations":6.9296875,"distances_sum":334.34803090416904}, best_list's length: 6, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.173828125, conf: {"ssize":6,"bsize":1}, perf: {"precision":null,"recall":0.173828125,"f1":null,"seconds":2.991408109664917e-6,"exhaustive_search_seconds":5.7891011238098145e-6,"evaluations":4.71875,"distances_sum":105.09572749612431}, best_list's length: 7, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.7734375, conf: {"ssize":1,"bsize":5}, perf: {"precision":1.0,"recall":0.7734375,"f1":0.8624323593073601,"seconds":4.673376679420471e-6,"exhaustive_search_seconds":5.7891011238098145e-6,"evaluations":8.1796875,"distances_sum":469.67690432719763}, best_list's length: 8, n: 9
+  == End Opt. BeamSearch. Iteration finished; {"score":0.7734375,"state":{"ssize":1,"bsize":5},"perf":{"precision":1.0,"recall":0.7734375,"f1":0.8624323593073601,"seconds":4.673376679420471e-6,"exhaustive_search_seconds":5.7891011238098145e-6,"evaluations":8.1796875,"distances_sum":469.67690432719763}}, beam: 4, n: 9
+  == Begin Opt. BeamSearch iteration: 3, expected recall: 0.9, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.8349609375, conf: {"ssize":5,"bsize":6}, perf: {"precision":1.0,"recall":0.8349609375,"f1":0.9002242549117557,"seconds":4.014931619167328e-5,"exhaustive_search_seconds":5.7891011238098145e-6,"evaluations":8.5859375,"distances_sum":513.8559981224225}, best_list's length: 5, n: 9
+    ** Opt. BeamSearch. A new best conf was found> score: 0.8271484375, conf: {"ssize":1,"bsize":6}, perf: {"precision":1.0,"recall":0.8271484375,"f1":0.896632534132535,"seconds":4.995614290237427e-6,"exhaustive_search_seconds":5.7891011238098145e-6,"evaluations":8.546875,"distances_sum":507.46695838261894}, best_list's length: 12, n: 9
+  == End Opt. BeamSearch. Iteration finished; {"score":0.8349609375,"state":{"ssize":5,"bsize":6},"perf":{"precision":1.0,"recall":0.8349609375,"f1":0.9002242549117557,"seconds":4.014931619167328e-5,"exhaustive_search_seconds":5.7891011238098145e-6,"evaluations":8.5859375,"distances_sum":513.8559981224225}}, beam: 4, n: 9
+==== END Opt. BeamSearch. Finished, best: {"score":0.8349609375,"state":{"ssize":5,"bsize":6},"perf":{"precision":1.0,"recall":0.8349609375,"f1":0.9002242549117557,"seconds":4.014931619167328e-5,"exhaustive_search_seconds":5.7891011238098145e-6,"evaluations":8.5859375,"distances_sum":513.8559981224225}}, n: 9
+==== BEGIN Opt. BeamSearch, expected recall: 0.9, n: 99
+  == Begin Opt. BeamSearch iteration: 1, expected recall: 0.9, n: 99
+    ** Opt. BeamSearch. A new best conf was found> score: 3.620347394540943, conf: {"ssize":2,"bsize":9}, perf: {"precision":0.9782986111111107,"recall":0.9782986111111107,"f1":0.9782986111111107,"seconds":1.5027821063995361e-5,"exhaustive_search_seconds":5.055218935012817e-6,"evaluations":37.78125,"distances_sum":270.6832453373333}, best_list's length: 3, n: 99
+    ** Opt. BeamSearch. A new best conf was found> score: 3.437391806116561, conf: {"ssize":5,"bsize":10}, perf: {"precision":0.9973958333333333,"recall":0.9973958333333333,"f1":0.9973958333333333,"seconds":1.634843647480011e-5,"exhaustive_search_seconds":5.055218935012817e-6,"evaluations":40.6171875,"distances_sum":269.9116084755248}, best_list's length: 4, n: 99
+    ** Opt. BeamSearch. A new best conf was found> score: 3.488120950323974, conf: {"ssize":1,"bsize":10}, perf: {"precision":0.9991319444444444,"recall":0.9991319444444444,"f1":0.9991319444444444,"seconds":1.6186386346817017e-5,"exhaustive_search_seconds":5.055218935012817e-6,"evaluations":39.7890625,"distances_sum":269.8067867853129}, best_list's length: 5, n: 99
+  == End Opt. BeamSearch. Iteration finished; {"score":3.620347394540943,"state":{"ssize":2,"bsize":9},"perf":{"precision":0.9782986111111107,"recall":0.9782986111111107,"f1":0.9782986111111107,"seconds":1.5027821063995361e-5,"exhaustive_search_seconds":5.055218935012817e-6,"evaluations":37.78125,"distances_sum":270.6832453373333}}, beam: 4, n: 99
+  == Begin Opt. BeamSearch iteration: 2, expected recall: 0.9, n: 99
+    ** Opt. BeamSearch. A new best conf was found> score: 3.6328693122792437, conf: {"ssize":1,"bsize":9}, perf: {"precision":0.9722222222222219,"recall":0.9722222222222219,"f1":0.9722222222222219,"seconds":1.5018507838249207e-5,"exhaustive_search_seconds":5.055218935012817e-6,"evaluations":37.6015625,"distances_sum":270.6993359588412}, best_list's length: 11, n: 99
+    ** Opt. BeamSearch. A new best conf was found> score: 3.744045041143352, conf: {"ssize":6,"bsize":8}, perf: {"precision":0.9453124999999992,"recall":0.9453124999999992,"f1":0.9453124999999992,"seconds":1.3913959264755249e-5,"exhaustive_search_seconds":5.055218935012817e-6,"evaluations":36.078125,"distances_sum":272.54963001659183}, best_list's length: 13, n: 99
+  == End Opt. BeamSearch. Iteration finished; {"score":3.744045041143352,"state":{"ssize":6,"bsize":8},"perf":{"precision":0.9453124999999992,"recall":0.9453124999999992,"f1":0.9453124999999992,"seconds":1.3913959264755249e-5,"exhaustive_search_seconds":5.055218935012817e-6,"evaluations":36.078125,"distances_sum":272.54963001659183}}, beam: 4, n: 99
+  == Begin Opt. BeamSearch iteration: 3, expected recall: 0.9, n: 99
+  == End Opt. BeamSearch. Iteration finished; {"score":3.744045041143352,"state":{"ssize":6,"bsize":8},"perf":{"precision":0.9453124999999992,"recall":0.9453124999999992,"f1":0.9453124999999992,"seconds":1.3913959264755249e-5,"exhaustive_search_seconds":5.055218935012817e-6,"evaluations":36.078125,"distances_sum":272.54963001659183}}, beam: 4, n: 99
+==== END Opt. BeamSearch. Finished, best: {"score":3.744045041143352,"state":{"ssize":6,"bsize":8},"perf":{"precision":0.9453124999999992,"recall":0.9453124999999992,"f1":0.9453124999999992,"seconds":1.3913959264755249e-5,"exhaustive_search_seconds":5.055218935012817e-6,"evaluations":36.078125,"distances_sum":272.54963001659183}}, n: 99
+==== BEGIN Opt. BeamSearch, expected recall: 0.9, n: 999
+  == Begin Opt. BeamSearch iteration: 1, expected recall: 0.9, n: 999
+  == End Opt. BeamSearch. Iteration finished; {"score":14.322775578245468,"state":{"ssize":6,"bsize":8},"perf":{"precision":0.9487847222222214,"recall":0.9487847222222214,"f1":0.9487847222222214,"seconds":3.039836883544922e-5,"exhaustive_search_seconds":3.135763108730316e-5,"evaluations":74.984375,"distances_sum":124.12342221362879}}, beam: 4, n: 999
+==== END Opt. BeamSearch. Finished, best: {"score":14.322775578245468,"state":{"ssize":6,"bsize":8},"perf":{"precision":0.9487847222222214,"recall":0.9487847222222214,"f1":0.9487847222222214,"seconds":3.039836883544922e-5,"exhaustive_search_seconds":3.135763108730316e-5,"evaluations":74.984375,"distances_sum":124.12342221362879}}, n: 999
+added n=5000, neighborhood=5, 2019-12-03T04:19:20.007
+==== BEGIN Opt. BeamSearch, expected recall: 0.9, n: 9999
+  == Begin Opt. BeamSearch iteration: 1, expected recall: 0.9, n: 9999
+  == End Opt. BeamSearch. Iteration finished; {"score":80.33746590627325,"state":{"ssize":6,"bsize":8},"perf":{"precision":0.9418402777777768,"recall":0.9418402777777768,"f1":0.9418402777777768,"seconds":6.305612623691559e-5,"exhaustive_search_seconds":0.0003836490213871002,"evaluations":126.03125,"distances_sum":55.74063174067389}}, beam: 4, n: 9999
+==== END Opt. BeamSearch. Finished, best: {"score":80.33746590627325,"state":{"ssize":6,"bsize":8},"perf":{"precision":0.9418402777777768,"recall":0.9418402777777768,"f1":0.9418402777777768,"seconds":6.305612623691559e-5,"exhaustive_search_seconds":0.0003836490213871002,"evaluations":126.03125,"distances_sum":55.74063174067389}}, n: 9999
+added n=10000, neighborhood=6, 2019-12-03T04:19:20.585
+[ Info: done; now testing with hint
+[ Info: Hints=true, noise=false: Query time 2.384185791015625e-5
+[ Info: Hints=true, noise=true: Query time 1.4066696166992188e-5
+[ Info: Hints=false, noise=false: Query time 5.793571472167969e-5
+[ Info: Hints=false, noise=true: Query time 4.220008850097656e-5
+   Testing SimilaritySearch tests passed 

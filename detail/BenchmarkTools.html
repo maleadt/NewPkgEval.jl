@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Julia Package Listing - Testing Information</title>
+
+    <style>/* -- Mix of julialang.org, Bootstrap 3, and custom -- */
+body {
+  background-color: white;
+  font-family: Georgia, 'Liberation Serif', serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.42857143;
+}
+.site {
+  max-width: 785px;
+  margin: 2.5em auto 2em;
+  padding: 0 1.5em;
+}
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.titlebox {
+  text-align: center;
+  font-size: 120%;
+  margin-top: 3em;
+}
+.ok     { background-color: #11AA11; } /*Tests passing*/
+.fail   { background-color: #DD3333; } /*Tests failed*/
+.skip   { background-color: #3333DD; } /*Tests skipped*/
+.kill   { background-color: #222222; } /*Tests interrupted*/
+.statusbox {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.pkglisting h2 { margin-bottom: 0px; }
+pre {margin: 0;}
+@media (min-width: 785px) {
+  .pkglisting {
+    display: table;
+    width: 100%;
+  }
+  .pkgnamedesc {
+    display: table-cell;
+    width: 50%;
+  }
+  .pkgvertest {
+    display: table-cell;
+    width:50%;
+    text-align: right
+  }
+}
+/* collapsible sections */
+.collapsible {
+  font-family: Georgia, 'Liberation Serif', serif;
+  font-size: 14px;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.content {
+  display: none;
+  overflow: hidden;
+}
+</style>
+  </head>
+
+  <body>
+  <div class="site">
+    <!-- HEADER -->
+    <div class="titlebox">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="210px" height="142px" viewBox="0 0 310 216" enable-background="new 0 0 310 216" xml:space="preserve">
+
+<!-- blue dot -->
+<circle fill="#6b85dd" stroke="#4266d5" stroke-width="3" cx="50.5" cy="58.665" r="16.5"></circle>
+<!-- red dot -->
+<circle fill="#d66661" stroke="#c93d39" stroke-width="3" cx="212.459" cy="60.249" r="16.5"></circle>
+<!-- green dot -->
+<circle fill="#6bab5b" stroke="#3b972e" stroke-width="3" cx="233.834" cy="23.874" r="16.5"></circle>
+<!-- purple dot -->
+<circle fill="#aa7dc0" stroke="#945bb0" stroke-width="3" cx="255.459" cy="59.999" r="16.5"></circle>
+
+<!-- "j" -->
+<path fill="#252525" d="M37.216,138.427c0-15.839,0.006-31.679-0.018-47.517c-0.001-0.827,0.169-1.234,1.043-1.47
+    c7.876-2.127,15.739-4.308,23.606-6.47c1.33-0.366,1.333-0.36,1.333,1.019c0,25.758,0.015,51.517-0.012,77.274
+    c-0.006,5.514,0.245,11.032-0.272,16.543c-0.628,6.69-2.15,13.092-6.438,18.506c-3.781,4.771-8.898,7.25-14.767,8.338
+    c-6.599,1.222-13.251,1.552-19.934,0.938c-4.616-0.423-9.045-1.486-12.844-4.363c-2.863-2.168-4.454-4.935-3.745-8.603
+    c0.736-3.806,3.348-5.978,6.861-7.127c2.262-0.74,4.628-0.872,6.994-0.53c1.823,0.264,3.42,1.023,4.779,2.288
+    c1.38,1.284,2.641,2.674,3.778,4.177c0.872,1.15,1.793,2.256,2.991,3.086c2.055,1.426,4,0.965,5.213-1.216
+    c0.819-1.473,0.997-3.106,1.173-4.731c0.255-2.348,0.255-4.707,0.256-7.062C37.218,167.145,37.216,152.786,37.216,138.427z"></path>
+
+<!-- "u" -->
+<path fill="#252525" d="M125.536,162.479c-2.908,2.385-5.783,4.312-8.88,5.904c-10.348,5.323-20.514,4.521-30.324-1.253
+    c-6.71-3.95-11.012-9.849-12.52-17.606c-0.236-1.213-0.363-2.438-0.363-3.688c0.01-19.797,0.017-39.593-0.02-59.39
+    c-0.002-1.102,0.285-1.357,1.363-1.351c7.798,0.049,15.597,0.044,23.396,0.003c0.95-0.005,1.177,0.25,1.175,1.183
+    c-0.027,19.356-0.025,38.713-0.018,58.07c0.002,6.34,3.599,10.934,9.672,12.42c2.13,0.521,4.19,0.396,6.173-0.6
+    c4.26-2.139,7.457-5.427,10.116-9.307c0.333-0.487,0.224-1,0.224-1.51c0.007-19.635,0.016-39.271-0.02-58.904
+    c-0.002-1.083,0.255-1.369,1.353-1.361c7.838,0.052,15.677,0.045,23.515,0.004c0.916-0.005,1.103,0.244,1.102,1.124
+    c-0.025,27.677-0.026,55.353,0.002,83.024c0.001,0.938-0.278,1.099-1.139,1.095c-7.918-0.028-15.837-0.028-23.756-0.001
+    c-0.815,0.003-1.1-0.166-1.073-1.037C125.581,167.117,125.536,164.928,125.536,162.479z"></path>
+
+<!-- "l" -->
+<path fill="#252525" d="M187.423,107.08c0,20.637-0.011,41.273,0.026,61.91c0.003,1.119-0.309,1.361-1.381,1.355
+    c-7.799-0.052-15.598-0.047-23.396-0.008c-0.898,0.008-1.117-0.222-1.115-1.115c0.021-39.074,0.021-78.147,0-117.226
+    c0-0.811,0.189-1.169,1.006-1.392c7.871-2.149,15.73-4.327,23.584-6.545c1.045-0.295,1.308-0.17,1.306,0.985
+    C187.412,65.727,187.423,86.403,187.423,107.08z"></path>
+
+<!-- "i" -->
+<path fill="#252525" d="M223.46,126.477c0,14.155-0.011,28.312,0.021,42.467c0.002,1.027-0.164,1.418-1.332,1.408
+    c-7.838-0.061-15.676-0.047-23.516-0.01c-0.881,0.004-1.121-0.189-1.119-1.104c0.026-26.153,0.025-52.307,0-78.458
+    c0-0.776,0.203-1.101,0.941-1.302c7.984-2.172,15.972-4.35,23.938-6.596c1.049-0.296,1.08,0.031,1.078,0.886
+    C223.454,98.004,223.46,112.239,223.46,126.477z"></path>
+
+<!-- "a" -->
+<path fill="#252525" d="M277.695,163.6c-0.786,0.646-1.404,1.125-2,1.635c-4.375,3.746-9.42,5.898-15.16,6.42
+    c-5.792,0.527-11.479,0.244-16.934-2.047c-12.08-5.071-15.554-17.188-11.938-27.448c1.799-5.111,5.472-8.868,9.831-11.94
+    c5.681-4.003,12.009-6.732,18.504-9.074c5.576-2.014,11.186-3.939,16.955-5.347c0.445-0.104,0.773-0.243,0.757-0.854
+    c-0.136-4.389,0.261-8.79-0.479-13.165c-1.225-7.209-6.617-10.013-12.895-9.348c-0.516,0.055-1.029,0.129-1.536,0.241
+    c-4.877,1.081-7.312,4.413-7.374,10.127c-0.02,1.729-0.229,3.418-0.693,5.084c-0.906,3.229-2.969,5.354-6.168,6.266
+    c-3.422,0.979-6.893,0.998-10.23-0.305c-6.529-2.543-8.877-10.164-5.12-16.512c2.249-3.799,5.606-6.4,9.461-8.405
+    c6.238-3.246,12.914-4.974,19.896-5.537c7.565-0.61,15.096-0.366,22.49,1.507c4.285,1.085,8.312,2.776,11.744,5.657
+    c4.473,3.749,6.776,8.647,6.812,14.374c0.139,21.477,0.096,42.951,0.143,64.428c0.002,0.799-0.248,0.983-1.021,0.98
+    c-8.035-0.025-16.074-0.023-24.113-0.001c-0.716,0.002-0.973-0.146-0.941-0.915C277.736,167.562,277.695,165.698,277.695,163.6z
+     M277.695,126.393c-4.793,2.104-9.25,4.373-13.287,7.408c-2.151,1.618-4.033,3.483-5.732,5.581
+    c-4.229,5.226-1.988,13.343,1.693,16.599c1.592,1.406,3.359,1.906,5.419,1.521c1.621-0.307,3.149-0.857,4.549-1.734
+    c1.521-0.951,2.949-2.072,4.539-2.887c2.31-1.18,2.97-2.861,2.894-5.445C277.561,140.484,277.695,133.527,277.695,126.393z"></path>
+
+</svg>
+
+        <h1>
+          <a name="BenchmarkTools">BenchmarkTools</a>
+        </h1>
+
+        <p>
+          <a href="../index.html#BenchmarkTools">← Back to package list</a>
+        </p>
+
+    </div>
+
+    <p>
+      If you think that there is an error in how your package is being tested or represented, please file an issue at <a href="https://github.com/JuliaComputing/NewPkgEval.jl">NewPkgEval.jl</a>, making sure to read the FAQ first.
+    </p>
+
+
+    <h3>Results with Julia v1.2.0</h3>
+
+    <p>
+      Testing was <strong>successful</strong>.
+      Last evaluation was  ago and took 2 minutes, 16 seconds.
+    </p>
+
+    <p>
+      Click <a href="/home/maleadt/Julia/pkg/NewPkgEval/site/build/logs/BenchmarkTools/1.2.0.log">here</a> to download the log file.
+      
+    </p>
+
+      <button class="collapsible">Click here to show the log contents.</button>
+      <div class="content">
+      <pre> Resolving package versions...
+ Installed Parsers ──────── v0.3.10
+ Installed BenchmarkTools ─ v0.4.3
+ Installed JSON ─────────── v0.21.0
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.2&#x2F;Project.toml`
+  [6e4b80f9] + BenchmarkTools v0.4.3
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.2&#x2F;Manifest.toml`
+  [6e4b80f9] + BenchmarkTools v0.4.3
+  [682c06a0] + JSON v0.21.0
+  [69de0a69] + Parsers v0.3.10
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [de0858da] + Printf 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [4ec0a83e] + Unicode 
+   Testing BenchmarkTools
+ Resolving package versions...
+    Status `&#x2F;tmp&#x2F;jl_dcYRLr&#x2F;Manifest.toml`
+  [6e4b80f9] BenchmarkTools v0.4.3
+  [682c06a0] JSON v0.21.0
+  [69de0a69] Parsers v0.3.10
+  [2a0f44e3] Base64  [`@stdlib&#x2F;Base64`]
+  [ade2ca70] Dates  [`@stdlib&#x2F;Dates`]
+  [8ba89e20] Distributed  [`@stdlib&#x2F;Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib&#x2F;InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib&#x2F;Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib&#x2F;LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib&#x2F;Logging`]
+  [d6f4376e] Markdown  [`@stdlib&#x2F;Markdown`]
+  [a63ad114] Mmap  [`@stdlib&#x2F;Mmap`]
+  [de0858da] Printf  [`@stdlib&#x2F;Printf`]
+  [9a3f8284] Random  [`@stdlib&#x2F;Random`]
+  [9e88b42a] Serialization  [`@stdlib&#x2F;Serialization`]
+  [6462fe0b] Sockets  [`@stdlib&#x2F;Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib&#x2F;SparseArrays`]
+  [10745b16] Statistics  [`@stdlib&#x2F;Statistics`]
+  [8dfed614] Test  [`@stdlib&#x2F;Test`]
+  [4ec0a83e] Unicode  [`@stdlib&#x2F;Unicode`]
+Testing Parameters...done (took 11.609335632 seconds)
+Testing Trial&#x2F;TrialEstimate&#x2F;TrialRatio&#x2F;TrialJudgement...done (took 4.186675919 seconds)
+Testing BenchmarkGroup...done (took 20.5286226 seconds)
+Testing execution...(1&#x2F;3) tuning 10...
+done (took 0.606965052 seconds)
+(2&#x2F;3) tuning 5...
+done (took 0.467365172 seconds)
+(3&#x2F;3) tuning 20...
+done (took 0.364891855 seconds)
+(1&#x2F;3) tuning &quot;sum&quot;...
+  (1&#x2F;3) tuning 10...
+  done (took 0.770317841 seconds)
+  (2&#x2F;3) tuning 5...
+  done (took 0.666635281 seconds)
+  (3&#x2F;3) tuning 20...
+  done (took 1.179777055 seconds)
+done (took 3.093882839 seconds)
+(2&#x2F;3) tuning &quot;special&quot;...
+  (1&#x2F;4) tuning &quot;comprehension&quot;...
+  done (took 0.820137113 seconds)
+  (2&#x2F;4) tuning &quot;macro&quot;...
+  done (took 1.185971364 seconds)
+  (3&#x2F;4) tuning &quot;block&quot;...
+  done (took 0.662961848 seconds)
+  (4&#x2F;4) tuning &quot;nothing&quot;...
+  done (took 0.43444077 seconds)
+done (took 3.628478045 seconds)
+(3&#x2F;3) tuning &quot;sin&quot;...
+  (1&#x2F;3) tuning 10...
+  done (took 0.000307739 seconds)
+  (2&#x2F;3) tuning 5...
+  done (took 0.000265269 seconds)
+  (3&#x2F;3) tuning 20...
+  done (took 0.000274078 seconds)
+done (took 0.436174238 seconds)
+(1&#x2F;3) benchmarking &quot;sum&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 2.250572228 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 1.319737207 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 2.048439936 seconds)
+done (took 6.205591876 seconds)
+(2&#x2F;3) benchmarking &quot;special&quot;...
+  (1&#x2F;4) benchmarking &quot;comprehension&quot;...
+  done (took 1.895953037 seconds)
+  (2&#x2F;4) benchmarking &quot;macro&quot;...
+  done (took 0.88365888 seconds)
+  (3&#x2F;4) benchmarking &quot;block&quot;...
+  done (took 1.978331474 seconds)
+  (4&#x2F;4) benchmarking &quot;nothing&quot;...
+  done (took 0.656304797 seconds)
+done (took 5.917525051 seconds)
+(3&#x2F;3) benchmarking &quot;sin&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 0.131836979 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 0.126301792 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 0.139541462 seconds)
+done (took 0.804139158 seconds)
+(1&#x2F;3) benchmarking &quot;sum&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 1.133293882 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 0.95327401 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 1.127378348 seconds)
+done (took 3.651643828 seconds)
+(2&#x2F;3) benchmarking &quot;special&quot;...
+  (1&#x2F;4) benchmarking &quot;comprehension&quot;...
+  done (took 1.074137289 seconds)
+  (2&#x2F;4) benchmarking &quot;macro&quot;...
+  done (took 0.36560206 seconds)
+  (3&#x2F;4) benchmarking &quot;block&quot;...
+  done (took 1.121623751 seconds)
+  (4&#x2F;4) benchmarking &quot;nothing&quot;...
+  done (took 0.18229285 seconds)
+done (took 3.244328877 seconds)
+(3&#x2F;3) benchmarking &quot;sin&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 0.153966809 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 0.19150253 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 0.219823031 seconds)
+done (took 1.164094724 seconds)
+(1&#x2F;3) benchmarking &quot;sum&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 0.127469726 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 0.115036225 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 0.165667528 seconds)
+done (took 0.977307675 seconds)
+(2&#x2F;3) benchmarking &quot;special&quot;...
+  (1&#x2F;4) benchmarking &quot;comprehension&quot;...
+  done (took 0.086760631 seconds)
+  (2&#x2F;4) benchmarking &quot;macro&quot;...
+  done (took 0.093751286 seconds)
+  (3&#x2F;4) benchmarking &quot;block&quot;...
+  done (took 0.156987406 seconds)
+  (4&#x2F;4) benchmarking &quot;nothing&quot;...
+  done (took 0.153095263 seconds)
+done (took 0.90800571 seconds)
+(3&#x2F;3) benchmarking &quot;sin&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 0.171663842 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 0.141575514 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 0.131356114 seconds)
+done (took 0.933775018 seconds)
+(1&#x2F;3) benchmarking 10...
+done (took 0.019824275 seconds)
+(2&#x2F;3) benchmarking 5...
+done (took 0.039551378 seconds)
+(3&#x2F;3) benchmarking 20...
+done (took 0.038650253 seconds)
+(1&#x2F;3) benchmarking 10...
+done (took 0.020366336 seconds)
+(2&#x2F;3) benchmarking 5...
+done (took 0.02174582 seconds)
+(3&#x2F;3) benchmarking 20...
+done (took 0.038822015 seconds)
+(1&#x2F;3) benchmarking 10...
+done (took 3.3755e-5 seconds)
+(2&#x2F;3) benchmarking 5...
+done (took 1.6067e-5 seconds)
+(3&#x2F;3) benchmarking 20...
+done (took 1.2609e-5 seconds)
+done (took 71.184076696 seconds)
+Testing serialization...Test Summary:                | Pass  Total
+Successful (de)serialization |    7      7
+Test Summary:        | Pass  Total
+Deprecated behaviors |   11     11
+Test Summary:  | Pass  Total
+Error checking |    2      2
+done (took 11.715029661 seconds)
+   Testing BenchmarkTools tests passed 
+</pre>
+      </div>
+
+    <h3>Results with Julia v1.3.0</h3>
+
+    <p>
+      Testing was <strong>successful</strong>.
+      Last evaluation was  ago and took 2 minutes, 11 seconds.
+    </p>
+
+    <p>
+      Click <a href="/home/maleadt/Julia/pkg/NewPkgEval/site/build/logs/BenchmarkTools/1.3.0.log">here</a> to download the log file.
+      
+    </p>
+
+      <button class="collapsible">Click here to show the log contents.</button>
+      <div class="content">
+      <pre> Resolving package versions...
+ Installed Parsers ──────── v0.3.10
+ Installed BenchmarkTools ─ v0.4.3
+ Installed JSON ─────────── v0.21.0
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Project.toml`
+  [6e4b80f9] + BenchmarkTools v0.4.3
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Manifest.toml`
+  [6e4b80f9] + BenchmarkTools v0.4.3
+  [682c06a0] + JSON v0.21.0
+  [69de0a69] + Parsers v0.3.10
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [de0858da] + Printf 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [4ec0a83e] + Unicode 
+   Testing BenchmarkTools
+ Resolving package versions...
+    Status `&#x2F;tmp&#x2F;jl_oGqety&#x2F;Manifest.toml`
+  [6e4b80f9] BenchmarkTools v0.4.3
+  [682c06a0] JSON v0.21.0
+  [69de0a69] Parsers v0.3.10
+  [2a0f44e3] Base64  [`@stdlib&#x2F;Base64`]
+  [ade2ca70] Dates  [`@stdlib&#x2F;Dates`]
+  [8ba89e20] Distributed  [`@stdlib&#x2F;Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib&#x2F;InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib&#x2F;Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib&#x2F;LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib&#x2F;Logging`]
+  [d6f4376e] Markdown  [`@stdlib&#x2F;Markdown`]
+  [a63ad114] Mmap  [`@stdlib&#x2F;Mmap`]
+  [de0858da] Printf  [`@stdlib&#x2F;Printf`]
+  [9a3f8284] Random  [`@stdlib&#x2F;Random`]
+  [9e88b42a] Serialization  [`@stdlib&#x2F;Serialization`]
+  [6462fe0b] Sockets  [`@stdlib&#x2F;Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib&#x2F;SparseArrays`]
+  [10745b16] Statistics  [`@stdlib&#x2F;Statistics`]
+  [8dfed614] Test  [`@stdlib&#x2F;Test`]
+  [4ec0a83e] Unicode  [`@stdlib&#x2F;Unicode`]
+Testing Parameters...done (took 10.745654011 seconds)
+Testing Trial&#x2F;TrialEstimate&#x2F;TrialRatio&#x2F;TrialJudgement...done (took 4.725390333 seconds)
+Testing BenchmarkGroup...done (took 20.776810056 seconds)
+Testing execution...(1&#x2F;3) tuning 10...
+done (took 0.309673776 seconds)
+(2&#x2F;3) tuning 5...
+done (took 0.228791428 seconds)
+(3&#x2F;3) tuning 20...
+done (took 0.231331298 seconds)
+(1&#x2F;3) tuning &quot;sum&quot;...
+  (1&#x2F;3) tuning 10...
+  done (took 0.880032212 seconds)
+  (2&#x2F;3) tuning 5...
+  done (took 0.741406057 seconds)
+  (3&#x2F;3) tuning 20...
+  done (took 1.061907794 seconds)
+done (took 3.14055551 seconds)
+(2&#x2F;3) tuning &quot;special&quot;...
+  (1&#x2F;4) tuning &quot;comprehension&quot;...
+  done (took 0.692085692 seconds)
+  (2&#x2F;4) tuning &quot;macro&quot;...
+  done (took 1.136517745 seconds)
+  (3&#x2F;4) tuning &quot;block&quot;...
+  done (took 0.52940439 seconds)
+  (4&#x2F;4) tuning &quot;nothing&quot;...
+  done (took 0.510478066 seconds)
+done (took 3.350831959 seconds)
+(3&#x2F;3) tuning &quot;sin&quot;...
+  (1&#x2F;3) tuning 10...
+  done (took 0.000336445 seconds)
+  (2&#x2F;3) tuning 5...
+  done (took 0.000299683 seconds)
+  (3&#x2F;3) tuning 20...
+  done (took 0.000296745 seconds)
+done (took 0.484142812 seconds)
+(1&#x2F;3) benchmarking &quot;sum&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 2.504929875 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 1.468856177 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 1.82246857 seconds)
+done (took 6.304119144 seconds)
+(2&#x2F;3) benchmarking &quot;special&quot;...
+  (1&#x2F;4) benchmarking &quot;comprehension&quot;...
+  done (took 1.736042339 seconds)
+  (2&#x2F;4) benchmarking &quot;macro&quot;...
+  done (took 1.06457397 seconds)
+  (3&#x2F;4) benchmarking &quot;block&quot;...
+  done (took 1.913310447 seconds)
+  (4&#x2F;4) benchmarking &quot;nothing&quot;...
+  done (took 0.584796573 seconds)
+done (took 5.744230157 seconds)
+(3&#x2F;3) benchmarking &quot;sin&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 0.122266515 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 0.122980274 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 0.127410683 seconds)
+done (took 0.83831063 seconds)
+(1&#x2F;3) benchmarking &quot;sum&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 1.118606323 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 0.678405931 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 1.124996496 seconds)
+done (took 3.408314471 seconds)
+(2&#x2F;3) benchmarking &quot;special&quot;...
+  (1&#x2F;4) benchmarking &quot;comprehension&quot;...
+  done (took 1.076359207 seconds)
+  (2&#x2F;4) benchmarking &quot;macro&quot;...
+  done (took 0.596248942 seconds)
+  (3&#x2F;4) benchmarking &quot;block&quot;...
+  done (took 1.110050235 seconds)
+  (4&#x2F;4) benchmarking &quot;nothing&quot;...
+  done (took 0.136475457 seconds)
+done (took 3.360207652 seconds)
+(3&#x2F;3) benchmarking &quot;sin&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 0.131172925 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 0.131070331 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 0.130247321 seconds)
+done (took 0.868298706 seconds)
+(1&#x2F;3) benchmarking &quot;sum&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 0.118555295 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 0.112512946 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 0.102937168 seconds)
+done (took 0.831496801 seconds)
+(2&#x2F;3) benchmarking &quot;special&quot;...
+  (1&#x2F;4) benchmarking &quot;comprehension&quot;...
+  done (took 0.090268591 seconds)
+  (2&#x2F;4) benchmarking &quot;macro&quot;...
+  done (took 0.064725616 seconds)
+  (3&#x2F;4) benchmarking &quot;block&quot;...
+  done (took 0.110910342 seconds)
+  (4&#x2F;4) benchmarking &quot;nothing&quot;...
+  done (took 0.109425907 seconds)
+done (took 0.851646796 seconds)
+(3&#x2F;3) benchmarking &quot;sin&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 0.110867559 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 0.108040089 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 0.107098911 seconds)
+done (took 0.776352423 seconds)
+(1&#x2F;3) benchmarking 10...
+done (took 0.021956372 seconds)
+(2&#x2F;3) benchmarking 5...
+done (took 0.022223148 seconds)
+(3&#x2F;3) benchmarking 20...
+done (took 0.02275314 seconds)
+(1&#x2F;3) benchmarking 10...
+done (took 0.024961105 seconds)
+(2&#x2F;3) benchmarking 5...
+done (took 0.025494695 seconds)
+(3&#x2F;3) benchmarking 20...
+done (took 0.02660153 seconds)
+(1&#x2F;3) benchmarking 10...
+done (took 3.9539e-5 seconds)
+(2&#x2F;3) benchmarking 5...
+done (took 1.4259e-5 seconds)
+(3&#x2F;3) benchmarking 20...
+done (took 1.3064e-5 seconds)
+done (took 68.349236742 seconds)
+Testing serialization...Test Summary:                | Pass  Total
+Successful (de)serialization |    7      7
+Test Summary:        | Pass  Total
+Deprecated behaviors |   11     11
+Test Summary:  | Pass  Total
+Error checking |    2      2
+done (took 11.095206941 seconds)
+   Testing BenchmarkTools tests passed 
+</pre>
+      </div>
+
+    <h3>Results with Julia v1.3.1-pre-7704df0a5a</h3>
+
+    <p>
+      Testing was <strong>successful</strong>.
+      Last evaluation was  ago and took 2 minutes, 3 seconds.
+    </p>
+
+    <p>
+      Click <a href="/home/maleadt/Julia/pkg/NewPkgEval/site/build/logs/BenchmarkTools/1.3.1-pre-7704df0a5a.log">here</a> to download the log file.
+      
+    </p>
+
+      <button class="collapsible">Click here to show the log contents.</button>
+      <div class="content">
+      <pre> Resolving package versions...
+ Installed Parsers ──────── v0.3.10
+ Installed BenchmarkTools ─ v0.4.3
+ Installed JSON ─────────── v0.21.0
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Project.toml`
+  [6e4b80f9] + BenchmarkTools v0.4.3
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Manifest.toml`
+  [6e4b80f9] + BenchmarkTools v0.4.3
+  [682c06a0] + JSON v0.21.0
+  [69de0a69] + Parsers v0.3.10
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [de0858da] + Printf 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [4ec0a83e] + Unicode 
+   Testing BenchmarkTools
+ Resolving package versions...
+    Status `&#x2F;tmp&#x2F;jl_aOOIP9&#x2F;Manifest.toml`
+  [6e4b80f9] BenchmarkTools v0.4.3
+  [682c06a0] JSON v0.21.0
+  [69de0a69] Parsers v0.3.10
+  [2a0f44e3] Base64  [`@stdlib&#x2F;Base64`]
+  [ade2ca70] Dates  [`@stdlib&#x2F;Dates`]
+  [8ba89e20] Distributed  [`@stdlib&#x2F;Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib&#x2F;InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib&#x2F;Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib&#x2F;LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib&#x2F;Logging`]
+  [d6f4376e] Markdown  [`@stdlib&#x2F;Markdown`]
+  [a63ad114] Mmap  [`@stdlib&#x2F;Mmap`]
+  [de0858da] Printf  [`@stdlib&#x2F;Printf`]
+  [9a3f8284] Random  [`@stdlib&#x2F;Random`]
+  [9e88b42a] Serialization  [`@stdlib&#x2F;Serialization`]
+  [6462fe0b] Sockets  [`@stdlib&#x2F;Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib&#x2F;SparseArrays`]
+  [10745b16] Statistics  [`@stdlib&#x2F;Statistics`]
+  [8dfed614] Test  [`@stdlib&#x2F;Test`]
+  [4ec0a83e] Unicode  [`@stdlib&#x2F;Unicode`]
+Testing Parameters...done (took 10.067612912 seconds)
+Testing Trial&#x2F;TrialEstimate&#x2F;TrialRatio&#x2F;TrialJudgement...done (took 3.940224585 seconds)
+Testing BenchmarkGroup...done (took 19.654018407 seconds)
+Testing execution...(1&#x2F;3) tuning 10...
+done (took 0.357661098 seconds)
+(2&#x2F;3) tuning 5...
+done (took 0.26246341 seconds)
+(3&#x2F;3) tuning 20...
+done (took 0.264077724 seconds)
+(1&#x2F;3) tuning &quot;sum&quot;...
+  (1&#x2F;3) tuning 10...
+  done (took 0.826904218 seconds)
+  (2&#x2F;3) tuning 5...
+  done (took 0.656959557 seconds)
+  (3&#x2F;3) tuning 20...
+  done (took 1.00149795 seconds)
+done (took 2.930288218 seconds)
+(2&#x2F;3) tuning &quot;special&quot;...
+  (1&#x2F;4) tuning &quot;comprehension&quot;...
+  done (took 0.639995816 seconds)
+  (2&#x2F;4) tuning &quot;macro&quot;...
+  done (took 1.169174742 seconds)
+  (3&#x2F;4) tuning &quot;block&quot;...
+  done (took 0.531898929 seconds)
+  (4&#x2F;4) tuning &quot;nothing&quot;...
+  done (took 0.569909909 seconds)
+done (took 3.343620739 seconds)
+(3&#x2F;3) tuning &quot;sin&quot;...
+  (1&#x2F;3) tuning 10...
+  done (took 0.000303802 seconds)
+  (2&#x2F;3) tuning 5...
+  done (took 0.000304091 seconds)
+  (3&#x2F;3) tuning 20...
+  done (took 0.00026711 seconds)
+done (took 0.436874601 seconds)
+(1&#x2F;3) benchmarking &quot;sum&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 2.16901204 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 1.166643866 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 2.005267887 seconds)
+done (took 5.807750942 seconds)
+(2&#x2F;3) benchmarking &quot;special&quot;...
+  (1&#x2F;4) benchmarking &quot;comprehension&quot;...
+  done (took 1.53329577 seconds)
+  (2&#x2F;4) benchmarking &quot;macro&quot;...
+  done (took 0.710178123 seconds)
+  (3&#x2F;4) benchmarking &quot;block&quot;...
+  done (took 1.962603017 seconds)
+  (4&#x2F;4) benchmarking &quot;nothing&quot;...
+  done (took 0.599873729 seconds)
+done (took 5.264533423 seconds)
+(3&#x2F;3) benchmarking &quot;sin&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 0.117821672 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 0.127629564 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 0.123304605 seconds)
+done (took 0.798048677 seconds)
+(1&#x2F;3) benchmarking &quot;sum&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 1.115668473 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 0.69481422 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 1.157523089 seconds)
+done (took 3.445216889 seconds)
+(2&#x2F;3) benchmarking &quot;special&quot;...
+  (1&#x2F;4) benchmarking &quot;comprehension&quot;...
+  done (took 1.071297809 seconds)
+  (2&#x2F;4) benchmarking &quot;macro&quot;...
+  done (took 0.273344311 seconds)
+  (3&#x2F;4) benchmarking &quot;block&quot;...
+  done (took 1.111774453 seconds)
+  (4&#x2F;4) benchmarking &quot;nothing&quot;...
+  done (took 0.137190558 seconds)
+done (took 3.046552382 seconds)
+(3&#x2F;3) benchmarking &quot;sin&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 0.156727613 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 0.117417368 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 0.125283067 seconds)
+done (took 0.865330851 seconds)
+(1&#x2F;3) benchmarking &quot;sum&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 0.164428995 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 0.112666791 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 0.107563133 seconds)
+done (took 0.904126493 seconds)
+(2&#x2F;3) benchmarking &quot;special&quot;...
+  (1&#x2F;4) benchmarking &quot;comprehension&quot;...
+  done (took 0.068435104 seconds)
+  (2&#x2F;4) benchmarking &quot;macro&quot;...
+  done (took 0.069144925 seconds)
+  (3&#x2F;4) benchmarking &quot;block&quot;...
+  done (took 0.112768384 seconds)
+  (4&#x2F;4) benchmarking &quot;nothing&quot;...
+  done (took 0.114082876 seconds)
+done (took 0.826149003 seconds)
+(3&#x2F;3) benchmarking &quot;sin&quot;...
+  (1&#x2F;3) benchmarking 10...
+  done (took 0.150401159 seconds)
+  (2&#x2F;3) benchmarking 5...
+  done (took 0.119296643 seconds)
+  (3&#x2F;3) benchmarking 20...
+  done (took 0.120310459 seconds)
+done (took 0.89659031 seconds)
+(1&#x2F;3) benchmarking 10...
+done (took 0.02206828 seconds)
+(2&#x2F;3) benchmarking 5...
+done (took 0.022781731 seconds)
+(3&#x2F;3) benchmarking 20...
+done (took 0.023966747 seconds)
+(1&#x2F;3) benchmarking 10...
+done (took 0.022539204 seconds)
+(2&#x2F;3) benchmarking 5...
+done (took 0.022777022 seconds)
+(3&#x2F;3) benchmarking 20...
+done (took 0.026960757 seconds)
+(1&#x2F;3) benchmarking 10...
+done (took 3.6979e-5 seconds)
+(2&#x2F;3) benchmarking 5...
+done (took 1.4584e-5 seconds)
+(3&#x2F;3) benchmarking 20...
+done (took 1.2399e-5 seconds)
+done (took 64.645466868 seconds)
+Testing serialization...Test Summary:                | Pass  Total
+Successful (de)serialization |    7      7
+Test Summary:        | Pass  Total
+Deprecated behaviors |   11     11
+Test Summary:  | Pass  Total
+Error checking |    2      2
+done (took 10.342648446 seconds)
+   Testing BenchmarkTools tests passed 
+</pre>
+      </div>
+
+
+  </div>
+  </body>
+
+  <script type="text/javascript">// handle collapsibles
+var coll = document.getElementsByClassName("collapsible");
+for (var i = 0; i < coll.length; i++) {
+    coll[i].textContent = "▸ " + coll[i].textContent
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            this.textContent = "▸" + this.textContent.substr(1)
+            content.style.display = "none";
+        } else {
+            this.textContent = "▾" + this.textContent.substr(1)
+            content.style.display = "block";
+        }
+    });
+}
+</script>
+</html>
+

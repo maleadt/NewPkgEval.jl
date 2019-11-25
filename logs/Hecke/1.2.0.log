@@ -1,0 +1,211 @@
+ Resolving package versions...
+ Installed Requires ──────── v0.5.2
+ Installed BinaryProvider ── v0.5.8
+ Installed AbstractAlgebra ─ v0.7.1
+ Installed Nemo ──────────── v0.15.1
+ Installed Hecke ─────────── v0.6.7
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [3e1990a7] + Hecke v0.6.7
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [c3fe647b] + AbstractAlgebra v0.7.1
+  [b99e7846] + BinaryProvider v0.5.8
+  [3e1990a7] + Hecke v0.6.7
+  [2edaba10] + Nemo v0.15.1
+  [ae029012] + Requires v0.5.2
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [9abbd945] + Profile 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building Nemo → `~/.julia/packages/Nemo/qzx0m/deps/build.log`
+   Testing Hecke
+    Status `/tmp/jl_478Gg8/Manifest.toml`
+  [c3fe647b] AbstractAlgebra v0.7.1
+  [b99e7846] BinaryProvider v0.5.8
+  [3e1990a7] Hecke v0.6.7
+  [2edaba10] Nemo v0.15.1
+  [ae029012] Requires v0.5.2
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [9abbd945] Profile  [`@stdlib/Profile`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+
+Welcome to Nemo version 0.15.1
+
+Nemo comes with absolutely no warranty whatsoever
+
+
+Welcome to Nemo version 0.15.1
+
+Nemo comes with absolutely no warranty whatsoever
+
+
+Welcome to 
+
+    _    _           _
+   | |  | |         | |
+   | |__| | ___  ___| | _____
+   |  __  |/ _ \/ __| |/ / _ \
+   | |  | |  __/ (__|   <  __/
+   |_|  |_|\___|\___|_|\_\___|
+    
+Version 0.6.7 ... 
+ ... which comes with absolutely no warranty whatsoever
+(c) 2015-2019 by Claus Fieker, Tommy Hofmann and Carlo Sircana
+
+Test Summary: | Pass  Total
+Number fields |   20     20
+103.589238 seconds (79.37 M allocations: 3.923 GiB, 5.96% gc time)
+Test Summary: | Pass  Total
+AlgAss        |  919    919
+183.601078 seconds (121.99 M allocations: 6.267 GiB, 4.55% gc time)
+"having a hard time computing the LLL basis" = "having a hard time computing the LLL basis"
+Test Summary: | Pass  Total
+AlgAssAbsOrd  |  179    179
+444.063071 seconds (572.18 M allocations: 24.110 GiB, 14.79% gc time)
+Test Summary: | Pass  Total
+AlgAssRelOrd  |   33     33
+ 62.364299 seconds (110.56 M allocations: 4.201 GiB, 19.08% gc time)
+Test Summary:   | Pass  Total
+Elliptic curves |  278    278
+ 45.497348 seconds (23.92 M allocations: 2.950 GiB, 5.44% gc time)
+Test Summary:                     | Pass  Total
+Finitely generated abelian groups |  333    333
+ 38.807275 seconds (30.08 M allocations: 1.403 GiB, 5.49% gc time)
+Test Summary:  | Pass  Total
+Generic Groups |  928    928
+ 33.834517 seconds (77.00 M allocations: 3.548 GiB, 21.31% gc time)
+Test Summary:  |
+Linear algebra | No tests
+  0.007225 seconds (699 allocations: 59.813 KiB)
+Test Summary: | Pass  Total
+Map           |  132    132
+  2.012735 seconds (1.02 M allocations: 51.901 MiB, 4.32% gc time)
+Test Summary: | Pass  Total
+Misc          | 5043   5043
+343.953965 seconds (169.89 M allocations: 18.217 GiB, 6.25% gc time)
+Test Summary: | Pass  Total
+NfAbs         | 2089   2089
+285.743463 seconds (163.15 M allocations: 22.933 GiB, 7.99% gc time)
+NfOrd.jl
+  9.569527 seconds (7.73 M allocations: 494.147 MiB, 9.42% gc time)
+Elem.jl
+  1.953945 seconds (441.73 k allocations: 23.864 MiB, 2.36% gc time)
+Ideal.jl
+ 13.178219 seconds (15.15 M allocations: 973.971 MiB, 12.27% gc time)
+FracIdl.jl
+  2.413288 seconds (1.33 M allocations: 67.876 MiB, 4.22% gc time)
+ResidueRing.jl
+  0.414634 seconds (120.78 k allocations: 14.952 MiB, 12.67% gc time)
+Clgp.jl
+266.805145 seconds (245.55 M allocations: 24.147 GiB, 11.85% gc time)
+RayClassGroup.jl
+  7.495111 seconds (6.94 M allocations: 361.866 MiB, 9.84% gc time)
+ResidueRingMultGrp.jl
+ 24.257771 seconds (39.65 M allocations: 2.506 GiB, 21.93% gc time)
+Overorders.jl
+ 35.911747 seconds (64.09 M allocations: 3.159 GiB, 22.40% gc time)
+LinearAlgebra.jl
+  0.000131 seconds (404 allocations: 18.328 KiB)
+1433.094240 seconds (162.87 M allocations: 195.345 GiB, 6.51% gc time)
+PicardGroup.jl
+ 25.533881 seconds (17.59 M allocations: 4.156 GiB, 13.10% gc time)
+Test Summary:                    |  Pass  Total
+Orders in absolute number fields | 15581  15581
+1820.671333 seconds (561.47 M allocations: 231.204 GiB, 7.97% gc time)
+NfRel/NfRelOrd.jl
+
+signal (15): Terminated
+in expression starting at none:10
+epoll_pwait at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+uv__io_poll at /workspace/srcdir/libuv/src/unix/linux-core.c:261
+uv_run at /workspace/srcdir/libuv/src/unix/core.c:361
+jl_run_once at /buildworker/worker/package_linux64/build/src/jl_uv.c:202
+jl_task_get_next at /buildworker/worker/package_linux64/build/src/partr.c:285
+poptaskref at ./task.jl:564
+wait at ./task.jl:591
+wait at ./condition.jl:104
+stream_wait at ./stream.jl:47
+wait at ./process.jl:956 [inlined]
+success at ./process.jl:771 [inlined]
+#run#536 at ./process.jl:728
+run at ./process.jl:726 [inlined]
+#40 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:600
+#41 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:611
+#32 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:568 [inlined]
+withenv at ./env.jl:161
+#30 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:567
+#mktempdir#15 at ./file.jl:584
+mktempdir at ./file.jl:582 [inlined]
+mktempdir at ./file.jl:582 [inlined]
+#with_dependencies_loadable_at_toplevel#27 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:516
+#with_dependencies_loadable_at_toplevel at ./none:0 [inlined]
+backwards_compatibility_for_test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/backwards_compatible_isolation.jl:606
+#test#119 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/Operations.jl:1263
+#test at ./none:0 [inlined]
+#test#62 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:245
+test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:233 [inlined]
+#test#61 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:230 [inlined]
+test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:230 [inlined]
+#test#60 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:229 [inlined]
+test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:229 [inlined]
+#test#59 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:228
+test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:228
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2197
+do_call at /buildworker/worker/package_linux64/build/src/interpreter.c:323
+eval_value at /buildworker/worker/package_linux64/build/src/interpreter.c:411
+eval_stmt_value at /buildworker/worker/package_linux64/build/src/interpreter.c:362 [inlined]
+eval_body at /buildworker/worker/package_linux64/build/src/interpreter.c:772
+jl_interpret_toplevel_thunk_callback at /buildworker/worker/package_linux64/build/src/interpreter.c:884
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7f09601f4a0f)
+unknown function (ip: (nil))
+jl_interpret_toplevel_thunk at /buildworker/worker/package_linux64/build/src/interpreter.c:893
+jl_toplevel_eval_flex at /buildworker/worker/package_linux64/build/src/toplevel.c:815
+jl_toplevel_eval_flex at /buildworker/worker/package_linux64/build/src/toplevel.c:764
+jl_toplevel_eval_in at /buildworker/worker/package_linux64/build/src/toplevel.c:844
+eval at ./boot.jl:330
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2191
+exec_options at ./client.jl:271
+_start at ./client.jl:464
+jl_apply_generic at /buildworker/worker/package_linux64/build/src/gf.c:2191
+jl_apply at /buildworker/worker/package_linux64/build/ui/../src/julia.h:1614 [inlined]
+true_main at /buildworker/worker/package_linux64/build/ui/repl.c:96
+main at /buildworker/worker/package_linux64/build/ui/repl.c:217
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+_start at /opt/julia/bin/julia (unknown line)
+unknown function (ip: 0xffffffffffffffff)
+Allocations: 7955507 (Pool: 7953811; Big: 1696); GC: 17

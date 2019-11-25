@@ -1,0 +1,165 @@
+ Resolving package versions...
+ Installed NetworkLayout ───── v0.2.0
+ Installed FixedPointNumbers ─ v0.6.1
+ Installed ColorTypes ──────── v0.8.0
+ Installed IterTools ───────── v1.3.0
+ Installed GeometryTypes ───── v0.7.6
+ Installed StaticArrays ────── v0.12.1
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [46757867] + NetworkLayout v0.2.0
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [3da002f7] + ColorTypes v0.8.0
+  [53c48c17] + FixedPointNumbers v0.6.1
+  [4d00f742] + GeometryTypes v0.7.6
+  [c8e1da08] + IterTools v1.3.0
+  [46757867] + NetworkLayout v0.2.0
+  [90137ffa] + StaticArrays v0.12.1
+  [2a0f44e3] + Base64 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+   Testing NetworkLayout
+ Resolving package versions...
+ Installed SimpleTraits ─────── v0.9.1
+ Installed DataStructures ───── v0.17.6
+ Installed Compat ───────────── v3.0.0
+ Installed Tokenize ─────────── v0.5.7
+ Installed Inflate ──────────── v0.1.1
+ Installed CSTParser ────────── v1.1.0
+ Installed OrderedCollections ─ v1.1.0
+ Installed LightGraphs ──────── v1.3.0
+ Installed ArnoldiMethod ────── v0.0.4
+ Installed MacroTools ───────── v0.5.1
+    Status `/tmp/jl_WIBjWx/Manifest.toml`
+  [ec485272] ArnoldiMethod v0.0.4
+  [00ebfdb7] CSTParser v1.1.0
+  [3da002f7] ColorTypes v0.8.0
+  [34da2185] Compat v3.0.0
+  [864edb3b] DataStructures v0.17.6
+  [53c48c17] FixedPointNumbers v0.6.1
+  [4d00f742] GeometryTypes v0.7.6
+  [d25df0c9] Inflate v0.1.1
+  [c8e1da08] IterTools v1.3.0
+  [093fc24a] LightGraphs v1.3.0
+  [1914dd2f] MacroTools v0.5.1
+  [46757867] NetworkLayout v0.2.0
+  [bac558e1] OrderedCollections v1.1.0
+  [699a6c99] SimpleTraits v0.9.1
+  [90137ffa] StaticArrays v0.12.1
+  [0796e94c] Tokenize v0.5.7
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+WARNING: Compat.Markdown is deprecated, use Markdown instead.
+  likely near /root/.julia/packages/MacroTools/ys44U/src/MacroTools.jl:4
+WARNING: Compat.Random is deprecated, use Random instead.
+  likely near /root/.julia/packages/MacroTools/ys44U/src/MacroTools.jl:35
+SFDP
+SFDP Jagmesh1
+┌ Warning: `a::StaticArray - b::Number` is deprecated, use `a .- b` instead.
+│   caller = _broadcast_getindex_evalf at broadcast.jl:625 [inlined]
+└ @ Core ./broadcast.jl:625
+  5.497322 seconds (5.79 M allocations: 303.423 MiB, 3.26% gc time)
+┌ Warning: `a::StaticArray - b::Number` is deprecated, use `a .- b` instead.
+│   caller = _broadcast_getindex_evalf at broadcast.jl:625 [inlined]
+└ @ Core ./broadcast.jl:625
+  1.662926 seconds (1.36 M allocations: 76.708 MiB, 10.97% gc time)
+SFDP Wheelgraph
+┌ Warning: `WheelGraph` is deprecated, use `wheel_graph` instead.
+│   caller = top-level scope at runtests.jl:39
+└ @ Core ~/.julia/packages/NetworkLayout/hUKo2/test/runtests.jl:39
+┌ Warning: `a::StaticArray - b::Number` is deprecated, use `a .- b` instead.
+│   caller = _broadcast_getindex at broadcast.jl:625 [inlined]
+└ @ Core ./broadcast.jl:625
+  0.294883 seconds (555.26 k allocations: 28.493 MiB, 3.10% gc time)
+┌ Warning: `a::StaticArray - b::Number` is deprecated, use `a .- b` instead.
+│   caller = _broadcast_getindex at broadcast.jl:625 [inlined]
+└ @ Core ./broadcast.jl:625
+  0.369682 seconds (558.91 k allocations: 28.502 MiB, 8.95% gc time)
+Stress
+Stress Jagmesh1
+ 20.791781 seconds (4.94 M allocations: 278.891 MiB, 1.22% gc time)
+ 11.746030 seconds (964.97 k allocations: 81.031 MiB, 1.79% gc time)
+Stress WheelGraph
+┌ Warning: `WheelGraph` is deprecated, use `wheel_graph` instead.
+│   caller = top-level scope at runtests.jl:62
+└ @ Core ~/.julia/packages/NetworkLayout/hUKo2/test/runtests.jl:62
+┌ Warning: Maximum number of iterations reached without convergence
+└ @ NetworkLayout.Stress ~/.julia/packages/NetworkLayout/hUKo2/src/stress.jl:109
+  0.034979 seconds (26.82 k allocations: 1.411 MiB)
+┌ Warning: Maximum number of iterations reached without convergence
+└ @ NetworkLayout.Stress ~/.julia/packages/NetworkLayout/hUKo2/src/stress.jl:109
+  0.000994 seconds (549 allocations: 58.656 KiB)
+Spring WheelGraph
+┌ Warning: `WheelGraph` is deprecated, use `wheel_graph` instead.
+│   caller = top-level scope at runtests.jl:75
+└ @ Core ~/.julia/packages/NetworkLayout/hUKo2/test/runtests.jl:75
+┌ Warning: `a::StaticArray - b::Number` is deprecated, use `a .- b` instead.
+│   caller = _broadcast_getindex at broadcast.jl:625 [inlined]
+└ @ Core ./broadcast.jl:625
+  0.640682 seconds (628.31 k allocations: 32.561 MiB, 5.03% gc time)
+┌ Warning: `a::StaticArray - b::Number` is deprecated, use `a .- b` instead.
+│   caller = _broadcast_getindex_evalf at broadcast.jl:625 [inlined]
+└ @ Core ./broadcast.jl:625
+  0.475179 seconds (612.67 k allocations: 31.479 MiB, 1.92% gc time)
+Spectral WheelGraph
+┌ Warning: `WheelGraph` is deprecated, use `wheel_graph` instead.
+│   caller = top-level scope at runtests.jl:88
+└ @ Core ~/.julia/packages/NetworkLayout/hUKo2/test/runtests.jl:88
+  4.669490 seconds (5.59 M allocations: 277.788 MiB, 3.99% gc time)
+Circular WheelGraph
+┌ Warning: `WheelGraph` is deprecated, use `wheel_graph` instead.
+│   caller = top-level scope at runtests.jl:98
+└ @ Core ~/.julia/packages/NetworkLayout/hUKo2/test/runtests.jl:98
+  0.908894 seconds (1.24 M allocations: 62.483 MiB, 4.53% gc time)
+  0.000012 seconds (5 allocations: 256 bytes)
+Shell WheelGraph
+┌ Warning: `WheelGraph` is deprecated, use `wheel_graph` instead.
+│   caller = top-level scope at runtests.jl:116
+└ @ Core ~/.julia/packages/NetworkLayout/hUKo2/test/runtests.jl:116
+  0.121408 seconds (177.56 k allocations: 9.397 MiB)
+  0.000005 seconds (5 allocations: 256 bytes)
+Buchheim
+Buchheim Random
+  1.033828 seconds (825.45 k allocations: 40.420 MiB, 2.51% gc time)
+Buchheim BinaryTree
+┌ Warning: `BinaryTree` is deprecated, use `binary_tree` instead.
+│   caller = top-level scope at runtests.jl:150
+└ @ Core ~/.julia/packages/NetworkLayout/hUKo2/test/runtests.jl:150
+  1.759022 seconds (3.95 M allocations: 161.635 MiB, 3.32% gc time)
+  1.449347 seconds (1.40 M allocations: 72.114 MiB, 2.58% gc time)
+Test Summary:         | Pass  Total
+Testing NetworkLayout |   18     18
+   Testing NetworkLayout tests passed 

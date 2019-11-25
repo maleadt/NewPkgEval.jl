@@ -1,0 +1,364 @@
+ Installed Rotations ──── v0.12.0
+ Installed StaticArrays ─ v0.12.1
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [6038ab10] + Rotations v0.12.0
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [6038ab10] + Rotations v0.12.0
+  [90137ffa] + StaticArrays v0.12.1
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+   Testing Rotations
+ Resolving package versions...
+ Installed Compat ─────────────── v2.2.0
+ Installed DiffRules ──────────── v0.1.0
+ Installed BinaryProvider ─────── v0.5.8
+ Installed ForwardDiff ────────── v0.10.7
+ Installed CommonSubexpressions ─ v0.2.0
+ Installed JSON ───────────────── v0.21.0
+ Installed BenchmarkTools ─────── v0.4.3
+ Installed NaNMath ────────────── v0.3.3
+ Installed Parsers ────────────── v0.3.10
+ Installed SpecialFunctions ───── v0.8.0
+ Installed URIParser ──────────── v0.4.0
+ Installed BinDeps ────────────── v0.8.10
+ Installed DiffResults ────────── v0.0.4
+  Building SpecialFunctions → `~/.julia/packages/SpecialFunctions/ne2iw/deps/build.log`
+    Status `/tmp/jl_j8vrs8/Manifest.toml`
+  [6e4b80f9] BenchmarkTools v0.4.3
+  [9e28174c] BinDeps v0.8.10
+  [b99e7846] BinaryProvider v0.5.8
+  [bbf7d656] CommonSubexpressions v0.2.0
+  [34da2185] Compat v2.2.0
+  [163ba53b] DiffResults v0.0.4
+  [b552c78f] DiffRules v0.1.0
+  [f6369f11] ForwardDiff v0.10.7
+  [682c06a0] JSON v0.21.0
+  [77ba4419] NaNMath v0.3.3
+  [69de0a69] Parsers v0.3.10
+  [6038ab10] Rotations v0.12.0
+  [276daf66] SpecialFunctions v0.8.0
+  [90137ffa] StaticArrays v0.12.1
+  [30578b45] URIParser v0.4.0
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+Skipping Base.active_repl
+Skipping Base.active_repl_backend
+Skipping Base.active_repl
+Skipping Base.active_repl_backend
+Test Summary: | Pass  Total
+Util          |  201    201
+Test Summary: | Pass  Total
+2d Rotations  | 3524   3524
+Test Summary:   |   Pass   Total
+Rotations Tests | 190108  190108
+┌ Warning: `a::Number - b::StaticArray` is deprecated, use `a .- b` instead.
+│   caller = jacobian(::Type{Quat}, ::SPQuat{Float64}) at derivatives.jl:115
+└ @ Rotations ~/.julia/packages/Rotations/4nmAE/src/derivatives.jl:115
+Test Summary:     | Pass  Total
+Derivative checks |   73     73
+Test Summary:            | Pass  Total
+Principal Value (SPQuat) | 2000   2000
+Test Summary:          | Pass  Total
+Principal Value (Quat) | 2000   2000
+Test Summary:                | Pass  Total
+Principal Value (Angle Axis) | 2000   2000
+Test Summary:                      | Pass  Total
+Principal Value (Rodrigues Vector) | 2002   2002
+Test Summary:          | Pass  Total
+Principal Value (RotX) | 2000   2000
+Test Summary:          | Pass  Total
+Principal Value (RotY) | 2000   2000
+Test Summary:          | Pass  Total
+Principal Value (RotZ) | 2000   2000
+Test Summary:           | Pass  Total
+Principal Value (RotXY) | 3000   3000
+Test Summary:           | Pass  Total
+Principal Value (RotYX) | 3000   3000
+Test Summary:           | Pass  Total
+Principal Value (RotZX) | 3000   3000
+Test Summary:           | Pass  Total
+Principal Value (RotXZ) | 3000   3000
+Test Summary:           | Pass  Total
+Principal Value (RotYZ) | 3000   3000
+Test Summary:           | Pass  Total
+Principal Value (RotZY) | 3000   3000
+Test Summary:            | Pass  Total
+Principal Value (RotXYX) | 4000   4000
+Test Summary:            | Pass  Total
+Principal Value (RotYXY) | 4000   4000
+Test Summary:            | Pass  Total
+Principal Value (RotZXZ) | 4000   4000
+Test Summary:            | Pass  Total
+Principal Value (RotXZX) | 4000   4000
+Test Summary:            | Pass  Total
+Principal Value (RotYZY) | 4000   4000
+Test Summary:            | Pass  Total
+Principal Value (RotZYZ) | 4000   4000
+Test Summary:            | Pass  Total
+Principal Value (RotXYZ) | 4000   4000
+Test Summary:            | Pass  Total
+Principal Value (RotYXZ) | 4000   4000
+Test Summary:            | Pass  Total
+Principal Value (RotZXY) | 4000   4000
+Test Summary:            | Pass  Total
+Principal Value (RotXZY) | 4000   4000
+Test Summary:            | Pass  Total
+Principal Value (RotYZX) | 4000   4000
+Test Summary:            | Pass  Total
+Principal Value (RotZYX) | 4000   4000
+(1/3) tuning "Composition"...
+  (1/1) tuning "RotMatrix{3} * RotMatrix{3}"...
+  done (took 1.891446095 seconds)
+done (took 2.566216606 seconds)
+(2/3) tuning "Euler conversions"...
+  (1/21) tuning "RotZXZ{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 0.976685164 seconds)
+  (2/21) tuning "RotZYX{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 0.967277363 seconds)
+  (3/21) tuning "RotXZ{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 0.946446841 seconds)
+  (4/21) tuning "RotYZX{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.025704669 seconds)
+  (5/21) tuning "RotZY{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 0.942747044 seconds)
+  (6/21) tuning "RotZYZ{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.056567633 seconds)
+  (7/21) tuning "RotYZY{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.145051171 seconds)
+  (8/21) tuning "RotZ{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.130197137 seconds)
+  (9/21) tuning "RotYXY{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.128086883 seconds)
+  (10/21) tuning "RotXZY{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.092537026 seconds)
+  (11/21) tuning "RotYX{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 0.909088283 seconds)
+  (12/21) tuning "RotXYX{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.284477921 seconds)
+  (13/21) tuning "RotXY{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 0.89794752 seconds)
+  (14/21) tuning "RotZX{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.063233591 seconds)
+  (15/21) tuning "RotXYZ{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.30797983 seconds)
+  (16/21) tuning "RotX{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 0.879408698 seconds)
+  (17/21) tuning "RotYZ{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 0.894602935 seconds)
+  (18/21) tuning "RotZXY{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 0.986026463 seconds)
+  (19/21) tuning "RotXZX{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.097787948 seconds)
+  (20/21) tuning "RotY{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 0.882667943 seconds)
+  (21/21) tuning "RotYXZ{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.067277892 seconds)
+done (took 22.251456299 seconds)
+(3/3) tuning "Non-Euler conversions"...
+  (1/20) tuning "RotMatrix{3,Float64,9} -> SPQuat{Float64}"...
+  done (took 0.985770309 seconds)
+  (2/20) tuning "AngleAxis{Float64} -> Quat{Float64}"...
+  done (took 0.907993821 seconds)
+  (3/20) tuning "Quat{Float64} -> RodriguesVec{Float64}"...
+  done (took 1.006156706 seconds)
+  (4/20) tuning "RodriguesVec{Float64} -> AngleAxis{Float64}"...
+  done (took 0.933149284 seconds)
+  (5/20) tuning "SPQuat{Float64} -> RodriguesVec{Float64}"...
+  done (took 1.072040465 seconds)
+  (6/20) tuning "AngleAxis{Float64} -> SPQuat{Float64}"...
+  done (took 0.941709471 seconds)
+  (7/20) tuning "AngleAxis{Float64} -> RodriguesVec{Float64}"...
+  done (took 0.841896208 seconds)
+  (8/20) tuning "RodriguesVec{Float64} -> Quat{Float64}"...
+  done (took 1.049266348 seconds)
+  (9/20) tuning "AngleAxis{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.036539481 seconds)
+  (10/20) tuning "Quat{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 0.861739187 seconds)
+  (11/20) tuning "RodriguesVec{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 0.971899704 seconds)
+  (12/20) tuning "SPQuat{Float64} -> AngleAxis{Float64}"...
+  done (took 0.952051881 seconds)
+  (13/20) tuning "Quat{Float64} -> SPQuat{Float64}"...
+  done (took 0.866638258 seconds)
+  (14/20) tuning "RodriguesVec{Float64} -> SPQuat{Float64}"...
+  done (took 0.939871816 seconds)
+  (15/20) tuning "RotMatrix{3,Float64,9} -> Quat{Float64}"...
+  done (took 0.920728647 seconds)
+  (16/20) tuning "RotMatrix{3,Float64,9} -> RodriguesVec{Float64}"...
+  done (took 0.90380098 seconds)
+  (17/20) tuning "SPQuat{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 0.852034406 seconds)
+  (18/20) tuning "Quat{Float64} -> AngleAxis{Float64}"...
+  done (took 0.87403642 seconds)
+  (19/20) tuning "RotMatrix{3,Float64,9} -> AngleAxis{Float64}"...
+  done (took 0.919283734 seconds)
+  (20/20) tuning "SPQuat{Float64} -> Quat{Float64}"...
+  done (took 1.032694512 seconds)
+done (took 19.48955234 seconds)
+(1/3) benchmarking "Composition"...
+  (1/1) benchmarking "RotMatrix{3} * RotMatrix{3}"...
+  done (took 0.93700739 seconds)
+done (took 1.519923093 seconds)
+(2/3) benchmarking "Euler conversions"...
+  (1/21) benchmarking "RotZXZ{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 2.122232708 seconds)
+  (2/21) benchmarking "RotZYX{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.821563406 seconds)
+  (3/21) benchmarking "RotXZ{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.48493228 seconds)
+  (4/21) benchmarking "RotYZX{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.783965451 seconds)
+  (5/21) benchmarking "RotZY{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.391196532 seconds)
+  (6/21) benchmarking "RotZYZ{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.84530425 seconds)
+  (7/21) benchmarking "RotYZY{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.867591335 seconds)
+  (8/21) benchmarking "RotZ{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.208043015 seconds)
+  (9/21) benchmarking "RotYXY{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.834948896 seconds)
+  (10/21) benchmarking "RotXZY{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.805589438 seconds)
+  (11/21) benchmarking "RotYX{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.553067925 seconds)
+  (12/21) benchmarking "RotXYX{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.830297525 seconds)
+  (13/21) benchmarking "RotXY{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.518109381 seconds)
+  (14/21) benchmarking "RotZX{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.508095696 seconds)
+  (15/21) benchmarking "RotXYZ{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.798399776 seconds)
+  (16/21) benchmarking "RotX{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.29770869 seconds)
+  (17/21) benchmarking "RotYZ{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.450276268 seconds)
+  (18/21) benchmarking "RotZXY{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 2.019085323 seconds)
+  (19/21) benchmarking "RotXZX{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.906169334 seconds)
+  (20/21) benchmarking "RotY{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.127033317 seconds)
+  (21/21) benchmarking "RotYXZ{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.745350351 seconds)
+done (took 35.5198805 seconds)
+(3/3) benchmarking "Non-Euler conversions"...
+  (1/20) benchmarking "RotMatrix{3,Float64,9} -> SPQuat{Float64}"...
+  done (took 1.238966493 seconds)
+  (2/20) benchmarking "AngleAxis{Float64} -> Quat{Float64}"...
+  done (took 1.12898935 seconds)
+  (3/20) benchmarking "Quat{Float64} -> RodriguesVec{Float64}"...
+  done (took 1.432289051 seconds)
+  (4/20) benchmarking "RodriguesVec{Float64} -> AngleAxis{Float64}"...
+  done (took 0.876991882 seconds)
+  (5/20) benchmarking "SPQuat{Float64} -> RodriguesVec{Float64}"...
+  done (took 1.910720656 seconds)
+  (6/20) benchmarking "AngleAxis{Float64} -> SPQuat{Float64}"...
+  done (took 1.991664086 seconds)
+  (7/20) benchmarking "AngleAxis{Float64} -> RodriguesVec{Float64}"...
+  done (took 0.760525651 seconds)
+  (8/20) benchmarking "RodriguesVec{Float64} -> Quat{Float64}"...
+  done (took 1.507726888 seconds)
+  (9/20) benchmarking "AngleAxis{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.19292214 seconds)
+  (10/20) benchmarking "Quat{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 0.928781628 seconds)
+  (11/20) benchmarking "RodriguesVec{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 2.063416238 seconds)
+  (12/20) benchmarking "SPQuat{Float64} -> AngleAxis{Float64}"...
+  done (took 2.339642652 seconds)
+  (13/20) benchmarking "Quat{Float64} -> SPQuat{Float64}"...
+  done (took 0.800264514 seconds)
+  (14/20) benchmarking "RodriguesVec{Float64} -> SPQuat{Float64}"...
+  done (took 2.182791368 seconds)
+  (15/20) benchmarking "RotMatrix{3,Float64,9} -> Quat{Float64}"...
+  done (took 1.22930706 seconds)
+  (16/20) benchmarking "RotMatrix{3,Float64,9} -> RodriguesVec{Float64}"...
+  done (took 2.187424767 seconds)
+  (17/20) benchmarking "SPQuat{Float64} -> RotMatrix{3,Float64,9}"...
+  done (took 1.036701467 seconds)
+  (18/20) benchmarking "Quat{Float64} -> AngleAxis{Float64}"...
+  done (took 1.448904274 seconds)
+  (19/20) benchmarking "RotMatrix{3,Float64,9} -> AngleAxis{Float64}"...
+  done (took 1.968796584 seconds)
+  (20/20) benchmarking "SPQuat{Float64} -> Quat{Float64}"...
+  done (took 0.810403046 seconds)
+done (took 29.696099454 seconds)
+
+Group: Composition
+RotMatrix{3} * RotMatrix{3} 13.094 ns
+
+Group: Euler conversions
+RotZXZ{Float64} -> RotMatrix{3,Float64,9} 69.349 ns
+RotZYX{Float64} -> RotMatrix{3,Float64,9} 64.670 ns
+RotXZ{Float64} -> RotMatrix{3,Float64,9}  38.738 ns
+RotYZX{Float64} -> RotMatrix{3,Float64,9} 56.456 ns
+RotZY{Float64} -> RotMatrix{3,Float64,9}  36.031 ns
+RotZYZ{Float64} -> RotMatrix{3,Float64,9} 66.860 ns
+RotYZY{Float64} -> RotMatrix{3,Float64,9} 66.080 ns
+RotZ{Float64} -> RotMatrix{3,Float64,9}   21.421 ns
+RotYXY{Float64} -> RotMatrix{3,Float64,9} 69.839 ns
+RotXZY{Float64} -> RotMatrix{3,Float64,9} 69.267 ns
+RotYX{Float64} -> RotMatrix{3,Float64,9}  37.311 ns
+RotXYX{Float64} -> RotMatrix{3,Float64,9} 66.440 ns
+RotXY{Float64} -> RotMatrix{3,Float64,9}  36.717 ns
+RotZX{Float64} -> RotMatrix{3,Float64,9}  26.143 ns
+RotXYZ{Float64} -> RotMatrix{3,Float64,9} 49.332 ns
+RotX{Float64} -> RotMatrix{3,Float64,9}   20.114 ns
+RotYZ{Float64} -> RotMatrix{3,Float64,9}  36.674 ns
+RotZXY{Float64} -> RotMatrix{3,Float64,9} 66.349 ns
+RotXZX{Float64} -> RotMatrix{3,Float64,9} 49.949 ns
+RotY{Float64} -> RotMatrix{3,Float64,9}   20.141 ns
+RotYXZ{Float64} -> RotMatrix{3,Float64,9} 64.443 ns
+
+Group: Non-Euler conversions
+RotMatrix{3,Float64,9} -> SPQuat{Float64}       43.022 ns
+AngleAxis{Float64} -> Quat{Float64}             14.175 ns
+Quat{Float64} -> RodriguesVec{Float64}          45.859 ns
+RodriguesVec{Float64} -> AngleAxis{Float64}     13.851 ns
+SPQuat{Float64} -> RodriguesVec{Float64}        103.266 ns
+AngleAxis{Float64} -> SPQuat{Float64}           69.301 ns
+AngleAxis{Float64} -> RodriguesVec{Float64}     2.457 ns
+RodriguesVec{Float64} -> Quat{Float64}          48.923 ns
+AngleAxis{Float64} -> RotMatrix{3,Float64,9}    30.589 ns
+Quat{Float64} -> RotMatrix{3,Float64,9}         7.684 ns
+RodriguesVec{Float64} -> RotMatrix{3,Float64,9} 79.575 ns
+SPQuat{Float64} -> AngleAxis{Float64}           116.173 ns
+Quat{Float64} -> SPQuat{Float64}                2.822 ns
+RodriguesVec{Float64} -> SPQuat{Float64}        119.260 ns
+RotMatrix{3,Float64,9} -> Quat{Float64}         37.627 ns
+RotMatrix{3,Float64,9} -> RodriguesVec{Float64} 69.135 ns
+SPQuat{Float64} -> RotMatrix{3,Float64,9}       26.862 ns
+Quat{Float64} -> AngleAxis{Float64}             43.598 ns
+RotMatrix{3,Float64,9} -> AngleAxis{Float64}    98.145 ns
+SPQuat{Float64} -> Quat{Float64}                6.394 ns
+
+   Testing Rotations tests passed 

@@ -1,0 +1,307 @@
+ Resolving package versions...
+ Installed CodecZlib ────────── v0.6.0
+ Installed Parsers ──────────── v0.3.10
+ Installed StackOverflow ────── v0.1.0
+ Installed MbedTLS ──────────── v0.7.0
+ Installed TranscodingStreams ─ v0.9.5
+ Installed BinaryProvider ───── v0.5.8
+ Installed HTTP ─────────────── v0.8.8
+ Installed JSON ─────────────── v0.21.0
+ Installed IniFile ──────────── v0.5.0
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [1a8df32f] + StackOverflow v0.1.0
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [b99e7846] + BinaryProvider v0.5.8
+  [944b1d66] + CodecZlib v0.6.0
+  [cd3eb016] + HTTP v0.8.8
+  [83e8ac13] + IniFile v0.5.0
+  [682c06a0] + JSON v0.21.0
+  [739be429] + MbedTLS v0.7.0
+  [69de0a69] + Parsers v0.3.10
+  [1a8df32f] + StackOverflow v0.1.0
+  [3bb67fe8] + TranscodingStreams v0.9.5
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [8f399da3] + Libdl 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [de0858da] + Printf 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [8dfed614] + Test 
+  [4ec0a83e] + Unicode 
+  Building MbedTLS ──→ `~/.julia/packages/MbedTLS/a1JFn/deps/build.log`
+  Building CodecZlib → `~/.julia/packages/CodecZlib/5t9zO/deps/build.log`
+   Testing StackOverflow
+ Resolving package versions...
+    Status `/tmp/jl_Lxo6Gx/Manifest.toml`
+  [b99e7846] BinaryProvider v0.5.8
+  [944b1d66] CodecZlib v0.6.0
+  [cd3eb016] HTTP v0.8.8
+  [83e8ac13] IniFile v0.5.0
+  [682c06a0] JSON v0.21.0
+  [739be429] MbedTLS v0.7.0
+  [69de0a69] Parsers v0.3.10
+  [1a8df32f] StackOverflow v0.1.0
+  [3bb67fe8] TranscodingStreams v0.9.5
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+rank bronze
+name Editor
+badge_id 3
+link https://stackoverflow.com/badges/3/editor
+user Dict{String,Any}("user_type" => "registered","display_name" => "Геннадий Курбесов","reputation" => 36,"user_id" => 10131953,"link" => "https://stackoverflow.com/users/10131953/%d0%93%d0%b5%d0%bd%d0%bd%d0%b0%d0%b4%d0%b8%d0%b9-%d0%9a%d1%83%d1%80%d0%b1%d0%b5%d1%81%d0%be%d0%b2","profile_image" => "https://lh3.googleusercontent.com/-OFRG2KgoB1w/AAAAAAAAAAI/AAAAAAAAAC0/FLwG_hStXoA/photo.jpg?sz=128")
+badge_type named
+
+
+rank bronze
+name Editor
+badge_id 3
+link https://stackoverflow.com/badges/3/editor
+user Dict{String,Any}("user_type" => "registered","display_name" => "Chris Maxel","reputation" => 1,"user_id" => 12471079,"link" => "https://stackoverflow.com/users/12471079/chris-maxel","profile_image" => "https://www.gravatar.com/avatar/1856ebb1f110e0f6166f3da2a5ccdb94?s=128&d=identicon&r=PG&f=1")
+badge_type named
+
+
+rank gold
+name Famous Question
+badge_id 28
+link https://stackoverflow.com/badges/28/famous-question
+user Dict{String,Any}("accept_rate" => 44,"user_type" => "registered","display_name" => "Andi Giga","reputation" => 2325,"user_id" => 2876990,"link" => "https://stackoverflow.com/users/2876990/andi-giga","profile_image" => "https://graph.facebook.com/1429837585/picture?type=large")
+badge_type named
+
+
+rank gold
+name Famous Question
+badge_id 28
+link https://stackoverflow.com/badges/28/famous-question
+user Dict{String,Any}("accept_rate" => 100,"user_type" => "registered","display_name" => "Dpw808","reputation" => 97,"user_id" => 5556412,"link" => "https://stackoverflow.com/users/5556412/dpw808","profile_image" => "https://graph.facebook.com/10102203379771495/picture?type=large")
+badge_type named
+
+
+rank gold
+name Famous Question
+badge_id 28
+link https://stackoverflow.com/badges/28/famous-question
+user Dict{String,Any}("accept_rate" => 100,"user_type" => "registered","display_name" => "CalendarJ","reputation" => 565,"user_id" => 8290926,"link" => "https://stackoverflow.com/users/8290926/calendarj","profile_image" => "https://www.gravatar.com/avatar/502518b226fa50ef72b88a339caad2c4?s=128&d=identicon&r=PG&f=1")
+badge_type named
+
+
+rank silver
+name Necromancer
+badge_id 17
+link https://stackoverflow.com/badges/17/necromancer
+user Dict{String,Any}("accept_rate" => 65,"user_type" => "registered","display_name" => "Kyle Heuton","reputation" => 6767,"user_id" => 1748679,"link" => "https://stackoverflow.com/users/1748679/kyle-heuton","profile_image" => "https://www.gravatar.com/avatar/afebaed9a11b4b56934add3801429c9c?s=128&d=identicon&r=PG")
+badge_type named
+
+
+rank silver
+name Notable Question
+badge_id 27
+link https://stackoverflow.com/badges/27/notable-question
+user Dict{String,Any}("user_type" => "registered","display_name" => "Vikas Rathore","reputation" => 1287,"user_id" => 6656693,"link" => "https://stackoverflow.com/users/6656693/vikas-rathore","profile_image" => "https://graph.facebook.com/1176414675743601/picture?type=large")
+badge_type named
+
+
+rank silver
+name Notable Question
+badge_id 27
+link https://stackoverflow.com/badges/27/notable-question
+user Dict{String,Any}("user_type" => "registered","display_name" => "Krishna","reputation" => 63,"user_id" => 418568,"link" => "https://stackoverflow.com/users/418568/krishna","profile_image" => "https://www.gravatar.com/avatar/702b832774780e6ed7fb78fd44d06ae3?s=128&d=identicon&r=PG")
+badge_type named
+
+
+rank silver
+name Notable Question
+badge_id 27
+link https://stackoverflow.com/badges/27/notable-question
+user Dict{String,Any}("accept_rate" => 41,"user_type" => "registered","display_name" => "Sagiruddin Mondal","reputation" => 3312,"user_id" => 2174878,"link" => "https://stackoverflow.com/users/2174878/sagiruddin-mondal","profile_image" => "https://www.gravatar.com/avatar/986fc358f7cbf402d2e1bb8e1346d772?s=128&d=identicon&r=PG")
+badge_type named
+
+
+rank silver
+name Notable Question
+badge_id 27
+link https://stackoverflow.com/badges/27/notable-question
+user Dict{String,Any}("user_type" => "registered","display_name" => "Kevin Sabanagic","reputation" => 33,"user_id" => 7804457,"link" => "https://stackoverflow.com/users/7804457/kevin-sabanagic","profile_image" => "https://www.gravatar.com/avatar/6b1e75ceb463026dd2c077c101bd7f8a?s=128&d=identicon&r=PG&f=1")
+badge_type named
+
+
+rank silver
+name Notable Question
+badge_id 27
+link https://stackoverflow.com/badges/27/notable-question
+user Dict{String,Any}("accept_rate" => 17,"user_type" => "registered","display_name" => "Mr.Javed Multani","reputation" => 5232,"user_id" => 4600136,"link" => "https://stackoverflow.com/users/4600136/mr-javed-multani","profile_image" => "https://lh4.googleusercontent.com/-LO7XEu0QoTI/AAAAAAAAAAI/AAAAAAAAANo/XU-NuIghIpk/photo.jpg?sz=128")
+badge_type named
+
+
+rank silver
+name Notable Question
+badge_id 27
+link https://stackoverflow.com/badges/27/notable-question
+user Dict{String,Any}("user_type" => "registered","display_name" => "user2107109","reputation" => 1,"user_id" => 2107109,"link" => "https://stackoverflow.com/users/2107109/user2107109","profile_image" => "https://www.gravatar.com/avatar/0034301323da90d69a8a996442f45421?s=128&d=identicon&r=PG")
+badge_type named
+
+
+rank silver
+name Notable Question
+badge_id 27
+link https://stackoverflow.com/badges/27/notable-question
+user Dict{String,Any}("user_type" => "registered","display_name" => "Tengis","reputation" => 211,"user_id" => 3777358,"link" => "https://stackoverflow.com/users/3777358/tengis","profile_image" => "https://www.gravatar.com/avatar/0e899c11331728b4e7ede4d8912c2d7f?s=128&d=identicon&r=PG")
+badge_type named
+
+
+rank silver
+name Notable Question
+badge_id 27
+link https://stackoverflow.com/badges/27/notable-question
+user Dict{String,Any}("accept_rate" => 62,"user_type" => "registered","display_name" => "Jonathan Cheng","reputation" => 165,"user_id" => 7547560,"link" => "https://stackoverflow.com/users/7547560/jonathan-cheng","profile_image" => "https://www.gravatar.com/avatar/ebc0d35253f9bb74c9810ba2422af936?s=128&d=identicon&r=PG&f=1")
+badge_type named
+
+
+rank bronze
+name Popular Question
+badge_id 26
+link https://stackoverflow.com/badges/26/popular-question
+user Dict{String,Any}("user_type" => "registered","display_name" => "christiancn7","reputation" => 115,"user_id" => 9531697,"link" => "https://stackoverflow.com/users/9531697/christiancn7","profile_image" => "https://www.gravatar.com/avatar/731cb55742920e208f014d4f077ccb54?s=128&d=identicon&r=PG&f=1")
+badge_type named
+
+
+rank bronze
+name Popular Question
+badge_id 26
+link https://stackoverflow.com/badges/26/popular-question
+user Dict{String,Any}("user_type" => "registered","display_name" => "Haresh Gujarathi","reputation" => 129,"user_id" => 7284536,"link" => "https://stackoverflow.com/users/7284536/haresh-gujarathi","profile_image" => "https://graph.facebook.com/10210292304598389/picture?type=large")
+badge_type named
+
+
+rank bronze
+name Popular Question
+badge_id 26
+link https://stackoverflow.com/badges/26/popular-question
+user Dict{String,Any}("accept_rate" => 44,"user_type" => "registered","display_name" => "Devologist","reputation" => 55,"user_id" => 8222762,"link" => "https://stackoverflow.com/users/8222762/devologist","profile_image" => "https://www.gravatar.com/avatar/022669532d632fa9c28ea4080d0d40c5?s=128&d=identicon&r=PG&f=1")
+badge_type named
+
+
+rank bronze
+name Scholar
+badge_id 10
+link https://stackoverflow.com/badges/10/scholar
+user Dict{String,Any}("user_type" => "registered","display_name" => "Justin Rivera","reputation" => 3,"user_id" => 12358040,"link" => "https://stackoverflow.com/users/12358040/justin-rivera","profile_image" => "https://lh3.googleusercontent.com/a-/AAuE7mDb6khh7x7iAwUu-o8tdMuuDD9pJ2wFfD0BCUHB=k-s128")
+badge_type named
+
+
+rank bronze
+name Self-Learner
+badge_id 14
+link https://stackoverflow.com/badges/14/self-learner
+user Dict{String,Any}("user_type" => "registered","display_name" => "LazR","reputation" => 235,"user_id" => 6497788,"link" => "https://stackoverflow.com/users/6497788/lazr","profile_image" => "https://i.stack.imgur.com/G6aCQ.jpg?s=128&g=1")
+badge_type named
+
+
+rank bronze
+name Student
+badge_id 2
+link https://stackoverflow.com/badges/2/student
+user Dict{String,Any}("user_type" => "registered","display_name" => "snayam","reputation" => 11,"user_id" => 12326336,"link" => "https://stackoverflow.com/users/12326336/snayam","profile_image" => "https://www.gravatar.com/avatar/9fa77bb367366f72f845cd1ec72b31f2?s=128&d=identicon&r=PG&f=1")
+badge_type named
+
+
+rank bronze
+name Supporter
+badge_id 6
+link https://stackoverflow.com/badges/6/supporter
+user Dict{String,Any}("user_type" => "registered","display_name" => "powercat","reputation" => 17,"user_id" => 2701443,"link" => "https://stackoverflow.com/users/2701443/powercat","profile_image" => "https://i.stack.imgur.com/gyAMI.png?s=128&g=1")
+badge_type named
+
+
+rank bronze
+name Supporter
+badge_id 6
+link https://stackoverflow.com/badges/6/supporter
+user Dict{String,Any}("user_type" => "registered","display_name" => "Ege","reputation" => 16,"user_id" => 12216259,"link" => "https://stackoverflow.com/users/12216259/ege","profile_image" => "https://i.stack.imgur.com/AQLwP.jpg?s=128&g=1")
+badge_type named
+
+
+rank bronze
+name Teacher
+badge_id 1
+link https://stackoverflow.com/badges/1/teacher
+user Dict{String,Any}("user_type" => "registered","display_name" => "hextet","reputation" => 111,"user_id" => 4059724,"link" => "https://stackoverflow.com/users/4059724/hextet","profile_image" => "https://i.stack.imgur.com/46t5i.jpg?s=128&g=1")
+badge_type named
+
+
+rank bronze
+name Vox Populi
+badge_id 1108
+link https://stackoverflow.com/badges/1108/vox-populi
+user Dict{String,Any}("user_type" => "registered","display_name" => "Bwvolleyball","reputation" => 1025,"user_id" => 3859199,"link" => "https://stackoverflow.com/users/3859199/bwvolleyball","profile_image" => "https://i.stack.imgur.com/26she.jpg?s=128&g=1")
+badge_type named
+
+
+rank bronze
+name Vox Populi
+badge_id 1108
+link https://stackoverflow.com/badges/1108/vox-populi
+user Dict{String,Any}("user_type" => "registered","display_name" => "kaya3","reputation" => 6106,"user_id" => 12299000,"link" => "https://stackoverflow.com/users/12299000/kaya3","profile_image" => "https://i.stack.imgur.com/0pja9.png?s=128&g=1")
+badge_type named
+
+
+rank bronze
+name Nice Answer
+badge_id 23
+link https://stackoverflow.com/badges/23/nice-answer
+user Dict{String,Any}("accept_rate" => 91,"user_type" => "registered","display_name" => "S.Lott","reputation" => 334107,"user_id" => 10661,"link" => "https://stackoverflow.com/users/10661/s-lott","profile_image" => "https://www.gravatar.com/avatar/c2c732bbf13dc96670b210b3c0c1ead5?s=128&d=identicon&r=PG")
+badge_type named
+
+
+rank bronze
+name Nice Answer
+badge_id 23
+link https://stackoverflow.com/badges/23/nice-answer
+user Dict{String,Any}("user_type" => "registered","display_name" => "Cyril Durand","reputation" => 11510,"user_id" => 814735,"link" => "https://stackoverflow.com/users/814735/cyril-durand","profile_image" => "https://www.gravatar.com/avatar/18289d1d90dd23a3c9f2f4c039b8bdae?s=128&d=identicon&r=PG")
+badge_type named
+
+
+rank bronze
+name Citizen Patrol
+badge_id 8
+link https://stackoverflow.com/badges/8/citizen-patrol
+user Dict{String,Any}("user_type" => "registered","display_name" => "DCQ","reputation" => 26,"user_id" => 11788356,"link" => "https://stackoverflow.com/users/11788356/dcq","profile_image" => "https://i.stack.imgur.com/zgQRl.jpg?s=128&g=1")
+badge_type named
+
+
+rank bronze
+name Informed
+badge_id 2600
+link https://stackoverflow.com/badges/2600/informed
+user Dict{String,Any}("user_type" => "registered","display_name" => "İbrahim Sakacı","reputation" => 1,"user_id" => 12471123,"link" => "https://stackoverflow.com/users/12471123/%c4%b0brahim-sakac%c4%b1","profile_image" => "https://lh3.googleusercontent.com/a-/AAuE7mARMeWYw34Qm3qHpEmM3nG-LJXcO_6Hen5mnIo=k-s128")
+badge_type named
+
+
+rank bronze
+name Autobiographer
+badge_id 9
+link https://stackoverflow.com/badges/9/autobiographer
+user Dict{String,Any}("user_type" => "registered","display_name" => "Keshan Harsha","reputation" => 1,"user_id" => 12471064,"link" => "https://stackoverflow.com/users/12471064/keshan-harsha","profile_image" => "https://i.stack.imgur.com/i82fy.jpg?s=128&g=1")
+badge_type named
+
+
+   Testing StackOverflow tests passed 

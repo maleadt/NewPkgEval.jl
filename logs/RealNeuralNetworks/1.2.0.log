@@ -1,0 +1,559 @@
+ Resolving package versions...
+ Installed OptimBase ─────────────────── v2.0.0
+ Installed Missings ──────────────────── v0.4.3
+ Installed DataAPI ───────────────────── v1.1.0
+ Installed Inflate ───────────────────── v0.1.1
+ Installed MbedTLS ───────────────────── v0.7.0
+ Installed Arpack ────────────────────── v0.3.1
+ Installed LazyJSON ──────────────────── v0.1.1
+ Installed RealNeuralNetworks ────────── v1.0.1
+ Installed TableTraits ───────────────── v1.0.0
+ Installed NearestNeighbors ──────────── v0.4.4
+ Installed ComputationalResources ────── v0.3.0
+ Installed DataFrames ────────────────── v0.19.4
+ Installed CatIndices ────────────────── v0.2.0
+ Installed AbstractFFTs ──────────────── v0.5.0
+ Installed PDMats ────────────────────── v0.9.10
+ Installed BinaryProvider ────────────── v0.5.8
+ Installed Colors ────────────────────── v0.9.6
+ Installed CommonSubexpressions ──────── v0.2.0
+ Installed Blosc ─────────────────────── v0.5.1
+ Installed Conda ─────────────────────── v1.3.0
+ Installed StatsBase ─────────────────── v0.32.0
+ Installed JLD2 ──────────────────────── v0.1.9
+ Installed StatsFuns ─────────────────── v0.9.0
+ Installed Libz ──────────────────────── v1.0.0
+ Installed ArrayLayouts ──────────────── v0.1.5
+ Installed URIParser ─────────────────── v0.4.0
+ Installed NLSolversBase ─────────────── v7.5.0
+ Installed PooledArrays ──────────────── v0.5.2
+ Installed CSV ───────────────────────── v0.5.18
+ Installed Requires ──────────────────── v0.5.2
+ Installed AWSS3 ─────────────────────── v0.6.5
+ Installed DataValueInterfaces ───────── v1.0.0
+ Installed LsqFit ────────────────────── v0.8.1
+ Installed InvertedIndices ───────────── v1.0.0
+ Installed Reexport ──────────────────── v0.2.0
+ Installed Compat ────────────────────── v2.2.0
+ Installed OffsetArrays ──────────────── v0.11.2
+ Installed BigArrays ─────────────────── v0.8.0
+ Installed Rmath ─────────────────────── v0.5.1
+ Installed ForwardDiff ───────────────── v0.10.7
+ Installed Tables ────────────────────── v0.2.11
+ Installed OrderedCollections ────────── v1.1.0
+ Installed FilePathsBase ─────────────── v0.7.0
+ Installed IterTools ─────────────────── v1.3.0
+ Installed MetaGraphs ────────────────── v0.6.4
+ Installed IterableTables ────────────── v1.0.0
+ Installed MsgPack ───────────────────── v0.2.0
+ Installed Calculus ──────────────────── v0.5.1
+ Installed IniFile ───────────────────── v0.5.0
+ Installed MappedArrays ──────────────── v0.2.2
+ Installed SymDict ───────────────────── v0.3.0
+ Installed ColorVectorSpace ──────────── v0.7.1
+ Installed TableShowUtils ────────────── v0.2.5
+ Installed TableTraitsUtils ──────────── v1.0.1
+ Installed WeakRefStrings ────────────── v0.6.1
+ Installed DataStructures ────────────── v0.17.6
+ Installed Retry ─────────────────────── v0.4.0
+ Installed Memoize ───────────────────── v0.3.0
+ Installed Parsers ───────────────────── v0.3.10
+ Installed Distributions ─────────────── v0.21.9
+ Installed FixedPointNumbers ─────────── v0.6.1
+ Installed DiffRules ─────────────────── v0.1.0
+ Installed ImageFiltering ────────────── v0.6.5
+ Installed DiffEqDiffTools ───────────── v1.5.0
+ Installed FillArrays ────────────────── v0.8.2
+ Installed LightGraphs ───────────────── v1.3.0
+ Installed Graphics ──────────────────── v0.4.0
+ Installed TranscodingStreams ────────── v0.9.5
+ Installed JSON ──────────────────────── v0.21.0
+ Installed CodecZlib ─────────────────── v0.6.0
+ Installed XMLDict ───────────────────── v0.3.0
+ Installed Mocking ───────────────────── v0.7.0
+ Installed QueryOperators ────────────── v0.9.1
+ Installed ArrayInterface ────────────── v2.0.0
+ Installed NaNMath ───────────────────── v0.3.3
+ Installed CustomUnitRanges ──────────── v0.2.0
+ Installed StaticArrays ──────────────── v0.12.1
+ Installed DiffResults ───────────────── v0.0.4
+ Installed GoogleCloud ───────────────── v0.8.0
+ Installed HTTP ──────────────────────── v0.8.8
+ Installed SimpleTraits ──────────────── v0.9.1
+ Installed ImageCore ─────────────────── v0.8.5
+ Installed PaddedViews ───────────────── v0.4.2
+ Installed Parameters ────────────────── v0.12.0
+ Installed TiledIteration ────────────── v0.2.3
+ Installed QuadGK ────────────────────── v2.1.1
+ Installed CategoricalArrays ─────────── v0.7.3
+ Installed IteratorInterfaceExtensions ─ v1.0.0
+ Installed FFTW ──────────────────────── v1.1.0
+ Installed DataValues ────────────────── v0.4.12
+ Installed CMake ─────────────────────── v1.1.2
+ Installed CMakeWrapper ──────────────── v0.2.3
+ Installed BufferedStreams ───────────── v1.0.0
+ Installed SortingAlgorithms ─────────── v0.3.1
+ Installed Query ─────────────────────── v0.12.2
+ Installed AWSCore ───────────────────── v0.6.5
+ Installed LazyArrays ────────────────── v0.14.10
+ Installed EzXML ─────────────────────── v0.9.5
+ Installed VersionParsing ────────────── v1.1.3
+ Installed Distances ─────────────────── v0.8.2
+ Installed MacroTools ────────────────── v0.5.2
+ Installed ColorTypes ────────────────── v0.8.0
+ Installed SpecialFunctions ──────────── v0.8.0
+ Installed FFTViews ──────────────────── v0.3.0
+ Installed ImageMagick ───────────────── v0.7.5
+ Installed ArnoldiMethod ─────────────── v0.0.4
+ Installed CodecZstd ─────────────────── v0.6.1
+ Installed BinDeps ───────────────────── v0.8.10
+ Installed ProgressMeter ─────────────── v1.2.0
+ Installed FileIO ────────────────────── v1.1.0
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [4491297b] + RealNeuralNetworks v1.0.1
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [4f1ea46c] + AWSCore v0.6.5
+  [1c724243] + AWSS3 v0.6.5
+  [621f4979] + AbstractFFTs v0.5.0
+  [ec485272] + ArnoldiMethod v0.0.4
+  [7d9fca2a] + Arpack v0.3.1
+  [4fba245c] + ArrayInterface v2.0.0
+  [4c555306] + ArrayLayouts v0.1.5
+  [c2a8506f] + BigArrays v0.8.0
+  [9e28174c] + BinDeps v0.8.10
+  [b99e7846] + BinaryProvider v0.5.8
+  [a74b3585] + Blosc v0.5.1
+  [e1450e63] + BufferedStreams v1.0.0
+  [631607c0] + CMake v1.1.2
+  [d5fb7624] + CMakeWrapper v0.2.3
+  [336ed68f] + CSV v0.5.18
+  [49dc2e85] + Calculus v0.5.1
+  [aafaddc9] + CatIndices v0.2.0
+  [324d7699] + CategoricalArrays v0.7.3
+  [944b1d66] + CodecZlib v0.6.0
+  [6b39b394] + CodecZstd v0.6.1
+  [3da002f7] + ColorTypes v0.8.0
+  [c3611d14] + ColorVectorSpace v0.7.1
+  [5ae59095] + Colors v0.9.6
+  [bbf7d656] + CommonSubexpressions v0.2.0
+  [34da2185] + Compat v2.2.0
+  [ed09eef8] + ComputationalResources v0.3.0
+  [8f4d0f93] + Conda v1.3.0
+  [dc8bdbbb] + CustomUnitRanges v0.2.0
+  [9a962f9c] + DataAPI v1.1.0
+  [a93c6f00] + DataFrames v0.19.4
+  [864edb3b] + DataStructures v0.17.6
+  [e2d170a0] + DataValueInterfaces v1.0.0
+  [e7dc6d0d] + DataValues v0.4.12
+  [01453d9d] + DiffEqDiffTools v1.5.0
+  [163ba53b] + DiffResults v0.0.4
+  [b552c78f] + DiffRules v0.1.0
+  [b4f34e82] + Distances v0.8.2
+  [31c24e10] + Distributions v0.21.9
+  [8f5d6c58] + EzXML v0.9.5
+  [4f61f5a4] + FFTViews v0.3.0
+  [7a1cc6ca] + FFTW v1.1.0
+  [5789e2e9] + FileIO v1.1.0
+  [48062228] + FilePathsBase v0.7.0
+  [1a297f60] + FillArrays v0.8.2
+  [53c48c17] + FixedPointNumbers v0.6.1
+  [f6369f11] + ForwardDiff v0.10.7
+  [55e21f81] + GoogleCloud v0.8.0
+  [a2bd30eb] + Graphics v0.4.0
+  [cd3eb016] + HTTP v0.8.8
+  [a09fc81d] + ImageCore v0.8.5
+  [6a3955dd] + ImageFiltering v0.6.5
+  [6218d12a] + ImageMagick v0.7.5
+  [d25df0c9] + Inflate v0.1.1
+  [83e8ac13] + IniFile v0.5.0
+  [41ab1584] + InvertedIndices v1.0.0
+  [c8e1da08] + IterTools v1.3.0
+  [1c8ee90f] + IterableTables v1.0.0
+  [82899510] + IteratorInterfaceExtensions v1.0.0
+  [033835bb] + JLD2 v0.1.9
+  [682c06a0] + JSON v0.21.0
+  [5078a376] + LazyArrays v0.14.10
+  [fc18253b] + LazyJSON v0.1.1
+  [2ec943e9] + Libz v1.0.0
+  [093fc24a] + LightGraphs v1.3.0
+  [2fda8390] + LsqFit v0.8.1
+  [1914dd2f] + MacroTools v0.5.2
+  [dbb5928d] + MappedArrays v0.2.2
+  [739be429] + MbedTLS v0.7.0
+  [c03570c3] + Memoize v0.3.0
+  [626554b9] + MetaGraphs v0.6.4
+  [e1d29d7a] + Missings v0.4.3
+  [78c3b35d] + Mocking v0.7.0
+  [99f44e22] + MsgPack v0.2.0
+  [d41bc354] + NLSolversBase v7.5.0
+  [77ba4419] + NaNMath v0.3.3
+  [b8a86587] + NearestNeighbors v0.4.4
+  [6fe1bfb0] + OffsetArrays v0.11.2
+  [87e2bd06] + OptimBase v2.0.0
+  [bac558e1] + OrderedCollections v1.1.0
+  [90014a1f] + PDMats v0.9.10
+  [5432bcbf] + PaddedViews v0.4.2
+  [d96e819e] + Parameters v0.12.0
+  [69de0a69] + Parsers v0.3.10
+  [2dfb63ee] + PooledArrays v0.5.2
+  [92933f4c] + ProgressMeter v1.2.0
+  [1fd47b50] + QuadGK v2.1.1
+  [1a8c2f83] + Query v0.12.2
+  [2aef5ad7] + QueryOperators v0.9.1
+  [4491297b] + RealNeuralNetworks v1.0.1
+  [189a3867] + Reexport v0.2.0
+  [ae029012] + Requires v0.5.2
+  [20febd7b] + Retry v0.4.0
+  [79098fc4] + Rmath v0.5.1
+  [699a6c99] + SimpleTraits v0.9.1
+  [a2af1166] + SortingAlgorithms v0.3.1
+  [276daf66] + SpecialFunctions v0.8.0
+  [90137ffa] + StaticArrays v0.12.1
+  [2913bbd2] + StatsBase v0.32.0
+  [4c63d2b9] + StatsFuns v0.9.0
+  [2da68c74] + SymDict v0.3.0
+  [5e66a065] + TableShowUtils v0.2.5
+  [3783bdb8] + TableTraits v1.0.0
+  [382cd787] + TableTraitsUtils v1.0.1
+  [bd369af6] + Tables v0.2.11
+  [06e1c1a7] + TiledIteration v0.2.3
+  [3bb67fe8] + TranscodingStreams v0.9.5
+  [30578b45] + URIParser v0.4.0
+  [81def892] + VersionParsing v1.1.3
+  [ea10d353] + WeakRefStrings v0.6.1
+  [228000da] + XMLDict v0.3.0
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [9fa8497b] + Future 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [4607b0f0] + SuiteSparse 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building MbedTLS ─────────→ `~/.julia/packages/MbedTLS/a1JFn/deps/build.log`
+  Building Arpack ──────────→ `~/.julia/packages/Arpack/cu5By/deps/build.log`
+  Building CMake ───────────→ `~/.julia/packages/CMake/nSK2r/deps/build.log`
+  Building Blosc ───────────→ `~/.julia/packages/Blosc/lzFr0/deps/build.log`
+  Building Conda ───────────→ `~/.julia/packages/Conda/kLXeC/deps/build.log`
+  Building Rmath ───────────→ `~/.julia/packages/Rmath/4wt82/deps/build.log`
+  Building CodecZlib ───────→ `~/.julia/packages/CodecZlib/5t9zO/deps/build.log`
+  Building FFTW ────────────→ `~/.julia/packages/FFTW/loJ3F/deps/build.log`
+  Building EzXML ───────────→ `~/.julia/packages/EzXML/QtGgF/deps/build.log`
+  Building ImageMagick ─────→ `~/.julia/packages/ImageMagick/vMfoS/deps/build.log`
+  Building SpecialFunctions → `~/.julia/packages/SpecialFunctions/ne2iw/deps/build.log`
+  Building CodecZstd ───────→ `~/.julia/packages/CodecZstd/zTSNC/deps/build.log`
+   Testing RealNeuralNetworks
+ Resolving package versions...
+ Installed HDF5 ─ v0.12.5
+  Building HDF5 → `~/.julia/packages/HDF5/Zh9on/deps/build.log`
+    Status `/tmp/jl_GHude2/Manifest.toml`
+  [4f1ea46c] AWSCore v0.6.5
+  [1c724243] AWSS3 v0.6.5
+  [621f4979] AbstractFFTs v0.5.0
+  [ec485272] ArnoldiMethod v0.0.4
+  [7d9fca2a] Arpack v0.3.1
+  [4fba245c] ArrayInterface v2.0.0
+  [4c555306] ArrayLayouts v0.1.5
+  [c2a8506f] BigArrays v0.8.0
+  [9e28174c] BinDeps v0.8.10
+  [b99e7846] BinaryProvider v0.5.8
+  [a74b3585] Blosc v0.5.1
+  [e1450e63] BufferedStreams v1.0.0
+  [631607c0] CMake v1.1.2
+  [d5fb7624] CMakeWrapper v0.2.3
+  [336ed68f] CSV v0.5.18
+  [49dc2e85] Calculus v0.5.1
+  [aafaddc9] CatIndices v0.2.0
+  [324d7699] CategoricalArrays v0.7.3
+  [944b1d66] CodecZlib v0.6.0
+  [6b39b394] CodecZstd v0.6.1
+  [3da002f7] ColorTypes v0.8.0
+  [c3611d14] ColorVectorSpace v0.7.1
+  [5ae59095] Colors v0.9.6
+  [bbf7d656] CommonSubexpressions v0.2.0
+  [34da2185] Compat v2.2.0
+  [ed09eef8] ComputationalResources v0.3.0
+  [8f4d0f93] Conda v1.3.0
+  [dc8bdbbb] CustomUnitRanges v0.2.0
+  [9a962f9c] DataAPI v1.1.0
+  [a93c6f00] DataFrames v0.19.4
+  [864edb3b] DataStructures v0.17.6
+  [e2d170a0] DataValueInterfaces v1.0.0
+  [e7dc6d0d] DataValues v0.4.12
+  [01453d9d] DiffEqDiffTools v1.5.0
+  [163ba53b] DiffResults v0.0.4
+  [b552c78f] DiffRules v0.1.0
+  [b4f34e82] Distances v0.8.2
+  [31c24e10] Distributions v0.21.9
+  [8f5d6c58] EzXML v0.9.5
+  [4f61f5a4] FFTViews v0.3.0
+  [7a1cc6ca] FFTW v1.1.0
+  [5789e2e9] FileIO v1.1.0
+  [48062228] FilePathsBase v0.7.0
+  [1a297f60] FillArrays v0.8.2
+  [53c48c17] FixedPointNumbers v0.6.1
+  [f6369f11] ForwardDiff v0.10.7
+  [55e21f81] GoogleCloud v0.8.0
+  [a2bd30eb] Graphics v0.4.0
+  [f67ccb44] HDF5 v0.12.5
+  [cd3eb016] HTTP v0.8.8
+  [a09fc81d] ImageCore v0.8.5
+  [6a3955dd] ImageFiltering v0.6.5
+  [6218d12a] ImageMagick v0.7.5
+  [d25df0c9] Inflate v0.1.1
+  [83e8ac13] IniFile v0.5.0
+  [41ab1584] InvertedIndices v1.0.0
+  [c8e1da08] IterTools v1.3.0
+  [1c8ee90f] IterableTables v1.0.0
+  [82899510] IteratorInterfaceExtensions v1.0.0
+  [033835bb] JLD2 v0.1.9
+  [682c06a0] JSON v0.21.0
+  [5078a376] LazyArrays v0.14.10
+  [fc18253b] LazyJSON v0.1.1
+  [2ec943e9] Libz v1.0.0
+  [093fc24a] LightGraphs v1.3.0
+  [2fda8390] LsqFit v0.8.1
+  [1914dd2f] MacroTools v0.5.2
+  [dbb5928d] MappedArrays v0.2.2
+  [739be429] MbedTLS v0.7.0
+  [c03570c3] Memoize v0.3.0
+  [626554b9] MetaGraphs v0.6.4
+  [e1d29d7a] Missings v0.4.3
+  [78c3b35d] Mocking v0.7.0
+  [99f44e22] MsgPack v0.2.0
+  [d41bc354] NLSolversBase v7.5.0
+  [77ba4419] NaNMath v0.3.3
+  [b8a86587] NearestNeighbors v0.4.4
+  [6fe1bfb0] OffsetArrays v0.11.2
+  [87e2bd06] OptimBase v2.0.0
+  [bac558e1] OrderedCollections v1.1.0
+  [90014a1f] PDMats v0.9.10
+  [5432bcbf] PaddedViews v0.4.2
+  [d96e819e] Parameters v0.12.0
+  [69de0a69] Parsers v0.3.10
+  [2dfb63ee] PooledArrays v0.5.2
+  [92933f4c] ProgressMeter v1.2.0
+  [1fd47b50] QuadGK v2.1.1
+  [1a8c2f83] Query v0.12.2
+  [2aef5ad7] QueryOperators v0.9.1
+  [4491297b] RealNeuralNetworks v1.0.1
+  [189a3867] Reexport v0.2.0
+  [ae029012] Requires v0.5.2
+  [20febd7b] Retry v0.4.0
+  [79098fc4] Rmath v0.5.1
+  [699a6c99] SimpleTraits v0.9.1
+  [a2af1166] SortingAlgorithms v0.3.1
+  [276daf66] SpecialFunctions v0.8.0
+  [90137ffa] StaticArrays v0.12.1
+  [2913bbd2] StatsBase v0.32.0
+  [4c63d2b9] StatsFuns v0.9.0
+  [2da68c74] SymDict v0.3.0
+  [5e66a065] TableShowUtils v0.2.5
+  [3783bdb8] TableTraits v1.0.0
+  [382cd787] TableTraitsUtils v1.0.1
+  [bd369af6] Tables v0.2.11
+  [06e1c1a7] TiledIteration v0.2.3
+  [3bb67fe8] TranscodingStreams v0.9.5
+  [30578b45] URIParser v0.4.0
+  [81def892] VersionParsing v1.1.3
+  [ea10d353] WeakRefStrings v0.6.1
+  [228000da] XMLDict v0.3.0
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [9fa8497b] Future  [`@stdlib/Future`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [4607b0f0] SuiteSparse  [`@stdlib/SuiteSparse`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+┌ Warning: did not find AWS credential! set it in environment variables.
+└ @ BigArrays.S3Dicts ~/.julia/packages/BigArrays/cbDmG/src/backends/S3Dicts.jl:23
+Test Summary:        | Pass  Total
+test Synapses module |   10     10
+size(bin_im) = (100, 100, 100)
+size(bin_im2) = (54, 54, 100)
+Test Summary:        |
+test dbf computation | No tests
+Test Summary:                         | Pass  Total
+test PointArray add_offset! operation |    1      1
+load plain text swc ...
+  6.602252 seconds (2.08 M allocations: 90.091 MiB, 1.21% gc time)
+save plain text swc ...
+  0.246293 seconds (225.81 k allocations: 10.455 MiB, 5.64% gc time)
+save binary swc ...
+  0.023562 seconds (80.04 k allocations: 3.171 MiB)
+load binary swc ...
+  0.009327 seconds (91.19 k allocations: 5.892 MiB)
+Test Summary: | Pass  Total
+test SWC      |    2      2
+building nodeNet ...
+total number of points: 679
+making graph (2 parts)
+  0.931209 seconds (562.66 k allocations: 29.799 MiB, 1.72% gc time)
+build dbf weights from penalty function ...
+  0.267904 seconds (229.41 k allocations: 12.163 MiB, 5.32% gc time)
+Finding paths
+dest node index: 679
+  0.914912 seconds (634.21 k allocations: 33.834 MiB, 3.84% gc time)
+Consolidating Paths...
+bbox_offset = Float32[46.0, 46.0, 0.0]
+ 16.098702 seconds (16.69 M allocations: 846.242 MiB, 7.41% gc time)
+get_node_num(self) = 106
+get_edge_num(self) = 105
+  0.082130 seconds (69.53 k allocations: 3.564 MiB, 18.71% gc time)
+Test Summary:        | Pass  Total
+test NodeNets module |    1      1
+indexing from neuron...
+get tortuosity...
+Segments.get_tortuosity(segment) = 1.3317503328351294
+get tail head radius ratio ...
+Segments.get_tail_head_radius_ratio(segment) = 1.6230365f0
+merge segments...
+remove some nodes...
+remove redundent nodes...
+Test Summary: | Pass  Total
+test Segments |    2      2
+Test Summary:                         | Pass  Total
+test data structure transformation... |    1      1
+
+load swc of a real neuron...
+
+reset root node...
+  1.043784 seconds (1.13 M allocations: 62.148 MiB, 5.05% gc time)
+
+get node list ...
+  0.000084 seconds (15 allocations: 120.031 KiB)
+
+get edge list ...
+  0.000199 seconds (37 allocations: 262.969 KiB)
+
+get segment order list...
+  0.121514 seconds (115.86 k allocations: 6.173 MiB)
+
+clean up the neuron ...
+original number of segments: 77
+remove subtree in soma ...
+  0.689374 seconds (587.12 k allocations: 29.387 MiB, 2.67% gc time)
+after remove subtree in soma: 77
+
+remove hair segments ...
+  0.058147 seconds (22.58 k allocations: 1.272 MiB)
+after remove hair: 53
+
+remove terminal blobs ...
+  0.190608 seconds (109.22 k allocations: 4.777 MiB, 8.82% gc time)
+after remove terminal blobs: 51
+
+get principle direction based on the furthest terminal node pair...
+  0.264429 seconds (284.39 k allocations: 14.359 MiB)
+
+remove redundent nodes...
+  0.057719 seconds (39.00 k allocations: 2.565 MiB)
+after remove redundent nodes: 51
+
+resampling ...
+  1.479769 seconds (1.47 M allocations: 74.864 MiB, 4.69% gc time)
+resampling of 400 nm reduced node number form 7349 to 1554
+
+smooth ...
+  0.157016 seconds (191.39 k allocations: 9.575 MiB)
+smoothing the neuron should not change node number: 1554 => 1554
+
+get surface area which is frustum based
+
+get frustum based volume
+
+get typical radius ...
+
+get asymmetry ...
+
+get mass center ...
+Neurons.get_mass_center(neuron) = (262260.72f0, 144177.16f0, 782108.75f0)
+
+get branching angle ...
+WARNING: both LinearAlgebra and DataFrames export "normalize"; uses of it in module Neurons must be qualified
+test Neurons: Error During Test at /root/.julia/packages/RealNeuralNetworks/zhI8X/test/Neurons.jl:105
+  Test threw exception
+  Expression: Neurons.get_branching_angle(neuron, 5) > 0
+  UndefVarError: normalize not defined
+  Stacktrace:
+   [1] #get_branching_angle#30(::Float64, ::typeof(RealNeuralNetworks.Neurons.get_branching_angle), ::Neuron{Float32}, ::Int64) at /root/.julia/packages/RealNeuralNetworks/zhI8X/src/Neurons.jl:769
+   [2] get_branching_angle(::Neuron{Float32}, ::Int64) at /root/.julia/packages/RealNeuralNetworks/zhI8X/src/Neurons.jl:728
+   [3] top-level scope at /root/.julia/packages/RealNeuralNetworks/zhI8X/test/Neurons.jl:105
+   [4] top-level scope at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Test/src/Test.jl:1113
+   [5] top-level scope at /root/.julia/packages/RealNeuralNetworks/zhI8X/test/Neurons.jl:28
+  
+
+get path to root length ...
+
+sholl analysis ...
+  1.252825 seconds (1.14 M allocations: 55.317 MiB, 3.49% gc time)
+
+get segment path length list ...
+  0.012352 seconds (17.73 k allocations: 709.094 KiB)
+length(segmentPathLengthList) = 51
+
+get terminal segment index list...
+  0.004359 seconds (333 allocations: 23.297 KiB)
+
+get terminal node list ...
+  0.049125 seconds (880 allocations: 52.828 KiB)
+
+test split a tree...
+find root of new tree in the original tree : 3
+  0.901849 seconds (738.26 k allocations: 37.347 MiB, 2.53% gc time)
+Test Summary: | Pass  Error  Total
+test Neurons  |   18      1     19
+ERROR: LoadError: LoadError: Some tests did not pass: 18 passed, 0 failed, 1 errored, 0 broken.
+in expression starting at /root/.julia/packages/RealNeuralNetworks/zhI8X/test/Neurons.jl:27
+in expression starting at /root/.julia/packages/RealNeuralNetworks/zhI8X/test/runtests.jl:10
+ERROR: Package RealNeuralNetworks errored during testing
+Stacktrace:
+ [1] pkgerror(::String, ::Vararg{String,N} where N) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/Types.jl:112
+ [2] #test#119(::Bool, ::Nothing, ::typeof(Pkg.Operations.test), ::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/Operations.jl:1288
+ [3] #test at ./none:0 [inlined]
+ [4] #test#62(::Bool, ::Nothing, ::Base.Iterators.Pairs{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::typeof(Pkg.API.test), ::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:245
+ [5] test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:233 [inlined]
+ [6] #test#61 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:230 [inlined]
+ [7] test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:230 [inlined]
+ [8] #test#60 at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:229 [inlined]
+ [9] test at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:229 [inlined]
+ [10] #test#59(::Base.Iterators.Pairs{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::typeof(Pkg.API.test), ::String) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:228
+ [11] test(::String) at /buildworker/worker/package_linux64/build/usr/share/julia/stdlib/v1.2/Pkg/src/API.jl:228
+ [12] top-level scope at none:10

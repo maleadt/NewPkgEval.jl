@@ -1,0 +1,59 @@
+ Resolving package versions...
+ Installed InterestRates ─ v0.3.4
+ Installed BusinessDays ── v0.9.6
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [09453d48] + InterestRates v0.3.4
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [4f18b42c] + BusinessDays v0.9.6
+  [09453d48] + InterestRates v0.3.4
+  [ade2ca70] + Dates 
+  [de0858da] + Printf 
+  [4ec0a83e] + Unicode 
+   Testing InterestRates
+ Resolving package versions...
+    Status `/tmp/jl_zN9G9B/Manifest.toml`
+  [4f18b42c] BusinessDays v0.9.6
+  [09453d48] InterestRates v0.3.4
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+Running perftests...
+InterestRates.Linear()
+  0.005172 seconds (100 allocations: 1.160 MiB)
+  0.061484 seconds (699.10 k allocations: 12.984 MiB, 7.21% gc time)
+  0.076961 seconds (699.10 k allocations: 12.984 MiB, 3.31% gc time)
+InterestRates.FlatForward()
+  0.124649 seconds (1.35 M allocations: 21.759 MiB, 2.10% gc time)
+  0.171674 seconds (2.05 M allocations: 33.583 MiB, 1.36% gc time)
+  0.169924 seconds (2.05 M allocations: 33.583 MiB, 1.89% gc time)
+InterestRates.NelsonSiegel()
+  0.021210 seconds (450.10 k allocations: 8.026 MiB)
+  0.074525 seconds (1.15 M allocations: 19.850 MiB, 3.10% gc time)
+  0.071042 seconds (1.15 M allocations: 19.850 MiB, 2.96% gc time)
+InterestRates.Svensson()
+  0.023580 seconds (450.10 k allocations: 8.026 MiB)
+  0.083853 seconds (1.15 M allocations: 19.850 MiB, 2.85% gc time)
+  0.074998 seconds (1.15 M allocations: 19.850 MiB, 2.93% gc time)
+InterestRates.CubicSplineOnRates()
+  0.020098 seconds (249.00 k allocations: 4.958 MiB, 21.73% gc time)
+  0.066577 seconds (948.00 k allocations: 16.782 MiB)
+  0.065397 seconds (948.00 k allocations: 16.782 MiB, 3.24% gc time)
+InterestRates.CubicSplineOnDiscountFactors()
+  0.034330 seconds (450.30 k allocations: 10.345 MiB, 6.92% gc time)
+  0.086008 seconds (1.15 M allocations: 22.169 MiB, 2.56% gc time)
+  0.084374 seconds (1.15 M allocations: 22.169 MiB, 2.41% gc time)
+InterestRates.StepFunction()
+  0.003448 seconds (100 allocations: 1.160 MiB)
+  0.054596 seconds (699.10 k allocations: 12.984 MiB)
+  0.055630 seconds (699.10 k allocations: 12.984 MiB, 4.38% gc time)
+Perftests end
+   Testing InterestRates tests passed 

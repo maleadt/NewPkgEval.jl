@@ -1,0 +1,211 @@
+ Resolving package versions...
+ Installed Adapt ──────────────── v1.0.0
+ Installed URIParser ──────────── v0.4.0
+ Installed Requires ───────────── v0.5.2
+ Installed Inflate ────────────── v0.1.1
+ Installed Compat ─────────────── v2.2.0
+ Installed CommonSubexpressions ─ v0.2.0
+ Installed SparseDiffTools ────── v1.0.0
+ Installed BinaryProvider ─────── v0.5.8
+ Installed OrderedCollections ─── v1.1.0
+ Installed DataStructures ─────── v0.17.6
+ Installed VertexSafeGraphs ───── v0.1.0
+ Installed ArrayInterface ─────── v2.0.0
+ Installed LightGraphs ────────── v1.3.0
+ Installed DiffRules ──────────── v0.1.0
+ Installed DiffEqDiffTools ────── v1.5.0
+ Installed ForwardDiff ────────── v0.10.7
+ Installed StaticArrays ───────── v0.12.1
+ Installed DiffResults ────────── v0.0.4
+ Installed NaNMath ────────────── v0.3.3
+ Installed SimpleTraits ───────── v0.9.1
+ Installed SpecialFunctions ───── v0.8.0
+ Installed ArnoldiMethod ──────── v0.0.4
+ Installed MacroTools ─────────── v0.5.2
+ Installed BinDeps ────────────── v0.8.10
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [47a9eef4] + SparseDiffTools v1.0.0
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [79e6a3ab] + Adapt v1.0.0
+  [ec485272] + ArnoldiMethod v0.0.4
+  [4fba245c] + ArrayInterface v2.0.0
+  [9e28174c] + BinDeps v0.8.10
+  [b99e7846] + BinaryProvider v0.5.8
+  [bbf7d656] + CommonSubexpressions v0.2.0
+  [34da2185] + Compat v2.2.0
+  [864edb3b] + DataStructures v0.17.6
+  [01453d9d] + DiffEqDiffTools v1.5.0
+  [163ba53b] + DiffResults v0.0.4
+  [b552c78f] + DiffRules v0.1.0
+  [f6369f11] + ForwardDiff v0.10.7
+  [d25df0c9] + Inflate v0.1.1
+  [093fc24a] + LightGraphs v1.3.0
+  [1914dd2f] + MacroTools v0.5.2
+  [77ba4419] + NaNMath v0.3.3
+  [bac558e1] + OrderedCollections v1.1.0
+  [ae029012] + Requires v0.5.2
+  [699a6c99] + SimpleTraits v0.9.1
+  [47a9eef4] + SparseDiffTools v1.0.0
+  [276daf66] + SpecialFunctions v0.8.0
+  [90137ffa] + StaticArrays v0.12.1
+  [30578b45] + URIParser v0.4.0
+  [19fa3120] + VertexSafeGraphs v0.1.0
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building SpecialFunctions → `~/.julia/packages/SpecialFunctions/ne2iw/deps/build.log`
+   Testing SparseDiffTools
+ Resolving package versions...
+ Installed AbstractFFTs ───────── v0.5.0
+ Installed Zygote ─────────────── v0.4.1
+ Installed SafeTestsets ───────── v0.0.1
+ Installed BandedMatrices ─────── v0.14.2
+ Installed IterativeSolvers ───── v0.8.1
+ Installed BlockBandedMatrices ── v0.6.0
+ Installed SparsityDetection ──── v0.1.1
+ Installed BlockArrays ────────── v0.10.2
+ Installed Conda ──────────────── v1.3.0
+ Installed TimerOutputs ───────── v0.5.3
+ Installed Reexport ───────────── v0.2.0
+ Installed ArrayLayouts ───────── v0.1.5
+ Installed NNlib ──────────────── v0.6.0
+ Installed IRTools ────────────── v0.3.0
+ Installed RecipesBase ────────── v0.7.0
+ Installed Parsers ────────────── v0.3.10
+ Installed Cassette ───────────── v0.2.6
+ Installed FillArrays ─────────── v0.8.2
+ Installed JSON ───────────────── v0.21.0
+ Installed FFTW ───────────────── v1.1.0
+ Installed ZygoteRules ────────── v0.2.0
+ Installed VersionParsing ─────── v1.1.3
+ Installed MatrixFactorizations ─ v0.2.1
+  Building Conda → `~/.julia/packages/Conda/kLXeC/deps/build.log`
+  Building FFTW ─→ `~/.julia/packages/FFTW/loJ3F/deps/build.log`
+    Status `/tmp/jl_GGr6Gj/Manifest.toml`
+  [621f4979] AbstractFFTs v0.5.0
+  [79e6a3ab] Adapt v1.0.0
+  [ec485272] ArnoldiMethod v0.0.4
+  [4fba245c] ArrayInterface v2.0.0
+  [4c555306] ArrayLayouts v0.1.5
+  [aae01518] BandedMatrices v0.14.2
+  [9e28174c] BinDeps v0.8.10
+  [b99e7846] BinaryProvider v0.5.8
+  [8e7c35d0] BlockArrays v0.10.2
+  [ffab5731] BlockBandedMatrices v0.6.0
+  [7057c7e9] Cassette v0.2.6
+  [bbf7d656] CommonSubexpressions v0.2.0
+  [34da2185] Compat v2.2.0
+  [8f4d0f93] Conda v1.3.0
+  [864edb3b] DataStructures v0.17.6
+  [01453d9d] DiffEqDiffTools v1.5.0
+  [163ba53b] DiffResults v0.0.4
+  [b552c78f] DiffRules v0.1.0
+  [7a1cc6ca] FFTW v1.1.0
+  [1a297f60] FillArrays v0.8.2
+  [f6369f11] ForwardDiff v0.10.7
+  [7869d1d1] IRTools v0.3.0
+  [d25df0c9] Inflate v0.1.1
+  [42fd0dbc] IterativeSolvers v0.8.1
+  [682c06a0] JSON v0.21.0
+  [093fc24a] LightGraphs v1.3.0
+  [1914dd2f] MacroTools v0.5.2
+  [a3b82374] MatrixFactorizations v0.2.1
+  [872c559c] NNlib v0.6.0
+  [77ba4419] NaNMath v0.3.3
+  [bac558e1] OrderedCollections v1.1.0
+  [69de0a69] Parsers v0.3.10
+  [3cdcf5f2] RecipesBase v0.7.0
+  [189a3867] Reexport v0.2.0
+  [ae029012] Requires v0.5.2
+  [1bc83da4] SafeTestsets v0.0.1
+  [699a6c99] SimpleTraits v0.9.1
+  [47a9eef4] SparseDiffTools v1.0.0
+  [684fba80] SparsityDetection v0.1.1
+  [276daf66] SpecialFunctions v0.8.0
+  [90137ffa] StaticArrays v0.12.1
+  [a759f4b9] TimerOutputs v0.5.3
+  [30578b45] URIParser v0.4.0
+  [81def892] VersionParsing v1.1.3
+  [19fa3120] VertexSafeGraphs v0.1.0
+  [e88e6eb3] Zygote v0.4.1
+  [700de1a5] ZygoteRules v0.2.0
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+Test Summary:                  | Pass  Total
+Exact coloring via contraction |   20     20
+103.706956 seconds (7.96 M allocations: 430.196 MiB, 0.54% gc time)
+Test Summary:              | Pass  Total
+Greedy distance-1 coloring |   20     20
+  0.657797 seconds (784.73 k allocations: 41.765 MiB, 2.28% gc time)
+Test Summary:        | Pass  Total
+Greedy star coloring |  816    816
+  1.471575 seconds (1.18 M allocations: 60.647 MiB, 1.53% gc time)
+Test Summary:    |    Pass    Total
+Acyclic coloring | 2873066  2873066
+ 39.370702 seconds (112.32 M allocations: 6.430 GiB, 9.50% gc time)
+Test Summary:              |  Pass  Total
+Matrix to graph conversion | 68114  68114
+  2.624242 seconds (3.75 M allocations: 408.075 MiB, 3.70% gc time)
+Test Summary:            | Pass  Total
+AD using colorvec vector |   41     41
+1320.927011 seconds (554.26 M allocations: 35.165 GiB, 1.65% gc time)
+WARNING: Method definition overdub(Cassette.Context{N, M, T, P, B, H} where H<:Union{Cassette.DisableHooks, Nothing} where B<:Union{Nothing, Base.IdDict{Module, Base.Dict{Symbol, Cassette.BindingMeta}}} where P<:Cassette.AbstractPass where T<:Union{Nothing, Cassette.Tag{N, X, E} where E where X where N<:Cassette.AbstractContextName} where M where N<:Cassette.AbstractContextName, Any...) in module Cassette at /root/.julia/packages/Cassette/YCOeN/src/overdub.jl:524 overwritten in module SparsityDetection at /root/.julia/packages/Cassette/YCOeN/src/overdub.jl:524.
+  ** incremental compilation may be fatally broken for this module **
+
+WARNING: Method definition recurse(Cassette.Context{N, M, T, P, B, H} where H<:Union{Cassette.DisableHooks, Nothing} where B<:Union{Nothing, Base.IdDict{Module, Base.Dict{Symbol, Cassette.BindingMeta}}} where P<:Cassette.AbstractPass where T<:Union{Nothing, Cassette.Tag{N, X, E} where E where X where N<:Cassette.AbstractContextName} where M where N<:Cassette.AbstractContextName, Any...) in module Cassette at /root/.julia/packages/Cassette/YCOeN/src/overdub.jl:537 overwritten in module SparsityDetection at /root/.julia/packages/Cassette/YCOeN/src/overdub.jl:537.
+  ** incremental compilation may be fatally broken for this module **
+
+Explored path: SparsityDetection.Path(Bool[], 1)
+Test Summary:    | Pass  Total
+Integration test |    7      7
+ 27.919645 seconds (24.86 M allocations: 1.273 GiB, 3.63% gc time)
+Test Summary:    | Pass  Total
+Special matrices |   87     87
+  6.809870 seconds (6.67 M allocations: 325.838 MiB, 4.26% gc time)
+Test Summary:         | Pass  Total
+Jac Vecs and Hes Vecs |   51     51
+144.690911 seconds (63.53 M allocations: 3.157 GiB, 2.46% gc time)
+   Testing SparseDiffTools tests passed 

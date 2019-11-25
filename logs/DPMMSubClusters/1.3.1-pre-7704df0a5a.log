@@ -1,0 +1,934 @@
+ Resolving package versions...
+ Installed Compat ───────────── v2.2.0
+ Installed Primes ───────────── v0.4.0
+ Installed QuadGK ───────────── v2.1.1
+ Installed SpecialFunctions ─── v0.7.2
+ Installed BinDeps ──────────── v0.8.10
+ Installed DataStructures ───── v0.17.6
+ Installed StaticArrays ─────── v0.12.1
+ Installed DPMMSubClusters ──── v0.1.4
+ Installed CodecZlib ────────── v0.6.0
+ Installed FileIO ───────────── v1.1.0
+ Installed StatsBase ────────── v0.32.0
+ Installed URIParser ────────── v0.4.0
+ Installed Arpack ───────────── v0.3.1
+ Installed Missings ─────────── v0.4.3
+ Installed NPZ ──────────────── v0.4.0
+ Installed CatViews ─────────── v1.0.0
+ Installed TranscodingStreams ─ v0.9.5
+ Installed ZipFile ──────────── v0.8.3
+ Installed Rmath ────────────── v0.6.0
+ Installed DistributedArrays ── v0.6.4
+ Installed BinaryProvider ───── v0.5.8
+ Installed Distances ────────── v0.8.2
+ Installed DataAPI ──────────── v1.1.0
+ Installed StatsFuns ────────── v0.8.0
+ Installed Distributions ────── v0.21.5
+ Installed PDMats ───────────── v0.9.10
+ Installed JLD2 ─────────────── v0.1.9
+ Installed OrderedCollections ─ v1.1.0
+ Installed Clustering ───────── v0.13.3
+ Installed SortingAlgorithms ── v0.3.1
+ Installed NearestNeighbors ─── v0.4.4
+  Updating `~/.julia/environments/v1.3/Project.toml`
+  [2841fd70] + DPMMSubClusters v0.1.4
+  Updating `~/.julia/environments/v1.3/Manifest.toml`
+  [7d9fca2a] + Arpack v0.3.1
+  [9e28174c] + BinDeps v0.8.10
+  [b99e7846] + BinaryProvider v0.5.8
+  [81a5f4ea] + CatViews v1.0.0
+  [aaaa29a8] + Clustering v0.13.3
+  [944b1d66] + CodecZlib v0.6.0
+  [34da2185] + Compat v2.2.0
+  [2841fd70] + DPMMSubClusters v0.1.4
+  [9a962f9c] + DataAPI v1.1.0
+  [864edb3b] + DataStructures v0.17.6
+  [b4f34e82] + Distances v0.8.2
+  [aaf54ef3] + DistributedArrays v0.6.4
+  [31c24e10] + Distributions v0.21.5
+  [5789e2e9] + FileIO v1.1.0
+  [033835bb] + JLD2 v0.1.9
+  [e1d29d7a] + Missings v0.4.3
+  [15e1cf62] + NPZ v0.4.0
+  [b8a86587] + NearestNeighbors v0.4.4
+  [bac558e1] + OrderedCollections v1.1.0
+  [90014a1f] + PDMats v0.9.10
+  [27ebfcd6] + Primes v0.4.0
+  [1fd47b50] + QuadGK v2.1.1
+  [79098fc4] + Rmath v0.6.0
+  [a2af1166] + SortingAlgorithms v0.3.1
+  [276daf66] + SpecialFunctions v0.7.2
+  [90137ffa] + StaticArrays v0.12.1
+  [2913bbd2] + StatsBase v0.32.0
+  [4c63d2b9] + StatsFuns v0.8.0
+  [3bb67fe8] + TranscodingStreams v0.9.5
+  [30578b45] + URIParser v0.4.0
+  [a5390f91] + ZipFile v0.8.3
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [4607b0f0] + SuiteSparse 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building SpecialFunctions → `~/.julia/packages/SpecialFunctions/fvheQ/deps/build.log`
+  Building Arpack ──────────→ `~/.julia/packages/Arpack/cu5By/deps/build.log`
+  Building CodecZlib ───────→ `~/.julia/packages/CodecZlib/5t9zO/deps/build.log`
+  Building Rmath ───────────→ `~/.julia/packages/Rmath/BoBag/deps/build.log`
+  Building ZipFile ─────────→ `~/.julia/packages/ZipFile/oD4uG/deps/build.log`
+   Testing DPMMSubClusters
+ Resolving package versions...
+    Status `/tmp/jl_qP2S59/Manifest.toml`
+  [7d9fca2a] Arpack v0.3.1
+  [9e28174c] BinDeps v0.8.10
+  [b99e7846] BinaryProvider v0.5.8
+  [81a5f4ea] CatViews v1.0.0
+  [aaaa29a8] Clustering v0.13.3
+  [944b1d66] CodecZlib v0.6.0
+  [34da2185] Compat v2.2.0
+  [2841fd70] DPMMSubClusters v0.1.4
+  [9a962f9c] DataAPI v1.1.0
+  [864edb3b] DataStructures v0.17.6
+  [b4f34e82] Distances v0.8.2
+  [aaf54ef3] DistributedArrays v0.6.4
+  [31c24e10] Distributions v0.21.5
+  [5789e2e9] FileIO v1.1.0
+  [033835bb] JLD2 v0.1.9
+  [e1d29d7a] Missings v0.4.3
+  [15e1cf62] NPZ v0.4.0
+  [b8a86587] NearestNeighbors v0.4.4
+  [bac558e1] OrderedCollections v1.1.0
+  [90014a1f] PDMats v0.9.10
+  [27ebfcd6] Primes v0.4.0
+  [1fd47b50] QuadGK v2.1.1
+  [79098fc4] Rmath v0.6.0
+  [a2af1166] SortingAlgorithms v0.3.1
+  [276daf66] SpecialFunctions v0.7.2
+  [90137ffa] StaticArrays v0.12.1
+  [2913bbd2] StatsBase v0.32.0
+  [4c63d2b9] StatsFuns v0.8.0
+  [3bb67fe8] TranscodingStreams v0.9.5
+  [30578b45] URIParser v0.4.0
+  [a5390f91] ZipFile v0.8.3
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [4607b0f0] SuiteSparse  [`@stdlib/SuiteSparse`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+Loading and distributing data:
+  1.922876 seconds (1.03 M allocations: 51.348 MiB, 2.22% gc time)
+Node Leaders:
+Dict{Any,Any}(1 => Any[1])
+Iteration: 1 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:8.163601160049438 || Total time:8.163601160049438
+Iteration: 2 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.002788066864013672 || Total time:8.166389226913452
+Iteration: 3 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0023980140686035156 || Total time:8.168787240982056
+Iteration: 4 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.027614116668701172 || Total time:8.196401357650757
+Iteration: 5 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0021638870239257812 || Total time:8.198565244674683
+Iteration: 6 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0038700103759765625 || Total time:8.20243525505066
+Iteration: 7 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0020110607147216797 || Total time:8.20444631576538
+Iteration: 8 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0020020008087158203 || Total time:8.206448316574097
+Iteration: 9 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0063018798828125 || Total time:8.21275019645691
+Iteration: 10 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0021619796752929688 || Total time:8.214912176132202
+Iteration: 11 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.002140045166015625 || Total time:8.217052221298218
+Iteration: 12 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0020627975463867188 || Total time:8.219115018844604
+Iteration: 13 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.002140045166015625 || Total time:8.22125506401062
+Iteration: 14 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0019190311431884766 || Total time:8.223174095153809
+Iteration: 15 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0019421577453613281 || Total time:8.22511625289917
+Iteration: 16 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0019481182098388672 || Total time:8.227064371109009
+Iteration: 17 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0019919872283935547 || Total time:8.229056358337402
+Iteration: 18 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0019268989562988281 || Total time:8.230983257293701
+Iteration: 19 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0019741058349609375 || Total time:8.232957363128662
+Iteration: 20 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0019941329956054688 || Total time:8.234951496124268
+Iteration: 21 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.0018680095672607422 || Total time:8.236819505691528
+Iteration: 22 || Clusters count: 2 || Log posterior: -2872.3473899692726 || Vi score: no gt || NMI score: no gt || Iter Time:0.9902150630950928 || Total time:9.227034568786621
+Iteration: 23 || Clusters count: 2 || Log posterior: -2101.637026104374 || Vi score: no gt || NMI score: no gt || Iter Time:0.0026378631591796875 || Total time:9.2296724319458
+Iteration: 24 || Clusters count: 2 || Log posterior: -1903.740333828373 || Vi score: no gt || NMI score: no gt || Iter Time:0.0026869773864746094 || Total time:9.232359409332275
+Iteration: 25 || Clusters count: 2 || Log posterior: -1903.740333828373 || Vi score: no gt || NMI score: no gt || Iter Time:0.039459943771362305 || Total time:9.271819353103638
+Iteration: 26 || Clusters count: 2 || Log posterior: -1903.740333828373 || Vi score: no gt || NMI score: no gt || Iter Time:0.003256082534790039 || Total time:9.275075435638428
+Iteration: 27 || Clusters count: 2 || Log posterior: -1903.740333828373 || Vi score: no gt || NMI score: no gt || Iter Time:0.02101302146911621 || Total time:9.296088457107544
+Iteration: 28 || Clusters count: 2 || Log posterior: -1903.740333828373 || Vi score: no gt || NMI score: no gt || Iter Time:0.003206014633178711 || Total time:9.299294471740723
+Iteration: 29 || Clusters count: 2 || Log posterior: -1903.740333828373 || Vi score: no gt || NMI score: no gt || Iter Time:0.0030341148376464844 || Total time:9.30232858657837
+Iteration: 30 || Clusters count: 3 || Log posterior: -1802.5768947929573 || Vi score: no gt || NMI score: no gt || Iter Time:0.0035970211029052734 || Total time:9.305925607681274
+Iteration: 31 || Clusters count: 3 || Log posterior: -1328.973725351735 || Vi score: no gt || NMI score: no gt || Iter Time:0.0029401779174804688 || Total time:9.308865785598755
+Iteration: 32 || Clusters count: 3 || Log posterior: -1328.973725351735 || Vi score: no gt || NMI score: no gt || Iter Time:0.003050088882446289 || Total time:9.311915874481201
+Iteration: 33 || Clusters count: 3 || Log posterior: -1328.973725351735 || Vi score: no gt || NMI score: no gt || Iter Time:0.003036022186279297 || Total time:9.31495189666748
+Iteration: 34 || Clusters count: 4 || Log posterior: -1176.710482391758 || Vi score: no gt || NMI score: no gt || Iter Time:0.0040111541748046875 || Total time:9.318963050842285
+Iteration: 35 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033960342407226562 || Total time:9.322359085083008
+Iteration: 36 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003556966781616211 || Total time:9.325916051864624
+Iteration: 37 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003556966781616211 || Total time:9.32947301864624
+Iteration: 38 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0037429332733154297 || Total time:9.333215951919556
+Iteration: 39 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003618955612182617 || Total time:9.336834907531738
+Iteration: 40 || Clusters count: 5 || Log posterior: -760.3350456089211 || Vi score: no gt || NMI score: no gt || Iter Time:0.004379987716674805 || Total time:9.341214895248413
+Iteration: 41 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.004044055938720703 || Total time:9.345258951187134
+Iteration: 42 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003782033920288086 || Total time:9.349040985107422
+Iteration: 43 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003715991973876953 || Total time:9.352756977081299
+Iteration: 44 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003487110137939453 || Total time:9.356244087219238
+Iteration: 45 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.06354284286499023 || Total time:9.419786930084229
+Iteration: 46 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0038068294525146484 || Total time:9.423593759536743
+Iteration: 47 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0034940242767333984 || Total time:9.427087783813477
+Iteration: 48 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033011436462402344 || Total time:9.430388927459717
+Iteration: 49 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0034351348876953125 || Total time:9.433824062347412
+Iteration: 50 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0030438899993896484 || Total time:9.436867952346802
+Iteration: 51 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0032210350036621094 || Total time:9.440088987350464
+Iteration: 52 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003262042999267578 || Total time:9.443351030349731
+Iteration: 53 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0035080909729003906 || Total time:9.446859121322632
+Iteration: 54 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003298044204711914 || Total time:9.450157165527344
+Iteration: 55 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003573894500732422 || Total time:9.453731060028076
+Iteration: 56 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.004117012023925781 || Total time:9.457848072052002
+Iteration: 57 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0036039352416992188 || Total time:9.461452007293701
+Iteration: 58 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003548860549926758 || Total time:9.465000867843628
+Iteration: 59 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0034890174865722656 || Total time:9.4684898853302
+Iteration: 60 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0035250186920166016 || Total time:9.472014904022217
+Iteration: 61 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003660917282104492 || Total time:9.475675821304321
+Iteration: 62 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003743886947631836 || Total time:9.479419708251953
+Iteration: 63 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003446817398071289 || Total time:9.482866525650024
+Iteration: 64 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003618001937866211 || Total time:9.48648452758789
+Iteration: 65 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003529071807861328 || Total time:9.490013599395752
+Iteration: 66 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0036699771881103516 || Total time:9.493683576583862
+Iteration: 67 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003681182861328125 || Total time:9.49736475944519
+Iteration: 68 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003690958023071289 || Total time:9.501055717468262
+Iteration: 69 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0038690567016601562 || Total time:9.504924774169922
+Iteration: 70 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003985166549682617 || Total time:9.508909940719604
+Iteration: 71 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003674030303955078 || Total time:9.51258397102356
+Iteration: 72 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003876924514770508 || Total time:9.51646089553833
+Iteration: 73 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003598928451538086 || Total time:9.520059823989868
+Iteration: 74 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003498077392578125 || Total time:9.523557901382446
+Iteration: 75 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.004060983657836914 || Total time:9.527618885040283
+Iteration: 76 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.00345611572265625 || Total time:9.53107500076294
+Iteration: 77 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003984928131103516 || Total time:9.535059928894043
+Iteration: 78 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.004019975662231445 || Total time:9.539079904556274
+Iteration: 79 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0038869380950927734 || Total time:9.542966842651367
+Iteration: 80 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0043179988861083984 || Total time:9.547284841537476
+Iteration: 81 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0042879581451416016 || Total time:9.551572799682617
+Iteration: 82 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.004221916198730469 || Total time:9.555794715881348
+Iteration: 83 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0037717819213867188 || Total time:9.559566497802734
+Iteration: 84 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0038459300994873047 || Total time:9.563412427902222
+Iteration: 85 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0038018226623535156 || Total time:9.567214250564575
+Iteration: 86 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0038988590240478516 || Total time:9.571113109588623
+Iteration: 87 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0041658878326416016 || Total time:9.575278997421265
+Iteration: 88 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.00413203239440918 || Total time:9.579411029815674
+Iteration: 89 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.004185914993286133 || Total time:9.58359694480896
+Iteration: 90 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.030750036239624023 || Total time:9.614346981048584
+Iteration: 91 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003765106201171875 || Total time:9.618112087249756
+Iteration: 92 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0034248828887939453 || Total time:9.62153697013855
+Iteration: 93 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003599882125854492 || Total time:9.625136852264404
+Iteration: 94 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003404855728149414 || Total time:9.628541707992554
+Iteration: 95 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003590106964111328 || Total time:9.632131814956665
+Iteration: 96 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033118724822998047 || Total time:9.635443687438965
+Iteration: 97 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003175973892211914 || Total time:9.638619661331177
+Iteration: 98 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003657817840576172 || Total time:9.642277479171753
+Iteration: 99 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0035729408264160156 || Total time:9.645850419998169
+Iteration: 100 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003306865692138672 || Total time:9.649157285690308
+Iteration: 101 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0030670166015625 || Total time:9.65222430229187
+Iteration: 102 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0026960372924804688 || Total time:9.65492033958435
+Iteration: 103 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0031309127807617188 || Total time:9.658051252365112
+Iteration: 104 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0031828880310058594 || Total time:9.661234140396118
+Iteration: 105 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003392934799194336 || Total time:9.664627075195312
+Iteration: 106 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0032930374145507812 || Total time:9.667920112609863
+Iteration: 107 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0031790733337402344 || Total time:9.671099185943604
+Iteration: 108 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0029900074005126953 || Total time:9.674089193344116
+Iteration: 109 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0032601356506347656 || Total time:9.677349328994751
+Iteration: 110 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.002917051315307617 || Total time:9.680266380310059
+Iteration: 111 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003364086151123047 || Total time:9.683630466461182
+Iteration: 112 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003137826919555664 || Total time:9.686768293380737
+Iteration: 113 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0031549930572509766 || Total time:9.689923286437988
+Iteration: 114 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003111124038696289 || Total time:9.693034410476685
+Iteration: 115 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.002975940704345703 || Total time:9.69601035118103
+Iteration: 116 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0032608509063720703 || Total time:9.699271202087402
+Iteration: 117 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0034079551696777344 || Total time:9.70267915725708
+Iteration: 118 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033910274505615234 || Total time:9.706070184707642
+Iteration: 119 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0031211376190185547 || Total time:9.70919132232666
+Iteration: 120 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0034208297729492188 || Total time:9.71261215209961
+Iteration: 121 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033118724822998047 || Total time:9.71592402458191
+Iteration: 122 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033278465270996094 || Total time:9.719251871109009
+Iteration: 123 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0031120777130126953 || Total time:9.722363948822021
+Iteration: 124 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003155946731567383 || Total time:9.725519895553589
+Iteration: 125 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.002769947052001953 || Total time:9.72828984260559
+Iteration: 126 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003216981887817383 || Total time:9.731506824493408
+Iteration: 127 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0031828880310058594 || Total time:9.734689712524414
+Iteration: 128 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0032889842987060547 || Total time:9.73797869682312
+Iteration: 129 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003364086151123047 || Total time:9.741342782974243
+Iteration: 130 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0030591487884521484 || Total time:9.744401931762695
+Iteration: 131 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0031311511993408203 || Total time:9.747533082962036
+Iteration: 132 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0034530162811279297 || Total time:9.750986099243164
+Iteration: 133 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0034639835357666016 || Total time:9.75445008277893
+Iteration: 134 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0031681060791015625 || Total time:9.757618188858032
+Iteration: 135 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.002892017364501953 || Total time:9.760510206222534
+Iteration: 136 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0032129287719726562 || Total time:9.763723134994507
+Iteration: 137 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003309011459350586 || Total time:9.767032146453857
+Iteration: 138 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0031890869140625 || Total time:9.77022123336792
+Iteration: 139 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0032889842987060547 || Total time:9.773510217666626
+Iteration: 140 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003080129623413086 || Total time:9.776590347290039
+Iteration: 141 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003290891647338867 || Total time:9.779881238937378
+Iteration: 142 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0034198760986328125 || Total time:9.78330111503601
+Iteration: 143 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0035049915313720703 || Total time:9.786806106567383
+Iteration: 144 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033512115478515625 || Total time:9.790157318115234
+Iteration: 145 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0030939579010009766 || Total time:9.793251276016235
+Iteration: 146 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003371000289916992 || Total time:9.796622276306152
+Iteration: 147 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003075838088989258 || Total time:9.799698114395142
+Iteration: 148 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003139019012451172 || Total time:9.802837133407593
+Iteration: 149 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0030870437622070312 || Total time:9.8059241771698
+Iteration: 150 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003159046173095703 || Total time:9.809083223342896
+Iteration: 151 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0034499168395996094 || Total time:9.812533140182495
+Iteration: 152 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003770112991333008 || Total time:9.816303253173828
+Iteration: 153 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0032961368560791016 || Total time:9.819599390029907
+Iteration: 154 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0030159950256347656 || Total time:9.822615385055542
+Iteration: 155 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003489971160888672 || Total time:9.82610535621643
+Iteration: 156 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.028397083282470703 || Total time:9.854502439498901
+Iteration: 157 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0036950111389160156 || Total time:9.858197450637817
+Iteration: 158 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003551006317138672 || Total time:9.861748456954956
+Iteration: 159 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0034568309783935547 || Total time:9.86520528793335
+Iteration: 160 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0036869049072265625 || Total time:9.868892192840576
+Iteration: 161 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0036878585815429688 || Total time:9.87258005142212
+Iteration: 162 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0034270286560058594 || Total time:9.876007080078125
+Iteration: 163 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0031690597534179688 || Total time:9.879176139831543
+Iteration: 164 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033440589904785156 || Total time:9.882520198822021
+Iteration: 165 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.00327301025390625 || Total time:9.885793209075928
+Iteration: 166 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0032470226287841797 || Total time:9.889040231704712
+Iteration: 167 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.00298309326171875 || Total time:9.89202332496643
+Iteration: 168 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0031960010528564453 || Total time:9.895219326019287
+Iteration: 169 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033311843872070312 || Total time:9.898550510406494
+Iteration: 170 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003041982650756836 || Total time:9.901592493057251
+Iteration: 171 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003123044967651367 || Total time:9.904715538024902
+Iteration: 172 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033609867095947266 || Total time:9.908076524734497
+Iteration: 173 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0032320022583007812 || Total time:9.911308526992798
+Iteration: 174 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003108978271484375 || Total time:9.914417505264282
+Iteration: 175 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003256082534790039 || Total time:9.917673587799072
+Iteration: 176 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033080577850341797 || Total time:9.920981645584106
+Iteration: 177 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.00315093994140625 || Total time:9.924132585525513
+Iteration: 178 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003487110137939453 || Total time:9.927619695663452
+Iteration: 179 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003064870834350586 || Total time:9.930684566497803
+Iteration: 180 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033490657806396484 || Total time:9.934033632278442
+Iteration: 181 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003347158432006836 || Total time:9.93738079071045
+Iteration: 182 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003493070602416992 || Total time:9.940873861312866
+Iteration: 183 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033960342407226562 || Total time:9.944269895553589
+Iteration: 184 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0032570362091064453 || Total time:9.947526931762695
+Iteration: 185 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033860206604003906 || Total time:9.950912952423096
+Iteration: 186 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003014087677001953 || Total time:9.953927040100098
+Iteration: 187 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003055095672607422 || Total time:9.956982135772705
+Iteration: 188 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0032320022583007812 || Total time:9.960214138031006
+Iteration: 189 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0031709671020507812 || Total time:9.963385105133057
+Iteration: 190 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0035219192504882812 || Total time:9.966907024383545
+Iteration: 191 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0030050277709960938 || Total time:9.969912052154541
+Iteration: 192 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0031838417053222656 || Total time:9.973095893859863
+Iteration: 193 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033059120178222656 || Total time:9.976401805877686
+Iteration: 194 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003203868865966797 || Total time:9.979605674743652
+Iteration: 195 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.003076791763305664 || Total time:9.982682466506958
+Iteration: 196 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0029709339141845703 || Total time:9.985653400421143
+Iteration: 197 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0032181739807128906 || Total time:9.988871574401855
+Iteration: 198 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033349990844726562 || Total time:9.992206573486328
+Iteration: 199 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0033609867095947266 || Total time:9.995567560195923
+Iteration: 200 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:1.0518081188201904 || Total time:11.047375679016113
+Float32[0.2316417, 0.24013688, 0.18123835, 0.24785288]
+Test Summary:                 | Pass  Total
+Testing Module (Determinstic) |   10     10
+[3798, 7510, 25856, 10044, 13467, 3032, 14417, 11925, 8916, 1035]
+Loading and distributing data:
+  0.002071 seconds (133 allocations: 1.151 MiB)
+Node Leaders:
+Dict{Any,Any}(1 => Any[1])
+Iteration: 1 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.35475683212280273 || Total time:0.35475683212280273
+Iteration: 2 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.4221529960632324 || Total time:0.7769098281860352
+Iteration: 3 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.48958301544189453 || Total time:1.2664928436279297
+Iteration: 4 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.30741095542907715 || Total time:1.5739037990570068
+Iteration: 5 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.3217191696166992 || Total time:1.895622968673706
+Iteration: 6 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.2826070785522461 || Total time:2.178230047225952
+Iteration: 7 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.1728651523590088 || Total time:2.351095199584961
+Iteration: 8 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.25386500358581543 || Total time:2.6049602031707764
+Iteration: 9 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.424267053604126 || Total time:3.0292272567749023
+Iteration: 10 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.49706292152404785 || Total time:3.52629017829895
+Iteration: 11 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.4912230968475342 || Total time:4.017513275146484
+Iteration: 12 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.17721986770629883 || Total time:4.194733142852783
+Iteration: 13 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.09464406967163086 || Total time:4.289377212524414
+Iteration: 14 || Clusters count: 2 || Log posterior: 64511.0710955495 || Vi score: 1.6949263658285303 || NMI score: 0.38383857014044875 || Iter Time:0.15669608116149902 || Total time:4.446073293685913
+Iteration: 15 || Clusters count: 2 || Log posterior: 79069.89069899259 || Vi score: 1.577584953710743 || NMI score: 0.42388797960445 || Iter Time:0.15745091438293457 || Total time:4.603524208068848
+Iteration: 16 || Clusters count: 2 || Log posterior: 94250.28984888736 || Vi score: 1.4745729472667002 || NMI score: 0.4599817339075402 || Iter Time:0.17632389068603516 || Total time:4.779848098754883
+Iteration: 17 || Clusters count: 2 || Log posterior: 96028.54381998716 || Vi score: 1.456021765687406 || NMI score: 0.46652863968993513 || Iter Time:0.3387339115142822 || Total time:5.118582010269165
+Iteration: 18 || Clusters count: 2 || Log posterior: 96198.79517468158 || Vi score: 1.4512430677929433 || NMI score: 0.46819566769192156 || Iter Time:0.1527419090270996 || Total time:5.271323919296265
+Iteration: 19 || Clusters count: 2 || Log posterior: 96216.63875445072 || Vi score: 1.452503872957127 || NMI score: 0.46774416843192923 || Iter Time:0.17180705070495605 || Total time:5.443130970001221
+Iteration: 20 || Clusters count: 2 || Log posterior: 96241.1080823773 || Vi score: 1.450315618163847 || NMI score: 0.4685102844249672 || Iter Time:0.16516995429992676 || Total time:5.6083009243011475
+Iteration: 21 || Clusters count: 2 || Log posterior: 96284.82684954349 || Vi score: 1.450452660301933 || NMI score: 0.46845901023054526 || Iter Time:0.4191720485687256 || Total time:6.027472972869873
+Iteration: 22 || Clusters count: 2 || Log posterior: 96230.13887318317 || Vi score: 1.4530168961696612 || NMI score: 0.46754881070824267 || Iter Time:0.5610740184783936 || Total time:6.588546991348267
+Iteration: 23 || Clusters count: 2 || Log posterior: 96217.60832127271 || Vi score: 1.4518660475440097 || NMI score: 0.4679273412343381 || Iter Time:0.6500318050384521 || Total time:7.238578796386719
+Iteration: 24 || Clusters count: 2 || Log posterior: 96292.82657774631 || Vi score: 1.4513113346177424 || NMI score: 0.4681611841150123 || Iter Time:0.20059704780578613 || Total time:7.439175844192505
+Iteration: 25 || Clusters count: 2 || Log posterior: 96266.51395901386 || Vi score: 1.4514932217771235 || NMI score: 0.4681018958918288 || Iter Time:0.25194692611694336 || Total time:7.691122770309448
+Iteration: 26 || Clusters count: 2 || Log posterior: 96263.76417931257 || Vi score: 1.4515049753263654 || NMI score: 0.4680839073247916 || Iter Time:0.14240384101867676 || Total time:7.833526611328125
+Iteration: 27 || Clusters count: 2 || Log posterior: 96181.13938387576 || Vi score: 1.4517880596642865 || NMI score: 0.46796752398050884 || Iter Time:0.2199418544769287 || Total time:8.053468465805054
+Iteration: 28 || Clusters count: 2 || Log posterior: 96255.38938387576 || Vi score: 1.4517880596642865 || NMI score: 0.46796752398050884 || Iter Time:0.18694400787353516 || Total time:8.240412473678589
+Iteration: 29 || Clusters count: 4 || Log posterior: 257786.51767953578 || Vi score: 0.797815152349633 || NMI score: 0.7643086879343179 || Iter Time:0.671807050704956 || Total time:8.912219524383545
+Iteration: 30 || Clusters count: 4 || Log posterior: 279695.1200621957 || Vi score: 0.7663305481476216 || NMI score: 0.7733147978086516 || Iter Time:0.3381690979003906 || Total time:9.250388622283936
+Iteration: 31 || Clusters count: 4 || Log posterior: 279716.3700693482 || Vi score: 0.7660304272392143 || NMI score: 0.7734034915004312 || Iter Time:0.23986482620239258 || Total time:9.490253448486328
+Iteration: 32 || Clusters count: 4 || Log posterior: 279702.3076094026 || Vi score: 0.7663401598217358 || NMI score: 0.7733112920291468 || Iter Time:0.5244770050048828 || Total time:10.014730453491211
+Iteration: 33 || Clusters count: 4 || Log posterior: 279707.5731514329 || Vi score: 0.7660812804805734 || NMI score: 0.7733890278156419 || Iter Time:0.5173220634460449 || Total time:10.532052516937256
+Iteration: 34 || Clusters count: 4 || Log posterior: 279726.6825765008 || Vi score: 0.7657020371019202 || NMI score: 0.7735005474247512 || Iter Time:0.7188370227813721 || Total time:11.250889539718628
+Iteration: 35 || Clusters count: 4 || Log posterior: 279759.90125497524 || Vi score: 0.7648124730290502 || NMI score: 0.7737646712803022 || Iter Time:0.7149760723114014 || Total time:11.96586561203003
+Iteration: 36 || Clusters count: 4 || Log posterior: 279728.80754646 || Vi score: 0.765155016133246 || NMI score: 0.7736627701006519 || Iter Time:0.842310905456543 || Total time:12.808176517486572
+Iteration: 37 || Clusters count: 4 || Log posterior: 279704.94817002956 || Vi score: 0.7664059609734717 || NMI score: 0.7732927388278378 || Iter Time:0.7710049152374268 || Total time:13.579181432723999
+Iteration: 38 || Clusters count: 4 || Log posterior: 279726.68250926683 || Vi score: 0.7653455388202174 || NMI score: 0.7736069081509658 || Iter Time:0.5098249912261963 || Total time:14.089006423950195
+Iteration: 39 || Clusters count: 4 || Log posterior: 279736.08879502956 || Vi score: 0.7655963589233361 || NMI score: 0.7735322203007845 || Iter Time:0.8128068447113037 || Total time:14.901813268661499
+Iteration: 40 || Clusters count: 4 || Log posterior: 279756.9637435311 || Vi score: 0.7645819502467978 || NMI score: 0.773833024363275 || Iter Time:0.6812329292297363 || Total time:15.583046197891235
+Iteration: 41 || Clusters count: 4 || Log posterior: 279684.557590806 || Vi score: 0.7668584895253494 || NMI score: 0.7731582169125243 || Iter Time:0.8253540992736816 || Total time:16.408400297164917
+Iteration: 42 || Clusters count: 4 || Log posterior: 279663.9481972093 || Vi score: 0.7673208986731265 || NMI score: 0.7730216836393233 || Iter Time:0.6868698596954346 || Total time:17.09527015686035
+Iteration: 43 || Clusters count: 4 || Log posterior: 279703.0106743211 || Vi score: 0.7669014902399274 || NMI score: 0.7731460775072116 || Iter Time:0.8880009651184082 || Total time:17.98327112197876
+Iteration: 44 || Clusters count: 6 || Log posterior: 386730.1361137266 || Vi score: 0.654040273388814 || NMI score: 0.82593861209589 || Iter Time:0.719127893447876 || Total time:18.702399015426636
+Iteration: 45 || Clusters count: 6 || Log posterior: 389657.8619767064 || Vi score: 0.6511173325726523 || NMI score: 0.8267228866339339 || Iter Time:0.3644380569458008 || Total time:19.066837072372437
+Iteration: 46 || Clusters count: 6 || Log posterior: 390047.6080280179 || Vi score: 0.6492730509429502 || NMI score: 0.8271967198905463 || Iter Time:0.49149107933044434 || Total time:19.55832815170288
+Iteration: 47 || Clusters count: 6 || Log posterior: 390352.8716855878 || Vi score: 0.6460584550786326 || NMI score: 0.8280260860088263 || Iter Time:0.42790794372558594 || Total time:19.986236095428467
+Iteration: 48 || Clusters count: 6 || Log posterior: 390574.5502181882 || Vi score: 0.6424232596693614 || NMI score: 0.8289639054318466 || Iter Time:0.5360569953918457 || Total time:20.522293090820312
+Iteration: 49 || Clusters count: 6 || Log posterior: 391032.3434215421 || Vi score: 0.6356646547268201 || NMI score: 0.8307105643530649 || Iter Time:0.5833191871643066 || Total time:21.10561227798462
+Iteration: 50 || Clusters count: 6 || Log posterior: 391482.86366089527 || Vi score: 0.6279564497110739 || NMI score: 0.8327093692375342 || Iter Time:0.17745280265808105 || Total time:21.2830650806427
+Iteration: 51 || Clusters count: 6 || Log posterior: 392052.5358496541 || Vi score: 0.6189843099938289 || NMI score: 0.8350316830104704 || Iter Time:0.5154352188110352 || Total time:21.798500299453735
+Iteration: 52 || Clusters count: 6 || Log posterior: 393012.9892564649 || Vi score: 0.6041152371278167 || NMI score: 0.8388970065911481 || Iter Time:0.582205057144165 || Total time:22.3807053565979
+Iteration: 53 || Clusters count: 6 || Log posterior: 394223.282013976 || Vi score: 0.5854697076661597 || NMI score: 0.8437623276205741 || Iter Time:0.617455005645752 || Total time:22.998160362243652
+Iteration: 54 || Clusters count: 6 || Log posterior: 396533.0028949613 || Vi score: 0.5560549336838758 || NMI score: 0.851488846930718 || Iter Time:0.6423740386962891 || Total time:23.64053440093994
+Iteration: 55 || Clusters count: 6 || Log posterior: 401386.7976675861 || Vi score: 0.522120081900054 || NMI score: 0.8605092115419344 || Iter Time:0.6651160717010498 || Total time:24.30565047264099
+Iteration: 56 || Clusters count: 6 || Log posterior: 406266.24925764743 || Vi score: 0.5181710651951057 || NMI score: 0.8617473854468258 || Iter Time:0.3687901496887207 || Total time:24.674440622329712
+Iteration: 57 || Clusters count: 6 || Log posterior: 429389.96399649326 || Vi score: 0.5043555651821431 || NMI score: 0.8656273771832488 || Iter Time:0.5373189449310303 || Total time:25.211759567260742
+Iteration: 58 || Clusters count: 6 || Log posterior: 431022.04664858524 || Vi score: 0.5040553531479124 || NMI score: 0.8657470958367185 || Iter Time:0.7427010536193848 || Total time:25.954460620880127
+Iteration: 59 || Clusters count: 8 || Log posterior: 480685.49197181413 || Vi score: 0.3948678250512324 || NMI score: 0.9000815756719535 || Iter Time:0.6049971580505371 || Total time:26.559457778930664
+Iteration: 60 || Clusters count: 8 || Log posterior: 484198.2386620874 || Vi score: 0.36710007558243707 || NMI score: 0.9069465092598378 || Iter Time:0.9279019832611084 || Total time:27.487359762191772
+Iteration: 61 || Clusters count: 8 || Log posterior: 487142.73722752277 || Vi score: 0.3347631670349714 || NMI score: 0.9148558859658814 || Iter Time:0.46410083770751953 || Total time:27.951460599899292
+Iteration: 62 || Clusters count: 8 || Log posterior: 488797.9037776822 || Vi score: 0.3135301787874784 || NMI score: 0.9200635020891624 || Iter Time:0.9535248279571533 || Total time:28.904985427856445
+Iteration: 63 || Clusters count: 8 || Log posterior: 489784.9589804048 || Vi score: 0.3000635265531826 || NMI score: 0.9234119810636389 || Iter Time:0.5379159450531006 || Total time:29.442901372909546
+Iteration: 64 || Clusters count: 8 || Log posterior: 490486.622043931 || Vi score: 0.2960442730040393 || NMI score: 0.9244653157691881 || Iter Time:0.7619810104370117 || Total time:30.204882383346558
+Iteration: 65 || Clusters count: 8 || Log posterior: 490567.9219160909 || Vi score: 0.3013690611422951 || NMI score: 0.9232933719189417 || Iter Time:0.348419189453125 || Total time:30.553301572799683
+Iteration: 66 || Clusters count: 8 || Log posterior: 490846.4898599023 || Vi score: 0.306211388698239 || NMI score: 0.9222314352565794 || Iter Time:0.5777449607849121 || Total time:31.131046533584595
+Iteration: 67 || Clusters count: 9 || Log posterior: 506472.52906151954 || Vi score: 0.23974323420751137 || NMI score: 0.9418580513319841 || Iter Time:0.6145360469818115 || Total time:31.745582580566406
+Iteration: 68 || Clusters count: 10 || Log posterior: 542666.299627387 || Vi score: 0.14605584651398093 || NMI score: 0.9649650659274196 || Iter Time:0.8983268737792969 || Total time:32.6439094543457
+Iteration: 69 || Clusters count: 10 || Log posterior: 567017.1939941281 || Vi score: 0.09088495677659932 || NMI score: 0.978176783964113 || Iter Time:1.0972559452056885 || Total time:33.74116539955139
+Iteration: 70 || Clusters count: 10 || Log posterior: 571462.8333648079 || Vi score: 0.05836939259285075 || NMI score: 0.9859680283600567 || Iter Time:0.919299840927124 || Total time:34.660465240478516
+Iteration: 71 || Clusters count: 10 || Log posterior: 576180.5703538293 || Vi score: 0.03804609898835345 || NMI score: 0.9908423247461431 || Iter Time:0.6637279987335205 || Total time:35.324193239212036
+Iteration: 72 || Clusters count: 10 || Log posterior: 576895.2186423177 || Vi score: 0.029867227028434362 || NMI score: 0.9928050777108274 || Iter Time:0.3866920471191406 || Total time:35.71088528633118
+Iteration: 73 || Clusters count: 10 || Log posterior: 577573.8542042607 || Vi score: 0.020544402085205946 || NMI score: 0.9950465799741053 || Iter Time:0.6913449764251709 || Total time:36.40223026275635
+Iteration: 74 || Clusters count: 11 || Log posterior: 579343.0767395132 || Vi score: 0.007533472840358715 || NMI score: 0.9981843303066636 || Iter Time:0.957017183303833 || Total time:37.35924744606018
+Iteration: 75 || Clusters count: 11 || Log posterior: 579404.5764753455 || Vi score: 0.006318305552821224 || NMI score: 0.9984768002971643 || Iter Time:0.9872550964355469 || Total time:38.34650254249573
+Iteration: 76 || Clusters count: 11 || Log posterior: 579501.6153227919 || Vi score: 0.005051946682665099 || NMI score: 0.9987817186767026 || Iter Time:0.9029090404510498 || Total time:39.24941158294678
+Iteration: 77 || Clusters count: 11 || Log posterior: 579601.6282109851 || Vi score: 0.00387596057099282 || NMI score: 0.9990650436029332 || Iter Time:0.684473991394043 || Total time:39.93388557434082
+Iteration: 78 || Clusters count: 11 || Log posterior: 579685.6017107599 || Vi score: 0.0029038018389576465 || NMI score: 0.9992993827298602 || Iter Time:0.910599946975708 || Total time:40.84448552131653
+Iteration: 79 || Clusters count: 11 || Log posterior: 579808.2516400451 || Vi score: 0.001900880883068661 || NMI score: 0.9995412523324979 || Iter Time:0.5515260696411133 || Total time:41.39601159095764
+Iteration: 80 || Clusters count: 11 || Log posterior: 579885.2500666017 || Vi score: 0.0008925941681214056 || NMI score: 0.9997845340231944 || Iter Time:1.089622974395752 || Total time:42.485634565353394
+Iteration: 81 || Clusters count: 11 || Log posterior: 579931.3642955058 || Vi score: 0.000522161400561591 || NMI score: 0.9998739409798193 || Iter Time:0.8772120475769043 || Total time:43.3628466129303
+Iteration: 82 || Clusters count: 11 || Log posterior: 579963.0218898887 || Vi score: 0.0001846142079316812 || NMI score: 0.9999554278065477 || Iter Time:0.567378044128418 || Total time:43.930224657058716
+Iteration: 83 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.8106091022491455 || Total time:44.74083375930786
+Iteration: 84 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.7351729869842529 || Total time:45.476006746292114
+Iteration: 85 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.8719468116760254 || Total time:46.34795355796814
+Iteration: 86 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.7918639183044434 || Total time:47.13981747627258
+Iteration: 87 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.806847095489502 || Total time:47.946664571762085
+Iteration: 88 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.7344160079956055 || Total time:48.68108057975769
+Iteration: 89 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.8859121799468994 || Total time:49.56699275970459
+Iteration: 90 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:1.1756970882415771 || Total time:50.74268984794617
+Iteration: 91 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.48894596099853516 || Total time:51.2316358089447
+Iteration: 92 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.5327000617980957 || Total time:51.7643358707428
+Iteration: 93 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.6848750114440918 || Total time:52.44921088218689
+Iteration: 94 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.8047239780426025 || Total time:53.25393486022949
+Iteration: 95 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.643294095993042 || Total time:53.897228956222534
+Iteration: 96 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.5172770023345947 || Total time:54.41450595855713
+Iteration: 97 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.4585390090942383 || Total time:54.87304496765137
+Iteration: 98 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.7964649200439453 || Total time:55.66950988769531
+Iteration: 99 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:0.7337028980255127 || Total time:56.403212785720825
+Iteration: 100 || Clusters count: 10 || Log posterior: 579945.2269900674 || Vi score: -0.0 || NMI score: 1.0 || Iter Time:1.2779269218444824 || Total time:57.68113970756531
+Test Summary:                | Pass  Total
+Testing Module (Random mess) |    1      1
+Loading and distributing data:
+  1.261923 seconds (925.00 k allocations: 36.873 MiB, 2.44% gc time)
+Node Leaders:
+Dict{Any,Any}(1 => Any[1])
+Iteration: 1 || Clusters count: 1 || Log posterior: -235249.83 || Vi score: no gt || NMI score: no gt || Iter Time:1.9983091354370117 || Total time:1.9983091354370117
+Iteration: 2 || Clusters count: 1 || Log posterior: -235249.83 || Vi score: no gt || NMI score: no gt || Iter Time:0.01004791259765625 || Total time:2.008357048034668
+Iteration: 3 || Clusters count: 1 || Log posterior: -235249.83 || Vi score: no gt || NMI score: no gt || Iter Time:0.016150951385498047 || Total time:2.024507999420166
+Iteration: 4 || Clusters count: 2 || Log posterior: -234996.62 || Vi score: no gt || NMI score: no gt || Iter Time:0.038941144943237305 || Total time:2.0634491443634033
+Iteration: 5 || Clusters count: 2 || Log posterior: -234908.62 || Vi score: no gt || NMI score: no gt || Iter Time:0.02475595474243164 || Total time:2.088205099105835
+Iteration: 6 || Clusters count: 2 || Log posterior: -234860.02 || Vi score: no gt || NMI score: no gt || Iter Time:0.016322851181030273 || Total time:2.1045279502868652
+Iteration: 7 || Clusters count: 2 || Log posterior: -234872.97 || Vi score: no gt || NMI score: no gt || Iter Time:0.019950151443481445 || Total time:2.1244781017303467
+Iteration: 8 || Clusters count: 2 || Log posterior: -234872.16 || Vi score: no gt || NMI score: no gt || Iter Time:0.07248401641845703 || Total time:2.1969621181488037
+Iteration: 9 || Clusters count: 4 || Log posterior: -234570.22 || Vi score: no gt || NMI score: no gt || Iter Time:0.14359116554260254 || Total time:2.3405532836914062
+Iteration: 10 || Clusters count: 4 || Log posterior: -234426.83 || Vi score: no gt || NMI score: no gt || Iter Time:0.15313291549682617 || Total time:2.4936861991882324
+Iteration: 11 || Clusters count: 4 || Log posterior: -234342.34 || Vi score: no gt || NMI score: no gt || Iter Time:0.03784799575805664 || Total time:2.531534194946289
+Iteration: 12 || Clusters count: 4 || Log posterior: -234286.2 || Vi score: no gt || NMI score: no gt || Iter Time:0.03990793228149414 || Total time:2.571442127227783
+Iteration: 13 || Clusters count: 4 || Log posterior: -234273.9 || Vi score: no gt || NMI score: no gt || Iter Time:0.032904863357543945 || Total time:2.604346990585327
+Iteration: 14 || Clusters count: 7 || Log posterior: -233510.03 || Vi score: no gt || NMI score: no gt || Iter Time:0.031219005584716797 || Total time:2.635565996170044
+Iteration: 15 || Clusters count: 8 || Log posterior: -232960.84 || Vi score: no gt || NMI score: no gt || Iter Time:0.06005501747131348 || Total time:2.6956210136413574
+Iteration: 16 || Clusters count: 8 || Log posterior: -232806.19 || Vi score: no gt || NMI score: no gt || Iter Time:0.03183317184448242 || Total time:2.72745418548584
+Iteration: 17 || Clusters count: 8 || Log posterior: -232727.31 || Vi score: no gt || NMI score: no gt || Iter Time:0.018693923950195312 || Total time:2.746148109436035
+Iteration: 18 || Clusters count: 8 || Log posterior: -232693.58 || Vi score: no gt || NMI score: no gt || Iter Time:0.01682305335998535 || Total time:2.7629711627960205
+Iteration: 19 || Clusters count: 11 || Log posterior: -231772.17 || Vi score: no gt || NMI score: no gt || Iter Time:0.06135988235473633 || Total time:2.824331045150757
+Iteration: 20 || Clusters count: 13 || Log posterior: -231009.58 || Vi score: no gt || NMI score: no gt || Iter Time:0.0483090877532959 || Total time:2.8726401329040527
+Saving Model:
+ 11.254426 seconds (9.30 M allocations: 455.151 MiB, 2.51% gc time)
+Iteration: 21 || Clusters count: 15 || Log posterior: -230329.5 || Vi score: no gt || NMI score: no gt || Iter Time:0.025410890579223633 || Total time:2.8980510234832764
+Iteration: 22 || Clusters count: 15 || Log posterior: -230123.45 || Vi score: no gt || NMI score: no gt || Iter Time:0.0785820484161377 || Total time:2.976633071899414
+Iteration: 23 || Clusters count: 15 || Log posterior: -230005.17 || Vi score: no gt || NMI score: no gt || Iter Time:0.12790608406066895 || Total time:3.104539155960083
+Iteration: 24 || Clusters count: 16 || Log posterior: -229704.95 || Vi score: no gt || NMI score: no gt || Iter Time:0.1683821678161621 || Total time:3.272921323776245
+Iteration: 25 || Clusters count: 17 || Log posterior: -229300.56 || Vi score: no gt || NMI score: no gt || Iter Time:0.1882939338684082 || Total time:3.4612152576446533
+Iteration: 26 || Clusters count: 19 || Log posterior: -228691.53 || Vi score: no gt || NMI score: no gt || Iter Time:0.10059714317321777 || Total time:3.561812400817871
+Iteration: 27 || Clusters count: 19 || Log posterior: -228636.05 || Vi score: no gt || NMI score: no gt || Iter Time:0.3470039367675781 || Total time:3.908816337585449
+Iteration: 28 || Clusters count: 20 || Log posterior: -228229.94 || Vi score: no gt || NMI score: no gt || Iter Time:0.12488889694213867 || Total time:4.033705234527588
+Iteration: 29 || Clusters count: 20 || Log posterior: -228209.47 || Vi score: no gt || NMI score: no gt || Iter Time:0.2147221565246582 || Total time:4.248427391052246
+Iteration: 30 || Clusters count: 20 || Log posterior: -228206.69 || Vi score: no gt || NMI score: no gt || Iter Time:0.17687320709228516 || Total time:4.425300598144531
+Iteration: 31 || Clusters count: 20 || Log posterior: -228206.25 || Vi score: no gt || NMI score: no gt || Iter Time:0.24004316329956055 || Total time:4.665343761444092
+Iteration: 32 || Clusters count: 20 || Log posterior: -228206.25 || Vi score: no gt || NMI score: no gt || Iter Time:0.19118905067443848 || Total time:4.85653281211853
+Iteration: 33 || Clusters count: 20 || Log posterior: -228206.25 || Vi score: no gt || NMI score: no gt || Iter Time:0.08236479759216309 || Total time:4.938897609710693
+Iteration: 34 || Clusters count: 20 || Log posterior: -228209.84 || Vi score: no gt || NMI score: no gt || Iter Time:0.04399704933166504 || Total time:4.982894659042358
+Iteration: 35 || Clusters count: 20 || Log posterior: -228209.84 || Vi score: no gt || NMI score: no gt || Iter Time:0.04644203186035156 || Total time:5.02933669090271
+Iteration: 36 || Clusters count: 20 || Log posterior: -228209.84 || Vi score: no gt || NMI score: no gt || Iter Time:0.08156204223632812 || Total time:5.110898733139038
+Iteration: 37 || Clusters count: 20 || Log posterior: -228204.7 || Vi score: no gt || NMI score: no gt || Iter Time:0.23432397842407227 || Total time:5.34522271156311
+Iteration: 38 || Clusters count: 20 || Log posterior: -228204.7 || Vi score: no gt || NMI score: no gt || Iter Time:0.2040388584136963 || Total time:5.549261569976807
+Iteration: 39 || Clusters count: 20 || Log posterior: -228204.7 || Vi score: no gt || NMI score: no gt || Iter Time:0.28598904609680176 || Total time:5.835250616073608
+Loading Model:
+  7.958773 seconds (4.91 M allocations: 247.263 MiB, 1.84% gc time)
+Including params
+Loading data:
+  0.286120 seconds (619.43 k allocations: 20.567 MiB)
+Creating model:
+Node Leaders:
+Dict{Any,Any}(1 => Any[1])
+Running model:
+Iteration: 21 || Clusters count: 15 || Log posterior: -230303.72 || Vi score: no gt || NMI score: no gt || Iter Time:0.03324699401855469 || Total time:0.03324699401855469
+Iteration: 22 || Clusters count: 15 || Log posterior: -230062.8 || Vi score: no gt || NMI score: no gt || Iter Time:0.14260315895080566 || Total time:0.17585015296936035
+Iteration: 23 || Clusters count: 15 || Log posterior: -229972.69 || Vi score: no gt || NMI score: no gt || Iter Time:0.23357295989990234 || Total time:0.4094231128692627
+Iteration: 24 || Clusters count: 16 || Log posterior: -229679.75 || Vi score: no gt || NMI score: no gt || Iter Time:0.21065187454223633 || Total time:0.620074987411499
+Iteration: 25 || Clusters count: 17 || Log posterior: -229280.33 || Vi score: no gt || NMI score: no gt || Iter Time:0.1639261245727539 || Total time:0.7840011119842529
+Iteration: 26 || Clusters count: 19 || Log posterior: -228719.44 || Vi score: no gt || NMI score: no gt || Iter Time:0.2307429313659668 || Total time:1.0147440433502197
+Iteration: 27 || Clusters count: 20 || Log posterior: -228256.3 || Vi score: no gt || NMI score: no gt || Iter Time:0.190093994140625 || Total time:1.2048380374908447
+Iteration: 28 || Clusters count: 20 || Log posterior: -228225.33 || Vi score: no gt || NMI score: no gt || Iter Time:0.2891998291015625 || Total time:1.4940378665924072
+Iteration: 29 || Clusters count: 20 || Log posterior: -228213.19 || Vi score: no gt || NMI score: no gt || Iter Time:0.15108489990234375 || Total time:1.645122766494751
+Iteration: 30 || Clusters count: 20 || Log posterior: -228210.25 || Vi score: no gt || NMI score: no gt || Iter Time:0.2633981704711914 || Total time:1.9085209369659424
+Iteration: 31 || Clusters count: 20 || Log posterior: -228205.06 || Vi score: no gt || NMI score: no gt || Iter Time:0.23244190216064453 || Total time:2.140962839126587
+Iteration: 32 || Clusters count: 20 || Log posterior: -228205.06 || Vi score: no gt || NMI score: no gt || Iter Time:0.2626779079437256 || Total time:2.4036407470703125
+Iteration: 33 || Clusters count: 20 || Log posterior: -228205.06 || Vi score: no gt || NMI score: no gt || Iter Time:0.1728501319885254 || Total time:2.576490879058838
+Iteration: 34 || Clusters count: 20 || Log posterior: -228205.5 || Vi score: no gt || NMI score: no gt || Iter Time:0.14858388900756836 || Total time:2.7250747680664062
+Iteration: 35 || Clusters count: 20 || Log posterior: -228203.75 || Vi score: no gt || NMI score: no gt || Iter Time:0.2692570686340332 || Total time:2.9943318367004395
+Iteration: 36 || Clusters count: 20 || Log posterior: -228203.75 || Vi score: no gt || NMI score: no gt || Iter Time:0.23025989532470703 || Total time:3.2245917320251465
+Iteration: 37 || Clusters count: 20 || Log posterior: -228203.75 || Vi score: no gt || NMI score: no gt || Iter Time:0.20780301094055176 || Total time:3.4323947429656982
+Iteration: 38 || Clusters count: 20 || Log posterior: -228203.84 || Vi score: no gt || NMI score: no gt || Iter Time:0.10332894325256348 || Total time:3.5357236862182617
+Iteration: 39 || Clusters count: 20 || Log posterior: -228203.84 || Vi score: no gt || NMI score: no gt || Iter Time:0.1506059169769287 || Total time:3.6863296031951904
+Test Summary:                    | Pass  Total
+Multinomial Module And save load |    4      4
+Loading and distributing data:
+  1.822036 seconds (785.53 k allocations: 39.805 MiB, 5.08% gc time)
+Node Leaders:
+Dict{Any,Any}(2 => Any[2, 3])
+Iteration: 1 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:9.562633991241455 || Total time:9.562633991241455
+Iteration: 2 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.02137303352355957 || Total time:9.584007024765015
+Iteration: 3 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.019913911819458008 || Total time:9.603920936584473
+Iteration: 4 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.026775121688842773 || Total time:9.630696058273315
+Iteration: 5 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.01636981964111328 || Total time:9.647065877914429
+Iteration: 6 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.016448974609375 || Total time:9.663514852523804
+Iteration: 7 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.015554189682006836 || Total time:9.67906904220581
+Iteration: 8 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.016171932220458984 || Total time:9.69524097442627
+Iteration: 9 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.03163290023803711 || Total time:9.726873874664307
+Iteration: 10 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.018280982971191406 || Total time:9.745154857635498
+Iteration: 11 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.01788187026977539 || Total time:9.763036727905273
+Iteration: 12 || Clusters count: 1 || Log posterior: -3184.8093386024666 || Vi score: no gt || NMI score: no gt || Iter Time:0.01909017562866211 || Total time:9.782126903533936
+Iteration: 13 || Clusters count: 2 || Log posterior: -2534.5309775203905 || Vi score: no gt || NMI score: no gt || Iter Time:0.9644439220428467 || Total time:10.746570825576782
+Iteration: 14 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.03614497184753418 || Total time:10.782715797424316
+Iteration: 15 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.022327899932861328 || Total time:10.805043697357178
+Iteration: 16 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.020655155181884766 || Total time:10.825698852539062
+Iteration: 17 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.018160104751586914 || Total time:10.84385895729065
+Iteration: 18 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.016647815704345703 || Total time:10.860506772994995
+Iteration: 19 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.0140838623046875 || Total time:10.874590635299683
+Iteration: 20 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.01429891586303711 || Total time:10.88888955116272
+Iteration: 21 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.019285202026367188 || Total time:10.908174753189087
+Iteration: 22 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.06879281997680664 || Total time:10.976967573165894
+Iteration: 23 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.12367510795593262 || Total time:11.100642681121826
+Iteration: 24 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.0381319522857666 || Total time:11.138774633407593
+Iteration: 25 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.04281282424926758 || Total time:11.18158745765686
+Iteration: 26 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.040077924728393555 || Total time:11.221665382385254
+Iteration: 27 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.03821611404418945 || Total time:11.259881496429443
+Iteration: 28 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.07281804084777832 || Total time:11.332699537277222
+Iteration: 29 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.08606600761413574 || Total time:11.418765544891357
+Iteration: 30 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.05205488204956055 || Total time:11.470820426940918
+Iteration: 31 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.050312042236328125 || Total time:11.521132469177246
+Iteration: 32 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.16089391708374023 || Total time:11.682026386260986
+Iteration: 33 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.027991056442260742 || Total time:11.710017442703247
+Iteration: 34 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.01646709442138672 || Total time:11.726484537124634
+Iteration: 35 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.016521930694580078 || Total time:11.743006467819214
+Iteration: 36 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.016309022903442383 || Total time:11.759315490722656
+Iteration: 37 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.018079042434692383 || Total time:11.777394533157349
+Iteration: 38 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.03516983985900879 || Total time:11.812564373016357
+Iteration: 39 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.03182697296142578 || Total time:11.844391345977783
+Iteration: 40 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.06064605712890625 || Total time:11.90503740310669
+Iteration: 41 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.056120872497558594 || Total time:11.961158275604248
+Iteration: 42 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.031062841415405273 || Total time:11.992221117019653
+Iteration: 43 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.03426694869995117 || Total time:12.026488065719604
+Iteration: 44 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.04315900802612305 || Total time:12.069647073745728
+Iteration: 45 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.0437769889831543 || Total time:12.113424062728882
+Iteration: 46 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.02607107162475586 || Total time:12.139495134353638
+Iteration: 47 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.051679134368896484 || Total time:12.191174268722534
+Iteration: 48 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.05521893501281738 || Total time:12.246393203735352
+Iteration: 49 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.02908492088317871 || Total time:12.27547812461853
+Iteration: 50 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.08005404472351074 || Total time:12.355532169342041
+Iteration: 51 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.02702808380126953 || Total time:12.38256025314331
+Iteration: 52 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.025627851486206055 || Total time:12.408188104629517
+Iteration: 53 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.06237292289733887 || Total time:12.470561027526855
+Iteration: 54 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.03555417060852051 || Total time:12.506115198135376
+Iteration: 55 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.04768109321594238 || Total time:12.553796291351318
+Iteration: 56 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.014818906784057617 || Total time:12.568615198135376
+Iteration: 57 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.024339914321899414 || Total time:12.592955112457275
+Iteration: 58 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.02393484115600586 || Total time:12.616889953613281
+Iteration: 59 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.020618915557861328 || Total time:12.637508869171143
+Iteration: 60 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.0294189453125 || Total time:12.666927814483643
+Iteration: 61 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.09555792808532715 || Total time:12.76248574256897
+Iteration: 62 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.025079011917114258 || Total time:12.787564754486084
+Iteration: 63 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.02843308448791504 || Total time:12.815997838973999
+Iteration: 64 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.029819011688232422 || Total time:12.845816850662231
+Iteration: 65 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.02868485450744629 || Total time:12.874501705169678
+Iteration: 66 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.024135112762451172 || Total time:12.898636817932129
+Iteration: 67 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.016636133193969727 || Total time:12.915272951126099
+Iteration: 68 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.0510859489440918 || Total time:12.96635890007019
+Iteration: 69 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.02090001106262207 || Total time:12.987258911132812
+Iteration: 70 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.0790109634399414 || Total time:13.066269874572754
+Iteration: 71 || Clusters count: 2 || Log posterior: -1648.110451015873 || Vi score: no gt || NMI score: no gt || Iter Time:0.043044090270996094 || Total time:13.10931396484375
+Iteration: 72 || Clusters count: 3 || Log posterior: -1589.0145364135933 || Vi score: no gt || NMI score: no gt || Iter Time:0.0639350414276123 || Total time:13.173249006271362
+Iteration: 73 || Clusters count: 3 || Log posterior: -1311.2856731743063 || Vi score: no gt || NMI score: no gt || Iter Time:0.039913177490234375 || Total time:13.213162183761597
+Iteration: 74 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.054908037185668945 || Total time:13.268070220947266
+Iteration: 75 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.043736934661865234 || Total time:13.31180715560913
+Iteration: 76 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.06737685203552246 || Total time:13.379184007644653
+Iteration: 77 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03759407997131348 || Total time:13.416778087615967
+Iteration: 78 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.14610600471496582 || Total time:13.562884092330933
+Iteration: 79 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.037802934646606445 || Total time:13.600687026977539
+Iteration: 80 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.12775182723999023 || Total time:13.72843885421753
+Iteration: 81 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.04815387725830078 || Total time:13.77659273147583
+Iteration: 82 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.05889701843261719 || Total time:13.835489749908447
+Iteration: 83 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.02511310577392578 || Total time:13.860602855682373
+Iteration: 84 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.02509784698486328 || Total time:13.885700702667236
+Iteration: 85 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.025055885314941406 || Total time:13.910756587982178
+Iteration: 86 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.02527308464050293 || Total time:13.93602967262268
+Iteration: 87 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.025165081024169922 || Total time:13.96119475364685
+Iteration: 88 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.025074005126953125 || Total time:13.986268758773804
+Iteration: 89 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.025151968002319336 || Total time:14.011420726776123
+Iteration: 90 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.02554488182067871 || Total time:14.036965608596802
+Iteration: 91 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.02497100830078125 || Total time:14.061936616897583
+Iteration: 92 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.025322914123535156 || Total time:14.087259531021118
+Iteration: 93 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.02512216567993164 || Total time:14.11238169670105
+Iteration: 94 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.05096912384033203 || Total time:14.163350820541382
+Iteration: 95 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.05839085578918457 || Total time:14.221741676330566
+Iteration: 96 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.036959171295166016 || Total time:14.258700847625732
+Iteration: 97 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.05315518379211426 || Total time:14.311856031417847
+Iteration: 98 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.04503297805786133 || Total time:14.356889009475708
+Iteration: 99 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.10749983787536621 || Total time:14.464388847351074
+Iteration: 100 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.04153013229370117 || Total time:14.505918979644775
+Iteration: 101 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.05075788497924805 || Total time:14.556676864624023
+Iteration: 102 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.018280982971191406 || Total time:14.574957847595215
+Iteration: 103 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.019144058227539062 || Total time:14.594101905822754
+Iteration: 104 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.07863092422485352 || Total time:14.672732830047607
+Iteration: 105 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.050518035888671875 || Total time:14.72325086593628
+Iteration: 106 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.042523860931396484 || Total time:14.765774726867676
+Iteration: 107 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.024582862854003906 || Total time:14.79035758972168
+Iteration: 108 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.09903693199157715 || Total time:14.889394521713257
+Iteration: 109 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.06173515319824219 || Total time:14.951129674911499
+Iteration: 110 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.0402979850769043 || Total time:14.991427659988403
+Iteration: 111 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.04243206977844238 || Total time:15.033859729766846
+Iteration: 112 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.07555794715881348 || Total time:15.10941767692566
+Iteration: 113 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.0680849552154541 || Total time:15.177502632141113
+Iteration: 114 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.035923004150390625 || Total time:15.213425636291504
+Iteration: 115 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.0624849796295166 || Total time:15.27591061592102
+Iteration: 116 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03556704521179199 || Total time:15.311477661132812
+Iteration: 117 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03226900100708008 || Total time:15.343746662139893
+Iteration: 118 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.025233030319213867 || Total time:15.368979692459106
+Iteration: 119 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.02701711654663086 || Total time:15.395996809005737
+Iteration: 120 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03691601753234863 || Total time:15.432912826538086
+Iteration: 121 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.05429506301879883 || Total time:15.487207889556885
+Iteration: 122 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03196597099304199 || Total time:15.519173860549927
+Iteration: 123 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.07704997062683105 || Total time:15.596223831176758
+Iteration: 124 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03526592254638672 || Total time:15.631489753723145
+Iteration: 125 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.04128885269165039 || Total time:15.672778606414795
+Iteration: 126 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03296995162963867 || Total time:15.705748558044434
+Iteration: 127 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.029378890991210938 || Total time:15.735127449035645
+Iteration: 128 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.04226112365722656 || Total time:15.777388572692871
+Iteration: 129 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.0520169734954834 || Total time:15.829405546188354
+Iteration: 130 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.06514596939086914 || Total time:15.894551515579224
+Iteration: 131 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.06565308570861816 || Total time:15.960204601287842
+Iteration: 132 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03710794448852539 || Total time:15.997312545776367
+Iteration: 133 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.0394129753112793 || Total time:16.036725521087646
+Iteration: 134 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.06454205513000488 || Total time:16.10126757621765
+Iteration: 135 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.12160992622375488 || Total time:16.222877502441406
+Iteration: 136 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.028776168823242188 || Total time:16.25165367126465
+Iteration: 137 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.027299880981445312 || Total time:16.278953552246094
+Iteration: 138 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.06943392753601074 || Total time:16.348387479782104
+Iteration: 139 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.027183055877685547 || Total time:16.37557053565979
+Iteration: 140 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.025793075561523438 || Total time:16.401363611221313
+Iteration: 141 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.05624699592590332 || Total time:16.457610607147217
+Iteration: 142 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03315401077270508 || Total time:16.490764617919922
+Iteration: 143 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03403496742248535 || Total time:16.524799585342407
+Iteration: 144 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.027698040008544922 || Total time:16.552497625350952
+Iteration: 145 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.04281115531921387 || Total time:16.595308780670166
+Iteration: 146 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.038247108459472656 || Total time:16.63355588912964
+Iteration: 147 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03023505210876465 || Total time:16.663790941238403
+Iteration: 148 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03866291046142578 || Total time:16.70245385169983
+Iteration: 149 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.04068493843078613 || Total time:16.743138790130615
+Iteration: 150 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03960394859313965 || Total time:16.782742738723755
+Iteration: 151 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03133702278137207 || Total time:16.814079761505127
+Iteration: 152 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.016934871673583984 || Total time:16.83101463317871
+Iteration: 153 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.018687009811401367 || Total time:16.849701642990112
+Iteration: 154 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.01913595199584961 || Total time:16.868837594985962
+Iteration: 155 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.038717031478881836 || Total time:16.907554626464844
+Iteration: 156 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.025326967239379883 || Total time:16.932881593704224
+Iteration: 157 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.018964052200317383 || Total time:16.95184564590454
+Iteration: 158 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.018090009689331055 || Total time:16.969935655593872
+Iteration: 159 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.0253140926361084 || Total time:16.99524974822998
+Iteration: 160 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.0189969539642334 || Total time:17.014246702194214
+Iteration: 161 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.020027875900268555 || Total time:17.034274578094482
+Iteration: 162 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.027992963790893555 || Total time:17.062267541885376
+Iteration: 163 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.032095909118652344 || Total time:17.09436345100403
+Iteration: 164 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.025897979736328125 || Total time:17.120261430740356
+Iteration: 165 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.038147926330566406 || Total time:17.158409357070923
+Iteration: 166 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.19215798377990723 || Total time:17.35056734085083
+Iteration: 167 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.05034494400024414 || Total time:17.400912284851074
+Iteration: 168 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.031080961227416992 || Total time:17.43199324607849
+Iteration: 169 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.031269073486328125 || Total time:17.46326231956482
+Iteration: 170 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.05325818061828613 || Total time:17.516520500183105
+Iteration: 171 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.04629397392272949 || Total time:17.562814474105835
+Iteration: 172 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.047367095947265625 || Total time:17.6101815700531
+Iteration: 173 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03210282325744629 || Total time:17.642284393310547
+Iteration: 174 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.03177499771118164 || Total time:17.67405939102173
+Iteration: 175 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.04283308982849121 || Total time:17.71689248085022
+Iteration: 176 || Clusters count: 3 || Log posterior: -1201.158783945485 || Vi score: no gt || NMI score: no gt || Iter Time:0.052564144134521484 || Total time:17.76945662498474
+Iteration: 177 || Clusters count: 4 || Log posterior: -1188.1109907955365 || Vi score: no gt || NMI score: no gt || Iter Time:0.04449105262756348 || Total time:17.813947677612305
+Iteration: 178 || Clusters count: 4 || Log posterior: -923.2328942150314 || Vi score: no gt || NMI score: no gt || Iter Time:0.04252290725708008 || Total time:17.856470584869385
+Iteration: 179 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.03525400161743164 || Total time:17.891724586486816
+Iteration: 180 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.035340070724487305 || Total time:17.927064657211304
+Iteration: 181 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.03434395790100098 || Total time:17.961408615112305
+Iteration: 182 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.028888225555419922 || Total time:17.990296840667725
+Iteration: 183 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.03955411911010742 || Total time:18.029850959777832
+Iteration: 184 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.04775094985961914 || Total time:18.07760190963745
+Iteration: 185 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.027495145797729492 || Total time:18.10509705543518
+Iteration: 186 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.028949975967407227 || Total time:18.134047031402588
+Iteration: 187 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.033844947814941406 || Total time:18.16789197921753
+Iteration: 188 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.08963799476623535 || Total time:18.257529973983765
+Iteration: 189 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.028489112854003906 || Total time:18.28601908683777
+Iteration: 190 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:1.5537159442901611 || Total time:19.83973503112793
+Iteration: 191 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.06369996070861816 || Total time:19.903434991836548
+Iteration: 192 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.04147601127624512 || Total time:19.944911003112793
+Iteration: 193 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.03144717216491699 || Total time:19.97635817527771
+Iteration: 194 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0352170467376709 || Total time:20.01157522201538
+Iteration: 195 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.02855706214904785 || Total time:20.04013228416443
+Iteration: 196 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.02851390838623047 || Total time:20.06864619255066
+Iteration: 197 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.03012681007385254 || Total time:20.09877300262451
+Iteration: 198 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.04267096519470215 || Total time:20.141443967819214
+Iteration: 199 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.0350189208984375 || Total time:20.17646288871765
+Iteration: 200 || Clusters count: 4 || Log posterior: -754.2071168750956 || Vi score: no gt || NMI score: no gt || Iter Time:0.03588294982910156 || Total time:20.212345838546753
+Float32[0.21481046, 0.22334144, 0.23313032, 0.24152073]
+Test Summary:                 | Pass  Total
+Testing Module (Determinstic) |   10     10
+[3798, 7510, 25856, 10044, 13467, 3032, 14417, 11925, 8916, 1035]
+Loading and distributing data:
+  0.005988 seconds (367 allocations: 1.162 MiB)
+Node Leaders:
+Dict{Any,Any}(2 => Any[2, 3])
+Iteration: 1 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.1997699737548828 || Total time:0.1997699737548828
+Iteration: 2 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.1067209243774414 || Total time:0.3064908981323242
+Iteration: 3 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.20061492919921875 || Total time:0.507105827331543
+Iteration: 4 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.22519516944885254 || Total time:0.7323009967803955
+Iteration: 5 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.239670991897583 || Total time:0.9719719886779785
+Iteration: 6 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.177048921585083 || Total time:1.1490209102630615
+Iteration: 7 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.2886011600494385 || Total time:1.4376220703125
+Iteration: 8 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.10164594650268555 || Total time:1.5392680168151855
+Iteration: 9 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.24866700172424316 || Total time:1.7879350185394287
+Iteration: 10 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.10315608978271484 || Total time:1.8910911083221436
+Iteration: 11 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.2966139316558838 || Total time:2.1877050399780273
+Iteration: 12 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.17350292205810547 || Total time:2.361207962036133
+Iteration: 13 || Clusters count: 1 || Log posterior: -7445.937491691671 || Vi score: 2.0708648708156385 || NMI score: -4.288925039084297e-16 || Iter Time:0.15252995491027832 || Total time:2.513737916946411
+Iteration: 14 || Clusters count: 2 || Log posterior: 82181.79883011524 || Vi score: 1.565420926099464 || NMI score: 0.4282037395968407 || Iter Time:0.14248108863830566 || Total time:2.656219005584717
+Iteration: 15 || Clusters count: 2 || Log posterior: 94834.97645910922 || Vi score: 1.4713458376694086 || NMI score: 0.46121947873486346 || Iter Time:0.18099188804626465 || Total time:2.8372108936309814
+Iteration: 16 || Clusters count: 2 || Log posterior: 96022.32498558704 || Vi score: 1.4561447584122322 || NMI score: 0.4664888152501789 || Iter Time:0.12111186981201172 || Total time:2.958322763442993
+Iteration: 17 || Clusters count: 2 || Log posterior: 96290.88941820804 || Vi score: 1.450236087897253 || NMI score: 0.4685341640506406 || Iter Time:0.15043306350708008 || Total time:3.1087558269500732
+Iteration: 18 || Clusters count: 2 || Log posterior: 96304.04631622974 || Vi score: 1.449408857489679 || NMI score: 0.4687972517413346 || Iter Time:0.1351759433746338 || Total time:3.243931770324707
+Iteration: 19 || Clusters count: 2 || Log posterior: 96342.04605873767 || Vi score: 1.4491667709583953 || NMI score: 0.46890180364189993 || Iter Time:0.13681888580322266 || Total time:3.3807506561279297
+Iteration: 20 || Clusters count: 2 || Log posterior: 96363.23335417453 || Vi score: 1.4491920566998095 || NMI score: 0.4689051852698368 || Iter Time:0.16541790962219238 || Total time:3.546168565750122
+Iteration: 21 || Clusters count: 2 || Log posterior: 96256.17047938053 || Vi score: 1.4506657048185814 || NMI score: 0.46838830744386795 || Iter Time:0.1528310775756836 || Total time:3.6989996433258057
+Iteration: 22 || Clusters count: 2 || Log posterior: 96313.63938387576 || Vi score: 1.4512337586335562 || NMI score: 0.46817065703968863 || Iter Time:0.11563992500305176 || Total time:3.8146395683288574
+Iteration: 23 || Clusters count: 2 || Log posterior: 96294.54570254032 || Vi score: 1.4511427739063127 || NMI score: 0.4681997840921923 || Iter Time:0.1308000087738037 || Total time:3.945439577102661
+Iteration: 24 || Clusters count: 2 || Log posterior: 96335.13962277118 || Vi score: 1.4508448876002298 || NMI score: 0.46829840684883467 || Iter Time:0.1883699893951416 || Total time:4.133809566497803
+Iteration: 25 || Clusters count: 2 || Log posterior: 96278.76429804508 || Vi score: 1.4518731369304259 || NMI score: 0.4679416164526745 || Iter Time:0.1557459831237793 || Total time:4.289555549621582
+Iteration: 26 || Clusters count: 2 || Log posterior: 96339.85869606677 || Vi score: 1.449477968768015 || NMI score: 0.468779313229907 || Iter Time:0.10393977165222168 || Total time:4.393495321273804
+Iteration: 27 || Clusters count: 2 || Log posterior: 96290.7017637128 || Vi score: 1.4509119418236405 || NMI score: 0.46829596547426416 || Iter Time:0.12290477752685547 || Total time:4.516400098800659
+Iteration: 28 || Clusters count: 2 || Log posterior: 96294.73345717136 || Vi score: 1.4502730732239255 || NMI score: 0.4685026907575607 || Iter Time:0.15496587753295898 || Total time:4.671365976333618
+Iteration: 29 || Clusters count: 4 || Log posterior: 237907.54211982433 || Vi score: 0.9080266067310743 || NMI score: 0.7331743773437838 || Iter Time:0.188431978225708 || Total time:4.859797954559326
+Iteration: 30 || Clusters count: 4 || Log posterior: 258780.47861941997 || Vi score: 0.839955730108825 || NMI score: 0.7523373461353721 || Iter Time:0.41368603706359863 || Total time:5.273483991622925
+Iteration: 31 || Clusters count: 4 || Log posterior: 261719.5682175988 || Vi score: 0.8094930173779747 || NMI score: 0.7609345286801112 || Iter Time:0.18043303489685059 || Total time:5.453917026519775
+Iteration: 32 || Clusters count: 4 || Log posterior: 275011.28979428945 || Vi score: 0.7686872966897405 || NMI score: 0.7726328768114963 || Iter Time:0.32231998443603516 || Total time:5.7762370109558105
+Iteration: 33 || Clusters count: 4 || Log posterior: 279718.3388193482 || Vi score: 0.7661259014169821 || NMI score: 0.7733752496518518 || Iter Time:0.15278387069702148 || Total time:5.929020881652832
+Iteration: 34 || Clusters count: 4 || Log posterior: 279755.93250926683 || Vi score: 0.7653455388202174 || NMI score: 0.7736069081509658 || Iter Time:0.15468788146972656 || Total time:6.083708763122559
+Iteration: 35 || Clusters count: 4 || Log posterior: 279723.5263307923 || Vi score: 0.7662441424315931 || NMI score: 0.7733401084773278 || Iter Time:0.10114002227783203 || Total time:6.184848785400391
+Iteration: 36 || Clusters count: 4 || Log posterior: 279739.8231285447 || Vi score: 0.7656400124713736 || NMI score: 0.7735198853468681 || Iter Time:0.18931198120117188 || Total time:6.3741607666015625
+Iteration: 37 || Clusters count: 4 || Log posterior: 279697.3388479585 || Vi score: 0.7661294964004987 || NMI score: 0.7733737727482051 || Iter Time:0.18437600135803223 || Total time:6.558536767959595
+Iteration: 38 || Clusters count: 4 || Log posterior: 279720.5106514329 || Vi score: 0.7660812804805734 || NMI score: 0.7733890278156419 || Iter Time:0.1585700511932373 || Total time:6.717106819152832
+Iteration: 39 || Clusters count: 4 || Log posterior: 279696.26068004314 || Vi score: 0.7670070657156001 || NMI score: 0.7731147651613819 || Iter Time:0.1379530429840088 || Total time:6.855059862136841
+Iteration: 40 || Clusters count: 4 || Log posterior: 279712.51069291774 || Vi score: 0.7668313286229803 || NMI score: 0.7731665828737662 || Iter Time:0.20207500457763672 || Total time:7.0571348667144775
+Iteration: 41 || Clusters count: 4 || Log posterior: 279697.51065143297 || Vi score: 0.7664740356811063 || NMI score: 0.7732728504229096 || Iter Time:0.21140217781066895 || Total time:7.2685370445251465
+Iteration: 42 || Clusters count: 4 || Log posterior: 279786.651226365 || Vi score: 0.7642298006434008 || NMI score: 0.7739374364085498 || Iter Time:0.1841890811920166 || Total time:7.452726125717163
+Iteration: 43 || Clusters count: 4 || Log posterior: 279704.52634223644 || Vi score: 0.7660234176416763 || NMI score: 0.7734052339919256 || Iter Time:0.17284202575683594 || Total time:7.625568151473999
+Iteration: 44 || Clusters count: 6 || Log posterior: 384110.87671288196 || Vi score: 0.6538701416750813 || NMI score: 0.8259548451200308 || Iter Time:0.252183198928833 || Total time:7.877751350402832
+Iteration: 45 || Clusters count: 6 || Log posterior: 387307.5118828648 || Vi score: 0.6475094056520397 || NMI score: 0.827643101090849 || Iter Time:0.15539908409118652 || Total time:8.033150434494019
+Iteration: 46 || Clusters count: 6 || Log posterior: 388447.76612099353 || Vi score: 0.6396370438007996 || NMI score: 0.8296877535343344 || Iter Time:0.2768678665161133 || Total time:8.310018301010132
+Iteration: 47 || Clusters count: 6 || Log posterior: 389853.11859663663 || Vi score: 0.6290037724345422 || NMI score: 0.8324518628755557 || Iter Time:0.21159601211547852 || Total time:8.52161431312561
+Iteration: 48 || Clusters count: 6 || Log posterior: 393909.8123451108 || Vi score: 0.6142087772749915 || NMI score: 0.8363818639589089 || Iter Time:0.21099591255187988 || Total time:8.73261022567749
+Iteration: 49 || Clusters count: 6 || Log posterior: 416352.1537390584 || Vi score: 0.5751957283315952 || NMI score: 0.8468065997959403 || Iter Time:0.1867208480834961 || Total time:8.919331073760986
+Iteration: 50 || Clusters count: 6 || Log posterior: 426027.5219312543 || Vi score: 0.5324779473535061 || NMI score: 0.8580364390794185 || Iter Time:0.29723596572875977 || Total time:9.216567039489746
+Iteration: 51 || Clusters count: 6 || Log posterior: 431262.5221815938 || Vi score: 0.49713878313270793 || NMI score: 0.8673769817364507 || Iter Time:0.2049241065979004 || Total time:9.421491146087646
+Iteration: 52 || Clusters count: 6 || Log posterior: 431609.11409338657 || Vi score: 0.49356031653528 || NMI score: 0.8683378491580933 || Iter Time:0.18276476860046387 || Total time:9.60425591468811
+Iteration: 53 || Clusters count: 7 || Log posterior: 435234.8125013942 || Vi score: 0.4458346898379611 || NMI score: 0.8865863071409764 || Iter Time:0.24449992179870605 || Total time:9.848755836486816
+Iteration: 54 || Clusters count: 7 || Log posterior: 479429.028774702 || Vi score: 0.33702463281910505 || NMI score: 0.9142562886117933 || Iter Time:0.3115520477294922 || Total time:10.160307884216309
+Iteration: 55 || Clusters count: 7 || Log posterior: 499769.2643856639 || Vi score: 0.3126380773193368 || NMI score: 0.9204590687034574 || Iter Time:0.21092987060546875 || Total time:10.371237754821777
+Iteration: 56 || Clusters count: 7 || Log posterior: 499826.63312526885 || Vi score: 0.3119059250792497 || NMI score: 0.9206423113166944 || Iter Time:0.17951607704162598 || Total time:10.550753831863403
+Iteration: 57 || Clusters count: 7 || Log posterior: 499882.97811123077 || Vi score: 0.31178731149895744 || NMI score: 0.9206700798145248 || Iter Time:0.21084213256835938 || Total time:10.761595964431763
+Iteration: 58 || Clusters count: 7 || Log posterior: 499797.69523616973 || Vi score: 0.31218245337446476 || NMI score: 0.9205727145724969 || Iter Time:0.45900702476501465 || Total time:11.220602989196777
+Iteration: 59 || Clusters count: 9 || Log posterior: 522138.3881637687 || Vi score: 0.23656600223909005 || NMI score: 0.9415570174169826 || Iter Time:0.3373408317565918 || Total time:11.55794382095337
+Iteration: 60 || Clusters count: 9 || Log posterior: 524595.6692297095 || Vi score: 0.213249146195916 || NMI score: 0.947353679483677 || Iter Time:0.31123995780944824 || Total time:11.869183778762817
+Iteration: 61 || Clusters count: 9 || Log posterior: 526067.5805594558 || Vi score: 0.2000389649927569 || NMI score: 0.950778014566577 || Iter Time:0.2422018051147461 || Total time:12.111385583877563
+Iteration: 62 || Clusters count: 9 || Log posterior: 527332.3225953216 || Vi score: 0.18274693525537405 || NMI score: 0.9552297524023361 || Iter Time:0.25844311714172363 || Total time:12.369828701019287
+Iteration: 63 || Clusters count: 10 || Log posterior: 530427.8946066732 || Vi score: 0.2155229215456696 || NMI score: 0.9487168766993731 || Iter Time:0.30167102813720703 || Total time:12.671499729156494
+Iteration: 64 || Clusters count: 10 || Log posterior: 552534.6840287084 || Vi score: 0.1366226270623853 || NMI score: 0.9672780681111931 || Iter Time:0.3346428871154785 || Total time:13.006142616271973
+Iteration: 65 || Clusters count: 10 || Log posterior: 559347.6835685606 || Vi score: 0.08270626043069222 || NMI score: 0.980056172378187 || Iter Time:0.20530986785888672 || Total time:13.21145248413086
+Iteration: 66 || Clusters count: 10 || Log posterior: 561466.6630338066 || Vi score: 0.06130606197560952 || NMI score: 0.9851733936077489 || Iter Time:0.18898487091064453 || Total time:13.400437355041504
+Iteration: 67 || Clusters count: 10 || Log posterior: 562596.7727585668 || Vi score: 0.0599429712926725 || NMI score: 0.9855096714453719 || Iter Time:0.18863701820373535 || Total time:13.58907437324524
+Iteration: 68 || Clusters count: 10 || Log posterior: 563228.2091260786 || Vi score: 0.08298987430596297 || NMI score: 0.980072987165937 || Iter Time:0.3132040500640869 || Total time:13.902278423309326
+Iteration: 69 || Clusters count: 10 || Log posterior: 567761.9535899991 || Vi score: 0.08485033996575893 || NMI score: 0.9796874563906653 || Iter Time:0.21355009078979492 || Total time:14.115828514099121
+Iteration: 70 || Clusters count: 10 || Log posterior: 572830.8200744027 || Vi score: 0.05810702813323417 || NMI score: 0.9860493593804069 || Iter Time:0.3116180896759033 || Total time:14.427446603775024
+Iteration: 71 || Clusters count: 10 || Log posterior: 575939.2845221395 || Vi score: 0.02980933257568119 || NMI score: 0.9928199292063231 || Iter Time:0.249953031539917 || Total time:14.677399635314941
+Iteration: 72 || Clusters count: 10 || Log posterior: 577488.2889402742 || Vi score: 0.012602668277500454 || NMI score: 0.9969595516253743 || Iter Time:0.30814099311828613 || Total time:14.985540628433228
+Iteration: 73 || Clusters count: 10 || Log posterior: 578790.173142993 || Vi score: 0.002309818271611591 || NMI score: 0.9994423607201558 || Iter Time:0.24579715728759766 || Total time:15.231337785720825
+Iteration: 74 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.3115959167480469 || Total time:15.542933702468872
+Iteration: 75 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.26024603843688965 || Total time:15.803179740905762
+Iteration: 76 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.2184889316558838 || Total time:16.021668672561646
+Iteration: 77 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.26119184494018555 || Total time:16.28286051750183
+Iteration: 78 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.36031603813171387 || Total time:16.643176555633545
+Iteration: 79 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.28522586822509766 || Total time:16.928402423858643
+Iteration: 80 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.34928107261657715 || Total time:17.27768349647522
+Iteration: 81 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.1930680274963379 || Total time:17.470751523971558
+Iteration: 82 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.23946094512939453 || Total time:17.710212469100952
+Iteration: 83 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.2624969482421875 || Total time:17.97270941734314
+Iteration: 84 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.3344569206237793 || Total time:18.30716633796692
+Iteration: 85 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.29823899269104004 || Total time:18.60540533065796
+Iteration: 86 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.23242902755737305 || Total time:18.837834358215332
+Iteration: 87 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.28840184211730957 || Total time:19.12623620033264
+Iteration: 88 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.2275838851928711 || Total time:19.353820085525513
+Iteration: 89 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.24985504150390625 || Total time:19.60367512702942
+Iteration: 90 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.5497560501098633 || Total time:20.153431177139282
+Iteration: 91 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.503309965133667 || Total time:20.65674114227295
+Iteration: 92 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.4028620719909668 || Total time:21.059603214263916
+Iteration: 93 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.4379429817199707 || Total time:21.497546195983887
+Iteration: 94 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.4751119613647461 || Total time:21.972658157348633
+Iteration: 95 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.35391998291015625 || Total time:22.32657814025879
+Iteration: 96 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.2875220775604248 || Total time:22.614100217819214
+Iteration: 97 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.3276801109313965 || Total time:22.94178032875061
+Iteration: 98 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.2820169925689697 || Total time:23.22379732131958
+Iteration: 99 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.3212130069732666 || Total time:23.545010328292847
+Iteration: 100 || Clusters count: 10 || Log posterior: 579949.1019900674 || Vi score: -0.0 || NMI score: 1.0000000000000004 || Iter Time:0.44150400161743164 || Total time:23.98651432991028
+Test Summary:                | Pass  Total
+Testing Module (Random mess) |    1      1
+Loading and distributing data:
+  0.060997 seconds (500.05 k allocations: 15.277 MiB)
+Node Leaders:
+Dict{Any,Any}(2 => Any[2, 3])
+Iteration: 1 || Clusters count: 1 || Log posterior: -235249.83 || Vi score: no gt || NMI score: no gt || Iter Time:2.3244941234588623 || Total time:2.3244941234588623
+Iteration: 2 || Clusters count: 1 || Log posterior: -235249.83 || Vi score: no gt || NMI score: no gt || Iter Time:0.02570199966430664 || Total time:2.350196123123169
+Iteration: 3 || Clusters count: 1 || Log posterior: -235249.83 || Vi score: no gt || NMI score: no gt || Iter Time:0.03252696990966797 || Total time:2.382723093032837
+Iteration: 4 || Clusters count: 2 || Log posterior: -234995.89 || Vi score: no gt || NMI score: no gt || Iter Time:0.03471493721008301 || Total time:2.41743803024292
+Iteration: 5 || Clusters count: 2 || Log posterior: -234959.5 || Vi score: no gt || NMI score: no gt || Iter Time:0.028195858001708984 || Total time:2.445633888244629
+Iteration: 6 || Clusters count: 2 || Log posterior: -234926.72 || Vi score: no gt || NMI score: no gt || Iter Time:0.030030012130737305 || Total time:2.475663900375366
+Iteration: 7 || Clusters count: 2 || Log posterior: -234918.33 || Vi score: no gt || NMI score: no gt || Iter Time:0.05898308753967285 || Total time:2.534646987915039
+Iteration: 8 || Clusters count: 2 || Log posterior: -234900.14 || Vi score: no gt || NMI score: no gt || Iter Time:0.027662992477416992 || Total time:2.562309980392456
+Iteration: 9 || Clusters count: 4 || Log posterior: -234672.73 || Vi score: no gt || NMI score: no gt || Iter Time:0.06413602828979492 || Total time:2.626446008682251
+Iteration: 10 || Clusters count: 4 || Log posterior: -234431.23 || Vi score: no gt || NMI score: no gt || Iter Time:0.06260395050048828 || Total time:2.6890499591827393
+Iteration: 11 || Clusters count: 4 || Log posterior: -234367.58 || Vi score: no gt || NMI score: no gt || Iter Time:0.048779964447021484 || Total time:2.7378299236297607
+Iteration: 12 || Clusters count: 4 || Log posterior: -234247.1 || Vi score: no gt || NMI score: no gt || Iter Time:0.11482095718383789 || Total time:2.8526508808135986
+Iteration: 13 || Clusters count: 4 || Log posterior: -234186.75 || Vi score: no gt || NMI score: no gt || Iter Time:0.029819011688232422 || Total time:2.882469892501831
+Iteration: 14 || Clusters count: 7 || Log posterior: -233405.98 || Vi score: no gt || NMI score: no gt || Iter Time:0.03976607322692871 || Total time:2.9222359657287598
+Iteration: 15 || Clusters count: 7 || Log posterior: -233109.56 || Vi score: no gt || NMI score: no gt || Iter Time:0.05283784866333008 || Total time:2.97507381439209
+Iteration: 16 || Clusters count: 7 || Log posterior: -232992.8 || Vi score: no gt || NMI score: no gt || Iter Time:0.03487682342529297 || Total time:3.009950637817383
+Iteration: 17 || Clusters count: 7 || Log posterior: -232885.0 || Vi score: no gt || NMI score: no gt || Iter Time:0.0329279899597168 || Total time:3.0428786277770996
+Iteration: 18 || Clusters count: 7 || Log posterior: -232801.56 || Vi score: no gt || NMI score: no gt || Iter Time:0.05043911933898926 || Total time:3.093317747116089
+Iteration: 19 || Clusters count: 11 || Log posterior: -231454.98 || Vi score: no gt || NMI score: no gt || Iter Time:0.06633687019348145 || Total time:3.1596546173095703
+Iteration: 20 || Clusters count: 11 || Log posterior: -231223.06 || Vi score: no gt || NMI score: no gt || Iter Time:0.03547501564025879 || Total time:3.195129632949829
+Saving Model:
+  0.009211 seconds (1.41 k allocations: 116.594 KiB)
+Iteration: 21 || Clusters count: 12 || Log posterior: -230911.61 || Vi score: no gt || NMI score: no gt || Iter Time:0.05806589126586914 || Total time:3.2531955242156982
+Iteration: 22 || Clusters count: 13 || Log posterior: -230726.78 || Vi score: no gt || NMI score: no gt || Iter Time:0.11200404167175293 || Total time:3.365199565887451
+Iteration: 23 || Clusters count: 13 || Log posterior: -230679.02 || Vi score: no gt || NMI score: no gt || Iter Time:0.11691808700561523 || Total time:3.4821176528930664
+Iteration: 24 || Clusters count: 13 || Log posterior: -230661.23 || Vi score: no gt || NMI score: no gt || Iter Time:0.05446910858154297 || Total time:3.5365867614746094
+Iteration: 25 || Clusters count: 13 || Log posterior: -230647.44 || Vi score: no gt || NMI score: no gt || Iter Time:0.045433998107910156 || Total time:3.5820207595825195
+Iteration: 26 || Clusters count: 13 || Log posterior: -230634.5 || Vi score: no gt || NMI score: no gt || Iter Time:0.053060054779052734 || Total time:3.6350808143615723
+Iteration: 27 || Clusters count: 14 || Log posterior: -230509.25 || Vi score: no gt || NMI score: no gt || Iter Time:0.08066391944885254 || Total time:3.715744733810425
+Iteration: 28 || Clusters count: 14 || Log posterior: -230382.94 || Vi score: no gt || NMI score: no gt || Iter Time:0.06876397132873535 || Total time:3.78450870513916
+Iteration: 29 || Clusters count: 14 || Log posterior: -230251.62 || Vi score: no gt || NMI score: no gt || Iter Time:0.11405706405639648 || Total time:3.8985657691955566
+Iteration: 30 || Clusters count: 14 || Log posterior: -230242.56 || Vi score: no gt || NMI score: no gt || Iter Time:0.06298303604125977 || Total time:3.9615488052368164
+Iteration: 31 || Clusters count: 14 || Log posterior: -230232.12 || Vi score: no gt || NMI score: no gt || Iter Time:0.09251093864440918 || Total time:4.054059743881226
+Iteration: 32 || Clusters count: 14 || Log posterior: -230229.22 || Vi score: no gt || NMI score: no gt || Iter Time:0.0592041015625 || Total time:4.113263845443726
+Iteration: 33 || Clusters count: 14 || Log posterior: -230230.28 || Vi score: no gt || NMI score: no gt || Iter Time:0.06770491600036621 || Total time:4.180968761444092
+Iteration: 34 || Clusters count: 14 || Log posterior: -230224.05 || Vi score: no gt || NMI score: no gt || Iter Time:0.1070089340209961 || Total time:4.287977695465088
+Iteration: 35 || Clusters count: 14 || Log posterior: -230216.66 || Vi score: no gt || NMI score: no gt || Iter Time:0.08793997764587402 || Total time:4.375917673110962
+Iteration: 36 || Clusters count: 14 || Log posterior: -230218.05 || Vi score: no gt || NMI score: no gt || Iter Time:0.06469011306762695 || Total time:4.440607786178589
+Iteration: 37 || Clusters count: 14 || Log posterior: -230218.22 || Vi score: no gt || NMI score: no gt || Iter Time:0.09242606163024902 || Total time:4.533033847808838
+Iteration: 38 || Clusters count: 14 || Log posterior: -230215.86 || Vi score: no gt || NMI score: no gt || Iter Time:0.050971031188964844 || Total time:4.584004878997803
+Iteration: 39 || Clusters count: 14 || Log posterior: -230219.12 || Vi score: no gt || NMI score: no gt || Iter Time:0.0720970630645752 || Total time:4.656101942062378
+Loading Model:
+  0.004241 seconds (3.77 k allocations: 345.328 KiB)
+Including params
+Loading data:
+  0.066506 seconds (500.04 k allocations: 14.895 MiB)
+Creating model:
+Node Leaders:
+Dict{Any,Any}(2 => Any[2, 3])
+Running model:
+Iteration: 21 || Clusters count: 12 || Log posterior: -231209.19 || Vi score: no gt || NMI score: no gt || Iter Time:0.047451019287109375 || Total time:0.047451019287109375
+Iteration: 22 || Clusters count: 13 || Log posterior: -230879.9 || Vi score: no gt || NMI score: no gt || Iter Time:0.039112091064453125 || Total time:0.0865631103515625
+Iteration: 23 || Clusters count: 13 || Log posterior: -230745.64 || Vi score: no gt || NMI score: no gt || Iter Time:0.0433199405670166 || Total time:0.1298830509185791
+Iteration: 24 || Clusters count: 13 || Log posterior: -230664.12 || Vi score: no gt || NMI score: no gt || Iter Time:0.06484580039978027 || Total time:0.19472885131835938
+Iteration: 25 || Clusters count: 13 || Log posterior: -230672.02 || Vi score: no gt || NMI score: no gt || Iter Time:0.059866905212402344 || Total time:0.2545957565307617
+Iteration: 26 || Clusters count: 14 || Log posterior: -230660.75 || Vi score: no gt || NMI score: no gt || Iter Time:0.07483792304992676 || Total time:0.3294336795806885
+Iteration: 27 || Clusters count: 16 || Log posterior: -230313.8 || Vi score: no gt || NMI score: no gt || Iter Time:0.10878205299377441 || Total time:0.4382157325744629
+Iteration: 28 || Clusters count: 17 || Log posterior: -229751.12 || Vi score: no gt || NMI score: no gt || Iter Time:0.07691383361816406 || Total time:0.515129566192627
+Iteration: 29 || Clusters count: 17 || Log posterior: -229591.94 || Vi score: no gt || NMI score: no gt || Iter Time:0.09817719459533691 || Total time:0.6133067607879639
+Iteration: 30 || Clusters count: 17 || Log posterior: -229575.22 || Vi score: no gt || NMI score: no gt || Iter Time:0.23771309852600098 || Total time:0.8510198593139648
+Iteration: 31 || Clusters count: 17 || Log posterior: -229571.11 || Vi score: no gt || NMI score: no gt || Iter Time:0.03847789764404297 || Total time:0.8894977569580078
+Iteration: 32 || Clusters count: 17 || Log posterior: -229567.36 || Vi score: no gt || NMI score: no gt || Iter Time:0.0676569938659668 || Total time:0.9571547508239746
+Iteration: 33 || Clusters count: 17 || Log posterior: -229565.97 || Vi score: no gt || NMI score: no gt || Iter Time:0.0917050838470459 || Total time:1.0488598346710205
+Iteration: 34 || Clusters count: 17 || Log posterior: -229569.98 || Vi score: no gt || NMI score: no gt || Iter Time:0.11973190307617188 || Total time:1.1685917377471924
+Iteration: 35 || Clusters count: 17 || Log posterior: -229566.38 || Vi score: no gt || NMI score: no gt || Iter Time:0.06598114967346191 || Total time:1.2345728874206543
+Iteration: 36 || Clusters count: 17 || Log posterior: -229569.53 || Vi score: no gt || NMI score: no gt || Iter Time:0.05588817596435547 || Total time:1.2904610633850098
+Iteration: 37 || Clusters count: 17 || Log posterior: -229569.19 || Vi score: no gt || NMI score: no gt || Iter Time:0.10384893417358398 || Total time:1.3943099975585938
+Iteration: 38 || Clusters count: 17 || Log posterior: -229567.66 || Vi score: no gt || NMI score: no gt || Iter Time:0.10563802719116211 || Total time:1.4999480247497559
+Iteration: 39 || Clusters count: 17 || Log posterior: -229565.22 || Vi score: no gt || NMI score: no gt || Iter Time:0.056797027587890625 || Total time:1.5567450523376465
+Test Summary:                    | Pass  Total
+Multinomial Module And save load |    4      4
+   Testing DPMMSubClusters tests passed 

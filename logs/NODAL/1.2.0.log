@@ -1,0 +1,518 @@
+ Resolving package versions...
+ Installed NODAL ─ v0.4.0
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [44063525] + NODAL v0.4.0
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [44063525] + NODAL v0.4.0
+  [2a0f44e3] + Base64 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [de0858da] + Printf 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [4ec0a83e] + Unicode 
+   Testing NODAL
+    Status `/tmp/jl_TITvru/Manifest.toml`
+  [44063525] NODAL v0.4.0
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+Test Summary:   | Pass  Total
+NumberParameter |   86     86
+    [EnumParameter]
+    name   : test
+    current: test
+    values : 
+    [EnumParameter]
+    name   : test
+    current: test
+    values : 
+    [StringParameter]
+    name : test
+    value: "a"
+    ***
+    [StringParameter]
+    name : test
+    value: "b"
+    ***
+    [EnumParameter]
+    name   : test
+    current: test
+    values : 
+    [StringParameter]
+    name : test
+    value: "c"
+Test Summary: | Pass  Total
+EnumParameter |   37     37
+    [PermutationParameter]
+    name : test
+    value: [1, 2, 3, 4, 5, 6]
+    size : 6
+    [PermutationParameter]
+    name : test
+    value: [6, 5, 2, 1, 3, 4]
+    size : 6
+    [PermutationParameter]
+    name : test
+    value: [6, 5, 2, 1, 3, 4]
+    size : 6
+    [PermutationParameter]
+    name : test
+    value: [6, 3, 4, 1, 5, 2]
+    size : 6
+    [PermutationParameter]
+    name : test
+    value: [1, 2, 3, 4, 5, 6]
+    size : 6
+    [PermutationParameter]
+    name : test
+    value: [2, 5, 4, 3, 1, 6]
+    size : 6
+Test Summary:        | Pass  Total
+PermutationParameter |    9      9
+Test Summary:   | Pass  Total
+StringParameter |    6      6
+    [BoolParameter]
+    name : test
+    value: true
+Test Summary: | Pass  Total
+BoolParameter |    6      6
+  [Configuration]
+  name      : test
+  parameters:
+    [NumberParameter]
+    name : i0
+    min  : 1.000000
+    max  : 38.000000
+    value: 3.000000
+    ***
+    [NumberParameter]
+    name : i3
+    min  : 2.330000
+    max  : 85.330000
+    value: 22.200000
+    ***
+    [NumberParameter]
+    name : i1
+    min  : 4.000000
+    max  : 66.000000
+    value: 55.000000
+    ***
+    [StringParameter]
+    name : i2
+    value: "value"
+
+Test Summary: | Pass  Total
+Configuration |   27     27
+Test Summary: | Pass  Total
+Run           |    1      1
+[Result]
+Cost              : 1.0
+Found in Iteration: 1
+Current Iteration : 4
+Technique         : Initialize
+Function Calls    : 1
+  ***
+1.0
+Test Summary: | Pass  Total
+Search        |    3      3
+[Result]
+Cost              : 1.0
+Found in Iteration: 1
+Current Iteration : 7
+Technique         : Initialize
+Function Calls    : 1
+  ***
+[Result]
+Cost              : 1.0
+Found in Iteration: 1
+Current Iteration : 4690
+Technique         : Initialize
+Function Calls    : 1
+  ***
+[Result]
+Cost              : 0.0036347652049211272
+Found in Iteration: 7
+Current Iteration : 17705
+Technique         : Iterative First Improvement
+Function Calls    : 4961
+  ***
+[Result]
+Cost              : 0.0036347652049211272
+Found in Iteration: 7
+Current Iteration : 32611
+Technique         : Iterative First Improvement
+Function Calls    : 4961
+  ***
+[Result]
+Cost              : 0.0036347652049211272
+Found in Iteration: 7
+Current Iteration : 48529
+Technique         : Iterative First Improvement
+Function Calls    : 4961
+  ***
+[Result]
+Cost              : 0.0036347652049211272
+Found in Iteration: 7
+Current Iteration : 63201
+Technique         : Iterative First Improvement
+Function Calls    : 4961
+  ***
+[Result]
+Cost              : 0.0036347652049211272
+Found in Iteration: 7
+Current Iteration : 76337
+Technique         : Iterative First Improvement
+Function Calls    : 4961
+  ***
+[Result]
+Cost              : 0.0036347652049211272
+Found in Iteration: 7
+Current Iteration : 90369
+Technique         : Iterative First Improvement
+Function Calls    : 4961
+  ***
+[bioFinal Result]
+Cost                  : 0.0036347652049211272
+Found in Iteration    : 7
+Current Iteration     : 104482
+Technique             : Iterative First Improvement
+Function Calls        : 4961
+Starting Configuration:
+  [Configuration]
+  name      : rosenbrock_config
+  parameters:
+    [NumberParameter]
+    name : i0
+    min  : -2.000000
+    max  : 2.000000
+    value: 1.027532
+    ***
+    [NumberParameter]
+    name : i1
+    min  : -2.000000
+    max  : 2.000000
+    value: 1.046063
+Minimum Configuration :
+  [Configuration]
+  name      : rosenbrock_config
+  parameters:
+    [NumberParameter]
+    name : i0
+    min  : -2.000000
+    max  : 2.000000
+    value: 0.998562
+    ***
+    [NumberParameter]
+    name : i1
+    min  : -2.000000
+    max  : 2.000000
+    value: 0.991100
+0.0036347652049211272
+Test Summary: | Pass  Total
+Search        |    3      3
+[Result]
+Cost              : 1.0
+Found in Iteration: 1
+Current Iteration : 7
+Technique         : Initialize
+Function Calls    : 1
+  ***
+[Result]
+Cost              : 1.0
+Found in Iteration: 1
+Current Iteration : 33289
+Technique         : Initialize
+Function Calls    : 1
+  ***
+[Result]
+Cost              : 0.22210657167665646
+Found in Iteration: 17019
+Current Iteration : 85873
+Technique         : Iterative Probabilistic Improvement
+Function Calls    : 17019
+  ***
+[Result]
+Cost              : 0.22210657167665646
+Found in Iteration: 17019
+Current Iteration : 138389
+Technique         : Iterative Probabilistic Improvement
+Function Calls    : 17019
+  ***
+[Result]
+Cost              : 0.17515064027289368
+Found in Iteration: 82850
+Current Iteration : 190319
+Technique         : Iterative Probabilistic Improvement
+Function Calls    : 82850
+  ***
+[Result]
+Cost              : 0.17515064027289368
+Found in Iteration: 82850
+Current Iteration : 241401
+Technique         : Iterative Probabilistic Improvement
+Function Calls    : 82850
+  ***
+[bioFinal Result]
+Cost                  : 0.17515064027289368
+Found in Iteration    : 82850
+Current Iteration     : 286910
+Technique             : Iterative Probabilistic Improvement
+Function Calls        : 82850
+Starting Configuration:
+  [Configuration]
+  name      : rosenbrock_config
+  parameters:
+    [NumberParameter]
+    name : i0
+    min  : -2.000000
+    max  : 2.000000
+    value: 1.006316
+    ***
+    [NumberParameter]
+    name : i1
+    min  : -2.000000
+    max  : 2.000000
+    value: 1.054519
+Minimum Configuration :
+  [Configuration]
+  name      : rosenbrock_config
+  parameters:
+    [NumberParameter]
+    name : i0
+    min  : -2.000000
+    max  : 2.000000
+    value: 1.006316
+    ***
+    [NumberParameter]
+    name : i1
+    min  : -2.000000
+    max  : 2.000000
+    value: 1.054519
+0.17515064027289368
+Test Summary: | Pass  Total
+Search        |    3      3
+[Result]
+Cost              : 1.0
+Found in Iteration: 1
+Current Iteration : 7
+Technique         : Initialize
+Function Calls    : 1
+  ***
+[Result]
+Cost              : 0.032440746235806256
+Found in Iteration: 647
+Current Iteration : 65399
+Technique         : Randomized First Improvement
+Function Calls    : 19870
+  ***
+[Result]
+Cost              : 0.032440746235806256
+Found in Iteration: 647
+Current Iteration : 128694
+Technique         : Randomized First Improvement
+Function Calls    : 19870
+  ***
+[Result]
+Cost              : 0.032440746235806256
+Found in Iteration: 647
+Current Iteration : 192573
+Technique         : Randomized First Improvement
+Function Calls    : 19870
+  ***
+[Result]
+Cost              : 0.032440746235806256
+Found in Iteration: 647
+Current Iteration : 254053
+Technique         : Randomized First Improvement
+Function Calls    : 19870
+  ***
+[Result]
+Cost              : 0.032440746235806256
+Found in Iteration: 647
+Current Iteration : 320130
+Technique         : Randomized First Improvement
+Function Calls    : 19870
+  ***
+[bioFinal Result]
+Cost                  : 0.00010058558383706444
+Found in Iteration    : 6668
+Current Iteration     : 390192
+Technique             : Randomized First Improvement
+Function Calls        : 172960
+Starting Configuration:
+  [Configuration]
+  name      : rosenbrock_config
+  parameters:
+    [NumberParameter]
+    name : i0
+    min  : -2.000000
+    max  : 2.000000
+    value: 0.993814
+    ***
+    [NumberParameter]
+    name : i1
+    min  : -2.000000
+    max  : 2.000000
+    value: 0.986877
+Minimum Configuration :
+  [Configuration]
+  name      : rosenbrock_config
+  parameters:
+    [NumberParameter]
+    name : i0
+    min  : -2.000000
+    max  : 2.000000
+    value: 0.993814
+    ***
+    [NumberParameter]
+    name : i1
+    min  : -2.000000
+    max  : 2.000000
+    value: 0.986877
+0.00010058558383706444
+Test Summary: | Pass  Total
+Search        |    3      3
+[Result]
+Cost              : 1.0
+Found in Iteration: 1
+Current Iteration : 7
+Technique         : Initialize
+Function Calls    : 1
+  ***
+[Result]
+Cost              : 1.0
+Found in Iteration: 1
+Current Iteration : 153300
+Technique         : Initialize
+Function Calls    : 1
+  ***
+[Result]
+Cost              : 1.0
+Found in Iteration: 1
+Current Iteration : 418888
+Technique         : Initialize
+Function Calls    : 1
+  ***
+[bioFinal Result]
+Cost                  : 1.0
+Found in Iteration    : 1
+Current Iteration     : 676156
+Technique             : Initialize
+Function Calls        : 1
+Starting Configuration:
+  [Configuration]
+  name      : rosenbrock_config
+  parameters:
+    [NumberParameter]
+    name : i0
+    min  : -2.000000
+    max  : 2.000000
+    value: 0.000000
+    ***
+    [NumberParameter]
+    name : i1
+    min  : -2.000000
+    max  : 2.000000
+    value: 0.000000
+Minimum Configuration :
+  [Configuration]
+  name      : rosenbrock_config
+  parameters:
+    [NumberParameter]
+    name : i0
+    min  : -2.000000
+    max  : 2.000000
+    value: 0.000000
+    ***
+    [NumberParameter]
+    name : i1
+    min  : -2.000000
+    max  : 2.000000
+    value: 0.000000
+1.0
+Test Summary: | Pass  Total
+Search        |    3      3
+[Result]
+Cost              : 1.0
+Found in Iteration: 1
+Current Iteration : 7
+Technique         : Initialize
+Function Calls    : 1
+  ***
+[Result]
+Cost              : 1.0
+Found in Iteration: 1
+Current Iteration : 46403
+Technique         : Initialize
+Function Calls    : 1
+  ***
+[Result]
+Cost              : 1.0
+Found in Iteration: 1
+Current Iteration : 96383
+Technique         : Initialize
+Function Calls    : 1
+  ***
+[bioFinal Result]
+Cost                  : 1.0
+Found in Iteration    : 1
+Current Iteration     : 147372
+Technique             : Initialize
+Function Calls        : 1
+Starting Configuration:
+  [Configuration]
+  name      : rosenbrock_config
+  parameters:
+    [NumberParameter]
+    name : i0
+    min  : -2.000000
+    max  : 2.000000
+    value: 0.000000
+    ***
+    [NumberParameter]
+    name : i1
+    min  : -2.000000
+    max  : 2.000000
+    value: 0.000000
+Minimum Configuration :
+  [Configuration]
+  name      : rosenbrock_config
+  parameters:
+    [NumberParameter]
+    name : i0
+    min  : -2.000000
+    max  : 2.000000
+    value: 0.000000
+    ***
+    [NumberParameter]
+    name : i1
+    min  : -2.000000
+    max  : 2.000000
+    value: 0.000000
+1.0
+Test Summary: | Pass  Total
+Search        |    3      3
+Test Summary: | Pass  Total
+unit_value    |    6      6
+   Testing NODAL tests passed 

@@ -1,0 +1,2228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Julia Package Listing - Testing Information</title>
+
+    <style>/* -- Mix of julialang.org, Bootstrap 3, and custom -- */
+body {
+  background-color: white;
+  font-family: Georgia, 'Liberation Serif', serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.42857143;
+}
+.site {
+  max-width: 785px;
+  margin: 2.5em auto 2em;
+  padding: 0 1.5em;
+}
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.titlebox {
+  text-align: center;
+  font-size: 120%;
+  margin-top: 3em;
+}
+.ok     { background-color: #11AA11; } /*Tests passing*/
+.fail   { background-color: #DD3333; } /*Tests failed*/
+.skip   { background-color: #3333DD; } /*Tests skipped*/
+.kill   { background-color: #222222; } /*Tests interrupted*/
+.statusbox {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.pkglisting h2 { margin-bottom: 0px; }
+pre {margin: 0;}
+@media (min-width: 785px) {
+  .pkglisting {
+    display: table;
+    width: 100%;
+  }
+  .pkgnamedesc {
+    display: table-cell;
+    width: 50%;
+  }
+  .pkgvertest {
+    display: table-cell;
+    width:50%;
+    text-align: right
+  }
+}
+/* collapsible sections */
+.collapsible {
+  font-family: Georgia, 'Liberation Serif', serif;
+  font-size: 14px;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.content {
+  display: none;
+  overflow: hidden;
+}
+</style>
+  </head>
+
+  <body>
+  <div class="site">
+    <!-- HEADER -->
+    <div class="titlebox">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="210px" height="142px" viewBox="0 0 310 216" enable-background="new 0 0 310 216" xml:space="preserve">
+
+<!-- blue dot -->
+<circle fill="#6b85dd" stroke="#4266d5" stroke-width="3" cx="50.5" cy="58.665" r="16.5"></circle>
+<!-- red dot -->
+<circle fill="#d66661" stroke="#c93d39" stroke-width="3" cx="212.459" cy="60.249" r="16.5"></circle>
+<!-- green dot -->
+<circle fill="#6bab5b" stroke="#3b972e" stroke-width="3" cx="233.834" cy="23.874" r="16.5"></circle>
+<!-- purple dot -->
+<circle fill="#aa7dc0" stroke="#945bb0" stroke-width="3" cx="255.459" cy="59.999" r="16.5"></circle>
+
+<!-- "j" -->
+<path fill="#252525" d="M37.216,138.427c0-15.839,0.006-31.679-0.018-47.517c-0.001-0.827,0.169-1.234,1.043-1.47
+    c7.876-2.127,15.739-4.308,23.606-6.47c1.33-0.366,1.333-0.36,1.333,1.019c0,25.758,0.015,51.517-0.012,77.274
+    c-0.006,5.514,0.245,11.032-0.272,16.543c-0.628,6.69-2.15,13.092-6.438,18.506c-3.781,4.771-8.898,7.25-14.767,8.338
+    c-6.599,1.222-13.251,1.552-19.934,0.938c-4.616-0.423-9.045-1.486-12.844-4.363c-2.863-2.168-4.454-4.935-3.745-8.603
+    c0.736-3.806,3.348-5.978,6.861-7.127c2.262-0.74,4.628-0.872,6.994-0.53c1.823,0.264,3.42,1.023,4.779,2.288
+    c1.38,1.284,2.641,2.674,3.778,4.177c0.872,1.15,1.793,2.256,2.991,3.086c2.055,1.426,4,0.965,5.213-1.216
+    c0.819-1.473,0.997-3.106,1.173-4.731c0.255-2.348,0.255-4.707,0.256-7.062C37.218,167.145,37.216,152.786,37.216,138.427z"></path>
+
+<!-- "u" -->
+<path fill="#252525" d="M125.536,162.479c-2.908,2.385-5.783,4.312-8.88,5.904c-10.348,5.323-20.514,4.521-30.324-1.253
+    c-6.71-3.95-11.012-9.849-12.52-17.606c-0.236-1.213-0.363-2.438-0.363-3.688c0.01-19.797,0.017-39.593-0.02-59.39
+    c-0.002-1.102,0.285-1.357,1.363-1.351c7.798,0.049,15.597,0.044,23.396,0.003c0.95-0.005,1.177,0.25,1.175,1.183
+    c-0.027,19.356-0.025,38.713-0.018,58.07c0.002,6.34,3.599,10.934,9.672,12.42c2.13,0.521,4.19,0.396,6.173-0.6
+    c4.26-2.139,7.457-5.427,10.116-9.307c0.333-0.487,0.224-1,0.224-1.51c0.007-19.635,0.016-39.271-0.02-58.904
+    c-0.002-1.083,0.255-1.369,1.353-1.361c7.838,0.052,15.677,0.045,23.515,0.004c0.916-0.005,1.103,0.244,1.102,1.124
+    c-0.025,27.677-0.026,55.353,0.002,83.024c0.001,0.938-0.278,1.099-1.139,1.095c-7.918-0.028-15.837-0.028-23.756-0.001
+    c-0.815,0.003-1.1-0.166-1.073-1.037C125.581,167.117,125.536,164.928,125.536,162.479z"></path>
+
+<!-- "l" -->
+<path fill="#252525" d="M187.423,107.08c0,20.637-0.011,41.273,0.026,61.91c0.003,1.119-0.309,1.361-1.381,1.355
+    c-7.799-0.052-15.598-0.047-23.396-0.008c-0.898,0.008-1.117-0.222-1.115-1.115c0.021-39.074,0.021-78.147,0-117.226
+    c0-0.811,0.189-1.169,1.006-1.392c7.871-2.149,15.73-4.327,23.584-6.545c1.045-0.295,1.308-0.17,1.306,0.985
+    C187.412,65.727,187.423,86.403,187.423,107.08z"></path>
+
+<!-- "i" -->
+<path fill="#252525" d="M223.46,126.477c0,14.155-0.011,28.312,0.021,42.467c0.002,1.027-0.164,1.418-1.332,1.408
+    c-7.838-0.061-15.676-0.047-23.516-0.01c-0.881,0.004-1.121-0.189-1.119-1.104c0.026-26.153,0.025-52.307,0-78.458
+    c0-0.776,0.203-1.101,0.941-1.302c7.984-2.172,15.972-4.35,23.938-6.596c1.049-0.296,1.08,0.031,1.078,0.886
+    C223.454,98.004,223.46,112.239,223.46,126.477z"></path>
+
+<!-- "a" -->
+<path fill="#252525" d="M277.695,163.6c-0.786,0.646-1.404,1.125-2,1.635c-4.375,3.746-9.42,5.898-15.16,6.42
+    c-5.792,0.527-11.479,0.244-16.934-2.047c-12.08-5.071-15.554-17.188-11.938-27.448c1.799-5.111,5.472-8.868,9.831-11.94
+    c5.681-4.003,12.009-6.732,18.504-9.074c5.576-2.014,11.186-3.939,16.955-5.347c0.445-0.104,0.773-0.243,0.757-0.854
+    c-0.136-4.389,0.261-8.79-0.479-13.165c-1.225-7.209-6.617-10.013-12.895-9.348c-0.516,0.055-1.029,0.129-1.536,0.241
+    c-4.877,1.081-7.312,4.413-7.374,10.127c-0.02,1.729-0.229,3.418-0.693,5.084c-0.906,3.229-2.969,5.354-6.168,6.266
+    c-3.422,0.979-6.893,0.998-10.23-0.305c-6.529-2.543-8.877-10.164-5.12-16.512c2.249-3.799,5.606-6.4,9.461-8.405
+    c6.238-3.246,12.914-4.974,19.896-5.537c7.565-0.61,15.096-0.366,22.49,1.507c4.285,1.085,8.312,2.776,11.744,5.657
+    c4.473,3.749,6.776,8.647,6.812,14.374c0.139,21.477,0.096,42.951,0.143,64.428c0.002,0.799-0.248,0.983-1.021,0.98
+    c-8.035-0.025-16.074-0.023-24.113-0.001c-0.716,0.002-0.973-0.146-0.941-0.915C277.736,167.562,277.695,165.698,277.695,163.6z
+     M277.695,126.393c-4.793,2.104-9.25,4.373-13.287,7.408c-2.151,1.618-4.033,3.483-5.732,5.581
+    c-4.229,5.226-1.988,13.343,1.693,16.599c1.592,1.406,3.359,1.906,5.419,1.521c1.621-0.307,3.149-0.857,4.549-1.734
+    c1.521-0.951,2.949-2.072,4.539-2.887c2.31-1.18,2.97-2.861,2.894-5.445C277.561,140.484,277.695,133.527,277.695,126.393z"></path>
+
+</svg>
+
+        <h1>
+          <a name="PtFEM">PtFEM</a>
+        </h1>
+
+        <p>
+          <a href="../index.html#PtFEM">← Back to package list</a>
+        </p>
+
+    </div>
+
+    <p>
+      If you think that there is an error in how your package is being tested or represented, please file an issue at <a href="https://github.com/JuliaComputing/NewPkgEval.jl">NewPkgEval.jl</a>, making sure to read the FAQ first.
+    </p>
+
+
+    <h3>Results with Julia v1.2.0</h3>
+
+    <p>
+      Testing was <strong>successful</strong>.
+      Last evaluation was  ago and took 9 minutes.
+    </p>
+
+    <p>
+      Click <a href="/home/maleadt/Julia/pkg/NewPkgEval/site/build/logs/PtFEM/1.2.0.log">here</a> to download the log file.
+      
+    </p>
+
+      <button class="collapsible">Click here to show the log contents.</button>
+      <div class="content">
+      <pre> Resolving package versions...
+ Installed Missings ──────────────────── v0.4.3
+ Installed DataAPI ───────────────────── v1.1.0
+ Installed Showoff ───────────────────── v0.3.1
+ Installed Inflate ───────────────────── v0.1.1
+ Installed TableTraits ───────────────── v1.0.0
+ Installed Contour ───────────────────── v0.5.1
+ Installed DataFrames ────────────────── v0.19.4
+ Installed PtFEM ─────────────────────── v1.1.1
+ Installed StatsBase ─────────────────── v0.32.0
+ Installed BinaryProvider ────────────── v0.5.8
+ Installed AxisAlgorithms ────────────── v1.0.0
+ Installed Measures ──────────────────── v0.3.0
+ Installed DataValueInterfaces ───────── v1.0.0
+ Installed Plots ─────────────────────── v0.28.2
+ Installed NetworkLayout ─────────────── v0.2.0
+ Installed Colors ────────────────────── v0.9.6
+ Installed Requires ──────────────────── v0.5.2
+ Installed PooledArrays ──────────────── v0.5.2
+ Installed InvertedIndices ───────────── v1.0.0
+ Installed Reexport ──────────────────── v0.2.0
+ Installed OffsetArrays ──────────────── v0.11.2
+ Installed Compat ────────────────────── v2.2.0
+ Installed OrderedCollections ────────── v1.1.0
+ Installed Tables ────────────────────── v0.2.11
+ Installed RecipesBase ───────────────── v0.7.0
+ Installed IterTools ─────────────────── v1.3.0
+ Installed FixedPointNumbers ─────────── v0.6.1
+ Installed DataStructures ────────────── v0.17.6
+ Installed Parsers ───────────────────── v0.3.10
+ Installed FFMPEG ────────────────────── v0.2.3
+ Installed LightGraphs ───────────────── v1.3.0
+ Installed JSON ──────────────────────── v0.21.0
+ Installed Ratios ────────────────────── v0.3.1
+ Installed NaNMath ───────────────────── v0.3.3
+ Installed GraphRecipes ──────────────── v0.4.0
+ Installed StaticArrays ──────────────── v0.12.1
+ Installed IteratorInterfaceExtensions ─ v1.0.0
+ Installed SimpleTraits ──────────────── v0.9.1
+ Installed GeometryTypes ─────────────── v0.7.6
+ Installed Interpolations ────────────── v0.12.5
+ Installed CategoricalArrays ─────────── v0.7.3
+ Installed QuadGK ────────────────────── v2.1.1
+ Installed WoodburyMatrices ──────────── v0.4.1
+ Installed SortingAlgorithms ─────────── v0.3.1
+ Installed PlotUtils ─────────────────── v0.6.1
+ Installed MacroTools ────────────────── v0.5.2
+ Installed ColorTypes ────────────────── v0.8.0
+ Installed ArnoldiMethod ─────────────── v0.0.4
+ Installed PlotThemes ────────────────── v1.0.0
+ Installed GR ────────────────────────── v0.44.0
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.2&#x2F;Project.toml`
+  [9b64898b] + PtFEM v1.1.1
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.2&#x2F;Manifest.toml`
+  [ec485272] + ArnoldiMethod v0.0.4
+  [13072b0f] + AxisAlgorithms v1.0.0
+  [b99e7846] + BinaryProvider v0.5.8
+  [324d7699] + CategoricalArrays v0.7.3
+  [3da002f7] + ColorTypes v0.8.0
+  [5ae59095] + Colors v0.9.6
+  [34da2185] + Compat v2.2.0
+  [d38c429a] + Contour v0.5.1
+  [9a962f9c] + DataAPI v1.1.0
+  [a93c6f00] + DataFrames v0.19.4
+  [864edb3b] + DataStructures v0.17.6
+  [e2d170a0] + DataValueInterfaces v1.0.0
+  [c87230d0] + FFMPEG v0.2.3
+  [53c48c17] + FixedPointNumbers v0.6.1
+  [28b8d3ca] + GR v0.44.0
+  [4d00f742] + GeometryTypes v0.7.6
+  [bd48cda9] + GraphRecipes v0.4.0
+  [d25df0c9] + Inflate v0.1.1
+  [a98d9a8b] + Interpolations v0.12.5
+  [41ab1584] + InvertedIndices v1.0.0
+  [c8e1da08] + IterTools v1.3.0
+  [82899510] + IteratorInterfaceExtensions v1.0.0
+  [682c06a0] + JSON v0.21.0
+  [093fc24a] + LightGraphs v1.3.0
+  [1914dd2f] + MacroTools v0.5.2
+  [442fdcdd] + Measures v0.3.0
+  [e1d29d7a] + Missings v0.4.3
+  [77ba4419] + NaNMath v0.3.3
+  [46757867] + NetworkLayout v0.2.0
+  [6fe1bfb0] + OffsetArrays v0.11.2
+  [bac558e1] + OrderedCollections v1.1.0
+  [69de0a69] + Parsers v0.3.10
+  [ccf2f8ad] + PlotThemes v1.0.0
+  [995b91a9] + PlotUtils v0.6.1
+  [91a5bcdd] + Plots v0.28.2
+  [2dfb63ee] + PooledArrays v0.5.2
+  [9b64898b] + PtFEM v1.1.1
+  [1fd47b50] + QuadGK v2.1.1
+  [c84ed2f1] + Ratios v0.3.1
+  [3cdcf5f2] + RecipesBase v0.7.0
+  [189a3867] + Reexport v0.2.0
+  [ae029012] + Requires v0.5.2
+  [992d4aef] + Showoff v0.3.1
+  [699a6c99] + SimpleTraits v0.9.1
+  [a2af1166] + SortingAlgorithms v0.3.1
+  [90137ffa] + StaticArrays v0.12.1
+  [2913bbd2] + StatsBase v0.32.0
+  [3783bdb8] + TableTraits v1.0.0
+  [bd369af6] + Tables v0.2.11
+  [efce3f68] + WoodburyMatrices v0.4.1
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [9fa8497b] + Future 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [4607b0f0] + SuiteSparse 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building GR ────→ `~&#x2F;.julia&#x2F;packages&#x2F;GR&#x2F;oiZD3&#x2F;deps&#x2F;build.log`
+  Building FFMPEG → `~&#x2F;.julia&#x2F;packages&#x2F;FFMPEG&#x2F;bkWgb&#x2F;deps&#x2F;build.log`
+  Building Plots ─→ `~&#x2F;.julia&#x2F;packages&#x2F;Plots&#x2F;2KhB2&#x2F;deps&#x2F;build.log`
+   Testing PtFEM
+ Resolving package versions...
+    Status `&#x2F;tmp&#x2F;jl_GoijhQ&#x2F;Manifest.toml`
+  [ec485272] ArnoldiMethod v0.0.4
+  [13072b0f] AxisAlgorithms v1.0.0
+  [b99e7846] BinaryProvider v0.5.8
+  [324d7699] CategoricalArrays v0.7.3
+  [3da002f7] ColorTypes v0.8.0
+  [5ae59095] Colors v0.9.6
+  [34da2185] Compat v2.2.0
+  [d38c429a] Contour v0.5.1
+  [9a962f9c] DataAPI v1.1.0
+  [a93c6f00] DataFrames v0.19.4
+  [864edb3b] DataStructures v0.17.6
+  [e2d170a0] DataValueInterfaces v1.0.0
+  [c87230d0] FFMPEG v0.2.3
+  [53c48c17] FixedPointNumbers v0.6.1
+  [28b8d3ca] GR v0.44.0
+  [4d00f742] GeometryTypes v0.7.6
+  [bd48cda9] GraphRecipes v0.4.0
+  [d25df0c9] Inflate v0.1.1
+  [a98d9a8b] Interpolations v0.12.5
+  [41ab1584] InvertedIndices v1.0.0
+  [c8e1da08] IterTools v1.3.0
+  [82899510] IteratorInterfaceExtensions v1.0.0
+  [682c06a0] JSON v0.21.0
+  [093fc24a] LightGraphs v1.3.0
+  [1914dd2f] MacroTools v0.5.2
+  [442fdcdd] Measures v0.3.0
+  [e1d29d7a] Missings v0.4.3
+  [77ba4419] NaNMath v0.3.3
+  [46757867] NetworkLayout v0.2.0
+  [6fe1bfb0] OffsetArrays v0.11.2
+  [bac558e1] OrderedCollections v1.1.0
+  [69de0a69] Parsers v0.3.10
+  [ccf2f8ad] PlotThemes v1.0.0
+  [995b91a9] PlotUtils v0.6.1
+  [91a5bcdd] Plots v0.28.2
+  [2dfb63ee] PooledArrays v0.5.2
+  [9b64898b] PtFEM v1.1.1
+  [1fd47b50] QuadGK v2.1.1
+  [c84ed2f1] Ratios v0.3.1
+  [3cdcf5f2] RecipesBase v0.7.0
+  [189a3867] Reexport v0.2.0
+  [ae029012] Requires v0.5.2
+  [992d4aef] Showoff v0.3.1
+  [699a6c99] SimpleTraits v0.9.1
+  [a2af1166] SortingAlgorithms v0.3.1
+  [90137ffa] StaticArrays v0.12.1
+  [2913bbd2] StatsBase v0.32.0
+  [3783bdb8] TableTraits v1.0.0
+  [bd369af6] Tables v0.2.11
+  [efce3f68] WoodburyMatrices v0.4.1
+  [2a0f44e3] Base64  [`@stdlib&#x2F;Base64`]
+  [ade2ca70] Dates  [`@stdlib&#x2F;Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib&#x2F;DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib&#x2F;Distributed`]
+  [9fa8497b] Future  [`@stdlib&#x2F;Future`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib&#x2F;InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib&#x2F;LibGit2`]
+  [8f399da3] Libdl  [`@stdlib&#x2F;Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib&#x2F;LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib&#x2F;Logging`]
+  [d6f4376e] Markdown  [`@stdlib&#x2F;Markdown`]
+  [a63ad114] Mmap  [`@stdlib&#x2F;Mmap`]
+  [44cfe95a] Pkg  [`@stdlib&#x2F;Pkg`]
+  [de0858da] Printf  [`@stdlib&#x2F;Printf`]
+  [3fa0cd96] REPL  [`@stdlib&#x2F;REPL`]
+  [9a3f8284] Random  [`@stdlib&#x2F;Random`]
+  [ea8e919c] SHA  [`@stdlib&#x2F;SHA`]
+  [9e88b42a] Serialization  [`@stdlib&#x2F;Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib&#x2F;SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib&#x2F;Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib&#x2F;SparseArrays`]
+  [10745b16] Statistics  [`@stdlib&#x2F;Statistics`]
+  [4607b0f0] SuiteSparse  [`@stdlib&#x2F;SuiteSparse`]
+  [8dfed614] Test  [`@stdlib&#x2F;Test`]
+  [cf7118a7] UUIDs  [`@stdlib&#x2F;UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib&#x2F;Unicode`]
+
+
+Running PtFEM&#x2F;PtFEM.jl tests:
+
+
+
+
+  * sparse_01.jl *
+
+y = Al \ b[Ap] = [2.0, 6.5, -2.333333333333333]
+
+x = Au \ y = [1.0000000000000002, -2.000000000000001, 1.4000000000000004]
+
+As = sparse(A) = 
+  [1, 1]  =  10.0
+  [2, 1]  =  -20.0
+  [3, 1]  =  5.0
+  [1, 2]  =  1.0
+  [2, 2]  =  3.0
+  [3, 2]  =  3.0
+  [1, 3]  =  -5.0
+  [2, 3]  =  20.0
+  [3, 3]  =  5.0
+
+As \ y = [-2.413333333333333, 8.966666666666667, -3.433333333333333]
+
+F = lu(As) = UMFPACK LU Factorization of a (3, 3) sparse matrix
+Ptr{Nothing} @0x00000000029cc6a0
+
+ys = F.L \ (F.Rs .* b) = [0.0625, 0.09302325581395349, 0.2692307692307693]
+
+x = F.U \ ys = [1.0, -2.0000000000000004, 1.4000000000000001]
+
+F.L * F.U == (F.Rs .* A)[F.p, F.q] = true
+
+F.L * F.U = 
+  [1, 1]  =  0.625
+  [2, 1]  =  -0.465116
+  [3, 1]  =  0.384615
+  [1, 2]  =  0.0625
+  [2, 2]  =  0.0697674
+  [3, 2]  =  0.230769
+  [1, 3]  =  -0.3125
+  [2, 3]  =  0.465116
+  [3, 3]  =  0.384615
+
+sparse((F.Rs .* A)[F.p, F.q]) = 
+  [1, 1]  =  0.625
+  [2, 1]  =  -0.465116
+  [3, 1]  =  0.384615
+  [1, 2]  =  0.0625
+  [2, 2]  =  0.0697674
+  [3, 2]  =  0.230769
+  [1, 3]  =  -0.3125
+  [2, 3]  =  0.465116
+  [3, 3]  =  0.384615
+
+
+
+  * sparse_02.jl *
+
+y = Al \ b[Ap] = [1.0, 0.5, 0.19047619047619085, 0.049999999999994875, -0.0035714285714274485]
+
+x = Au \ y = [30.0000000000173, -419.9999999998754, 1679.9999999988988, -2519.9999999979605, 1259.9999999989034]
+
+As = sparse(A) = 
+  [1, 1]  =  0.5
+  [2, 1]  =  0.333333
+  [3, 1]  =  0.25
+  [4, 1]  =  0.2
+  [5, 1]  =  0.166667
+  [1, 2]  =  0.333333
+  [2, 2]  =  0.25
+  [3, 2]  =  0.2
+  [4, 2]  =  0.166667
+  [5, 2]  =  0.142857
+  [1, 3]  =  0.25
+  [2, 3]  =  0.2
+  [3, 3]  =  0.166667
+  [4, 3]  =  0.142857
+  [5, 3]  =  0.125
+  [1, 4]  =  0.2
+  [2, 4]  =  0.166667
+  [3, 4]  =  0.142857
+  [4, 4]  =  0.125
+  [5, 4]  =  0.111111
+  [1, 5]  =  0.166667
+  [2, 5]  =  0.142857
+  [3, 5]  =  0.125
+  [4, 5]  =  0.111111
+  [5, 5]  =  0.1
+
+As \ b = [29.999999999998714, -419.99999999995396, 1679.9999999997979, -2519.999999999704, 1259.9999999998602]
+
+F = lu(As) = UMFPACK LU Factorization of a (5, 5) sparse matrix
+Ptr{Nothing} @0x0000000002f837b0
+
+F.L * F.U == F.Rs .* A[F.p, :] = false
+
+F.L * F.U = 
+  [1, 1]  =  0.344828
+  [2, 1]  =  0.305011
+  [3, 1]  =  0.282638
+  [4, 1]  =  0.268228
+  [5, 1]  =  0.258144
+  [1, 2]  =  0.229885
+  [2, 2]  =  0.228758
+  [3, 2]  =  0.22611
+  [4, 2]  =  0.223523
+  [5, 2]  =  0.221266
+  [1, 3]  =  0.172414
+  [2, 3]  =  0.183007
+  [3, 3]  =  0.188425
+  [4, 3]  =  0.191591
+  [5, 3]  =  0.193608
+  [1, 4]  =  0.137931
+  [2, 4]  =  0.152505
+  [3, 4]  =  0.161507
+  [4, 4]  =  0.167642
+  [5, 4]  =  0.172096
+  [1, 5]  =  0.114943
+  [2, 5]  =  0.130719
+  [3, 5]  =  0.141319
+  [4, 5]  =  0.149015
+  [5, 5]  =  0.154886
+
+sparse(F.Rs .* A[F.p, F.q]) = 
+  [1, 1]  =  0.344828
+  [2, 1]  =  0.305011
+  [3, 1]  =  0.282638
+  [4, 1]  =  0.268228
+  [5, 1]  =  0.258144
+  [1, 2]  =  0.229885
+  [2, 2]  =  0.228758
+  [3, 2]  =  0.22611
+  [4, 2]  =  0.223523
+  [5, 2]  =  0.221266
+  [1, 3]  =  0.172414
+  [2, 3]  =  0.183007
+  [3, 3]  =  0.188425
+  [4, 3]  =  0.191591
+  [5, 3]  =  0.193608
+  [1, 4]  =  0.137931
+  [2, 4]  =  0.152505
+  [3, 4]  =  0.161507
+  [4, 4]  =  0.167642
+  [5, 4]  =  0.172096
+  [1, 5]  =  0.114943
+  [2, 5]  =  0.130719
+  [3, 5]  =  0.141319
+  [4, 5]  =  0.149015
+  [5, 5]  =  0.154886
+
+lu(A) = LU{Float64,Array{Float64,2}}([0.5 0.3333333333333333 0.25 0.2 0.16666666666666666; 0.5 0.033333333333333354 0.04166666666666666 0.042857142857142844 0.04166666666666667; 0.3333333333333333 0.9523809523809518 0.0019841269841270187 0.0036281179138322323 0.004761904761904787; 0.6666666666666666 0.8333333333333333 -0.6999999999999713 0.00015873015873008045 0.0003571428571427504; 0.4 0.9999999999999992 0.6000000000000014 -0.21428571428576423 -2.834467120182982e-6], [1, 3, 5, 5, 5], 0)
+
+
+
+  * p41.1.jl *
+
+There are 4 equations.
+
+  7.787322 seconds (6.25 M allocations: 312.856 MiB, 4.92% gc time)
+
+Testing: round.(m.displacements, digits=8) == [-2.5e-5 -2.344e-5 -1.875e-5 -1.094e-5 0.0]&#39;
+
+
+
+  * p41.2.jl *
+
+There are 4 equations.
+
+  0.105228 seconds (32.34 k allocations: 1.896 MiB)
+
+Testing: round.(fem.displacements, digits=7) == [0.0 0.0166667 0.0333333 0.0416667 0.05]&#39; 
+
+
+
+  * p42.2.jl *
+
+There are 10 equations.
+
+  3.253390 seconds (2.78 M allocations: 144.332 MiB, 5.68% gc time)
+
+
+  * p43.1b.jl *
+
+There are 3 equations.
+
+  2.211414 seconds (1.49 M allocations: 77.700 MiB, 3.97% gc time)
+
+
+  * p44.2.jl *
+
+There are 12 equations.
+
+  2.530842 seconds (1.72 M allocations: 89.799 MiB, 12.78% gc time)
+
+
+  * p45.2.jl *
+
+There are 36 equations.
+
+
+Load step: 1, load factor: 0.5
+...
+   Node     Displacement(s) and Rotation(s)  (Iterations: 3)
+    7  [0.0, 0.0, 0.00010588023169625156, -6.345210166129237e-5, -6.345210166129234e-5, 0.0]
+
+Load step: 2, load factor: 1.0
+...
+   Node     Displacement(s) and Rotation(s)  (Iterations: 3)
+    7  [0.0, 0.0, 0.00021173455349906254, -0.00012688543734804274, -0.00012688543734804274, 0.0]
+
+Load step: 3, load factor: 1.5
+..................
+   Node     Displacement(s) and Rotation(s)  (Iterations: 18)
+    7  [0.0, 0.0, 0.0003247279291115426, -0.0001935766868045201, -0.0001935766868045201, 0.0]
+
+Load step: 4, load factor: 1.55
+........................................................................................................................................................................................................
+   Node     Displacement(s) and Rotation(s)  (Iterations: 200)
+    7  [0.0, 0.0, 0.0015100390482671092, -0.0007906241621841446, -0.000790624162184145, 0.0]
+  2.646297 seconds (2.16 M allocations: 132.036 MiB, 2.95% gc time)
+
+
+  * p46.2.jl *
+
+There are 7 equations.
+
+  1.323252 seconds (995.81 k allocations: 48.933 MiB, 1.73% gc time)
+
+
+  * p47.1.jl *
+
+
+There are 16 equations.
+
+  5.013175 seconds (4.99 M allocations: 248.029 MiB, 4.78% gc time)
+
+
+  * p51.1.jl *
+
+There are 12 equations.
+  6.563983 seconds (5.38 M allocations: 269.400 MiB, 3.63% gc time)
+
+
+  * p51.2.jl *
+
+There are 64 equations.
+  0.004521 seconds (2.33 k allocations: 2.148 MiB)
+
+
+  * p51.3.jl *
+
+There are 12 equations.
+  0.084465 seconds (19.66 k allocations: 1.180 MiB)
+
+
+  * p51.4.jl *
+
+There are 36 equations.
+  0.001532 seconds (1.38 k allocations: 457.109 KiB)
+
+
+  * p51.5.jl *
+
+There are 12 equations.
+  0.090921 seconds (67.13 k allocations: 3.488 MiB)
+
+
+  * p52.1.jl *
+
+There are 65 equations.
+
+  1.591597 seconds (790.87 k allocations: 38.775 MiB, 0.93% gc time)
+
+
+  * p53.1.jl *
+
+There are 124 equations.
+
+  4.402890 seconds (4.64 M allocations: 233.367 MiB, 8.91% gc time)
+
+
+  * p54.1.jl *
+
+There are 48 equations.
+
+
+Element  x-coord   y-coord      sig_x        sig_y        tau_xy
+  2.186510 seconds (2.04 M allocations: 99.882 MiB, 2.66% gc time)
+
+
+  * p54.2.jl *
+
+There are 12 equations.
+
+  0.296207 seconds (258.33 k allocations: 14.028 MiB, 4.53% gc time)
+
+
+  * p55.1.jl *
+
+There are 320 equations.
+
+  1.831309 seconds (1.41 M allocations: 70.556 MiB, 2.29% gc time)
+
+
+  * p56.1.jl *
+
+There are 124 equations.
+
+.[cg_iters beta] = [1.0 0.6308344574242869]
+.[cg_iters beta] = [2.0 0.5534777847787479]
+.[cg_iters beta] = [3.0 0.847296078924674]
+.[cg_iters beta] = [4.0 1.7978999039274457]
+.[cg_iters beta] = [5.0 1.080132170949989]
+.[cg_iters beta] = [6.0 1.1982888738627675]
+.[cg_iters beta] = [7.0 0.5463022185673461]
+.[cg_iters beta] = [8.0 0.668108895585815]
+.[cg_iters beta] = [9.0 0.698120414494551]
+.[cg_iters beta] = [10.0 0.8684742112131267]
+.[cg_iters beta] = [11.0 0.8588241477599355]
+.[cg_iters beta] = [12.0 0.8240986268443071]
+.[cg_iters beta] = [13.0 0.5101760171594512]
+.[cg_iters beta] = [14.0 0.4873555014177224]
+.[cg_iters beta] = [15.0 0.4974603816376959]
+.[cg_iters beta] = [16.0 0.6677159567893369]
+.[cg_iters beta] = [17.0 0.9890435968614341]
+.[cg_iters beta] = [18.0 1.0370478570565265]
+.[cg_iters beta] = [19.0 0.8585996850596105]
+.[cg_iters beta] = [20.0 0.6499377682929575]
+.[cg_iters beta] = [21.0 0.6437143206344141]
+.[cg_iters beta] = [22.0 0.5416384719288394]
+.[cg_iters beta] = [23.0 0.6742078117395416]
+.[cg_iters beta] = [24.0 0.8180669811600849]
+.[cg_iters beta] = [25.0 0.644493605297493]
+.[cg_iters beta] = [26.0 0.5705648769192255]
+.[cg_iters beta] = [27.0 0.8840928739208996]
+.[cg_iters beta] = [28.0 0.5125015063760856]
+.[cg_iters beta] = [29.0 0.9952981084586218]
+.[cg_iters beta] = [30.0 0.5457057821921945]
+.[cg_iters beta] = [31.0 0.6084555135961927]
+.[cg_iters beta] = [32.0 1.0089824709210913]
+.[cg_iters beta] = [33.0 1.1914346277221557]
+.[cg_iters beta] = [34.0 0.4647761986170361]
+.[cg_iters beta] = [35.0 0.633416983147852]
+.[cg_iters beta] = [36.0 1.3383649880856043]
+.[cg_iters beta] = [37.0 0.7199587801645938]
+.[cg_iters beta] = [38.0 1.1515894992309272]
+.[cg_iters beta] = [39.0 0.8881043539718539]
+.[cg_iters beta] = [40.0 0.5413325214577467]
+.[cg_iters beta] = [41.0 0.6480076621470627]
+.[cg_iters beta] = [42.0 0.9646279407045316]
+.[cg_iters beta] = [43.0 1.6236875835186568]
+.[cg_iters beta] = [44.0 0.2539848988834159]
+.[cg_iters beta] = [45.0 0.7481867227749787]
+.[cg_iters beta] = [46.0 1.5666530149561566]
+.[cg_iters beta] = [47.0 0.39168214615387337]
+.[cg_iters beta] = [48.0 0.6967373166920814]
+.[cg_iters beta] = [49.0 1.5027594769483903]
+.[cg_iters beta] = [50.0 0.3628888072799515]
+.[cg_iters beta] = [51.0 0.4707914017381433]
+.[cg_iters beta] = [52.0 0.551511817005068]
+.[cg_iters beta] = [53.0 0.467024030518758]
+.[cg_iters beta] = [54.0 0.8163880910675564]
+.[cg_iters beta] = [55.0 1.2574772855078538]
+.[cg_iters beta] = [56.0 0.6124720811235886]
+.[cg_iters beta] = [57.0 0.5180963455918048]
+.[cg_iters beta] = [58.0 0.7936875169184009]
+.[cg_iters beta] = [59.0 1.1674302248314934]
+.[cg_iters beta] = [60.0 0.876322347725389]
+.[cg_iters beta] = [61.0 0.4447436163070816]
+.[cg_iters beta] = [62.0 0.5929122777333524]
+.[cg_iters beta] = [63.0 0.4583673919598624]
+.[cg_iters beta] = [64.0 0.5917511171546279]
+.[cg_iters beta] = [65.0 0.8386133809405433]
+.[cg_iters beta] = [66.0 1.5230586254324023]
+.[cg_iters beta] = [67.0 0.614312485415889]
+.[cg_iters beta] = [68.0 0.4520700209599324]
+.[cg_iters beta] = [69.0 0.6567383728217494]
+.[cg_iters beta] = [70.0 0.4113376314366683]
+.[cg_iters beta] = [71.0 0.514278509016945]
+.[cg_iters beta] = [72.0 0.5801934805048108]
+.[cg_iters beta] = [73.0 1.2277782542606492]
+
+Number of cg iterations to convergence was 73.
+  5.153721 seconds (4.20 M allocations: 217.932 MiB, 3.84% gc time)
+
+
+  * p61.1.jl *
+
+There are 192 equations and the skyline storage is 4322.
+   step     load        disp          iters
+    1       200.0    -6.5927e-03       2
+    2       300.0    -1.1550e-02       11
+    3       350.0    -1.6303e-02       20
+    4       400.0    -2.3172e-02       33
+    5       450.0    -3.3212e-02       45
+    6       480.0    -4.2355e-02       66
+    7       500.0    -5.0957e-02       82
+    8       510.0    -5.6793e-02       100
+    9       515.0    -6.1090e-02       160
+   10       519.0    -7.1349e-02       250
+
+  7.704064 seconds (10.24 M allocations: 699.081 MiB, 5.30% gc time)
+
+
+  * p62.1.jl *
+
+There are 192 equations.
+ 1       200.0    -6.5925e-03    2       51.0
+ 2       300.0    -1.1549e-02    11       51.36
+ 3       350.0    -1.6300e-02    20       53.65
+ 4       400.0    -2.3168e-02    33       54.3
+ 5       450.0    -3.3207e-02    45       54.76
+ 6       480.0    -4.2352e-02    66       54.82
+ 7       500.0    -5.0960e-02    82       54.79
+ 8       510.0    -5.6790e-02    100       54.83
+ 9       515.0    -6.1006e-02    157       54.6
+10       519.0    -7.1060e-02    250       55.68
+
+ 16.406379 seconds (30.71 M allocations: 6.065 GiB, 8.06% gc time)
+
+
+  * p63.1.jl *
+
+There are 4800 equations.
+
+
+step   disp    load1    load2     iters
+
+1     0.001   57.33294 54.9679    11
+2     0.002   85.0191 82.48724    22
+3     0.003   111.23223 108.43396    25
+4     0.004   136.62429 133.63711    27
+5     0.005   161.27425 158.0585    30
+6     0.006   185.25765 181.76863    33
+7     0.007   208.59404 204.79971    36
+8     0.008   231.31382 227.17024    40
+9     0.009   253.25585 248.98587    57
+10     0.01   274.35146 270.01839    81
+
+ 27.563050 seconds (48.81 M allocations: 4.241 GiB, 4.41% gc time)
+
+Test Summary: | Pass  Total
+PtFEM.jl      |   24     24
+   Testing PtFEM tests passed 
+</pre>
+      </div>
+
+    <h3>Results with Julia v1.3.0</h3>
+
+    <p>
+      Testing was <strong>successful</strong>.
+      Last evaluation was  ago and took 8 minutes, 13 seconds.
+    </p>
+
+    <p>
+      Click <a href="/home/maleadt/Julia/pkg/NewPkgEval/site/build/logs/PtFEM/1.3.0.log">here</a> to download the log file.
+      
+    </p>
+
+      <button class="collapsible">Click here to show the log contents.</button>
+      <div class="content">
+      <pre> Resolving package versions...
+ Installed PlotThemes ────────────────── v1.0.0
+ Installed GraphRecipes ──────────────── v0.4.0
+ Installed Ratios ────────────────────── v0.3.1
+ Installed SortingAlgorithms ─────────── v0.3.1
+ Installed AxisAlgorithms ────────────── v1.0.0
+ Installed DataStructures ────────────── v0.17.6
+ Installed StaticArrays ──────────────── v0.12.1
+ Installed PtFEM ─────────────────────── v1.1.1
+ Installed BinaryProvider ────────────── v0.5.8
+ Installed Parsers ───────────────────── v0.3.10
+ Installed InvertedIndices ───────────── v1.0.0
+ Installed NetworkLayout ─────────────── v0.2.0
+ Installed Compat ────────────────────── v2.2.0
+ Installed CategoricalArrays ─────────── v0.7.3
+ Installed QuadGK ────────────────────── v2.1.1
+ Installed IterTools ─────────────────── v1.3.0
+ Installed Missings ──────────────────── v0.4.3
+ Installed Plots ─────────────────────── v0.28.2
+ Installed MacroTools ────────────────── v0.5.2
+ Installed FixedPointNumbers ─────────── v0.6.1
+ Installed TableTraits ───────────────── v1.0.0
+ Installed OrderedCollections ────────── v1.1.0
+ Installed Showoff ───────────────────── v0.3.1
+ Installed JSON ──────────────────────── v0.21.0
+ Installed PlotUtils ─────────────────── v0.6.1
+ Installed LightGraphs ───────────────── v1.3.0
+ Installed DataAPI ───────────────────── v1.1.0
+ Installed RecipesBase ───────────────── v0.7.0
+ Installed NaNMath ───────────────────── v0.3.3
+ Installed ColorTypes ────────────────── v0.8.0
+ Installed Interpolations ────────────── v0.12.5
+ Installed Tables ────────────────────── v0.2.11
+ Installed DataValueInterfaces ───────── v1.0.0
+ Installed ArnoldiMethod ─────────────── v0.0.4
+ Installed Requires ──────────────────── v0.5.2
+ Installed Inflate ───────────────────── v0.1.1
+ Installed Colors ────────────────────── v0.9.6
+ Installed Contour ───────────────────── v0.5.1
+ Installed Measures ──────────────────── v0.3.0
+ Installed IteratorInterfaceExtensions ─ v1.0.0
+ Installed SimpleTraits ──────────────── v0.9.1
+ Installed PooledArrays ──────────────── v0.5.2
+ Installed OffsetArrays ──────────────── v0.11.2
+ Installed GeometryTypes ─────────────── v0.7.6
+ Installed DataFrames ────────────────── v0.19.4
+ Installed Reexport ──────────────────── v0.2.0
+ Installed FFMPEG ────────────────────── v0.2.3
+ Installed GR ────────────────────────── v0.44.0
+ Installed WoodburyMatrices ──────────── v0.4.1
+ Installed StatsBase ─────────────────── v0.32.0
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Project.toml`
+  [9b64898b] + PtFEM v1.1.1
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Manifest.toml`
+  [ec485272] + ArnoldiMethod v0.0.4
+  [13072b0f] + AxisAlgorithms v1.0.0
+  [b99e7846] + BinaryProvider v0.5.8
+  [324d7699] + CategoricalArrays v0.7.3
+  [3da002f7] + ColorTypes v0.8.0
+  [5ae59095] + Colors v0.9.6
+  [34da2185] + Compat v2.2.0
+  [d38c429a] + Contour v0.5.1
+  [9a962f9c] + DataAPI v1.1.0
+  [a93c6f00] + DataFrames v0.19.4
+  [864edb3b] + DataStructures v0.17.6
+  [e2d170a0] + DataValueInterfaces v1.0.0
+  [c87230d0] + FFMPEG v0.2.3
+  [53c48c17] + FixedPointNumbers v0.6.1
+  [28b8d3ca] + GR v0.44.0
+  [4d00f742] + GeometryTypes v0.7.6
+  [bd48cda9] + GraphRecipes v0.4.0
+  [d25df0c9] + Inflate v0.1.1
+  [a98d9a8b] + Interpolations v0.12.5
+  [41ab1584] + InvertedIndices v1.0.0
+  [c8e1da08] + IterTools v1.3.0
+  [82899510] + IteratorInterfaceExtensions v1.0.0
+  [682c06a0] + JSON v0.21.0
+  [093fc24a] + LightGraphs v1.3.0
+  [1914dd2f] + MacroTools v0.5.2
+  [442fdcdd] + Measures v0.3.0
+  [e1d29d7a] + Missings v0.4.3
+  [77ba4419] + NaNMath v0.3.3
+  [46757867] + NetworkLayout v0.2.0
+  [6fe1bfb0] + OffsetArrays v0.11.2
+  [bac558e1] + OrderedCollections v1.1.0
+  [69de0a69] + Parsers v0.3.10
+  [ccf2f8ad] + PlotThemes v1.0.0
+  [995b91a9] + PlotUtils v0.6.1
+  [91a5bcdd] + Plots v0.28.2
+  [2dfb63ee] + PooledArrays v0.5.2
+  [9b64898b] + PtFEM v1.1.1
+  [1fd47b50] + QuadGK v2.1.1
+  [c84ed2f1] + Ratios v0.3.1
+  [3cdcf5f2] + RecipesBase v0.7.0
+  [189a3867] + Reexport v0.2.0
+  [ae029012] + Requires v0.5.2
+  [992d4aef] + Showoff v0.3.1
+  [699a6c99] + SimpleTraits v0.9.1
+  [a2af1166] + SortingAlgorithms v0.3.1
+  [90137ffa] + StaticArrays v0.12.1
+  [2913bbd2] + StatsBase v0.32.0
+  [3783bdb8] + TableTraits v1.0.0
+  [bd369af6] + Tables v0.2.11
+  [efce3f68] + WoodburyMatrices v0.4.1
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [9fa8497b] + Future 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [4607b0f0] + SuiteSparse 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building GR ────→ `~&#x2F;.julia&#x2F;packages&#x2F;GR&#x2F;oiZD3&#x2F;deps&#x2F;build.log`
+  Building FFMPEG → `~&#x2F;.julia&#x2F;packages&#x2F;FFMPEG&#x2F;bkWgb&#x2F;deps&#x2F;build.log`
+  Building Plots ─→ `~&#x2F;.julia&#x2F;packages&#x2F;Plots&#x2F;2KhB2&#x2F;deps&#x2F;build.log`
+   Testing PtFEM
+ Resolving package versions...
+    Status `&#x2F;tmp&#x2F;jl_s9D0v4&#x2F;Manifest.toml`
+  [ec485272] ArnoldiMethod v0.0.4
+  [13072b0f] AxisAlgorithms v1.0.0
+  [b99e7846] BinaryProvider v0.5.8
+  [324d7699] CategoricalArrays v0.7.3
+  [3da002f7] ColorTypes v0.8.0
+  [5ae59095] Colors v0.9.6
+  [34da2185] Compat v2.2.0
+  [d38c429a] Contour v0.5.1
+  [9a962f9c] DataAPI v1.1.0
+  [a93c6f00] DataFrames v0.19.4
+  [864edb3b] DataStructures v0.17.6
+  [e2d170a0] DataValueInterfaces v1.0.0
+  [c87230d0] FFMPEG v0.2.3
+  [53c48c17] FixedPointNumbers v0.6.1
+  [28b8d3ca] GR v0.44.0
+  [4d00f742] GeometryTypes v0.7.6
+  [bd48cda9] GraphRecipes v0.4.0
+  [d25df0c9] Inflate v0.1.1
+  [a98d9a8b] Interpolations v0.12.5
+  [41ab1584] InvertedIndices v1.0.0
+  [c8e1da08] IterTools v1.3.0
+  [82899510] IteratorInterfaceExtensions v1.0.0
+  [682c06a0] JSON v0.21.0
+  [093fc24a] LightGraphs v1.3.0
+  [1914dd2f] MacroTools v0.5.2
+  [442fdcdd] Measures v0.3.0
+  [e1d29d7a] Missings v0.4.3
+  [77ba4419] NaNMath v0.3.3
+  [46757867] NetworkLayout v0.2.0
+  [6fe1bfb0] OffsetArrays v0.11.2
+  [bac558e1] OrderedCollections v1.1.0
+  [69de0a69] Parsers v0.3.10
+  [ccf2f8ad] PlotThemes v1.0.0
+  [995b91a9] PlotUtils v0.6.1
+  [91a5bcdd] Plots v0.28.2
+  [2dfb63ee] PooledArrays v0.5.2
+  [9b64898b] PtFEM v1.1.1
+  [1fd47b50] QuadGK v2.1.1
+  [c84ed2f1] Ratios v0.3.1
+  [3cdcf5f2] RecipesBase v0.7.0
+  [189a3867] Reexport v0.2.0
+  [ae029012] Requires v0.5.2
+  [992d4aef] Showoff v0.3.1
+  [699a6c99] SimpleTraits v0.9.1
+  [a2af1166] SortingAlgorithms v0.3.1
+  [90137ffa] StaticArrays v0.12.1
+  [2913bbd2] StatsBase v0.32.0
+  [3783bdb8] TableTraits v1.0.0
+  [bd369af6] Tables v0.2.11
+  [efce3f68] WoodburyMatrices v0.4.1
+  [2a0f44e3] Base64  [`@stdlib&#x2F;Base64`]
+  [ade2ca70] Dates  [`@stdlib&#x2F;Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib&#x2F;DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib&#x2F;Distributed`]
+  [9fa8497b] Future  [`@stdlib&#x2F;Future`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib&#x2F;InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib&#x2F;LibGit2`]
+  [8f399da3] Libdl  [`@stdlib&#x2F;Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib&#x2F;LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib&#x2F;Logging`]
+  [d6f4376e] Markdown  [`@stdlib&#x2F;Markdown`]
+  [a63ad114] Mmap  [`@stdlib&#x2F;Mmap`]
+  [44cfe95a] Pkg  [`@stdlib&#x2F;Pkg`]
+  [de0858da] Printf  [`@stdlib&#x2F;Printf`]
+  [3fa0cd96] REPL  [`@stdlib&#x2F;REPL`]
+  [9a3f8284] Random  [`@stdlib&#x2F;Random`]
+  [ea8e919c] SHA  [`@stdlib&#x2F;SHA`]
+  [9e88b42a] Serialization  [`@stdlib&#x2F;Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib&#x2F;SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib&#x2F;Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib&#x2F;SparseArrays`]
+  [10745b16] Statistics  [`@stdlib&#x2F;Statistics`]
+  [4607b0f0] SuiteSparse  [`@stdlib&#x2F;SuiteSparse`]
+  [8dfed614] Test  [`@stdlib&#x2F;Test`]
+  [cf7118a7] UUIDs  [`@stdlib&#x2F;UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib&#x2F;Unicode`]
+
+
+Running PtFEM&#x2F;PtFEM.jl tests:
+
+
+
+
+  * sparse_01.jl *
+
+y = Al \ b[Ap] = [2.0, 6.5, -2.333333333333333]
+
+x = Au \ y = [1.0000000000000002, -2.000000000000001, 1.4000000000000004]
+
+As = sparse(A) = 
+  [1, 1]  =  10.0
+  [2, 1]  =  -20.0
+  [3, 1]  =  5.0
+  [1, 2]  =  1.0
+  [2, 2]  =  3.0
+  [3, 2]  =  3.0
+  [1, 3]  =  -5.0
+  [2, 3]  =  20.0
+  [3, 3]  =  5.0
+
+As \ y = [-2.413333333333333, 8.966666666666667, -3.433333333333333]
+
+F = lu(As) = UMFPACK LU Factorization of a (3, 3) sparse matrix
+Ptr{Nothing} @0x0000000003df1fd0
+
+ys = F.L \ (F.Rs .* b) = [0.0625, 0.09302325581395349, 0.2692307692307693]
+
+x = F.U \ ys = [1.0, -2.0000000000000004, 1.4000000000000001]
+
+F.L * F.U == (F.Rs .* A)[F.p, F.q] = true
+
+F.L * F.U = 
+  [1, 1]  =  0.625
+  [2, 1]  =  -0.465116
+  [3, 1]  =  0.384615
+  [1, 2]  =  0.0625
+  [2, 2]  =  0.0697674
+  [3, 2]  =  0.230769
+  [1, 3]  =  -0.3125
+  [2, 3]  =  0.465116
+  [3, 3]  =  0.384615
+
+sparse((F.Rs .* A)[F.p, F.q]) = 
+  [1, 1]  =  0.625
+  [2, 1]  =  -0.465116
+  [3, 1]  =  0.384615
+  [1, 2]  =  0.0625
+  [2, 2]  =  0.0697674
+  [3, 2]  =  0.230769
+  [1, 3]  =  -0.3125
+  [2, 3]  =  0.465116
+  [3, 3]  =  0.384615
+
+
+
+  * sparse_02.jl *
+
+y = Al \ b[Ap] = [1.0, 0.5, 0.19047619047619085, 0.049999999999994875, -0.0035714285714274485]
+
+x = Au \ y = [30.0000000000173, -419.9999999998754, 1679.9999999988988, -2519.9999999979605, 1259.9999999989034]
+
+As = sparse(A) = 
+  [1, 1]  =  0.5
+  [2, 1]  =  0.333333
+  [3, 1]  =  0.25
+  [4, 1]  =  0.2
+  [5, 1]  =  0.166667
+  [1, 2]  =  0.333333
+  [2, 2]  =  0.25
+  [3, 2]  =  0.2
+  [4, 2]  =  0.166667
+  [5, 2]  =  0.142857
+  [1, 3]  =  0.25
+  [2, 3]  =  0.2
+  [3, 3]  =  0.166667
+  [4, 3]  =  0.142857
+  [5, 3]  =  0.125
+  [1, 4]  =  0.2
+  [2, 4]  =  0.166667
+  [3, 4]  =  0.142857
+  [4, 4]  =  0.125
+  [5, 4]  =  0.111111
+  [1, 5]  =  0.166667
+  [2, 5]  =  0.142857
+  [3, 5]  =  0.125
+  [4, 5]  =  0.111111
+  [5, 5]  =  0.1
+
+As \ b = [29.999999999998714, -419.99999999995396, 1679.9999999997979, -2519.999999999704, 1259.9999999998602]
+
+F = lu(As) = UMFPACK LU Factorization of a (5, 5) sparse matrix
+Ptr{Nothing} @0x0000000003a404f0
+
+F.L * F.U == F.Rs .* A[F.p, :] = false
+
+F.L * F.U = 
+  [1, 1]  =  0.344828
+  [2, 1]  =  0.305011
+  [3, 1]  =  0.282638
+  [4, 1]  =  0.268228
+  [5, 1]  =  0.258144
+  [1, 2]  =  0.229885
+  [2, 2]  =  0.228758
+  [3, 2]  =  0.22611
+  [4, 2]  =  0.223523
+  [5, 2]  =  0.221266
+  [1, 3]  =  0.172414
+  [2, 3]  =  0.183007
+  [3, 3]  =  0.188425
+  [4, 3]  =  0.191591
+  [5, 3]  =  0.193608
+  [1, 4]  =  0.137931
+  [2, 4]  =  0.152505
+  [3, 4]  =  0.161507
+  [4, 4]  =  0.167642
+  [5, 4]  =  0.172096
+  [1, 5]  =  0.114943
+  [2, 5]  =  0.130719
+  [3, 5]  =  0.141319
+  [4, 5]  =  0.149015
+  [5, 5]  =  0.154886
+
+sparse(F.Rs .* A[F.p, F.q]) = 
+  [1, 1]  =  0.344828
+  [2, 1]  =  0.305011
+  [3, 1]  =  0.282638
+  [4, 1]  =  0.268228
+  [5, 1]  =  0.258144
+  [1, 2]  =  0.229885
+  [2, 2]  =  0.228758
+  [3, 2]  =  0.22611
+  [4, 2]  =  0.223523
+  [5, 2]  =  0.221266
+  [1, 3]  =  0.172414
+  [2, 3]  =  0.183007
+  [3, 3]  =  0.188425
+  [4, 3]  =  0.191591
+  [5, 3]  =  0.193608
+  [1, 4]  =  0.137931
+  [2, 4]  =  0.152505
+  [3, 4]  =  0.161507
+  [4, 4]  =  0.167642
+  [5, 4]  =  0.172096
+  [1, 5]  =  0.114943
+  [2, 5]  =  0.130719
+  [3, 5]  =  0.141319
+  [4, 5]  =  0.149015
+  [5, 5]  =  0.154886
+
+lu(A) = LU{Float64,Array{Float64,2}}([0.5 0.3333333333333333 0.25 0.2 0.16666666666666666; 0.5 0.033333333333333354 0.04166666666666666 0.042857142857142844 0.04166666666666667; 0.3333333333333333 0.9523809523809518 0.0019841269841270187 0.0036281179138322323 0.004761904761904787; 0.6666666666666666 0.8333333333333333 -0.6999999999999713 0.00015873015873008045 0.0003571428571427504; 0.4 0.9999999999999992 0.6000000000000014 -0.21428571428576423 -2.834467120182982e-6], [1, 3, 5, 5, 5], 0)
+
+
+
+  * p41.1.jl *
+
+There are 4 equations.
+
+  6.691358 seconds (6.53 M allocations: 326.541 MiB, 4.78% gc time)
+
+Testing: round.(m.displacements, digits=8) == [-2.5e-5 -2.344e-5 -1.875e-5 -1.094e-5 0.0]&#39;
+
+
+
+  * p41.2.jl *
+
+There are 4 equations.
+
+  0.096995 seconds (33.45 k allocations: 1.954 MiB)
+
+Testing: round.(fem.displacements, digits=7) == [0.0 0.0166667 0.0333333 0.0416667 0.05]&#39; 
+
+
+
+  * p42.2.jl *
+
+There are 10 equations.
+
+  2.563450 seconds (2.27 M allocations: 113.465 MiB, 2.41% gc time)
+
+
+  * p43.1b.jl *
+
+There are 3 equations.
+
+  1.766609 seconds (1.38 M allocations: 70.957 MiB, 1.14% gc time)
+
+
+  * p44.2.jl *
+
+There are 12 equations.
+
+  2.049891 seconds (1.40 M allocations: 70.312 MiB, 1.00% gc time)
+
+
+  * p45.2.jl *
+
+There are 36 equations.
+
+
+Load step: 1, load factor: 0.5
+...
+   Node     Displacement(s) and Rotation(s)  (Iterations: 3)
+    7  [0.0, 0.0, 0.00010588023169625156, -6.345210166129237e-5, -6.345210166129234e-5, 0.0]
+
+Load step: 2, load factor: 1.0
+...
+   Node     Displacement(s) and Rotation(s)  (Iterations: 3)
+    7  [0.0, 0.0, 0.00021173455349906254, -0.00012688543734804274, -0.00012688543734804274, 0.0]
+
+Load step: 3, load factor: 1.5
+..................
+   Node     Displacement(s) and Rotation(s)  (Iterations: 18)
+    7  [0.0, 0.0, 0.0003247279291115426, -0.0001935766868045201, -0.0001935766868045201, 0.0]
+
+Load step: 4, load factor: 1.55
+........................................................................................................................................................................................................
+   Node     Displacement(s) and Rotation(s)  (Iterations: 200)
+    7  [0.0, 0.0, 0.0015100390482671092, -0.0007906241621841446, -0.000790624162184145, 0.0]
+  2.453128 seconds (2.02 M allocations: 123.627 MiB, 2.31% gc time)
+
+
+  * p46.2.jl *
+
+There are 7 equations.
+
+  1.267631 seconds (877.69 k allocations: 42.441 MiB, 1.98% gc time)
+
+
+  * p47.1.jl *
+
+
+There are 16 equations.
+
+  4.561523 seconds (4.60 M allocations: 227.339 MiB, 2.86% gc time)
+
+
+  * p51.1.jl *
+
+There are 12 equations.
+  8.606382 seconds (8.55 M allocations: 411.235 MiB, 2.94% gc time)
+
+
+  * p51.2.jl *
+
+There are 64 equations.
+  0.005126 seconds (2.34 k allocations: 2.148 MiB)
+
+
+  * p51.3.jl *
+
+There are 12 equations.
+  0.073725 seconds (22.00 k allocations: 1.262 MiB)
+
+
+  * p51.4.jl *
+
+There are 36 equations.
+  0.001671 seconds (1.39 k allocations: 457.344 KiB)
+
+
+  * p51.5.jl *
+
+There are 12 equations.
+  0.081820 seconds (67.75 k allocations: 3.513 MiB)
+
+
+  * p52.1.jl *
+
+There are 65 equations.
+
+  1.482790 seconds (701.46 k allocations: 34.068 MiB, 1.71% gc time)
+
+
+  * p53.1.jl *
+
+There are 124 equations.
+
+  3.566113 seconds (4.47 M allocations: 224.139 MiB, 3.66% gc time)
+
+
+  * p54.1.jl *
+
+There are 48 equations.
+
+
+Element  x-coord   y-coord      sig_x        sig_y        tau_xy
+  2.540704 seconds (2.02 M allocations: 97.679 MiB, 2.43% gc time)
+
+
+  * p54.2.jl *
+
+There are 12 equations.
+
+  0.337294 seconds (221.13 k allocations: 11.779 MiB, 8.55% gc time)
+
+
+  * p55.1.jl *
+
+There are 320 equations.
+
+  1.892086 seconds (1.39 M allocations: 68.741 MiB, 1.48% gc time)
+
+
+  * p56.1.jl *
+
+There are 124 equations.
+
+.[cg_iters beta] = [1.0 0.6308344574242869]
+.[cg_iters beta] = [2.0 0.5534777847787479]
+.[cg_iters beta] = [3.0 0.847296078924674]
+.[cg_iters beta] = [4.0 1.7978999039274457]
+.[cg_iters beta] = [5.0 1.080132170949989]
+.[cg_iters beta] = [6.0 1.1982888738627675]
+.[cg_iters beta] = [7.0 0.5463022185673461]
+.[cg_iters beta] = [8.0 0.668108895585815]
+.[cg_iters beta] = [9.0 0.698120414494551]
+.[cg_iters beta] = [10.0 0.8684742112131267]
+.[cg_iters beta] = [11.0 0.8588241477599355]
+.[cg_iters beta] = [12.0 0.8240986268443071]
+.[cg_iters beta] = [13.0 0.5101760171594512]
+.[cg_iters beta] = [14.0 0.4873555014177224]
+.[cg_iters beta] = [15.0 0.4974603816376959]
+.[cg_iters beta] = [16.0 0.6677159567893369]
+.[cg_iters beta] = [17.0 0.9890435968614341]
+.[cg_iters beta] = [18.0 1.0370478570565265]
+.[cg_iters beta] = [19.0 0.8585996850596105]
+.[cg_iters beta] = [20.0 0.6499377682929575]
+.[cg_iters beta] = [21.0 0.6437143206344141]
+.[cg_iters beta] = [22.0 0.5416384719288394]
+.[cg_iters beta] = [23.0 0.6742078117395416]
+.[cg_iters beta] = [24.0 0.8180669811600849]
+.[cg_iters beta] = [25.0 0.644493605297493]
+.[cg_iters beta] = [26.0 0.5705648769192255]
+.[cg_iters beta] = [27.0 0.8840928739208996]
+.[cg_iters beta] = [28.0 0.5125015063760856]
+.[cg_iters beta] = [29.0 0.9952981084586218]
+.[cg_iters beta] = [30.0 0.5457057821921945]
+.[cg_iters beta] = [31.0 0.6084555135961927]
+.[cg_iters beta] = [32.0 1.0089824709210913]
+.[cg_iters beta] = [33.0 1.1914346277221557]
+.[cg_iters beta] = [34.0 0.4647761986170361]
+.[cg_iters beta] = [35.0 0.633416983147852]
+.[cg_iters beta] = [36.0 1.3383649880856043]
+.[cg_iters beta] = [37.0 0.7199587801645938]
+.[cg_iters beta] = [38.0 1.1515894992309272]
+.[cg_iters beta] = [39.0 0.8881043539718539]
+.[cg_iters beta] = [40.0 0.5413325214577467]
+.[cg_iters beta] = [41.0 0.6480076621470627]
+.[cg_iters beta] = [42.0 0.9646279407045316]
+.[cg_iters beta] = [43.0 1.6236875835186568]
+.[cg_iters beta] = [44.0 0.2539848988834159]
+.[cg_iters beta] = [45.0 0.7481867227749787]
+.[cg_iters beta] = [46.0 1.5666530149561566]
+.[cg_iters beta] = [47.0 0.39168214615387337]
+.[cg_iters beta] = [48.0 0.6967373166920814]
+.[cg_iters beta] = [49.0 1.5027594769483903]
+.[cg_iters beta] = [50.0 0.3628888072799515]
+.[cg_iters beta] = [51.0 0.4707914017381433]
+.[cg_iters beta] = [52.0 0.551511817005068]
+.[cg_iters beta] = [53.0 0.467024030518758]
+.[cg_iters beta] = [54.0 0.8163880910675564]
+.[cg_iters beta] = [55.0 1.2574772855078538]
+.[cg_iters beta] = [56.0 0.6124720811235886]
+.[cg_iters beta] = [57.0 0.5180963455918048]
+.[cg_iters beta] = [58.0 0.7936875169184009]
+.[cg_iters beta] = [59.0 1.1674302248314934]
+.[cg_iters beta] = [60.0 0.876322347725389]
+.[cg_iters beta] = [61.0 0.4447436163070816]
+.[cg_iters beta] = [62.0 0.5929122777333524]
+.[cg_iters beta] = [63.0 0.4583673919598624]
+.[cg_iters beta] = [64.0 0.5917511171546279]
+.[cg_iters beta] = [65.0 0.8386133809405433]
+.[cg_iters beta] = [66.0 1.5230586254324023]
+.[cg_iters beta] = [67.0 0.614312485415889]
+.[cg_iters beta] = [68.0 0.4520700209599324]
+.[cg_iters beta] = [69.0 0.6567383728217494]
+.[cg_iters beta] = [70.0 0.4113376314366683]
+.[cg_iters beta] = [71.0 0.514278509016945]
+.[cg_iters beta] = [72.0 0.5801934805048108]
+.[cg_iters beta] = [73.0 1.2277782542606492]
+
+Number of cg iterations to convergence was 73.
+  4.449822 seconds (4.18 M allocations: 216.794 MiB, 4.09% gc time)
+
+
+  * p61.1.jl *
+
+There are 192 equations and the skyline storage is 4322.
+   step     load        disp          iters
+    1       200.0    -6.5927e-03       2
+    2       300.0    -1.1550e-02       11
+    3       350.0    -1.6303e-02       20
+    4       400.0    -2.3172e-02       33
+    5       450.0    -3.3212e-02       45
+    6       480.0    -4.2355e-02       66
+    7       500.0    -5.0957e-02       82
+    8       510.0    -5.6793e-02       100
+    9       515.0    -6.1090e-02       160
+   10       519.0    -7.1349e-02       250
+
+  7.436354 seconds (10.28 M allocations: 697.638 MiB, 9.16% gc time)
+
+
+  * p62.1.jl *
+
+There are 192 equations.
+ 1       200.0    -6.5925e-03    2       51.0
+ 2       300.0    -1.1549e-02    11       51.36
+ 3       350.0    -1.6300e-02    20       53.65
+ 4       400.0    -2.3168e-02    33       54.3
+ 5       450.0    -3.3207e-02    45       54.76
+ 6       480.0    -4.2352e-02    66       54.82
+ 7       500.0    -5.0960e-02    82       54.79
+ 8       510.0    -5.6790e-02    100       54.83
+ 9       515.0    -6.1006e-02    157       54.6
+10       519.0    -7.1060e-02    250       55.68
+
+ 14.803982 seconds (30.61 M allocations: 6.059 GiB, 5.22% gc time)
+
+
+  * p63.1.jl *
+
+There are 4800 equations.
+
+
+step   disp    load1    load2     iters
+
+1     0.001   57.33294 54.9679    11
+2     0.002   85.0191 82.48724    22
+3     0.003   111.23223 108.43396    25
+4     0.004   136.62429 133.63711    27
+5     0.005   161.27425 158.0585    30
+6     0.006   185.25765 181.76863    33
+7     0.007   208.59404 204.79971    36
+8     0.008   231.31382 227.17024    40
+9     0.009   253.25585 248.98587    57
+10     0.01   274.35146 270.01839    81
+
+ 25.698987 seconds (48.73 M allocations: 4.235 GiB, 3.86% gc time)
+
+Test Summary: | Pass  Total
+PtFEM.jl      |   24     24
+   Testing PtFEM tests passed 
+</pre>
+      </div>
+
+    <h3>Results with Julia v1.3.1-pre-7704df0a5a</h3>
+
+    <p>
+      Testing was <strong>successful</strong>.
+      Last evaluation was  ago and took 8 minutes, 14 seconds.
+    </p>
+
+    <p>
+      Click <a href="/home/maleadt/Julia/pkg/NewPkgEval/site/build/logs/PtFEM/1.3.1-pre-7704df0a5a.log">here</a> to download the log file.
+      
+    </p>
+
+      <button class="collapsible">Click here to show the log contents.</button>
+      <div class="content">
+      <pre> Resolving package versions...
+ Installed Ratios ────────────────────── v0.3.1
+ Installed ColorTypes ────────────────── v0.8.0
+ Installed DataStructures ────────────── v0.17.6
+ Installed GeometryTypes ─────────────── v0.7.6
+ Installed Plots ─────────────────────── v0.28.2
+ Installed Colors ────────────────────── v0.9.6
+ Installed PtFEM ─────────────────────── v1.1.1
+ Installed LightGraphs ───────────────── v1.3.0
+ Installed QuadGK ────────────────────── v2.1.1
+ Installed NaNMath ───────────────────── v0.3.3
+ Installed GraphRecipes ──────────────── v0.4.0
+ Installed Tables ────────────────────── v0.2.11
+ Installed Compat ────────────────────── v2.2.0
+ Installed StaticArrays ──────────────── v0.12.1
+ Installed DataFrames ────────────────── v0.19.4
+ Installed IterTools ─────────────────── v1.3.0
+ Installed FixedPointNumbers ─────────── v0.6.1
+ Installed MacroTools ────────────────── v0.5.2
+ Installed Showoff ───────────────────── v0.3.1
+ Installed Missings ──────────────────── v0.4.3
+ Installed Inflate ───────────────────── v0.1.1
+ Installed StatsBase ─────────────────── v0.32.0
+ Installed AxisAlgorithms ────────────── v1.0.0
+ Installed OffsetArrays ──────────────── v0.11.2
+ Installed TableTraits ───────────────── v1.0.0
+ Installed PooledArrays ──────────────── v0.5.2
+ Installed FFMPEG ────────────────────── v0.2.3
+ Installed InvertedIndices ───────────── v1.0.0
+ Installed Measures ──────────────────── v0.3.0
+ Installed BinaryProvider ────────────── v0.5.8
+ Installed Requires ──────────────────── v0.5.2
+ Installed DataValueInterfaces ───────── v1.0.0
+ Installed SimpleTraits ──────────────── v0.9.1
+ Installed Reexport ──────────────────── v0.2.0
+ Installed Interpolations ────────────── v0.12.5
+ Installed PlotThemes ────────────────── v1.0.0
+ Installed PlotUtils ─────────────────── v0.6.1
+ Installed RecipesBase ───────────────── v0.7.0
+ Installed Contour ───────────────────── v0.5.1
+ Installed WoodburyMatrices ──────────── v0.4.1
+ Installed CategoricalArrays ─────────── v0.7.3
+ Installed IteratorInterfaceExtensions ─ v1.0.0
+ Installed DataAPI ───────────────────── v1.1.0
+ Installed JSON ──────────────────────── v0.21.0
+ Installed ArnoldiMethod ─────────────── v0.0.4
+ Installed OrderedCollections ────────── v1.1.0
+ Installed SortingAlgorithms ─────────── v0.3.1
+ Installed Parsers ───────────────────── v0.3.10
+ Installed NetworkLayout ─────────────── v0.2.0
+ Installed GR ────────────────────────── v0.44.0
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Project.toml`
+  [9b64898b] + PtFEM v1.1.1
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Manifest.toml`
+  [ec485272] + ArnoldiMethod v0.0.4
+  [13072b0f] + AxisAlgorithms v1.0.0
+  [b99e7846] + BinaryProvider v0.5.8
+  [324d7699] + CategoricalArrays v0.7.3
+  [3da002f7] + ColorTypes v0.8.0
+  [5ae59095] + Colors v0.9.6
+  [34da2185] + Compat v2.2.0
+  [d38c429a] + Contour v0.5.1
+  [9a962f9c] + DataAPI v1.1.0
+  [a93c6f00] + DataFrames v0.19.4
+  [864edb3b] + DataStructures v0.17.6
+  [e2d170a0] + DataValueInterfaces v1.0.0
+  [c87230d0] + FFMPEG v0.2.3
+  [53c48c17] + FixedPointNumbers v0.6.1
+  [28b8d3ca] + GR v0.44.0
+  [4d00f742] + GeometryTypes v0.7.6
+  [bd48cda9] + GraphRecipes v0.4.0
+  [d25df0c9] + Inflate v0.1.1
+  [a98d9a8b] + Interpolations v0.12.5
+  [41ab1584] + InvertedIndices v1.0.0
+  [c8e1da08] + IterTools v1.3.0
+  [82899510] + IteratorInterfaceExtensions v1.0.0
+  [682c06a0] + JSON v0.21.0
+  [093fc24a] + LightGraphs v1.3.0
+  [1914dd2f] + MacroTools v0.5.2
+  [442fdcdd] + Measures v0.3.0
+  [e1d29d7a] + Missings v0.4.3
+  [77ba4419] + NaNMath v0.3.3
+  [46757867] + NetworkLayout v0.2.0
+  [6fe1bfb0] + OffsetArrays v0.11.2
+  [bac558e1] + OrderedCollections v1.1.0
+  [69de0a69] + Parsers v0.3.10
+  [ccf2f8ad] + PlotThemes v1.0.0
+  [995b91a9] + PlotUtils v0.6.1
+  [91a5bcdd] + Plots v0.28.2
+  [2dfb63ee] + PooledArrays v0.5.2
+  [9b64898b] + PtFEM v1.1.1
+  [1fd47b50] + QuadGK v2.1.1
+  [c84ed2f1] + Ratios v0.3.1
+  [3cdcf5f2] + RecipesBase v0.7.0
+  [189a3867] + Reexport v0.2.0
+  [ae029012] + Requires v0.5.2
+  [992d4aef] + Showoff v0.3.1
+  [699a6c99] + SimpleTraits v0.9.1
+  [a2af1166] + SortingAlgorithms v0.3.1
+  [90137ffa] + StaticArrays v0.12.1
+  [2913bbd2] + StatsBase v0.32.0
+  [3783bdb8] + TableTraits v1.0.0
+  [bd369af6] + Tables v0.2.11
+  [efce3f68] + WoodburyMatrices v0.4.1
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [9fa8497b] + Future 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [4607b0f0] + SuiteSparse 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building GR ────→ `~&#x2F;.julia&#x2F;packages&#x2F;GR&#x2F;oiZD3&#x2F;deps&#x2F;build.log`
+  Building FFMPEG → `~&#x2F;.julia&#x2F;packages&#x2F;FFMPEG&#x2F;bkWgb&#x2F;deps&#x2F;build.log`
+  Building Plots ─→ `~&#x2F;.julia&#x2F;packages&#x2F;Plots&#x2F;2KhB2&#x2F;deps&#x2F;build.log`
+   Testing PtFEM
+ Resolving package versions...
+    Status `&#x2F;tmp&#x2F;jl_bZgCL7&#x2F;Manifest.toml`
+  [ec485272] ArnoldiMethod v0.0.4
+  [13072b0f] AxisAlgorithms v1.0.0
+  [b99e7846] BinaryProvider v0.5.8
+  [324d7699] CategoricalArrays v0.7.3
+  [3da002f7] ColorTypes v0.8.0
+  [5ae59095] Colors v0.9.6
+  [34da2185] Compat v2.2.0
+  [d38c429a] Contour v0.5.1
+  [9a962f9c] DataAPI v1.1.0
+  [a93c6f00] DataFrames v0.19.4
+  [864edb3b] DataStructures v0.17.6
+  [e2d170a0] DataValueInterfaces v1.0.0
+  [c87230d0] FFMPEG v0.2.3
+  [53c48c17] FixedPointNumbers v0.6.1
+  [28b8d3ca] GR v0.44.0
+  [4d00f742] GeometryTypes v0.7.6
+  [bd48cda9] GraphRecipes v0.4.0
+  [d25df0c9] Inflate v0.1.1
+  [a98d9a8b] Interpolations v0.12.5
+  [41ab1584] InvertedIndices v1.0.0
+  [c8e1da08] IterTools v1.3.0
+  [82899510] IteratorInterfaceExtensions v1.0.0
+  [682c06a0] JSON v0.21.0
+  [093fc24a] LightGraphs v1.3.0
+  [1914dd2f] MacroTools v0.5.2
+  [442fdcdd] Measures v0.3.0
+  [e1d29d7a] Missings v0.4.3
+  [77ba4419] NaNMath v0.3.3
+  [46757867] NetworkLayout v0.2.0
+  [6fe1bfb0] OffsetArrays v0.11.2
+  [bac558e1] OrderedCollections v1.1.0
+  [69de0a69] Parsers v0.3.10
+  [ccf2f8ad] PlotThemes v1.0.0
+  [995b91a9] PlotUtils v0.6.1
+  [91a5bcdd] Plots v0.28.2
+  [2dfb63ee] PooledArrays v0.5.2
+  [9b64898b] PtFEM v1.1.1
+  [1fd47b50] QuadGK v2.1.1
+  [c84ed2f1] Ratios v0.3.1
+  [3cdcf5f2] RecipesBase v0.7.0
+  [189a3867] Reexport v0.2.0
+  [ae029012] Requires v0.5.2
+  [992d4aef] Showoff v0.3.1
+  [699a6c99] SimpleTraits v0.9.1
+  [a2af1166] SortingAlgorithms v0.3.1
+  [90137ffa] StaticArrays v0.12.1
+  [2913bbd2] StatsBase v0.32.0
+  [3783bdb8] TableTraits v1.0.0
+  [bd369af6] Tables v0.2.11
+  [efce3f68] WoodburyMatrices v0.4.1
+  [2a0f44e3] Base64  [`@stdlib&#x2F;Base64`]
+  [ade2ca70] Dates  [`@stdlib&#x2F;Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib&#x2F;DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib&#x2F;Distributed`]
+  [9fa8497b] Future  [`@stdlib&#x2F;Future`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib&#x2F;InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib&#x2F;LibGit2`]
+  [8f399da3] Libdl  [`@stdlib&#x2F;Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib&#x2F;LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib&#x2F;Logging`]
+  [d6f4376e] Markdown  [`@stdlib&#x2F;Markdown`]
+  [a63ad114] Mmap  [`@stdlib&#x2F;Mmap`]
+  [44cfe95a] Pkg  [`@stdlib&#x2F;Pkg`]
+  [de0858da] Printf  [`@stdlib&#x2F;Printf`]
+  [3fa0cd96] REPL  [`@stdlib&#x2F;REPL`]
+  [9a3f8284] Random  [`@stdlib&#x2F;Random`]
+  [ea8e919c] SHA  [`@stdlib&#x2F;SHA`]
+  [9e88b42a] Serialization  [`@stdlib&#x2F;Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib&#x2F;SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib&#x2F;Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib&#x2F;SparseArrays`]
+  [10745b16] Statistics  [`@stdlib&#x2F;Statistics`]
+  [4607b0f0] SuiteSparse  [`@stdlib&#x2F;SuiteSparse`]
+  [8dfed614] Test  [`@stdlib&#x2F;Test`]
+  [cf7118a7] UUIDs  [`@stdlib&#x2F;UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib&#x2F;Unicode`]
+
+
+Running PtFEM&#x2F;PtFEM.jl tests:
+
+
+
+
+  * sparse_01.jl *
+
+y = Al \ b[Ap] = [2.0, 6.5, -2.333333333333333]
+
+x = Au \ y = [1.0000000000000002, -2.000000000000001, 1.4000000000000004]
+
+As = sparse(A) = 
+  [1, 1]  =  10.0
+  [2, 1]  =  -20.0
+  [3, 1]  =  5.0
+  [1, 2]  =  1.0
+  [2, 2]  =  3.0
+  [3, 2]  =  3.0
+  [1, 3]  =  -5.0
+  [2, 3]  =  20.0
+  [3, 3]  =  5.0
+
+As \ y = [-2.413333333333333, 8.966666666666667, -3.433333333333333]
+
+F = lu(As) = UMFPACK LU Factorization of a (3, 3) sparse matrix
+Ptr{Nothing} @0x00000000032e6880
+
+ys = F.L \ (F.Rs .* b) = [0.0625, 0.09302325581395349, 0.2692307692307693]
+
+x = F.U \ ys = [1.0, -2.0000000000000004, 1.4000000000000001]
+
+F.L * F.U == (F.Rs .* A)[F.p, F.q] = true
+
+F.L * F.U = 
+  [1, 1]  =  0.625
+  [2, 1]  =  -0.465116
+  [3, 1]  =  0.384615
+  [1, 2]  =  0.0625
+  [2, 2]  =  0.0697674
+  [3, 2]  =  0.230769
+  [1, 3]  =  -0.3125
+  [2, 3]  =  0.465116
+  [3, 3]  =  0.384615
+
+sparse((F.Rs .* A)[F.p, F.q]) = 
+  [1, 1]  =  0.625
+  [2, 1]  =  -0.465116
+  [3, 1]  =  0.384615
+  [1, 2]  =  0.0625
+  [2, 2]  =  0.0697674
+  [3, 2]  =  0.230769
+  [1, 3]  =  -0.3125
+  [2, 3]  =  0.465116
+  [3, 3]  =  0.384615
+
+
+
+  * sparse_02.jl *
+
+y = Al \ b[Ap] = [1.0, 0.5, 0.19047619047619085, 0.049999999999994875, -0.0035714285714274485]
+
+x = Au \ y = [30.0000000000173, -419.9999999998754, 1679.9999999988988, -2519.9999999979605, 1259.9999999989034]
+
+As = sparse(A) = 
+  [1, 1]  =  0.5
+  [2, 1]  =  0.333333
+  [3, 1]  =  0.25
+  [4, 1]  =  0.2
+  [5, 1]  =  0.166667
+  [1, 2]  =  0.333333
+  [2, 2]  =  0.25
+  [3, 2]  =  0.2
+  [4, 2]  =  0.166667
+  [5, 2]  =  0.142857
+  [1, 3]  =  0.25
+  [2, 3]  =  0.2
+  [3, 3]  =  0.166667
+  [4, 3]  =  0.142857
+  [5, 3]  =  0.125
+  [1, 4]  =  0.2
+  [2, 4]  =  0.166667
+  [3, 4]  =  0.142857
+  [4, 4]  =  0.125
+  [5, 4]  =  0.111111
+  [1, 5]  =  0.166667
+  [2, 5]  =  0.142857
+  [3, 5]  =  0.125
+  [4, 5]  =  0.111111
+  [5, 5]  =  0.1
+
+As \ b = [29.999999999998714, -419.99999999995396, 1679.9999999997979, -2519.999999999704, 1259.9999999998602]
+
+F = lu(As) = UMFPACK LU Factorization of a (5, 5) sparse matrix
+Ptr{Nothing} @0x0000000003a064e0
+
+F.L * F.U == F.Rs .* A[F.p, :] = false
+
+F.L * F.U = 
+  [1, 1]  =  0.344828
+  [2, 1]  =  0.305011
+  [3, 1]  =  0.282638
+  [4, 1]  =  0.268228
+  [5, 1]  =  0.258144
+  [1, 2]  =  0.229885
+  [2, 2]  =  0.228758
+  [3, 2]  =  0.22611
+  [4, 2]  =  0.223523
+  [5, 2]  =  0.221266
+  [1, 3]  =  0.172414
+  [2, 3]  =  0.183007
+  [3, 3]  =  0.188425
+  [4, 3]  =  0.191591
+  [5, 3]  =  0.193608
+  [1, 4]  =  0.137931
+  [2, 4]  =  0.152505
+  [3, 4]  =  0.161507
+  [4, 4]  =  0.167642
+  [5, 4]  =  0.172096
+  [1, 5]  =  0.114943
+  [2, 5]  =  0.130719
+  [3, 5]  =  0.141319
+  [4, 5]  =  0.149015
+  [5, 5]  =  0.154886
+
+sparse(F.Rs .* A[F.p, F.q]) = 
+  [1, 1]  =  0.344828
+  [2, 1]  =  0.305011
+  [3, 1]  =  0.282638
+  [4, 1]  =  0.268228
+  [5, 1]  =  0.258144
+  [1, 2]  =  0.229885
+  [2, 2]  =  0.228758
+  [3, 2]  =  0.22611
+  [4, 2]  =  0.223523
+  [5, 2]  =  0.221266
+  [1, 3]  =  0.172414
+  [2, 3]  =  0.183007
+  [3, 3]  =  0.188425
+  [4, 3]  =  0.191591
+  [5, 3]  =  0.193608
+  [1, 4]  =  0.137931
+  [2, 4]  =  0.152505
+  [3, 4]  =  0.161507
+  [4, 4]  =  0.167642
+  [5, 4]  =  0.172096
+  [1, 5]  =  0.114943
+  [2, 5]  =  0.130719
+  [3, 5]  =  0.141319
+  [4, 5]  =  0.149015
+  [5, 5]  =  0.154886
+
+lu(A) = LU{Float64,Array{Float64,2}}([0.5 0.3333333333333333 0.25 0.2 0.16666666666666666; 0.5 0.033333333333333354 0.04166666666666666 0.042857142857142844 0.04166666666666667; 0.3333333333333333 0.9523809523809518 0.0019841269841270187 0.0036281179138322323 0.004761904761904787; 0.6666666666666666 0.8333333333333333 -0.6999999999999713 0.00015873015873008045 0.0003571428571427504; 0.4 0.9999999999999992 0.6000000000000014 -0.21428571428576423 -2.834467120182982e-6], [1, 3, 5, 5, 5], 0)
+
+
+
+  * p41.1.jl *
+
+There are 4 equations.
+
+  7.221192 seconds (6.67 M allocations: 333.999 MiB, 4.28% gc time)
+
+Testing: round.(m.displacements, digits=8) == [-2.5e-5 -2.344e-5 -1.875e-5 -1.094e-5 0.0]&#39;
+
+
+
+  * p41.2.jl *
+
+There are 4 equations.
+
+  0.153548 seconds (33.45 k allocations: 1.951 MiB)
+
+Testing: round.(fem.displacements, digits=7) == [0.0 0.0166667 0.0333333 0.0416667 0.05]&#39; 
+
+
+
+  * p42.2.jl *
+
+There are 10 equations.
+
+  2.535565 seconds (2.27 M allocations: 113.516 MiB, 2.04% gc time)
+
+
+  * p43.1b.jl *
+
+There are 3 equations.
+
+  1.978098 seconds (1.38 M allocations: 70.931 MiB, 2.26% gc time)
+
+
+  * p44.2.jl *
+
+There are 12 equations.
+
+  2.533818 seconds (1.40 M allocations: 70.307 MiB, 3.56% gc time)
+
+
+  * p45.2.jl *
+
+There are 36 equations.
+
+
+Load step: 1, load factor: 0.5
+...
+   Node     Displacement(s) and Rotation(s)  (Iterations: 3)
+    7  [0.0, 0.0, 0.00010588023169625156, -6.345210166129237e-5, -6.345210166129234e-5, 0.0]
+
+Load step: 2, load factor: 1.0
+...
+   Node     Displacement(s) and Rotation(s)  (Iterations: 3)
+    7  [0.0, 0.0, 0.00021173455349906254, -0.00012688543734804274, -0.00012688543734804274, 0.0]
+
+Load step: 3, load factor: 1.5
+..................
+   Node     Displacement(s) and Rotation(s)  (Iterations: 18)
+    7  [0.0, 0.0, 0.0003247279291115426, -0.0001935766868045201, -0.0001935766868045201, 0.0]
+
+Load step: 4, load factor: 1.55
+........................................................................................................................................................................................................
+   Node     Displacement(s) and Rotation(s)  (Iterations: 200)
+    7  [0.0, 0.0, 0.0015100390482671092, -0.0007906241621841446, -0.000790624162184145, 0.0]
+  2.558957 seconds (2.02 M allocations: 123.632 MiB, 3.17% gc time)
+
+
+  * p46.2.jl *
+
+There are 7 equations.
+
+  1.182898 seconds (877.74 k allocations: 42.438 MiB, 1.24% gc time)
+
+
+  * p47.1.jl *
+
+
+There are 16 equations.
+
+  4.505431 seconds (4.60 M allocations: 227.377 MiB, 2.94% gc time)
+
+
+  * p51.1.jl *
+
+There are 12 equations.
+  5.320067 seconds (5.50 M allocations: 270.232 MiB, 3.19% gc time)
+
+
+  * p51.2.jl *
+
+There are 64 equations.
+  0.004624 seconds (2.34 k allocations: 2.148 MiB)
+
+
+  * p51.3.jl *
+
+There are 12 equations.
+  0.073080 seconds (22.00 k allocations: 1.262 MiB)
+
+
+  * p51.4.jl *
+
+There are 36 equations.
+  0.001632 seconds (1.39 k allocations: 457.344 KiB)
+
+
+  * p51.5.jl *
+
+There are 12 equations.
+  0.081902 seconds (67.75 k allocations: 3.514 MiB)
+
+
+  * p52.1.jl *
+
+There are 65 equations.
+
+  1.527008 seconds (701.51 k allocations: 34.069 MiB, 1.48% gc time)
+
+
+  * p53.1.jl *
+
+There are 124 equations.
+
+  3.832932 seconds (4.47 M allocations: 224.161 MiB, 4.60% gc time)
+
+
+  * p54.1.jl *
+
+There are 48 equations.
+
+
+Element  x-coord   y-coord      sig_x        sig_y        tau_xy
+  2.052713 seconds (2.02 M allocations: 97.744 MiB, 3.16% gc time)
+
+
+  * p54.2.jl *
+
+There are 12 equations.
+
+  0.259055 seconds (221.13 k allocations: 11.779 MiB)
+
+
+  * p55.1.jl *
+
+There are 320 equations.
+
+  1.756709 seconds (1.39 M allocations: 68.737 MiB, 3.15% gc time)
+
+
+  * p56.1.jl *
+
+There are 124 equations.
+
+.[cg_iters beta] = [1.0 0.6308344574242869]
+.[cg_iters beta] = [2.0 0.5534777847787479]
+.[cg_iters beta] = [3.0 0.847296078924674]
+.[cg_iters beta] = [4.0 1.7978999039274457]
+.[cg_iters beta] = [5.0 1.080132170949989]
+.[cg_iters beta] = [6.0 1.1982888738627675]
+.[cg_iters beta] = [7.0 0.5463022185673461]
+.[cg_iters beta] = [8.0 0.668108895585815]
+.[cg_iters beta] = [9.0 0.698120414494551]
+.[cg_iters beta] = [10.0 0.8684742112131267]
+.[cg_iters beta] = [11.0 0.8588241477599355]
+.[cg_iters beta] = [12.0 0.8240986268443071]
+.[cg_iters beta] = [13.0 0.5101760171594512]
+.[cg_iters beta] = [14.0 0.4873555014177224]
+.[cg_iters beta] = [15.0 0.4974603816376959]
+.[cg_iters beta] = [16.0 0.6677159567893369]
+.[cg_iters beta] = [17.0 0.9890435968614341]
+.[cg_iters beta] = [18.0 1.0370478570565265]
+.[cg_iters beta] = [19.0 0.8585996850596105]
+.[cg_iters beta] = [20.0 0.6499377682929575]
+.[cg_iters beta] = [21.0 0.6437143206344141]
+.[cg_iters beta] = [22.0 0.5416384719288394]
+.[cg_iters beta] = [23.0 0.6742078117395416]
+.[cg_iters beta] = [24.0 0.8180669811600849]
+.[cg_iters beta] = [25.0 0.644493605297493]
+.[cg_iters beta] = [26.0 0.5705648769192255]
+.[cg_iters beta] = [27.0 0.8840928739208996]
+.[cg_iters beta] = [28.0 0.5125015063760856]
+.[cg_iters beta] = [29.0 0.9952981084586218]
+.[cg_iters beta] = [30.0 0.5457057821921945]
+.[cg_iters beta] = [31.0 0.6084555135961927]
+.[cg_iters beta] = [32.0 1.0089824709210913]
+.[cg_iters beta] = [33.0 1.1914346277221557]
+.[cg_iters beta] = [34.0 0.4647761986170361]
+.[cg_iters beta] = [35.0 0.633416983147852]
+.[cg_iters beta] = [36.0 1.3383649880856043]
+.[cg_iters beta] = [37.0 0.7199587801645938]
+.[cg_iters beta] = [38.0 1.1515894992309272]
+.[cg_iters beta] = [39.0 0.8881043539718539]
+.[cg_iters beta] = [40.0 0.5413325214577467]
+.[cg_iters beta] = [41.0 0.6480076621470627]
+.[cg_iters beta] = [42.0 0.9646279407045316]
+.[cg_iters beta] = [43.0 1.6236875835186568]
+.[cg_iters beta] = [44.0 0.2539848988834159]
+.[cg_iters beta] = [45.0 0.7481867227749787]
+.[cg_iters beta] = [46.0 1.5666530149561566]
+.[cg_iters beta] = [47.0 0.39168214615387337]
+.[cg_iters beta] = [48.0 0.6967373166920814]
+.[cg_iters beta] = [49.0 1.5027594769483903]
+.[cg_iters beta] = [50.0 0.3628888072799515]
+.[cg_iters beta] = [51.0 0.4707914017381433]
+.[cg_iters beta] = [52.0 0.551511817005068]
+.[cg_iters beta] = [53.0 0.467024030518758]
+.[cg_iters beta] = [54.0 0.8163880910675564]
+.[cg_iters beta] = [55.0 1.2574772855078538]
+.[cg_iters beta] = [56.0 0.6124720811235886]
+.[cg_iters beta] = [57.0 0.5180963455918048]
+.[cg_iters beta] = [58.0 0.7936875169184009]
+.[cg_iters beta] = [59.0 1.1674302248314934]
+.[cg_iters beta] = [60.0 0.876322347725389]
+.[cg_iters beta] = [61.0 0.4447436163070816]
+.[cg_iters beta] = [62.0 0.5929122777333524]
+.[cg_iters beta] = [63.0 0.4583673919598624]
+.[cg_iters beta] = [64.0 0.5917511171546279]
+.[cg_iters beta] = [65.0 0.8386133809405433]
+.[cg_iters beta] = [66.0 1.5230586254324023]
+.[cg_iters beta] = [67.0 0.614312485415889]
+.[cg_iters beta] = [68.0 0.4520700209599324]
+.[cg_iters beta] = [69.0 0.6567383728217494]
+.[cg_iters beta] = [70.0 0.4113376314366683]
+.[cg_iters beta] = [71.0 0.514278509016945]
+.[cg_iters beta] = [72.0 0.5801934805048108]
+.[cg_iters beta] = [73.0 1.2277782542606492]
+
+Number of cg iterations to convergence was 73.
+  4.690320 seconds (4.18 M allocations: 217.374 MiB, 3.65% gc time)
+
+
+  * p61.1.jl *
+
+There are 192 equations and the skyline storage is 4322.
+   step     load        disp          iters
+    1       200.0    -6.5927e-03       2
+    2       300.0    -1.1550e-02       11
+    3       350.0    -1.6303e-02       20
+    4       400.0    -2.3172e-02       33
+    5       450.0    -3.3212e-02       45
+    6       480.0    -4.2355e-02       66
+    7       500.0    -5.0957e-02       82
+    8       510.0    -5.6793e-02       100
+    9       515.0    -6.1090e-02       160
+   10       519.0    -7.1349e-02       250
+
+  7.449828 seconds (10.28 M allocations: 698.539 MiB, 7.08% gc time)
+
+
+  * p62.1.jl *
+
+There are 192 equations.
+ 1       200.0    -6.5925e-03    2       51.0
+ 2       300.0    -1.1549e-02    11       51.36
+ 3       350.0    -1.6300e-02    20       53.65
+ 4       400.0    -2.3168e-02    33       54.3
+ 5       450.0    -3.3207e-02    45       54.76
+ 6       480.0    -4.2352e-02    66       54.82
+ 7       500.0    -5.0960e-02    82       54.79
+ 8       510.0    -5.6790e-02    100       54.83
+ 9       515.0    -6.1006e-02    157       54.6
+10       519.0    -7.1060e-02    250       55.68
+
+ 15.161714 seconds (30.61 M allocations: 6.060 GiB, 5.17% gc time)
+
+
+  * p63.1.jl *
+
+There are 4800 equations.
+
+
+step   disp    load1    load2     iters
+
+1     0.001   57.33294 54.9679    11
+2     0.002   85.0191 82.48724    22
+3     0.003   111.23223 108.43396    25
+4     0.004   136.62429 133.63711    27
+5     0.005   161.27425 158.0585    30
+6     0.006   185.25765 181.76863    33
+7     0.007   208.59404 204.79971    36
+8     0.008   231.31382 227.17024    40
+9     0.009   253.25585 248.98587    57
+10     0.01   274.35146 270.01839    81
+
+ 28.667151 seconds (48.73 M allocations: 4.234 GiB, 3.47% gc time)
+
+Test Summary: | Pass  Total
+PtFEM.jl      |   24     24
+   Testing PtFEM tests passed 
+</pre>
+      </div>
+
+
+  </div>
+  </body>
+
+  <script type="text/javascript">// handle collapsibles
+var coll = document.getElementsByClassName("collapsible");
+for (var i = 0; i < coll.length; i++) {
+    coll[i].textContent = "▸ " + coll[i].textContent
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            this.textContent = "▸" + this.textContent.substr(1)
+            content.style.display = "none";
+        } else {
+            this.textContent = "▾" + this.textContent.substr(1)
+            content.style.display = "block";
+        }
+    });
+}
+</script>
+</html>
+

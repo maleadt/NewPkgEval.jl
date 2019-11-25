@@ -1,0 +1,188 @@
+ Resolving package versions...
+ Installed Reexport ─────────── v0.2.0
+ Installed ProgressMeter ────── v0.9.0
+ Installed StructIO ─────────── v0.3.0
+ Installed PkgLicenses ──────── v0.2.0
+ Installed TranscodingStreams ─ v0.9.5
+ Installed BinaryProvider ───── v0.5.8
+ Installed ObjectFile ───────── v0.3.3
+ Installed BinaryBuilder ────── v0.1.4
+ Installed DataStructures ───── v0.17.6
+ Installed JSON ─────────────── v0.21.0
+ Installed IniFile ──────────── v0.5.0
+ Installed OrderedCollections ─ v1.1.0
+ Installed JLD2 ─────────────── v0.1.9
+ Installed GitHub ───────────── v5.1.3
+ Installed FileIO ───────────── v1.1.0
+ Installed CodecZlib ────────── v0.6.0
+ Installed HTTP ─────────────── v0.8.8
+ Installed Parsers ──────────── v0.3.10
+ Installed MbedTLS ──────────── v0.7.0
+  Updating `~/.julia/environments/v1.3/Project.toml`
+  [12aac903] + BinaryBuilder v0.1.4
+  Updating `~/.julia/environments/v1.3/Manifest.toml`
+  [12aac903] + BinaryBuilder v0.1.4
+  [b99e7846] + BinaryProvider v0.5.8
+  [944b1d66] + CodecZlib v0.6.0
+  [864edb3b] + DataStructures v0.17.6
+  [5789e2e9] + FileIO v1.1.0
+  [bc5e4493] + GitHub v5.1.3
+  [cd3eb016] + HTTP v0.8.8
+  [83e8ac13] + IniFile v0.5.0
+  [033835bb] + JLD2 v0.1.9
+  [682c06a0] + JSON v0.21.0
+  [739be429] + MbedTLS v0.7.0
+  [d8793406] + ObjectFile v0.3.3
+  [bac558e1] + OrderedCollections v1.1.0
+  [69de0a69] + Parsers v0.3.10
+  [fc669557] + PkgLicenses v0.2.0
+  [92933f4c] + ProgressMeter v0.9.0
+  [189a3867] + Reexport v0.2.0
+  [53d494c1] + StructIO v0.3.0
+  [3bb67fe8] + TranscodingStreams v0.9.5
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building CodecZlib → `~/.julia/packages/CodecZlib/5t9zO/deps/build.log`
+  Building MbedTLS ──→ `~/.julia/packages/MbedTLS/a1JFn/deps/build.log`
+   Testing BinaryBuilder
+ Resolving package versions...
+ Installed ColorTypes ──────── v0.8.0
+ Installed FixedPointNumbers ─ v0.5.3
+ Installed VT100 ───────────── v0.3.2
+    Status `/tmp/jl_9v8qJ5/Manifest.toml`
+  [12aac903] BinaryBuilder v0.1.4
+  [b99e7846] BinaryProvider v0.5.8
+  [944b1d66] CodecZlib v0.6.0
+  [3da002f7] ColorTypes v0.8.0
+  [864edb3b] DataStructures v0.17.6
+  [5789e2e9] FileIO v1.1.0
+  [53c48c17] FixedPointNumbers v0.5.3
+  [bc5e4493] GitHub v5.1.3
+  [cd3eb016] HTTP v0.8.8
+  [83e8ac13] IniFile v0.5.0
+  [033835bb] JLD2 v0.1.9
+  [682c06a0] JSON v0.21.0
+  [739be429] MbedTLS v0.7.0
+  [d8793406] ObjectFile v0.3.3
+  [bac558e1] OrderedCollections v1.1.0
+  [69de0a69] Parsers v0.3.10
+  [fc669557] PkgLicenses v0.2.0
+  [92933f4c] ProgressMeter v0.9.0
+  [189a3867] Reexport v0.2.0
+  [53d494c1] StructIO v0.3.0
+  [3bb67fe8] TranscodingStreams v0.9.5
+  [7774df62] VT100 v0.3.2
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+Test Summary:   | Pass  Total
+File Collection |    5      5
+Test Summary:     | Pass  Total
+Target properties |   18     18
+[ Info: Checking to see if /proc/ is encrypted...
+[ Info: Checking to see if /proc/ is encrypted...
+[ Info: Checking to see if /proc/not_a_file is encrypted...
+Test Summary:    | Pass  Total
+UserNS utilities |    3      3
+[ Info: Downloading https://julialangmirror.s3.amazonaws.com/binarybuilder/Rootfs.v2018.11.11.x86_64-linux-gnu.tar.gz to /root/.julia/packages/BinaryBuilder/vkHhH/deps/downloads/Rootfs.v2018.11.11.x86_64-linux-gnu.tar.gz...
+[15:17:41] #=#=#                                                                         [15:17:41] [15:17:41]                                                                            0.0%[15:17:41]                                                                            1.3%[15:17:41] #                                                                          2.7%[15:17:41] ###                                                                        4.2%[15:17:41] ####                                                                       5.8%[15:17:41] #####                                                                      7.4%[15:17:42] ######                                                                     9.2%[15:17:42] #######                                                                   11.0%[15:17:42] #########                                                                 12.9%[15:17:42] ##########                                                                14.8%[15:17:42] ############                                                              16.8%[15:17:42] #############                                                             18.6%[15:17:42] ##############                                                            20.7%[15:17:42] ################                                                          22.9%[15:17:42] ##################                                                        25.0%[15:17:42] ###################                                                       27.5%[15:17:43] #####################                                                     29.8%[15:17:43] ######################                                                    31.6%[15:17:43] ########################                                                  33.9%[15:17:43] ##########################                                                36.4%[15:17:43] ############################                                              39.1%[15:17:43] ##############################                                            41.7%[15:17:43] ################################                                          44.5%[15:17:43] #################################                                         46.9%[15:17:43] ###################################                                       49.1%[15:17:43] #####################################                                     51.7%[15:17:44] #######################################                                   54.2%[15:17:44] ########################################                                  56.6%[15:17:44] ##########################################                                59.3%[15:17:44] ############################################                              62.3%[15:17:44] ###############################################                           65.5%[15:17:44] #################################################                         68.6%[15:17:44] ###################################################                       71.5%[15:17:44] #####################################################                     74.5%[15:17:44] ########################################################                  77.9%[15:17:45] ##########################################################                80.7%[15:17:45] ###########################################################               82.9%[15:17:45] #############################################################             85.8%[15:17:45] ################################################################          88.9%[15:17:45] ##################################################################        92.7%[15:17:45] #####################################################################     96.4%[15:17:45] ######################################################################## 100.0%
+[ Info: Downloading https://julialangmirror.s3.amazonaws.com/binarybuilder/BaseCompilerShard-x86_64-linux-gnu.v2018.11.11.x86_64-linux-gnu.tar.gz to /root/.julia/packages/BinaryBuilder/vkHhH/deps/downloads/BaseCompilerShard-x86_64-linux-gnu.v2018.11.11.x86_64-linux-gnu.tar.gz...
+[15:17:51] [15:17:51]                                                                            0.0%[15:17:51] #                                                                          2.3%[15:17:51] ###                                                                        4.9%[15:17:52] #####                                                                      7.4%[15:17:52] #######                                                                   10.2%[15:17:52] #########                                                                 13.2%[15:17:52] ###########                                                               16.3%[15:17:52] ##############                                                            19.5%[15:17:52] ################                                                          22.9%[15:17:52] ##################                                                        26.3%[15:17:52] #####################                                                     29.4%[15:17:52] #######################                                                   32.9%[15:17:52] ##########################                                                36.6%[15:17:53] ############################                                              40.1%[15:17:53] ###############################                                           44.1%[15:17:53] ##################################                                        48.1%[15:17:53] #####################################                                     52.0%[15:17:53] ########################################                                  56.2%[15:17:53] ###########################################                               60.4%[15:17:53] ##############################################                            64.9%[15:17:53] #################################################                         69.2%[15:17:53] #####################################################                     73.9%[15:17:53] ########################################################                  78.1%[15:17:54] ###########################################################               83.2%[15:17:54] ###############################################################           88.3%[15:17:54] ###################################################################       93.6%[15:17:54] #######################################################################   99.0%[15:17:54] ######################################################################## 100.0%
+[ Info: Downloading https://julialangmirror.s3.amazonaws.com/binarybuilder/GCC-x86_64-linux-gnu.v7.1.0.x86_64-linux-gnu.tar.gz to /root/.julia/packages/BinaryBuilder/vkHhH/deps/downloads/GCC-x86_64-linux-gnu.v7.1.0.x86_64-linux-gnu.tar.gz...
+[15:17:58] [15:17:58]                                                                            0.0%[15:17:58]                                                                            0.4%[15:17:58]                                                                            0.8%[15:17:58]                                                                            1.3%[15:17:58] #                                                                          1.8%[15:17:58] #                                                                          2.3%[15:17:58] #                                                                          2.8%[15:17:58] ##                                                                         3.3%[15:17:58] ##                                                                         3.7%[15:17:59] ###                                                                        4.2%[15:17:59] ###                                                                        4.7%[15:17:59] ###                                                                        5.3%[15:17:59] ####                                                                       5.8%[15:17:59] ####                                                                       6.4%[15:17:59] #####                                                                      7.0%[15:17:59] #####                                                                      7.6%[15:17:59] #####                                                                      8.2%[15:17:59] ######                                                                     8.8%[15:17:59] ######                                                                     9.4%[15:18:00] #######                                                                    9.9%[15:18:00] #######                                                                   10.5%[15:18:00] #######                                                                   11.0%[15:18:00] ########                                                                  11.5%[15:18:00] ########                                                                  12.1%[15:18:00] #########                                                                 12.6%[15:18:00] #########                                                                 13.2%[15:18:00] #########                                                                 13.7%[15:18:00] ##########                                                                14.1%[15:18:01] ##########                                                                14.8%[15:18:01] ##########                                                                15.2%[15:18:01] ###########                                                               15.9%[15:18:01] ###########                                                               16.5%[15:18:01] ############                                                              17.0%[15:18:01] ############                                                              17.6%[15:18:01] #############                                                             18.2%[15:18:01] #############                                                             18.6%[15:18:01] #############                                                             19.1%[15:18:01] ##############                                                            19.8%[15:18:02] ##############                                                            20.3%[15:18:02] ###############                                                           21.0%[15:18:02] ###############                                                           21.6%[15:18:02] ###############                                                           22.2%[15:18:02] ################                                                          22.8%[15:18:02] ################                                                          23.4%[15:18:02] #################                                                         24.1%[15:18:02] #################                                                         24.7%[15:18:02] ##################                                                        25.3%[15:18:03] ##################                                                        25.9%[15:18:03] ###################                                                       26.8%[15:18:03] ###################                                                       27.5%[15:18:03] ####################                                                      28.2%[15:18:03] ####################                                                      29.0%[15:18:03] #####################                                                     29.4%[15:18:03] #####################                                                     29.9%[15:18:03] ######################                                                    30.7%[15:18:03] ######################                                                    31.4%[15:18:03] #######################                                                   32.2%[15:18:04] #######################                                                   32.8%[15:18:04] ########################                                                  33.8%[15:18:04] #########################                                                 34.8%[15:18:04] #########################                                                 35.6%[15:18:04] ##########################                                                36.4%[15:18:04] ##########################                                                37.2%[15:18:04] ###########################                                               38.0%[15:18:04] ############################                                              39.0%[15:18:04] ############################                                              39.9%[15:18:04] #############################                                             40.8%[15:18:05] #############################                                             41.6%[15:18:05] ##############################                                            42.6%[15:18:05] ###############################                                           43.4%[15:18:05] ###############################                                           44.4%[15:18:05] ################################                                          45.1%[15:18:05] #################################                                         46.0%[15:18:05] #################################                                         46.8%[15:18:05] ##################################                                        47.7%[15:18:05] ##################################                                        48.6%[15:18:06] ###################################                                       49.7%[15:18:06] ####################################                                      50.6%[15:18:07] #####################################                                     51.5%[15:18:07] #####################################                                     52.4%[15:18:07] ######################################                                    53.4%[15:18:07] #######################################                                   54.5%[15:18:07] #######################################                                   55.5%[15:18:07] ########################################                                  56.6%[15:18:07] #########################################                                 57.6%[15:18:07] ##########################################                                58.7%[15:18:08] ##########################################                                59.6%[15:18:08] ###########################################                               60.1%[15:18:08] ############################################                              61.3%[15:18:08] ############################################                              62.4%[15:18:09] #############################################                             63.6%[15:18:09] ##############################################                            64.8%[15:18:09] ###############################################                           66.1%[15:18:09] ################################################                          67.3%[15:18:09] #################################################                         68.5%[15:18:09] ##################################################                        69.8%[15:18:09] ###################################################                       70.8%[15:18:09] ###################################################                       71.8%[15:18:09] ####################################################                      72.9%[15:18:09] #####################################################                     74.2%[15:18:10] ######################################################                    75.5%[15:18:10] #######################################################                   76.9%[15:18:10] ########################################################                  77.8%[15:18:10] ########################################################                  78.8%[15:18:10] #########################################################                 79.5%[15:18:10] ##########################################################                80.8%[15:18:10] ###########################################################               82.2%[15:18:10] ############################################################              83.5%[15:18:10] #############################################################             84.9%[15:18:11] ##############################################################            86.2%[15:18:11] ##############################################################            87.4%[15:18:11] ###############################################################           88.6%[15:18:11] ################################################################          89.5%[15:18:11] #################################################################         90.8%[15:18:11] ##################################################################        92.2%[15:18:11] ###################################################################       93.7%[15:18:11] ####################################################################      95.0%[15:18:11] #####################################################################     96.4%[15:18:11] ######################################################################    97.6%[15:18:12] #######################################################################   98.9%[15:18:12] ######################################################################## 100.0%
+[ Info: Downloading https://julialangmirror.s3.amazonaws.com/binarybuilder/LLVM.v6.0.1-0.x86_64-linux-gnu.tar.gz to /root/.julia/packages/BinaryBuilder/vkHhH/deps/downloads/LLVM.v6.0.1-0.x86_64-linux-gnu.tar.gz...
+[15:18:37] #=#=#                                                                         [15:18:38] ##O#- #                                                                       [15:18:38] [15:18:38]                                                                            0.1%[15:18:38] #                                                                          1.5%[15:18:38] ####                                                                       6.3%[15:18:38] #####                                                                      7.6%[15:18:38] ######                                                                     8.5%[15:18:38] ########                                                                  12.5%[15:18:39] ###########                                                               16.6%[15:18:39] ##############                                                            20.8%[15:18:39] #################                                                         24.1%[15:18:39] #################                                                         25.0%[15:18:39] ####################                                                      29.1%[15:18:39] #######################                                                   32.9%[15:18:39] #######################                                                   33.3%[15:18:39] ##########################                                                36.9%[15:18:39] ###########################                                               37.9%[15:18:40] #############################                                             41.6%[15:18:40] ################################                                          45.5%[15:18:40] #################################                                         47.1%[15:18:40] ###################################                                       49.1%[15:18:40] #####################################                                     52.0%[15:18:40] ######################################                                    54.1%[15:18:40] ########################################                                  56.4%[15:18:40] #########################################                                 58.2%[15:18:41] #########################################                                 58.3%[15:18:41] ##########################################                                59.3%[15:18:41] ##########################################                                59.6%[15:18:41] ############################################                              61.5%[15:18:41] #############################################                             63.0%[15:18:41] ###############################################                           65.7%[15:18:41] ################################################                          67.4%[15:18:41] ##################################################                        70.7%[15:18:42] #####################################################                     74.0%[15:18:42] #####################################################                     74.9%[15:18:42] ########################################################                  78.9%[15:18:42] ###########################################################               82.3%[15:18:42] #############################################################             85.5%[15:18:42] ###############################################################           87.8%[15:18:42] #################################################################         91.5%[15:18:42] ####################################################################      95.7%[15:18:42] ######################################################################    98.2%[15:18:42] ######################################################################## 100.0%
+┌ Warning: Unable to run unprivileged containers on this system! This may be because your kernel does not support mounting overlay filesystems within user namespaces. To work around this, we will switch to using privileged containers. This requires the use of sudo. To choose this automatically, set the BINARYBUILDER_RUNNER environment variable to "privileged" before starting Julia.
+└ @ BinaryBuilder ~/.julia/packages/BinaryBuilder/vkHhH/src/UserNSRunner.jl:85
+[ Info: Running privileged container via `sudo`, may ask for your password:
+At line 1092, ABORTED (Operation not permitted)!
+environment and history saving: Test Failed at /root/.julia/packages/BinaryBuilder/vkHhH/test/basic.jl:73
+  Expression: isfile(hist_file)
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/BinaryBuilder/vkHhH/test/basic.jl:73
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/BinaryBuilder/vkHhH/test/basic.jl:62
+environment and history saving: Test Failed at /root/.julia/packages/BinaryBuilder/vkHhH/test/basic.jl:74
+  Expression: isfile(env_file)
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/BinaryBuilder/vkHhH/test/basic.jl:74
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/BinaryBuilder/vkHhH/test/basic.jl:62
+environment and history saving: Error During Test at /root/.julia/packages/BinaryBuilder/vkHhH/test/basic.jl:77
+  Test threw exception
+  Expression: occursin("\nexit 1\n", read(open(hist_file), String))
+  SystemError: opening file "/tmp/jl_3H9fHz/UJYIxNta/destdir/../metadir/.bash_history": No such file or directory
+  Stacktrace:
+   [1] #systemerror#44(::Nothing, ::typeof(systemerror), ::String, ::Bool) at ./error.jl:134
+   [2] systemerror at ./error.jl:134 [inlined]
+   [3] #open#512(::Nothing, ::Nothing, ::Nothing, ::Nothing, ::Nothing, ::typeof(open), ::String) at ./iostream.jl:254
+   [4] open(::String) at ./iostream.jl:246
+   [5] top-level scope at /root/.julia/packages/BinaryBuilder/vkHhH/test/basic.jl:77
+   [6] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+   [7] top-level scope at /root/.julia/packages/BinaryBuilder/vkHhH/test/basic.jl:62
+  
+environment and history saving: Error During Test at /root/.julia/packages/BinaryBuilder/vkHhH/test/basic.jl:80
+  Test threw exception
+  Expression: occursin("\nMARKER=1\n", read(open(env_file), String))
+  SystemError: opening file "/tmp/jl_3H9fHz/UJYIxNta/destdir/../metadir/.env": No such file or directory
+  Stacktrace:
+   [1] #systemerror#44(::Nothing, ::typeof(systemerror), ::String, ::Bool) at ./error.jl:134
+   [2] systemerror at ./error.jl:134 [inlined]
+   [3] #open#512(::Nothing, ::Nothing, ::Nothing, ::Nothing, ::Nothing, ::typeof(open), ::String) at ./iostream.jl:254
+   [4] open(::String) at ./iostream.jl:246
+   [5] top-level scope at /root/.julia/packages/BinaryBuilder/vkHhH/test/basic.jl:80
+   [6] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+   [7] top-level scope at /root/.julia/packages/BinaryBuilder/vkHhH/test/basic.jl:62
+  
+Test Summary:                  | Pass  Fail  Error  Total
+environment and history saving |    2     2      2      6
+ERROR: LoadError: LoadError: Some tests did not pass: 2 passed, 2 failed, 2 errored, 0 broken.
+in expression starting at /root/.julia/packages/BinaryBuilder/vkHhH/test/basic.jl:61
+in expression starting at /root/.julia/packages/BinaryBuilder/vkHhH/test/runtests.jl:61
+ERROR: Package BinaryBuilder errored during testing
+Stacktrace:
+ [1] pkgerror(::String, ::Vararg{String,N} where N) at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/Types.jl:113
+ [2] #test#131(::Bool, ::Nothing, ::Cmd, ::Cmd, ::typeof(Pkg.Operations.test), ::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/Operations.jl:1370
+ [3] #test at ./none:0 [inlined]
+ [4] #test#62(::Bool, ::Nothing, ::Cmd, ::Cmd, ::Base.Iterators.Pairs{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::typeof(Pkg.API.test), ::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:253
+ [5] test(::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:239
+ [6] #test#61 at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:233 [inlined]
+ [7] test at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:233 [inlined]
+ [8] #test#60 at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:232 [inlined]
+ [9] test at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:232 [inlined]
+ [10] #test#59(::Base.Iterators.Pairs{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::typeof(Pkg.API.test), ::String) at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:231
+ [11] test(::String) at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:231
+ [12] top-level scope at none:10

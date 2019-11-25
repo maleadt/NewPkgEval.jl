@@ -1,0 +1,367 @@
+ Resolving package versions...
+ Installed ArnoldiMethod ─ v0.0.4
+ Installed StaticArrays ── v0.12.1
+  Updating `~/.julia/environments/v1.3/Project.toml`
+  [ec485272] + ArnoldiMethod v0.0.4
+  Updating `~/.julia/environments/v1.3/Manifest.toml`
+  [ec485272] + ArnoldiMethod v0.0.4
+  [90137ffa] + StaticArrays v0.12.1
+  [2a0f44e3] + Base64 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+   Testing ArnoldiMethod
+ Resolving package versions...
+    Status `/tmp/jl_SGFX8T/Manifest.toml`
+  [ec485272] ArnoldiMethod v0.0.4
+  [90137ffa] StaticArrays v0.12.1
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+Test Summary:  | Pass  Total
+Initialization |    1      1
+Test Summary:         | Pass  Total
+Arnoldi Factorization |    4      4
+Test Summary:      | Pass  Total
+Invariant subspace |    2      2
+Test Summary:   | Pass  Total
+Givens rotation |   16     16
+Test Summary:               | Pass  Total
+Stable permutation ordering |   20     20
+Test Summary:       | Pass  Total
+Schur factorization |  104    104
+Test Summary:                          | Pass  Total
+Schur with nearly repeated eigenvalues |    1      1
+Test Summary:                           | Pass  Total
+Tiny sylvester equation Float64, (2, 2) |    2      2
+Test Summary:                           | Pass  Total
+Tiny sylvester equation Float64, (2, 1) |    2      2
+Test Summary:                           | Pass  Total
+Tiny sylvester equation Float64, (1, 2) |    2      2
+Test Summary:                                    | Pass  Total
+Tiny sylvester equation Complex{Float64}, (2, 2) |    2      2
+Test Summary:                                    | Pass  Total
+Tiny sylvester equation Complex{Float64}, (2, 1) |    2      2
+Test Summary:                                    | Pass  Total
+Tiny sylvester equation Complex{Float64}, (1, 2) |    2      2
+Test Summary:              | Pass  Total
+Singular sylvester Float64 |    3      3
+Test Summary:                       | Pass  Total
+Singular sylvester Complex{Float64} |    3      3
+Test Summary:                             | Pass  Total
+Reordering the Schur form 1 ↔ 1 (Float64) |    3      3
+Test Summary:                                      | Pass  Total
+Reordering the Schur form 1 ↔ 1 (Complex{Float64}) |    3      3
+Test Summary:                             | Pass  Total
+Reordering the Schur form 1 ↔ 2 (Float64) |    5      5
+Test Summary:                                      | Pass  Total
+Reordering the Schur form 1 ↔ 2 (Complex{Float64}) |    5      5
+Test Summary:                             | Pass  Total
+Reordering the Schur form 2 ↔ 1 (Float64) |    5      5
+Test Summary:                                      | Pass  Total
+Reordering the Schur form 2 ↔ 1 (Complex{Float64}) |    5      5
+Test Summary:                             | Pass  Total
+Reordering the Schur form 2 ↔ 2 (Float64) |    7      7
+Test Summary:                                      | Pass  Total
+Reordering the Schur form 2 ↔ 2 (Complex{Float64}) |    7      7
+Test Summary:                          | Pass  Total
+Rotation right with single eigenvalues |   12     12
+Test Summary:                           | Pass  Total
+Rotation right with two conjugate pairs |   10     10
+Test Summary:                                    | Pass  Total
+Rotation right with one 2 × 2 block on the right |   12     12
+Test Summary:                                   | Pass  Total
+Rotation right with one 2 × 2 block on the left |   12     12
+Test Summary:     | Pass  Total
+Stewart's example |    6      6
+Test Summary:               | Pass  Total
+Small eigenvalue separation |    4      4
+Test Summary:                            | Pass  Total
+Identical eigenvalues should not blow up |    3      3
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.47660002095038256, 0.8782725248131049, 0.026485106056312217, 0.006267114645516052, 0.023800646575452385, 0.012484767502069718, 0.0029428375730200735, 0.0008049324631782137, 0.0031002912608820684, 0.0027918466238026113, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.5409811101199181, 0.8410347427386224, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.4859171155891835, 0.8734077007615998, 0.022257555828270662, 0.0051976338820028155, 0.019880760174116798, 0.010411382080005803, 0.0025029760726890398, 0.0006397965645355808, 0.0024964976667291327, 0.0021399156313744237, 1.368318219822916e-6, 5.801931673129392e-5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.28847359332399125, 0.7680722153971934, 0.571706268891283, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.5409811101199181, 0.8410347427386224, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.34506937418388084, 0.7435258292360973, 0.5688002086615073, 0.06754843362909542, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.9369227847083614, 0.3470200135867046, 0.031317107231167554, 0.004846723615082141, 0.023955662086128572, 0.012930198348249764, 0.002736778064351365, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.6645822506885855, 0.013007837380825685, 0.05841337980925546, 0.7130461759564438, 0.21520747256896083, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.32937170659737347, 0.891405913681539, 0.26286182071069086, 0.01665777854103619, 0.15683943039385817, 0.05419733062783601, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.9248363085700175, 0.3749879426107047, 0.04881135301824432, 0.006385072206728807, 0.03526894209657588, 0.019477905038812315, 0.003320205935864813, 7.384966420689674e-5, 0.001913935432100333, 0.0005941949748023406, 8.032041762324153e-5, 0.00039704780940541724, 2.9048366693082807e-5, 0.00015491822891972593, 8.04721753322679e-5, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.9369227847083614, 0.34702001358670465, 0.03131710723116756, 0.004846723615082141, 0.023955662086128572, 0.012930198348249764, 0.002736778064351365, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.6799694051862459, 0.7183452820908252, 0.11454175871920756, 0.01273228137034158, 0.07951347694214685, 0.043915288342956584, 0.0059155084304825176, 2.8834105955119968e-5, 0.006900002410924478, 0.0018127817844273834, 0.00040245931123495407, 0.0014695812759791022, 0.00013197463873007947, 0.0006804567880983827, 0.000316193458787405, 1.7877443428815936e-5, 1.3104473551161624e-6, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.6375471591268179, 0.48667196125525664, 0.2725148858771943, 0.4940596522246129, 0.19572143060887343, 0.003884592934717497, 0.0010649268929493066, 0.001271418569996381, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.45240326588801333, 0.8651020774594091, 0.1730025552712308, 0.012967049774833516, 0.11428555911582237, 0.059922472462600886, 0.004979923944397309, 0.0007750078704828232, 0.011760195636631065, 0.0023994657421663236, 0.0010345447476972779, 0.00257266266238118, 0.00030319635055220146, 0.0014747796241683158, 0.0005817900327921984, 7.85812868146958e-5, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.4973830714402119, 0.7069641520552632, 0.3876233450243812, 0.2694708687748818, 0.17262927958597296, 0.011256544138702055, 0.002807240360915944, 0.0031054035450545237, 0.0005090592931068101, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.3293717065973734, 0.8914059136815391, 0.26286182071069086, 0.01665777854103618, 0.1568394303938582, 0.054197330627836014, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.4766000209503825, 0.8782725248131049, 0.026485106056312217, 0.0062671146455160545, 0.023800646575452382, 0.01248476750206972, 0.0029428375730200748, 0.0008049324631782138, 0.0031002912608820684, 0.0027918466238026113, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.43435950497457243, 0.7690404735160944, 0.392905261308148, 0.18770594238513497, 0.17296072960987044, 0.018661333183857775, 0.004153633586298335, 0.004221981415845893, 0.0013281461530902953, 3.4278448733363516e-5, 5.530547819699764e-5, 1.4087258760713935e-6, 1.8678409836251377e-6, 2.870390976176545e-6, 1.3133216546133103e-7, 6.702473340133343e-8, 3.4075254512019876e-8, 1.3962484166237088e-8, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.4859171155891834, 0.8734077007615997, 0.02225755582827066, 0.005197633882002814, 0.019880760174116795, 0.010411382080005801, 0.0025029760726890398, 0.0006397965645355808, 0.0024964976667291327, 0.0021399156313744233, 1.3683182198229158e-6, 5.801931673129391e-5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.497383071440212, 0.7069641520552629, 0.38762334502438106, 0.26947086877488186, 0.17262927958597293, 0.011256544138702052, 0.0028072403609159437, 0.0031054035450545237, 0.00050905929310681, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.4592104541944498, 0.6459965634021452, 0.5647357623357858, 0.22374962008841723, 0.05227818069011543, 0.007949319030461588, 0.0028352790116405544, 0.0038689836351752036, 0.002077818372562262, 0.00037833062241262146, 0.0002603148121977974, 8.4451875222843e-5, 0.0002864097125171342, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.54026949912648, 0.6568567003790029, 0.36926009834286877, 0.3303566300457737, 0.17630149658457508, 0.008179605761171438, 0.002127912816472927, 0.002431705332489193, 0.00023528472131036844, 1.954027273605025e-6, 4.189762059006989e-6, 5.74428837103844e-7, 1.4475599407299098e-6, 1.6126035057048806e-6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.54026949912648, 0.6568567003790029, 0.36926009834286877, 0.3303566300457737, 0.17630149658457508, 0.008179605761171436, 0.0021279128164729266, 0.002431705332489193, 0.00023528472131036841, 1.954027273605025e-6, 4.189762059006989e-6, 5.744288371038439e-7, 1.4475599407299095e-6, 1.6126035057048804e-6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.5798422904394547, 0.6008199192466324, 0.3409790512716664, 0.39139748798716356, 0.18247026354242463, 0.006152579625015728, 0.0016429776900634158, 0.001917171644328552, 9.794440144874218e-5, 1.1027927736394897e-6, 3.055832026485232e-6, 5.480465965814441e-7, 1.6419965414497315e-6, 1.6926116399418497e-6, 1.627903261083129e-8, 8.995676794794254e-9, 5.914171809648897e-9, 2.880750422926416e-9, 5.31239348842593e-10, 3.142675750295203e-10]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.9248363085700178, 0.3749879426107047, 0.04881135301824432, 0.006385072206728804, 0.03526894209657588, 0.01947790503881231, 0.0033202059358648115, 7.384966420689693e-5, 0.0019139354321003298, 0.0005941949748023397, 8.032041762324141e-5, 0.00039704780940541653, 2.9048366693082756e-5, 0.0001549182289197257, 8.047217533226776e-5, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.6375471591268179, 0.4866719612552567, 0.2725148858771943, 0.494059652224613, 0.19572143060887345, 0.003884592934717498, 0.0010649268929493066, 0.0012714185699963811, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.4524032658880134, 0.8651020774594095, 0.17300255527123085, 0.01296704977483353, 0.1142855591158224, 0.0599224724626009, 0.00497992394439731, 0.0007750078704828243, 0.011760195636631074, 0.0023994657421663253, 0.001034544747697278, 0.002572662662381182, 0.0003031963505522016, 0.0014747796241683167, 0.0005817900327921986, 7.858128681469584e-5, 0.0, 0.0, 0.0, 0.0] ≈ [0.6645822506885855, 0.01300783738082551, 0.05841337980925534, 0.7130461759564438, 0.21520747256896083, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.6799694051862457, 0.718345282090825, 0.11454175871920753, 0.012732281370341573, 0.07951347694214683, 0.04391528834295658, 0.0059155084304825176, 2.8834105955119653e-5, 0.0069000024109244764, 0.0018127817844273831, 0.000402459311234954, 0.001469581275979102, 0.00013197463873007947, 0.0006804567880983827, 0.0003161934587874051, 1.7877443428815936e-5, 1.3104473551161624e-6, 0.0, 0.0, 0.0] ≈ [0.2884735933239913, 0.7680722153971934, 0.5717062688912831, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.4343595049745724, 0.7690404735160943, 0.3929052613081479, 0.18770594238513497, 0.17296072960987044, 0.018661333183857775, 0.004153633586298337, 0.004221981415845894, 0.0013281461530902957, 3.427844873336353e-5, 5.530547819699765e-5, 1.4087258760713932e-6, 1.8678409836251375e-6, 2.8703909761765445e-6, 1.31332165461331e-7, 6.702473340133341e-8, 3.4075254512019876e-8, 1.3962484166237086e-8, 0.0, 0.0] ≈ [0.34506937418388084, 0.7435258292360973, 0.5688002086615073, 0.06754843362909542, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.5798422904394546, 0.6008199192466321, 0.34097905127166633, 0.3913974879871635, 0.18247026354242457, 0.006152579625015728, 0.0016429776900634158, 0.0019171716443285517, 9.794440144874218e-5, 1.1027927736394897e-6, 3.055832026485232e-6, 5.480465965814441e-7, 1.6419965414497315e-6, 1.6926116399418497e-6, 1.6279032610831285e-8, 8.995676794794254e-9, 5.9141718096488975e-9, 2.880750422926416e-9, 5.31239348842593e-10, 3.142675750295203e-10] ≈ [0.4592104541944499, 0.6459965634021454, 0.5647357623357859, 0.22374962008841728, 0.052278180690115444, 0.007949319030461591, 0.002835279011640555, 0.0038689836351752044, 0.0020778183725622622, 0.0003783306224126214, 0.00026031481219779745, 8.445187522284302e-5, 0.00028640971251713427, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.2635969599845367, 0.24443166180351583, 0.7147013633730906, 0.3413534293320801, 0.22979340287653788, 0.3859378271879592, 0.20047361153519916, 0.03764860515011091, 0.009460550665771512, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.7271874269761006, 0.6864389601762697, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.29135463232565834, 0.7016067332721594, 0.569513694996398, 0.18944743641639225, 0.11259940172185379, 0.16891685113848945, 0.1351270712729488, 0.05557299370606162, 0.0076722551917172855, 0.002493132509225684, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.7950893465915276, 0.568527414992746, 0.21120963363048412, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.2924198449945439, 0.7025654762086938, 0.5731929401253981, 0.18868273607213937, 0.11006615009801551, 0.16061450439518554, 0.12683177411043764, 0.051950803141591596, 0.006318911264043879, 0.002090587930999465, 4.8562056797205794e-5, 2.463513058987885e-5, 6.316011658659216e-6, 7.001713143469048e-6, 1.9973059595933802e-5, 1.1724573226145912e-5, 7.566053387762588e-6, 1.2125537796502506e-5, 1.0439477281269773e-5, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.748286641520531, 0.3661139158445023, 0.43198260497519836, 0.3455701545934934, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.30738128048076274, 0.717816798172108, 0.5792189316924164, 0.1696539014975732, 0.0867756011223208, 0.10969836341684702, 0.07493698883677222, 0.02827520760843419, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.831873132234412, 0.43751502970761147, 0.317073480656716, 0.10433247945790025, 0.07174142625330407, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.7482866415205308, 0.36611391584450237, 0.43198260497519847, 0.3455701545934935, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.6722944062738903, 0.6977020488067782, 0.24044231091202165, 0.04485828819738143, 0.02405354198037977, 0.028787820430642864, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.8664163254528097, 0.3507668796263236, 0.32332186235115695, 0.12966096883154107, 0.040064155921096634, 0.03381558586717167, 0.03715031733796821, 0.02307855096031055, 0.013141482091568197, 0.008393806271877724, 0.0037499461261525646, 0.0026235124936238793, 0.002309194267591148, 0.0010260547471389928, 0.0016183735909578766, 0.0008646274253944658, 0.0007166410716049272, 0.0006899986752256568, 0.0003214337725679042, 0.00011524787056445587]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.30738128048076263, 0.7178167981721082, 0.5792189316924164, 0.16965390149757326, 0.08677560112232084, 0.10969836341684708, 0.07493698883677227, 0.028275207608434196, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.26359695998453664, 0.24443166180351572, 0.7147013633730904, 0.3413534293320801, 0.22979340287653777, 0.38593782718795916, 0.2004736115351991, 0.037648605150110905, 0.009460550665771507, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.6722944062738905, 0.6977020488067781, 0.2404423109120216, 0.04485828819738141, 0.02405354198037977, 0.02878782043064286, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.2913546323256582, 0.7016067332721594, 0.5695136949963981, 0.18944743641639228, 0.11259940172185387, 0.1689168511384895, 0.13512707127294885, 0.05557299370606164, 0.007672255191717286, 0.0024931325092256845, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.7950893465915276, 0.5685274149927461, 0.21120963363048414, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.7721620301962675, 0.6204797397305539, 0.13626253414632983, 0.01183370818961637, 0.005515980409126493, 0.00517594028726526, 0.002292860564363489, 0.000793115762528285, 0.00023663954600907364, 9.09378146689292e-6, 0.00013462801596021546, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.831873132234412, 0.43751502970761147, 0.31707348065671603, 0.10433247945790027, 0.07174142625330408, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.8412945230561084, 0.46937315569981436, 0.26118765823933004, 0.053686327821261155, 0.011768178400832047, 0.012218647588676078, 0.018490806324242135, 0.011980622133261306, 0.005094896734127941, 0.0018127698688072634, 0.002616651760523534, 0.001352775650300701, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.7721620301962675, 0.620479739730554, 0.13626253414632983, 0.011833708189616373, 0.005515980409126493, 0.005175940287265259, 0.002292860564363489, 0.0007931157625282851, 0.0002366395460090736, 9.09378146689292e-6, 0.00013462801596021546, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.7932900968683319, 0.498290954548794, 0.3265443965875713, 0.1064839289847566, 0.042546056896406864, 0.018467442204271874, 0.03465491171177043, 0.027557807035458896, 0.01364663907741087, 0.0062977641064411935, 0.008014603467725956, 0.004899059646607951, 0.0010679383608166262, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.7736293398187672, 0.4529193874766476, 0.38298423937471904, 0.19416224345135208, 0.10415223612569396, 0.015003254646611374, 0.013267048206899144, 0.017034698630545186, 0.005218219377255407, 0.009632085265985274, 0.00862069285194988, 0.00801641117049768, 0.007143660030786152, 0.011186262883570738, 0.0029809655581672675, 0.0013053217672771217, 0.0011207066982566027, 0.000436725284888656, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.761640690237281, 0.4941611963633202, 0.37625262456263464, 0.15354813434363607, 0.07542592574675466, 0.020516140435781333, 0.04342066509492833, 0.04046961188385611, 0.021690670722148395, 0.012457817634691871, 0.013784482081076816, 0.010222357117741778, 0.0030961093334116317, 0.0014836292090596712, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0] ≈ [0.7271874269761006, 0.6864389601762697, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.761603354148363, 0.6267005742484621, 0.1597495945625538, 0.03240638994958712, 0.016975816276905222, 0.014533382658892497, 0.01040420919723543, 0.00488062459728944, 0.0019212562883660668, 0.0004848729021778257, 0.0010622186386622936, 0.00028659538169959267, 8.449309725291742e-5, 6.118972166840471e-5, 2.6146946795342848e-5, 1.2615664929098854e-5, 0.0, 0.0, 0.0, 0.0] ≈ [0.8412945230561086, 0.46937315569981464, 0.26118765823933016, 0.0536863278212612, 0.011768178400832052, 0.012218647588676088, 0.018490806324242146, 0.011980622133261313, 0.005094896734127942, 0.0018127698688072645, 0.002616651760523535, 0.0013527756503007018, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.7736293398187671, 0.45291938747664756, 0.38298423937471887, 0.19416224345135205, 0.10415223612569394, 0.015003254646611364, 0.01326704820689914, 0.01703469863054519, 0.005218219377255413, 0.00963208526598527, 0.008620692851949876, 0.008016411170497678, 0.007143660030786143, 0.011186262883570728, 0.002980965558167264, 0.0013053217672771202, 0.0011207066982566016, 0.00043672528488865564, 0.0, 0.0] ≈ [0.793290096868332, 0.49829095454879396, 0.3265443965875713, 0.1064839289847566, 0.042546056896406885, 0.018467442204271867, 0.03465491171177041, 0.02755780703545889, 0.013646639077410865, 0.006297764106441192, 0.008014603467725956, 0.004899059646607951, 0.0010679383608166262, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.29241984499454404, 0.7025654762086937, 0.5731929401253978, 0.18868273607213934, 0.11006615009801547, 0.16061450439518546, 0.12683177411043758, 0.05195080314159157, 0.006318911264043878, 0.002090587930999465, 4.856205679720575e-5, 2.4635130589878846e-5, 6.316011658659207e-6, 7.00171314346904e-6, 1.997305959593379e-5, 1.1724573226145904e-5, 7.566053387762579e-6, 1.2125537796502498e-5, 1.0439477281269768e-5, 0.0] ≈ [0.7616033541483629, 0.626700574248462, 0.1597495945625538, 0.03240638994958711, 0.016975816276905226, 0.014533382658892497, 0.010404209197235427, 0.004880624597289439, 0.0019212562883660661, 0.0004848729021778257, 0.0010622186386622936, 0.00028659538169959267, 8.449309725291744e-5, 6.118972166840472e-5, 2.614694679534285e-5, 1.2615664929098858e-5, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Eigenvector upper triangular matrix: Test Failed at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+  Expression: abs.(x) ≈ abs.(xs[:, i])
+   Evaluated: [0.8664163254528093, 0.35076687962632364, 0.32332186235115695, 0.12966096883154113, 0.04006415592109665, 0.03381558586717168, 0.037150317337968204, 0.023078550960310546, 0.013141482091568197, 0.008393806271877722, 0.003749946126152564, 0.002623512493623878, 0.0023091942675911477, 0.0010260547471389926, 0.001618373590957877, 0.0008646274253944657, 0.0007166410716049271, 0.000689998675225657, 0.0003214337725679041, 0.00011524787056445583] ≈ [0.761640690237281, 0.4941611963633201, 0.3762526245626347, 0.15354813434363607, 0.07542592574675466, 0.02051614043578133, 0.043420665094928326, 0.04046961188385611, 0.021690670722148395, 0.012457817634691871, 0.013784482081076816, 0.010222357117741776, 0.0030961093334116326, 0.0014836292090596712, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Stacktrace:
+ [1] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:28
+ [2] top-level scope at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Test/src/Test.jl:1107
+ [3] top-level scope at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:7
+Test Summary:                       | Pass  Fail  Total
+Eigenvector upper triangular matrix |   45    35     80
+ERROR: LoadError: LoadError: Some tests did not pass: 45 passed, 35 failed, 0 errored, 0 broken.
+in expression starting at /root/.julia/packages/ArnoldiMethod/5fDBS/test/collect_eigen.jl:6
+in expression starting at /root/.julia/packages/ArnoldiMethod/5fDBS/test/runtests.jl:13
+ERROR: Package ArnoldiMethod errored during testing
+Stacktrace:
+ [1] pkgerror(::String, ::Vararg{String,N} where N) at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/Types.jl:113
+ [2] #test#131(::Bool, ::Nothing, ::Cmd, ::Cmd, ::typeof(Pkg.Operations.test), ::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/Operations.jl:1370
+ [3] #test at ./none:0 [inlined]
+ [4] #test#62(::Bool, ::Nothing, ::Cmd, ::Cmd, ::Base.Iterators.Pairs{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::typeof(Pkg.API.test), ::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:253
+ [5] test(::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:239
+ [6] #test#61 at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:233 [inlined]
+ [7] test at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:233 [inlined]
+ [8] #test#60 at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:232 [inlined]
+ [9] test at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:232 [inlined]
+ [10] #test#59(::Base.Iterators.Pairs{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::typeof(Pkg.API.test), ::String) at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:231
+ [11] test(::String) at /workspace/srcdir/julia/usr/share/julia/stdlib/v1.3/Pkg/src/API.jl:231
+ [12] top-level scope at none:10

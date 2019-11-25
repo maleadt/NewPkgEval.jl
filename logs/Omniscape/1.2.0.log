@@ -1,0 +1,1255 @@
+ Resolving package versions...
+ Installed RecipesBase ────────── v0.7.0
+ Installed SimpleTraits ───────── v0.9.1
+ Installed Inflate ────────────── v0.1.1
+ Installed SimpleWeightedGraphs ─ v1.1.0
+ Installed Omniscape ──────────── v0.1.2
+ Installed DataStructures ─────── v0.17.6
+ Installed IterativeSolvers ───── v0.8.1
+ Installed LightGraphs ────────── v1.3.0
+ Installed Compat ─────────────── v2.2.0
+ Installed MacroTools ─────────── v0.5.2
+ Installed OrderedCollections ─── v1.1.0
+ Installed GZip ───────────────── v0.5.1
+ Installed StaticArrays ───────── v0.12.1
+ Installed AlgebraicMultigrid ─── v0.2.2
+ Installed ArnoldiMethod ──────── v0.0.4
+ Installed Circuitscape ───────── v5.5.5
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [a38d70fc] + Omniscape v0.1.2
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [2169fc97] + AlgebraicMultigrid v0.2.2
+  [ec485272] + ArnoldiMethod v0.0.4
+  [2b7a1792] + Circuitscape v5.5.5
+  [34da2185] + Compat v2.2.0
+  [864edb3b] + DataStructures v0.17.6
+  [92fee26a] + GZip v0.5.1
+  [d25df0c9] + Inflate v0.1.1
+  [42fd0dbc] + IterativeSolvers v0.8.1
+  [093fc24a] + LightGraphs v1.3.0
+  [1914dd2f] + MacroTools v0.5.2
+  [a38d70fc] + Omniscape v0.1.2
+  [bac558e1] + OrderedCollections v1.1.0
+  [3cdcf5f2] + RecipesBase v0.7.0
+  [699a6c99] + SimpleTraits v0.9.1
+  [47aef6b3] + SimpleWeightedGraphs v1.1.0
+  [90137ffa] + StaticArrays v0.12.1
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+   Testing Omniscape
+    Status `/tmp/jl_wbqIqB/Manifest.toml`
+  [2169fc97] AlgebraicMultigrid v0.2.2
+  [ec485272] ArnoldiMethod v0.0.4
+  [2b7a1792] Circuitscape v5.5.5
+  [34da2185] Compat v2.2.0
+  [864edb3b] DataStructures v0.17.6
+  [92fee26a] GZip v0.5.1
+  [d25df0c9] Inflate v0.1.1
+  [42fd0dbc] IterativeSolvers v0.8.1
+  [093fc24a] LightGraphs v1.3.0
+  [1914dd2f] MacroTools v0.5.2
+  [a38d70fc] Omniscape v0.1.2
+  [bac558e1] OrderedCollections v1.1.0
+  [3cdcf5f2] RecipesBase v0.7.0
+  [699a6c99] SimpleTraits v0.9.1
+  [47aef6b3] SimpleWeightedGraphs v1.1.0
+  [90137ffa] StaticArrays v0.12.1
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+[ Info: 2019-12-02 18:29:38 : Time taken to construct preconditioner = 2.498128272 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.01595969 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000526588 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000366393 seconds
+time taken to calculate artifact correction array: 4.114959001541138 seconds
+Solving targets
+Solving target 1 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000912645 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000148923 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000320491 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000229821 seconds
+Solving target 2 of 100
+Solving target 3 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000392094 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000246133 seconds
+Solving target 4 of 100
+Solving target 5 of 100
+Solving target 6 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000369263 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000283741 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000352729 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000256916 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000344739 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000812363 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000360379 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000296601 seconds
+Solving target 7 of 100
+Solving target 8 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.00033661 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.00029751 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000309991 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000197806 seconds
+Solving target 9 of 100
+Solving target 10 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000880686 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000142965 seconds
+Solving target 11 of 100
+Solving target 12 of 100
+Solving target 13 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000315474 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000197825 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000416543 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000282289 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000453789 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000313968 seconds
+Solving target 14 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000491753 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000364487 seconds
+Solving target 15 of 100
+Solving target 16 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000460849 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000360003 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000972344 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000367752 seconds
+Solving target 17 of 100
+Solving target 18 of 100
+Solving target 19 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000540369 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000409348 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.00047094 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.00040408 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000408853 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000327355 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000303778 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000214676 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.0003473 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000216137 seconds
+Solving target 20 of 100
+Solving target 21 of 100
+Solving target 22 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.001115537 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000332671 seconds
+Solving target 23 of 100
+Solving target 24 of 100
+Solving target 25 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000512715 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000357411 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000522657 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000363227 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000534925 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000431746 seconds
+Solving target 26 of 100
+Solving target 27 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000546264 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000467565 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000538576 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000482021 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000534237 seconds
+Solving target 28 of 100
+Solving target 29 of 100
+Solving target 30 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000507699 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000486025 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000470592 seconds
+Solving target 31 of 100
+Solving target 32 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000300574 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000291419 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.00035322 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000197192 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000486802 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000364338 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000519774 seconds
+Solving target 33 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000426874 seconds
+Solving target 34 of 100
+Solving target 35 of 100
+Solving target 36 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000505821 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.00043732 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000504273 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000427598 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000578252 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.00042555 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000532911 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000426156 seconds
+Solving target 37 of 100
+Solving target 38 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000493025 seconds
+Solving target 39 of 100
+Solving target 40 of 100
+Solving target 41 of 100
+Solving target 42 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000474202 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000455283 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000417064 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000337339 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.00029398 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000338042 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000229053 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000498471 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000315751 seconds
+Solving target 43 of 100
+Solving target 44 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000529403 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000356768 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000537362 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000356139 seconds
+Solving target 45 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000487967 seconds
+Solving target 46 of 100
+Solving target 47 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000495052 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000490118 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000360434 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000497161 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000467238 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000480643 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000587754 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000432443 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000406324 seconds
+Solving target 48 of 100
+Solving target 49 of 100
+Solving target 50 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000341452 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000295323 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000336861 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000232092 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000451258 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000315632 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000481748 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000473759 seconds
+Solving target 51 of 100
+Solving target 52 of 100
+Solving target 53 of 100
+Solving target 54 of 100
+Solving target 55 of 100
+Solving target 56 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000487023 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000416126 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000686307 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000522308 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000490667 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000663921 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000482438 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000582404 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000450627 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000439065 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000429041 seconds
+Solving target 57 of 100
+Solving target 58 of 100
+Solving target 59 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000486067 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000343271 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000294094 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000339077 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000352746 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000448661 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000364829 seconds
+Solving target 60 of 100
+Solving target 61 of 100
+Solving target 62 of 100
+Solving target 63 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000607435 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000405823 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000471035 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000461314 seconds
+Solving target 64 of 100
+Solving target 65 of 100
+Solving target 66 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.00047962 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000463409 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.00050235 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000527773 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000493216 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000432743 seconds
+Solving target 67 of 100
+Solving target 68 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000505748 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000548018 seconds
+Solving target 69 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000454197 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000355642 seconds
+Solving target 70 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000343862 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000258871 seconds
+Solving target 71 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000361288 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000222101 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000435554 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000360516 seconds
+Solving target 72 of 100
+Solving target 73 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000493084 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000474781 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000487015 seconds
+Solving target 74 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000592641 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000493505 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000476351 seconds
+Solving target 75 of 100
+Solving target 76 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.00048554 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000532285 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000503865 seconds
+Solving target 77 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000526166 seconds
+Solving target 78 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.00784783 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000410777 seconds
+Solving target 79 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000445362 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000315888 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.0003477 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000222825 seconds
+Solving target 80 of 100
+Solving target 81 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000316929 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000192057 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.0003867 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000318519 seconds
+Solving target 82 of 100
+Solving target 83 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000442752 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000356101 seconds
+Solving target 84 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000427813 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000357726 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000428014 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000410265 seconds
+Solving target 85 of 100
+Solving target 86 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000425827 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.00045965 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000424854 seconds
+Solving target 87 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000360024 seconds
+Solving target 88 of 100
+Solving target 89 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000437646 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000307692 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000290704 seconds
+Solving target 90 of 100
+Solving target 91 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000358731 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000376961 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000170818 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000310402 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000112638 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000227154 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000201466 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000255696 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000249092 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000253946 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000255633 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000246672 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.00028915 seconds
+Solving target 92 of 100
+Solving target 93 of 100
+Solving target 94 of 100
+Solving target 95 of 100
+Solving target 96 of 100
+Solving target 97 of 100
+Solving target 98 of 100
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000250228 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000210525 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.00023655 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000225735 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000262667 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000221814 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.00022339 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000188648 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to construct preconditioner = 0.000319182 seconds
+[ Info: 2019-12-02 18:29:39 : Time taken to solve linear system = 0.000124395 seconds
+Solving target 99 of 100
+Solving target 100 of 100
+Done
+Time taken to complete job: 6.4 seconds
+┌ Warning: block_size is even, but must be odd. Using block_size + 1.
+└ @ Omniscape ~/.julia/packages/Omniscape/8T6Cm/src/run_omniscape.jl:23
+Starting up Omniscape to use 4 processes in parallel
+[ Info: 2019-12-02 18:30:03 : Time taken to construct preconditioner = 0.000424828 seconds
+[ Info: 2019-12-02 18:30:03 : Time taken to solve linear system = 0.000287742 seconds
+[ Info: 2019-12-02 18:30:03 : Time taken to construct preconditioner = 0.000442761 seconds
+[ Info: 2019-12-02 18:30:03 : Time taken to solve linear system = 0.000330918 seconds
+time taken to calculate artifact correction array: 0.013015031814575195 seconds
+Solving targets
+      From worker 5:	Solving target 4 of 100
+      From worker 3:	Solving target 2 of 100
+[ Info: 2019-12-02 18:30:48 : Time taken to construct preconditioner = 3.604341345 seconds
+[ Info: 2019-12-02 18:30:49 : Time taken to solve linear system = 0.010217342 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:49 : Time taken to construct preconditioner = 0.000470142 seconds
+[ Info: 2019-12-02 18:30:49 : Time taken to solve linear system = 0.000295236 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000311859 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000265163 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000397707 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000299757 seconds
+      From worker 5:	Solving target 5 of 100
+      From worker 5:	    calculating flow potential[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000341327 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000267156 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000418582 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000292404 seconds
+
+      From worker 5:	Solving target 6 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000330807 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000291643 seconds
+      From worker 5:	    calculating flow potential
+      From worker 5:	Solving target 7 of 100
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000385598 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000277863 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000336713 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000280646 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000374722 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000311962 seconds
+      From worker 5:	Solving target 8 of 100
+      From worker 5:	    calculating flow potential
+      From worker 5:	Solving target 9 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000928891 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000209776 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000324242 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000265391 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000370936 seconds
+      From worker 5:	Solving target 10 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.00014513 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000469914 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000149759 seconds
+      From worker 5:	Solving target 11 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000276334 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000204718 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.00035714 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000246589 seconds
+      From worker 5:	Solving target 12 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000397093 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000273734 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000445429 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000291377 seconds
+      From worker 5:	Solving target 13 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000437904 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000315943 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000545232 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000402885 seconds
+      From worker 5:	Solving target 14 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000466113 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000353163 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000531435 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.00041278 seconds
+      From worker 5:	Solving target 15 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000426346 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000347698 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000556085 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000408471 seconds
+      From worker 5:	Solving target 16 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000436278 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000341422 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000536396 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000378518 seconds
+      From worker 5:	Solving target 17 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000461591 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000380463 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000539118 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000367756 seconds
+      From worker 5:	Solving target 18 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.00046598 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000388138 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000526051 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.00039331 seconds
+      From worker 5:	Solving target 19 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000409049 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000296277 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000439977 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000330948 seconds
+      From worker 5:	Solving target 20 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000310168 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000236669 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000362557 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000237173 seconds
+      From worker 5:	Solving target 21 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000336294 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000229055 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000395284 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000269281 seconds
+      From worker 5:	Solving target 22 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000462594 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.00030328 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000550432 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000398925 seconds
+      From worker 5:	Solving target 23 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.00051878 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.0003033 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000688626 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000500881 seconds
+      From worker 5:	Solving target 24 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.00045362 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000306876 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000674384 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000491377 seconds
+      From worker 5:	Solving target 25 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000494651 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000399551 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.006487858 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000465553 seconds
+      From worker 5:	Solving target 26 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000445107 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000449803 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000593379 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000486129 seconds
+      From worker 5:	Solving target 27 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000445161 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000453738 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000598313 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000534332 seconds
+      From worker 5:	Solving target 28 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000454277 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.00040595 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000604845 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000481513 seconds
+      From worker 5:	Solving target 29 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.00038516 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.00045708 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000478144 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.00033406 seconds
+      From worker 5:	Solving target 30 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000320612 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.0002773 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000414783 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000320747 seconds
+      From worker 5:	Solving target 31 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000334037 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000190231 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000396338 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000273749 seconds
+      From worker 5:	Solving target 32 of 100
+      From worker 4:	Solving target 3 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000422484 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000322288 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000463193 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000360761 seconds
+      From worker 5:	Solving target 33 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000480124 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000400431 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000624684 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000444179 seconds
+      From worker 5:	Solving target 34 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.00044773 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000345478 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000608093 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000473906 seconds
+      From worker 5:	Solving target 35 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000472106 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000394875 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000618478 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000484556 seconds
+      From worker 5:	Solving target 36 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000456861 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000392686 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000613719 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000467693 seconds
+      From worker 5:	Solving target 37 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000441813 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000370176 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000609447 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000464989 seconds
+      From worker 5:	Solving target 38 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000463773 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000918553 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000629994 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000459651 seconds
+      From worker 5:	Solving target 39 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000456406 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000417709 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000543574 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000422363 seconds
+      From worker 5:	Solving target 40 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000353355 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000289019 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.00048332 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000327583 seconds
+      From worker 5:	Solving target 41 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000327181 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000224936 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000420029 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000322884 seconds
+      From worker 5:	Solving target 42 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000431712 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000346994 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000563842 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000427764 seconds
+      From worker 5:	Solving target 43 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000514667 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000372189 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000602476 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000475793 seconds
+      From worker 5:	Solving target 44 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000440676 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000334772 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000573745 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.003474581 seconds
+      From worker 5:	Solving target 45 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000454782 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000387283 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000585273 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000504659 seconds
+      From worker 5:	Solving target 46 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000438043 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000363694 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.001191657 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000903326 seconds
+      From worker 5:	Solving target 47 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000447524 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.00052973 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000602619 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000595296 seconds
+      From worker 5:	Solving target 48 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000446142 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000500657 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000587781 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000609144 seconds
+      From worker 5:	Solving target 49 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000393058 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000502582 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000479519 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000482082 seconds
+      From worker 5:	Solving target 50 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000312566 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000367573 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000383837 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000390168 seconds
+      From worker 5:	Solving target 51 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000313937 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000310071 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000360698 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.00037967 seconds
+      From worker 5:	Solving target 52 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.00041408 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000385653 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000498144 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000471175 seconds
+      From worker 5:	Solving target 53 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000450121 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000538329 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000585032 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000563113 seconds
+      From worker 5:	Solving target 54 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000425476 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000468504 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000561715 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.00056142 seconds
+      From worker 5:	Solving target 55 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000446873 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000606776 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000590111 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000567112 seconds
+      From worker 5:	Solving target 56 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000461014 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000648447 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000597295 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000645253 seconds
+      From worker 5:	Solving target 57 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000449637 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000694279 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000606451 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000652893 seconds
+      From worker 5:	Solving target 58 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000401951 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000555224 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000588744 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000591956 seconds
+      From worker 5:	Solving target 59 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000400753 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000435447 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000510674 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000483197 seconds
+      From worker 5:	Solving target 60 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000306016 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000415379 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000391999 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000415465 seconds
+      From worker 5:	Solving target 61 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000319644 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000330986 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000382424 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000393042 seconds
+      From worker 5:	Solving target 62 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000416186 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000467454 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000493461 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000534905 seconds
+      From worker 5:	Solving target 63 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000455397 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000521385 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000639598 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000642139 seconds
+      From worker 5:	Solving target 64 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000470563 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000593462 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000682546 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000677682 seconds
+      From worker 5:	Solving target 65 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000491408 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000620367 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000657749 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000679896 seconds
+      From worker 5:	Solving target 66 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.00048176 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000608444 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.00058637 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000626953 seconds
+      From worker 5:	Solving target 67 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000471106 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000547232 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000679067 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000619573 seconds
+      From worker 5:	Solving target 68 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000475331 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000642233 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000650924 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000690315 seconds
+      From worker 5:	Solving target 69 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000419584 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000466805 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000504502 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000518549 seconds
+      From worker 5:	Solving target 70 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000325278 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000367986 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000402757 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000334963 seconds
+      From worker 5:	Solving target 71 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000322019 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000267481 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000399254 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000351123 seconds
+      From worker 5:	Solving target 72 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000454508 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000435173 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000502843 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.00042503 seconds
+      From worker 5:	Solving target 73 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000478261 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000523082 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000640838 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000552206 seconds
+      From worker 5:	Solving target 74 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000472558 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000623794 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000646036 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000637695 seconds
+      From worker 5:	Solving target 75 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000465765 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.00060773 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000696467 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000670557 seconds
+      From worker 5:	Solving target 76 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000457769 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000655185 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000610143 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.0006217 seconds
+      From worker 5:	Solving target 77 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000455609 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000535897 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000607808 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000616676 seconds
+      From worker 5:	Solving target 78 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000455248 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000516732 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000600139 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000622771 seconds
+      From worker 5:	Solving target 79 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.00040629 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000429223 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000488682 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000498847 seconds
+      From worker 5:	Solving target 80 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000333303 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000334688 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000391318 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000403797 seconds
+      From worker 5:	Solving target 81 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000293412 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000288431 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000319203 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000345599 seconds
+      From worker 5:	Solving target 82 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000357657 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000427022 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000409111 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000415147 seconds
+      From worker 5:	Solving target 83 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000420226 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000456649 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000478457 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000494687 seconds
+      From worker 5:	Solving target 84 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000393984 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000479069 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000487639 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000498985 seconds
+      From worker 5:	Solving target 85 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000400375 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000536297 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000495394 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000511711 seconds
+      From worker 5:	Solving target 86 of 100
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000379356 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.000552853 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:51 : Time taken to construct preconditioner = 0.000437418 seconds
+[ Info: 2019-12-02 18:30:51 : Time taken to solve linear system = 0.00045772 seconds
+      From worker 5:	Solving target 87 of 100
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000366811 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000415849 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.00044225 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000440418 seconds
+      From worker 5:	Solving target 88 of 100
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000376384 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000401207 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000477394 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000441143 seconds
+      From worker 5:	Solving target 89 of 100
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000277931 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000410652 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000419195 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000381279 seconds
+      From worker 5:	Solving target 90 of 100
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000369809 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.00026775 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000447814 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000337785 seconds
+      From worker 5:	Solving target 91 of 100
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000309034 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000204662 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000353187 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000233564 seconds
+      From worker 5:	Solving target 92 of 100
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000199858 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000272754 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000318045 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000265856 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000233078 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000262824 seconds
+      From worker 5:	Solving target 93 of 100
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000365948 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.00030422 seconds
+      From worker 5:	Solving target 94 of 100
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000224776 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000287151 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.00050036 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000373441 seconds
+      From worker 5:	Solving target 95 of 100
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000307223 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000374918 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000373899 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000320834 seconds
+      From worker 5:	Solving target 96 of 100
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000230024 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000233481 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000370055 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000314364 seconds
+      From worker 5:	Solving target 97 of 100
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000251839 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000247555 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000362149 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.00031623 seconds
+      From worker 5:	Solving target 98 of 100
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000228562 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000248237 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000411058 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000313443 seconds
+      From worker 5:	Solving target 99 of 100
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000198774 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000227973 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000318117 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000251774 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000304651 seconds
+      From worker 5:	Solving target 100 of 100
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000136986 seconds
+      From worker 5:	    calculating flow potential
+[ Info: 2019-12-02 18:30:52 : Time taken to construct preconditioner = 0.000489382 seconds
+[ Info: 2019-12-02 18:30:52 : Time taken to solve linear system = 0.000179475 seconds
+      From worker 2:	Solving target 1 of 100
+[ Info: 2019-12-02 18:30:54 : Time taken to construct preconditioner = 5.335160929 seconds
+      From worker 3:	    calculating flow potential
+[ Info: 2019-12-02 18:30:55 : Time taken to solve linear system = 0.014129357 seconds
+[ Info: 2019-12-02 18:30:55 : Time taken to construct preconditioner = 0.00033976 seconds
+[ Info: 2019-12-02 18:30:55 : Time taken to solve linear system = 0.000229617 seconds
+[ Info: 2019-12-02 18:30:58 : Time taken to construct preconditioner = 4.954783379 seconds
+[ Info: 2019-12-02 18:30:58 : Time taken to solve linear system = 0.008933232 seconds
+      From worker 4:	    calculating flow potential
+[ Info: 2019-12-02 18:30:58 : Time taken to construct preconditioner = 0.000424119 seconds
+[ Info: 2019-12-02 18:30:58 : Time taken to solve linear system = 0.000308484 seconds
+[ Info: 2019-12-02 18:31:00 : Time taken to construct preconditioner = 5.130722997 seconds
+[ Info: 2019-12-02 18:31:01 : Time taken to solve linear system = 0.009384735 seconds
+[ Info: 2019-12-02 18:31:01 : Time taken to construct preconditioner = 0.000383878 seconds
+[ Info: 2019-12-02 18:31:01 : Time taken to solve linear system = 0.0001696 seconds
+      From worker 2:	    calculating flow potential
+Combining maps across workers
+Done
+Time taken to complete job: 84.7 seconds
+Starting up Omniscape to use 4 processes in parallel
+[ Info: 2019-12-02 18:31:21 : Time taken to construct preconditioner = 0.015014325 seconds
+[ Info: 2019-12-02 18:31:21 : Time taken to solve linear system = 0.000504052 seconds
+[ Info: 2019-12-02 18:31:21 : Time taken to construct preconditioner = 0.000533269 seconds
+[ Info: 2019-12-02 18:31:21 : Time taken to solve linear system = 0.000413135 seconds
+time taken to calculate artifact correction array: 0.2372579574584961 seconds
+Solving targets
+      From worker 6:	Solving target 1 of 74
+      From worker 9:	Solving target 2 of 74
+[ Info: 2019-12-02 18:31:57 : Time taken to construct preconditioner = 4.756179035 seconds
+[ Info: 2019-12-02 18:31:59 : Time taken to solve linear system = 0.025701488 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000464066 seconds
+      From worker 6:	Solving target 5 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000339092 seconds
+      From worker 6:	Solving target 6 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.011490713 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000133857 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000354184 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000208437 seconds
+      From worker 6:	Solving target 7 of 74
+      From worker 6:	Solving target 8 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000480272 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000356495 seconds
+      From worker 6:	Solving target 9 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000541481 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000377471 seconds
+      From worker 6:	Solving target 10 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000479754 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000427126 seconds
+      From worker 6:	Solving target 11 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000502897 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000439196 seconds
+      From worker 6:	Solving target 12 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000538652 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.00040046 seconds
+      From worker 6:	Solving target 13 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000581422 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.00046741 seconds
+      From worker 6:	Solving target 14 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.041054609 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000362359 seconds
+      From worker 6:	Solving target 15 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000537955 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000637189 seconds
+      From worker 6:	Solving target 16 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.0007278 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000579905 seconds
+      From worker 6:	Solving target 17 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.00083477 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000595909 seconds
+      From worker 6:	Solving target 18 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000829976 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.00118151 seconds
+      From worker 6:	Solving target 19 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.001245842 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.001169698 seconds
+      From worker 6:	Solving target 20 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000569813 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000873254 seconds
+      From worker 6:	Solving target 21 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000478321 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.00037965 seconds
+      From worker 6:	Solving target 22 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000475339 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000449939 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000516957 seconds
+      From worker 6:	Solving target 23 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000478404 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000596557 seconds
+      From worker 6:	Solving target 24 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000510891 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000598906 seconds
+      From worker 6:	Solving target 25 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000545267 seconds
+      From worker 6:	Solving target 26 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000611802 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000582547 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000664991 seconds
+      From worker 6:	Solving target 27 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000616675 seconds
+      From worker 6:	Solving target 28 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000523782 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000405315 seconds
+      From worker 6:	Solving target 29 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000425443 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000271258 seconds
+      From worker 6:	Solving target 30 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000467215 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.006358723 seconds
+      From worker 6:	Solving target 31 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000706598 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.002147547 seconds
+      From worker 6:	Solving target 32 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000756302 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.005926608 seconds
+      From worker 6:	Solving target 33 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000845953 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000668477 seconds
+      From worker 6:	Solving target 34 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000867718 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000745596 seconds
+      From worker 6:	Solving target 35 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000893481 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000787998 seconds
+      From worker 6:	Solving target 36 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000570733 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000429996 seconds
+      From worker 6:	Solving target 37 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000489063 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000313602 seconds
+      From worker 6:	Solving target 38 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000529271 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000345641 seconds
+      From worker 6:	Solving target 39 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000650258 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000418629 seconds
+      From worker 6:	Solving target 40 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000755576 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000773584 seconds
+      From worker 6:	Solving target 41 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000812519 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.00069606 seconds
+      From worker 6:	Solving target 42 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000798451 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000707125 seconds
+      From worker 6:	Solving target 43 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000501847 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000524776 seconds
+      From worker 6:	Solving target 44 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000390146 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000366768 seconds
+      From worker 6:	Solving target 45 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000437915 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000287851 seconds
+      From worker 6:	Solving target 46 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.00048113 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000484703 seconds
+      From worker 6:	Solving target 47 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000570143 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000581745 seconds
+      From worker 6:	Solving target 48 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000566618 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000856906 seconds
+      From worker 6:	Solving target 49 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000553026 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000548738 seconds
+      From worker 6:	Solving target 50 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000430756 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000478317 seconds
+      From worker 6:	Solving target 51 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000388755 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.001253363 seconds
+      From worker 6:	Solving target 52 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000385501 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000330692 seconds
+      From worker 6:	Solving target 53 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000506582 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000470925 seconds
+      From worker 6:	Solving target 54 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000675872 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000707469 seconds
+      From worker 6:	Solving target 55 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000542856 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000758824 seconds
+      From worker 6:	Solving target 56 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000565527 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.00074686 seconds
+      From worker 6:	Solving target 57 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000559028 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000795283 seconds
+      From worker 6:	Solving target 58 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000499981 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.00638577 seconds
+      From worker 6:	Solving target 59 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000340611 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000294772 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000322449 seconds
+      From worker 6:	Solving target 60 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000240141 seconds
+      From worker 6:	Solving target 61 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000509886 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.00061753 seconds
+      From worker 6:	Solving target 62 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000545474 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000554118 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000532802 seconds
+      From worker 6:	Solving target 63 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000570688 seconds
+      From worker 6:	Solving target 64 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000422326 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000484474 seconds
+      From worker 6:	Solving target 65 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.00037046 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000357309 seconds
+      From worker 6:	Solving target 66 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000311221 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000220518 seconds
+      From worker 6:	Solving target 67 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000197226 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000166201 seconds
+      From worker 6:	Solving target 68 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.00024871 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000231915 seconds
+      From worker 6:	Solving target 69 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.00029631 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000322643 seconds
+      From worker 6:	Solving target 70 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000308593 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000343662 seconds
+      From worker 6:	Solving target 71 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000290497 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000302487 seconds
+      From worker 6:	Solving target 72 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000269893 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000304917 seconds
+      From worker 6:	Solving target 73 of 74
+[ Info: 2019-12-02 18:32:03 : Time taken to construct preconditioner = 0.000226693 seconds
+[ Info: 2019-12-02 18:32:03 : Time taken to solve linear system = 0.000219211 seconds
+      From worker 6:	Solving target 74 of 74
+[ Info: 2019-12-02 18:32:04 : Time taken to construct preconditioner = 0.000425482 seconds
+[ Info: 2019-12-02 18:32:04 : Time taken to solve linear system = 0.000184325 seconds
+[ Info: 2019-12-02 18:32:05 : Time taken to construct preconditioner = 6.955062729 seconds
+[ Info: 2019-12-02 18:32:06 : Time taken to solve linear system = 0.00978832 seconds
+      From worker 7:	Solving target 3 of 74
+      From worker 8:	Solving target 4 of 74
+[ Info: 2019-12-02 18:32:11 : Time taken to construct preconditioner = 2.784529013 seconds
+[ Info: 2019-12-02 18:32:12 : Time taken to solve linear system = 0.00887469 seconds
+[ Info: 2019-12-02 18:32:12 : Time taken to construct preconditioner = 3.299988144 seconds
+[ Info: 2019-12-02 18:32:13 : Time taken to solve linear system = 0.00999167 seconds
+Combining maps across workers
+Done
+Time taken to complete job: 71.7 seconds
+   Testing Omniscape tests passed 

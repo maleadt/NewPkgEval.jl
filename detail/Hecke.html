@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Julia Package Listing - Testing Information</title>
+
+    <style>/* -- Mix of julialang.org, Bootstrap 3, and custom -- */
+body {
+  background-color: white;
+  font-family: Georgia, 'Liberation Serif', serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.42857143;
+}
+.site {
+  max-width: 785px;
+  margin: 2.5em auto 2em;
+  padding: 0 1.5em;
+}
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.titlebox {
+  text-align: center;
+  font-size: 120%;
+  margin-top: 3em;
+}
+.ok     { background-color: #11AA11; } /*Tests passing*/
+.fail   { background-color: #DD3333; } /*Tests failed*/
+.skip   { background-color: #3333DD; } /*Tests skipped*/
+.kill   { background-color: #222222; } /*Tests interrupted*/
+.statusbox {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.pkglisting h2 { margin-bottom: 0px; }
+pre {margin: 0;}
+@media (min-width: 785px) {
+  .pkglisting {
+    display: table;
+    width: 100%;
+  }
+  .pkgnamedesc {
+    display: table-cell;
+    width: 50%;
+  }
+  .pkgvertest {
+    display: table-cell;
+    width:50%;
+    text-align: right
+  }
+}
+/* collapsible sections */
+.collapsible {
+  font-family: Georgia, 'Liberation Serif', serif;
+  font-size: 14px;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.content {
+  display: none;
+  overflow: hidden;
+}
+</style>
+  </head>
+
+  <body>
+  <div class="site">
+    <!-- HEADER -->
+    <div class="titlebox">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="210px" height="142px" viewBox="0 0 310 216" enable-background="new 0 0 310 216" xml:space="preserve">
+
+<!-- blue dot -->
+<circle fill="#6b85dd" stroke="#4266d5" stroke-width="3" cx="50.5" cy="58.665" r="16.5"></circle>
+<!-- red dot -->
+<circle fill="#d66661" stroke="#c93d39" stroke-width="3" cx="212.459" cy="60.249" r="16.5"></circle>
+<!-- green dot -->
+<circle fill="#6bab5b" stroke="#3b972e" stroke-width="3" cx="233.834" cy="23.874" r="16.5"></circle>
+<!-- purple dot -->
+<circle fill="#aa7dc0" stroke="#945bb0" stroke-width="3" cx="255.459" cy="59.999" r="16.5"></circle>
+
+<!-- "j" -->
+<path fill="#252525" d="M37.216,138.427c0-15.839,0.006-31.679-0.018-47.517c-0.001-0.827,0.169-1.234,1.043-1.47
+    c7.876-2.127,15.739-4.308,23.606-6.47c1.33-0.366,1.333-0.36,1.333,1.019c0,25.758,0.015,51.517-0.012,77.274
+    c-0.006,5.514,0.245,11.032-0.272,16.543c-0.628,6.69-2.15,13.092-6.438,18.506c-3.781,4.771-8.898,7.25-14.767,8.338
+    c-6.599,1.222-13.251,1.552-19.934,0.938c-4.616-0.423-9.045-1.486-12.844-4.363c-2.863-2.168-4.454-4.935-3.745-8.603
+    c0.736-3.806,3.348-5.978,6.861-7.127c2.262-0.74,4.628-0.872,6.994-0.53c1.823,0.264,3.42,1.023,4.779,2.288
+    c1.38,1.284,2.641,2.674,3.778,4.177c0.872,1.15,1.793,2.256,2.991,3.086c2.055,1.426,4,0.965,5.213-1.216
+    c0.819-1.473,0.997-3.106,1.173-4.731c0.255-2.348,0.255-4.707,0.256-7.062C37.218,167.145,37.216,152.786,37.216,138.427z"></path>
+
+<!-- "u" -->
+<path fill="#252525" d="M125.536,162.479c-2.908,2.385-5.783,4.312-8.88,5.904c-10.348,5.323-20.514,4.521-30.324-1.253
+    c-6.71-3.95-11.012-9.849-12.52-17.606c-0.236-1.213-0.363-2.438-0.363-3.688c0.01-19.797,0.017-39.593-0.02-59.39
+    c-0.002-1.102,0.285-1.357,1.363-1.351c7.798,0.049,15.597,0.044,23.396,0.003c0.95-0.005,1.177,0.25,1.175,1.183
+    c-0.027,19.356-0.025,38.713-0.018,58.07c0.002,6.34,3.599,10.934,9.672,12.42c2.13,0.521,4.19,0.396,6.173-0.6
+    c4.26-2.139,7.457-5.427,10.116-9.307c0.333-0.487,0.224-1,0.224-1.51c0.007-19.635,0.016-39.271-0.02-58.904
+    c-0.002-1.083,0.255-1.369,1.353-1.361c7.838,0.052,15.677,0.045,23.515,0.004c0.916-0.005,1.103,0.244,1.102,1.124
+    c-0.025,27.677-0.026,55.353,0.002,83.024c0.001,0.938-0.278,1.099-1.139,1.095c-7.918-0.028-15.837-0.028-23.756-0.001
+    c-0.815,0.003-1.1-0.166-1.073-1.037C125.581,167.117,125.536,164.928,125.536,162.479z"></path>
+
+<!-- "l" -->
+<path fill="#252525" d="M187.423,107.08c0,20.637-0.011,41.273,0.026,61.91c0.003,1.119-0.309,1.361-1.381,1.355
+    c-7.799-0.052-15.598-0.047-23.396-0.008c-0.898,0.008-1.117-0.222-1.115-1.115c0.021-39.074,0.021-78.147,0-117.226
+    c0-0.811,0.189-1.169,1.006-1.392c7.871-2.149,15.73-4.327,23.584-6.545c1.045-0.295,1.308-0.17,1.306,0.985
+    C187.412,65.727,187.423,86.403,187.423,107.08z"></path>
+
+<!-- "i" -->
+<path fill="#252525" d="M223.46,126.477c0,14.155-0.011,28.312,0.021,42.467c0.002,1.027-0.164,1.418-1.332,1.408
+    c-7.838-0.061-15.676-0.047-23.516-0.01c-0.881,0.004-1.121-0.189-1.119-1.104c0.026-26.153,0.025-52.307,0-78.458
+    c0-0.776,0.203-1.101,0.941-1.302c7.984-2.172,15.972-4.35,23.938-6.596c1.049-0.296,1.08,0.031,1.078,0.886
+    C223.454,98.004,223.46,112.239,223.46,126.477z"></path>
+
+<!-- "a" -->
+<path fill="#252525" d="M277.695,163.6c-0.786,0.646-1.404,1.125-2,1.635c-4.375,3.746-9.42,5.898-15.16,6.42
+    c-5.792,0.527-11.479,0.244-16.934-2.047c-12.08-5.071-15.554-17.188-11.938-27.448c1.799-5.111,5.472-8.868,9.831-11.94
+    c5.681-4.003,12.009-6.732,18.504-9.074c5.576-2.014,11.186-3.939,16.955-5.347c0.445-0.104,0.773-0.243,0.757-0.854
+    c-0.136-4.389,0.261-8.79-0.479-13.165c-1.225-7.209-6.617-10.013-12.895-9.348c-0.516,0.055-1.029,0.129-1.536,0.241
+    c-4.877,1.081-7.312,4.413-7.374,10.127c-0.02,1.729-0.229,3.418-0.693,5.084c-0.906,3.229-2.969,5.354-6.168,6.266
+    c-3.422,0.979-6.893,0.998-10.23-0.305c-6.529-2.543-8.877-10.164-5.12-16.512c2.249-3.799,5.606-6.4,9.461-8.405
+    c6.238-3.246,12.914-4.974,19.896-5.537c7.565-0.61,15.096-0.366,22.49,1.507c4.285,1.085,8.312,2.776,11.744,5.657
+    c4.473,3.749,6.776,8.647,6.812,14.374c0.139,21.477,0.096,42.951,0.143,64.428c0.002,0.799-0.248,0.983-1.021,0.98
+    c-8.035-0.025-16.074-0.023-24.113-0.001c-0.716,0.002-0.973-0.146-0.941-0.915C277.736,167.562,277.695,165.698,277.695,163.6z
+     M277.695,126.393c-4.793,2.104-9.25,4.373-13.287,7.408c-2.151,1.618-4.033,3.483-5.732,5.581
+    c-4.229,5.226-1.988,13.343,1.693,16.599c1.592,1.406,3.359,1.906,5.419,1.521c1.621-0.307,3.149-0.857,4.549-1.734
+    c1.521-0.951,2.949-2.072,4.539-2.887c2.31-1.18,2.97-2.861,2.894-5.445C277.561,140.484,277.695,133.527,277.695,126.393z"></path>
+
+</svg>
+
+        <h1>
+          <a name="Hecke">Hecke</a>
+        </h1>
+
+        <p>
+          <a href="../index.html#Hecke">← Back to package list</a>
+        </p>
+
+    </div>
+
+    <p>
+      If you think that there is an error in how your package is being tested or represented, please file an issue at <a href="https://github.com/JuliaComputing/NewPkgEval.jl">NewPkgEval.jl</a>, making sure to read the FAQ first.
+    </p>
+
+
+    <h3>Results with Julia v1.2.0</h3>
+
+    <p>
+      Testing was <strong>interrupted</strong>: test duration exceeded the time limit.
+      Last evaluation was  ago and took 1 hour, 8 seconds.
+    </p>
+
+    <p>
+      Click <a href="/home/maleadt/Julia/pkg/NewPkgEval/site/build/logs/Hecke/1.2.0.log">here</a> to download the log file.
+      
+    </p>
+
+      <button class="collapsible">Click here to show the log contents.</button>
+      <div class="content">
+      <pre> Resolving package versions...
+ Installed Requires ──────── v0.5.2
+ Installed BinaryProvider ── v0.5.8
+ Installed AbstractAlgebra ─ v0.7.1
+ Installed Nemo ──────────── v0.15.1
+ Installed Hecke ─────────── v0.6.7
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.2&#x2F;Project.toml`
+  [3e1990a7] + Hecke v0.6.7
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.2&#x2F;Manifest.toml`
+  [c3fe647b] + AbstractAlgebra v0.7.1
+  [b99e7846] + BinaryProvider v0.5.8
+  [3e1990a7] + Hecke v0.6.7
+  [2edaba10] + Nemo v0.15.1
+  [ae029012] + Requires v0.5.2
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [9abbd945] + Profile 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building Nemo → `~&#x2F;.julia&#x2F;packages&#x2F;Nemo&#x2F;qzx0m&#x2F;deps&#x2F;build.log`
+   Testing Hecke
+    Status `&#x2F;tmp&#x2F;jl_478Gg8&#x2F;Manifest.toml`
+  [c3fe647b] AbstractAlgebra v0.7.1
+  [b99e7846] BinaryProvider v0.5.8
+  [3e1990a7] Hecke v0.6.7
+  [2edaba10] Nemo v0.15.1
+  [ae029012] Requires v0.5.2
+  [2a0f44e3] Base64  [`@stdlib&#x2F;Base64`]
+  [ade2ca70] Dates  [`@stdlib&#x2F;Dates`]
+  [8ba89e20] Distributed  [`@stdlib&#x2F;Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib&#x2F;InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib&#x2F;LibGit2`]
+  [8f399da3] Libdl  [`@stdlib&#x2F;Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib&#x2F;LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib&#x2F;Logging`]
+  [d6f4376e] Markdown  [`@stdlib&#x2F;Markdown`]
+  [44cfe95a] Pkg  [`@stdlib&#x2F;Pkg`]
+  [de0858da] Printf  [`@stdlib&#x2F;Printf`]
+  [9abbd945] Profile  [`@stdlib&#x2F;Profile`]
+  [3fa0cd96] REPL  [`@stdlib&#x2F;REPL`]
+  [9a3f8284] Random  [`@stdlib&#x2F;Random`]
+  [ea8e919c] SHA  [`@stdlib&#x2F;SHA`]
+  [9e88b42a] Serialization  [`@stdlib&#x2F;Serialization`]
+  [6462fe0b] Sockets  [`@stdlib&#x2F;Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib&#x2F;SparseArrays`]
+  [8dfed614] Test  [`@stdlib&#x2F;Test`]
+  [cf7118a7] UUIDs  [`@stdlib&#x2F;UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib&#x2F;Unicode`]
+
+Welcome to Nemo version 0.15.1
+
+Nemo comes with absolutely no warranty whatsoever
+
+
+Welcome to Nemo version 0.15.1
+
+Nemo comes with absolutely no warranty whatsoever
+
+
+Welcome to 
+
+    _    _           _
+   | |  | |         | |
+   | |__| | ___  ___| | _____
+   |  __  |&#x2F; _ \&#x2F; __| |&#x2F; &#x2F; _ \
+   | |  | |  __&#x2F; (__|   &lt;  __&#x2F;
+   |_|  |_|\___|\___|_|\_\___|
+    
+Version 0.6.7 ... 
+ ... which comes with absolutely no warranty whatsoever
+(c) 2015-2019 by Claus Fieker, Tommy Hofmann and Carlo Sircana
+
+Test Summary: | Pass  Total
+Number fields |   20     20
+103.589238 seconds (79.37 M allocations: 3.923 GiB, 5.96% gc time)
+Test Summary: | Pass  Total
+AlgAss        |  919    919
+183.601078 seconds (121.99 M allocations: 6.267 GiB, 4.55% gc time)
+&quot;having a hard time computing the LLL basis&quot; = &quot;having a hard time computing the LLL basis&quot;
+Test Summary: | Pass  Total
+AlgAssAbsOrd  |  179    179
+444.063071 seconds (572.18 M allocations: 24.110 GiB, 14.79% gc time)
+Test Summary: | Pass  Total
+AlgAssRelOrd  |   33     33
+ 62.364299 seconds (110.56 M allocations: 4.201 GiB, 19.08% gc time)
+Test Summary:   | Pass  Total
+Elliptic curves |  278    278
+ 45.497348 seconds (23.92 M allocations: 2.950 GiB, 5.44% gc time)
+Test Summary:                     | Pass  Total
+Finitely generated abelian groups |  333    333
+ 38.807275 seconds (30.08 M allocations: 1.403 GiB, 5.49% gc time)
+Test Summary:  | Pass  Total
+Generic Groups |  928    928
+ 33.834517 seconds (77.00 M allocations: 3.548 GiB, 21.31% gc time)
+Test Summary:  |
+Linear algebra | No tests
+  0.007225 seconds (699 allocations: 59.813 KiB)
+Test Summary: | Pass  Total
+Map           |  132    132
+  2.012735 seconds (1.02 M allocations: 51.901 MiB, 4.32% gc time)
+Test Summary: | Pass  Total
+Misc          | 5043   5043
+343.953965 seconds (169.89 M allocations: 18.217 GiB, 6.25% gc time)
+Test Summary: | Pass  Total
+NfAbs         | 2089   2089
+285.743463 seconds (163.15 M allocations: 22.933 GiB, 7.99% gc time)
+NfOrd.jl
+  9.569527 seconds (7.73 M allocations: 494.147 MiB, 9.42% gc time)
+Elem.jl
+  1.953945 seconds (441.73 k allocations: 23.864 MiB, 2.36% gc time)
+Ideal.jl
+ 13.178219 seconds (15.15 M allocations: 973.971 MiB, 12.27% gc time)
+FracIdl.jl
+  2.413288 seconds (1.33 M allocations: 67.876 MiB, 4.22% gc time)
+ResidueRing.jl
+  0.414634 seconds (120.78 k allocations: 14.952 MiB, 12.67% gc time)
+Clgp.jl
+266.805145 seconds (245.55 M allocations: 24.147 GiB, 11.85% gc time)
+RayClassGroup.jl
+  7.495111 seconds (6.94 M allocations: 361.866 MiB, 9.84% gc time)
+ResidueRingMultGrp.jl
+ 24.257771 seconds (39.65 M allocations: 2.506 GiB, 21.93% gc time)
+Overorders.jl
+ 35.911747 seconds (64.09 M allocations: 3.159 GiB, 22.40% gc time)
+LinearAlgebra.jl
+  0.000131 seconds (404 allocations: 18.328 KiB)
+1433.094240 seconds (162.87 M allocations: 195.345 GiB, 6.51% gc time)
+PicardGroup.jl
+ 25.533881 seconds (17.59 M allocations: 4.156 GiB, 13.10% gc time)
+Test Summary:                    |  Pass  Total
+Orders in absolute number fields | 15581  15581
+1820.671333 seconds (561.47 M allocations: 231.204 GiB, 7.97% gc time)
+NfRel&#x2F;NfRelOrd.jl
+
+signal (15): Terminated
+in expression starting at none:10
+epoll_pwait at &#x2F;lib&#x2F;x86_64-linux-gnu&#x2F;libc.so.6 (unknown line)
+uv__io_poll at &#x2F;workspace&#x2F;srcdir&#x2F;libuv&#x2F;src&#x2F;unix&#x2F;linux-core.c:261
+uv_run at &#x2F;workspace&#x2F;srcdir&#x2F;libuv&#x2F;src&#x2F;unix&#x2F;core.c:361
+jl_run_once at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;src&#x2F;jl_uv.c:202
+jl_task_get_next at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;src&#x2F;partr.c:285
+poptaskref at .&#x2F;task.jl:564
+wait at .&#x2F;task.jl:591
+wait at .&#x2F;condition.jl:104
+stream_wait at .&#x2F;stream.jl:47
+wait at .&#x2F;process.jl:956 [inlined]
+success at .&#x2F;process.jl:771 [inlined]
+#run#536 at .&#x2F;process.jl:728
+run at .&#x2F;process.jl:726 [inlined]
+#40 at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;backwards_compatible_isolation.jl:600
+#41 at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;backwards_compatible_isolation.jl:611
+#32 at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;backwards_compatible_isolation.jl:568 [inlined]
+withenv at .&#x2F;env.jl:161
+#30 at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;backwards_compatible_isolation.jl:567
+#mktempdir#15 at .&#x2F;file.jl:584
+mktempdir at .&#x2F;file.jl:582 [inlined]
+mktempdir at .&#x2F;file.jl:582 [inlined]
+#with_dependencies_loadable_at_toplevel#27 at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;backwards_compatible_isolation.jl:516
+#with_dependencies_loadable_at_toplevel at .&#x2F;none:0 [inlined]
+backwards_compatibility_for_test at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;backwards_compatible_isolation.jl:606
+#test#119 at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;Operations.jl:1263
+#test at .&#x2F;none:0 [inlined]
+#test#62 at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:245
+test at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:233 [inlined]
+#test#61 at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:230 [inlined]
+test at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:230 [inlined]
+#test#60 at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:229 [inlined]
+test at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:229 [inlined]
+#test#59 at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:228
+test at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:228
+jl_apply_generic at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;src&#x2F;gf.c:2197
+do_call at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;src&#x2F;interpreter.c:323
+eval_value at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;src&#x2F;interpreter.c:411
+eval_stmt_value at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;src&#x2F;interpreter.c:362 [inlined]
+eval_body at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;src&#x2F;interpreter.c:772
+jl_interpret_toplevel_thunk_callback at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;src&#x2F;interpreter.c:884
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7f09601f4a0f)
+unknown function (ip: (nil))
+jl_interpret_toplevel_thunk at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;src&#x2F;interpreter.c:893
+jl_toplevel_eval_flex at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;src&#x2F;toplevel.c:815
+jl_toplevel_eval_flex at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;src&#x2F;toplevel.c:764
+jl_toplevel_eval_in at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;src&#x2F;toplevel.c:844
+eval at .&#x2F;boot.jl:330
+jl_apply_generic at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;src&#x2F;gf.c:2191
+exec_options at .&#x2F;client.jl:271
+_start at .&#x2F;client.jl:464
+jl_apply_generic at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;src&#x2F;gf.c:2191
+jl_apply at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;ui&#x2F;..&#x2F;src&#x2F;julia.h:1614 [inlined]
+true_main at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;ui&#x2F;repl.c:96
+main at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;ui&#x2F;repl.c:217
+__libc_start_main at &#x2F;lib&#x2F;x86_64-linux-gnu&#x2F;libc.so.6 (unknown line)
+_start at &#x2F;opt&#x2F;julia&#x2F;bin&#x2F;julia (unknown line)
+unknown function (ip: 0xffffffffffffffff)
+Allocations: 7955507 (Pool: 7953811; Big: 1696); GC: 17
+</pre>
+      </div>
+
+    <h3>Results with Julia v1.3.0</h3>
+
+    <p>
+      Testing was <strong>successful</strong>.
+      Last evaluation was  ago and took 42 minutes, 33 seconds.
+    </p>
+
+    <p>
+      Click <a href="/home/maleadt/Julia/pkg/NewPkgEval/site/build/logs/Hecke/1.3.0.log">here</a> to download the log file.
+      
+    </p>
+
+      <button class="collapsible">Click here to show the log contents.</button>
+      <div class="content">
+      <pre> Resolving package versions...
+ Installed Requires ──────── v0.5.2
+ Installed BinaryProvider ── v0.5.8
+ Installed AbstractAlgebra ─ v0.7.1
+ Installed Nemo ──────────── v0.15.1
+ Installed Hecke ─────────── v0.6.7
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Project.toml`
+  [3e1990a7] + Hecke v0.6.7
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Manifest.toml`
+  [c3fe647b] + AbstractAlgebra v0.7.1
+  [b99e7846] + BinaryProvider v0.5.8
+  [3e1990a7] + Hecke v0.6.7
+  [2edaba10] + Nemo v0.15.1
+  [ae029012] + Requires v0.5.2
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [9abbd945] + Profile 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building Nemo → `~&#x2F;.julia&#x2F;packages&#x2F;Nemo&#x2F;qzx0m&#x2F;deps&#x2F;build.log`
+   Testing Hecke
+    Status `&#x2F;tmp&#x2F;jl_cG175K&#x2F;Manifest.toml`
+  [c3fe647b] AbstractAlgebra v0.7.1
+  [b99e7846] BinaryProvider v0.5.8
+  [3e1990a7] Hecke v0.6.7
+  [2edaba10] Nemo v0.15.1
+  [ae029012] Requires v0.5.2
+  [2a0f44e3] Base64  [`@stdlib&#x2F;Base64`]
+  [ade2ca70] Dates  [`@stdlib&#x2F;Dates`]
+  [8ba89e20] Distributed  [`@stdlib&#x2F;Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib&#x2F;InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib&#x2F;LibGit2`]
+  [8f399da3] Libdl  [`@stdlib&#x2F;Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib&#x2F;LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib&#x2F;Logging`]
+  [d6f4376e] Markdown  [`@stdlib&#x2F;Markdown`]
+  [44cfe95a] Pkg  [`@stdlib&#x2F;Pkg`]
+  [de0858da] Printf  [`@stdlib&#x2F;Printf`]
+  [9abbd945] Profile  [`@stdlib&#x2F;Profile`]
+  [3fa0cd96] REPL  [`@stdlib&#x2F;REPL`]
+  [9a3f8284] Random  [`@stdlib&#x2F;Random`]
+  [ea8e919c] SHA  [`@stdlib&#x2F;SHA`]
+  [9e88b42a] Serialization  [`@stdlib&#x2F;Serialization`]
+  [6462fe0b] Sockets  [`@stdlib&#x2F;Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib&#x2F;SparseArrays`]
+  [8dfed614] Test  [`@stdlib&#x2F;Test`]
+  [cf7118a7] UUIDs  [`@stdlib&#x2F;UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib&#x2F;Unicode`]
+
+Welcome to Nemo version 0.15.1
+
+Nemo comes with absolutely no warranty whatsoever
+
+
+Welcome to Nemo version 0.15.1
+
+Nemo comes with absolutely no warranty whatsoever
+
+
+Welcome to 
+
+    _    _           _
+   | |  | |         | |
+   | |__| | ___  ___| | _____
+   |  __  |&#x2F; _ \&#x2F; __| |&#x2F; &#x2F; _ \
+   | |  | |  __&#x2F; (__|   &lt;  __&#x2F;
+   |_|  |_|\___|\___|_|\_\___|
+    
+Version 0.6.7 ... 
+ ... which comes with absolutely no warranty whatsoever
+(c) 2015-2019 by Claus Fieker, Tommy Hofmann and Carlo Sircana
+
+Test Summary: | Pass  Total
+Number fields |   20     20
+ 95.445965 seconds (72.84 M allocations: 3.581 GiB, 3.98% gc time)
+Test Summary: | Pass  Total
+AlgAss        |  919    919
+173.896126 seconds (116.20 M allocations: 5.881 GiB, 2.65% gc time)
+&quot;having a hard time computing the LLL basis&quot; = &quot;having a hard time computing the LLL basis&quot;
+Test Summary: | Pass  Total
+AlgAssAbsOrd  |  179    179
+406.572644 seconds (546.76 M allocations: 22.774 GiB, 11.80% gc time)
+Test Summary: | Pass  Total
+AlgAssRelOrd  |   33     33
+ 66.623240 seconds (112.74 M allocations: 4.237 GiB, 16.32% gc time)
+Test Summary:   | Pass  Total
+Elliptic curves |  278    278
+ 48.397693 seconds (22.82 M allocations: 2.886 GiB, 1.69% gc time)
+Test Summary:                     | Pass  Total
+Finitely generated abelian groups |  333    333
+ 36.084535 seconds (28.62 M allocations: 1.317 GiB, 2.20% gc time)
+Test Summary:  | Pass  Total
+Generic Groups |  928    928
+ 28.751416 seconds (76.45 M allocations: 3.509 GiB, 9.25% gc time)
+Test Summary:  |
+Linear algebra | No tests
+  0.007871 seconds (724 allocations: 61.047 KiB)
+Test Summary: | Pass  Total
+Map           |  132    132
+  1.954601 seconds (799.36 k allocations: 40.243 MiB)
+Test Summary: | Pass  Total
+Misc          | 5032   5032
+322.659967 seconds (167.22 M allocations: 17.868 GiB, 2.39% gc time)
+Test Summary: | Pass  Total
+NfAbs         | 2089   2089
+268.817945 seconds (173.47 M allocations: 23.458 GiB, 3.07% gc time)
+NfOrd.jl
+  8.410794 seconds (7.36 M allocations: 474.235 MiB, 6.28% gc time)
+Elem.jl
+  2.405713 seconds (407.24 k allocations: 21.776 MiB, 10.91% gc time)
+Ideal.jl
+ 12.073538 seconds (14.95 M allocations: 951.729 MiB, 8.28% gc time)
+FracIdl.jl
+  2.911282 seconds (1.26 M allocations: 63.836 MiB, 9.28% gc time)
+ResidueRing.jl
+  0.422094 seconds (125.52 k allocations: 15.552 MiB)
+Clgp.jl
+177.428133 seconds (180.89 M allocations: 17.855 GiB, 5.09% gc time)
+RayClassGroup.jl
+  5.908772 seconds (5.79 M allocations: 297.783 MiB, 4.07% gc time)
+ResidueRingMultGrp.jl
+ 22.141048 seconds (39.99 M allocations: 2.536 GiB, 14.41% gc time)
+Overorders.jl
+ 30.892158 seconds (64.01 M allocations: 3.137 GiB, 17.48% gc time)
+LinearAlgebra.jl
+  0.000131 seconds (404 allocations: 18.328 KiB)
+ 90.009215 seconds (41.64 M allocations: 5.316 GiB, 2.85% gc time)
+PicardGroup.jl
+ 21.310268 seconds (14.05 M allocations: 3.415 GiB, 4.63% gc time)
+Test Summary:                    |  Pass  Total
+Orders in absolute number fields | 15581  15581
+373.960245 seconds (370.49 M allocations: 34.041 GiB, 6.28% gc time)
+NfRel&#x2F;NfRelOrd.jl
+125.875703 seconds (91.58 M allocations: 5.316 GiB, 5.67% gc time)
+NfRel&#x2F;Ideal.jl
+  7.559199 seconds (12.20 M allocations: 669.583 MiB, 12.47% gc time)
+NfRel&#x2F;FracIdeal.jl
+  0.128375 seconds (267.45 k allocations: 14.768 MiB)
+NfRel&#x2F;NfRel.jl
+  0.591928 seconds (370.20 k allocations: 49.531 MiB)
+NfRel&#x2F;Elem.jl
+  0.066956 seconds (32.72 k allocations: 1.871 MiB)
+NfRel&#x2F;NEQ_Kirschmer.jl
+  8.258745 seconds (6.70 M allocations: 346.522 MiB, 5.29% gc time)
+Test Summary: | Pass  Total
+NfRel         |   83     83
+142.509477 seconds (111.15 M allocations: 6.373 GiB, 5.97% gc time)
+Test Summary: | Pass  Total
+RCF           |   60     60
+ 82.840243 seconds (74.67 M allocations: 4.570 GiB, 4.64% gc time)
+Test Summary: |
+Examples      | No tests
+  0.012572 seconds (1.23 k allocations: 112.188 KiB)
+Test Summary: | Pass  Total
+Sparse        |  176    176
+  9.964952 seconds (5.99 M allocations: 300.156 MiB, 3.68% gc time)
+Test Summary:                 | Pass  Total
+Quadratic and hermitian forms |   77     77
+320.990381 seconds (702.53 M allocations: 37.779 GiB, 18.14% gc time)
+Conjugates.jl
+  4.621939 seconds (3.12 M allocations: 157.908 MiB)
+Test Summary:  | Pass  Total
+LocalField ... |   10     10
+  4.638441 seconds (3.12 M allocations: 157.979 MiB)
+   Testing Hecke tests passed 
+</pre>
+      </div>
+
+    <h3>Results with Julia v1.3.1-pre-7704df0a5a</h3>
+
+    <p>
+      Testing was <strong>successful</strong>.
+      Last evaluation was  ago and took 44 minutes, 49 seconds.
+    </p>
+
+    <p>
+      Click <a href="/home/maleadt/Julia/pkg/NewPkgEval/site/build/logs/Hecke/1.3.1-pre-7704df0a5a.log">here</a> to download the log file.
+      
+    </p>
+
+      <button class="collapsible">Click here to show the log contents.</button>
+      <div class="content">
+      <pre> Resolving package versions...
+ Installed Requires ──────── v0.5.2
+ Installed BinaryProvider ── v0.5.8
+ Installed AbstractAlgebra ─ v0.7.1
+ Installed Nemo ──────────── v0.15.1
+ Installed Hecke ─────────── v0.6.7
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Project.toml`
+  [3e1990a7] + Hecke v0.6.7
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Manifest.toml`
+  [c3fe647b] + AbstractAlgebra v0.7.1
+  [b99e7846] + BinaryProvider v0.5.8
+  [3e1990a7] + Hecke v0.6.7
+  [2edaba10] + Nemo v0.15.1
+  [ae029012] + Requires v0.5.2
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [9abbd945] + Profile 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building Nemo → `~&#x2F;.julia&#x2F;packages&#x2F;Nemo&#x2F;qzx0m&#x2F;deps&#x2F;build.log`
+   Testing Hecke
+    Status `&#x2F;tmp&#x2F;jl_xzYDAG&#x2F;Manifest.toml`
+  [c3fe647b] AbstractAlgebra v0.7.1
+  [b99e7846] BinaryProvider v0.5.8
+  [3e1990a7] Hecke v0.6.7
+  [2edaba10] Nemo v0.15.1
+  [ae029012] Requires v0.5.2
+  [2a0f44e3] Base64  [`@stdlib&#x2F;Base64`]
+  [ade2ca70] Dates  [`@stdlib&#x2F;Dates`]
+  [8ba89e20] Distributed  [`@stdlib&#x2F;Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib&#x2F;InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib&#x2F;LibGit2`]
+  [8f399da3] Libdl  [`@stdlib&#x2F;Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib&#x2F;LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib&#x2F;Logging`]
+  [d6f4376e] Markdown  [`@stdlib&#x2F;Markdown`]
+  [44cfe95a] Pkg  [`@stdlib&#x2F;Pkg`]
+  [de0858da] Printf  [`@stdlib&#x2F;Printf`]
+  [9abbd945] Profile  [`@stdlib&#x2F;Profile`]
+  [3fa0cd96] REPL  [`@stdlib&#x2F;REPL`]
+  [9a3f8284] Random  [`@stdlib&#x2F;Random`]
+  [ea8e919c] SHA  [`@stdlib&#x2F;SHA`]
+  [9e88b42a] Serialization  [`@stdlib&#x2F;Serialization`]
+  [6462fe0b] Sockets  [`@stdlib&#x2F;Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib&#x2F;SparseArrays`]
+  [8dfed614] Test  [`@stdlib&#x2F;Test`]
+  [cf7118a7] UUIDs  [`@stdlib&#x2F;UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib&#x2F;Unicode`]
+
+Welcome to Nemo version 0.15.1
+
+Nemo comes with absolutely no warranty whatsoever
+
+
+Welcome to Nemo version 0.15.1
+
+Nemo comes with absolutely no warranty whatsoever
+
+
+Welcome to 
+
+    _    _           _
+   | |  | |         | |
+   | |__| | ___  ___| | _____
+   |  __  |&#x2F; _ \&#x2F; __| |&#x2F; &#x2F; _ \
+   | |  | |  __&#x2F; (__|   &lt;  __&#x2F;
+   |_|  |_|\___|\___|_|\_\___|
+    
+Version 0.6.7 ... 
+ ... which comes with absolutely no warranty whatsoever
+(c) 2015-2019 by Claus Fieker, Tommy Hofmann and Carlo Sircana
+
+Test Summary: | Pass  Total
+Number fields |   20     20
+ 92.449861 seconds (72.84 M allocations: 3.581 GiB, 3.65% gc time)
+Test Summary: | Pass  Total
+AlgAss        |  919    919
+175.434415 seconds (117.02 M allocations: 5.925 GiB, 2.82% gc time)
+&quot;having a hard time computing the LLL basis&quot; = &quot;having a hard time computing the LLL basis&quot;
+Test Summary: | Pass  Total
+AlgAssAbsOrd  |  179    179
+414.109146 seconds (556.00 M allocations: 23.077 GiB, 11.67% gc time)
+Test Summary: | Pass  Total
+AlgAssRelOrd  |   33     33
+ 76.916105 seconds (121.49 M allocations: 4.644 GiB, 16.63% gc time)
+Test Summary:   | Pass  Total
+Elliptic curves |  278    278
+ 52.263833 seconds (22.85 M allocations: 2.887 GiB, 2.06% gc time)
+Test Summary:                     | Pass  Total
+Finitely generated abelian groups |  333    333
+ 42.671857 seconds (28.62 M allocations: 1.317 GiB, 2.01% gc time)
+Test Summary:  | Pass  Total
+Generic Groups |  928    928
+ 28.981127 seconds (76.45 M allocations: 3.509 GiB, 9.00% gc time)
+Test Summary:  |
+Linear algebra | No tests
+  0.008824 seconds (725 allocations: 61.375 KiB)
+Test Summary: | Pass  Total
+Map           |  132    132
+  1.927565 seconds (797.34 k allocations: 40.181 MiB)
+Test Summary: | Pass  Total
+Misc          | 5033   5033
+360.751837 seconds (169.13 M allocations: 17.872 GiB, 2.24% gc time)
+Test Summary: | Pass  Total
+NfAbs         | 2089   2089
+308.394607 seconds (157.38 M allocations: 22.584 GiB, 2.89% gc time)
+NfOrd.jl
+  9.730087 seconds (7.38 M allocations: 474.330 MiB, 6.20% gc time)
+Elem.jl
+  2.119148 seconds (407.04 k allocations: 21.838 MiB)
+Ideal.jl
+ 13.083758 seconds (15.01 M allocations: 954.194 MiB, 9.54% gc time)
+FracIdl.jl
+  2.395214 seconds (1.26 M allocations: 63.870 MiB)
+ResidueRing.jl
+  0.455032 seconds (127.41 k allocations: 15.502 MiB)
+Clgp.jl
+241.729165 seconds (205.27 M allocations: 20.254 GiB, 4.96% gc time)
+RayClassGroup.jl
+  7.164561 seconds (5.80 M allocations: 298.421 MiB, 4.62% gc time)
+ResidueRingMultGrp.jl
+ 25.209296 seconds (39.90 M allocations: 2.539 GiB, 15.38% gc time)
+Overorders.jl
+ 33.613271 seconds (63.93 M allocations: 3.131 GiB, 17.61% gc time)
+LinearAlgebra.jl
+  0.000154 seconds (404 allocations: 18.328 KiB)
+ 24.922793 seconds (21.67 M allocations: 1.203 GiB, 11.31% gc time)
+PicardGroup.jl
+ 14.851172 seconds (8.45 M allocations: 1.648 GiB, 6.56% gc time)
+Test Summary:                    |  Pass  Total
+Orders in absolute number fields | 15581  15581
+375.333561 seconds (369.22 M allocations: 30.561 GiB, 7.40% gc time)
+NfRel&#x2F;NfRelOrd.jl
+126.971740 seconds (89.77 M allocations: 5.211 GiB, 5.05% gc time)
+NfRel&#x2F;Ideal.jl
+  8.006684 seconds (13.08 M allocations: 723.882 MiB, 15.50% gc time)
+NfRel&#x2F;FracIdeal.jl
+  0.242955 seconds (264.69 k allocations: 14.597 MiB)
+NfRel&#x2F;NfRel.jl
+  0.634372 seconds (370.31 k allocations: 49.533 MiB)
+NfRel&#x2F;Elem.jl
+  0.069505 seconds (32.72 k allocations: 1.871 MiB)
+NfRel&#x2F;NEQ_Kirschmer.jl
+  8.219174 seconds (6.67 M allocations: 343.093 MiB, 4.35% gc time)
+Test Summary: | Pass  Total
+NfRel         |   83     83
+144.168555 seconds (110.18 M allocations: 6.317 GiB, 5.56% gc time)
+Test Summary: | Pass  Total
+RCF           |   60     60
+ 90.552379 seconds (74.56 M allocations: 4.670 GiB, 5.05% gc time)
+Test Summary: |
+Examples      | No tests
+  0.013826 seconds (1.23 k allocations: 112.188 KiB)
+Test Summary: | Pass  Total
+Sparse        |  176    176
+ 10.482057 seconds (5.99 M allocations: 300.058 MiB, 2.85% gc time)
+Test Summary:                 | Pass  Total
+Quadratic and hermitian forms |   77     77
+337.430069 seconds (697.98 M allocations: 37.544 GiB, 18.50% gc time)
+Conjugates.jl
+  5.623580 seconds (3.12 M allocations: 157.709 MiB, 8.94% gc time)
+Test Summary:  | Pass  Total
+LocalField ... |   10     10
+  5.634381 seconds (3.12 M allocations: 157.780 MiB, 8.92% gc time)
+   Testing Hecke tests passed 
+</pre>
+      </div>
+
+
+  </div>
+  </body>
+
+  <script type="text/javascript">// handle collapsibles
+var coll = document.getElementsByClassName("collapsible");
+for (var i = 0; i < coll.length; i++) {
+    coll[i].textContent = "▸ " + coll[i].textContent
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            this.textContent = "▸" + this.textContent.substr(1)
+            content.style.display = "none";
+        } else {
+            this.textContent = "▾" + this.textContent.substr(1)
+            content.style.display = "block";
+        }
+    });
+}
+</script>
+</html>
+

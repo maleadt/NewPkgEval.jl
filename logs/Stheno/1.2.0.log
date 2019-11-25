@@ -1,0 +1,440 @@
+ Resolving package versions...
+ Installed Missings ───────────── v0.4.3
+ Installed DataAPI ────────────── v1.1.0
+ Installed PDMats ─────────────── v0.9.10
+ Installed AbstractFFTs ───────── v0.5.0
+ Installed CommonSubexpressions ─ v0.2.0
+ Installed BinaryProvider ─────── v0.5.8
+ Installed StatsBase ──────────── v0.32.0
+ Installed Stheno ─────────────── v0.5.0
+ Installed Conda ──────────────── v1.3.0
+ Installed Requires ───────────── v0.5.2
+ Installed StatsFuns ──────────── v0.9.0
+ Installed URIParser ──────────── v0.4.0
+ Installed Reexport ───────────── v0.2.0
+ Installed IRTools ────────────── v0.3.0
+ Installed Zygote ─────────────── v0.4.1
+ Installed BlockArrays ────────── v0.10.2
+ Installed TimerOutputs ───────── v0.5.3
+ Installed OrderedCollections ─── v1.1.0
+ Installed Compat ─────────────── v2.2.0
+ Installed Rmath ──────────────── v0.5.1
+ Installed ForwardDiff ────────── v0.10.7
+ Installed RecipesBase ────────── v0.7.0
+ Installed NNlib ──────────────── v0.6.0
+ Installed DataStructures ─────── v0.17.6
+ Installed Parsers ────────────── v0.3.10
+ Installed Distributions ──────── v0.21.9
+ Installed FillArrays ─────────── v0.8.2
+ Installed DiffRules ──────────── v0.1.0
+ Installed JSON ───────────────── v0.21.0
+ Installed StaticArrays ───────── v0.12.1
+ Installed NaNMath ────────────── v0.3.3
+ Installed DiffResults ────────── v0.0.4
+ Installed SortingAlgorithms ──── v0.3.1
+ Installed QuadGK ─────────────── v2.1.1
+ Installed VersionParsing ─────── v1.1.3
+ Installed MacroTools ─────────── v0.5.2
+ Installed FFTW ───────────────── v1.1.0
+ Installed SpecialFunctions ───── v0.8.0
+ Installed Distances ──────────── v0.8.2
+ Installed ZygoteRules ────────── v0.2.0
+ Installed BinDeps ────────────── v0.8.10
+ Installed Arpack ─────────────── v0.3.1
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [8188c328] + Stheno v0.5.0
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [621f4979] + AbstractFFTs v0.5.0
+  [7d9fca2a] + Arpack v0.3.1
+  [9e28174c] + BinDeps v0.8.10
+  [b99e7846] + BinaryProvider v0.5.8
+  [8e7c35d0] + BlockArrays v0.10.2
+  [bbf7d656] + CommonSubexpressions v0.2.0
+  [34da2185] + Compat v2.2.0
+  [8f4d0f93] + Conda v1.3.0
+  [9a962f9c] + DataAPI v1.1.0
+  [864edb3b] + DataStructures v0.17.6
+  [163ba53b] + DiffResults v0.0.4
+  [b552c78f] + DiffRules v0.1.0
+  [b4f34e82] + Distances v0.8.2
+  [31c24e10] + Distributions v0.21.9
+  [7a1cc6ca] + FFTW v1.1.0
+  [1a297f60] + FillArrays v0.8.2
+  [f6369f11] + ForwardDiff v0.10.7
+  [7869d1d1] + IRTools v0.3.0
+  [682c06a0] + JSON v0.21.0
+  [1914dd2f] + MacroTools v0.5.2
+  [e1d29d7a] + Missings v0.4.3
+  [872c559c] + NNlib v0.6.0
+  [77ba4419] + NaNMath v0.3.3
+  [bac558e1] + OrderedCollections v1.1.0
+  [90014a1f] + PDMats v0.9.10
+  [69de0a69] + Parsers v0.3.10
+  [1fd47b50] + QuadGK v2.1.1
+  [3cdcf5f2] + RecipesBase v0.7.0
+  [189a3867] + Reexport v0.2.0
+  [ae029012] + Requires v0.5.2
+  [79098fc4] + Rmath v0.5.1
+  [a2af1166] + SortingAlgorithms v0.3.1
+  [276daf66] + SpecialFunctions v0.8.0
+  [90137ffa] + StaticArrays v0.12.1
+  [2913bbd2] + StatsBase v0.32.0
+  [4c63d2b9] + StatsFuns v0.9.0
+  [8188c328] + Stheno v0.5.0
+  [a759f4b9] + TimerOutputs v0.5.3
+  [30578b45] + URIParser v0.4.0
+  [81def892] + VersionParsing v1.1.3
+  [e88e6eb3] + Zygote v0.4.1
+  [700de1a5] + ZygoteRules v0.2.0
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [4607b0f0] + SuiteSparse 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building Conda ───────────→ `~/.julia/packages/Conda/kLXeC/deps/build.log`
+  Building Rmath ───────────→ `~/.julia/packages/Rmath/4wt82/deps/build.log`
+  Building FFTW ────────────→ `~/.julia/packages/FFTW/loJ3F/deps/build.log`
+  Building SpecialFunctions → `~/.julia/packages/SpecialFunctions/ne2iw/deps/build.log`
+  Building Arpack ──────────→ `~/.julia/packages/Arpack/cu5By/deps/build.log`
+   Testing Stheno
+ Resolving package versions...
+ Installed FiniteDifferences ─ v0.9.0
+    Status `/tmp/jl_TKaKXS/Manifest.toml`
+  [621f4979] AbstractFFTs v0.5.0
+  [7d9fca2a] Arpack v0.3.1
+  [9e28174c] BinDeps v0.8.10
+  [b99e7846] BinaryProvider v0.5.8
+  [8e7c35d0] BlockArrays v0.10.2
+  [bbf7d656] CommonSubexpressions v0.2.0
+  [34da2185] Compat v2.2.0
+  [8f4d0f93] Conda v1.3.0
+  [9a962f9c] DataAPI v1.1.0
+  [864edb3b] DataStructures v0.17.6
+  [163ba53b] DiffResults v0.0.4
+  [b552c78f] DiffRules v0.1.0
+  [b4f34e82] Distances v0.8.2
+  [31c24e10] Distributions v0.21.9
+  [7a1cc6ca] FFTW v1.1.0
+  [1a297f60] FillArrays v0.8.2
+  [26cc04aa] FiniteDifferences v0.9.0
+  [f6369f11] ForwardDiff v0.10.7
+  [7869d1d1] IRTools v0.3.0
+  [682c06a0] JSON v0.21.0
+  [1914dd2f] MacroTools v0.5.2
+  [e1d29d7a] Missings v0.4.3
+  [872c559c] NNlib v0.6.0
+  [77ba4419] NaNMath v0.3.3
+  [bac558e1] OrderedCollections v1.1.0
+  [90014a1f] PDMats v0.9.10
+  [69de0a69] Parsers v0.3.10
+  [1fd47b50] QuadGK v2.1.1
+  [3cdcf5f2] RecipesBase v0.7.0
+  [189a3867] Reexport v0.2.0
+  [ae029012] Requires v0.5.2
+  [79098fc4] Rmath v0.5.1
+  [a2af1166] SortingAlgorithms v0.3.1
+  [276daf66] SpecialFunctions v0.8.0
+  [90137ffa] StaticArrays v0.12.1
+  [2913bbd2] StatsBase v0.32.0
+  [4c63d2b9] StatsFuns v0.9.0
+  [8188c328] Stheno v0.5.0
+  [a759f4b9] TimerOutputs v0.5.3
+  [30578b45] URIParser v0.4.0
+  [81def892] VersionParsing v1.1.3
+  [e88e6eb3] Zygote v0.4.1
+  [700de1a5] ZygoteRules v0.2.0
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [4607b0f0] SuiteSparse  [`@stdlib/SuiteSparse`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+util:
+gp:
+composite:
+abstract_gp:
+Test Summary: | Pass  Broken  Total
+Stheno        | 2760       4   2764
+ ──────────────────────────────────────────────────────────────────────────────
+                                       Time                   Allocations      
+                               ──────────────────────   ───────────────────────
+       Tot / % measured:             854s / 99.0%           48.3GiB / 100%     
+
+ Section               ncalls     time   %tot     avg     alloc   %tot      avg
+ ──────────────────────────────────────────────────────────────────────────────
+ composite                  1     306s  36.2%    306s   15.5GiB  32.2%  15.5GiB
+   addition                 1    92.2s  10.9%   92.2s   3.77GiB  7.84%  3.77GiB
+     Standardised T...      1    41.8s  4.94%   41.8s   2.08GiB  4.33%  2.08GiB
+       adj_fd               9    13.0s  1.53%   1.44s   1.37GiB  2.86%   156MiB
+       adj_ad               9    5.63s  0.67%   625ms    181MiB  0.37%  20.1MiB
+     Standardised T...      1    36.0s  4.26%   36.0s   1.32GiB  2.75%  1.32GiB
+       adj_fd               9    10.1s  1.20%   1.12s    638MiB  1.30%  70.9MiB
+       adj_ad               9    5.03s  0.59%   559ms    166MiB  0.34%  18.5MiB
+     Correlated GPs         1    12.6s  1.49%   12.6s    294MiB  0.60%   294MiB
+       Consistency ...      1    6.22s  0.74%   6.22s    105MiB  0.21%   105MiB
+     Verify mean / ...      1    1.79s  0.21%   1.79s   79.1MiB  0.16%  79.1MiB
+       Consistency ...      1    564ms  0.07%   564ms   14.5MiB  0.03%  14.5MiB
+   conditioning             1    77.7s  9.19%   77.7s   6.56GiB  13.7%  6.56GiB
+     Diff Tests             1    67.4s  7.97%   67.4s   6.29GiB  13.1%  6.29GiB
+       adj_fd               9    37.3s  4.41%   4.15s   5.19GiB  10.8%   590MiB
+       adj_ad               9    9.71s  1.15%   1.08s    388MiB  0.79%  43.1MiB
+     Consistency Tests      1    3.91s  0.46%   3.91s    115MiB  0.23%   115MiB
+     condition once         1    2.52s  0.30%   2.52s   84.7MiB  0.17%  84.7MiB
+     Conditioning w...      1    2.03s  0.24%   2.03s   26.8MiB  0.05%  26.8MiB
+     condition repe...      1    1.17s  0.14%   1.17s   31.2MiB  0.06%  31.2MiB
+     Observation            1    668ms  0.08%   668ms   22.0MiB  0.04%  22.0MiB
+   product                  1    69.0s  8.16%   69.0s   2.74GiB  5.69%  2.74GiB
+     multiply by fu...      1    41.6s  4.92%   41.6s   1.68GiB  3.49%  1.68GiB
+       Diff Tests           1    28.7s  3.39%   28.7s   1.16GiB  2.42%  1.16GiB
+         adj_fd             9    10.0s  1.18%   1.11s    513MiB  1.04%  57.0MiB
+         adj_ad             9    5.66s  0.67%   628ms    211MiB  0.43%  23.4MiB
+       Consistency ...      1    2.23s  0.26%   2.23s    103MiB  0.21%   103MiB
+     multiply by co...      1    27.4s  3.24%   27.4s   1.06GiB  2.20%  1.06GiB
+       Diff Tests           1    22.8s  2.70%   22.8s   0.95GiB  1.97%  0.95GiB
+         adj_fd             9    10.8s  1.27%   1.20s    527MiB  1.07%  58.5MiB
+         adj_ad             9    3.22s  0.38%   358ms    122MiB  0.25%  13.6MiB
+       Consistency ...      1    1.41s  0.17%   1.41s   38.6MiB  0.08%  38.6MiB
+     GP mul errors          1   17.1ms  0.00%  17.1ms    103KiB  0.00%   103KiB
+   compose                  1    42.5s  5.02%   42.5s   1.57GiB  3.27%  1.57GiB
+     general                1    26.1s  3.08%   26.1s   0.94GiB  1.95%  0.94GiB
+       Diff Tests           1    23.2s  2.75%   23.2s    894MiB  1.82%   894MiB
+         adj_fd             9    10.9s  1.29%   1.21s    535MiB  1.09%  59.5MiB
+         adj_ad             9    4.36s  0.52%   484ms    139MiB  0.28%  15.4MiB
+       Consistency ...      1    1.97s  0.23%   1.97s   43.7MiB  0.09%  43.7MiB
+     Stretch                1    14.9s  1.76%   14.9s    594MiB  1.21%   594MiB
+       scalar stretch       1    14.7s  1.74%   14.7s    588MiB  1.20%   588MiB
+         scalar input       1    14.6s  1.73%   14.6s    586MiB  1.19%   586MiB
+           adj_fd           9    10.7s  1.27%   1.19s    474MiB  0.96%  52.7MiB
+           adj_ad           9    752ms  0.09%  83.5ms   21.6MiB  0.04%  2.40MiB
+         vector input       1   84.7ms  0.01%  84.7ms   1.85MiB  0.00%  1.85MiB
+       Vector stretch       1    107ms  0.01%   107ms   2.92MiB  0.01%  2.92MiB
+       Matrix stretch       1   73.8ms  0.01%  73.8ms   2.39MiB  0.00%  2.39MiB
+     Shift                  1    1.19s  0.14%   1.19s   46.0MiB  0.09%  46.0MiB
+       Shift{Float64}       1    745ms  0.09%   745ms   30.2MiB  0.06%  30.2MiB
+       Shift{Vector...      1    448ms  0.05%   448ms   15.7MiB  0.03%  15.7MiB
+     Select                 1    305ms  0.04%   305ms   7.02MiB  0.01%  7.02MiB
+   cross                    1    15.6s  1.85%   15.6s    649MiB  1.32%   649MiB
+     Correctness tests      1    14.3s  1.69%   14.3s    621MiB  1.26%   621MiB
+       rand, logpdf...      1    7.13s  0.84%   7.13s    345MiB  0.70%   345MiB
+     Standardised T...      1    1.36s  0.16%   1.36s   27.7MiB  0.06%  27.7MiB
+     finites_to_block       1    596μs  0.00%   596μs   43.2KiB  0.00%  43.2KiB
+   Titsias                  1    6.59s  0.78%   6.59s    187MiB  0.38%   187MiB
+     optimal_q (mul...      1    3.17s  0.38%   3.17s    131MiB  0.27%   131MiB
+       multiple con...      1    955ms  0.11%   955ms   38.8MiB  0.08%  38.8MiB
+       single cond,...      1    923ms  0.11%   923ms   42.1MiB  0.09%  42.1MiB
+     optimal_q (sin...      1    2.15s  0.25%   2.15s   27.8MiB  0.06%  27.8MiB
+       Dense                1    1.16s  0.14%   1.16s   12.3MiB  0.03%  12.3MiB
+       σ²                   1    646ms  0.08%   646ms   14.4MiB  0.03%  14.4MiB
+         σ² = 0.01          1    593ms  0.07%   593ms   14.1MiB  0.03%  14.1MiB
+         σ² = 0.1           1   23.4ms  0.00%  23.4ms   70.7KiB  0.00%  70.7KiB
+         σ² = 1.0           1   15.2ms  0.00%  15.2ms   70.7KiB  0.00%  70.7KiB
+         σ² = 10.0          1   10.8ms  0.00%  10.8ms   70.7KiB  0.00%  70.7KiB
+       Diagonal             1    340ms  0.04%   340ms   1.13MiB  0.00%  1.13MiB
+     Consistency Tests      1    1.16s  0.14%   1.16s   26.0MiB  0.05%  26.0MiB
+     accuracy tests         1    119ms  0.01%   119ms   1.87MiB  0.00%  1.87MiB
+       Standardised...      1    716μs  0.00%   716μs    111KiB  0.00%   111KiB
+         Dense Obs....      1    105μs  0.00%   105μs   21.4KiB  0.00%  21.4KiB
+         Diagonal O...      1    101μs  0.00%   101μs   21.4KiB  0.00%  21.4KiB
+         BlockDiago...      1   92.6μs  0.00%  92.6μs   21.4KiB  0.00%  21.4KiB
+         Isotropic ...      1   88.7μs  0.00%  88.7μs   21.4KiB  0.00%  21.4KiB
+   indexing                 1    524ms  0.06%   524ms   19.9MiB  0.04%  19.9MiB
+     (Symmetric) Ma...      1    398ms  0.05%   398ms   18.2MiB  0.04%  18.2MiB
+     Vector-valued ...      1   59.6ms  0.01%  59.6ms    131KiB  0.00%   131KiB
+     no noise               1   54.0ms  0.01%  54.0ms   1.49MiB  0.00%  1.49MiB
+     Real-valued noise      1   12.1ms  0.00%  12.1ms   58.2KiB  0.00%  58.2KiB
+ gp                         1     277s  32.8%    277s   12.4GiB  25.9%  12.4GiB
+   kernel                   1     266s  31.4%    266s   11.9GiB  24.8%  11.9GiB
+     base kernels           1     266s  31.4%    266s   11.9GiB  24.8%  11.9GiB
+       Stretched            1    46.8s  5.53%   46.8s   1.75GiB  3.65%  1.75GiB
+         Convenienc...      1    23.5s  2.78%   23.5s    830MiB  1.69%   830MiB
+           adj_fd          32    10.0s  1.18%   312ms    451MiB  0.92%  14.1MiB
+           adj_ad          32    2.26s  0.27%  70.7ms   55.2MiB  0.11%  1.72MiB
+         Scalar a           1    11.8s  1.39%   11.8s    467MiB  0.95%   467MiB
+           adj_fd           8    6.49s  0.77%   811ms    281MiB  0.57%  35.2MiB
+           adj_ad           8    212ms  0.03%  26.5ms   8.15MiB  0.02%  1.02MiB
+         Vector a           1    6.13s  0.73%   6.13s    261MiB  0.53%   261MiB
+           adj_fd           4    2.82s  0.33%   705ms    149MiB  0.30%  37.3MiB
+           adj_ad           4    267ms  0.03%  66.7ms   4.06MiB  0.01%  1.02MiB
+         Matrix a           1    5.35s  0.63%   5.35s    236MiB  0.48%   236MiB
+           adj_fd           4    3.24s  0.38%   809ms    146MiB  0.30%  36.6MiB
+           adj_ad           4    198ms  0.02%  49.6ms   3.84MiB  0.01%  0.96MiB
+       Poly                 1    37.0s  4.38%   37.0s   1.56GiB  3.25%  1.56GiB
+         adj_fd            24    18.1s  2.14%   753ms    807MiB  1.64%  33.6MiB
+         adj_ad            24    3.31s  0.39%   138ms    119MiB  0.24%  4.98MiB
+       RQ                   1    24.9s  2.94%   24.9s   1.18GiB  2.46%  1.18GiB
+         α=1.0              1    12.9s  1.52%   12.9s    571MiB  1.16%   571MiB
+           adj_fd           8    6.12s  0.72%   765ms    273MiB  0.55%  34.1MiB
+           adj_ad           8    1.01s  0.12%   126ms   27.4MiB  0.06%  3.43MiB
+         single-input       1    6.27s  0.74%   6.27s    328MiB  0.67%   328MiB
+           adj_fd           4    5.23s  0.62%   1.31s    292MiB  0.59%  73.0MiB
+           adj_ad           4    127ms  0.02%  31.8ms   4.06MiB  0.01%  1.01MiB
+         multi-input        1    5.37s  0.63%   5.37s    251MiB  0.51%   251MiB
+           adj_fd           4    4.83s  0.57%   1.21s    241MiB  0.49%  60.1MiB
+           adj_ad           4   89.2ms  0.01%  22.3ms   2.39MiB  0.00%   613KiB
+         α=100.0            1    191ms  0.02%   191ms   31.4MiB  0.06%  31.4MiB
+           adj_fd           8    186ms  0.02%  23.3ms   31.1MiB  0.06%  3.89MiB
+           adj_ad           8   1.08ms  0.00%   135μs   41.6KiB  0.00%  5.21KiB
+         α=1.5              1    173ms  0.02%   173ms   31.4MiB  0.06%  31.4MiB
+           adj_fd           8    148ms  0.02%  18.5ms   31.1MiB  0.06%  3.89MiB
+           adj_ad           8   1.09ms  0.00%   136μs   41.6KiB  0.00%  5.21KiB
+       PerEQ                1    19.0s  2.25%   19.0s   1.02GiB  2.12%  1.02GiB
+         adj_ad             4    6.00s  0.71%   1.50s    324MiB  0.66%  81.0MiB
+         adj_fd             4    2.54s  0.30%   636ms    128MiB  0.26%  32.0MiB
+       GammaExp             1    14.5s  1.71%   14.5s    661MiB  1.34%   661MiB
+         adj_fd            24    6.54s  0.77%   272ms    358MiB  0.73%  14.9MiB
+         adj_ad            24    1.53s  0.18%  63.6ms   25.0MiB  0.05%  1.04MiB
+       EQ                   1    13.3s  1.58%   13.3s    626MiB  1.27%   626MiB
+         adj_fd             8    5.71s  0.68%   714ms    273MiB  0.56%  34.2MiB
+         adj_ad             8    1.60s  0.19%   201ms   33.3MiB  0.07%  4.17MiB
+       Matern52             1    12.9s  1.53%   12.9s    651MiB  1.32%   651MiB
+         adj_fd             8    5.76s  0.68%   720ms    279MiB  0.57%  34.9MiB
+         adj_ad             8    966ms  0.11%   121ms   62.1MiB  0.13%  7.77MiB
+       Linear               1    12.7s  1.50%   12.7s    633MiB  1.29%   633MiB
+         adj_fd             8    5.21s  0.62%   651ms    262MiB  0.53%  32.7MiB
+         adj_ad             8    881ms  0.10%   110ms   2.30MiB  0.00%   294KiB
+       Scaled               1    12.4s  1.47%   12.4s    536MiB  1.09%   536MiB
+         adj_fd             9    6.93s  0.82%   771ms    321MiB  0.65%  35.7MiB
+         adj_ad             9    773ms  0.09%  85.9ms   27.3MiB  0.06%  3.04MiB
+       Exp                  1    11.5s  1.36%   11.5s    489MiB  0.99%   489MiB
+         adj_fd             8    5.89s  0.70%   736ms    279MiB  0.57%  34.9MiB
+         adj_ad             8    1.09s  0.13%   136ms   11.6MiB  0.02%  1.44MiB
+       Matern32             1    11.1s  1.31%   11.1s    559MiB  1.14%   559MiB
+         adj_fd             8    5.65s  0.67%   706ms    279MiB  0.57%  34.9MiB
+         adj_ad             8    769ms  0.09%  96.2ms   18.9MiB  0.04%  2.36MiB
+       Product              1    10.6s  1.26%   10.6s    472MiB  0.96%   472MiB
+         adj_fd             8    6.06s  0.72%   757ms    306MiB  0.62%  38.3MiB
+         adj_ad             8    158ms  0.02%  19.8ms   5.31MiB  0.01%   680KiB
+       ZeroKernel           1    10.1s  1.20%   10.1s    502MiB  1.02%   502MiB
+         adj_fd             8    4.99s  0.59%   623ms    260MiB  0.53%  32.5MiB
+         adj_ad             8    141μs  0.00%  17.6μs   1.75KiB  0.00%     224B
+       Sum                  1    9.67s  1.14%   9.67s    476MiB  0.97%   476MiB
+         adj_fd             8    5.85s  0.69%   731ms    306MiB  0.62%  38.3MiB
+         adj_ad             8    208ms  0.02%  26.0ms   4.71MiB  0.01%   603KiB
+       ConstKernel          1    8.60s  1.02%   8.60s    428MiB  0.87%   428MiB
+         adj_fd             8    5.34s  0.63%   668ms    260MiB  0.53%  32.5MiB
+         adj_ad             8   87.2ms  0.01%  10.9ms    106KiB  0.00%  13.2KiB
+       OneKernel            1    7.52s  0.89%   7.52s    397MiB  0.81%   397MiB
+         adj_fd             8    5.00s  0.59%   625ms    260MiB  0.53%  32.5MiB
+         adj_ad             8    130μs  0.00%  16.2μs   1.75KiB  0.00%     224B
+       precomputed          1    987ms  0.12%   987ms   24.6MiB  0.05%  24.6MiB
+       WienerVelocity       1    756ms  0.09%   756ms   32.3MiB  0.07%  32.3MiB
+       Wiener               1    743ms  0.09%   743ms   30.0MiB  0.06%  30.0MiB
+       Noise                1    295ms  0.03%   295ms   18.0MiB  0.04%  18.0MiB
+     (is)zero               1   5.59ms  0.00%  5.59ms    257KiB  0.00%   257KiB
+   mean                     1    9.55s  1.13%   9.55s    522MiB  1.06%   522MiB
+     CustomMean             1    3.36s  0.40%   3.36s    176MiB  0.36%   176MiB
+       adj_ad               1    1.25s  0.15%   1.25s   69.4MiB  0.14%  69.4MiB
+       adj_fd               1    498ms  0.06%   498ms   22.9MiB  0.05%  22.9MiB
+     ConstMean              1    2.21s  0.26%   2.21s    121MiB  0.25%   121MiB
+       adj_fd               2    1.07s  0.13%   534ms   44.9MiB  0.09%  22.4MiB
+       adj_ad               2   33.8ms  0.00%  16.9ms   34.3KiB  0.00%  17.2KiB
+     ZeroMean               1    2.19s  0.26%   2.19s    117MiB  0.24%   117MiB
+       adj_fd               2    1.14s  0.14%   571ms   44.8MiB  0.09%  22.4MiB
+       adj_ad               2   48.2μs  0.00%  24.1μs      448B  0.00%     224B
+     OneMean                1    1.78s  0.21%   1.78s    107MiB  0.22%   107MiB
+       adj_fd               2    1.00s  0.12%   502ms   44.8MiB  0.09%  22.4MiB
+       adj_ad               2   39.6μs  0.00%  19.8μs      448B  0.00%     224B
+     (is)zero               1   17.3ms  0.00%  17.3ms    295KiB  0.00%   295KiB
+   gp                       1    386ms  0.05%   386ms   8.61MiB  0.02%  8.61MiB
+     GP                     1    189ms  0.02%   189ms   5.73MiB  0.01%  5.73MiB
+     independent GPs        1   67.1ms  0.01%  67.1ms    837KiB  0.00%   837KiB
+     sugar                  1   39.0ms  0.00%  39.0ms   1.19MiB  0.00%  1.19MiB
+     reversed const...      1   32.8ms  0.00%  32.8ms    868KiB  0.00%   868KiB
+ util                       1     212s  25.0%    212s   18.5GiB  38.4%  18.5GiB
+   BlockDiagonal            1    79.9s  9.45%   79.9s   3.23GiB  6.72%  3.23GiB
+     Matrix                 1    31.5s  3.73%   31.5s   1.37GiB  2.86%  1.37GiB
+     Diagonal{T, <:...      1    13.3s  1.57%   13.3s    864MiB  1.76%   864MiB
+       cholesky             1    10.9s  1.29%   10.9s    723MiB  1.47%   723MiB
+         adj_fd             3    5.10s  0.60%   1.70s    400MiB  0.81%   133MiB
+         adj_ad             3    1.30s  0.15%   434ms   78.4MiB  0.16%  26.1MiB
+     TriangularBloc...      1    10.8s  1.28%   10.8s    238MiB  0.48%   238MiB
+     BlockDiagonal ...      1    9.45s  1.12%   9.45s    192MiB  0.39%   192MiB
+     Symmetric              1    4.51s  0.53%   4.51s    214MiB  0.43%   214MiB
+     ldiv(BlockDiag...      1    2.90s  0.34%   2.90s   92.1MiB  0.19%  92.1MiB
+     transpose              1    1.42s  0.17%   1.42s   75.7MiB  0.15%  75.7MiB
+     ldiv(BlockDiag...      1    1.00s  0.12%   1.00s   41.0MiB  0.08%  41.0MiB
+     adjoint(Triang...      1    983ms  0.12%   983ms   28.1MiB  0.06%  28.1MiB
+     adjoint                1    941ms  0.11%   941ms   35.3MiB  0.07%  35.3MiB
+     BlockDiagonal ...      1    853ms  0.10%   853ms   31.6MiB  0.06%  31.6MiB
+     BlockDiagonal ...      1    721ms  0.09%   721ms   33.3MiB  0.07%  33.3MiB
+     Negation               1    678ms  0.08%   678ms   19.0MiB  0.04%  19.0MiB
+     UpperTriangular        1    456ms  0.05%   456ms   11.3MiB  0.02%  11.3MiB
+     tr_At_A                1    428ms  0.05%   428ms   24.9MiB  0.05%  24.9MiB
+   dense                    1    53.6s  6.34%   53.6s   11.6GiB  24.1%  11.6GiB
+     adj_fd                 2    44.6s  5.27%   22.3s   11.1GiB  23.2%  5.57GiB
+     adj_ad                 2    115ms  0.01%  57.5ms    731KiB  0.00%   365KiB
+   zygote_rules             1    42.4s  5.01%   42.4s   2.08GiB  4.32%  2.08GiB
+     Cholesky (getp...      1    26.0s  3.08%   26.0s   1.19GiB  2.49%  1.19GiB
+       adj_fd               4    4.11s  0.49%   1.03s    220MiB  0.45%  55.1MiB
+       adj_ad               4    983ms  0.12%   246ms   43.3MiB  0.09%  10.8MiB
+     pairwise(::Euc...      1    4.64s  0.55%   4.64s    221MiB  0.45%   221MiB
+       adj_ad               1    1.24s  0.15%   1.24s   70.2MiB  0.14%  70.2MiB
+       adj_fd               1    1.19s  0.14%   1.19s   62.2MiB  0.13%  62.2MiB
+     Diagonal               1    3.90s  0.46%   3.90s    233MiB  0.47%   233MiB
+       adj_fd               2    1.77s  0.21%   885ms    115MiB  0.23%  57.3MiB
+       adj_ad               2    434ms  0.05%   217ms   25.6MiB  0.05%  12.8MiB
+     pairwise(::Euc...      1    2.98s  0.35%   2.98s    158MiB  0.32%   158MiB
+       adj_ad               1    1.26s  0.15%   1.26s   91.7MiB  0.19%  91.7MiB
+       adj_fd               1    1.22s  0.14%   1.22s   44.4MiB  0.09%  44.4MiB
+     colwise(::Eucl...      1    2.92s  0.35%   2.92s    180MiB  0.37%   180MiB
+       adj_fd               1    956ms  0.11%   956ms   59.3MiB  0.12%  59.3MiB
+       adj_ad               1    565ms  0.07%   565ms   41.8MiB  0.08%  41.8MiB
+     broadcast              1    1.88s  0.22%   1.88s    111MiB  0.23%   111MiB
+       -                    1    945ms  0.11%   945ms   50.6MiB  0.10%  50.6MiB
+         adj_fd             1    755ms  0.09%   755ms   38.9MiB  0.08%  38.9MiB
+         adj_ad             1   42.8ms  0.01%  42.8ms   2.11MiB  0.00%  2.11MiB
+       exp                  1    935ms  0.11%   935ms   60.7MiB  0.12%  60.7MiB
+         adj_fd             1    640ms  0.08%   640ms   38.9MiB  0.08%  38.9MiB
+         adj_ad             1    137ms  0.02%   137ms   11.7MiB  0.02%  11.7MiB
+   adj_fd                  16    11.1s  1.31%   692ms    527MiB  1.07%  33.0MiB
+   abstract_data_set        1    5.29s  0.63%   5.29s    212MiB  0.43%   212MiB
+     BlockData              1    3.58s  0.42%   3.58s    140MiB  0.29%   140MiB
+     ColVecs                1    1.70s  0.20%   1.70s   71.8MiB  0.15%  71.8MiB
+   cholesky                 1    4.54s  0.54%   4.54s    233MiB  0.47%   233MiB
+     tr_At_A                1    1.13s  0.13%   1.13s   68.8MiB  0.14%  68.8MiB
+       adj_fd               1    682ms  0.08%   682ms   38.6MiB  0.08%  38.6MiB
+       adj_ad               1    147ms  0.02%   147ms   13.4MiB  0.03%  13.4MiB
+   adj_ad                  16    799ms  0.09%  49.9ms   39.7MiB  0.08%  2.48MiB
+ abstract_gp                1    50.7s  5.99%   50.7s   1.67GiB  3.47%  1.67GiB
+   adj_fd                  11    17.7s  2.09%   1.61s    689MiB  1.40%  62.7MiB
+   adj_ad                  11    13.6s  1.61%   1.24s    395MiB  0.80%  35.9MiB
+ ──────────────────────────────────────────────────────────────────────────────   Testing Stheno tests passed 

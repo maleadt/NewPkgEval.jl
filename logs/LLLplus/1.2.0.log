@@ -1,0 +1,91 @@
+ Resolving package versions...
+ Installed Parsers ──────── v0.3.10
+ Installed BenchmarkTools ─ v0.4.3
+ Installed LLLplus ──────── v1.2.3
+ Installed JSON ─────────── v0.21.0
+  Updating `~/.julia/environments/v1.2/Project.toml`
+  [142c1900] + LLLplus v1.2.3
+  Updating `~/.julia/environments/v1.2/Manifest.toml`
+  [6e4b80f9] + BenchmarkTools v0.4.3
+  [682c06a0] + JSON v0.21.0
+  [142c1900] + LLLplus v1.2.3
+  [69de0a69] + Parsers v0.3.10
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [de0858da] + Printf 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [4ec0a83e] + Unicode 
+   Testing LLLplus
+    Status `/tmp/jl_tP75AC/Manifest.toml`
+  [6e4b80f9] BenchmarkTools v0.4.3
+  [682c06a0] JSON v0.21.0
+  [142c1900] LLLplus v1.2.3
+  [69de0a69] Parsers v0.3.10
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+tests with small matrices...
+...done
+
+In all the following tests, the first time includes the JIT compilation; 
+for the second execution the compilation is already done and the time
+should be faster.
+
+Testing LLL on 1000x1000 real matrix...
+  6.481817 seconds (4.74 M allocations: 1.426 GiB, 7.85% gc time)
+  4.346940 seconds (565.38 k allocations: 1.235 GiB, 6.87% gc time)
+
+Testing LLL on 10x10 complex matrix...
+ 10.697395 seconds (11.24 M allocations: 518.163 MiB, 4.43% gc time)
+  0.069243 seconds (1.69 k allocations: 167.297 KiB)
+Testing Seysen on same 10x10 complex matrix...
+  2.761639 seconds (3.12 M allocations: 153.369 MiB, 4.35% gc time)
+  0.056434 seconds (503 allocations: 179.750 KiB)
+Testing VBLAST on same 10x10 complex matrix...
+  1.786504 seconds (1.00 M allocations: 49.290 MiB, 2.72% gc time)
+  0.162479 seconds (259 allocations: 123.016 KiB)
+Testing Brun on real part of same 10x10 matrix...
+  1.647753 seconds (1.94 M allocations: 96.059 MiB, 4.13% gc time)
+  0.000146 seconds (35 allocations: 12.547 KiB)
+
+Testing sphere decoder on 100000 samples of 3x3 BPSK system...
+  1.982781 seconds (6.05 M allocations: 382.601 MiB, 9.68% gc time)
+  0.609283 seconds (3.80 M allocations: 272.371 MiB, 15.66% gc time)
+Error Rate is 0.0. It should be zero or very small.
+
+Testing now with 200x200 matrix from latticechallenge.org.
+The min norm of the input should be 30, min norm of the reduced bases should be smaller.
+min norm of input is 30.0
+  1.152771 seconds (857.22 k allocations: 361.236 MiB, 7.74% gc time)
+min norm of lll-reduced basis is 29.30870177950569
+  5.016532 seconds (2.62 M allocations: 1.141 GiB, 5.86% gc time)
+min norm of seysen-reduced basis is 30.0
+   Testing LLLplus tests passed 

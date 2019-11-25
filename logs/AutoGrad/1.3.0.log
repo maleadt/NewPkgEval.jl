@@ -1,0 +1,96 @@
+ Installed URIParser ──────── v0.4.0
+ Installed TimerOutputs ───── v0.5.3
+ Installed Compat ─────────── v2.2.0
+ Installed BinDeps ────────── v0.8.10
+ Installed AutoGrad ───────── v1.2.0
+ Installed SpecialFunctions ─ v0.8.0
+ Installed BinaryProvider ─── v0.5.8
+  Updating `~/.julia/environments/v1.3/Project.toml`
+  [6710c13c] + AutoGrad v1.2.0
+  Updating `~/.julia/environments/v1.3/Manifest.toml`
+  [6710c13c] + AutoGrad v1.2.0
+  [9e28174c] + BinDeps v0.8.10
+  [b99e7846] + BinaryProvider v0.5.8
+  [34da2185] + Compat v2.2.0
+  [276daf66] + SpecialFunctions v0.8.0
+  [a759f4b9] + TimerOutputs v0.5.3
+  [30578b45] + URIParser v0.4.0
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [76f85450] + LibGit2 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [44cfe95a] + Pkg 
+  [de0858da] + Printf 
+  [3fa0cd96] + REPL 
+  [9a3f8284] + Random 
+  [ea8e919c] + SHA 
+  [9e88b42a] + Serialization 
+  [1a1011a3] + SharedArrays 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [cf7118a7] + UUIDs 
+  [4ec0a83e] + Unicode 
+  Building SpecialFunctions → `~/.julia/packages/SpecialFunctions/ne2iw/deps/build.log`
+   Testing AutoGrad
+ Resolving package versions...
+    Status `/tmp/jl_QRHmdu/Manifest.toml`
+  [6710c13c] AutoGrad v1.2.0
+  [9e28174c] BinDeps v0.8.10
+  [b99e7846] BinaryProvider v0.5.8
+  [34da2185] Compat v2.2.0
+  [276daf66] SpecialFunctions v0.8.0
+  [a759f4b9] TimerOutputs v0.5.3
+  [30578b45] URIParser v0.4.0
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib/DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [a63ad114] Mmap  [`@stdlib/Mmap`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [1a1011a3] SharedArrays  [`@stdlib/SharedArrays`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+135.236609 seconds (123.14 M allocations: 6.548 GiB, 3.39% gc time)
+ 29.922314 seconds (22.61 M allocations: 1.776 GiB, 2.73% gc time)
+┌ Warning: Output independent of params
+└ @ AutoGrad ~/.julia/packages/AutoGrad/pTNVv/test/gradcheck.jl:159
+(pa, xi, f0, nd, ad) = ("2-element Array{Float64,1}", 0.13430023756127, Inf, NaN, 0)
+ 28.196619 seconds (24.23 M allocations: 1.475 GiB, 2.83% gc time)
+126.813411 seconds (102.27 M allocations: 6.972 GiB, 2.43% gc time)
+ 14.351713 seconds (14.76 M allocations: 767.435 MiB, 2.18% gc time)
+ 29.409787 seconds (20.96 M allocations: 2.500 GiB, 3.37% gc time)
+ 43.557014 seconds (34.84 M allocations: 3.280 GiB, 3.62% gc time)
+257.102258 seconds (188.68 M allocations: 20.869 GiB, 4.47% gc time)
+ 28.340796 seconds (17.95 M allocations: 2.048 GiB, 4.25% gc time)
+  3.922075 seconds (2.69 M allocations: 108.152 MiB, 7.37% gc time)
+ 20.063740 seconds (12.77 M allocations: 1.402 GiB, 4.94% gc time)
+  1.063043 seconds (872.89 k allocations: 46.921 MiB)
+ 91.021526 seconds (60.88 M allocations: 7.248 GiB, 5.96% gc time)
+ 58.814518 seconds (38.02 M allocations: 5.136 GiB, 5.07% gc time)
+Test Summary: | Pass  Broken  Total
+AutoGrad      |  564      15    579
+   Testing AutoGrad tests passed 

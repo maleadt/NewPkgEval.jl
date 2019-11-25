@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Julia Package Listing - Testing Information</title>
+
+    <style>/* -- Mix of julialang.org, Bootstrap 3, and custom -- */
+body {
+  background-color: white;
+  font-family: Georgia, 'Liberation Serif', serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.42857143;
+}
+.site {
+  max-width: 785px;
+  margin: 2.5em auto 2em;
+  padding: 0 1.5em;
+}
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.titlebox {
+  text-align: center;
+  font-size: 120%;
+  margin-top: 3em;
+}
+.ok     { background-color: #11AA11; } /*Tests passing*/
+.fail   { background-color: #DD3333; } /*Tests failed*/
+.skip   { background-color: #3333DD; } /*Tests skipped*/
+.kill   { background-color: #222222; } /*Tests interrupted*/
+.statusbox {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.pkglisting h2 { margin-bottom: 0px; }
+pre {margin: 0;}
+@media (min-width: 785px) {
+  .pkglisting {
+    display: table;
+    width: 100%;
+  }
+  .pkgnamedesc {
+    display: table-cell;
+    width: 50%;
+  }
+  .pkgvertest {
+    display: table-cell;
+    width:50%;
+    text-align: right
+  }
+}
+/* collapsible sections */
+.collapsible {
+  font-family: Georgia, 'Liberation Serif', serif;
+  font-size: 14px;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.content {
+  display: none;
+  overflow: hidden;
+}
+</style>
+  </head>
+
+  <body>
+  <div class="site">
+    <!-- HEADER -->
+    <div class="titlebox">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="210px" height="142px" viewBox="0 0 310 216" enable-background="new 0 0 310 216" xml:space="preserve">
+
+<!-- blue dot -->
+<circle fill="#6b85dd" stroke="#4266d5" stroke-width="3" cx="50.5" cy="58.665" r="16.5"></circle>
+<!-- red dot -->
+<circle fill="#d66661" stroke="#c93d39" stroke-width="3" cx="212.459" cy="60.249" r="16.5"></circle>
+<!-- green dot -->
+<circle fill="#6bab5b" stroke="#3b972e" stroke-width="3" cx="233.834" cy="23.874" r="16.5"></circle>
+<!-- purple dot -->
+<circle fill="#aa7dc0" stroke="#945bb0" stroke-width="3" cx="255.459" cy="59.999" r="16.5"></circle>
+
+<!-- "j" -->
+<path fill="#252525" d="M37.216,138.427c0-15.839,0.006-31.679-0.018-47.517c-0.001-0.827,0.169-1.234,1.043-1.47
+    c7.876-2.127,15.739-4.308,23.606-6.47c1.33-0.366,1.333-0.36,1.333,1.019c0,25.758,0.015,51.517-0.012,77.274
+    c-0.006,5.514,0.245,11.032-0.272,16.543c-0.628,6.69-2.15,13.092-6.438,18.506c-3.781,4.771-8.898,7.25-14.767,8.338
+    c-6.599,1.222-13.251,1.552-19.934,0.938c-4.616-0.423-9.045-1.486-12.844-4.363c-2.863-2.168-4.454-4.935-3.745-8.603
+    c0.736-3.806,3.348-5.978,6.861-7.127c2.262-0.74,4.628-0.872,6.994-0.53c1.823,0.264,3.42,1.023,4.779,2.288
+    c1.38,1.284,2.641,2.674,3.778,4.177c0.872,1.15,1.793,2.256,2.991,3.086c2.055,1.426,4,0.965,5.213-1.216
+    c0.819-1.473,0.997-3.106,1.173-4.731c0.255-2.348,0.255-4.707,0.256-7.062C37.218,167.145,37.216,152.786,37.216,138.427z"></path>
+
+<!-- "u" -->
+<path fill="#252525" d="M125.536,162.479c-2.908,2.385-5.783,4.312-8.88,5.904c-10.348,5.323-20.514,4.521-30.324-1.253
+    c-6.71-3.95-11.012-9.849-12.52-17.606c-0.236-1.213-0.363-2.438-0.363-3.688c0.01-19.797,0.017-39.593-0.02-59.39
+    c-0.002-1.102,0.285-1.357,1.363-1.351c7.798,0.049,15.597,0.044,23.396,0.003c0.95-0.005,1.177,0.25,1.175,1.183
+    c-0.027,19.356-0.025,38.713-0.018,58.07c0.002,6.34,3.599,10.934,9.672,12.42c2.13,0.521,4.19,0.396,6.173-0.6
+    c4.26-2.139,7.457-5.427,10.116-9.307c0.333-0.487,0.224-1,0.224-1.51c0.007-19.635,0.016-39.271-0.02-58.904
+    c-0.002-1.083,0.255-1.369,1.353-1.361c7.838,0.052,15.677,0.045,23.515,0.004c0.916-0.005,1.103,0.244,1.102,1.124
+    c-0.025,27.677-0.026,55.353,0.002,83.024c0.001,0.938-0.278,1.099-1.139,1.095c-7.918-0.028-15.837-0.028-23.756-0.001
+    c-0.815,0.003-1.1-0.166-1.073-1.037C125.581,167.117,125.536,164.928,125.536,162.479z"></path>
+
+<!-- "l" -->
+<path fill="#252525" d="M187.423,107.08c0,20.637-0.011,41.273,0.026,61.91c0.003,1.119-0.309,1.361-1.381,1.355
+    c-7.799-0.052-15.598-0.047-23.396-0.008c-0.898,0.008-1.117-0.222-1.115-1.115c0.021-39.074,0.021-78.147,0-117.226
+    c0-0.811,0.189-1.169,1.006-1.392c7.871-2.149,15.73-4.327,23.584-6.545c1.045-0.295,1.308-0.17,1.306,0.985
+    C187.412,65.727,187.423,86.403,187.423,107.08z"></path>
+
+<!-- "i" -->
+<path fill="#252525" d="M223.46,126.477c0,14.155-0.011,28.312,0.021,42.467c0.002,1.027-0.164,1.418-1.332,1.408
+    c-7.838-0.061-15.676-0.047-23.516-0.01c-0.881,0.004-1.121-0.189-1.119-1.104c0.026-26.153,0.025-52.307,0-78.458
+    c0-0.776,0.203-1.101,0.941-1.302c7.984-2.172,15.972-4.35,23.938-6.596c1.049-0.296,1.08,0.031,1.078,0.886
+    C223.454,98.004,223.46,112.239,223.46,126.477z"></path>
+
+<!-- "a" -->
+<path fill="#252525" d="M277.695,163.6c-0.786,0.646-1.404,1.125-2,1.635c-4.375,3.746-9.42,5.898-15.16,6.42
+    c-5.792,0.527-11.479,0.244-16.934-2.047c-12.08-5.071-15.554-17.188-11.938-27.448c1.799-5.111,5.472-8.868,9.831-11.94
+    c5.681-4.003,12.009-6.732,18.504-9.074c5.576-2.014,11.186-3.939,16.955-5.347c0.445-0.104,0.773-0.243,0.757-0.854
+    c-0.136-4.389,0.261-8.79-0.479-13.165c-1.225-7.209-6.617-10.013-12.895-9.348c-0.516,0.055-1.029,0.129-1.536,0.241
+    c-4.877,1.081-7.312,4.413-7.374,10.127c-0.02,1.729-0.229,3.418-0.693,5.084c-0.906,3.229-2.969,5.354-6.168,6.266
+    c-3.422,0.979-6.893,0.998-10.23-0.305c-6.529-2.543-8.877-10.164-5.12-16.512c2.249-3.799,5.606-6.4,9.461-8.405
+    c6.238-3.246,12.914-4.974,19.896-5.537c7.565-0.61,15.096-0.366,22.49,1.507c4.285,1.085,8.312,2.776,11.744,5.657
+    c4.473,3.749,6.776,8.647,6.812,14.374c0.139,21.477,0.096,42.951,0.143,64.428c0.002,0.799-0.248,0.983-1.021,0.98
+    c-8.035-0.025-16.074-0.023-24.113-0.001c-0.716,0.002-0.973-0.146-0.941-0.915C277.736,167.562,277.695,165.698,277.695,163.6z
+     M277.695,126.393c-4.793,2.104-9.25,4.373-13.287,7.408c-2.151,1.618-4.033,3.483-5.732,5.581
+    c-4.229,5.226-1.988,13.343,1.693,16.599c1.592,1.406,3.359,1.906,5.419,1.521c1.621-0.307,3.149-0.857,4.549-1.734
+    c1.521-0.951,2.949-2.072,4.539-2.887c2.31-1.18,2.97-2.861,2.894-5.445C277.561,140.484,277.695,133.527,277.695,126.393z"></path>
+
+</svg>
+
+        <h1>
+          <a name="KernelMethods">KernelMethods</a>
+        </h1>
+
+        <p>
+          <a href="../index.html#KernelMethods">← Back to package list</a>
+        </p>
+
+    </div>
+
+    <p>
+      If you think that there is an error in how your package is being tested or represented, please file an issue at <a href="https://github.com/JuliaComputing/NewPkgEval.jl">NewPkgEval.jl</a>, making sure to read the FAQ first.
+    </p>
+
+
+    <h3>Results with Julia v1.2.0</h3>
+
+    <p>
+      Testing was <strong>unsuccessful</strong>: package has test failures.
+      Last evaluation was  ago and took 1 minute, 31 seconds.
+    </p>
+
+    <p>
+      Click <a href="/home/maleadt/Julia/pkg/NewPkgEval/site/build/logs/KernelMethods/1.2.0.log">here</a> to download the log file.
+      
+    </p>
+
+      <button class="collapsible">Click here to show the log contents.</button>
+      <div class="content">
+      <pre> Resolving package versions...
+ Installed DataAPI ──────────── v1.1.0
+ Installed SortingAlgorithms ── v0.3.1
+ Installed Missings ─────────── v0.4.3
+ Installed KernelMethods ────── v0.1.3
+ Installed Parsers ──────────── v0.3.10
+ Installed DataStructures ───── v0.17.6
+ Installed StatsBase ────────── v0.32.0
+ Installed SimilaritySearch ─── v0.3.16
+ Installed OrderedCollections ─ v1.1.0
+ Installed JSON ─────────────── v0.21.0
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.2&#x2F;Project.toml`
+  [d79e8f30] + KernelMethods v0.1.3
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.2&#x2F;Manifest.toml`
+  [9a962f9c] + DataAPI v1.1.0
+  [864edb3b] + DataStructures v0.17.6
+  [682c06a0] + JSON v0.21.0
+  [d79e8f30] + KernelMethods v0.1.3
+  [e1d29d7a] + Missings v0.4.3
+  [bac558e1] + OrderedCollections v1.1.0
+  [69de0a69] + Parsers v0.3.10
+  [053f045d] + SimilaritySearch v0.3.16
+  [a2af1166] + SortingAlgorithms v0.3.1
+  [2913bbd2] + StatsBase v0.32.0
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [de0858da] + Printf 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [4ec0a83e] + Unicode 
+   Testing KernelMethods
+    Status `&#x2F;tmp&#x2F;jl_2Q3vKJ&#x2F;Manifest.toml`
+  [9a962f9c] DataAPI v1.1.0
+  [864edb3b] DataStructures v0.17.6
+  [682c06a0] JSON v0.21.0
+  [d79e8f30] KernelMethods v0.1.3
+  [e1d29d7a] Missings v0.4.3
+  [bac558e1] OrderedCollections v1.1.0
+  [69de0a69] Parsers v0.3.10
+  [053f045d] SimilaritySearch v0.3.16
+  [a2af1166] SortingAlgorithms v0.3.1
+  [2913bbd2] StatsBase v0.32.0
+  [2a0f44e3] Base64  [`@stdlib&#x2F;Base64`]
+  [ade2ca70] Dates  [`@stdlib&#x2F;Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib&#x2F;DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib&#x2F;Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib&#x2F;InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib&#x2F;Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib&#x2F;LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib&#x2F;Logging`]
+  [d6f4376e] Markdown  [`@stdlib&#x2F;Markdown`]
+  [a63ad114] Mmap  [`@stdlib&#x2F;Mmap`]
+  [de0858da] Printf  [`@stdlib&#x2F;Printf`]
+  [9a3f8284] Random  [`@stdlib&#x2F;Random`]
+  [9e88b42a] Serialization  [`@stdlib&#x2F;Serialization`]
+  [6462fe0b] Sockets  [`@stdlib&#x2F;Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib&#x2F;SparseArrays`]
+  [10745b16] Statistics  [`@stdlib&#x2F;Statistics`]
+  [8dfed614] Test  [`@stdlib&#x2F;Test`]
+  [4ec0a83e] Unicode  [`@stdlib&#x2F;Unicode`]
+Test Summary: | Pass  Total
+Scores        |    9      9
+Test Summary:   | Pass  Total
+CrossValidation |   82     82
+computing fartest point 1, dmax: Inf, imax: 24, stop: #3
+computing fartest point 2, dmax: 1.1443331692229455, imax: 16, stop: #3
+computing fartest point 3, dmax: 1.0670604694022914, imax: 42, stop: #3
+computing fartest point 4, dmax: 0.7836767849763803, imax: 23, stop: #3
+computing fartest point 5, dmax: 0.6223321824640314, imax: 39, stop: #3
+computing fartest point 6, dmax: 0.605281331548519, imax: 19, stop: #3
+computing fartest point 7, dmax: 0.5391621734843107, imax: 33, stop: #3
+computing fartest point 8, dmax: 0.5009543442949512, imax: 36, stop: #3
+computing fartest point 9, dmax: 0.4767183398931198, imax: 45, stop: #3
+computing fartest point 10, dmax: 0.45218744012670875, imax: 15, stop: #3
+computing fartest point 11, dmax: 0.45218744012670836, imax: 37, stop: #3
+computing fartest point 12, dmax: 0.41305913003028244, imax: 7, stop: #3
+computing fartest point 13, dmax: 0.4118948263056346, imax: 5, stop: #3
+computing fartest point 14, dmax: 0.38557134423932304, imax: 25, stop: #3
+computing fartest point 15, dmax: 0.3730802424093853, imax: 26, stop: #3
+computing fartest point 16, dmax: 0.37160686372008145, imax: 21, stop: #3
+computing fartest point 17, dmax: 0.35770802956535763, imax: 17, stop: #3
+computing fartest point 18, dmax: 0.3047559503871529, imax: 6, stop: #3
+computing fartest point 19, dmax: 0.2818334139910908, imax: 34, stop: #3
+computing fartest point 20, dmax: 0.27900513350063555, imax: 49, stop: #3
+computing fartest point 21, dmax: 0.25408413705439814, imax: 30, stop: #3
+==&gt; Iris-setosa: 1.0
+computing fartest point 1, dmax: Inf, imax: 34, stop: #3
+computing fartest point 2, dmax: 2.1436522626684518, imax: 49, stop: #3
+computing fartest point 3, dmax: 1.165245792637795, imax: 13, stop: #3
+computing fartest point 4, dmax: 1.0446577420043421, imax: 1, stop: #3
+computing fartest point 5, dmax: 0.8691389377324468, imax: 10, stop: #3
+computing fartest point 6, dmax: 0.8073422657922658, imax: 36, stop: #3
+computing fartest point 7, dmax: 0.6345722412962298, imax: 6, stop: #3
+computing fartest point 8, dmax: 0.6213726406429249, imax: 19, stop: #3
+computing fartest point 9, dmax: 0.6177876922766915, imax: 11, stop: #3
+computing fartest point 10, dmax: 0.5885567080436336, imax: 25, stop: #3
+computing fartest point 11, dmax: 0.583443229209843, imax: 30, stop: #3
+computing fartest point 12, dmax: 0.4436644098679907, imax: 18, stop: #3
+computing fartest point 13, dmax: 0.4436644098679906, imax: 4, stop: #3
+computing fartest point 14, dmax: 0.4292763936246034, imax: 28, stop: #3
+computing fartest point 15, dmax: 0.41421593402317963, imax: 14, stop: #3
+computing fartest point 16, dmax: 0.3842060870600851, imax: 39, stop: #3
+computing fartest point 17, dmax: 0.3730802424093854, imax: 15, stop: #3
+computing fartest point 18, dmax: 0.37160686372008134, imax: 22, stop: #3
+computing fartest point 19, dmax: 0.342699045680346, imax: 27, stop: #3
+computing fartest point 20, dmax: 0.34269904568034565, imax: 21, stop: #3
+computing fartest point 21, dmax: 0.3426990456803456, imax: 23, stop: #3
+==&gt; Iris-versicolor: 0.9466666666666667
+computing fartest point 1, dmax: Inf, imax: 8, stop: #3
+computing fartest point 2, dmax: 2.6516914325703307, imax: 7, stop: #3
+computing fartest point 3, dmax: 1.414701883619559, imax: 47, stop: #3
+computing fartest point 4, dmax: 1.101462852854119, imax: 1, stop: #3
+computing fartest point 5, dmax: 0.9676188088889621, imax: 32, stop: #3
+computing fartest point 6, dmax: 0.7762282907291796, imax: 10, stop: #3
+computing fartest point 7, dmax: 0.7711426884786464, imax: 40, stop: #3
+computing fartest point 8, dmax: 0.7301908115848423, imax: 19, stop: #3
+computing fartest point 9, dmax: 0.7133446568188243, imax: 22, stop: #3
+computing fartest point 10, dmax: 0.6888434672966074, imax: 35, stop: #3
+computing fartest point 11, dmax: 0.6483909277475476, imax: 9, stop: #3
+computing fartest point 12, dmax: 0.6057628213231373, imax: 49, stop: #3
+computing fartest point 13, dmax: 0.5690409442606839, imax: 36, stop: #3
+computing fartest point 14, dmax: 0.5270966650597858, imax: 38, stop: #3
+computing fartest point 15, dmax: 0.5086873293858954, imax: 28, stop: #3
+computing fartest point 16, dmax: 0.5086873293858954, imax: 30, stop: #3
+computing fartest point 17, dmax: 0.5081682741087964, imax: 44, stop: #3
+computing fartest point 18, dmax: 0.47588204363484876, imax: 20, stop: #3
+computing fartest point 19, dmax: 0.4426772850557223, imax: 33, stop: #3
+computing fartest point 20, dmax: 0.423048160864153, imax: 15, stop: #3
+computing fartest point 21, dmax: 0.41963031030409564, imax: 6, stop: #3
+==&gt; Iris-virginica: 0.96
+===&gt; macro-recall: 0.9688888888888889
+Test Summary:             | Pass  Total
+encode by farthest points |    1      1
+optimize!(nnc, accuracy, folds=5) = Tuple{Float64,Tuple{Int64,Symbol}}[(0.9666666666666666, (7, :uniform)), (0.9666666666666666, (7, :distance)), (0.96, (1, :uniform)), (0.96, (1, :distance)), (0.9533333333333334, (3, :uniform)), (0.9533333333333334, (3, :distance))]
+Test Summary: | Pass  Total
+KNN           |    9      9
+[ Info: optimizing nbc NaiveBayesClassifier{Array{Float64,1},String}
+[ Info: optimizing nbc NaiveBayesClassifier{Array{Float64,1},String}
+[ Info: optimizing nbc NaiveBayesClassifier{Array{Float64,1},String}
+[ Info: optimizing nbc NaiveBayesClassifier{Array{Float64,1},String}
+[ Info: optimizing nbc NaiveBayesClassifier{Array{Float64,1},String}
+optimize!(nbc, X, y, accuracy, runs=5, trainratio=0.7, testratio=0.3) = Tuple{Float64,Tuple{DataType,Real}}[(0.96, (KernelMethods.Supervised.GaussianKernel, -1)), (0.3022222222222222, (KernelMethods.Supervised.MultinomialKernel, 0.0)), (0.3022222222222222, (KernelMethods.Supervised.MultinomialKernel, 0.1)), (0.3022222222222222, (KernelMethods.Supervised.MultinomialKernel, 0.3)), (0.3022222222222222, (KernelMethods.Supervised.MultinomialKernel, 1.0))]
+Test Summary: | Pass  Total
+NB            |    4      4
+optimize!(nnr, isqerror, folds=5) = Tuple{Float64,Tuple{Int64,Function}}[(-15.720120370573474, (3, Statistics.mean)), (-15.852731898153019, (3, KernelMethods.Supervised.gmean)), (-16.176351693066525, (3, KernelMethods.Supervised.hmean)), (-25.23607109748905, (1, KernelMethods.Supervised.gmean)), (-25.23607109748905, (1, Statistics.mean)), (-25.23607109748905, (1, Statistics.median)), (-25.236071097489052, (1, KernelMethods.Supervised.hmean)), (-25.85815104262312, (7, KernelMethods.Supervised.hmean)), (-25.863929973372006, (7, KernelMethods.Supervised.gmean)), (-28.656162220296626, (7, Statistics.mean)), (-31.829411254895234, (3, Statistics.median)), (-48.785019329376965, (7, Statistics.median))]
+Test Summary:  | Pass  Total
+KNN Regression |    2      2
+computing fartest point 1, dmax: Inf, imax: 51, stop: #5
+computing fartest point 2, dmax: 4.688283267892418, imax: 14, stop: #5
+computing fartest point 3, dmax: 2.65329983228432, imax: 61, stop: #5
+computing fartest point 4, dmax: 2.5495097567963927, imax: 119, stop: #5
+computing fartest point 5, dmax: 2.042057785666214, imax: 16, stop: #5
+computing fartest point 6, dmax: 1.8165902124584954, imax: 101, stop: #5
+computing fartest point 7, dmax: 1.5524174696260025, imax: 85, stop: #5
+computing fartest point 8, dmax: 1.3674794331177336, imax: 135, stop: #5
+computing fartest point 9, dmax: 1.349073756323204, imax: 132, stop: #5
+computing fartest point 10, dmax: 1.1618950038622249, imax: 88, stop: #5
+computing fartest point 11, dmax: 1.1532562594670794, imax: 130, stop: #5
+computing fartest point 12, dmax: 1.1489125293076061, imax: 115, stop: #5
+optimize!(nnc, accuracy, folds=5) = Tuple{Float64,Tuple{Int64,Symbol}}[(0.9800000000000001, (7, :uniform)), (0.9800000000000001, (7, :distance)), (0.9733333333333334, (3, :uniform)), (0.9733333333333334, (3, :distance)), (0.9533333333333334, (1, :uniform)), (0.9533333333333334, (1, :distance))]
+Test Summary:             | Pass  Total
+encode by farthest points |    4      4
+computing fartest point 1, dmax: Inf, imax: 51, stop: #5
+computing fartest point 2, dmax: 4.688283267892418, imax: 14, stop: #5
+computing fartest point 3, dmax: 2.65329983228432, imax: 61, stop: #5
+computing fartest point 4, dmax: 2.5495097567963927, imax: 119, stop: #5
+computing fartest point 5, dmax: 2.042057785666214, imax: 16, stop: #5
+computing fartest point 6, dmax: 1.8165902124584954, imax: 101, stop: #5
+computing fartest point 7, dmax: 1.5524174696260025, imax: 85, stop: #5
+computing fartest point 8, dmax: 1.3674794331177336, imax: 135, stop: #5
+computing fartest point 9, dmax: 1.349073756323204, imax: 132, stop: #5
+computing fartest point 10, dmax: 1.1618950038622249, imax: 88, stop: #5
+computing fartest point 11, dmax: 1.1532562594670794, imax: 130, stop: #5
+computing fartest point 12, dmax: 1.1489125293076061, imax: 115, stop: #5
+optimize!(nnc, accuracy, folds=10) = Tuple{Float64,Tuple{Int64,Symbol}}[(0.9666666666666668, (3, :uniform)), (0.9666666666666668, (3, :distance)), (0.9666666666666668, (7, :uniform)), (0.9666666666666668, (7, :distance)), (0.9533333333333334, (1, :uniform)), (0.9533333333333334, (1, :distance))]
+Test Summary:                                     | Pass  Total
+Clustering and centroid computation (with cosine) |    2      2
+[ Info: computing dnet point 1, dmax: 0.9273618459701538
+[ Info: computing dnet point 2, dmax: 0.6782330274581909
+[ Info: computing dnet point 3, dmax: 1.5033296346664429
+[ Info: computing dnet point 4, dmax: 0.36055514216423035
+[ Info: computing dnet point 5, dmax: 1.2000000476837158
+[ Info: computing dnet point 6, dmax: 0.7348469495773315
+[ Info: computing dnet point 7, dmax: 0.6855654716491699
+[ Info: computing dnet point 8, dmax: 0.36055514216423035
+[ Info: computing dnet point 9, dmax: 5.005996227264404
+[ Info: computing dnet point 10, dmax: 1.6278820037841797
+optimize!(nnc, accuracy, folds=5) = Tuple{Float64,Tuple{Int64,Symbol}}[(0.9800000000000001, (3, :uniform)), (0.9800000000000001, (3, :distance)), (0.9666666666666668, (7, :uniform)), (0.9666666666666668, (7, :distance)), (0.9666666666666666, (1, :uniform)), (0.9666666666666666, (1, :distance))]
+computing fartest point 1, dmax: Inf, imax: 53, stop: #3
+computing fartest point 2, dmax: 0.47819020178820437, imax: 23, stop: #3
+computing fartest point 3, dmax: 0.20565175062185237, imax: 42, stop: #3
+computing fartest point 4, dmax: 0.16398344971805812, imax: 101, stop: #3
+computing fartest point 5, dmax: 0.15012347257443073, imax: 25, stop: #3
+computing fartest point 6, dmax: 0.12664193517392802, imax: 119, stop: #3
+computing fartest point 7, dmax: 0.09951235136933405, imax: 37, stop: #3
+computing fartest point 8, dmax: 0.09455051914070889, imax: 146, stop: #3
+computing fartest point 9, dmax: 0.09225838193240897, imax: 99, stop: #3
+computing fartest point 10, dmax: 0.08950170970851333, imax: 85, stop: #3
+computing fartest point 11, dmax: 0.08401095109349957, imax: 44, stop: #3
+computing fartest point 12, dmax: 0.07826321366579027, imax: 135, stop: #3
+computing fartest point 13, dmax: 0.07410959620921956, imax: 69, stop: #3
+computing fartest point 14, dmax: 0.07176131327695408, imax: 26, stop: #3
+computing fartest point 15, dmax: 0.06989819424678659, imax: 47, stop: #3
+computing fartest point 16, dmax: 0.06795675047282354, imax: 63, stop: #3
+computing fartest point 17, dmax: 0.06275762398125266, imax: 117, stop: #3
+computing fartest point 18, dmax: 0.05786174299591619, imax: 89, stop: #3
+computing fartest point 19, dmax: 0.055708591949659554, imax: 131, stop: #3
+computing fartest point 20, dmax: 0.05502892484039721, imax: 114, stop: #3
+computing fartest point 21, dmax: 0.05225381128729124, imax: 19, stop: #3
+Test Summary:    | Pass  Total
+encode with dnet |    5      5
+[ Info: ===== accuracy by fftclustering: 0.9733333333333334
+[ Info: testing configuration KernelMethods.KMap.KConfiguration(true, SimilaritySearch.cosine_distance, SimilaritySearch.cosine_distance, KernelMethods.Kernels.tanh_kernel, (method = KernelMethods.KMap.dnet, kfun = getfield(KernelMethods.KMap, Symbol(&quot;##24#31&quot;))()), :centers, NearNeighborClassifier), data-type Array{Array{Float64,1},1}
+[ Info: computing dnet point 1, dmax: -65.2699966430664
+[ Info: computing dnet point 2, dmax: -40.900001525878906
+[ Info: computing dnet point 3, dmax: Inf
+[ Info: computing kmap, conf: KernelMethods.KMap.KConfiguration(true, SimilaritySearch.cosine_distance, SimilaritySearch.cosine_distance, KernelMethods.Kernels.tanh_kernel, (method = KernelMethods.KMap.dnet, kfun = getfield(KernelMethods.KMap, Symbol(&quot;##24#31&quot;))()), :centers, NearNeighborClassifier)
+encode by farthest points: Error During Test at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;kclass.jl:19
+  Got exception outside of a @test
+  UndefVarError: normalize! not defined
+  Stacktrace:
+   [1] #KernelClassifier#37(::Int64, ::Function, ::Int64, ::Int64, ::KConfigurationSpace, ::typeof(KernelClassifier), ::Array{Array{Float64,1},1}, ::Array{String,1}) at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;src&#x2F;kmap&#x2F;kclass.jl:170
+   [2] (::getfield(KernelMethods.KMap, Symbol(&quot;#kw##KernelClassifier&quot;)))(::NamedTuple{(:folds, :ensemble_size, :size, :score),Tuple{Int64,Int64,Int64,typeof(accuracy)}}, ::typeof(KernelClassifier), ::Array{Array{Float64,1},1}, ::Array{String,1}) at .&#x2F;none:0
+   [3] top-level scope at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;kclass.jl:23
+   [4] top-level scope at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Test&#x2F;src&#x2F;Test.jl:1113
+   [5] top-level scope at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;kclass.jl:20
+   [6] include at .&#x2F;boot.jl:328 [inlined]
+   [7] include_relative(::Module, ::String) at .&#x2F;loading.jl:1094
+   [8] include(::Module, ::String) at .&#x2F;Base.jl:31
+   [9] include(::String) at .&#x2F;client.jl:431
+   [10] top-level scope at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;runtests.jl:82
+   [11] include at .&#x2F;boot.jl:328 [inlined]
+   [12] include_relative(::Module, ::String) at .&#x2F;loading.jl:1094
+   [13] include(::Module, ::String) at .&#x2F;Base.jl:31
+   [14] include(::String) at .&#x2F;client.jl:431
+   [15] top-level scope at none:5
+   [16] eval(::Module, ::Any) at .&#x2F;boot.jl:330
+   [17] exec_options(::Base.JLOptions) at .&#x2F;client.jl:271
+   [18] _start() at .&#x2F;client.jl:464
+  
+Test Summary:             | Error  Total
+encode by farthest points |     1      1
+ERROR: LoadError: LoadError: Some tests did not pass: 0 passed, 0 failed, 1 errored, 0 broken.
+in expression starting at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;kclass.jl:19
+in expression starting at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;runtests.jl:82
+ERROR: Package KernelMethods errored during testing
+Stacktrace:
+ [1] pkgerror(::String, ::Vararg{String,N} where N) at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;Types.jl:112
+ [2] #test#119(::Bool, ::Nothing, ::typeof(Pkg.Operations.test), ::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;Operations.jl:1288
+ [3] #test at .&#x2F;none:0 [inlined]
+ [4] #test#62(::Bool, ::Nothing, ::Base.Iterators.Pairs{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::typeof(Pkg.API.test), ::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:245
+ [5] test at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:233 [inlined]
+ [6] #test#61 at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:230 [inlined]
+ [7] test at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:230 [inlined]
+ [8] #test#60 at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:229 [inlined]
+ [9] test at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:229 [inlined]
+ [10] #test#59(::Base.Iterators.Pairs{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::typeof(Pkg.API.test), ::String) at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:228
+ [11] test(::String) at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.2&#x2F;Pkg&#x2F;src&#x2F;API.jl:228
+ [12] top-level scope at none:10
+</pre>
+      </div>
+
+    <h3>Results with Julia v1.3.0</h3>
+
+    <p>
+      Testing was <strong>unsuccessful</strong>: package has test failures.
+      Last evaluation was  ago and took 1 minute, 29 seconds.
+    </p>
+
+    <p>
+      Click <a href="/home/maleadt/Julia/pkg/NewPkgEval/site/build/logs/KernelMethods/1.3.0.log">here</a> to download the log file.
+      
+    </p>
+
+      <button class="collapsible">Click here to show the log contents.</button>
+      <div class="content">
+      <pre> Resolving package versions...
+ Installed Missings ─────────── v0.4.3
+ Installed SortingAlgorithms ── v0.3.1
+ Installed DataAPI ──────────── v1.1.0
+ Installed KernelMethods ────── v0.1.3
+ Installed OrderedCollections ─ v1.1.0
+ Installed DataStructures ───── v0.17.6
+ Installed StatsBase ────────── v0.32.0
+ Installed SimilaritySearch ─── v0.3.16
+ Installed Parsers ──────────── v0.3.10
+ Installed JSON ─────────────── v0.21.0
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Project.toml`
+  [d79e8f30] + KernelMethods v0.1.3
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Manifest.toml`
+  [9a962f9c] + DataAPI v1.1.0
+  [864edb3b] + DataStructures v0.17.6
+  [682c06a0] + JSON v0.21.0
+  [d79e8f30] + KernelMethods v0.1.3
+  [e1d29d7a] + Missings v0.4.3
+  [bac558e1] + OrderedCollections v1.1.0
+  [69de0a69] + Parsers v0.3.10
+  [053f045d] + SimilaritySearch v0.3.16
+  [a2af1166] + SortingAlgorithms v0.3.1
+  [2913bbd2] + StatsBase v0.32.0
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [de0858da] + Printf 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [4ec0a83e] + Unicode 
+   Testing KernelMethods
+    Status `&#x2F;tmp&#x2F;jl_prWtB9&#x2F;Manifest.toml`
+  [9a962f9c] DataAPI v1.1.0
+  [864edb3b] DataStructures v0.17.6
+  [682c06a0] JSON v0.21.0
+  [d79e8f30] KernelMethods v0.1.3
+  [e1d29d7a] Missings v0.4.3
+  [bac558e1] OrderedCollections v1.1.0
+  [69de0a69] Parsers v0.3.10
+  [053f045d] SimilaritySearch v0.3.16
+  [a2af1166] SortingAlgorithms v0.3.1
+  [2913bbd2] StatsBase v0.32.0
+  [2a0f44e3] Base64  [`@stdlib&#x2F;Base64`]
+  [ade2ca70] Dates  [`@stdlib&#x2F;Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib&#x2F;DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib&#x2F;Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib&#x2F;InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib&#x2F;Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib&#x2F;LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib&#x2F;Logging`]
+  [d6f4376e] Markdown  [`@stdlib&#x2F;Markdown`]
+  [a63ad114] Mmap  [`@stdlib&#x2F;Mmap`]
+  [de0858da] Printf  [`@stdlib&#x2F;Printf`]
+  [9a3f8284] Random  [`@stdlib&#x2F;Random`]
+  [9e88b42a] Serialization  [`@stdlib&#x2F;Serialization`]
+  [6462fe0b] Sockets  [`@stdlib&#x2F;Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib&#x2F;SparseArrays`]
+  [10745b16] Statistics  [`@stdlib&#x2F;Statistics`]
+  [8dfed614] Test  [`@stdlib&#x2F;Test`]
+  [4ec0a83e] Unicode  [`@stdlib&#x2F;Unicode`]
+Test Summary: | Pass  Total
+Scores        |    9      9
+Test Summary:   | Pass  Total
+CrossValidation |   82     82
+computing fartest point 1, dmax: Inf, imax: 29, stop: #3
+computing fartest point 2, dmax: 1.1699888030427315, imax: 42, stop: #3
+computing fartest point 3, dmax: 1.0312747450026643, imax: 16, stop: #3
+computing fartest point 4, dmax: 0.802741978438578, imax: 43, stop: #3
+computing fartest point 5, dmax: 0.5839671201241073, imax: 19, stop: #3
+computing fartest point 6, dmax: 0.5690409442606839, imax: 45, stop: #3
+computing fartest point 7, dmax: 0.4767183398931198, imax: 33, stop: #3
+computing fartest point 8, dmax: 0.45218744012670875, imax: 15, stop: #3
+computing fartest point 9, dmax: 0.4512427328645861, imax: 23, stop: #3
+computing fartest point 10, dmax: 0.4512427328645861, imax: 25, stop: #3
+computing fartest point 11, dmax: 0.44168507138418994, imax: 2, stop: #3
+computing fartest point 12, dmax: 0.38557134423932293, imax: 44, stop: #3
+computing fartest point 13, dmax: 0.35770802956535763, imax: 17, stop: #3
+computing fartest point 14, dmax: 0.32398961510448654, imax: 20, stop: #3
+computing fartest point 15, dmax: 0.32194591207691337, imax: 21, stop: #3
+computing fartest point 16, dmax: 0.3047559503871529, imax: 6, stop: #3
+computing fartest point 17, dmax: 0.30475595038715286, imax: 37, stop: #3
+computing fartest point 18, dmax: 0.3023994796109174, imax: 9, stop: #3
+computing fartest point 19, dmax: 0.2999999999999998, imax: 12, stop: #3
+computing fartest point 20, dmax: 0.2818334139910908, imax: 34, stop: #3
+computing fartest point 21, dmax: 0.25408413705439825, imax: 14, stop: #3
+==&gt; Iris-setosa: 0.9933333333333333
+computing fartest point 1, dmax: Inf, imax: 49, stop: #3
+computing fartest point 2, dmax: 2.2948685326661775, imax: 3, stop: #3
+computing fartest point 3, dmax: 1.5058315982344728, imax: 35, stop: #3
+computing fartest point 4, dmax: 0.9869864667476537, imax: 19, stop: #3
+computing fartest point 5, dmax: 0.8240267707315337, imax: 31, stop: #3
+computing fartest point 6, dmax: 0.7067204927863282, imax: 48, stop: #3
+computing fartest point 7, dmax: 0.6888434672966074, imax: 34, stop: #3
+computing fartest point 8, dmax: 0.5839671201241073, imax: 11, stop: #3
+computing fartest point 9, dmax: 0.5391621734843108, imax: 36, stop: #3
+computing fartest point 10, dmax: 0.5149592941338113, imax: 13, stop: #3
+computing fartest point 11, dmax: 0.5149592941338113, imax: 15, stop: #3
+computing fartest point 12, dmax: 0.5079672903642404, imax: 16, stop: #3
+computing fartest point 13, dmax: 0.4603562003197028, imax: 50, stop: #3
+computing fartest point 14, dmax: 0.41963031030409575, imax: 10, stop: #3
+computing fartest point 15, dmax: 0.40370889479122224, imax: 24, stop: #3
+computing fartest point 16, dmax: 0.34269904568034637, imax: 41, stop: #3
+computing fartest point 17, dmax: 0.3426990456803459, imax: 5, stop: #3
+computing fartest point 18, dmax: 0.34269904568034587, imax: 30, stop: #3
+computing fartest point 19, dmax: 0.34269904568034565, imax: 21, stop: #3
+computing fartest point 20, dmax: 0.3426990456803456, imax: 23, stop: #3
+computing fartest point 21, dmax: 0.32600409030010524, imax: 8, stop: #3
+==&gt; Iris-versicolor: 0.9533333333333334
+computing fartest point 1, dmax: Inf, imax: 50, stop: #3
+computing fartest point 2, dmax: 2.2279547145129777, imax: 19, stop: #3
+computing fartest point 3, dmax: 1.2243859686204253, imax: 32, stop: #3
+computing fartest point 4, dmax: 1.0806704882702343, imax: 21, stop: #3
+computing fartest point 5, dmax: 1.0795448117126536, imax: 7, stop: #3
+computing fartest point 6, dmax: 0.8209138118267935, imax: 36, stop: #3
+computing fartest point 7, dmax: 0.8098913824997654, imax: 20, stop: #3
+computing fartest point 8, dmax: 0.7661407033290015, imax: 9, stop: #3
+computing fartest point 9, dmax: 0.6227839056462656, imax: 1, stop: #3
+computing fartest point 10, dmax: 0.6213726406429249, imax: 30, stop: #3
+computing fartest point 11, dmax: 0.6174558902645706, imax: 35, stop: #3
+computing fartest point 12, dmax: 0.6095119007743057, imax: 11, stop: #3
+computing fartest point 13, dmax: 0.6052813315485184, imax: 15, stop: #3
+computing fartest point 14, dmax: 0.5272812763331919, imax: 10, stop: #3
+computing fartest point 15, dmax: 0.5086873293858954, imax: 8, stop: #3
+computing fartest point 16, dmax: 0.5086873293858954, imax: 12, stop: #3
+computing fartest point 17, dmax: 0.4436644098679903, imax: 14, stop: #3
+computing fartest point 18, dmax: 0.4426772850557223, imax: 42, stop: #3
+computing fartest point 19, dmax: 0.4292763936246036, imax: 49, stop: #3
+computing fartest point 20, dmax: 0.41963031030409564, imax: 6, stop: #3
+computing fartest point 21, dmax: 0.4142159340231801, imax: 34, stop: #3
+==&gt; Iris-virginica: 0.9533333333333334
+===&gt; macro-recall: 0.9666666666666668
+Test Summary:             | Pass  Total
+encode by farthest points |    1      1
+optimize!(nnc, accuracy, folds=5) = Tuple{Float64,Tuple{Int64,Symbol}}[(0.9666666666666668, (3, :uniform)), (0.9666666666666668, (3, :distance)), (0.9666666666666668, (7, :uniform)), (0.9666666666666668, (7, :distance)), (0.9533333333333334, (1, :uniform)), (0.9533333333333334, (1, :distance))]
+Test Summary: | Pass  Total
+KNN           |    9      9
+[ Info: optimizing nbc NaiveBayesClassifier{Array{Float64,1},String}
+[ Info: optimizing nbc NaiveBayesClassifier{Array{Float64,1},String}
+[ Info: optimizing nbc NaiveBayesClassifier{Array{Float64,1},String}
+[ Info: optimizing nbc NaiveBayesClassifier{Array{Float64,1},String}
+[ Info: optimizing nbc NaiveBayesClassifier{Array{Float64,1},String}
+optimize!(nbc, X, y, accuracy, runs=5, trainratio=0.7, testratio=0.3) = Tuple{Float64,Tuple{DataType,Real}}[(0.9377777777777778, (KernelMethods.Supervised.GaussianKernel, -1)), (0.3111111111111111, (KernelMethods.Supervised.MultinomialKernel, 0.0)), (0.3111111111111111, (KernelMethods.Supervised.MultinomialKernel, 0.1)), (0.3111111111111111, (KernelMethods.Supervised.MultinomialKernel, 0.3)), (0.3111111111111111, (KernelMethods.Supervised.MultinomialKernel, 1.0))]
+Test Summary: | Pass  Total
+NB            |    4      4
+optimize!(nnr, isqerror, folds=5) = Tuple{Float64,Tuple{Int64,Function}}[(-12.096567830026164, (3, KernelMethods.Supervised.gmean)), (-12.264338736037052, (3, KernelMethods.Supervised.hmean)), (-12.37728779531751, (3, Statistics.mean)), (-22.051563932274796, (1, KernelMethods.Supervised.gmean)), (-22.051563932274796, (1, Statistics.mean)), (-22.051563932274796, (1, Statistics.median)), (-22.051563932274814, (1, KernelMethods.Supervised.hmean)), (-23.707115772914204, (7, KernelMethods.Supervised.gmean)), (-24.067098527007595, (7, KernelMethods.Supervised.hmean)), (-25.997270228811477, (7, Statistics.mean)), (-26.471516478136795, (3, Statistics.median)), (-47.28097974704135, (7, Statistics.median))]
+Test Summary:  | Pass  Total
+KNN Regression |    2      2
+computing fartest point 1, dmax: Inf, imax: 93, stop: #5
+computing fartest point 2, dmax: 3.6523964735499352, imax: 118, stop: #5
+computing fartest point 3, dmax: 3.52703841770968, imax: 23, stop: #5
+computing fartest point 4, dmax: 1.9924858845171276, imax: 149, stop: #5
+computing fartest point 5, dmax: 1.46287388383278, imax: 16, stop: #5
+computing fartest point 6, dmax: 1.4071247279470287, imax: 51, stop: #5
+computing fartest point 7, dmax: 1.341640786499874, imax: 42, stop: #5
+computing fartest point 8, dmax: 1.2409673645990857, imax: 131, stop: #5
+computing fartest point 9, dmax: 1.228820572744451, imax: 99, stop: #5
+computing fartest point 10, dmax: 1.2247448713915887, imax: 135, stop: #5
+computing fartest point 11, dmax: 1.1489125293076052, imax: 107, stop: #5
+computing fartest point 12, dmax: 1.081665382639197, imax: 21, stop: #5
+optimize!(nnc, accuracy, folds=5) = Tuple{Float64,Tuple{Int64,Symbol}}[(0.9733333333333334, (7, :uniform)), (0.9733333333333334, (7, :distance)), (0.9666666666666666, (3, :uniform)), (0.9666666666666666, (3, :distance)), (0.9400000000000001, (1, :uniform)), (0.9400000000000001, (1, :distance))]
+Test Summary:             | Pass  Total
+encode by farthest points |    4      4
+computing fartest point 1, dmax: Inf, imax: 93, stop: #5
+computing fartest point 2, dmax: 3.6523964735499352, imax: 118, stop: #5
+computing fartest point 3, dmax: 3.52703841770968, imax: 23, stop: #5
+computing fartest point 4, dmax: 1.9924858845171276, imax: 149, stop: #5
+computing fartest point 5, dmax: 1.46287388383278, imax: 16, stop: #5
+computing fartest point 6, dmax: 1.4071247279470287, imax: 51, stop: #5
+computing fartest point 7, dmax: 1.341640786499874, imax: 42, stop: #5
+computing fartest point 8, dmax: 1.2409673645990857, imax: 131, stop: #5
+computing fartest point 9, dmax: 1.228820572744451, imax: 99, stop: #5
+computing fartest point 10, dmax: 1.2247448713915887, imax: 135, stop: #5
+computing fartest point 11, dmax: 1.1489125293076052, imax: 107, stop: #5
+computing fartest point 12, dmax: 1.081665382639197, imax: 21, stop: #5
+optimize!(nnc, accuracy, folds=10) = Tuple{Float64,Tuple{Int64,Symbol}}[(0.9733333333333334, (3, :uniform)), (0.9733333333333334, (3, :distance)), (0.9733333333333334, (7, :uniform)), (0.9733333333333334, (7, :distance)), (0.9533333333333335, (1, :uniform)), (0.9533333333333335, (1, :distance))]
+Test Summary:                                     | Pass  Total
+Clustering and centroid computation (with cosine) |    2      2
+[ Info: computing dnet point 1, dmax: 0.5
+[ Info: computing dnet point 2, dmax: 0.7810249924659729
+[ Info: computing dnet point 3, dmax: 0.36055514216423035
+[ Info: computing dnet point 4, dmax: 1.7748239040374756
+[ Info: computing dnet point 5, dmax: 0.5830951929092407
+[ Info: computing dnet point 6, dmax: 0.7416198253631592
+[ Info: computing dnet point 7, dmax: 1.5165750980377197
+[ Info: computing dnet point 8, dmax: 1.0862780809402466
+[ Info: computing dnet point 9, dmax: 1.6155494451522827
+[ Info: computing dnet point 10, dmax: 5.204805374145508
+optimize!(nnc, accuracy, folds=5) = Tuple{Float64,Tuple{Int64,Symbol}}[(0.9666666666666668, (1, :uniform)), (0.9666666666666668, (1, :distance)), (0.9533333333333334, (3, :uniform)), (0.9533333333333334, (3, :distance)), (0.9400000000000001, (7, :uniform)), (0.9400000000000001, (7, :distance))]
+computing fartest point 1, dmax: Inf, imax: 75, stop: #3
+computing fartest point 2, dmax: 0.4540646925907682, imax: 23, stop: #3
+computing fartest point 3, dmax: 0.20565175062185237, imax: 42, stop: #3
+computing fartest point 4, dmax: 0.18769871728752593, imax: 101, stop: #3
+computing fartest point 5, dmax: 0.15012347257443073, imax: 25, stop: #3
+computing fartest point 6, dmax: 0.13060954667003824, imax: 120, stop: #3
+computing fartest point 7, dmax: 0.10022897907780356, imax: 142, stop: #3
+computing fartest point 8, dmax: 0.09951235136933405, imax: 37, stop: #3
+computing fartest point 9, dmax: 0.09315442149984295, imax: 85, stop: #3
+computing fartest point 10, dmax: 0.08401095109349957, imax: 44, stop: #3
+computing fartest point 11, dmax: 0.07176131327695408, imax: 26, stop: #3
+computing fartest point 12, dmax: 0.0702500674181655, imax: 88, stop: #3
+computing fartest point 13, dmax: 0.06989819424678659, imax: 47, stop: #3
+computing fartest point 14, dmax: 0.06885074103825617, imax: 99, stop: #3
+computing fartest point 15, dmax: 0.06615202903683252, imax: 129, stop: #3
+computing fartest point 16, dmax: 0.06310134145835594, imax: 91, stop: #3
+computing fartest point 17, dmax: 0.061570023027851334, imax: 89, stop: #3
+computing fartest point 18, dmax: 0.05854888255309021, imax: 135, stop: #3
+computing fartest point 19, dmax: 0.05430970904813861, imax: 116, stop: #3
+computing fartest point 20, dmax: 0.05295206882936809, imax: 119, stop: #3
+computing fartest point 21, dmax: 0.05225381128729124, imax: 19, stop: #3
+[ Info: ===== accuracy by fftclustering: 0.9533333333333334
+Test Summary:    | Pass  Total
+encode with dnet |    5      5
+[ Info: testing configuration KernelMethods.KMap.KConfiguration(true, SimilaritySearch.cosine_distance, SimilaritySearch.l2_distance, KernelMethods.Kernels.gaussian_kernel, (method = KernelMethods.KMap.dnet, kfun = log2), :centers, NearNeighborClassifier), data-type Array{Array{Float64,1},1}
+[ Info: computing dnet point 1, dmax: -73.68000030517578
+[ Info: computing dnet point 2, dmax: -47.81999969482422
+[ Info: computing dnet point 3, dmax: -78.68000030517578
+[ Info: computing dnet point 4, dmax: -52.290000915527344
+[ Info: computing dnet point 5, dmax: -80.12000274658203
+[ Info: computing dnet point 6, dmax: -40.08000183105469
+[ Info: computing dnet point 7, dmax: -53.66999816894531
+[ Info: computing dnet point 8, dmax: -51.099998474121094
+[ Info: computing dnet point 9, dmax: -63.33000183105469
+[ Info: computing dnet point 10, dmax: -41.970001220703125
+[ Info: computing dnet point 11, dmax: -44.970001220703125
+[ Info: computing dnet point 12, dmax: -42.31999969482422
+[ Info: computing dnet point 13, dmax: -34.9900016784668
+[ Info: computing dnet point 14, dmax: -38.060001373291016
+[ Info: computing dnet point 15, dmax: -37.29999923706055
+[ Info: computing dnet point 16, dmax: -33.93000030517578
+[ Info: computing dnet point 17, dmax: Inf
+[ Info: computing kmap, conf: KernelMethods.KMap.KConfiguration(true, SimilaritySearch.cosine_distance, SimilaritySearch.l2_distance, KernelMethods.Kernels.gaussian_kernel, (method = KernelMethods.KMap.dnet, kfun = log2), :centers, NearNeighborClassifier)
+encode by farthest points: Error During Test at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;kclass.jl:19
+  Got exception outside of a @test
+  UndefVarError: normalize! not defined
+  Stacktrace:
+   [1] #KernelClassifier#37(::Int64, ::Function, ::Int64, ::Int64, ::KConfigurationSpace, ::typeof(KernelClassifier), ::Array{Array{Float64,1},1}, ::Array{String,1}) at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;src&#x2F;kmap&#x2F;kclass.jl:170
+   [2] (::KernelMethods.KMap.var&quot;#kw##KernelClassifier&quot;)(::NamedTuple{(:folds, :ensemble_size, :size, :score),Tuple{Int64,Int64,Int64,typeof(accuracy)}}, ::typeof(KernelClassifier), ::Array{Array{Float64,1},1}, ::Array{String,1}) at .&#x2F;none:0
+   [3] top-level scope at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;kclass.jl:23
+   [4] top-level scope at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Test&#x2F;src&#x2F;Test.jl:1107
+   [5] top-level scope at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;kclass.jl:20
+   [6] include at .&#x2F;boot.jl:328 [inlined]
+   [7] include_relative(::Module, ::String) at .&#x2F;loading.jl:1105
+   [8] include(::Module, ::String) at .&#x2F;Base.jl:31
+   [9] include(::String) at .&#x2F;client.jl:424
+   [10] top-level scope at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;runtests.jl:82
+   [11] include at .&#x2F;boot.jl:328 [inlined]
+   [12] include_relative(::Module, ::String) at .&#x2F;loading.jl:1105
+   [13] include(::Module, ::String) at .&#x2F;Base.jl:31
+   [14] include(::String) at .&#x2F;client.jl:424
+   [15] top-level scope at none:6
+   [16] eval(::Module, ::Any) at .&#x2F;boot.jl:330
+   [17] exec_options(::Base.JLOptions) at .&#x2F;client.jl:263
+   [18] _start() at .&#x2F;client.jl:460
+  
+Test Summary:             | Error  Total
+encode by farthest points |     1      1
+ERROR: LoadError: LoadError: Some tests did not pass: 0 passed, 0 failed, 1 errored, 0 broken.
+in expression starting at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;kclass.jl:19
+in expression starting at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;runtests.jl:82
+ERROR: Package KernelMethods errored during testing
+Stacktrace:
+ [1] pkgerror(::String, ::Vararg{String,N} where N) at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;Types.jl:113
+ [2] #test#131(::Bool, ::Nothing, ::Cmd, ::Cmd, ::typeof(Pkg.Operations.test), ::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;Operations.jl:1370
+ [3] #test at .&#x2F;none:0 [inlined]
+ [4] #test#62(::Bool, ::Nothing, ::Cmd, ::Cmd, ::Base.Iterators.Pairs{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::typeof(Pkg.API.test), ::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:253
+ [5] test(::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:239
+ [6] #test#61 at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:233 [inlined]
+ [7] test at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:233 [inlined]
+ [8] #test#60 at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:232 [inlined]
+ [9] test at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:232 [inlined]
+ [10] #test#59(::Base.Iterators.Pairs{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::typeof(Pkg.API.test), ::String) at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:231
+ [11] test(::String) at &#x2F;buildworker&#x2F;worker&#x2F;package_linux64&#x2F;build&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:231
+ [12] top-level scope at none:10
+</pre>
+      </div>
+
+    <h3>Results with Julia v1.3.1-pre-7704df0a5a</h3>
+
+    <p>
+      Testing was <strong>unsuccessful</strong>: package has test failures.
+      Last evaluation was  ago and took 1 minute, 33 seconds.
+    </p>
+
+    <p>
+      Click <a href="/home/maleadt/Julia/pkg/NewPkgEval/site/build/logs/KernelMethods/1.3.1-pre-7704df0a5a.log">here</a> to download the log file.
+      
+    </p>
+
+      <button class="collapsible">Click here to show the log contents.</button>
+      <div class="content">
+      <pre> Resolving package versions...
+ Installed DataAPI ──────────── v1.1.0
+ Installed Missings ─────────── v0.4.3
+ Installed KernelMethods ────── v0.1.3
+ Installed OrderedCollections ─ v1.1.0
+ Installed DataStructures ───── v0.17.6
+ Installed StatsBase ────────── v0.32.0
+ Installed JSON ─────────────── v0.21.0
+ Installed SimilaritySearch ─── v0.3.16
+ Installed SortingAlgorithms ── v0.3.1
+ Installed Parsers ──────────── v0.3.10
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Project.toml`
+  [d79e8f30] + KernelMethods v0.1.3
+  Updating `~&#x2F;.julia&#x2F;environments&#x2F;v1.3&#x2F;Manifest.toml`
+  [9a962f9c] + DataAPI v1.1.0
+  [864edb3b] + DataStructures v0.17.6
+  [682c06a0] + JSON v0.21.0
+  [d79e8f30] + KernelMethods v0.1.3
+  [e1d29d7a] + Missings v0.4.3
+  [bac558e1] + OrderedCollections v1.1.0
+  [69de0a69] + Parsers v0.3.10
+  [053f045d] + SimilaritySearch v0.3.16
+  [a2af1166] + SortingAlgorithms v0.3.1
+  [2913bbd2] + StatsBase v0.32.0
+  [2a0f44e3] + Base64 
+  [ade2ca70] + Dates 
+  [8bb1440f] + DelimitedFiles 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [a63ad114] + Mmap 
+  [de0858da] + Printf 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [2f01184e] + SparseArrays 
+  [10745b16] + Statistics 
+  [8dfed614] + Test 
+  [4ec0a83e] + Unicode 
+   Testing KernelMethods
+    Status `&#x2F;tmp&#x2F;jl_gKKLyu&#x2F;Manifest.toml`
+  [9a962f9c] DataAPI v1.1.0
+  [864edb3b] DataStructures v0.17.6
+  [682c06a0] JSON v0.21.0
+  [d79e8f30] KernelMethods v0.1.3
+  [e1d29d7a] Missings v0.4.3
+  [bac558e1] OrderedCollections v1.1.0
+  [69de0a69] Parsers v0.3.10
+  [053f045d] SimilaritySearch v0.3.16
+  [a2af1166] SortingAlgorithms v0.3.1
+  [2913bbd2] StatsBase v0.32.0
+  [2a0f44e3] Base64  [`@stdlib&#x2F;Base64`]
+  [ade2ca70] Dates  [`@stdlib&#x2F;Dates`]
+  [8bb1440f] DelimitedFiles  [`@stdlib&#x2F;DelimitedFiles`]
+  [8ba89e20] Distributed  [`@stdlib&#x2F;Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib&#x2F;InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib&#x2F;Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib&#x2F;LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib&#x2F;Logging`]
+  [d6f4376e] Markdown  [`@stdlib&#x2F;Markdown`]
+  [a63ad114] Mmap  [`@stdlib&#x2F;Mmap`]
+  [de0858da] Printf  [`@stdlib&#x2F;Printf`]
+  [9a3f8284] Random  [`@stdlib&#x2F;Random`]
+  [9e88b42a] Serialization  [`@stdlib&#x2F;Serialization`]
+  [6462fe0b] Sockets  [`@stdlib&#x2F;Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib&#x2F;SparseArrays`]
+  [10745b16] Statistics  [`@stdlib&#x2F;Statistics`]
+  [8dfed614] Test  [`@stdlib&#x2F;Test`]
+  [4ec0a83e] Unicode  [`@stdlib&#x2F;Unicode`]
+Test Summary: | Pass  Total
+Scores        |    9      9
+Test Summary:   | Pass  Total
+CrossValidation |   82     82
+computing fartest point 1, dmax: Inf, imax: 50, stop: #3
+computing fartest point 2, dmax: 1.1709245761112805, imax: 16, stop: #3
+computing fartest point 3, dmax: 1.030020928110644, imax: 42, stop: #3
+computing fartest point 4, dmax: 0.7100263241272947, imax: 14, stop: #3
+computing fartest point 5, dmax: 0.6218259679036284, imax: 45, stop: #3
+computing fartest point 6, dmax: 0.605281331548519, imax: 19, stop: #3
+computing fartest point 7, dmax: 0.5206672869738557, imax: 23, stop: #3
+computing fartest point 8, dmax: 0.4767183398931198, imax: 33, stop: #3
+computing fartest point 9, dmax: 0.45218744012670875, imax: 15, stop: #3
+computing fartest point 10, dmax: 0.45218744012670836, imax: 37, stop: #3
+computing fartest point 11, dmax: 0.4512427328645861, imax: 25, stop: #3
+computing fartest point 12, dmax: 0.4130591300302828, imax: 4, stop: #3
+computing fartest point 13, dmax: 0.40248131919146923, imax: 21, stop: #3
+computing fartest point 14, dmax: 0.39719532280580483, imax: 22, stop: #3
+computing fartest point 15, dmax: 0.371606863720081, imax: 24, stop: #3
+computing fartest point 16, dmax: 0.34090512705786946, imax: 17, stop: #3
+computing fartest point 17, dmax: 0.32194591207691314, imax: 26, stop: #3
+computing fartest point 18, dmax: 0.3047559503871529, imax: 6, stop: #3
+computing fartest point 19, dmax: 0.30475595038715286, imax: 7, stop: #3
+computing fartest point 20, dmax: 0.2818334139910908, imax: 34, stop: #3
+computing fartest point 21, dmax: 0.2504771721474757, imax: 12, stop: #3
+==&gt; Iris-setosa: 0.9933333333333333
+computing fartest point 1, dmax: Inf, imax: 21, stop: #3
+computing fartest point 2, dmax: 1.8815430924144867, imax: 49, stop: #3
+computing fartest point 3, dmax: 1.1797843603688225, imax: 13, stop: #3
+computing fartest point 4, dmax: 1.1118081478855768, imax: 1, stop: #3
+computing fartest point 5, dmax: 0.8691389377324468, imax: 10, stop: #3
+computing fartest point 6, dmax: 0.7435560561011975, imax: 23, stop: #3
+computing fartest point 7, dmax: 0.6483909277475475, imax: 25, stop: #3
+computing fartest point 8, dmax: 0.6177876922766915, imax: 11, stop: #3
+computing fartest point 9, dmax: 0.5885567080436335, imax: 6, stop: #3
+computing fartest point 10, dmax: 0.583443229209843, imax: 30, stop: #3
+computing fartest point 11, dmax: 0.47671833989312007, imax: 38, stop: #3
+computing fartest point 12, dmax: 0.4436644098679907, imax: 18, stop: #3
+computing fartest point 13, dmax: 0.4436644098679906, imax: 4, stop: #3
+computing fartest point 14, dmax: 0.4292763936246034, imax: 28, stop: #3
+computing fartest point 15, dmax: 0.41421593402317963, imax: 14, stop: #3
+computing fartest point 16, dmax: 0.4142159340231796, imax: 7, stop: #3
+computing fartest point 17, dmax: 0.3842060870600851, imax: 39, stop: #3
+computing fartest point 18, dmax: 0.3730802424093854, imax: 15, stop: #3
+computing fartest point 19, dmax: 0.37160686372008134, imax: 22, stop: #3
+computing fartest point 20, dmax: 0.342699045680346, imax: 27, stop: #3
+computing fartest point 21, dmax: 0.3426990456803456, imax: 34, stop: #3
+==&gt; Iris-versicolor: 0.9466666666666667
+computing fartest point 1, dmax: Inf, imax: 10, stop: #3
+computing fartest point 2, dmax: 2.557993455308059, imax: 7, stop: #3
+computing fartest point 3, dmax: 1.424469525794742, imax: 35, stop: #3
+computing fartest point 4, dmax: 1.1498497195076387, imax: 19, stop: #3
+computing fartest point 5, dmax: 1.0542889451673447, imax: 49, stop: #3
+computing fartest point 6, dmax: 0.9719688453134598, imax: 30, stop: #3
+computing fartest point 7, dmax: 0.7965936827869786, imax: 27, stop: #3
+computing fartest point 8, dmax: 0.7762282907291796, imax: 32, stop: #3
+computing fartest point 9, dmax: 0.7248678213469026, imax: 42, stop: #3
+computing fartest point 10, dmax: 0.6884853143712277, imax: 36, stop: #3
+computing fartest point 11, dmax: 0.6591643285827468, imax: 15, stop: #3
+computing fartest point 12, dmax: 0.6267488319404121, imax: 20, stop: #3
+computing fartest point 13, dmax: 0.6213726406429249, imax: 9, stop: #3
+computing fartest point 14, dmax: 0.6057628213231373, imax: 1, stop: #3
+computing fartest point 15, dmax: 0.5335302347011455, imax: 38, stop: #3
+computing fartest point 16, dmax: 0.5272812763331919, imax: 21, stop: #3
+computing fartest point 17, dmax: 0.5086873293858954, imax: 8, stop: #3
+computing fartest point 18, dmax: 0.4436644098679906, imax: 2, stop: #3
+computing fartest point 19, dmax: 0.4426772850557223, imax: 33, stop: #3
+computing fartest point 20, dmax: 0.41963031030409564, imax: 6, stop: #3
+computing fartest point 21, dmax: 0.4142159340231804, imax: 11, stop: #3
+==&gt; Iris-virginica: 0.9666666666666667
+===&gt; macro-recall: 0.9688888888888889
+Test Summary:             | Pass  Total
+encode by farthest points |    1      1
+optimize!(nnc, accuracy, folds=5) = Tuple{Float64,Tuple{Int64,Symbol}}[(0.9666666666666668, (3, :uniform)), (0.9666666666666668, (3, :distance)), (0.9600000000000002, (1, :uniform)), (0.9600000000000002, (1, :distance)), (0.9533333333333335, (7, :uniform)), (0.9533333333333335, (7, :distance))]
+Test Summary: | Pass  Total
+KNN           |    9      9
+[ Info: optimizing nbc NaiveBayesClassifier{Array{Float64,1},String}
+[ Info: optimizing nbc NaiveBayesClassifier{Array{Float64,1},String}
+[ Info: optimizing nbc NaiveBayesClassifier{Array{Float64,1},String}
+[ Info: optimizing nbc NaiveBayesClassifier{Array{Float64,1},String}
+[ Info: optimizing nbc NaiveBayesClassifier{Array{Float64,1},String}
+optimize!(nbc, X, y, accuracy, runs=5, trainratio=0.7, testratio=0.3) = Tuple{Float64,Tuple{DataType,Real}}[(0.9333333333333333, (KernelMethods.Supervised.GaussianKernel, -1)), (0.30666666666666664, (KernelMethods.Supervised.MultinomialKernel, 0.0)), (0.30666666666666664, (KernelMethods.Supervised.MultinomialKernel, 0.1)), (0.30666666666666664, (KernelMethods.Supervised.MultinomialKernel, 0.3)), (0.30666666666666664, (KernelMethods.Supervised.MultinomialKernel, 1.0))]
+Test Summary: | Pass  Total
+NB            |    4      4
+optimize!(nnr, isqerror, folds=5) = Tuple{Float64,Tuple{Int64,Function}}[(-15.054144988695006, (3, Statistics.mean)), (-15.207436482882462, (3, KernelMethods.Supervised.gmean)), (-15.595609254591432, (3, KernelMethods.Supervised.hmean)), (-23.455313166252864, (1, KernelMethods.Supervised.gmean)), (-23.455313166252864, (1, Statistics.mean)), (-23.455313166252864, (1, KernelMethods.Supervised.hmean)), (-23.455313166252864, (1, Statistics.median)), (-24.21583126754886, (7, KernelMethods.Supervised.hmean)), (-24.69939574166863, (7, KernelMethods.Supervised.gmean)), (-27.773209752652747, (7, Statistics.mean)), (-29.409423237485544, (3, Statistics.median)), (-47.27037842363423, (7, Statistics.median))]
+Test Summary:  | Pass  Total
+KNN Regression |    2      2
+computing fartest point 1, dmax: Inf, imax: 50, stop: #5
+computing fartest point 2, dmax: 6.514598989960932, imax: 119, stop: #5
+computing fartest point 3, dmax: 3.5369478367654787, imax: 107, stop: #5
+computing fartest point 4, dmax: 2.24276614920058, imax: 51, stop: #5
+computing fartest point 5, dmax: 1.8165902124584954, imax: 101, stop: #5
+computing fartest point 6, dmax: 1.6278820596099706, imax: 99, stop: #5
+computing fartest point 7, dmax: 1.3820274961085255, imax: 63, stop: #5
+computing fartest point 8, dmax: 1.3784048752090223, imax: 135, stop: #5
+computing fartest point 9, dmax: 1.349073756323204, imax: 132, stop: #5
+computing fartest point 10, dmax: 1.3228756555322958, imax: 16, stop: #5
+computing fartest point 11, dmax: 1.1532562594670794, imax: 130, stop: #5
+computing fartest point 12, dmax: 1.1489125293076061, imax: 115, stop: #5
+optimize!(nnc, accuracy, folds=5) = Tuple{Float64,Tuple{Int64,Symbol}}[(0.9666666666666668, (7, :uniform)), (0.9666666666666668, (7, :distance)), (0.9666666666666666, (1, :uniform)), (0.9666666666666666, (1, :distance)), (0.9666666666666666, (3, :uniform)), (0.9666666666666666, (3, :distance))]
+Test Summary:             | Pass  Total
+encode by farthest points |    4      4
+computing fartest point 1, dmax: Inf, imax: 50, stop: #5
+computing fartest point 2, dmax: 6.514598989960932, imax: 119, stop: #5
+computing fartest point 3, dmax: 3.5369478367654787, imax: 107, stop: #5
+computing fartest point 4, dmax: 2.24276614920058, imax: 51, stop: #5
+computing fartest point 5, dmax: 1.8165902124584954, imax: 101, stop: #5
+computing fartest point 6, dmax: 1.6278820596099706, imax: 99, stop: #5
+computing fartest point 7, dmax: 1.3820274961085255, imax: 63, stop: #5
+computing fartest point 8, dmax: 1.3784048752090223, imax: 135, stop: #5
+computing fartest point 9, dmax: 1.349073756323204, imax: 132, stop: #5
+computing fartest point 10, dmax: 1.3228756555322958, imax: 16, stop: #5
+computing fartest point 11, dmax: 1.1532562594670794, imax: 130, stop: #5
+computing fartest point 12, dmax: 1.1489125293076061, imax: 115, stop: #5
+optimize!(nnc, accuracy, folds=10) = Tuple{Float64,Tuple{Int64,Symbol}}[(0.9733333333333334, (7, :uniform)), (0.9733333333333334, (7, :distance)), (0.9666666666666668, (3, :uniform)), (0.9666666666666668, (3, :distance)), (0.9466666666666669, (1, :uniform)), (0.9466666666666669, (1, :distance))]
+Test Summary:                                     | Pass  Total
+Clustering and centroid computation (with cosine) |    2      2
+[ Info: computing dnet point 1, dmax: 0.30000001192092896
+[ Info: computing dnet point 2, dmax: 0.9746794104576111
+[ Info: computing dnet point 3, dmax: 0.547722578048706
+[ Info: computing dnet point 4, dmax: 0.7745966911315918
+[ Info: computing dnet point 5, dmax: 0.7280110120773315
+[ Info: computing dnet point 6, dmax: 1.5588457584381104
+[ Info: computing dnet point 7, dmax: 0.9591662883758545
+[ Info: computing dnet point 8, dmax: 0.7681145668029785
+[ Info: computing dnet point 9, dmax: 1.126942753791809
+[ Info: computing dnet point 10, dmax: 4.763401985168457
+optimize!(nnc, accuracy, folds=5) = Tuple{Float64,Tuple{Int64,Symbol}}[(0.9666666666666668, (7, :uniform)), (0.9666666666666668, (7, :distance)), (0.96, (3, :uniform)), (0.96, (3, :distance)), (0.9533333333333334, (1, :uniform)), (0.9533333333333334, (1, :distance))]
+computing fartest point 1, dmax: Inf, imax: 37, stop: #3
+computing fartest point 2, dmax: 0.5747424705753852, imax: 119, stop: #3
+computing fartest point 3, dmax: 0.24229041340277183, imax: 99, stop: #3
+computing fartest point 4, dmax: 0.14955587046261531, imax: 85, stop: #3
+computing fartest point 5, dmax: 0.12981650874154763, imax: 88, stop: #3
+computing fartest point 6, dmax: 0.12510616920863468, imax: 25, stop: #3
+computing fartest point 7, dmax: 0.1103739566858218, imax: 42, stop: #3
+computing fartest point 8, dmax: 0.1080064208502117, imax: 115, stop: #3
+computing fartest point 9, dmax: 0.1031887984880886, imax: 33, stop: #3
+computing fartest point 10, dmax: 0.0854566417998834, imax: 142, stop: #3
+computing fartest point 11, dmax: 0.08401095109349957, imax: 44, stop: #3
+computing fartest point 12, dmax: 0.07826321366579027, imax: 135, stop: #3
+computing fartest point 13, dmax: 0.07780810146788868, imax: 68, stop: #3
+computing fartest point 14, dmax: 0.07176131327695408, imax: 26, stop: #3
+computing fartest point 15, dmax: 0.06992835968352944, imax: 103, stop: #3
+computing fartest point 16, dmax: 0.06514376012659787, imax: 62, stop: #3
+computing fartest point 17, dmax: 0.06451195537584258, imax: 17, stop: #3
+computing fartest point 18, dmax: 0.06232586059890059, imax: 91, stop: #3
+computing fartest point 19, dmax: 0.05993921895045639, imax: 48, stop: #3
+computing fartest point 20, dmax: 0.054360501943347767, imax: 107, stop: #3
+computing fartest point 21, dmax: 0.05102652813466592, imax: 23, stop: #3
+[ Info: ===== accuracy by fftclustering: 0.9533333333333334
+Test Summary:    | Pass  Total
+encode with dnet |    5      5
+[ Info: testing configuration KernelMethods.KMap.KConfiguration(true, SimilaritySearch.l2_distance, SimilaritySearch.cosine_distance, KernelMethods.Kernels.gaussian_kernel, (method = KernelMethods.KMap.dnet, kfun = KernelMethods.KMap.var&quot;#24#31&quot;()), :centroids, NearNeighborClassifier), data-type Array{Array{Float64,1},1}
+[ Info: computing dnet point 1, dmax: 2.387467384338379
+[ Info: computing dnet point 2, dmax: 1.4899663925170898
+[ Info: computing dnet point 3, dmax: Inf
+[ Info: computing kmap, conf: KernelMethods.KMap.KConfiguration(true, SimilaritySearch.l2_distance, SimilaritySearch.cosine_distance, KernelMethods.Kernels.gaussian_kernel, (method = KernelMethods.KMap.dnet, kfun = KernelMethods.KMap.var&quot;#24#31&quot;()), :centroids, NearNeighborClassifier)
+encode by farthest points: Error During Test at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;kclass.jl:19
+  Got exception outside of a @test
+  UndefVarError: normalize! not defined
+  Stacktrace:
+   [1] #KernelClassifier#37(::Int64, ::Function, ::Int64, ::Int64, ::KConfigurationSpace, ::typeof(KernelClassifier), ::Array{Array{Float64,1},1}, ::Array{String,1}) at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;src&#x2F;kmap&#x2F;kclass.jl:170
+   [2] (::KernelMethods.KMap.var&quot;#kw##KernelClassifier&quot;)(::NamedTuple{(:folds, :ensemble_size, :size, :score),Tuple{Int64,Int64,Int64,typeof(accuracy)}}, ::typeof(KernelClassifier), ::Array{Array{Float64,1},1}, ::Array{String,1}) at .&#x2F;none:0
+   [3] top-level scope at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;kclass.jl:23
+   [4] top-level scope at &#x2F;workspace&#x2F;srcdir&#x2F;julia&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Test&#x2F;src&#x2F;Test.jl:1107
+   [5] top-level scope at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;kclass.jl:20
+   [6] include at .&#x2F;boot.jl:328 [inlined]
+   [7] include_relative(::Module, ::String) at .&#x2F;loading.jl:1105
+   [8] include(::Module, ::String) at .&#x2F;Base.jl:31
+   [9] include(::String) at .&#x2F;client.jl:424
+   [10] top-level scope at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;runtests.jl:82
+   [11] include at .&#x2F;boot.jl:328 [inlined]
+   [12] include_relative(::Module, ::String) at .&#x2F;loading.jl:1105
+   [13] include(::Module, ::String) at .&#x2F;Base.jl:31
+   [14] include(::String) at .&#x2F;client.jl:424
+   [15] top-level scope at none:6
+   [16] eval(::Module, ::Any) at .&#x2F;boot.jl:330
+   [17] exec_options(::Base.JLOptions) at .&#x2F;client.jl:263
+   [18] _start() at .&#x2F;client.jl:460
+  
+Test Summary:             | Error  Total
+encode by farthest points |     1      1
+ERROR: LoadError: LoadError: Some tests did not pass: 0 passed, 0 failed, 1 errored, 0 broken.
+in expression starting at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;kclass.jl:19
+in expression starting at &#x2F;root&#x2F;.julia&#x2F;packages&#x2F;KernelMethods&#x2F;Eepvn&#x2F;test&#x2F;runtests.jl:82
+ERROR: Package KernelMethods errored during testing
+Stacktrace:
+ [1] pkgerror(::String, ::Vararg{String,N} where N) at &#x2F;workspace&#x2F;srcdir&#x2F;julia&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;Types.jl:113
+ [2] #test#131(::Bool, ::Nothing, ::Cmd, ::Cmd, ::typeof(Pkg.Operations.test), ::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at &#x2F;workspace&#x2F;srcdir&#x2F;julia&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;Operations.jl:1370
+ [3] #test at .&#x2F;none:0 [inlined]
+ [4] #test#62(::Bool, ::Nothing, ::Cmd, ::Cmd, ::Base.Iterators.Pairs{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::typeof(Pkg.API.test), ::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at &#x2F;workspace&#x2F;srcdir&#x2F;julia&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:253
+ [5] test(::Pkg.Types.Context, ::Array{Pkg.Types.PackageSpec,1}) at &#x2F;workspace&#x2F;srcdir&#x2F;julia&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:239
+ [6] #test#61 at &#x2F;workspace&#x2F;srcdir&#x2F;julia&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:233 [inlined]
+ [7] test at &#x2F;workspace&#x2F;srcdir&#x2F;julia&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:233 [inlined]
+ [8] #test#60 at &#x2F;workspace&#x2F;srcdir&#x2F;julia&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:232 [inlined]
+ [9] test at &#x2F;workspace&#x2F;srcdir&#x2F;julia&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:232 [inlined]
+ [10] #test#59(::Base.Iterators.Pairs{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::typeof(Pkg.API.test), ::String) at &#x2F;workspace&#x2F;srcdir&#x2F;julia&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:231
+ [11] test(::String) at &#x2F;workspace&#x2F;srcdir&#x2F;julia&#x2F;usr&#x2F;share&#x2F;julia&#x2F;stdlib&#x2F;v1.3&#x2F;Pkg&#x2F;src&#x2F;API.jl:231
+ [12] top-level scope at none:10
+</pre>
+      </div>
+
+
+  </div>
+  </body>
+
+  <script type="text/javascript">// handle collapsibles
+var coll = document.getElementsByClassName("collapsible");
+for (var i = 0; i < coll.length; i++) {
+    coll[i].textContent = "▸ " + coll[i].textContent
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            this.textContent = "▸" + this.textContent.substr(1)
+            content.style.display = "none";
+        } else {
+            this.textContent = "▾" + this.textContent.substr(1)
+            content.style.display = "block";
+        }
+    });
+}
+</script>
+</html>
+

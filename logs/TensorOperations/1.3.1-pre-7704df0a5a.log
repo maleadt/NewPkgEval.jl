@@ -1,0 +1,105 @@
+ Resolving package versions...
+ Installed Requires ───────── v0.5.2
+ Installed LRUCache ───────── v1.0.3
+ Installed Strided ────────── v0.3.3
+ Installed TupleTools ─────── v1.2.0
+ Installed TensorOperations ─ v2.0.0
+  Updating `~/.julia/environments/v1.3/Project.toml`
+  [6aa20fa7] + TensorOperations v2.0.0
+  Updating `~/.julia/environments/v1.3/Manifest.toml`
+  [8ac3fa9e] + LRUCache v1.0.3
+  [ae029012] + Requires v0.5.2
+  [5e0ebb24] + Strided v0.3.3
+  [6aa20fa7] + TensorOperations v2.0.0
+  [9d95972d] + TupleTools v1.2.0
+  [2a0f44e3] + Base64 
+  [8ba89e20] + Distributed 
+  [b77e0a4c] + InteractiveUtils 
+  [8f399da3] + Libdl 
+  [37e2e46d] + LinearAlgebra 
+  [56ddb016] + Logging 
+  [d6f4376e] + Markdown 
+  [9a3f8284] + Random 
+  [9e88b42a] + Serialization 
+  [6462fe0b] + Sockets 
+  [8dfed614] + Test 
+   Testing TensorOperations
+ Resolving package versions...
+    Status `/tmp/jl_oLczdt/Manifest.toml`
+  [8ac3fa9e] LRUCache v1.0.3
+  [ae029012] Requires v0.5.2
+  [5e0ebb24] Strided v0.3.3
+  [6aa20fa7] TensorOperations v2.0.0
+  [9d95972d] TupleTools v1.2.0
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [8dfed614] Test  [`@stdlib/Test`]
+Test Summary:                          | Pass  Total
+Method syntax with BLAS and with cache |   32     32
+tensorcopy: 1.1131889820098877 seconds
+tensoradd: 1.3422911167144775 seconds
+tensortrace: 2.0414609909057617 seconds
+tensorcontract 1: 8.401798009872437 seconds
+tensorcontract 2: 15.072746992111206 seconds
+tensorcontract 3: 45.29828906059265 seconds
+views: 2.0035669803619385 seconds
+more views: 3.024744987487793 seconds
+even more views: 0.8830881118774414 seconds
+and some more views: 8.867707014083862 seconds
+Float32 views: 0.5302860736846924 seconds
+readme example: 14.832937002182007 seconds
+tensor network examples: 170.99853587150574 seconds
+diagonal examples: 119.24897193908691 seconds
+Test Summary:                           | Pass  Total
+Index Notation with BLAS and with cache |  273    273
+Test Summary:                             | Pass  Total
+Method syntax with BLAS and without cache |   32     32
+tensorcopy: 0.000982046127319336 seconds
+tensoradd: 0.0006210803985595703 seconds
+tensortrace: 0.09644794464111328 seconds
+tensorcontract 1: 0.8421299457550049 seconds
+tensorcontract 2: 0.19672012329101562 seconds
+tensorcontract 3: 16.313282012939453 seconds
+views: 0.1082000732421875 seconds
+more views: 0.08366012573242188 seconds
+even more views: 0.009160041809082031 seconds
+and some more views: 0.5235941410064697 seconds
+Float32 views: 0.6698250770568848 seconds
+readme example: 0.0024662017822265625 seconds
+tensor network examples: 0.7070841789245605 seconds
+diagonal examples: 1.4741840362548828 seconds
+Test Summary:                              | Pass  Total
+Index Notation with BLAS and without cache |  273    273
+Test Summary:                                | Pass  Total
+Method syntax without BLAS and without cache |   32     32
+tensorcopy: 0.001077890396118164 seconds
+tensoradd: 0.0006361007690429688 seconds
+tensortrace: 0.06961202621459961 seconds
+tensorcontract 1: 0.8833270072937012 seconds
+tensorcontract 2: 0.03856611251831055 seconds
+tensorcontract 3: 22.14468288421631 seconds
+views: 0.4978349208831787 seconds
+more views: 0.1468050479888916 seconds
+even more views: 0.008069992065429688 seconds
+and some more views: 1.0656869411468506 seconds
+Float32 views: 0.47785115242004395 seconds
+readme example: 1.1402018070220947 seconds
+tensor network examples: 19.083178997039795 seconds
+diagonal examples: 3.338956832885742 seconds
+Test Summary:                                 | Pass  Total
+Index Notation without BLAS and without cache |  273    273
+Test Summary:             | Pass  Total
+Optimal contraction order |    3      3
+Test Summary: | Pass  Total
+macro methods |   85     85
+Test Summary:         | Pass  Total
+methods for tensoropt |   47     47
+   Testing TensorOperations tests passed 
